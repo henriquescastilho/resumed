@@ -1,0 +1,784 @@
+DIRETRIZES
+Departamentos Científicos de
+Nutrologia e Hematologia
+
+Nº 2 / Junho / 2018
+atualizado em 26.08.21
+
+CONSENSO SOBRE ANEMIA FERROPRIVA:
+
+ATUALIZAÇÃO: DESTAQUES 2021
+Departamento Científico de Nutrologia (2019-2021)
+Presidente:
+Virginia Resende Silva Weffort
+Secretário:
+Hélcio de Sousa Maranhão
+Conselho Científico:	Elza Daniel de Mello, Junaura Rocha Barretto, Mauro Fisberg,
+Mônica de Araújo Moretzsohn, Mônica Lisboa Chang Wayhs, Tulio Konstantyner (relator)
+Departamento Científico de Hematologia (2019-2021)
+Presidente:
+Josefina Aparecida Pellegrini Braga
+Secretária:
+Isa Menezes Lyra
+Conselho Científico:	Liane Esteves Daudt, Lisandro Lima Ribeiro, Paulo Ivo Cortez de Araújo,
+Paulo José Medeiros de Souza Costa, Rosana Cipolotti, Sandra Regina Loggetto (relatora)
+Colaboradores:	Carlos Alberto Nogueira-de-Almeida, Cecilia Fernandes Lorea,
+Fernanda Luisa Ceragioli Oliveira, Joel Alves Lamounier, Pablo Santiago
+
+Índice
+Recomendação – Reconhecimento de fatores de risco ..... 2
+Recomendação – Diagnóstico ................................................. 3
+Recomendação – Tratamento .................................................. 3
+Recomendação – Prevenção .................................................... 3
+Considerações finais ................................................................. 5
+Referências bibliográficas ....................................................... 6
+
+Consenso sobre Anemia ferropriva - Atualização: destaques 2021
+
+Os Departamentos de Nutrologia e de Hematologia da Sociedade Brasileira de Pediatria
+(SBP), o Departamento de Nutrição Infantil da Sociedade de Pediatria de São Paulo e o Centro de
+Excelência em Nutrição e Dificuldades Alimentares (CENDA) Instituto PENSI (Fundação José Luiz
+Egydio Setúbal) uniram-se para atualizar o documento “Consenso sobre anemia ferropriva: mais
+que uma doença, uma urgência médica”, publicado em 2018 pela SBP.1
+As recomendações do presente documento
+são resultado da avaliação cuidadosa dos fatores
+relacionados ao diagnóstico, tratamento e prevenção da deficiência de ferro e anemia ferropriva, desde o período pré-natal (em conjunto com
+o obstetra e na consulta pediátrica pré-natal).
+No Brasil, revisão sistemática publicada em
+2009 encontrou prevalência de 53% de anemia
+ferropriva em crianças de 6 meses a 5 anos de
+idade, considerando como ponto de corte o nível
+de 11 g/dL de hemoglobina circulante.2 Em 2020
+dados do relatório do Estudo Nacional de Alimentação e Nutrição Infantil (ENANI) mostraram
+quedas na prevalência nacional de anemia, com
+nível de 18,9% entre os lactentes.3 Entretanto,
+em 2021, estudo de metanálise, que incluiu 134
+publicações de 2007 a 2020, observou prevalência estimada de anemia de 33% em crianças
+brasileiras, saudáveis e menores de sete anos.4
+Estes dados, ainda muito acima dos apresentados em outros países, inclusive da América Latina, mostram a importância de elaborar medidas
+para a prevenção e tratamento adequado da deficiência de ferro em nosso país.
+Desde o período pré-natal a deficiência de
+ferro tem repercussões importantes e deletérias
+de longo prazo no desenvolvimento de habilidades cognitivas, comportamentais, linguagem
+e capacidades psicoemocionais e motoras das
+crianças,5,6 sendo que o possível impacto negativo permanece mesmo após o tratamento precoce por décadas.6-8
+Entre as ações para prevenção da deficiência
+de ferro e anemia ferropriva está o incentivo ao
+aleitamento materno exclusivo até seis meses
+
+2
+
+de vida e prolongado até dois anos de idade, associado ao acesso universal à alimentação adequada pela mãe durante a lactação e pelo lactente, de forma a aumentar o consumo de alimentos
+fontes de ferro, bem como de alimentos que
+aumentam a biodisponibilidade e a absorção do
+ferro na introdução de alimentos complementares.9,10
+A preocupação com esta carência mineral no
+início da vida existe mesmo nos recém-nascidos
+a termo e com peso adequado ao nascer, que geralmente têm estoques de ferro suficientes até
+quatro a seis meses de idade.9 Após esta idade,
+pode ocorrer aumento nas taxas de deficiência
+de ferro e anemia ferropriva como resultado da
+presença de fatores de risco.11
+
+Recomendação –
+Reconhecimento de fatores de risco
+Os principais fatores de risco de anemia ferropriva para crianças e adolescentes são:9,10,12-14
+1. Baixa reserva materna
+• Gestações múltiplas com pouco intervalo
+entre elas
+• Dieta materna deficiente em ferro
+• Perdas sanguíneas
+• Não suplementação de ferro na gravidez e
+lactação
+2. Aumento da demanda metabólica:
+• Prematuridade e baixo peso ao nascer
+(< 2.500g)
+• Lactentes em crescimento rápido (velocidade de crescimento > p90)
+• Meninas com grandes perdas menstruais
+• Atletas de competição
+3. Diminuição do fornecimento:
+• Clampeamento do cordão umbilical antes de
+um minuto de vida
+• Aleitamento materno exclusivo prolongado
+(superior a seis meses)
+
+Departamentos Científicos de Nutrologia e Hematologia • Sociedade Brasileira de Pediatria
+
+• Alimentação complementar com alimentos
+pobres em ferro ou de baixa biodisponibilidade
+• Consumo de leite de vaca antes de um ano
+de vida
+• Consumo de fórmula infantil com ferro de
+baixa biodisponibilidade
+• Dietas vegetarianas sem orientação de médico/nutricionista
+• Ausência ou baixa adesão à suplementação
+profilática com ferro medicamentoso, quando recomendada
+4. Perda sanguínea:
+• Traumática ou cirúrgica
+• Hemorragia gastrintestinal (ex: doença inflamatória intestinal, polipose colônica, drogas
+anti-inflamatórias não esteroides, infecção
+por Helicobacter pylori, verminose – estrongiloides, necatur, ancilostoma – enteropatias/colites alérgicas, esquistossomose)
+• Hemorragia ginecológica (menorragia, dispositivos intrauterinos)
+• Hemorragia urológica (esquistossomose,
+glomerulonefrite, trauma renal)
+• Hemorragia pulmonar (tuberculose, mal formação pulmonar, hemossiderose pulmonar
+idiopática, síndrome Goodpasture, etc)
+• Discrasias sanguíneas
+• Malária
+5. Má absorção do ferro:
+• Síndromes de má-absorção (doença celíaca,
+doença inflamatória intestinal)
+• Gastrite atrófica, cirurgia gástrica (bariátrica,
+ressecção gástrica)
+• Redução da acidez gástrica (antiácidos, bloqueadores H2, inibidores de bomba de prótons)
+
+Recomendação - Diagnóstico
+A recomendação do consenso é realizar a
+investigação laboratorial da deficiência de fer-
+
+ro, com ou sem anemia, aos 12 meses de vida.
+No entanto, na suspeita baseada na presença de
+fatores de risco, a investigação deve ser prontamente e precocemente realizada, especialmente
+na ausência de profilaxia adequada com ferro.
+Considerando o custo dos exames diagnósticos e a necessidade de padronizá-los para se
+identificar a fase inicial da depleção ou da deficiência de ferro sem anemia, em que a concentração de Hb é normal, recomendamos no mínimo
+os seguintes exames:
+1. Hemograma: para avaliação da Hb, dos índices
+hematimétricos (VCM, HCM, RDW) e da morfologia dos glóbulos vermelhos.
+2. Ferritina sérica: como marcador da fase de depleção dos estoques.
+3. Proteína C reativa: para identificar processo
+infeccioso.
+
+Recomendação - Tratamento
+Ferro oral (dose de 3 a 6 mg de ferro elementar/kg/dia), fracionado ou em dose única, por
+seis meses ou até reposição dos estoques corporais confirmados pela normalização da Hb, VCM,
+HCM, ferro sérico, saturação da transferrina e
+ferritina sérica.15 Existem diferentes compostos
+de ferro disponíveis comercialmente e no Sistema Único de Saúde, e a escolha deve levar em
+consideração os custos, acessibilidade, padrões
+de absorção de cada sal, o grau de resposta em
+relação ao tempo de tratamento e na menor
+ocorrência de eventos adversos. A efetividade
+do tratamento deve ser checada com hemograma e reticulócitos após 30 a 45 dias do início do
+tratamento, quando se espera que exista melhora dos níveis de reticulócitos e aumento da Hb
+em pelo menos 1,0 g/dL.
+
+Recomendação – Prevenção
+Nos lactentes em aleitamento materno exclusivo, sem fatores de risco, recomenda-se a su-
+
+3
+
+Consenso sobre Anemia ferropriva - Atualização: destaques 2021
+
+plementação medicamentosa profilática a partir
+dos 180 dias de vida, até o final do segundo ano
+(Quadro 1). No entanto, com presença de fatores de risco, a suplementação deve ser iniciada
+aos 90 dias, independentemente do tipo da alimentação. Especificamente, o início deve ocor-
+
+rer aos 30 dias para os recém-nascidos prematuros (idade gestacional inferior a 37 semanas) ou
+com peso inferior a 2.500g (Quadro 2). As recomendações da SBP, SPSP e do Instituto PENSI em
+2021 para a suplementação profilática de ferro
+estão nos Quadros 1 e 2.
+
+Quadro 1. Recomendação de suplementação medicamentosa profilática de ferro em lactentes SEM fator
+de risco.
+
+Situação
+
+Recomendação
+
+Recém-nascidos a termo, peso adequado para
+a idade gestacional, em aleitamento materno
+exclusivo até o 6º mês
+
+1 mg de ferro elementar/kg/dia, iniciando aos
+180 dias de vida até o 24º mês de vida
+
+Quadro 2. Recomendação de suplementação medicamentosa profilática de ferro em lactentes COM fator
+de risco.
+
+4
+
+Situação
+
+Recomendação
+
+Recém-nascidos a termo, peso adequado para
+a idade gestacional, em aleitamento materno
+exclusivo
+
+1 mg de ferro elementar/kg/dia, iniciando aos
+90 dias de vida até o 24º mês de vida
+
+Recém-nascidos a termo, peso adequado para
+a idade gestacional, independentemente do
+tipo de alimentação
+
+1 mg de ferro elementar/kg/dia, iniciando aos
+90 dias de vida até o 24º mês de vida
+
+Recém-nascidos a termo com peso inferior a
+2.500 g.
+
+2 mg de ferro elementar/kg/dia, iniciando
+com 30 dias de vida, durante um ano. Após
+este prazo, 1 mg/kg/dia mais um ano
+
+Recém-nascidos prematuros com peso
+superior a 1.500 g
+
+2 mg de ferro elementar/kg/dia, iniciando
+com 30 dias de vida, durante um ano. Após
+este prazo, 1 mg/kg/dia mais um ano
+
+Recém-nascidos prematuros com peso entre
+1.500 e 1.000 g
+
+3 mg de ferro elementar/kg/dia, iniciando
+com 30 dias de vida, durante um ano. Após
+este prazo, 1 mg/kg/dia mais um ano
+
+Recém-nascidos prematuros com peso inferior
+a 1.000 g
+
+4 mg de ferro elementar/kg/dia, iniciando
+com 30 dias de vida, durante um ano. Após
+este prazo, 1 mg/kg/dia mais um ano
+
+Recém-nascidos prematuros que receberam
+mais de 100 mL de concentrado de hemácias
+durante a internação
+
+Devem ser avaliados individualmente pois
+podem não necessitar de suplementação
+de ferro com 30 dias de vida, mas sim
+posteriormente
+
+Departamentos Científicos de Nutrologia e Hematologia • Sociedade Brasileira de Pediatria
+
+Infográfico. Idade de início de suplementação de ferro medicamentoso para lactentes em amamentação exclusiva, nascidos a termo e com peso adequado (≥ 2.500g), de acordo com a presença ou
+ausência de fatores de risco.
+
+#
+
+Doença hipertensiva específica da gestação, tabagismo ou anormalidades vasculares.
+Má nutrição materna (anemia, desnutrição, obesidade, baixo consumo de alimentos-fonte de ferro).
+Na ausência de informação precisa, o clampeamento precoce e a necessidade de atendimento imediato podem ser consideradas
+se Apgar 1 min ≤ 5.
+*** Perda sanguínea materna (sangramento uterino disfuncional ou perda sanguínea secundária a doenças);
+SH: Síndrome Hemorrágica; DPP: Descolamento Prematuro de Placenta; CU: Cordão Umbilical.
+
+*
+**
+
+Considerações finais
+
+Com base nas prevalências de anemia evidenciadas no nosso país e pela importância do
+ferro para o adequado neurodesenvolvimento infantil, com risco acentuado da deficiência de ferro, permanece atual o lema: ANEMIA
+
+FERROPRIVA, MAIS DO QUE UMA DOENÇA, UMA
+URGÊNCIA MÉDICA.
+Com esta mensagem temos o objetivo de
+chamar a atenção dos pediatras em geral e para
+a elaboração de políticas públicas sobre a importância desta condição clínica, cujo controle
+e prevenção permanecem um desafio de saúde
+pública no Brasil.
+
+5
+
+Consenso sobre Anemia ferropriva - Atualização: destaques 2021
+
+REFERÊNCIAS BIBLIOGRÁFICAS
+01. Sociedade Brasileira de Pediatria. Departamentos
+de Nutrologia e Hematologia. Consenso sobre
+anemia ferropriva: mais que uma doença, uma
+urgência médica! 24.07.18 Disponível em https://
+www.sbp.com.br/fileadmin/user_upload/21019fDiretrizes_Consenso_sobre_anemia_ferropriva-ok.
+pdf Acessado em junho 2021.
+
+09. WHO. Nutritional anaemias: tools for effective
+prevention
+and
+control.
+Geneve:
+Word
+Health Organization; 2017. Disponivel em
+h t t p s : / /a p p s . w h o . i n t / i r i s / b i t s t re a m / h a n d
+le/10665/259425/9789241513067-eng.
+pdf?sequence=1&isAllowed=y Acessado em junho
+2021
+
+02. Jordão RE, Bernardi JLD, Barros Filho AA. Prevalência
+de anemia ferropriva no Brasil: uma revisão
+sistemática. Rev Paul Pediatr 2009;27(1):90-8.
+
+10. WHO. Guideline: Daily iron supplementation
+in
+infants
+and
+children.
+Geneva:
+World
+Health Organization; 2016. Disponivel em
+h t t p s : / /a p p s . w h o. i n t / i r i s / b i t s t re a m / h a n d l e /
+10665/204712/9789241549523_eng.pdf Acessado
+em junho 2021.
+
+03. Brasil. Prevalência de anemia e deficiência de vitamina A entre crianças brasileiras de 6 a 59 meses: evidências do ENANI-2019. Brasília: Ministério da Saúde; 2020. https://enani.nutricao.ufrj.br/wp-content/
+uploads/2020/12/Relatorio-parcial-Micronutrientes_ENANI-2019.pdf Acessado em junho 2021
+04. Nogueira-de-Almeida C, Ued F, Del Ciampo L, Martinez
+E, Ferraz, I, Contini A, et al. Prevalence of childhood
+anemia in Brazil: Still a serious health problem. A
+systematic review and meta-analysis. Pub Health Nutr.
+2021;18:1-41. doi:10.1017/S136898002100286X.
+
+11. Marques RFSV, Taddei JAAC, Lopez FA, Braga JAP.
+Breastfeeding exclusively and iron deficiency anemia
+during the first 6 months of age. Rev Assoc Med Bras
+2014;60(1):18-22.
+12. Mantadakis E. Iron deficiency anemia in children
+residing in high and low-income countries: risk
+factors, prevention, diagnosis and therapy. Mediterr
+J Hematol Infect Dis. 2020;12(1):e2020041.
+
+05. Jáuregui-Lobera I. Iron deficiency and cognitive functions. Neuropsychiatr Dis Treat. 2014;10:2087-95.
+
+13. Georgieff, MK. Iron deficiency in pregnancy. Am J
+Obstet Gynecol. 2020; 223(4):516-524.
+
+06. Lozoff B, Jimenez E, Shmith J. Double burden of iron
+deficiency in infancy and low socioeconomic status:
+a longitudinal analysis of cognitive test scores to
+19 years. Arch Pediatr Adolesc Med. 2006;160(11):
+1108-13.
+
+14. McCarthy EK, Kiely ME. The neonatal period: A missed
+opportunity for the prevention of iron deficiency and
+its associated neurological consequences? British
+Nutrition Foundation. Nutr Bull.2019:44:309-319.
+
+07. Lozoff B, Castillo M, Clark KM, Smith JB, Sturza J. Iron
+Supplementation in Infancy Contributes to More
+Adaptive Behavior at 10 Years of Age 1-4. J Nutr.
+2014;144:838-45.
+08. Doom JR, Gahagan S, East PL, Encina P, Delva J,
+Lozoff B. Adolescent Internalizing, Externalizing, and
+Social Problems Following Iron Deficiency at 12-18
+Months: The Role of Maternal Responsiveness. Child
+Development. 2020;91(3):e545-e562.
+
+6
+
+15. Ministério da Saúde. Protocolo Clínico e Diretrizes
+Terapêuticas.Portaria SAS/MS nº 1.247, de 10 de
+novembro de 2014. Disponível em file:///Users/mac/
+Downloads/pcdt_Anemia_DeficienciaFerro_2014.
+pdf Acessado em junho 2021.
+
+Diretoria
+
+Triênio 2019/2021
+PRESIDENTE:
+Luciana Rodrigues Silva (BA)
+1º VICE-PRESIDENTE:
+Clóvis Francisco Constantino (SP)
+2º VICE-PRESIDENTE:
+Edson Ferreira Liberal (RJ)
+SECRETÁRIO GERAL:
+Sidnei Ferreira (RJ)
+1º SECRETÁRIO:
+Ana Cristina Ribeiro Zöllner (SP)
+2º SECRETÁRIO:
+Paulo de Jesus Hartmann Nader (RS)
+3º SECRETÁRIO:
+Virgínia Resende Silva Weffort (MG)
+DIRETORIA FINANCEIRA:
+Maria Tereza Fonseca da Costa (RJ)
+2ª DIRETORIA FINANCEIRA:
+Cláudio Hoineff (RJ)
+3ª DIRETORIA FINANCEIRA:
+Hans Walter Ferreira Greve (BA)
+DIRETORIA DE INTEGRAÇÃO REGIONAL
+Fernando Antônio Castro Barreiro (BA)
+COORDENADORES REGIONAIS
+NORTE:
+Bruno Acatauassu Paes Barreto (PA)
+Adelma Alves de Figueiredo (RR)
+NORDESTE:
+Anamaria Cavalcante e Silva (CE)
+Eduardo Jorge da Fonseca Lima (PE)
+SUDESTE:
+Rodrigo Aboudib Ferreira Pinto (ES)
+Isabel Rey Madeira (RJ)
+SUL:
+Darci Vieira Silva Bonetto (PR)
+Helena Maria Correa de Souza Vieira (SC)
+CENTRO-OESTE:
+Regina Maria Santos Marques (GO)
+Natasha Slhessarenko Fraife Barreto (MT)
+COMISSÃO DE SINDICÂNCIA
+TITULARES:
+Gilberto Pascolat (PR)
+Aníbal Augusto Gaudêncio de Melo (PE)
+Maria Sidneuma de Melo Ventura (CE)
+Isabel Rey Madeira (RJ)
+SUPLENTES:
+Paulo Tadeu Falanghe (SP)
+Tânia Denise Resener (RS)
+João Coriolano Rego Barros (SP)
+Marisa Lopes Miranda (SP)
+Joaquim João Caetano Menezes (SP)
+CONSELHO FISCAL
+TITULARES:
+Núbia Mendonça (SE)
+Nelson Grisard (SC)
+Antônio Márcio Junqueira Lisboa (DF)
+SUPLENTES:
+Adelma Alves de Figueiredo (RR)
+João de Melo Régis Filho (PE)
+Darci Vieira da Silva Bonetto (PR)
+ASSESSORES DA PRESIDÊNCIA PARA POLÍTICAS
+PÚBLICAS:
+COORDENAÇÃO:
+Maria Tereza Fonseca da Costa (RJ)
+MEMBROS:
+Clóvis Francisco Constantino (SP)
+Maria Albertina Santiago Rego (MG)
+Donizetti Dimer Giamberardino Filho (PR)
+Sérgio Tadeu Martins Marba (SP)
+Alda Elizabeth Boehler Iglesias Azevedo (MT)
+Evelyn Eisenstein (RJ)
+Paulo Augusto Moreira Camargos (MG)
+João Coriolano Rego Barros (SP)
+Alexandre Lopes Miralha (AM)
+Virgínia Weffort (MG)
+Themis Reverbel da Silveira (RS)
+DIRETORIA DE QUALIFICAÇÃO E CERTIFICAÇÃO
+PROFISSIONAL
+Maria Marluce dos Santos Vilela (SP)
+Edson Ferreira Liberal (RJ)
+COORDENAÇÃO DE CERTIFICAÇÃO PROFISSONAL
+José Hugo de Lins Pessoa (SP)
+COORDENAÇÃO DE ÁREA DE ATUAÇÃO
+Mauro Batista de Morais (SP)
+Kerstin Tanigushi Abagge (PR)
+Ana Alice Ibiapina Amaral Parente (RJ)
+COORDENAÇÃO DO CEXTEP
+(COMISSÃO EXECUTIVA DO TÍTULO
+DE ESPECIALISTA EM PEDIATRIA)
+COORDENAÇÃO:
+Hélcio Villaça Simões (RJ)
+MEMBROS:
+Ricardo do Rego Barros (RJ)
+Clovis Francisco Constantino (SP)
+Ana Cristina Ribeiro Zöllner (SP)
+Carla Príncipe Pires C. Vianna Braga (RJ)
+Flavia Nardes dos Santos (RJ)
+Cristina Ortiz Sobrinho Valete (RJ)
+
+Grant Wall Barbosa de Carvalho Filho (RJ)
+Sidnei Ferreira (RJ)
+Silvio Rocha Carvalho (RJ)
+COMISSÃO EXECUTIVA DO EXAME PARA
+OBTENÇÃO DO TÍTULO DE ESPECIALISTA
+EM PEDIATRIA AVALIAÇÃO SERIADA
+COORDENAÇÃO:
+Eduardo Jorge da Fonseca Lima (PE)
+Victor Horácio de Souza Costa Junior (PR)
+MEMBROS:
+Henrique Mochida Takase (SP)
+João Carlos Batista Santana (RS)
+Luciana Cordeiro Souza (PE)
+Luciano Amedée Péret Filho (MG)
+Mara Morelo Rocha Felix (RJ)
+Marilucia Rocha de Almeida Picanço (DF)
+Vera Hermina Kalika Koch (SP)
+DIRETORIA DE RELAÇÕES INTERNACIONAIS
+Nelson Augusto Rosário Filho (PR)
+Sergio Augusto Cabral (RJ)
+REPRESENTANTE NA AMÉRICA LATINA
+Ricardo do Rego Barros (RJ)
+DIRETORIA DE DEFESA DA PEDIATRIA
+COORDENAÇÃO:
+Fabio Augusto de Castro Guerra (MG)
+MEMBROS:
+Gilberto Pascolat (PR)
+Paulo Tadeu Falanghe (SP)
+Cláudio Orestes Britto Filho (PB)
+João Cândido de Souza Borges (CE)
+Anenisia Coelho de Andrade (PI)
+Isabel Rey Madeira (RJ)
+Donizetti Dimer Giamberardino Filho (PR)
+Jocileide Sales Campos (CE)
+Maria Nazareth Ramos Silva (RJ)
+Gloria Tereza Lima Barreto Lopes (SE)
+Corina Maria Nina Viana Batista (AM)
+DIRETORIA DOS DEPARTAMENTOS CIENTÍFICOS E
+COORDENAÇÃO DE DOCUMENTOS CIENTÍFICOS
+Dirceu Solé (SP)
+DIRETORIA-ADJUNTA DOS DEPARTAMENTOS
+CIENTÍFICOS
+Emanuel Savio Cavalcanti Sarinho (PE)
+DOCUMENTOS CIENTÍFICOS
+Luciana Rodrigues Silva (BA)
+Dirceu Solé (SP)
+Emanuel Sávio Cavalcanti Sarinho (PE)
+Joel Alves Lamounier (MG)
+DIRETORIA DE CURSOS, EVENTOS E PROMOÇÕES
+Lilian dos Santos Rodrigues Sadeck (SP)
+MEMBROS:
+Ricardo Queiroz Gurgel (SE)
+Paulo César Guimarães (RJ)
+Cléa Rodrigues Leone (SP)
+COORDENAÇÃO DO PROGRAMA DE REANIMAÇÃO
+NEONATAL
+Maria Fernanda Branco de Almeida (SP)
+Ruth Guinsburg (SP)
+COORDENAÇÃO PALS – REANIMAÇÃO PEDIÁTRICA
+Alexandre Rodrigues Ferreira (MG)
+Kátia Laureano dos Santos (PB)
+COORDENAÇÃO BLS – SUPORTE BÁSICO DE VIDA
+Valéria Maria Bezerra Silva (PE)
+COORDENAÇÃO DO CURSO DE APRIMORAMENTO
+EM NUTROLOGIA PEDIÁTRICA (CANP)
+Virgínia Resende Silva Weffort (MG)
+PEDIATRIA PARA FAMÍLIAS
+Nilza Maria Medeiros Perin (SC)
+Normeide Pedreira dos Santos (BA)
+Marcia de Freitas (SP)
+
+Magda Lahorgue Nunes (RS)
+Gisélia Alves Pontes da Silva (PE)
+Dirceu Solé (SP)
+Antônio Jose Ledo Alves da Cunha (RJ)
+EDITORES REVISTA RESIDÊNCIA PEDIÁTRICA
+Clemax Couto Sant’Anna (RJ)
+Marilene Augusta Rocha Crispino Santos (RJ)
+EDITORA ADJUNTA:
+Márcia Garcia Alves Galvão (RJ)
+CONSELHO EDITORIAL EXECUTIVO:
+Sidnei Ferreira (RJ)
+Isabel Rey Madeira (RJ)
+Mariana Tschoepke Aires (RJ)
+Maria de Fatima Bazhuni Pombo Sant’Anna (RJ)
+Silvio da Rocha Carvalho (RJ)
+Rafaela Baroni Aurílio (RJ)
+Leonardo Rodrigues Campos (RJ)
+Álvaro Jorge Madeiro Leite (CE)
+Eduardo Jorge da Fonseca Lima (PE)
+Marcia C. Bellotti de Oliveira (RJ)
+CONSULTORIA EDITORIAL:
+Ana Cristina Ribeiro Zöllner (SP)
+Fábio Ancona Lopez (SP)
+Dirceu Solé (SP)
+Joel Alves Lamounier (MG)
+EDITORES ASSOCIADOS:
+Danilo Blank (RS)
+Paulo Roberto Antonacci Carvalho (RJ)
+Renata Dejtiar Waksman (SP)
+COORDENAÇÃO DO PRONAP
+Fernanda Luísa Ceragioli Oliveira (SP)
+Tulio Konstantyner (SP)
+Cláudia Bezerra de Almeida (SP)
+COORDENAÇÃO DO TRATADO DE PEDIATRIA
+Luciana Rodrigues Silva (BA)
+Fábio Ancona Lopez (SP)
+DIRETORIA DE ENSINO E PESQUISA
+Joel Alves Lamounier (MG)
+COORDENAÇÃO DE PESQUISA
+Cláudio Leone (SP)
+COORDENAÇÃO DE GRADUAÇÃO
+COORDENAÇÃO:
+Rosana Fiorini Puccini (SP)
+MEMBROS:
+Rosana Alves (ES)
+Suzy Santana Cavalcante (BA)
+Angélica Maria Bicudo-Zeferino (SP)
+Silvia Wanick Sarinho (PE)
+COORDENAÇÃO DE RESIDÊNCIA E ESTÁGIOS
+EM PEDIATRIA
+COORDENAÇÃO:
+Ana Cristina Ribeiro Zöllner (SP)
+MEMBROS:
+Eduardo Jorge da Fonseca Lima (PE)
+Fátima Maria Lindoso da Silva Lima (GO)
+Paulo de Jesus Hartmann Nader (RS)
+Victor Horácio da Costa Junior (PR)
+Silvio da Rocha Carvalho (RJ)
+Tânia Denise Resener (RS)
+Delia Maria de Moura Lima Herrmann (AL)
+Helita Regina F. Cardoso de Azevedo (BA)
+Jefferson Pedro Piva (RS)
+Sérgio Luís Amantéa (RS)
+Susana Maciel Wuillaume (RJ)
+Aurimery Gomes Chermont (PA)
+Luciano Amedée Péret Filho (MG)
+COORDENAÇÃO DE DOUTRINA PEDIÁTRICA
+Luciana Rodrigues Silva (BA)
+Hélcio Maranhão (RN)
+
+PORTAL SBP
+Luciana Rodrigues Silva (BA)
+
+COORDENAÇÃO DAS LIGAS DOS ESTUDANTES
+Adelma Figueiredo (RR)
+André Luis Santos Carmo (PR)
+Marynea Silva do Vale (MA)
+Fernanda Wagner Fredo dos Santos (PR)
+
+PROGRAMA DE ATUALIZAÇÃO CONTINUADA
+À DISTÂNCIA
+Luciana Rodrigues Silva (BA)
+Edson Ferreira Liberal (RJ)
+Natasha Slhessarenko Fraife Barreto (MT)
+Ana Alice Ibiapina Amaral Parente (RJ)
+
+MUSEU DA PEDIATRIA
+COORDENAÇÃO:
+Edson Ferreira Liberal (RJ)
+MEMBROS:
+Mario Santoro Junior (SP)
+José Hugo de Lins Pessoa (SP)
+
+DIRETORIA DE PUBLICAÇÕES
+Fábio Ancona Lopez (SP)
+
+REDE DA PEDIATRIA
+COORDENAÇÃO:
+Luciana Rodrigues Silva (BA)
+Rubem Couto (MT)
+AC - SOCIEDADE ACREANA DE PEDIATRA:
+Ana Isabel Coelho Montero
+AL - SOCIEDADE ALAGOANA DE PEDIATRIA:
+Ana Carolina de Carvalho Ruela Pires
+AM - SOCIEDADE AMAZONENSE DE PEDIATRIA:
+Elena Marta Amaral dos Santos
+AP - SOCIEDADE AMAPAENSE DE PEDIATRIA:
+Rosenilda Rosete de Barros
+BA - SOCIEDADE BAIANA DE PEDIATRIA:
+Dolores Fernandez Fernandez
+CE - SOCIEDADE CEARENSE DE PEDIATRIA:
+Anamaria Cavalcante e Silva
+
+EDITORES DA REVISTA SBP CIÊNCIA
+Joel Alves Lamounier (MG)
+Altacílio Aparecido Nunes (SP)
+Paulo Cesar Pinho Ribeiro (MG)
+Flávio Diniz Capanema (MG)
+EDITORES DO JORNAL DE PEDIATRIA (JPED)
+COORDENAÇÃO:
+Renato Procianoy (RS)
+MEMBROS:
+Crésio de Aragão Dantas Alves (BA)
+Paulo Augusto Moreira Camargos (MG)
+João Guilherme Bezerra Alves (PE)
+Marco Aurélio Palazzi Sáfadi (SP)
+
+DF - SOCIEDADE DE PEDIATRIA DO DISTRITO FEDERAL:
+Renata Belem Pessoa de Melo Seixas
+ES - SOCIEDADE ESPIRITOSSANTENSE DE PEDIATRIA:
+Roberta Paranhos Fragoso
+GO - SOCIEDADE GOIANA DE PEDIATRIA:
+Marise Helena Cardoso Tófoli
+MA - SOCIEDADE DE PUERICULTURA E PEDIATRIA
+DO MARANHÃO:
+Marynea Silva do Vale
+MG - SOCIEDADE MINEIRA DE PEDIATRIA:
+Cássio da Cunha Ibiapina
+MS - SOCIEDADE DE PED. DO MATO GROSSO DO SUL:
+Carmen Lucia de Almeida Santos
+MT - SOCIEDADE MATOGROSSENSE DE PEDIATRIA:
+Paula Helena de Almeida Gatass Bumlai
+PA - SOCIEDADE PARAENSE DE PEDIATRIA:
+Vilma Francisca Hutim Gondim de Souza
+PB - SOCIEDADE PARAIBANA DE PEDIATRIA:
+Leonardo Cabral Cavalcante
+PE - SOCIEDADE DE PEDIATRIA DE PERNAMBUCO:
+Katia Galeão Brandt
+PI - SOCIEDADE DE PEDIATRIA DO PIAUÍ:
+Anenisia Coelho de Andrade
+PR - SOCIEDADE PARANAENSE DE PEDIATRIA:
+Kerstin Taniguchi Abagge
+RJ - SOCIEDADE DE PEDIATRIA DO ESTADO
+DO RIO DE JANEIRO:
+Katia Telles Nogueira
+RN - SOCIEDADE DE PEDIATRIA RIO GRANDE
+DO NORTE:
+Katia Correia Lima
+RO - SOCIEDADE DE PEDIATRIA DE RONDÔNIA:
+Wilmerson Vieira da Silva
+RR - SOCIEDADE RORAIMENSE DE PEDIATRIA:
+Mareny Damasceno Pereira
+RS - SOCIEDADE DE PEDIATRIA DO RIO GRANDE DO SUL:
+Sérgio Luis Amantea
+SC - SOCIEDADE CATARINENSE DE PEDIATRIA:
+Rosamaria Medeiros e Silva
+SE - SOCIEDADE SERGIPANA DE PEDIATRIA:
+Ana Jovina Barreto Bispo
+SP - SOCIEDADE DE PEDIATRIA DE SÃO PAULO:
+Sulim Abramovici
+TO - SOCIEDADE TOCANTINENSE DE PEDIATRIA:
+Elaine Carneiro Lobo
+DIRETORIA DE PATRIMÔNIO COORDENAÇÃO:
+Fernando Antônio Castro Barreiro (BA)
+Cláudio Barsanti (SP)
+Edson Ferreira Liberal (RJ)
+Sergio Antônio Bastos Sarrubo (SP)
+Maria Tereza Fonseca da Costa (RJ)
+ACADEMIA BRASILEIRA DE PEDIATRIA
+PRESIDENTE:
+Mario Santoro Júnior (SP)
+VICE-PRESIDENTE:
+Luiz Eduardo Vaz Miranda (RJ)
+SECRETÁRIO GERAL:
+Jefferson Pedro Piva (RS)
+DIRETORA DE COMUNICAÇÃO
+Conceição Ap. de Mattos Segre (SP)
+DEPARTAMENTOS CIENTÍFICOS
+• Adolescência
+• Aleitamento Materno
+• Alergia
+• Bioética
+• Cardiologia
+• Emergência
+• Endocrinologia
+• Gastroenterologia
+• Genética
+• Hematologia
+• Hepatologia
+• Imunizações
+• Imunologia Clínica
+• Infectologia
+• Medicina da Dor e Cuidados Paliativos
+• Nefrologia
+• Neonatologia
+• Neurologia
+• Nutrologia
+• Oncologia
+• Otorrinolaringologia
+• Pediatria Ambulatorial
+• Ped. Desenvolvimento e Comportamento
+• Pneumologia
+• Reumatologia
+• Saúde Escolar
+• Segurança
+• Sono
+• Suporte Nutricional
+• Terapia Intensiva
+• Toxicologia e Saúde Ambiental
+GRUPOS DE TRABALHO
+• Atividade física
+• Cirurgia pediátrica
+• Criança, adolescente e natureza
+• Doenças raras
+• Drogas e violência na adolescência
+• Metodologia científica
+• Oftalmologia pediátrica
+• Pediatria e humanidade
+• Saúde mental
+
+www.sbp.com.br
+
+7
+
+

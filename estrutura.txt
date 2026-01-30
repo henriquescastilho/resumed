@@ -1,0 +1,149 @@
+.
+├── .DS_Store
+├── estrutura.txt
+├── livros_ref
+│   ├── cirurgia_geral
+│   │   ├──  Prova de Título - Brasil).md
+│   │   ├── 01_introducao.md
+│   │   ├── 02_pre_operatorio.md
+│   │   ├── 03_intraoperatorio.md
+│   │   ├── 04_pos_operatorio.md
+│   │   ├── 05_infeccoes.md
+│   │   ├── 06_trauma_uti.md
+│   │   ├── 07_01_esofago.md
+│   │   ├── 07_02_gastrico.md
+│   │   ├── 07_03_obstrucao_ileo.md
+│   │   ├── 07_04_apendicite.md
+│   │   ├── 07_05_colorretal.md
+│   │   ├── 07_06_anorretal.md
+│   │   ├── 07_07_hernias.md
+│   │   ├── 07_08_biliar.md
+│   │   ├── 07_09_pancreas.md
+│   │   ├── 07_10_hepatico.md
+│   │   ├── 07_11_baco.md
+│   │   ├── 08_endocrina.md
+│   │   ├── 09_mama.md
+│   │   ├── 10_vascular.md
+│   │   ├── 11_pediatrica.md
+│   │   ├── 12_oncologica.md
+│   │   ├── 13_min_invasiva.md
+│   │   ├── 14_etica_seguranca.md
+│   │   ├── Resumed™ Cirurgia Geral.md
+│   │   ├── Sabiston_Textbook_Surgery_21ed.pdf
+│   │   ├── Schwartz_Principles_Surgery_11ed.pdf
+│   │   ├── cirurgia_geral_completo.md
+│   │   ├── cirurgia_geral_completo.pdf
+│   │   ├── clinica_geral_sp.md
+│   │   ├── clinica_geral_sp.pdf
+│   │   ├── clinica_geral_sp_temp.md
+│   │   ├── clinica_geral_sp_temp.pdf
+│   │   ├── ilide.info-greenfields-surgery-scientific-principles-6th-edition-pr_e5d9b02b2f9d16f9ce2d2861368bf3e5.pdf
+│   │   ├── manual_cirurgia.pdf
+│   │   └── zeluiz,+v41n3a04.pdf
+│   ├── clinica_medica
+│   │   ├── Análise de Lacunas e Priorização de Tópicos - Guia de Clínica Médica.md
+│   │   ├── Cecil_Medicina_Interna_27ed.pdf
+│   │   ├── Diretriz_Avaliacao_Cardiovascular_Perioperatoria_SBC_2024.pdf
+│   │   ├── Diretriz_Ergometria_Criancas_Adolescentes_SBC_2024.pdf
+│   │   ├── Diretriz_TC_RM_Cardiovascular_SBC_2024.pdf
+│   │   ├── Diretrizes_SBD_2017_2018.pdf
+│   │   ├── Guia de Estudos para Residência Médica: Clínica Médica.md
+│   │   ├── Harrison_Principios_Medicina_Interna_21ed.pdf
+│   │   ├── Resumed™ Clínica Médica.md
+│   │   ├── Tratado_Clinica_Medica_SBCM.pdf
+│   │   ├── clinica_medica_draft.md
+│   │   ├── clinica_medica_sp.md
+│   │   ├── clinica_medica_sp.pdf
+│   │   ├── clinica_medica_sp_temp.md
+│   │   ├── clinica_medica_sp_temp.pdf
+│   │   ├── diarreia_aguda_sbp.txt
+│   │   ├── diretriz_fa_2016.txt
+│   │   ├── diretriz_has_2020.txt
+│   │   ├── diretriz_ic_2018.txt
+│   │   ├── diretriz_sca_ssemst_2021.txt
+│   │   ├── diretriz_tev_2022.txt
+│   │   ├── diretriz_ulcera_peptica_2003.txt
+│   │   ├── dokumen.pub_medicina-interna-de-harrison-volumes-1-e-2-19-ed.pdf
+│   │   ├── frequencias.md
+│   │   ├── notas_dpoc.md
+│   │   ├── notas_insuficiencia_cardiaca.md
+│   │   ├── notas_tev.md
+│   │   └── recomendacoes_pac_2018.txt
+│   ├── five_espc
+│   │   ├── recorrencias_sp.md
+│   │   ├── recorrencias_sp.pdf
+│   │   ├── recorrencias_sp_temp.md
+│   │   ├── recorrencias_sp_temp.pdf
+│   │   ├── research_notes.md
+│   │   └── resumed_busca.md
+│   ├── ginecologia_obs
+│   │   ├── Livro-Manual-Obstetricia-II-Abril-2014_FOLHA-ebook.pdf
+│   │   ├── MANUAL-DE-GINECOLOGIA-E-OBSTETRÍCIA.pdf
+│   │   ├── Resumed™ Ginecologia e Obstetrícia.md
+│   │   ├── Williams%20Obstetrics-1376hlm.pdf
+│   │   ├── ginecologia-fundamental-josc3a9-carlos.pdf
+│   │   ├── ginecologia_e_obstetricia.md
+│   │   ├── ginecologia_e_obstetricia.pdf
+│   │   ├── ginecologia_e_obstetricia_temp.pdf
+│   │   └── te-lindes-operative-gynecology-12th-edition-9781496386441_compress.pdf
+│   ├── medicina_preventiva
+│   │   ├──  Medicina Preventiva (Residência Médica - Brasil).md
+│   │   ├── Capítulo 9: Tópicos Especiais em Saúde Coletiva.md
+│   │   ├── Epidemiologia (Gordis) 5. ed. - www.meulivro.biz.pdf
+│   │   ├── Guia de Vigilancia Epidemiologica.pdf
+│   │   ├── Resumed™ Medicina Preventiva e Social.md
+│   │   ├── ilide.info-epidemiology-an-introduction-pr_afa5c5ea9631d7ad1d3f3b64c9532cb1.pdf
+│   │   ├── ilide.info-saude-coletiva-teoria-e-pratica-jairnilson-silva-p-pr_c8d3adfd494b93292f77b1a30e092ef4.pdf
+│   │   ├── medicina_preventiva_r1.pdf
+│   │   ├── medicina_preventiva_sp.md
+│   │   ├── medicina_preventiva_sp.pdf
+│   │   ├── medicina_preventiva_sp_temp.md
+│   │   └── medicina_preventiva_sp_temp.pdf
+│   └── pediatria
+│       ├── 01_introducao_puericultura.md
+│       ├── 02_neonatologia.md
+│       ├── 03_crescimento_desenvolvimento.md
+│       ├── 04_imunizacoes.md
+│       ├── 05_aleitamento_alimentacao.md
+│       ├── 06_disturbios_nutricionais.md
+│       ├── 07_doencas_infecciosas.md
+│       ├── 08_doencas_respiratorias.md
+│       ├── 09_doencas_gastrointestinais.md
+│       ├── 10_doencas_cardiovasculares.md
+│       ├── 11_doencas_hematologicas.md
+│       ├── Aleitamento Materno e Alimentação Complementar.md
+│       ├── Capítulo 12: Doenças Renais e Urinárias.md
+│       ├── Crescimento e Desenvolvimento.md
+│       ├── Current, diagnóstico e tratamento em pediatria (Hay) 20. ed. - www.meulivro.biz.pdf
+│       ├── Distúrbios Nutricionais.md
+│       ├── Doenças Cardiovasculares Comuns na Infância.md
+│       ├── Doenças Gastrointestinais Comuns na Infância.md
+│       ├── Doenças Hematológicas Comuns na Infância.md
+│       ├── Doenças Infecciosas e Parasitárias Comuns na Infância.md
+│       ├── Doenças Respiratórias Comuns na Infância.md
+│       ├── Imunizações.md
+│       ├── Introdução à Pediatria e Puericultura.md
+│       ├── Neonatologia.md
+│       ├── Resumed™ Pediatria.md
+│       ├── aleitamento_alimentacao.txt
+│       ├── anemia_ferropriva_sbp.txt
+│       ├── cardiopatias_congenitas_sbp.txt
+│       ├── constipacao_sbp.txt
+│       ├── crescimento_desenvolvimento.txt
+│       ├── drge_sbp.txt
+│       ├── febre_reumatica_sbp.txt
+│       ├── guia_pneumologia_sbim_sbpt_2024_2025.pdf
+│       ├── ilide.info-nelson-textbook-of-pediatrics-22nd-edition-2024-volume-one-pr_24ceb7e438fdce78cf7d7178f90f1edc.pdf
+│       ├── ilide.info-rudolphs-pediatrics-23rd-edition-1251-1500-pr_42c2da1d4fd9d593f74c31803ea4b1ea.pdf
+│       ├── itu_sbp.txt
+│       ├── manpraticaatend.pdf
+│       ├── obesidade_sbp.txt
+│       ├── pediatria_sp.md
+│       ├── pediatria_sp.pdf
+│       ├── pediatria_sp_temp.md
+│       ├── pediatria_sp_temp.pdf
+│       ├── pti_spsp.txt
+│       └── spsp_sindrome_nefritica.txt
+└── resumed-logo.png
+
+8 directories, 139 files

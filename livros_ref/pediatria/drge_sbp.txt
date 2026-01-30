@@ -1,0 +1,1855 @@
+Departamento Científico de Gastroenterologia (gestão 2022-2024) • Sociedade Brasileira de Pediatria
+
+Guia Prático de Orientação
+Departamento Científico de
+Gastroenterologia (gestão 2022-2024)
+Nº 185, 10 de Dezembro de 2024
+
+Doença do
+Refluxo Gastroesofágico
+Departamento Científico de Gastroenterologia (gestão 2022-2024)
+Presidente:
+Cristina Helena Targa Ferreira (Relatora)
+Secretária:
+Elisa de Carvalho
+Conselho Científico:	Amália Maria Porto Lustosa, Caroline Sales de Souza,
+Maria do Carmo Barros de Melo, Marise Helena Cardoso Tófoli,
+Mauro Batista de Morais, Roberta Paranhos Fragoso, Rose Terezinha Marcelino
+Revisão:
+
+Dirceu Solé, Luciana Rodrigues Silva, Clóvis F. Constantino
+
+Introdução e definição
+A doença do refluxo gastroesofágico (DRGE)
+é a condição que mais comumente acomete o
+esôfago e uma das queixas mais frequentes em
+consultas de adultos, de pediatras e de gastroenterologistas pediatras.1,2 Atualmente é considerada uma doença com muitas facetas, que
+compreende várias síndromes, atribuídas ou
+exacerbadas pela volta dos conteúdos gástricos, que trazem morbidade e problemas para os
+pacientes.1,2
+
+O refluxo gastroesofágico (RGE), do ponto de
+vista conceitual, é um evento fisiológico normal,
+que pode ser considerado normal, fisiológico,
+que ocorre várias vezes ao dia principalmente
+em lactentes, mas também em crianças, adolescentes e adultos, quando não ocasiona sintomas.3-7 Por outro lado, também pode representar
+a DRGE, quando causa sintomas ou complicações
+que se associam à morbidade e alterações da
+qualidade de vida do paciente.1-3,5
+Levando-se em conta uma perspectiva de
+fisiopatologia convencional, a DRGE é concei-
+
+Esse documento foi escrito por colaboradores da Sociedade Brasileira de Pediatria,
+que declaram não ter quaisquer conflitos de interesse na sua elaboração.
+Apoio Aché.
+
+1
+
+Doença do Refluxo Gastroesofágico
+
+tuada como incompetência da barreira antirrefluxo, na junção esofagogástrica.1,2 Entretanto,
+está cada vez mais claro que muitas apresentações de DRGE representam fenótipos distintos
+com cofatores predisponentes únicos e fisiopatologia fora deste paradigma.1
+A simplificação excessiva levou ao uso excessivo de inibidores de bomba de prótons (IBPs) para
+tudo o que está incluído no âmbito da DRGE e demonstrou um amplo espectro de síndromes menos
+suscetíveis à terapia com IBP em diversas doses.1
+A DRGE ocorre em todo o mundo, mas sua
+epidemiologia é mais ligada aos costumes do
+mundo ocidental, como a alimentação e a obesidade, e traz grandes custos econômicos ocasionados por visitas médicas, exames diagnósticos
+e tratamentos.1,2 Não tem prevalência e incidência globais bem estabelecidas.1-3
+A DRGE em pediatria é uma doença comum e
+com prevalência crescente.3,5 Nesta faixa etária
+há uma característica importante que diferencia
+a DRGE do lactente e da criança maior.3,5 O diagnóstico e o tratamento permanecem sendo um
+desafio, pois apresenta sintomas não específicos
+nos diferentes grupos etários e diferentes fenótipos.3,5,8
+O RGE consiste na passagem do conteúdo gástrico (material refluído) para o esôfago, com ou
+sem regurgitação e/ou vômito.3-5 Pode ser um processo considerado normal, fisiológico, que ocorre
+várias vezes ao dia, após as refeições, em lactentes,
+crianças, adolescentes e adultos.3-5 É um evento
+fisiológico normal, principalmente em lactentes,
+que raramente inicia antes da primeira semana de
+vida ou após os seis meses.3 De acordo com os critérios de Roma IV, regurgitação no lactente saudável de três a 12 meses de idade deve incluir duas
+ou mais regurgitações por dia, por três ou mais
+semanas, sem complicações, nem postura anormal, nem dificuldades alimentares.9 Regurgitações
+ocorrem em 50% dos lactentes antes dos dois meses e em 60% a 70% aos três ou quatro meses,
+para diminuir e chegar a 5% por volta de um ano
+de idade.3 É importante notar que, na maioria dos
+lactentes, o refluxo se resolve espontaneamente.3
+
+2
+
+Os pais muitas vezes procuram seu pediatra, pois a maioria dos lactentes regurgita nos
+primeiros meses de vida, sem que isso signifique que eles tenham DRGE.3,5,8 Distinguir RGE
+de DRGE às vezes não é tão evidente, e ainda
+há uma zona duvidosa definida subjetivamente
+entre os pais e os pediatras.3 Sabe-se que as expectativas dos pais influenciam fortemente nas
+decisões terapêuticas.3,5
+O diagnóstico de DRGE é clínico.3,5 Apesar da
+ampla gama de exames diagnósticos disponíveis, nenhum deles é considerado padrão ouro
+ou é fidedigno para todas as formas de DRGE.4,5,8
+Em lactentes com sintomas leves e nenhum
+sinal de alerta, a terapêutica farmacológica é
+desnecessária. Esses lactentes são considerados
+“vomitadores felizes” e, por isso, não necessitam
+de tratamento medicamentoso.3 Em lactentes e
+crianças menores com sintomas de DRGE, a terapia não farmacológica pode ser a opção de escolha, devido à falta de medicamentos com eficácia
+comprovada, exceto nos casos mais graves (com
+aspiração, apneia, pneumonia), que necessitam de
+investigação e terapêutica individualizada.3,5,8,10,11
+Em crianças maiores e adolescentes, nos
+quais os sintomas são mais claros e específicos
+e a esofagite de refluxo é mais comum, o tratamento farmacológico é mais frequentemente indicado.3,5
+Estudos recentes têm demonstrado que,
+em alguns pacientes, mesmo pediátricos, a
+DRGE pode ser crônica, começando na infância
+e com risco de desenvolver sequelas mais graves como esôfago de Barrett e adenocarcinoma
+de esôfago.11-14 Ainda não é possível identificar
+as crianças em risco de evolução desfavorável,
+baseando-se em manifestações clínicas ou em
+complicações endoscópicas.12-14
+A porcentagem de pacientes com diagnóstico de DRGE e com esofagite que continuam com
+medicação antiácida ou que ainda têm sintomas
+num período de 12 meses há mais de cinco anos
+varia de 23% (sintomas semanais) a 68% (em
+uso de medicação anti-DRGE), dependendo da
+definição utilizada.12-14
+
+Departamento Científico de Gastroenterologia (gestão 2022-2024) • Sociedade Brasileira de Pediatria
+
+Em crianças com diagnóstico de DRGE sem
+esofagite, 1,4% desenvolveram esofagite durante seguimento por mais de cinco anos; nenhum
+paciente desenvolveu esôfago de Barrett.5,12-15
+Sendo uma doença comum, a DRGE é abordada por diferentes especialistas e isso tem gerado uma variedade de perspectivas distintas,
+com condutas diversas como o uso de antiácidos,
+inibidores de bombas ou bloqueadores H2, procinéticos, intervenções dietéticas, diagnósticos
+diferenciais, indicações de endoscopias, pH-impedânciometria, manometrias e cirurgias.1,2
+Atualmente, é importante distinguir entre refluxo ácido, não ácido e fracamente ácido no sentido de se utilizar terapia adequada.5,16,17 Considera-se que a maioria dos episódios de refluxo em
+lactentes é não ácido ou fracamente ácido, então
+existe uma falha verdadeira nas opções terapêuticas.3 Nesses lactentes com refluxos não ácidos
+e fracamente ácidos, a supressão ácida, que é o
+principal pilar do tratamento, não tem eficácia,
+pois o pH já é maior do que 6.3,5 Então, hoje em dia,
+é necessário considerar diferentes tipos de tratamento para subtipos distintos de refluxo.3,16,17
+As inúmeras publicações, com variabilidade
+das manifestações clínicas e do curso evolutivo, com a dificuldade de distinção muitas vezes
+entre RGE fisiológico e DRGE, associados à falta
+de uma classificação que permita categorizar os
+
+pacientes e à carência de exames diagnósticos
+específicos, assim como a falta de comprovação
+científica em relação à eficácia de algumas medicações, e os refluxos não ácidos e fracamente ácidos geram muita confusão em relação à abordagem diagnóstica e terapêutica do RGE e da DRGE
+em crianças e mesmo em adultos1-3,5,17,18 Este guia
+de revisão tem a intenção de simplificar os achados muitas vezes contraditórios e difíceis de entender sobre a DRGE, na faixa etária pediátrica
+
+Quadro clínico
+Os sintomas da DRGE variam de acordo com
+a idade do paciente e com a presença de complicações ou de comorbidades.3,5 O quadro clínico
+da DRGE é heterogêneo, os sinais e sintomas são
+inespecíficos e com gravidade variável, incluindo desde as simples regurgitações até as condições que ameaçam a vida do paciente. (Tabela 1).
+As manifestações clínicas podem ser decorrentes do simples refluxo (regurgitações e vômitos) ou das complicações esofágicas (esofagite,
+estenose esofágica e esôfago de Barrett) e extraesofágicas da DRGE (respiratórias, otorrinolaringológicas, neurocomportamentais, orais, entre
+outras).3,5 (Tabela 1).
+
+Tabela 1. Sinais e sintomas que podem estar associados à doença do refluxo gastroesofágico DRGE2
+Gerais
+
+Gastrintestinais
+
+Respiratórios/Via aérea
+
+Desconforto
+
+Regurgitações com ou sem
+vômitos em crianças maiores
+
+Rouquidão
+
+Irritabilidade/choro/sono agitado
+
+Azia/pirose
+
+Sibilos/broncoespasmo
+
+Perda de peso
+
+Dor no peito
+
+Estridor
+
+Não ganho de peso
+
+Dor epigástrica
+
+Tosse
+
+Postura anormal do pescoço (Sandifer)
+
+Odinofagia/disfagia
+
+Apneias/cianose
+
+Erosões dentais
+
+Engasgos, recusa alimentar
+
+BRUE
+
+Anemia
+
+Dor de garganta
+
+Pneumonias/aspiração
+
+Halitose
+
+Esofagite erosiva
+
+Otites de repetição
+
+Estenose de esôfago
+
+Asma de difícil tratamento
+
+Esôfago de Barrett
+
+Laringites de repetição
+
+Hematêmese/melena
+BRUE: Brief resolved unexplained events
+
+3
+
+Doença do Refluxo Gastroesofágico
+
+No início da história do paciente é sempre
+bom descartar os sinais de alerta para outras
+
+doenças, que deverão ser investigadas, quando
+presentes. (Tabela 2).
+
+Tabela 2. Sinais de alerta, que podem sugerir outro diagnóstico
+Gerais
+
+Neurológicos
+
+Gastrintestinais
+
+Febre
+
+Fontanela tensa
+
+Vômitos persistentes
+com perda de peso
+
+Letargia
+
+Macro/microcefalia
+
+Vômitos noturnos
+
+Irritabilidade/dor excessivas
+
+Aumento da circunferência cerebral
+
+Vômitos biliosos
+
+Falha importante de crescimento/
+emagrecimento
+
+Convulsões
+
+Hematêmese/melena
+
+Disúria
+
+Diarreia crônica
+
+Início de vômitos após os 6 meses
+ou que persistem após os 12 meses
+
+Sangramento retal
+Distensão abdominal
+
+Os sinais de alerta devem ser sempre investigados e, se for necessário, mudar o algoritmo
+diagnóstico. A Tabela 2 descreve os sinais de
+alarme nas crianças com regurgitações e/ou
+vômitos.
+A extensão e a gravidade da esofagite de
+refluxo, encontradas nos exames diagnósticos,
+podem não se correlacionar com a intensidade
+dos sintomas.4,5
+
+A DRGE, principalmente na criança maior,
+possui apresentações clínicas distintas: doença
+não erosiva (NERD, do inglês non-erosive reflux
+disease), esofagite erosiva (EE), azia funcional,
+esôfago hipersensível e esôfago de Barrett.9
+Embora haja similaridades entre os diferentes
+fenótipos da DRGE, existem diferenças clínicas
+importantes. NERD e EE são os fenótipos mais
+comuns, ocorrendo em até 83% dos casos.10,18
+(Tabela 3).
+
+Tabela 3. Diferentes fenótipos da doença do refluxo gastroesofágico e tratamentos (DRGE)10
+
+DRGE erosiva
+
+NERD
+
+NERD/esôfago
+hipersensível ao
+ácido
+
+NERD/esôfago
+hipersensível ao
+refluxo não-ácido
++ em lactentes
+
+Dispepsia
+funcional
+
+Respondedores
+a bloqueio ácido
+(IBP)
+
+Maioria
+respondedores
+a bloqueio
+ácido (IBP ou
+bloqueador H2)
+
+• Respondedores
+parciais ao IBP.
+• Procinéticos
+• Cirurgia
+
+• Espessantes de
+dieta
+• Antiácidos
+de barreira e
+citoprotetores
+• Bloqueador H2
+
+• Medidas gerais
+• Antidepressivos
+tricíclicos
+• Inibidores da
+captação da
+serotonina
+
+Exposição
+ácida anormal e
+esofagite
+
+• Exposição ácida
+anormal
+• Sem esofagite
+
+Exposição ácida
+normal, com
+correlação com
+sintomas
+
+•E
+ xposição ácida
+normal, sem
+correlação com
+sintomas
+•R
+ efluxo
+francamente
+ácido ou alcalino
+
+Exposição ácida
+normal, sem
+correlação com
+sintomas
+
+DRGE: doença do refuxo gastroesofágico; IBP: inibidores de bomba de prótons; NERD: doença não erosiva.
+
+4
+
+Departamento Científico de Gastroenterologia (gestão 2022-2024) • Sociedade Brasileira de Pediatria
+
+A DRGE mudou de um simples diagnóstico
+para um espectro fenotípico, em que cada fenótipo tem mecanismos fisiopatológicos únicos, que determinam a percepção dos sintomas.
+Entender esses mecanismos é importante para
+individualizar cada tratamento e traçar um plano
+de intervenções terapêuticas.1,2,10
+
+Refluxo nos lactentes
+O diagnóstico de RGE no lactente merece
+cuidado. Quando o conteúdo do estômago volta
+para o esôfago, boca e/ou nariz involuntariamente, isso é chamado refluxo gastroesofágico (RGE).
+O termo regurgitação é usado quando esse conteúdo gástrico pode ser visualizado. Este fenômeno faz parte do desenvolvimento normal de
+uma criança e a regurgitação não complicada não
+é, portanto, um sinal de doença. De acordo com
+Roma IV, o diagnóstico da regurgitação do lactente requer análise clínica detalhada e preencher os
+seguintes critérios, para crianças de três semanas
+a 12 meses de idade:3,9
+• Duas ou mais regurgitações ao dia por pelo menos três semanas.
+• Ausência de náuseas, dificuldade na alimentação ou deglutição, posturas anômalas, hematêmese, apneia ou aspiração, atraso no desenvolvimento ponderoestatural.3,9
+Ademais, após avaliação médica apropriada,
+as manifestações clínicas não podem ser plenamente explicadas por outra condição médica,
+o que inclui a avaliação cuidadosa dos sinais de
+alarme, que podem sugerir doenças orgânicas.
+Nesse contexto, é importante distinguir a regurgitação da DRGE, definida pela presença de manifestações/complicações, tais como irritabilidade,
+choro, recusa alimentar, vômitos, tosse, sibilos,
+rouquidão, estridor, azia, hematêmese, disfagia,
+odinofagia, esofagite, apneia, aspiração pulmonar, déficit ponderal, entre outros, que impactam
+significativamente na qualidade de vida da criança e seus pais. Importante enfatizar que a regurgi-
+
+tação difere do vômito, pois este é definido como
+um reflexo do sistema nervoso central que envolve a musculatura autonômica e esquelética, no
+qual o conteúdo do estômago é expelido para a
+boca em um movimento coordenado de intestino
+delgado, estômago, esôfago e diafragma.3,9
+Nos lactentes, o RGE é comum e, na maioria
+das vezes, fisiológico. Apesar da elevada frequência, apresenta resolução espontânea entre 12 e
+24 meses de idade, na maioria dos casos.3.9,16,17
+Assim, a evolução do RGE fisiológico é benigna
+e autolimitada, não sendo necessários exames
+diagnósticos, nem o uso de medicamentos.3
+Nos lactentes com DRGE, a irritabilidade e a
+recusa alimentar podem ser correspondentes
+não verbais da queimação retroesternal. A irritabilidade e o choro contínuo nos lactentes são
+muitas vezes interpretados como refluxo ácido,
+e há pressão para tratamento antiácido. Sabe-se
+hoje, pela pHmetria e impedanciometria, que no
+lactente os refluxos não ácidos e fracamente ácidos são responsáveis pela maioria (53% a 56%)
+dos episódios de refluxo e que esses são causadores de choro e irritabilidade.3,5 Também é sugerido pela literatura que o volume do material
+refluído está mais fortemente associado à irritabilidade do que o pH.7,16 Então, há uma mudança
+nos conhecimentos e uma falha no tratamento da
+DRGE, pois a terapêutica com antiácido muitas
+vezes é ineficaz.3 Bloqueadores H2 e IBPs podem
+não ser eficazes para o tratamento de sintomas
+inespecíficos, como choro e irritabilidade nos
+lactentes pequenos.3,5,6,16,17,19,20 Nesses lactentes,
+os espessantes da dieta, o alginato e o sucralfato
+podem entrar no algoritmo de tratamento.5,11,19,20
+Muitas vezes é difícil diferenciar entre os
+sintomas da DRGE e alergia alimentar ou cólica
+infantil, pois podem se manifestar por choro e
+irritabilidade.21-23 Além disso, as alergias alimentares podem causar inflamação que leva à dismotilidade esofágica e ao RGE.23-26 Os consensos
+aconselham tentar um teste terapêutico com fórmulas hidrolisadas ou de aminoácidos, antes de
+tratar a DRGE, nas crianças que não são amamentadas ou dieta para a mãe, naquelas amamentadas no seio materno.5,24,25 (Figura 1).
+
+5
+
+Doença do Refluxo Gastroesofágico
+
+Refluxo nas crianças maiores
+Nas crianças maiores, como nos adultos, a
+evolução para a cronicidade ocorre com maior
+frequência. Pode haver períodos de remissão e
+de recidiva durante anos, o que justifica a maior
+prevalência e a maior gravidade das complicações esofágicas da DRGE nessa faixa etária,
+quando comparada à dos lactentes.1-3
+Com foco em definições baseadas em sintomas, houve um grande aumento de pacientes em
+uso de IBP para tratar sintomas mediados pelo
+ácido.14 Com o tempo foram surgindo muitos pacientes que não respondiam à supressão ácida,
+sugerindo que o ácido não era o único responsável pelos sintomas de refluxo. Outros fatores
+foram contemplados como refluxo alcalino, ou
+fracamente ácido, problemas da motilidade, hipersensibilidade esofágica e distúrbios funcionais.14 Como resultado, a DRGE tornou-se uma
+doença heterogênea, conceito este que foi posto
+em destaque no consenso de Roma IV, e classificado entre as doenças esofágicas.13-15
+
+tratamentos mais invasivos e que têm mais risco
+de complicações.
+
+Tabela 4. Condições que determinam a doença
+do refluxo gastroesofágico mais grave e de
+mais difícil tratamento5
+Atresia de esôfago
+Malformações esofagogástricas
+Famílias com DRGE ou complicações
+Condições neurológicas
+Pneumopatias
+Obesidade
+Prematuridade
+Síndromes genéticas
+Hérnia hiatal ou diafragmática
+Quimioterapia
+
+Como muitos pacientes não têm doença erosiva à endoscopia, são classificados em fenótipos NERD, de acordo com pHmetria ou pH-impedanciometria:
+• NERD (endoscopia normal e exposição ácida
+esofágica anormal);
+• Hipersensibilidade esofágica (exposição ácida
+normal, com correlação com sintomas);
+• Azia funcional (exposição ácida normal, sem
+correlação com sintomas).
+De acordo com esse espectro, consideram-se os distintos tratamentos, como mostrado na
+Tabela 3.
+
+Refluxo nos grupos de risco
+para DRGE
+Os grupos que aparecem na Tabela 4 são de
+pacientes com comorbidades que necessitam de
+
+6
+
+Diagnóstico
+A detecção do refluxo do conteúdo gástrico para o esôfago em um exame não significa,
+necessariamente, que o paciente tenha DRGE.
+Por isso, é fundamental levar em consideração
+a história clínica e o exame físico. Segundo os
+últimos consensos, a história clínica é suficiente
+para firmar o diagnóstico nas crianças que apresentam sintomas mais específicos para DRGE.
+Nos lactentes os sintomas são muito inespecíficos, como choro, irritabilidade e recusa alimentar, não sendo suficientes para diagnosticar ou
+predizer a resposta à terapia.2,3,18 Por outro lado,
+nenhum exame é considerado padrão ouro para
+o diagnóstico de DRGE; cada um tem prós e contras e indicações específicas, como demonstrado
+na Tabela 5.
+
+Departamento Científico de Gastroenterologia (gestão 2022-2024) • Sociedade Brasileira de Pediatria
+
+Tabela 5. Exames diagnósticos e indicações.2,3,5,18,21
+RXEED
+
+Alterações anatômicas e gastroparesias
+
+Cintilografia
+esofagogástrica
+
+• Identificar o RGE pós-prandial, avaliar o esvaziamento gástrico e
+detectar a aspiração pulmonar.
+• Consenso sugere não utilizar
+
+Ultrassonografia
+esofagogástrica
+
+• Não é recomendada para avaliação clínica de rotina da DRGE no
+lactente nem na criança maior.
+• Não diferencia RGE e DRGE.
+• Diagnostica estenose hipertrófica de piloro.
+
+pHmetria
+
+Avaliar o paciente em condições mais fisiológicas e por longos
+períodos, quantificar o RGE ácido e correlacionar os episódios de
+refluxo com os sinais e sintomas.
+
+• Impedanciometria
+esofágica intraluminal
+• pH-impedanciometria.
+
+• Monitorar a quantidade e a qualidade do material refluido.
+• Correlacionar sintomas, para esclarecer o papel do refluxo ácido
+e do não ácido, para determinar a eficácia da terapia ácida e,
+principalmente, para diferenciar NERD de esôfago hipersensível e
+de azia funcional.
+
+Manometria esofágica
+
+Avalia a motilidade do esôfago.
+
+Endoscopia digestiva
+alta
+
+Avalia a mucosa (biópsias), esofagites e diagnóstico diferencial de
+DRGE, Esofagite Eosinofílica. Também Hérnia de Hiato, estenoses e
+Barrett.
+
+RGE – refluxo gastroesofágico;
+DRGE – doença do refluxo gastroesofágico
+
+Teste terapêutico empírico
+com supressão ácida
+Segundo Vandenplas et al., as crianças maiores e os adolescentes, com sintomas típicos
+de DRGE, sem sinais de alerta, podem ser submetidos a um teste terapêutico empírico com
+fármacos IBP, durante quatro semanas, podendo estender esse tempo para 12 semanas, se
+houver melhora clínica.2 Os sintomas típicos
+são: azia, dor epigástrica em queimação, tosse crônica, principalmente relacionada à alimentação, náuseas e regurgitações, dor torácica e dispepsia. Ao final do parágrafo, incluir
+frase: Sugere-se usar o bloqueador H2 como
+teste terapêutico nos casos leves.27
+O guia de DRGE de 2018 enfatiza que não
+há base científica para indicar teste terapêutico para o diagnóstico de DRGE em lactentes e
+
+sugere teste terapêutico, de quatro a oito semanas, em crianças maiores com sintomas típicos.5
+Reforça ainda que esse teste não deve ser utilizado para sintomas extraesofágicos.5 O último
+consenso de 2023 sobre tratamento da DRGE
+em lactentes sinaliza a realização de testes terapêuticos curtos (oito semanas no máximo)
+também nos lactentes, levando sempre em consideração os refluxos não ácidos e fracamente
+ácidos.3
+
+Tratamento da doença do
+refluxo gastroesofágico
+Tratamento conservador
+Tratamento conservador (não medicamentoso) e orientações dietéticas e posturais sãoprescritos habitualmente e se encontram na Tabela 6.
+
+7
+
+Doença do Refluxo Gastroesofágico
+
+Tabela 6. Tratamento conservador3
+Orientações gerais (não medicamentosas)
+
+Orientações dietéticas/posturais/conservadoras
+
+• Não usar roupas apertadas.
+
+Crianças maiores e adolescentes:
+
+• Sugerir a troca das fraldas antes das
+mamadas
+
+Não dormir após comer muito.
+
+• Evitar o uso de fármacos que exacerbam o
+RGE.
+
+Alimentos muito gordurosos.
+
+Evitar refeições volumosas e altamente calóricas.
+Evitar obesidade.
+
+• Orientar infusões lentas nas crianças com
+sondas nasogástricas.
+• Evitar o tabagismo (ativo ou passivo), pois a
+exposição ao tabaco induz o relaxamento do
+EEI, aumenta os índices de asma, pneumonia,
+apneia e da síndrome de morte súbita.
+
+Decúbito lateral esquerdo, com a cabeceira
+elevada.
+Lactentes:
+Posição supina para dormir.
+Fórmulas AR.
+
+• Evitar obesidade.
+
+Não suspender o leite materno.
+
+• Orientações dietéticas e posturais anti-RGE.
+
+Espessantes.
+Sucralfato ou alginato - para os refluxos não
+ácidos e francamente ácidos.
+
+AR: anti-regurgitação; EEI: esfíncter esofágico inferior; RGE: refluxo gastroesofágico
+Modificado de19,20.
+
+Tratamento medicamentoso
+
+os sintomas e a gravidade. Os fármacos recomendados são:
+
+Não há um algoritmo estabelecido para o
+tratamento da DRGE em crianças que não provoque discussões e controvérsias. (Figuras 1 e 2).
+Tanto o diagnóstico como o tratamento da DRGE
+devem ser feitos passo-a-passo, de acordo com
+
+• Antiácidos de contato, ou protetores de mucosa, recomendados como sintomáticos, para
+sintomas esporádicos, pontuais e sintomas
+leves e moderados ou diminuição da acidez
+noturna.1-3,5,19,27 Tabela 7.
+
+Tabela 7. Doses usuais de antiácidos e citoprotetores usados no tratamento da doença de refluxo
+gastroesofágico em pediatria3,5,19,20
+Droga
+
+Doses existentes
+e sugeridas
+
+Idade e peso
+
+Antiácido com
+Mg ou Al
+
+2,5 mL 3x ao dia
+5 mL 3x ao dia
+
+< 5 kg
+> 5 kg
+
+Sucralfato
+
+Comprimidos 1 g.
+Flaconetes 2 g = 10 mL
+Suspensão 200 mg/mL
+
+Crianças maiores de 6 anos = 1 g 4x ao dia.
+Lactentes e crianças menores de 6 anos = 2,5 mL 4x ao dia.
+Lactentes e crianças menores de 6 anos = 2,5 mL 4x ao dia.
+Maiores de 6 anos = 5 mL 4x ao dia
+
+Alginato
+
+Líquido.
+Sachês.
+Comprimidos mastigáveis.
+
+Não existem preparações adequadas para crianças
+menores no Brasil
+
+Al: alumínio; Mg: magnésio
+
+8
+
+Departamento Científico de Gastroenterologia (gestão 2022-2024) • Sociedade Brasileira de Pediatria
+
+O sucralfato é considerado um citoprotetor,
+ou protetor de mucosa, que pode também ser
+usado na tentativa de proteger a mucosa gástrica e melhorar os sintomas.5,25 O sucralfato é um
+complexo de sacarose com hidróxido de alumínio, que se caracteriza pela ausência de efeitos
+colaterais, pois praticamente não é absorvido.
+• Sucralfato liga-se às proteínas de cargas positivas pela formação de um gel que adere à
+mucosa gástrica e duodenal, proporcionando
+uma proteção uniforme contra o ataque ácido,
+a pepsina e os sais biliares;25
+• Sucralfato adsorve a pepsina e os sais biliares26;
+• Sucralfato não modifica o pH, ao contrário dos
+outros antiácidos26;
+• Sucralfato cobre as mucosas gástrica, duodenal
+e esofágica (especialmente quando estão ulceradas), evitando o contato do suco gástrico,
+aumentando o fluxo sanguíneo, estimulando a
+produção de bicarbonato, secreção de muco e
+angiogênese26;
+• Pode provocar alívio imediato e pontual em alguns pacientes.25
+• Ainda são necessários mais estudos e experiência em pediatria com o sucralfato.
+• Procinéticos
+O uso dos procinéticos baseia-se no fato de
+aumentarem o tônus do EEI, melhorarem a depuração esofágica e o esvaziamento gástrico.
+Exemplos desses medicamentos são prucaloprida, domperidona, metoclopramida, eritromicina,
+cisaprida e baclofen.3,26,27 Entretanto, nenhuma
+destas medicações mostrou-se eficaz em diminuir a frequência dos relaxamentos transitórios
+do EEI, principal mecanismo fisiopatológico do
+RGE. Não são eficazes em induzir a cicatrização
+das lesões esofágicas e não apresentam efeito
+anti-RGE comprovado, mas sim anti-regurgitação,
+que ajudaria controlar os sintomas, principalmente de vômitos e regurgitação, mas não têm
+indicação na DRGE, segundo os consensos.3,5,19
+Atualmente, não há evidências suficientes
+para o uso de rotina dos procinéticos.5 Além disso, os potenciais efeitos colaterais destas medicações são mais importantes do que os benefícios
+
+por eles alcançados, no tratamento da DRGE.5,6,20,27
+O consenso atual sugere não utilizar procinéticos
+de rotina no tratamento de DRGE em pediatria.5
+Metoclopramida e Bromoprida
+Não há ensaios clínicos controlados que
+apoiem a sua utilização ou comprovem seus benefícios na faixa etária pediátrica.5 Como apresentam efeitos colaterais neurológicos, como os
+extrapiramidais, não se deve indicá-la no tratamento da DRGE.5,7 Não há indicação para o uso de
+metoclopramida nem de bromoprida na DRGE.5
+Domperidona
+A domperidona é um procinético que aumenta a pressão no esfíncter esofágico inferior
+e melhora a motilidade, mas o seu uso é limitado
+em pediatria por falta de estudos que demonstrem sua eficácia.5 A domperidona também causa efeitos colaterais ocasionais, como agitação e
+aumento das cólicas nos lactentes, que muitas
+vezes pioram o quadro clinico ou confundem
+mais o pediatra.3,5 O simples fato de suspender a
+domperidona nos lactentes pode melhorar consideravelmente os sintomas do paciente, que
+está apresentando efeitos colaterais da medicação. Mais recentemente, tem-se demonstrado a
+ocorrência de manifestações cardiovasculares
+associadas ao uso da domperidona, incluindo
+prolongamento do intervalo QT e arritmias ventriculares e também, alterações extrapiramidais.
+Não há, portanto, indicação de usar domperidona na DRGE de lactentes e crianças.5,7
+Prucaloprida
+A prucaloprida é um agonista dos receptores
+5HT4 seletivo, de alta afinidade, que tem ação
+procinética, mais estudado em adultos.28 Há poucos estudos em problemas gastrintestinais em
+crianças. Foi primeiramente indicado para tratar
+constipação, mas cada vez mais tem sido usado para indicações do trato gastrintestinal alto.
+A prucaloprida melhora o esvaziamento gástrico
+em adultos normais e em pacientes com gastroparesia, também diminui a exposição ácida do
+esôfago nos pacientes com refluxo refratário.28
+
+9
+
+Doença do Refluxo Gastroesofágico
+
+Hirsch e colaboradores28 estudaram a prucaloprida em crianças com refluxo complicado e distúrbios alimentares e demonstraram altas taxas
+de melhora sintomática, particularmente nos
+pacientes com sondas enterais e comorbidades
+pulmonares ou neurológicas.
+
+• Medicamentos que diminuem a secreção ácida
+(IBP ou bloqueadores H2), quando os sintomas,
+como dor retroesternal e azia, e/ou complicações,
+como a esofagite, estão associados à ação do
+ácido no esôfago ou em outros órgãos, como os
+sintomas respiratórios3.
+
+Tabela 8. Doses usuais de bloqueadores de secreção ácida usadas na doença de refluxo gastroesofágico
+Droga/Nome comercial
+
+Doses
+
+Dose máxima
+
+FAMOTIDINA (Bloqueador H2)
+Famox® 40 mg/5mL
+
+0,5 a 1,0 mg/Kg/dia de 12/12 horas
+quando optado 1x ao dia, a
+preferência é que seja dado à noite
+
+40 mg
+
+OMEPRAZOL (IBP)
+Losec Mups 10 e 20 mg solúvel
+
+1 a 4 mg/Kg/dia
+
+80 mg
+
+LANSOPRAZOL (IBP)
+15 e 30 comprimidos
+
+2 mg/Kg/dia para lactentes
+30 mg para os maiores de 30 Kg
+
+60 mg
+
+ESOMEPRAZOL (IBP)
+Nexium® 20 e 40 mg solúvel
+Esio® 20 e 40 mg solúvel
+Gaeso® 20 e 40 mg solúvel
+
+20 mg até 20 Kg (lactentes 10 mg)
+40 mg acima de 20 Kg
+
+40 mg
+
+PANTOPRAZOL (IBP)
+Adipept 20 e 40 mg comprimidos
+Pantozol 20 e 40 mg comprimidos
+Pantocal 20 e 40 mg comprimidos
+
+1 a 2 mg/Kg/dia
+
+40 mg
+
+DESLANZOPRAZOL (IBP)
+Dexilant® 30 e 60 mg (pode abrir o comprimido)
+
+30 mg (testado em adolescentes)9
+
+60 mg
+
+• Antagonistas do receptor H2 da histamina –
+Ranitidina
+Em 2019, o uso da ranitidina foi suspenso
+pelo FDA (Food and Drug Administration) nos
+Estados Unidos da América e, logo após, em nosso país, por isso não contamos mais com essa
+droga para a DRGE.29
+• Antagonistas do receptor H2 da histamina Famotidina
+A famotidina é um bloqueador dos receptores H2 (H2RA) de histamina.30
+A famotidina diminui a produção de ácido
+gástrico. Sua atividade farmacológica resulta
+
+10
+
+na inibição da secreção gástrica, pois suprime a
+concentração e o volume de ácido gástrico.30 Sua
+atividade farmacológica é utilizada no tratamento das doenças ácido-pépticas.30 A famotidina foi
+aprovada pelo FDA e é disponível para tratamento de azia, da DRGE, úlceras pépticas, duodenais
+e gástricas, em adultos e crianças, com mais indicações para tratar condições hipersecretórias
+patológicas.30
+A famotidina é um antagonista dos receptores H de histamina.30 Liga-se aos receptores H,
+localizados na membrana basolateral da célula
+parietal, no estômago, efetivamente bloqueando a ação da histamina.31 Sua atividade farmacológica resulta na inibição da secreção gástrica,
+
+Departamento Científico de Gastroenterologia (gestão 2022-2024) • Sociedade Brasileira de Pediatria
+
+pois suprime a concentração e o volume de ácido gástrico.30 A famotidina inibe a secreção ácida
+gástrica basal e também a noturna, assim como
+reduz o volume gástrico, a acidez e a secreção
+estimulada pela comida, pela cafeína, pela insulina e pela pentagastrina.31
+A famotidina é metabolizada pelas enzimas
+do citocromo P450 e tem impacto inibitório
+mínimo no metabolismo de outras drogas.30,31
+Ela é excretada pelo rim.31
+Embora a farmacocinética da famotidina seja
+similar em adultos e crianças maiores, parece ser
+diferente nos recém-nascidos, devido à imaturidade da função renal.31 Ainda se conhece pouco
+sobre a farmacocinética da famotidina em lactentes entre um mês de vida e um ano, período
+em que a função renal é imatura.30 Em lactentes
+menores de três meses de idade, o clearance renal e o plasmático da famotidina são diminuídos
+quando comparados com lactentes mais velhos,
+maiores do que três meses.30,31
+Estudos pediátricos, que avaliaram a famotidina, mostraram que a farmacocinética e farmacodinâmica dessa droga, por via intravenosa, são
+similares em crianças maiores de um ano e em
+adultos.31 Esses dados mostraram uma dose inicial de famotidina EV de 0,5 mg/kg a cada 8 ou
+12 horas.32 (Tabela 8)
+Os parâmetros farmacocinéticos para crianças maiores parecem ser similares aos de adultos.31
+A famotidina, quando comparada aos outros
+bloqueadores H2, exibe a mais baixa concentração no leite materno.31
+
+30 minutos da administração de um bloqueador
+H2 e alcança o pico da concentração plasmática
+duas horas e meia depois da administração. Farmocinetica diverge da citada em bula. Entende-se que existem fontes diferentes na literatura,
+sugere-se se possível seguir a informação de
+bula = duração de 10-12 horas, bula disponível no site da ANVISA. Estudos randomizados e
+controlados, em adultos, têm demonstrado que
+a cimetidina, a ranitidina e a famotidina são superiores ao placebo no alívio dos sintomas e na
+cicatrização da mucosa esofágica.30
+A famotidina tem vantagens potenciais sobre
+a cimetidina e a ranitidina, também bloqueadores H2, que incluem sua potência, meia-vida de
+eliminação relativamente mais longa, e ausência de interação com as isoformas do citocromo
+P450, o que significa menos interações medicamentosas.30-32
+Os efeitos adversos mais comuns são: agitação (em pediatria até 14%, em adultos menos do
+que 1%), cefaleia (5%), diarreia (2%) e constipação (1%).30,31
+Pneumonias nosocomiais e aumento do risco
+de gastroenterites e infecções são complicações
+atribuídas aos bloqueadores H2 em geral. Esses
+efeitos ainda não foram reportados em crianças em uso de famotidina. As infecções incluem
+respiratórias, enterocolite necrosante, urinárias
+e por Clostridium difficile.31,32 A famotidina não
+deve ser utilizada em pacientes com hipersensibilidade ou alergia aos seus componentes ou à
+cimetidina.31
+
+A segurança e eficácia da famotidina, no tratamento da doença ulcerosa péptica e da DRGE
+com esofagite, é apoiada por estudos realizados
+em mais de 150 pacientes pediátricos.32
+
+Os bloqueadores H2 desenvolvem taquifilaxia, e essa é uma desvantagem para seu uso mais
+crônico.30 Atualmente a famotidina é o único antagonista H2, em formulação líquida, voltado para
+a pediatria. Ainda são necessários mais estudos
+e experiência em pediatria com a famotidina.
+
+As opiniões de expertos sugerem pouca
+diferença clínica entre as várias formulações
+dos bloqueadores H2. Estudos farmacocinéticos, em crianças em idade escolar, sugerem
+que o pH gástrico começa a aumentar dentro de
+
+Wenning e colaboradores,31 em um estudo
+multicêntrico, incluíram 36 lactentes tratados
+com famotidina EV ou oral. Dividiram os lactentes
+em menores e maiores do que três meses e administraram 0,25, 0,5 ou 1 mg/Kg/dose uma ou duas
+
+11
+
+Doença do Refluxo Gastroesofágico
+
+vezes ao dia, por dois a oito. Os lactentes menores do que três meses apresentaram clearance
+plasmático e renal diminuídos, quando comparados com os lactentes maiores de três anos até
+12 meses.31 Os autores concluíram que um curso
+curto de tratamento com famotidina, em lactentes, foi bem tolerado e que as características da
+sua farmacocinética, no primeiro ano de vida, são
+explicadas pelo desenvolvimento da função renal, a rota primária da excreção dessa droga.31
+Miyake e colaboradores avaliaram a eficácia
+da famotidina no tratamento de esofagite por refluxo e hérnia hiatal em pacientes neurológicos,
+de um a 18 anos. Seis pacientes dos 17 já haviam
+sido tratados com cimetidina ou antiácidos, sem
+melhora. Os pacientes receberam 1 a 2 mg/Kg/dia
+VO ou EV, duas ou três vezes ao dia.33 Melhora
+clinica, definida como resolução dos vômitos e
+da hematêmese, ocorreu em 70% dos pacientes
+em duas semanas e em 90%, em três semanas.33
+Não houve efeitos colaterais neste estudo.33
+33
+
+Na guia sobre DRGE da European Society
+for Pediatric Gastroenterology, Hepatology and
+Nutrition (ESPGHAN) e da North American Society
+for Pediatric Gastroenterology, Hepatology and
+Nutrition (NASPGHAN) de 2018, a dose de famotidina sugerida é de 1 mg/Kg/dia, sendo a dose
+máxima 40 mg.5
+• Inibidores da Bomba de Prótons (IBPs)
+Os IBPs estão indicados nos casos de esofagite erosiva, estenose péptica ou esôfago de
+Barrett, bem como nas crianças que necessitam
+de um bloqueio mais efetivo da secreção ácida, por exemplo, nas com doença respiratória
+crônica grave ou problemas neurológicos. Em
+contraste aos bloqueadores H2, o efeito do IBP
+não diminui com seu uso crônico. Sua potente
+supressão ácida acarreta diminuição do volume intragástrico nas 24 horas, o que facilita o
+esvaziamento gástrico e diminui o volume do
+refluxo.34-40
+Os IBP atualmente existentes são: omeprazol, pantoprazol, esomeprazol, lansoprazol, rabeprazol e dexlansoprazol (Tabela 8).
+
+12
+
+Vonoprazan é um bloqueador de ácido competitivo de potássio (PCAB) que inibe o sistema
+enzimático H+, K+-ATPase de maneira competitiva de potássio.41 Por este mecanismo, o vonoprazan suprime a secreção de ácido gástrico basal e
+estimula a secreção de ácido gástrico na superfície secretora das células parietais gástricas.41
+O vonoprazan, ainda não tem estudos clínicos e
+não é utilizado em pediatria.
+Os IBPs podem causar quatro tipos efeitos
+colaterais nas crianças: reações idiossincráticas,
+interações com outras drogas, hipergastrinemia e hipocloridria induzidas por droga.33,36,39,40
+Os mais comuns são cefaleia, diarreia, constipação e náuseas, cada um deles ocorrendo em cerca de 2% a 7% dos pacientes.5,7,8 A hiperplasia
+das células parietais e os pólipos hiperplásicos
+de fundo gástrico são alterações benignas ocasionadas pelo bloqueio ácido e pela hipergastrinemia.4,8
+Deve-se levar em consideração que vários
+estudos associam a hipocloridria do IBP às pneumonias adquiridas na comunidade, gastroenterites, candidíases e até mesmo enterocolite em
+pré-termos.4 Nos adultos, provocam nefrite intersticial aguda.4 Além disso, os IBP podem alterar a microbiota intestinal do paciente (formação
+do microbioma), e alguns estudos sugerem que a
+supressão ácida pode predispor ao desenvolvimento de alergias alimentares.35,37-39
+O omeprazol pode ser utilizado, na dose de
+0,7 a 3,5 mg/kg/dia.33,34 A administração de um
+IBP em longo prazo não é aconselhável sem investigação prévia e adequada.35-37
+Após uso prolongado, deve-se diminuir gradativamente a dose do IBP. A diminuição gradativa é empírica, mas pode ser feita em dias
+alternados e de 2/2 dias, 3/3 dias, 4/4 dias,
+diminuindo semanalmente e parar. Alguns estudos em adultos sugerem que a famotidina
+pode ser utilizada como desmame. Em alguns
+pacientes, a descontinuação abrupta do tratamento com IBP pode ocasionar um efeito rebote na produção de ácido, requerendo mais
+IBP.36-39
+
+Departamento Científico de Gastroenterologia (gestão 2022-2024) • Sociedade Brasileira de Pediatria
+
+Os consensos de DRGE de 2018 e 2023 relatam as seguintes conclusões:3,5
+• Lactentes normais, com sintomas de RGE, devem ser tratados, inicialmente, com medidas
+conservadoras (orientações de dieta e posição)
+e avaliados para alergia à proteína do leite de
+vaca (APLV). A maioria desses lactentes melhora com o tempo e não apresenta doença induzida pelo ácido, portanto não se beneficia com
+IBP. O uso de espessantes para crianças com
+fórmula, ou mesmo com leite materno (não
+existe ainda no Brasil espessante do leite materno), tem-se mostrado eficaz em muitos desses pacientes.5 Sucralfato e famotidina podem
+ser usados nos casos mais leves e intermitentes, antes dos IBPs.3,19
+• O uso de IBP deve ser reservado para lactentes
+com doença induzida pelo ácido documentada,
+como esofagite erosiva. Sem doença comprovada, o balanço entre riscos e benefícios dos
+IBP nessa idade não é favorável, e os efeitos
+do uso em longo prazo não são estudados.
+No consenso de 2023, o teste terapêutico com
+IBP pode ser realizado por curtos espaços de
+tempo (máximo oito semanas);3,5
+• São necessárias avaliações regulares da necessidade de supressão ácida por longo tempo e suspensão da medicação quando não é
+eficaz;3,5
+• O grupo de estudos sugere não usar bloqueador H2 ou IBP em lactentes com choro e irritabilidade, com refluxo fisiológico;
+• Não usar bloqueador H2 ou IBP como tratamento de regurgitações nos lactentes sem comorbidades com suspeita de RGE com choro e
+regurgitação;
+• Há recomendação de cursos curtos de quatro
+a oito semanas de IBP ou bloqueador H2 para
+
+sintomas típicos (azia, dor retroesternal, pirose, dor epigástrica) em lactentes e crianças
+maiores;
+• Há recomendação de não usar IBP ou bloqueador H2 em sintomas extraesofágicos (tosse,
+broncoespasmo, asma), exceto na presença
+de sintomas típicos e/ou exame sugestivo de
+DRGE; endossado por guia internacional;5
+• Há recomendação de avaliação da eficácia do
+tratamento e exclusão de causas alternativas
+de sintomas em crianças que não respondem
+ao teste terapêutico, bem-feito, de quatro a
+oito semanas;
+• Por último, o consenso recomenda verificações
+regulares da necessidade de tratamentos longos com supressão ácida em crianças e lactentes.3 Recomenda-se suspender a medicação,
+assim que for possível.3,5
+
+Tratamento cirúrgico
+Em 2018, o trabalho do grupo de expertos
+sugere cirurgia na DRGE nas seguintes situações:5
+• Complicações que ameaçam a vida (aspiração);
+• Depois de avaliação apropriada para excluir
+outras doenças;
+• Condições crônicas (fibrose cística, neuropatas), com risco importante de complicações;
+• Necessidade de uso crônico de medicações
+para controle dos sintomas.5
+A Tabela 9 traz o sumário da condução e gerenciamento da DRGE
+
+13
+
+Doença do Refluxo Gastroesofágico
+
+Tabela 9. Sumário da condução e gerenciamento da doença do refluxo gastroesofágico.
+DIAGNÓSTICO
+SINTOMAS são importantes. Gerenciam as condutas
+Considerar a faixa etária e as situações mais comuns: lactentes saudáveis ou com comorbidades,
+crianças maiores e tipos de refluxo.
+Endoscopia – gerencia os tipos de refluxo (EE ou NERD), diagnóstico diferencial com EoE e esofagites
+infecciosas.
+Em geral, o primeiro teste para gerenciar os tipos diferentes de DRGE e avaliar sintomas atípicos.
+pH- impedanciometria – tipos de refluxo sem esofagite (NERD), resposta ao tratamento, correlação
+com sintomas. Avaliação de refluxo ácido e não-ácido, de respostas aos IBPs ou bloqueadores H2.
+Manometria – não tem indicação para diagnóstico de DRGE. Usado para excluir outros diagnósticos
+(acalásia) e avaliação da persistalse e quando cirurgia é considerada.
+TRATAMENTO
+Modificações do estilo de vida – de acordo com os sintomas de cada paciente e suas condições.
+Enfatizar perda de peso nos obesos e sobrepesos.
+Antiácidos e citoprotetores: sintomas leves e intermitentes.
+Usar sob demanda.
+Sintomas persistentes enquanto em terapia antiácida (IBP ou H2)
+Bloqueadores H2 – sintomas típicos e atípicos leves e intermitentes e esofagites leves (grau A)
+IBPs – Tratamento preventivo para sintomas graves, esofagite erosiva, estenose e Barret.
+Sintomas atípicos que respondem a um teste terapêutico.
+Procedimentos e cirurgias
+Nissen é o método standard – intolerância aos IBPs, regurgitações mesmo com tratamento,
+refluxo não-controlado, aspiração.
+Fundoplicatura endoscópica.
+
+14
+
+Departamento Científico de Gastroenterologia (gestão 2022-2024) • Sociedade Brasileira de Pediatria
+
+Figura 1. Algoritmo de tratamento dos lactentes com suspeita de doença do refluxo gastroesofágico
+
+História e exame fisico
+
+Sinais de alerta
+
+Sim
+
+Descartar outras
+doenças / condições
+
+Melhora
+
+Continuar manejo
+conservador
+
+Melhora
+
+Continuar tratamento
+para APLV
+
+Não
+Manter leite materno, evitar overfeeding,
+Usar fórmula espessada (AR)
+pode-se tentar antiácidos
+ou citoprotetores.27
+
+Não melhora
+
+Fazer teste terapêutico para APLV dieta para a mãe que amamenta ou
+Fórmula extensamente hidrolisada ou
+Fórmula de aminoácidos - 2 a 4 semanas
+
+Não melhorou ou ainda
+tem sintomas de DRGE
+Bloqueador H2
+
+Não
+melhorou
+Encaminhar
+para o gastropediatra
+
+Fazer diagnósticos diferenciais;
+considerar exames
+e /ou
+teste terapêutico de curta duração
+4 a 8 semanas
+
+Não consegue
+encaminhar
+
+Considerar 4 a 8 semanas
+de supressão ácida –
+Parar após esse período
+se os sintomas resolveram
+
+Sintomas não
+melhoram ou recorrem
+
+Assintomático
+sem tratamento
+
+Sem mais tratamentos
+
+APVL - alérgia às proteínas do leite de vaca
+Modificado de Rosen R. et al. e baseado na opinião dos autores.
+
+15
+
+Doença do Refluxo Gastroesofágico
+
+Figura 2. Algoritmo de tratamento para crianças e adolescentes com sintomas típicos de doença
+do refluxo gastroesofágico.
+História e exame fisico
+
+Sinais de alerta
+
+Sim
+
+Descartar outras
+doenças / condições
+
+Melhora
+
+Continuar manejo
+conservador
+
+Não
+Modificar estilo de vida
+e fazer educação dietética
+
+Não melhora
+Melhora
+
+Supressão ácida por
+4 a 8 semanas
+
+Continuar supressão ácida e tentar tirar
+em 4 a 8 semanas, gradativamente
+
+Não melhorou
+
+Volta a piorar com o desmame
+
+Encaminhar para
+o gastropediatra
+
+Sintomas persistentes ou impossibilidade
+de parar a supressão ácida, por retorno
+dos sintomas
+Esofagite erosiva
+ou Esofagite
+eosinofílica
+
+ENDOSCOPIA DIGESTIVA ALTA
+
+Sintomas que respondem à IBP
+e endoscopia normal
+
+Sintomas persistentes mesmo
+com IBP e endoscopia normal
+
+Sintomas persistentes/
+endoscopia normal
+pH-MII ou pHmetria
+
+Continuar tratamento com IBP e tentar
+desmamar de tempos em tempos
+
+Exposição ácida ANORMAL
+
+Exposição ácida normal
+
+NERD
+
+Correlação com sintomas
+
+Correlação positiva:
+Esôfago Hipersensível
+
+Correlação negativa:
+Azia funcional
+
+NERD - Doença não erosiva
+Modificado de Rosen R. et al. e baseado na opinião dos autores.
+
+16
+
+Tratar
+adequadamente
+
+Departamento Científico de Gastroenterologia (gestão 2022-2024) • Sociedade Brasileira de Pediatria
+
+REFERÊNCIAS BIBLIOGRÁFICAS
+
+01. Katzka DA, Pandolfino JE, Kahrilas PJ. Phenotypes
+of Gastroesophageal Reflux Disease: Where Rome,
+Lyon, and Montreal meet. Clin Gastroenterol
+Hepatol. 2020;18:767- 776.
+
+14. Thrift AP, Kramer JR, Qureshi Z, et al. Age at onset
+of GERD symptoms predicts risk of Barrett’s
+esophagus. Am J Gastroenterol. 2013;108(6):
+915-22.
+
+02. Katzka DA, Kahrilas PJ. Advances in diagnosis
+and management of Gastroesophageal Reflux
+Disease. BMJ. 2020;371:m3786.
+
+15. van der Pol R, Smits M, Benninga MA, et al. Nonpharmacological therapies for GERD in infants
+and children. J Pediatr Gastroenterol Nutr.
+2011;53:S6-S8.
+
+03. Vandenplas Y, Orsi M, Benninga M, Infant
+gastroesophageal reflux disease management
+consensus. Acta Paediatr. 2024;113(3):403-410.
+04. Vandenplas Y, Rudolph CD, Di Lorenzo C, et al.
+Pediatric gastroesophageal reflux clinical practice
+guidelines: joint recommendations of the North
+American Society for Pediatric Gastroenterology,
+Hepatology, and Nutrition (NASPGHAN) and the
+European Society for Pediatric Gastroenterology,
+Hepatology, and Nutrition (ESPGHAN). J Pediatr
+Gastroenterol Nutr. 2009;49:498-547.
+05. Rosen R, Vandenplas Y, Singendonk M, et al.
+Pediatric gastroesophageal reflux clinical practice
+guidelines: joint recommendations of NASPGHAN
+and the ESPGHAN. J Pediatr Gastroenterol Nutr.
+2018;66:516-54.
+06. Orenstein SR, Izadnia F, Khan S. Gastroesophageal
+reflux disease in children. Gastroenterol Clin
+North Am. 1999;28:947-69.
+07. Simon M, Levy EL, Vandenplas Y. Safety
+considerations when managing gastroesophagela
+reflux disease in infants. Expert Opin Drug Saf.
+2021;20(1):37-49.
+08. Friedman C, Sarantos G, Katz S, et al. Understanding
+gastroesophageal reflux disease in children.
+JAAPA. 2021;34(2):12-8.
+09. Benninga M, Nurko S, Faure C, et al. Childhood
+functional gastrointestinal disorders: Neonate/
+toddler. Gastroenterol 2016;150:1443–55.
+10. Mahoney LB, Rosen R. The spectrum of reflux
+phenotypes. Gastroenterol Hepatol. 2019;15
+(Issue 12):646.
+11. Duncan DR, Larson K, Rosen LR. Clinical aspects of
+thickeners for pediatric gastroesophageal reflux
+and oropharyngeal dysphagia. Curr Gastroenterol
+Rep. 2022;21(7):30.
+12. Singendonk MMJ, Tabbers MM, Benninga
+MA, et al. Pediatric gastroesophageal reflux
+disease: systematic review on prognosis and
+prognostic factors. J Pediatr Gastroenterol Nutr.
+2018;66(2):239-43.
+13. Balasubramanian G, Singh M. Prevalence and
+predictors of columnar lined esophagus in
+gastroesophageal reflux disease (GERD) patients
+undergoing upper endoscopy. Am J Gastroenterol.
+2012;107(11):1655-61.
+
+16. Salvatore S, Pagliarin F, Huysentruyt K, et al.
+Distress infants and young children: don’t
+blame acid reflux. J Pediatr Gastroenterol Nutr.
+2020;71(4):465-9.
+17. Zikos TA, Clarke JO. Non acid reflux: when it
+matters and approach to management. Curr
+Gastroenterol Rep. 2020;22(9):43.
+18. Aziz Q, Fass R, Gyawali CP, et al. Functional
+esophageal
+disorders.
+Gastroenterology.
+2016;150(6):1368-79.
+19. Sociedade Brasileira de Pediatria. Departamento
+Científico de Gastroenterologia. Refluxo e
+Doença do Refluxo Gastroesofágico em Pediatria.
+Disponível
+em:
+https://www.sbp.com.br/
+fileadmin/user_upload/23224c-GPO-Refluxo_e_
+Doenca_RefluxoGastroesof_em_Pediatria.pdf
+Acessado em setembro de 2024.
+20. Ferreira CT, Carvalho E. Doença do Refluxo
+Gastroesofágico. Em Manual de Residência em
+Gastroenterologia Pediátrica. Silva L, Ferreira
+CT, Carvalho E. Editora Manole, Barueri, SP:
+2018:121–140.
+21. Nielsen RG, Bindslev-Jensen C, Krusen-Andersen
+S, et al. Severe gastroesophageal reflux disease
+and cow milk hypersensitivity in infants and
+children: disease association and evaluation of a
+new challenge procedure. J Pediatr Gastroenterol
+Nutr. 2004;39:383-91.
+22. Koletzko S, Niggemann B, Arato A, et al. Diagnostic
+approach and management of cow’s-milk
+protein allergy in infants and children: ESPGHAN
+GI Committee practical guidelines. J Pediatr
+Gastroenterol Nutr. 2012;55:221-9.
+23. Garzi A, Messina M, Frati F, et al. An extensively
+hydrolysed cow’s milk formula improves clinical
+symptoms of gastroesophageal reflux and
+reduces the gastric emptying time in infants.
+Allergol Immunopathol. 2002;30(1):36-41.
+24. Salvatore S, Agosti M, Baldassare ME, et al. Cow’s
+milk allergy or gastroesophageal reflux disease
+– can we solve the dilemma in infants? Nutrients
+2021;13(2):297.
+25. Meyer R, Vandenplas Y, Lozinsky AC, et al.
+Diagnosis and management of food allergyassociated gastroesophageal reflux in young
+children - EAACI position paper. Pediatr Allergy
+Immunol. 2021;33(10):e13856.
+
+17
+
+Doença do Refluxo Gastroesofágico
+
+26. Jensen SL, Funch Jensen P. Role of Sucralfate in
+peptic disease. Dig Dis 1992;10(3):153–161.
+27. Davies I, Burman-Roy S. Gastro-oesophageal
+reflux disease in children: NICE guidance. BMJ.
+2015;350:g7703.
+28. Hirsch S, Nurko S, Mitchell P, et al. Prucalopride
+for upper gastrointestinal symptoms in children.
+Pediatr Drugs. 2022;24:73–81.
+29. Mahase E. Ranitidine: patients taking certain
+batches should “immediately discontinue use,”
+says FDA. British Med J. 2019;367:l7053.
+30. Nguyen K, Dersnah GD, Ahlawat R. 2022 Jul
+11. In: StatPearls [Internet]. Disponível em:
+https://www.ncbi.nlm.nih.gov/books/NBK534778/
+Acesso em setembro de 2024.
+31. Wenning LA, Murphy MG, James LP, et al.
+Pharmacokinetics of famotidine in infants. Clin
+Pharmacokinet. 2005;44:395–406.
+32. James LP, Kearns GL. Pharmacokinetics and
+pharmacodynamics of Famotidine in pediatric
+patients. Clin Pharmacokinet. 1996;31(2):03-10.
+33. Miyake S, Yamada M, Iwamoto H. Effects of a new
+H2 blocker, famotidine, in reflux esophagitis
+among severely handicapped chidren. Clin Ther.
+1987; 9(5):548–58.
+34. Andersson T, Hassal E, Lundborg P, et al.
+Pharmacokinetics
+of
+orally
+administered
+omeprazol in children. International Pediatric
+Omeprazole Pharmacokinetic Group. Am J
+Gastroenterol. 2000;95:3101-3106.
+
+18
+
+35. Hassall E, Israel D, Sheperd R, et al. Omeprazol
+for treatment of chronic erosive esophagitis in
+children: a multicenter study of efficacy, safety,
+tolerability and dose requirements. J Pediatr.
+2000;137:800-807.
+36. Van der Pol RJ, Smits MJ, van Wijk MP, et al. Efficacy
+of proton-pump inhibitors in children with
+gastroesophageal reflux disease: a systematic
+review. Pediatrics. 2011;127(5):925-35.
+37. Hassall E, Shepherd R, Koletzko S, et al. Longterm maintenance treatment with omeprazole
+in children with healed erosive oesophagitis:
+a prospective study. Aliment Pharmacol Ther.
+2012;35(3):368-79.
+38. Fossmark R, Johnsen G, Johanessen E, et al.
+Rebound acid hypersecretion after long-term
+inhibition of gastric acid secretion. Aliment
+Pharmacol Ther. 2005;21:149–54.
+39. Illueca M, Alemayehu B, Shoetan N, et al. Proton
+pump inhibitor prescribing patterns in newborns
+and infants. J Pediatr Pharmacol Ther. 2014;19(4):
+83-7.
+40. Chen IL, Gao WY, Johnson AP, et al. Proton Pump
+Inhibitor use in infants: FDA reviewer experience.
+J Pediatr Gastroenterol Nutr. 2012;54:8–14.
+41. Onge E St, Phillips B. Vonoprazan: a new
+potassium-competitive acid blocker. J Pharm
+Technol. 2023;39(3):139–146.
+
+Departamento Científico de Gastroenterologia (gestão 2022-2024) • Sociedade Brasileira de Pediatria
+
+Diretoria Plena
+Triênio 2022/2024
+PRESIDENTE:
+Clóvis Francisco Constantino (SP)
+1º VICE-PRESIDENTE:
+Edson Ferreira Liberal (RJ)
+2º VICE-PRESIDENTE:
+Anamaria Cavalcante e Silva (CE)
+SECRETÁRIO GERAL:
+Maria Tereza Fonseca da Costa (RJ)
+1º SECRETÁRIO:
+Ana Cristina Ribeiro Zöllner (SP)
+2º SECRETÁRIO:
+Rodrigo Aboudib Ferreira Pinto (ES)
+3º SECRETÁRIO:
+Claudio Hoineff (RJ)
+DIRETOR FINANCEIRO:
+Sidnei Ferreira (RJ)
+1º DIRETOR FINANCEIRO:
+Maria Angelica Barcellos Svaiter (RJ)
+2º DIRETOR FINANCEIRO:
+Donizetti Dimer Giambernardino Filho (PR)
+DIRETORIA DE INTEGRAÇÃO REGIONAL
+Eduardo Jorge da Fonseca Lima (PE)
+COORDENADORES REGIONAIS
+NORTE: Adelma Alves de Figueiredo (RR)
+NORDESTE: Marynea Silva do Vale (MA)
+SUDESTE: Marisa Lages Ribeiro (MG)
+SUL: Cristina Targa Ferreira (RS)
+CENTRO-OESTE: Renata Belem Pessoa de Melo Seixas (DF)
+COMISSÃO DE SINDICÂNCIA
+TITULARES:
+Jose Hugo Lins Pessoa (SP)
+Marisa Lages Ribeiro (MG)
+Marynea Silva do Vale (MA)
+Paulo de Jesus Hartmann Nader (RS)
+Vilma Francisca Hutim Gondim de Souza (PA)
+SUPLENTES:
+Analiria Moraes Pimentel (PE)
+Dolores Fernanadez Fernandez (BA)
+Rosana Alves (ES)
+Silvio da Rocha Carvalho (RJ)
+Sulim Abramovici (SP)
+CONSELHO FISCAL
+TITULARES:
+Cléa Rodrigues Leone (SP)
+Licia Maria Moreira (BA)
+Carlindo de Souza Machado e Silva Filho (RJ)
+SUPLENTES:
+Jocileide Sales Campos (CE)
+Ana Márcia Guimarães Alves (GO)
+Gilberto Pascolat (PR)
+ASSESSORES DA PRESIDÊNCIA PARA POLÍTICAS PÚBLICAS:
+COORDENAÇÃO:
+Maria Tereza Fonseca da Costa (RJ)
+MEMBROS:
+Donizetti Dimer Giamberardino Filho (PR)
+Alda Elizabeth Boehler Iglesias Azevedo (MT)
+Evelyn Eisenstein (RJ)
+Rossiclei de Souza Pinheiro (AM)
+Helenilce de Paula Fiod Costa (SP)
+DIRETORIA E COORDENAÇÕES
+DIRETORIA DE QUALIFICAÇÃO E CERTIFICAÇÃO PROFISSIONAL
+Edson Ferreira Liberal (RJ)
+José Hugo de Lins Pessoa (SP)
+Maria Angelica Barcellos Svaiter (RJ)
+Maria Marluce dos Santos Vilela (SP)
+COORDENAÇÃO DE ÁREA DE ATUAÇÃO
+Sidnei Ferreira (RJ)
+Ana Cristina Ribeiro Zöllner (SP)
+Mauro Batista de Morais (SP)
+Kerstin Tanigushi Abagge (PR)
+COORDENAÇÃO DO CEXTEP (COMISSÃO EXECUTIVA DO
+TÍTULO DE ESPECIALISTA EM PEDIATRIA)
+COORDENAÇÃO:
+Hélcio Villaça Simões (RJ)
+COORDENAÇÃO ADJUNTA:
+Ricardo do Rego Barros (RJ)
+MEMBROS:
+Clovis Francisco Constantino (SP) - Licenciado
+Ana Cristina Ribeiro Zöllner (SP)
+Carla Príncipe Pires C. Vianna Braga (RJ)
+Cristina Ortiz Sobrinho Valete (RJ)
+Grant Wall Barbosa de Carvalho Filho (RJ)
+Sidnei Ferreira (RJ)
+Silvio Rocha Carvalho (RJ)
+COMISSÃO EXECUTIVA DO EXAME PARA OBTENÇÃO DO
+TÍTULO DE ESPECIALISTA EM PEDIATRIA AVALIAÇÃO SERIADA
+COORDENAÇÃO:
+Eduardo Jorge da Fonseca Lima (PE)
+Luciana Cordeiro Souza (PE)
+MEMBROS:
+João Carlos Batista Santana (RS)
+Victor Horácio de Souza Costa Junior (PR)
+Ricardo Mendes Pereira (SP)
+Mara Morelo Rocha Felix (RJ)
+Vera Hermina Kalika Koch (SP)
+DIRETORIA DE RELAÇÕES INTERNACIONAIS
+Nelson Augusto Rosário Filho (PR)
+Sergio Augusto Cabral (RJ)
+REPRESENTANTE NA AMÉRICA LATINA
+Ricardo do Rego Barros (RJ)
+INTERCÂMBIO COM OS PAÍSES DA LÍNGUA PORTUGUESA
+Marcela Damasio Ribeiro de Castro (MG)
+
+DIRETORIA DE DEFESA DA PEDIATRIA
+DIRETOR:
+Fábio Augusto de Castro Guerra (MG)
+DIRETORIA ADJUNTA:
+Sidnei Ferreira (RJ)
+Edson Ferreira Liberal (RJ)
+MEMBROS:
+Gilberto Pascolat (PR)
+Paulo Tadeu Falanghe (SP)
+Cláudio Orestes Britto Filho (PB)
+Ricardo Maria Nobre Othon Sidou (CE)
+Anenisia Coelho de Andrade (PI)
+Isabel Rey Madeira (RJ)
+Donizetti Dimer Giamberardino Filho (PR)
+Carlindo de Souza Machado e Silva Filho (RJ)
+Corina Maria Nina Viana Batista (AM)
+Maria Nazareth Ramos Silva (RJ)
+DIRETORIA CIENTÍFICA
+DIRETOR:
+Dirceu Solé (SP)
+DIRETORIA CIENTÍFICA - ADJUNTA
+Luciana Rodrigues Silva (BA)
+DEPARTAMENTOS CIENTÍFICOS E GRUPOS DE TRABALHO:
+Dirceu Solé (SP)
+Luciana Rodrigues Silva (BA)
+MÍDIAS EDUCACIONAIS
+Luciana Rodrigues Silva (BA)
+Edson Ferreira Liberal (RJ)
+Rosana Alves (ES)
+Ana Alice Ibiapina Amaral Parente (ES)
+PROGRAMAS NACIONAIS DE ATUALIZAÇÃO
+PEDIATRIA - PRONAP
+Fernanda Luisa Ceragioli Oliveira (SP)
+Tulio Konstantyner (SP)
+Claudia Bezerra Almeida (SP)
+NEONATOLOGIA - PRORN
+Renato Soibelmann Procianoy (RS)
+Clea Rodrigues Leone (SP)
+TERAPIA INTENSIVA PEDIÁTRICA - PROTIPED
+Werther Bronow de Carvalho (SP)
+TERAPÊUTICA PEDIÁTRICA - PROPED
+Claudio Leone (SP)
+Sérgio Augusto Cabral (RJ)
+EMERGÊNCIA PEDIÁTRICA - PROEMPED
+Hany Simon Júnior (SP)
+Gilberto Pascolat (PR)
+DOCUMENTOS CIENTÍFICOS
+Emanuel Savio Cavalcanti Sarinho (PE)
+Dirceu Solé (SP)
+Luciana Rodrigues Silva (BA)
+PUBLICAÇÕES
+TRATADO DE PEDIATRIA
+Fábio Ancona Lopes (SP)
+Luciana Rodrigues Silva (BA)
+Dirceu Solé (SP)
+Clovis Artur Almeida da Silva (SP)
+Clóvis Francisco Constantino (SP)
+Edson Ferreira Liberal (RJ)
+Anamaria Cavalcante e Silva (CE)
+OUTROS LIVROS
+Fábio Ancona Lopes (SP)
+Dirceu Solé (SP)
+Clóvis Francisco Constantino (SP)
+DIRETORIA DE CURSOS, EVENTOS E PROMOÇÕES
+DIRETORA:
+Lilian dos Santos Rodrigues Sadeck (SP)
+MEMBROS:
+Ricardo Queiroz Gurgel (SE)
+Paulo César Guimarães (RJ)
+Cléa Rodrigues Leone (SP)
+Paulo Tadeu de Mattos Prereira Poggiali (MG)
+COORDENAÇÃO DO PROGRAMA DE REANIMAÇÃO NEONATAL
+Maria Fernanda Branco de Almeida (SP)
+Ruth Guinsburg (SP)
+COORDENAÇÃO PALS – REANIMAÇÃO PEDIÁTRICA
+Alexandre Rodrigues Ferreira (MG)
+Kátia Laureano dos Santos (PB)
+COORDENAÇÃO BLS – SUPORTE BÁSICO DE VIDA
+Valéria Maria Bezerra Silva (PE)
+COORDENAÇÃO DO CURSO DE APRIMORAMENTO
+EM NUTROLOGIA PEDIÁTRICA (CANP)
+Virgínia Resende Silva Weffort (MG)
+PEDIATRIA PARA FAMÍLIAS
+COORDENAÇÃO GERAL:
+Edson Ferreira Liberal (RJ)
+COORDENAÇÃO OPERACIONAL:
+Nilza Maria Medeiros Perin (SC)
+Renata Dejtiar Waksman (SP)
+MEMBROS:
+Adelma Alves de Figueiredo (RR)
+Marcia de Freitas (SP)
+Nelson Grisard (SC)
+Normeide Pedreira dos Santos Franca (BA)
+PORTAL SBP
+Clovis Francisco Constantino (SP)
+Edson Ferreira Liberal (RJ)
+Anamaria Cavalcante e Silva (CE)
+Maria Tereza Fonseca da Costa (RJ)
+Ana Cristina Ribeiro Zöllner (SP)
+Rodrigo Aboudib Ferreira Pinto (ES)
+Claudio Hoineff (RJ)
+Sidnei Ferreira (RJ)
+Maria Angelica Barcellos Svaiter (RJ)
+Donizetti Dimer Giambernardino (PR)
+PROGRAMA DE ATUALIZAÇÃO CONTINUADA À DISTÂNCIA
+Luciana Rodrigues Silva (BA)
+Edson Ferreira Liberal (RJ)
+
+Natasha Slhessarenko Fraife Barreto (MT)
+Ana Alice Ibiapina Amaral Parente (RJ)
+Cassio da Cunha Ibiapina (MG)
+Luiz Anderson Lopes (SP)
+Silvia Regina Marques (SP)
+DIRETORIA DE PUBLICAÇÕES
+Fábio Ancona Lopez (SP)
+EDITORES DA REVISTA SBP CIÊNCIA
+Joel Alves Lamounier (MG)
+Marco Aurelio Palazzi Safadi (SP)
+Mariana Tschoepke Aires (RJ)
+EDITORES DO JORNAL DE PEDIATRIA (JPED)
+COORDENAÇÃO:
+Renato Soibelmann Procianoy (RS)
+MEMBROS:
+Crésio de Aragão Dantas Alves (BA)
+Paulo Augusto Moreira Camargos (MG)
+João Guilherme Bezerra Alves (PE)
+Marco Aurelio Palazzi Safadi (SP)
+Magda Lahorgue Nunes (RS)
+Giselia Alves Pontes da Silva (PE)
+Dirceu Solé (SP)
+Antonio Jose Ledo Alves da Cunha (RJ)
+EDITORES REVISTA RESIDÊNCIA PEDIÁTRICA
+EDITORES CIENTÍFICOS:
+Clémax Couto Sant’Anna (RJ)
+Marilene Augusta Rocha Crispino Santos (RJ)
+EDITORA ADJUNTA:
+Márcia Garcia Alves Galvão (RJ)
+CONSELHO EDITORIAL EXECUTIVO:
+Sidnei Ferreira (RJ)
+Isabel Rey Madeira (RJ)
+Mariana Tschoepke Aires (RJ)
+Maria De Fatima Bazhuni Pombo Sant’Anna (RJ)
+Silvio da Rocha Carvalho (RJ)
+Rafaela Baroni Aurílio (RJ)
+Leonardo Rodrigues Campos (RJ)
+Álvaro Jorge Madeiro Leite (CE)
+Eduardo Jorge da Fonseca Lima (PE)
+Marcia C. Bellotti de Oliveira (RJ)
+CONSULTORIA EDITORIAL
+Ana Cristina Ribeiro Zöllner (SP)
+Fábio Ancona Lopez (SP)
+Dirceu Solé (SP)
+Angélica Maria Bicudo (SP)
+EDITORES ASSOCIADOS:
+Danilo Blank (RS)
+Paulo Roberto Antonacci Carvalho (RJ)
+Renata Dejtiar Waksman (SP)
+DIRETORIA DE ENSINO E PESQUISA
+Angelica Maria Bicudo (SP)
+COORDENAÇÃO DE PESQUISA
+Cláudio Leone (SP)
+COORDENAÇÃO DE GRADUAÇÃO
+COORDENAÇÃO:
+Rosana Fiorini Puccini (SP)
+MEMBROS:
+Rosana Alves (ES)
+Alessandra Carla de Almeida Ribeiro (MG)
+Angélica Maria Bicudo (SP)
+Suzy Santana Cavalcante (BA)
+Ana Lucia Ferreira (RJ)
+Silvia Wanick Sarinho (PE)
+Ana Cristina Ribeiro Zöllner (SP)
+COORDENAÇÃO DE RESIDÊNCIA E ESTÁGIOS EM PEDIATRIA
+COORDENAÇÃO:
+Ana Cristina Ribeiro Zöllner (SP)
+MEMBROS:
+Eduardo Jorge da Fonseca Lima (PE)
+Paulo de Jesus Hartmann Nader (RS)
+Victor Horácio da Costa Junior (PR)
+Silvio da Rocha Carvalho (RJ)
+Tânia Denise Resener (RS)
+Delia Maria de Moura Lima Herrmann (AL)
+Helita Regina F. Cardoso de Azevedo (BA)
+Jefferson Pedro Piva (RS)
+Sérgio Luís Amantéa (RS)
+Susana Maciel Wuillaume (RJ)
+Aurimery Gomes Chermont (PA)
+Silvia Regina Marques (SP)
+Claudio Barssanti (SP)
+Marynea Silva do Vale (MA)
+Liana de Paula Medeiros de A. Cavalcante (PE)
+COORDENAÇÃO DAS LIGAS DOS ESTUDANTES
+COORDENADOR:
+Lelia Cardamone Gouveia (SP)
+MEMBROS:
+Cassio da Cunha Ibiapina (MG)
+Luiz Anderson Lopes (SP)
+Anna Tereza Miranda Soares de Moura (RJ)
+Adelma Alves de Figueiredo (RR)
+André Luis Santos Carmo (PR)
+Marynea Silva do Vale (MA)
+Fernanda Wagner Fredo dos Santos (PR)
+MUSEU DA PEDIATRIA (MEMORIAL DA PEDIATRIA BRASILEIRA)
+COORDENAÇÃO:
+Edson Ferreira Liberal (RJ)
+MEMBROS:
+Mario Santoro Junior (SP)
+José Hugo de Lins Pessoa (SP)
+Sidnei Ferreira (RJ)
+Jeferson Pedro Piva (RS)
+DIRETORIA DE PATRIMÔNIO
+COORDENAÇÃO:
+Claudio Barsanti (SP)
+Edson Ferreira Liberal (RJ)
+Maria Tereza Fonseca da Costa (RJ)
+Paulo Tadeu Falanghe (SP)
+
+www.sbp.com.br
+
+REDE DE PEDIATRIA
+AC - SOCIEDADE ACREANA DE PEDIATRA
+Ana Isabel Coelho Montero
+AL - SOCIEDADE ALAGOANA DE PEDIATRIA
+Marcos Reis Gonçalves
+AM - SOCIEDADE AMAZONENSE DE PEDIATRIA
+Adriana Távora de Albuquerque Taveira
+AP - SOCIEDADE AMAPAENSE DE PEDIATRIA
+Camila dos Santos Salomão
+BA - SOCIEDADE BAIANA DE PEDIATRIA
+Ana Luiza Velloso da Paz Matos
+CE - SOCIEDADE CEARENSE DE PEDIATRIA
+João Cândido de Souza Borges
+DF - SOCIEDADE DE PEDIATRIA DO DISTRITO FEDERAL
+Luciana de Freitas Velloso Monte
+ES - SOCIEDADE ESPIRITOSSANTENSE DE PEDIATRIA
+Carolina Strauss Estevez Gadelha
+GO - SOCIEDADE GOIANA DE PEDIATRIA
+Valéria Granieri de Oliveira Araújo
+MA - SOCIEDADE DE PUERICULTURA E PEDIATRIA DO MARANHÃO
+Marynéa Silva do Vale
+MG - SOCIEDADE MINEIRA DE PEDIATRIA
+Márcia Gomes Penido Machado
+MS - SOCIEDADE DE PEDIATRIA DO MATO GROSSO DO SUL
+Carmen Lúcia de Almeida Santos
+MT - SOCIEDADE MATOGROSSENSE DE PEDIATRIA
+Paula Helena de Almeida Gattass Bumlai
+PA - SOCIEDADE PARAENSE DE PEDIATRIA
+Vilma Francisca Hutim Gondim de Souza
+PB - SOCIEDADE PARAIBANA DE PEDIATRIA
+Maria do Socorro Ferreira Martins
+PE - SOCIEDADE DE PEDIATRIA DE PERNAMBUCO
+Alexsandra Ferreira da Costa Coelho
+PI - SOCIEDADE DE PEDIATRIA DO PIAUÍ
+Ramon Nunes Santos
+PR - SOCIEDADE PARANAENSE DE PEDIATRIA
+Victor Horácio de Souza Costa Junior
+RJ - SOCIEDADE DE PEDIATRIA DO ESTADO DO RIO DE JANEIRO
+Cláudio Hoineff
+RN - SOCIEDADE DE PEDIATRIA DO RIO GRANDE DO NORTE
+Manoel Reginaldo Rocha de Holanda
+RO - SOCIEDADE DE PEDIATRIA DE RONDÔNIA
+Cristiane Figueiredo Reis Maiorquin
+RR - SOCIEDADE RORAIMENSE DE PEDIATRIA
+Erica Patricia Cavalcante Barbalho
+RS - SOCIEDADE DE PEDIATRIA DO RIO GRANDE DO SUL
+Jose Paulo Vasconcellos Ferreira
+SC - SOCIEDADE CATARINENSE DE PEDIATRIA
+Nilza Maria Medeiros Perin
+SE - SOCIEDADE SERGIPANA DE PEDIATRIA
+Ana Jovina Barreto Bispo
+SP - SOCIEDADE DE PEDIATRIA DE SÃO PAULO
+Renata Dejtiar Waksman
+TO - SOCIEDADE TOCANTINENSE DE PEDIATRIA
+Ana Mackartney de Souza Marinho
+DEPARTAMENTOS CIENTÍFICOS
+• Aleitamento Materno
+• Alergia
+• Bioética
+• Cardiologia
+• Dermatologia
+• Emergência
+• Endocrinologia
+• Gastroenterologia
+• Genética Clínica
+• Hematologia e Hemoterapia
+• Hepatologia
+• Imunizações
+• Imunologia Clínica
+• Infectologia
+• Medicina da Dor e Cuidados Paliativos
+• Medicina do Adolescente
+• Medicina Intensiva Pediátrica
+• Nefrologia
+• Neonatologia
+• Neurologia
+• Nutrologia
+• Oncologia
+• Otorrinolaringologia
+• Pediatria Ambulatorial
+• Ped. Desenvolvimento e Comportamento
+• Pneumologia
+• Prevenção e Enfrentamento das Causas Externas
+na Infância e Adolescência
+• Reumatologia
+• Saúde Escolar
+• Sono
+• Suporte Nutricional
+• Toxicologia e Saúde Ambiental
+GRUPOS DE TRABALHO
+• Atividade física
+• Cirurgia pediátrica
+• Criança, adolescente e natureza
+• Doença inflamatória intestinal
+• Doenças raras
+• Drogas e violência na adolescência
+• Educação é Saúde
+• Imunobiológicos em pediatria
+• Insuficiência intestinal
+• Jovens pediatras
+• Metodologia científica
+• Oftalmologia pediátrica
+• Ortopedia pediátrica
+• Pediatria e humanidades
+• Pediatria Internacional dos Países de Língua Portuguesa
+• Políticas públicas para neonatologia
+• Povos originários do Brasil
+• Radiologia e Diagnóstico por Imagem
+• Saúde digital
+• Saúde mental
+• Saúde oral
+• Transtorno do espectro alcoólico fetal
+
+19
+
+

@@ -1,0 +1,1399 @@
+Nº 1, Março de 2017
+
+Guia Prático de Atualização
+Departamento Científico de Gastroenterologia
+
+Diarreia aguda: diagnóstico e tratamento
+Departamento Científico de Gastroenterologia
+Presidente:
+Mauro Batista de Morais
+Secretário:
+Aristides Schier da Cruz
+Conselho Científico: Ana Daniela Izoton de Sadovsky, Kátia Galeão Brandt, Matias Epifânio,
+Mauro Sérgio Toporovski, Sílvio da Rocha Carvalho, Rosane Costa Gomes.
+Colaboradora:
+Luciana Rodrigues Silva
+
+De acordo com a Organização Mundial da
+Saúde (OMS), nas últimas duas décadas, ocorreu
+globalmente expressiva redução na mortalidade
+por diarreias infecciosas em crianças com idade inferior a cinco anos1,2. Para exemplificar, em
+1982 ocorreram 5 milhões de mortes por doença
+diarreica, em 1991 foram 3,5 milhões, em 2001
+morreram 2,5 milhões e, finalmente, em 2011
+ocorreram 1,5 milhões de mortes no ano3. Deve
+ser destacado, no entanto, que algumas doenças
+que poderiam ser prevenidas continuam sendo
+responsáveis por mortes de lactentes e pré-escolares. Cerca de 30% desses óbitos antes dos cinco
+anos ocorrem devido à pneumonia e diarreia1,2.
+No Brasil, observou-se redução importante
+na mortalidade infantil que passou de 70 óbitos
+por mil nascidos vivos na década de 1970 para
+cerca de 15 óbitos por mil nascidos vivos na
+
+década atual. Parcela considerável desta redução foi decorrente da diminuição do número de
+óbitos por diarreia e desidratação. Para exemplificar, em 1980, a diarreia ocupava o segundo lugar como causa de mortalidade infantil e
+representava 24,3% dos óbitos, enquanto, em
+2005, passou para a quarta posição e foi responsável por 4,1% dos óbitos4. Considera-se que
+este grande avanço na saúde pública brasileira foi decorrente das melhorias das condições
+gerais de vida da população e da disseminação
+entre profissionais da área da saúde e da própria comunidade dos princípios fundamentais
+do tratamento da diarreia aguda e desidratação,
+ou seja, terapia de reidratação e cuidados com
+a alimentação. Ao que tudo indica, a incidência
+de diarreia aguda também apresentou redução
+nesse período.
+
+1
+
+Diarreia aguda: diagnóstico e tratamento
+
+Algumas publicações permitem pontuar a
+evolução do tratamento da diarreia aguda ao
+longo das últimas décadas. Em 1989, a OMS publicou um manual prático para o tratamento da
+diarreia aguda, contemplando o diagnóstico da
+desidratação e seu tratamento, além dos princípios para a alimentação do paciente pediátrico
+com diarreia aguda e persistente5. Em 1993, o
+Ministério da Saúde (MS) do Brasil adaptou esse
+manual à realidade brasileira6. Em 2005, a OMS
+complementou seu posicionamento com a sugestão de reduzir a osmolaridade da solução de
+reidratação oral e a recomendação da administração de zinco por via oral7. Em 2006, a vacina contra rotavírus foi incluída no calendário
+de vacinação no Brasil8. O Ministério da Saúde
+(MS) não havia revisado suas recomendações
+de 1993 até que, recentemente, foi divulgado
+
+um cartaz com a atualização de algumas condutas9. A OMS reforçou seus posicionamentos em
+2009 e em 2013 para o tratamento da diarreia
+aguda1,2. Além disso, foram propostas diretrizes
+para o tratamento da diarreia aguda na Europa
+em 200810 e em 201411, e para crianças Íbero-Latinoamericanas, em 201012 e em 201413-16,
+com base em evidências clínicas que incluíam
+não somente as medidas recomendadas pela
+OMS e pelo MS do Brasil, como também outras
+opções terapêuticas que podem contribuir na
+redução dos impactos negativos causados pela
+diarreia aguda.
+Esse documento científico foi redigido com
+o objetivo de auxiliar na assistência à saúde
+das crianças brasileiras com diarreia aguda e
+suas complicações, em diferentes cenários assistenciais.
+
+Definições
+
+A diarreia pode ser definida pela ocorrência
+de três ou mais evacuações amolecidas ou líquidas nas últimas 24 horas. A diminuição da consistência habitual das fezes é um dos parâmetros
+mais considerados. Na diarreia aguda ocorre desequilíbrio entre a absorção e a secreção de líquidos e eletrólitos e é um quadro autolimitado4.
+De acordo com a OMS, a doença diarreica
+pode ser classificada em três categorias2,7:
+1. Diarreia aguda aquosa: diarreia que
+pode durar até 14 dias e determina perda de
+grande volume de fluidos e pode causar desidratação. Pode ser causada por bactérias e vírus, na maioria dos casos. A desnutrição eventualmente pode ocorrer se a alimentação não
+é fornecida de forma adequada e se episódios
+sucessivos acontecem.
+2. Diarreia aguda com sangue (disenteria): é
+caracterizada pela presença de sangue nas fezes.
+Representa lesão na mucosa intestinal. Pode associar-se com infecção sistêmica e outras complicações, incluindo desidratação. Bactérias do gênero
+Shigella são as principais causadoras de disenteria.
+
+2
+
+3. Diarreia persistente: quando a diarreia
+aguda se estende por 14 dias ou mais. Pode provocar desnutrição e desidratação. Pacientes que
+evoluem para diarreia persistente constituem
+um grupo com alto risco de complicações e elevada letalidade2,6.
+Assim, doença diarreica aguda pode ser entendida como um episódio diarreico com as seguintes características: início abrupto, etiologia
+presumivelmente infecciosa, potencialmente
+autolimitado, com duração inferior a 14 dias,
+aumento no volume e/ou na frequência de evacuações com consequente aumento das perdas
+de água e eletrólitos17. Apesar da definição de
+diarreia aguda considerar o limite máximo de
+duração de 14 dias, a maioria dos casos resolve-se em até 7 dias.
+A doença diarreica na maior parte das vezes representa uma infecção do tubo digestivo por vírus, bactérias ou protozoários e tem
+evolução autolimitada, mas pode ter consequências graves como desidratação, desnutrição energético-proteica e óbito. Nem sempre
+é possível identificar o agente causador do
+episódio diarreico.
+
+Departamento Científico de Gastroenterologia • Sociedade Brasileira de Pediatria
+
+Causas
+
+Os seguintes agentes infecciosos são os que
+causam a maior parte dos quadros da diarreia aguda:
+Vírus - rotavírus, coronavírus, adenovírus, calicivírus (em especial o norovírus) e astrovírus.
+Bactérias - E. coli enteropatogênica clássica, E.
+coli enterotoxigenica, E. coli enterohemorrágica,
+E. coli enteroinvasiva, E. coli enteroagregativa18,
+Aeromonas, Pleisiomonas, Salmonella, Shigella,
+Campylobacter jejuni, Vibrio cholerae, Yersinia
+Parasitos - Entamoeba histolytica, Giardia
+lamblia, Cryptosporidium, Isosopora
+Fungos – Candida albicans
+Pacientes imunocomprometidos ou em antibioticoterapia prolongada, podem ter diarreia
+causada por: Klebsiella, Pseudomonas, Aereobacter, C. difficile, Cryptosporidium, Isosopora, VIH, e
+outros agentes.
+
+Eventualmente outras causas podem iniciar
+o quadro como diarreia tais como: alergia ao
+leite de vaca, deficiência de lactase, apendicite
+aguda, uso de laxantes e antibióticos, intoxicação por metais pesados. A invaginação intestinal tem que ser considerada no diagnóstico diferencial da disenteria aguda, principalmente,
+no lactente.
+A investigação da etiologia da diarreia aguda
+não é obrigatória em todos os casos. Deve ser realizada nos casos graves e nos pacientes hospitalizados. Deve ser lembrado que os laboratórios, em
+geral, não dispõem de recursos para diagnosticar
+todas as bactérias e vírus causadores de diarreia
+aguda. Novos métodos diagnósticos utilizando a
+técnica de PCR multiplex estão em desenvolvimento e têm potencial para proporcionar, no futuro, o diagnóstico etiológico com maior rapidez
+e abrangência.
+
+Princípios da avaliação clínica
+
+De acordo com a OMS, a anamnese da criança
+com doença diarreica deve contemplar os seguintes dados: duração da diarreia, número diário de
+evacuações, presença de sangue nas fezes, número de episódios de vômitos, presença de febre ou
+outra manifestação clínica, práticas alimentares
+prévias e vigentes, outros casos de diarreia em
+casa ou na escola. Deve ser avaliado, também, a
+oferta e o consumo de líquidos, além do uso de
+medicamentos e o histórico de imunizações6. É
+importante, também, obter informação sobre a
+diurese e peso recente, se conhecido.
+A história e o exame físico são indispensáveis para uma conduta adequada. Não se deve
+esquecer que alguns pacientes têm maior risco
+de complicações, tais como: idade inferior a dois
+meses; doença de base grave como o diabete
+melito, a insuficiência renal ou hepática e outras
+doenças crônicas; presença de vômitos persistentes; perdas diarreicas volumosas e frequentes (mais de oito episódios diários) e a percepção dos pais de que há sinais de desidratação.
+
+Ao exame físico é importante avaliar o estado de hidratação, o estado nutricional, o estado
+de alerta (ativo, irritável, letárgico), a capacidade
+de beber e a diurese. O percentual de perda de
+peso é considerado o melhor indicador da desidratação. Mesmo quando o peso anterior recente
+não é disponível, é fundamental que seja mensurado o peso exato na avaliação inicial do paciente. A avaliação nutricional é muito importante na
+abordagem da criança com doença diarreica. O
+peso é fundamental no acompanhamento tanto em regime de internação hospitalar como no
+ambulatório. Considera-se que perda de peso
+de até 5% represente a desidratação leve; entre
+5% e 10% a desidratação é moderada; e perda
+de mais de 10% traduz desidratação grave. Essa
+classificação proporciona uma estimativa do volume necessário para correção do déficit corporal de fluído em consequência da doença diarreica: perda de 5%, ou seja, 50 mL/Kg; de 5 a 10%,
+ou seja, 50 a 100 mL/Kg e mais do que 10%, ou
+seja, mais de 100 mL/Kg7.
+
+3
+
+Diarreia aguda: diagnóstico e tratamento
+
+Outro ponto fundamental na avaliação da hidratação da criança com doença diarreica é vincular os achados do exame clínico à conduta a
+ser adotada. Assim, apesar de existirem outras
+estratégias para avaliar o estado de hidratação,
+a proposta da OMS, também adotada pelo MS
+deve continuar sendo utilizada (Quadro 1)5-7,9. A
+avaliação do estado de hidratação do paciente
+com diarreia deve ser criteriosa e inclui o exame do estado geral do paciente, dos olhos, se há
+
+lágrimas ou não, se o paciente tem sede, o nível
+de consciência, presença do sinal da prega cutânea, e como se encontra o pulso e o enchimento
+capilar. Outros achados podem ser importantes
+quando presentes, traduzindo a gravidade do
+quadro, tais como nível de alerta, fontanela baixa, saliva espessa, padrão respiratório alterado,
+ritmo cardíaco acelerado, pulso débil, aumento
+do tempo de enchimento capilar, extremidades
+frias, perda de peso, turgência da pele e sede.
+
+Quadro 1. Avaliação do estado de hidratação para crianças com doença diarreia
+Observar
+
+A
+
+B
+
+C
+
+Condição
+
+Bem alerta
+
+Irritado, intranquilo
+
+Comatoso, hipotônico*
+
+Olhos
+
+Normais
+
+Fundos
+
+Muito fundos
+
+Lágrimas
+
+Presentes
+
+Ausentes
+
+Ausentes
+
+Boca e língua
+
+Úmidas
+
+Secas
+
+Muito secas
+
+Sede
+
+Bebe normalmente
+
+Sedento, bebe rápido e
+avidamente
+
+Bebe mal ou não é capaz
+de beber*
+
+Sinal da prega
+
+Desaparece
+Rapidamente
+
+Desaparece
+lentamente
+
+Desaparece muito
+lentamente (mais de 2
+segundos)
+
+Pulso
+
+Cheio
+
+Rápido, débil
+
+Muito débil ou ausente*
+
+Enchimento capilar1 Normal
+(até 3 segundos)
+
+Prejudicado
+(3 a 5 segundos)
+
+Muito prejudicado
+(mais de 5 segundos)*
+
+Conclusão
+
+Não tem desidratação
+
+Se apresentar dois
+ou mais dos sinais
+descritos
+acima, existe
+desidratação
+
+Se apresentar dois ou
+mais dos sinais descritos,
+incluindo pelo menos um
+dos assinalados com
+asterisco, existe
+desidratação grave
+
+Tratamento
+
+Plano A
+Tratamento domiciliar
+
+Plano B
+Terapia de reidratação
+oral no serviço de
+saúde
+
+Plano C
+Terapia de reidratação
+parenteral
+
+Examinar
+
+1 – Para avaliar o enchimento capilar, a mão da criança deve ser mantida fechada e comprimida por
+15 segundos. Abrir a mão da criança e observar o tempo no qual a coloração da palma da mão volta
+ao normal. A avaliação da perfusão periférica é muito importante, principalmente em desnutridos
+nos quais a avaliação dos outros sinais de desidratação é muito difícil.
+
+4
+
+Departamento Científico de Gastroenterologia • Sociedade Brasileira de Pediatria
+
+Tratamento
+
+Após ser estabelecido o diagnóstico, conforme as definições apresentadas acima, e realizado
+exame físico completo com definição do estado
+de hidratação, deve ser seguido o esquema clássico de tratamento, distribuído em três categorias
+segundo a presença ou não de desidratação2,6,7,9.
+Se o paciente está com diarreia e está hidratado
+deverá ser tratado com o Plano A. Se está com
+diarreia e tem algum grau de desidratação, deve
+ser tratado com o Plano B. Se tem diarreia e está
+com desidratação grave, deve ser tratado com o
+Plano C. É fundamental para o tratamento adequado a reavaliação pediátrica contínua.
+1. Plano A: tratamento no domicílio. É obrigatório aumentar a oferta de líquidos, incluindo o
+soro de reidratação oral (reposição para prevenir
+a desidratação) e a manutenção da alimentação
+
+com alimentos que não agravem a diarreia. Deve-se dar mais líquidos do que o paciente ingere
+normalmente. Além do soro de hidratação oral,
+são considerados líquidos adequados: sopa de
+frango com hortaliças e verduras, água de coco,
+água. São inadequados: refrigerantes, líquidos
+açucarados, chás, sucos comercializados, café.
+Ainda no Plano A, deve-se iniciar a suplementação de zinco e manter a alimentação habitual.
+Os sinais de alarme devem ser enfatizados nesta
+fase, para serem identificados prontamente na
+evolução se ocorrerem (aumento da frequência
+das dejeções líquidas, vômitos frequentes, sangue nas fezes, recusa para ingestão de líquidos,
+febre, diminuição da atividade, presença de sinais de desidratação, piora do estado geral). O
+Quadro 2 especifica as condutas do Plano A6,9.
+
+Quadro 2. Plano A – Prevenção da desidratação no domicílio
+PLANO A
+Explique ao paciente ou acompanhante para fazer no domicílio:
+1) Oferecer ou ingerir mais líquido que o habitual
+para prevenir a desidratação:
+• O paciente deve tomar líquidos caseiros (água de
+arroz, soro caseiro, chá, suco e sopas) ou solução
+de reidratação oral (SRO) após cada evacuação
+diarreica.
+• Não utilizar refrigerantes e não adoçar o chá ou
+suco.
+
+2) Manter a alimentação habitual para prevenir a
+desnutrição:
+• Continuar o aleitamento materno.
+• Manter a alimentação habitual para as crianças e
+os adultos.
+3) Se o paciente não melhorar em dois dias ou se
+apresentar qualquer um dos sinais abaixo levá-lo
+imediatamente ao serviço de saúde:
+
+SINAIS DE PERIGO
+• Piora na diarreia
+• Vômitos repetidos
+• Muita sede
+
+• Recusa de alimentos
+• Sangue nas fezes
+• Diminuição da diurese
+
+4) Orientar o paciente ou acompanhante para:
+• Reconhecer os sinais de desidratação.
+• Preparar e administrar a solução de reidratação oral.
+• Praticar medidas de higiene pessoal e domiciliar (lavagem adequada das mãos, tratamento da
+
+água e higienização dos alimentos).
+5) Administrar zinco uma vez ao dia, durante 10 a
+14 dias:
+• Até seis meses de idade: 10 mg/dia.
+• Maiores de seis meses de idade: 20 mg/dia.
+
+IDADE
+
+Quantidade de líquidos que devem ser administrados/ingeridos após cada evacuação diarreica
+50-100mL
+100-200mL
+Quantidade que o paciente aceitar
+
+Menores de 1 ano
+De 1 a 10 anos
+Maiores de 10 anos
+
+5
+
+Diarreia aguda: diagnóstico e tratamento
+
+2. Plano B: administrar o soro de reidratação
+oral sob supervisão médica (reparação das perdas vinculadas à desidratação). Manter o aleitamento materno e suspender os outros alimentos
+(jejum apenas durante o período da terapia de
+reparação por via oral). Após o término desta
+fase, retomar os procedimentos do Plano A. De
+acordo com a OMS é importante que a alimentação seja reiniciada no serviço de saúde para que
+as mães sejam orientadas quanto à importância
+da manutenção da alimentação.
+
+A primeira regra nesta fase é administrar a
+solução de terapia de reidratação oral (SRO), entre 50 a 100 mL/Kg, durante 2 a 4 horas. A SRO
+deve ser oferecida de forma frequente, em quantidades pequenas com colher ou copo, após cada
+evacuação. A mamadeira não deve ser utilizada.
+O Quadro 3 apresenta as condutas do Plano B.
+Considera-se fracasso da reidratação oral se as
+dejeções aumentam, se ocorrem vômitos incoercíveis, ou se a desidratação evolui para grave6,9. Nesta fase deve-se iniciar a suplementação de zinco.
+
+Quadro 3. Plano B – Para evitar a desidratação por via oral na unidade de saúde
+PLANO B
+1) Administrar solução de reidratação oral (SRO):
+• A quantidade de solução ingerida dependerá da
+sede do paciente.
+• A SRO deverá ser administrada continuamente,
+até que desapareçam os sinais de desidratação.
+• Apenas como orientação inicial, o paciente deverá receber de 50 a 100mL/kg para ser administrado no período de 4-6 horas.
+2) Durante a reidratação reavaliar o paciente
+seguindo os sinais indicados no quadro 1 (avaliação do estado de hidratação)
+• Se desaparecerem os sinais de desidratação, uti-
+
+lize o PLANO A.
+• Se continuar desidratado, indicar a sonda nasogástrica (gastróclise).
+• Se o paciente evoluir para desidratação grave, seguir o PLANO C.
+
+3) Durante a permanência do paciente ou acompanhante no serviço de saúde, orientar a:
+• Reconhecer os sinais de desidratação.
+• Preparar e administrar a Solução de Reidratação Oral.
+• Praticar medidas de higiene pessoal e domiciliar (lavagem adequada das mãos, tratamento da
+água e higienização dos alimentos).
+
+O PLANO B DEVE SER REALIZADO NA UNIDADE DE SAÚDE
+OS PACIENTES DEVERÃO PERMANECER NA UNIDADE DE SAÚDE
+ATÉ A REIDRATAÇÃO COMPLETA E REINÍCIO DA ALIMENTAÇÃO
+3. Plano C: corrigir a desidratação grave com
+terapia de reidratação por via parenteral (reparação ou expansão). Em geral, o paciente deve ser
+mantido no serviço de saúde, em hidratação parenteral de manutenção, até que tenha condições
+de se alimentar e receber líquidos por via oral na
+quantidade adequada. As indicações para reidratação venosa são: desidratação grave, contraindicação de hidratação oral (íleo paralítico, abdômen
+agudo, alteração do estado de consciência ou
+convulsões), choque hipovolêmico.
+Idealmente deve-se conseguir a punção de
+veia calibrosa. Quando necessário, sobretudo em
+casos de choque hipovolêmico, podem ser necessários dois acessos venosos. Caso não seja possí-
+
+6
+
+vel infusão venosa, considerar infusão intraóssea.
+Podem ser utilizados os seguintes critérios
+para internação hospitalar11: choque hipovolêmico, desidratação grave (perda de peso maior ou
+igual a 10%), manifestações neurológicas (por
+exemplo, letargia e convulsões), vômitos biliosos
+ou de difícil controle, falha na terapia de reidratação oral, suspeita de doença cirúrgica associada
+ou falta de condições satisfatórias para tratamento domiciliar ou acompanhamento ambulatorial.
+O Quadro 4 apresenta o plano C conforme a
+recomendação do MS9.
+No Quadro 5 são apresentadas opções para
+terapia de reidratação parenteral segundo as diferentes recomendações2,7,9.
+
+Departamento Científico de Gastroenterologia • Sociedade Brasileira de Pediatria
+
+Quadro 4. Plano C – Para tratar a desidratação grave na unidade hospitalar
+PLANO C
+O PLANO C CONTEMPLA DUAS FASES PARA TODAS AS FAIXAS ETÁRIAS: A FASE RÁPIDA E A FASE DE
+MANUTENÇÃO E REPOSIÇÃO
+FASE RÁPIDA (EXPANSÃO) – MENORES DE 5 ANOS
+SOLUÇÃO
+VOLUME
+TEMPO DE ADMINISTRAÇÃO
+Iniciar com 20mL/kg de peso.
+Repetir essa quantidade até
+que a criança esteja hidratada,
+reavaliando os sinais clínicos
+após cada fase de expansão
+30 minutos
+Soro Fisiológico a 0,9%
+administrada.
+Para recém-nascidos e cardiopatas graves começar com
+10mL/kg de peso.
+AVALIAR O PACIENTE CONTINUAMENTE
+FASE RÁPIDA (EXPANSÃO) – MAIORES DE 5 ANOS
+SOLUÇÃO
+VOLUME TOTAL
+TEMPO DE ADMINISTRAÇÃO
+1º Soro Fisiológico a 0,9%
+30mL/kg
+30 minutos
+2º Ringer Lactato
+70mL/kg
+2 horas e 30 minutos
+FASE DE MANUTENÇÃO E REPOSIÇÃO PARA TODAS AS FAIXAS ETÁRIAS
+SOLUÇÃO
+VOLUME EM 24 HORAS
+Soro Glicosado a 5% + Soro
+Peso até 10kg
+100mL/kg
+Fisiológico a 0,9% na proporção Peso de 10 a 20 kg
+1000mL + 50mL/kg de peso
+de 4:1 (manutenção)
+que exceder 10kg
+Peso acima de 20kg
+1500mL + 20mL/kg de peso
+que exceder 20kg
+Soro Glicosado a 5% + Soro
+Iniciar com 50mL/kg/dia. Reavaliar esta quantidade de acordo
+Fisiológico a 0,9% na proporção com as perdas do paciente.
+de 1:1 (reposição)
+KCI a 10%*
+2mL para cada 100mL de solução da fase de manutenção.
+AVALIAR O PACIENTE CONTINUAMENTE. SE NÃO HOUVER MELHORA DA DESIDRATAÇÃO, AUMENTAR A
+VELOCIDADE DE INFUSÃO
+• Quando o paciente puder beber, geralmente 2 a 3 horas após o início da reidratação venosa, iniciar a
+reidratação por via oral com SRO, mantendo a reidratação venosa.
+• Interromper a reidratação por via endovenosa somente quando o paciente puder ingerir SRO em quantidade suficiente para se manter hidratado. A quantidade de SRO necessária varia de um paciente para
+outro, dependendo do volume das evacuações.
+• Lembrar que a quantidade de SRO a ser ingerida deve ser maior nas primeiras 24 horas de tratamento.
+• Observar o paciente por pelo menos seis (6) horas.
+OS PACIENTES QUE ESTIVEREM SENDO REIDRATADOS POR VIA ENDOVENOSA DEVEM PERMANECER NA
+UNIDADE DE SAÚDE ATÉ QUE ESTEJAM HIDRATADOS E CONSEGUINDO MANTER A HIDRATAÇÃO POR VIA ORAL.
+
+* Ou KCl 19,1% - 1mL para cada 100mL.
+
+7
+
+Diarreia aguda: diagnóstico e tratamento
+
+Quadro 5. Opções para a terapia de reidratação parenteral
+Ministério da
+Saúde do Brasil8
+
+Fase rápida (expansão):
+< 5 anos:
+20 mL/kg de SF a cada 30 minutos. Repetir até que a criança fique hidratada;
+> 5 anos:
+30 mL/kg de SF em 30 minutos +
+70 mL/kg de Ringer lactato em 2,5 horas
+Fase de manutenção e reposição (qualquer idade)
+SG 5% + SF na proporção 4:1 (volume da regra de Holiday& Segar + KCl 10% 2
+mL para cada 100 mL
+
+Fase reposição: SG5% + SF partes iguais - iniciar com 50 mL/kg/dia1. Reavaliar
+de acordo com as perdas diarreicas
+6
+OMS, 2005
+Lactentes e crianças: 100 mL/kg de Ringer Lactato sendo:
+< 12 meses: 30 mL/kg em 1 hora e 70 mL/kg em 5 horas
+> 12 meses: 30 mL/kg em 30 minutos e 70 mL/kg em 2,5 horas
+Nota: Se o Ringer lactato não estiver disponível, usar SF.
+ESPGHAN,
+Se choque: 20 mL/kg SF em 20 minutos, duas vezes;
+201410
+Se desidratação grave: 20 mL/kg de SF por hora por 2-4 horas
+Após a reparação: usar soro de manutenção com concentração de sódio de pelo
+menos 77 mmoL/Litro para prevenção de hiponatremia
+Nota 1: este volume pode ser excessivo se o paciente estiver aceitando bem a alimentação e o soro
+de reidratação oral.
+Nota 2: Para a fase de manutenção, em nenhuma das diretrizes analisadas, foi recomendado o uso de
+solução com 154 mmoL/L de sódio.
+
+Cuidados com a alimentação na doença diarreica
+
+A manutenção da alimentação com oferta
+energética apropriada é um dos pilares mais importantes no tratamento da diarreia aguda2,5-7.
+Todas as diretrizes são unânimes que o aleitamento materno deve ser mantido e incentivado durante o episódio diarreico.
+Quando necessário, deve-se recomendar jejum durante o período de reversão da desidratação (etapa de expansão ou reparação). A alimentação deve ser reiniciada logo que essa etapa for
+concluída (em geral, no máximo, 4 a 6 horas).
+Vale destacar que, de acordo com a OMS, cerca de um terço das crianças com diarreia aguda,
+nos países em desenvolvimento, infelizmente
+continuam sendo mantidas em jejum ou com
+uma quantidade muito reduzida de alimentos
+durante a diarreia1,27.
+A alimentação deve ser reiniciada de
+acordo com o esquema habitual do paciente,
+
+8
+
+sendo uma oportunidade para a correção de
+erros alimentares. A fórmula infantil ou preparação láctea oferecidas para crianças não
+devem ser diluídas. Deve-se cuidar para que
+as necessidades energéticas sejam plenamente atendidas.
+Na diarreia aguda, não há recomendação
+de fórmula sem lactose para lactentes tratados
+ambulatorialmente com diarreia aguda11,15. Entretanto, para os pacientes hospitalizados com
+diarreia aguda e nos com diarreia persistente
+tratados no hospital ou ambulatorialmente, há
+vantagens na prescrição de fórmula sem lactose1,15. A OMS aponta a alternativa de iogurtes,
+entretanto, esse alimento não faz parte da cultura alimentar brasileira para esta faixa etária e
+não atende adequadamente às necessidades nutricionais do lactente como pode ser conseguido
+com as fórmulas infantis7.
+
+Departamento Científico de Gastroenterologia • Sociedade Brasileira de Pediatria
+
+Os pacientes hospitalizados com diarreia
+persistente devem receber, de acordo com a
+OMS, 110 calorias/kg/dia7. São critérios fundamentais para avaliar a evolução clínica: a redução das perdas diarreicas e a recuperação nutricional ou retomada do ganho de peso esperado
+para a idade.
+Ainda, de acordo com a OMS deve-se cuidar
+para que o paciente com diarreia persistente
+receba diariamente as quantidades de micronutrientes: 50ug de folato, 10mg de zinco,
+400µg de vitamina A, 1mg de cobre e 80mg de
+magnésio7.
+Apesar das diretrizes não abordarem esse
+tema, para os pacientes com diarreia persistente
+
+que não respondem adequadamente à dieta sem
+lactose, deve ser considerada a possibilidade do
+desenvolvimento de intolerância às proteínas do
+leite de vaca. Nessa situação, deve ser prescrita
+dieta isenta das proteínas do leite de vaca, ou
+seja, pode-se empregar fórmula hipoalergênica
+para sua substituição, no caso dos lactentes, (por
+exemplo, fórmula com proteína extensamente
+hidrolisada ou fórmula de aminoácidos, dependendo da gravidade do paciente; nas crianças
+maiores em algumas situações tenta-se a proteína de soja ou a dieta isenta de leite e derivados). Deve ser destacado que estas mudanças
+dietéticas não são necessárias em pacientes com
+diarreia aguda.
+
+Terapia de reidratação - Terapia de reidratação oral
+A TRO é considerada uma das modalidades
+terapêuticas que mais salvou vidas a partir do
+século XX1,2. O princípio fisiológico da eficácia
+vincula-se ao fato de que a via de transporte ativo, acoplada de sódio-glicose-água pelo enterócito está preservada na diarreia aguda, independentemente da etiologia. Vale lembrar que são
+outras vias que explicam o aumento da secreção
+e diminuição da absorção de água e eletrólitos
+na diarreia aguda.
+A desidratação pode ocorrer tanto na diarreia
+aguda como na diarreia persistente.
+A partir das décadas de 1970/1980, optou-se
+no Brasil, pelo emprego da solução recomendada pela OMS com 90 mmol de sódio por litro6. A
+partir de 2002, com a justificativa de reduzir as
+perdas diarreicas, a OMS modificou a composição dos sais de reidratação oral com redução das
+
+concentrações de sódio e glicose7. Esta nova solução recebeu a denominação de soro oral com
+baixa osmolaridade. O Brasil não estabeleceu,
+de acordo com a OMS, política para a difusão
+do uso da solução com baixa osmolaridade no
+país2. Este aspecto não é abordado no cartaz recentemente divulgado pelo MS9. Por outro lado,
+a ESPGHAN (Sociedade Europeia de Gastroenterologia, Hepatologia e Nutrição em Pediatria)
+tradicionalmente preconiza o emprego de solução de reidratação oral com menor concentração
+de sódio10,11,19. O Quadro 6 mostra a composição
+do soro oral tradicional, do soro oral com osmolaridade reduzida e a solução preconizada pela
+ESPGHAN19. No Brasil são comercializadas soluções com composição variável na concentração
+de sódio e glicose, algumas alinhadas com as recomendações da OMS e outras com a ESPGHAN.
+
+Quadro 6. Composição da solução de reidratação oral recomendada pela Organização Mundial da
+Saúde (OMS) no passado e no presente e da solução recomendada pela ESPGHAN (Sociedade Européia de Gastroentrologia, Hepatologia e Nutrição em Pediatria)19
+Solução Tradicional Solução com osmolaridade Solução hipotônica
+(OMS, 1975)
+reduzida (OMS, 2002)
+da ESPGHAN (1992)
+Glicose (mmoL/L)
+111
+75
+74-111
+Sódio (mmoL/L)
+90
+75
+60
+Potássio (mmoL/L)
+20
+20
+20
+Cloro (mmoL/L)
+80
+65
+60
+Citrato (mmoL/L)
+10
+10
+10
+Osmolaridade (mmoL/L)
+311
+245
+225-260
+
+9
+
+Diarreia aguda: diagnóstico e tratamento
+
+Por sua vez, o soro caseiro não contém citrato
+(para gerar bicarbonato) e potássio. A glicose é
+substituída por sacarose (dissacarídeo constituído por glicose e frutose). Assim, o soro caseiro
+é uma mistura de sal de cozinha, açúcar e água.
+Existem problemas na composição final das soluções preparadas no domicílio. Os problemas
+são menos frequentes quando se utiliza a colher
+medida com dupla-concha, específica para o preparo do soro caseiro20.
+A utilização dos soros de reidratação oral
+pode ser feita com dois objetivos: a) Reposição
+de perdas para prevenir a desidratação no paciente com diarreia (Plano A) e b) Reversão da
+desidratação, ou fase de reparação, para o paciente com desidratação por diarreia (Plano B).
+Na prevenção da desidratação, deve-se optar por soros com menor concentração de sódio.
+Caso sejam utilizados os sais de reidratação oral
+distribuídos pela rede pública de saúde do Brasil, com 90 mmol de sódio por litro, o paciente
+deve receber fluídos que não contenham sódio,
+para evitar a ocorrência de ingestão excessiva
+de sódio. Nesta situação, devem ser oferecidos
+outros tipos de líquidos, inclusive água. Não devem ser administrados refrigerantes ou sucos de
+frutas que apresentem elevada osmolaridade.
+Tradicionalmente, afirma-se que o lactente com
+
+menos de 12 meses deve receber 50 mL da solução para cada evacuação e os maiores de 1 ano,
+100 mL após cada evacuação. Na prática, deve
+ser oferecida a quantidade de líquidos que a
+criança aceitar (Plano A, Quadro 2). O tratamento
+deve ser realizado no domicílio. A família deve
+ser orientada para retornar ao serviço de saúde
+caso apareçam manifestações clínicas compatíveis com desidratação5-7.
+Para a reversão da desidratação com o emprego da TRO, deve ser utilizada a solução de
+reidratação oral com 75 a 90 mmol de sódio por
+litro. Exceto para os lactentes em aleitamento
+materno, o soro deve ser oferecido sem outros
+alimentos. O volume de 50 a 100 mL/kg de peso,
+dependendo da gravidade, deve ser administrado em 4 a 6 horas. O paciente deve ser pesado
+antes de iniciar a TRO e, depois, a cada 2 horas
+(Plano B)5-7.
+Se o paciente apresentar reversão da desidratação, caracterizada pelo desaparecimento
+dos sinais clínicos e ocorrência de diurese abundante, o paciente deverá ser realimentado e voltar ao Plano A.
+Caso não seja obtida melhora clínica no paciente desidratado com a TRO, ou nos caso graves de desidratação, deve ser iniciada a terapia
+de reidratação parenteral.
+
+Terapia de reidratação parenteral
+
+Indicada para pacientes com desidratação
+grave (ver Quadros 4 e 5) ou que não apresentam
+reversão da desidratação após 2 horas de TRO.
+Existem várias opções para este procedimento. No Quadro 5 são apresentadas algumas alternativas para a fase de reparação ou expansão.
+No passado, no Brasil, era recomendada solução de soro fisiológico e soro glicosado 5%,
+em partes iguais6. Esta modalidade terapêutica
+prevaleceu no Brasil, principalmente, entre as
+décadas de 1970 e 1990. Nos dias atuais as soluções mais empregadas são soro fisiológico ou
+Ringer lactato.
+Após a correção da desidratação pela via parenteral, os pacientes devem ser realimentados.
+Nesta fase, em geral, são mantidos com terapia
+
+10
+
+de reidratação de manutenção por via parenteral. O volume diário do soro de manutenção pode
+ser calculado pela regra de Holiday & Segar21:
+- peso corporal de até 10 kg: 100 mL/kg;
+- peso corporal entre 10 e 20 kg: 1000 mL +
+50mL por quilo acima dos 10 kg;
+- peso corporal superior a 20 kg: 1500 mL + 20mL
+por quilo que ultrapassar os 20 quilos.
+Em quadros muito graves pode ser necessário adicionar volume adicional de soro para
+repor as perdas diarreicas. Deve ser lembrado
+que para parcela dos pacientes este objetivo
+pode ser atingido com os fluídos dos alimentos e a solução de reidratação oral. A solução
+de reposição para a via parenteral utilizada no
+
+Departamento Científico de Gastroenterologia • Sociedade Brasileira de Pediatria
+
+Brasil é o soro fisiológico 0,9% e soro glicosado 5% em partes iguais que contém 77 mmol/L
+de sódio)6,9. O volume depende da gravidade
+da diarreia (20 a 50 mL/kg por dia). O paciente
+deve ser pesado com frequência para evitar a
+administração excessiva de soro.
+Nos casos de desidratação grave e os que não
+
+responderam a TRO, quando não for possível o
+início imediato de terapia de hidratação parenteral, deve ser administrado soro de reidratação
+oral por sonda nasogástrica (20 mL/kg/hora por 4
+a 6 horas). Se o abdome ficar distendido, deve ser
+reduzida a velocidade de administração do soro
+de reidratação através da sonda nasogástrica7.
+
+Zinco
+
+O zinco faz parte da estrutura de várias
+enzimas. Tem importante papel na função e no
+crescimento celular. Atua também no sistema
+imunológico1,2,7.
+Pode reduzir a duração do quadro de diarreia, a
+probabilidade da diarreia persistir por mais de sete
+dias e a ocorrência de novos episódios de diarreia
+aguda nos três meses subsequentes. O racional
+para seu emprego é a prevalência elevada de deficiência de zinco nos países não desenvolvidos.
+De acordo com a OMS1,2,7 deve ser usado em
+menores de cinco anos, durante 10 a 14 dias,
+sendo iniciado a partir do momento da caracterização da diarreia. A dose para maiores de seis
+meses é de 20mg por dia e 10mg para os primei-
+
+ros 6 meses de vida.
+Tanto a ESPGHAN como a Diretriz Íbero-Latinoamericana questionam a validade da terapia
+com zinco no primeiro semestre de vida11,16. A
+ESPGHAN não recomenda zinco no tratamento
+da diarreia aguda nos países da Europa, pois considera que a deficiência de zinco não é comum
+naquele continente11.
+No Brasil, é comercializado um soro de reidratação oral com 6 mg de gluconato de zinco
+em cada 100 mL. São comercializadas, também,
+soluções de zinco (solução com 2mg/0,5 mL na
+forma de gliconato de zinco; 4mg/mL na forma
+de sulfato de zinco), para serem administradas
+conforme as recomendações da OMS1,2,7 e MS9.
+
+Vitamina A
+
+D eve ser administrada a populações com
+risco de deficiência desta vitamina. O uso da
+vitamina A reduz o risco de hospitalização
+
+e mortalidade por diarreia e tem sido administrada nas zonas mais carentes do norte e
+nordeste.
+
+Antibióticos
+
+Na grande maioria das vezes os antibióticos
+não são empregados no tratamento da diarreia
+aguda, pois os episódios são autolimitados e
+grande parte se deve a agentes virais. O uso de
+antibióticos na diarreia aguda está restrito aos
+pacientes que apresentam diarreia com sangue
+nas fezes (disenteria), na cólera, na infecção aguda comprovada por Giardia lamblia ou Entamoeba
+hystolitica, em imunossuprimidos, nos pacientes
+com anemia falciforme, nos portadores de prótese e nas crianças com sinais de disseminação bacteriana extraintestinal. Nos casos de disenteria, a
+antibioticoterapia está indicada, especialmente
+
+quando o paciente apresenta febre e comprometimento do estado geral. Se possível, deve ser coletada amostra de fezes para realização de coprocultura e antibiograma. Inicialmente, mesmo que
+não comprovada laboratorialmente, prevalece a
+hipótese de infecção por Shigella. Outros agentes
+que podem necessitar antibióticos quando causam casos graves: E.coli enteroinvasiva, Yersinia,
+V. chorelae, C. difficille, Salmonela não tifoide.
+De acordo com o MS9 e a OMS1,2,7 devem ser
+prescritos, nos quadros disentéricos, os seguintes antibióticos, considerando a possibilidade de
+infecção por Shigella:
+
+11
+
+Diarreia aguda: diagnóstico e tratamento
+
+1. ciprofloxacino (primeira escolha): crianças,
+15mg/kg, duas vezes ao dia, por 3 dias; adultos,
+500mg duas vezes por dia por 3 dias7,9.
+2. como segunda escolha, pode ser adotada a
+recomendação da ESPGHAN11 (azitromicina, 10 a
+12mg/kg no primeiro dia e 5 a 6mg/kg por mais 4
+dias, via oral) para o tratamento dos casos de diarreia por Shigella (casos suspeitos ou comprovados).
+3. ceftriaxona, 50-100mg/kg EV por dia por 3
+a 5 dias nos casos graves que requerem hospitalização. Outra opção é a cefotaxima, 100mg/kg
+dividida em quatro doses.
+Até recentemente, era recomendado no Bra-
+
+sil o uso de sulfametoxazol-trimetropim ou ácido
+nalidíxico19. Levantamento da literatura mostrou
+que, no Brasil, as amostras de Shigella testadas
+apresentam alta taxa de resistência ao sulfametoxazol-trimetropim22. Por sua vez, apresentam boa
+sensibilidade ao ciprofloxacino e ao ceftriaxone.
+Os estudos realizados no Brasil não testaram a
+sensibilidade à azitromicina23. Deve ser lembrado
+que no Brasil não existe ciprofloxacino na apresentação em suspensão ou solução para uso oral.
+Quando a diarreia aguda é causada por giardíase ou amebíase comprovada, o tratamento
+deve ser feito com metronidazol2,7 ou análogos.
+
+Antieméticos
+
+Segundo a OMS, os antieméticos não devem
+ser utilizados no tratamento da diarreia aguda1,2,7. Considera-se que os vômitos tendem a
+desaparecer concomitantemente à correção da
+desidratação. O MS não faz menção ao emprego
+de antieméticos9.
+No entanto, há algumas situações onde são
+necessários. A ESPGHAN11 considera que a ondansetrona pode proporcionar redução na frequência
+
+de vômitos, na necessidade de hidratação parenteral e de internação hospitalar. A diretriz Íbero-Latinoamericana recomenda o emprego da ondansetrona para os pacientes com diarreia aguda
+com vômitos frequentes16. A dose de ondasentrona é de 0,1mg/kg (0,15-0,3/kg), até o máximo de
+4 mg por via oral ou intravenosa. Pode ser encontrada em duas apresentações: comprimidos com 4
+mg e ampola com 4mg/2 mL.
+
+Probióticos
+
+Os probióticos são microorganismos vivos
+que, quando consumidos em quantidades adequadas, proporcionam efeito benéfico para a
+saúde do indivíduo24. Os probióticos interagem
+com a microbiota intestinal. A microbiota intestinal exerce várias ações no intestino, que repercutem em vários órgãos do indivíduo. O emprego de probióticos no tratamento e na prevenção
+da diarreia aguda tem sido ultimamente bem
+estudado. A OMS e o MS não mencionam a possibilidade de uso de probióticos no tratamento da
+diarreia aguda1,2,6,7,9.
+Por outro lado, A ESPGHAN11,25 e a diretriz
+Íbero-Latinoamericana16, com base em evidências científicas, consideram que determinados
+probióticos podem ser utilizados como coadjuvantes no tratamento da diarreia aguda. Ou seja,
+devem ser utilizados em conjunto com outras
+medidas terapêuticas básicas, ou seja, terapia de
+
+12
+
+reidratação e manutenção da alimentação.
+Não há demonstração de que os probióticos
+diminuam as perdas diarreicas. No entanto, determinadas cepas, conforme demonstrado em
+ensaios clínicos duplo-cego, controlados por
+placebo e metanálises, proporcionam redução
+de aproximadamente 24 horas na média da duração da diarreia aguda 11,16,25. As cepas consideradas como tendo evidências suficientes e
+que foram recomendadas tanto pela ESPGHAN
+como pela diretriz Íbero-Latinoamericana para
+o tratamento coadjuvante da diarreia aguda
+são: Lactobacillus GG, Saccharomyces boulardii
+e Lacotobacillus reuteri DSM 1793811,16,25. Vale
+lembrar que o Lactobacillus GG não é comercializado no Brasil. Abaixo são apresentadas
+as doses dos principais probióticos que tem
+efeito comprovado para reduzir a duração da
+diarreia aguda11,16,25
+
+Departamento Científico de Gastroenterologia • Sociedade Brasileira de Pediatria
+
+- Saccharomyces boulardii- 250-750mg/dia (habitualmente 5-7 dias)
+- Lactobacillus GG - ≥ 1010 CFU/dia (habitualmente 5-7 dias)
+- L reuteri - 108 a 4 x 108 (habitualmente 5-7 dias)
+- L acidophhilus LB –min 5 doses de 1010 CFU >48
+
+h; máximo 9 doses de 1010 CFU por 4 a 5 dias
+De acordo as diretrizes mencionadas11,16,25,
+existem outros probióticos em investigação, mas
+no presente, apenas estas cepas têm evidências
+suficientes para merecer recomendação como coadjuvante no tratamento da diarreia aguda.
+
+Racecadotrila
+
+A racecadotrila é um inibidor da encefalinase,
+enzima responsável pela degradação das encefalinas produzidas pelo sistema nervoso entérico. As
+encefalinas com ação mais duradoura, em função da
+menor atividade da encefalinase, reduzem a secreção intestinal de água e eletrólitos que se encontra
+aumentada nos quadros de diarreia aguda. A ESPGHAN11 e a diretriz Ibero-Latinoamericana16 consideram que a racecadotrila pode ser utilizada como
+coadjuvante no tratamento da diarreia aguda, uma
+vez que, foi demonstrado, em ensaios clínicos e me-
+
+tanálise, seu papel na redução das perdas diarreicas
+e na duração da diarreia aguda. Trata-se de medicamento com eficácia e segurança, que não interfere
+na motilidade intestinal. A dose recomendada é de
+1,5mg/kg de peso corporal, três vezes ao dia. É contraindicado para menores de 3 meses. Esta substância é encontrada em sachês (pó) com 10mg e 30mg
+ou comprimidos com 100mg. Em adultos não deve
+ser utilizada dose superior a 400mg por dia. O tratamento com a racecadotrila deve ser interrompido
+assim que cesse a diarreia11,16.
+
+Considerações finais
+
+Os princípios fundamentais para o tratamento da diarreia aguda são a terapia de reidratação e
+a manutenção de alimentação que atenda as necessidades nutricionais do paciente.
+Deve ser destacado que apenas o uso do soro
+de reidratação oral ou parenteral não proporciona nutrição adequada. Por esse motivo, a alimentação deve ser mantida com alimentos de qualidade nas quantidades necessárias. Não deve ser
+usado leite ou fórmulas lácteas diluídas. Deve-se
+evitar sucos e refrigerantes com alta osmolaridade. Fórmula láctea sem lactose pode ser útil
+no tratamento de lactentes hospitalizados com
+diarreia aguda.
+Antibióticos são recomendados para pacientes com disenteria, considerando a possibilidade de Shigella. Atenção especial deve ser dada
+ao primeiro trimestre de vida, para crianças com
+desnutrição energético-proteica, imunossuprimidos ou com diarreia persistente e quanto à possibilidade de infecções sistêmicas, que requerem
+o emprego de antibióticos apropriados. A suplementação com zinco vem sendo preconizada para
+diminuir a duração do episódio diarreico e evitar
+recorrências e a vitamina A deve ser recomenda-
+
+da nas áreas onde corre esta hipovitaminose.
+Determinados probióticos e a racecadotrila
+podem ser usados como coadjuvantes. A loperamida continua sendo totalmente contraindicada
+em pediatria.
+O médico deve dar recomendações claras à família sobre o tratamento, a alimentação, as medidas de higiene e o saneamento, aproveitando esta
+oportunidade para educar, além de explicar quais
+as possíveis complicações e sinais de alarme e
+como proceder nesta situação.
+Para finalizar, devem ser destacados os princípios que a OMS incentiva para erradicação de
+mortes por diarreia aguda até 20301: Focalizar
+na terapêutica da diarreia aguda as seguintes
+condutas: terapia de reidratação, manutenção
+da alimentação e terapia com zinco. Na prevenção, devem ser destacados: imunização contra
+infecções por rotavirus e sarampo, ênfase no
+aleitamento natural prolongado e a suplementação de vitamina A, bem como a disponibilidade
+e condições de armazenamento de água de boa
+qualidade, higiene pessoal (lavagem das mãos),
+adequado preparo de alimentos e maior cobertura de saneamento básico.
+
+13
+
+Diarreia aguda: diagnóstico e tratamento
+
+REFERÊNCIAS BIBLIOGRÁFICAS
+1.
+
+Ending preventable child deaths from pneumonia and
+diarrhoea by 2005. World Health Organization. Geneva,
+2013.
+
+2.
+
+Diarrhoea. Why children are still dying and what can be
+done? UNICEF/WHO, 2009.
+
+3.
+
+Boschi-Pinto C, Velebit L, Shibuya K. Estimating child
+mortality due to diarrhoea in developing countries. Bull
+World Health Organ. 2008;86:710-7.
+
+4.
+
+Morais MB, Tahan S, Mello CS. Diarreia aguda: Probióticos
+e outros coadjuvantes na terapêutica. Atualidades em
+clínica cirúrgica intergastro e trauma 2012. 3 ed. São
+Paulo: Atheneu, 2013. p. 539-549.
+
+5.
+
+Organización Mundial de La Salud – Tratamiento y
+prevención de la diarrea aguda. Ginebra: OMS; 1989.
+
+6.
+
+Ministério da Saúde. Assistência e controle das doenças
+diarreicas. Ministério da Saúde, Brasília, 1993, 44p.
+
+7.
+
+World Health Organization. The Treatment of Diarrhoea
+– A Manual for Physicians and Other Senior Health
+Workers (WHO/CAH/03.7). Geneva: World Health
+Organization, 2005. 44p.
+
+14. Polanco-Allué I, Salazar-Lindo E, Gutiérrez-Castrellón
+P, Grupo IberoLatinoamericano sobre el Manejo de
+la Diarrea Aguda (GILA). Guía práctica clínica iberolatinoamericana sobre el manejo de la gastroenteritis
+aguda en menores de 5 años: diagnóstico y criterios
+de atención médica I. An Pediatr (Barc). 2014;80(Supl
+1):5-8.
+15. Gutiérrez-Castrellón P, Salazar-Lindo E, Polanco-Allué
+I, Grupo IberoLatinoamericano sobre el Manejo de
+la Diarrea Aguda (GILA). Guía práctica clínica iberolatinoamericana sobre el manejo de la gastroenteritis
+aguda en menores de 5 años: esquemas de hidratación
+y alimentación. An Pediatr (Barc). 2014;80(Supl 1):9-14.
+16. Salazar-Lindo E, Polanco-Allué I, Gutiérrez-Castrellón
+P, Grupo IberoLatinoamericano sobre el Manejo de la
+Diarrea Aguda (GILA). Guía de práctica clínica iberolatinoamericana sobre el manejo de la gastroenteritis
+aguda en menores de 5 años: tratamiento farmacológico
+E. An Pediatr (Barc). 2014;80(Supl 1):15-22.
+17. Brandt KG, Castro Antunes MM, Silva GA. Acute diarrhea:
+evidence-based management. J Pediatr (Rio J).
+2015;91:S36-43.
+
+8.
+
+Fernandes EG, Leshem E, Patel M, Flannery B, Pellini
+AC, Veras MA, et al. Hospital-based surveillance of
+intussusception among infants. J Pediatr (Rio J).
+2016;92:181–7.
+
+18. Gomes TA, Elias WP, Scaletsky IC, Guth BE, Rodrigues JF,
+Piazza RM, et al. Diarrheagenic Escherichia coli. Braz J
+Microbiol. 2016;47 Suppl 1:3-30.
+
+9.
+
+Ministério da Saúde do Brasil. Manejo do paciente
+com diarreia. http://bvsms.saude.gov.br/bvs/cartazes/
+manejo_paciente_diarreia_cartaz.pdf
+
+19. Tormo R, Polanco I, Salazar-Lindo E, Goulet O. Acute
+infectious diarrhoea in children: new insights in
+antisecretory treatment with racecadotril.Acta Paediatr.
+2008;97:1008-15.
+
+10. Guarino A, Albano F, Ashkenazi S, Gendrel D, Hoekstra
+JH, Shamir Ret al. European Society for Pediatric
+Gastroenterology, Hepatology and Nutrition/European
+Society for Pediatric Infectious Diseases evidence-based
+guidelines for the management of acute gastroenteritis
+in children in Europe. J Pediatr Gastroenterol Nutr.
+2008;46(Suppl. 2):S81-122.
+11. Guarino A, Ashkenazi S, Gendrel D, Lo Vecchio A, Shamir
+R, Szajewska H, et al. European Society for Pediatric
+Gastroenterology, Hepatology, and Nutrition/European
+Society for Pediatric Infectious Diseases evidencebased. guidelines for the management of acute
+gastroenteritis in children in Europe: update 2014.J
+PediatrGastroenterol Nutr. 2014 Jul;59(1):132-52.
+12. Gutiérrez Castrellón P, Polanco Allué I, Salazar Lindo
+E. Manejo de la gastroenteritis aguda en menores de
+5 años: un enfoque basado en la evidencia. Guía de
+práctica clínica Ibero-Latinoamericana. An Pediatr (Barc).
+2010;72:1-19.
+13. Gutiérrez-Castrellón P, Salazar-Lindo E, Polanco-Allué
+I, Grupo Ibero-Latinoamericano sobre el manjeo de
+la diarrea aguda (GILA). Guía de práctica clínica iberolatinoamericana sobre el manejo de la gastroenteritis
+aguda en menores de 5 años: enfoque, alcances y
+diseño. An Pediatr (Barc). 2014;80(Supl 1):1-4.
+
+14
+
+20. Sena, LV, Maranhão HS, Morais, MB. Avaliação do
+conhecimento de mães sobre terapia de reidratação
+oral e concentração de sódio em soluções sal-açúcar de
+preparo domiciliar. J Ped (Rio J) 2001;77:481-6.
+21. Holliday MA, Segar WE. The maintenance need for water
+in parenteral flui therapy. Pediatrics 1957;19:823-32.
+22. Brasil. Ministério da Saúde. Secretaria de Vigilância em
+Saúde. Departamento de Vigilância Epidemiológica.
+Doenças infecciosas e parasitárias: guia de bolso. 8ª ed.
+rev. Brasília: Ministério da Saúde; 2010. 444p. Série B.
+Textos Básicos de Saúde.
+23. Carrari MHC, Taha S, Morais MB. Antibioticoterapia na
+diarreia aguda por Shigella: qual a melhor opção?J Ped
+(Rio J) 2012;88:366-7.
+24. Hill C, Guarner F, Reid G, Gibson GR, Merenstein DJ,
+Pot B, et al. The International Scientific Association
+for Probiotics and Prebiotics. Nat Rev Gastroenterol
+Hepatol.2014;11:506-14.
+25. Szajewska H, Guarino A, Hojsak I, Indrio F, Kolacek S,
+Shamir R, et al. Use of Probiotics for Management of
+Acute Gastroenteritis: A Position Paper by the ESPGHAN
+Working Group for Probiotics and Prebiotics. J Pediatr
+Gastroenterol Nut 2014; 58:531-9.
+
+Diretoria
+
+Triênio 2016/2018
+PRESIDENTE:
+Luciana Rodrigues Silva (BA)
+1º VICE-PRESIDENTE:
+Clóvis Francisco Constantino (SP)
+2º VICE-PRESIDENTE:
+Edson Ferreira Liberal (RJ)
+SECRETÁRIO GERAL:
+Sidnei Ferreira (RJ)
+1º SECRETÁRIO:
+Cláudio Hoineff (RJ)
+2º SECRETÁRIO:
+Paulo de Jesus Hartmann Nader (RS)
+3º SECRETÁRIO:
+Virgínia Resende Silva Weffort (MG)
+DIRETORIA FINANCEIRA:
+Maria Tereza Fonseca da Costa (RJ)
+2ª DIRETORIA FINANCEIRA:
+Ana Cristina Ribeiro Zöllner (SP)
+3ª DIRETORIA FINANCEIRA:
+Fátima Maria Lindoso da Silva Lima (GO)
+DIRETORIA DE INTEGRAÇÃO REGIONAL:
+Fernando Antônio Castro Barreiro (BA)
+Membros:
+Hans Walter Ferreira Greve (BA)
+Eveline Campos Monteiro de Castro (CE)
+Alberto Jorge Félix Costa (MS)
+Analíria Moraes Pimentel (PE)
+Corina Maria Nina Viana Batista (AM)
+Adelma Alves de Figueiredo (RR)
+COORDENADORES REGIONAIS:
+Norte:
+Bruno Acatauassu Paes Barreto (PA)
+Nordeste:
+Anamaria Cavalcante e Silva (CE)
+Sudeste:
+Luciano Amedée Péret Filho (MG)
+Sul:
+Darci Vieira Silva Bonetto (PR)
+Centro-oeste:
+Regina Maria Santos Marques (GO)
+ASSESSORES DA PRESIDÊNCIA:
+Assessoria para Assuntos Parlamentares:
+Marun David Cury (SP)
+Assessoria de Relações Institucionais:
+Clóvis Francisco Constantino (SP)
+Assessoria de Políticas Públicas:
+Mário Roberto Hirschheimer (SP)
+Rubens Feferbaum (SP)
+Maria Albertina Santiago Rego (MG)
+Sérgio Tadeu Martins Marba (SP)
+Assessoria de Políticas Públicas – Crianças e
+Adolescentes com Deficiência:
+Alda Elizabeth Boehler Iglesias Azevedo (MT)
+Eduardo Jorge Custódio da Silva (RJ)
+Assessoria de Acompanhamento da Licença
+Maternidade e Paternidade:
+João Coriolano Rego Barros (SP)
+Alexandre Lopes Miralha (AM)
+Ana Luiza Velloso da Paz Matos (BA)
+Assessoria para Campanhas:
+Conceição Aparecida de Mattos Segre (SP)
+GRUPOS DE TRABALHO:
+Drogas e Violência na Adolescência:
+Evelyn Eisenstein (RJ)
+Doenças Raras:
+Magda Maria Sales Carneiro Sampaio (SP)
+Metodologia Científica:
+Gisélia Alves Pontes da Silva (PE)
+Cláudio Leone (SP)
+Pediatria e Humanidade:
+Álvaro Jorge Madeiro Leite (CE)
+Luciana Rodrigues Silva (BA)
+Christian Muller (DF)
+João de Melo Régis Filho (PE)
+Transplante em Pediatria:
+Themis Reverbel da Silveira (RS)
+Irene Kazue Miura (SP)
+Carmen Lúcia Bonnet (PR)
+Adriana Seber (SP)
+Paulo Cesar Koch Nogueira (SP)
+Fabiana Carlese (SP)
+DIRETORIA E COORDENAÇÕES:
+DIRETORIA DE QUALIFICAÇÃO E CERTIFICAÇÃO
+PROFISSIONAL
+Maria Marluce dos Santos Vilela (SP)
+COORDENAÇÃO DO CEXTEP:
+Hélcio Villaça Simões (RJ)
+
+COORDENAÇÃO DE ÁREA DE ATUAÇÃO
+Mauro Batista de Morais (SP)
+COORDENAÇÃO DE CERTIFICAÇÃO PROFISSIONAL
+José Hugo de Lins Pessoa (SP)
+DIRETORIA DE RELAÇÕES INTERNACIONAIS
+Nelson Augusto Rosário Filho (PR)
+REPRESENTANTE NO GPEC (Global Pediatric Education
+Consortium)
+Ricardo do Rego Barros (RJ)
+REPRESENTANTE NA ACADEMIA AMERICANA DE PEDIATRIA (AAP)
+Sérgio Augusto Cabral (RJ)
+REPRESENTANTE NA AMÉRICA LATINA
+Francisco José Penna (MG)
+DIRETORIA DE DEFESA PROFISSIONAL, BENEFÍCIOS E PREVIDÊNCIA
+Marun David Cury (SP)
+DIRETORIA-ADJUNTA DE DEFESA PROFISSIONAL
+Sidnei Ferreira (RJ)
+Cláudio Barsanti (SP)
+Paulo Tadeu Falanghe (SP)
+Cláudio Orestes Britto Filho (PB)
+Mário Roberto Hirschheimer (SP)
+João Cândido de Souza Borges (CE)
+COORDENAÇÃO VIGILASUS
+Anamaria Cavalcante e Silva (CE)
+Fábio Elíseo Fernandes Álvares Leite (SP)
+Jussara Melo de Cerqueira Maia (RN)
+Edson Ferreira Liberal (RJ)
+Célia Maria Stolze Silvany ((BA)
+Kátia Galeão Brandt (PE)
+Elizete Aparecida Lomazi (SP)
+Maria Albertina Santiago Rego (MG)
+Isabel Rey Madeira (RJ)
+Jocileide Sales Campos (CE)
+COORDENAÇÃO DE SAÚDE SUPLEMENTAR
+Maria Nazareth Ramos Silva (RJ)
+Corina Maria Nina Viana Batista (AM)
+Álvaro Machado Neto (AL)
+Joana Angélica Paiva Maciel (CE)
+Cecim El Achkar (SC)
+Maria Helena Simões Freitas e Silva (MA)
+COORDENAÇÃO DO PROGRAMA DE GESTÃO DE CONSULTÓRIO
+Normeide Pedreira dos Santos (BA)
+DIRETORIA DOS DEPARTAMENTOS CIENTÍFICOS E COORDENAÇÃO
+DE DOCUMENTOS CIENTÍFICOS
+Dirceu Solé (SP)
+DIRETORIA-ADJUNTA DOS DEPARTAMENTOS CIENTÍFICOS
+Lícia Maria Oliveira Moreira (BA)
+DIRETORIA DE CURSOS, EVENTOS E PROMOÇÕES
+Lilian dos Santos Rodrigues Sadeck (SP)
+COORDENAÇÃO DE CONGRESSOS E SIMPÓSIOS
+Ricardo Queiroz Gurgel (SE)
+Paulo César Guimarães (RJ)
+Cléa Rodrigues Leone (SP)
+COORDENAÇÃO GERAL DOS PROGRAMAS DE ATUALIZAÇÃO
+Ricardo Queiroz Gurgel (SE)
+COORDENAÇÃO DO PROGRAMA DE REANIMAÇÃO NEONATAL:
+Maria Fernanda Branco de Almeida (SP)
+Ruth Guinsburg (SP)
+COORDENAÇÃO PALS – REANIMAÇÃO PEDIÁTRICA
+Alexandre Rodrigues Ferreira (MG)
+Kátia Laureano dos Santos (PB)
+COORDENAÇÃO BLS – SUPORTE BÁSICO DE VIDA
+Valéria Maria Bezerra Silva (PE)
+COORDENAÇÃO DO CURSO DE APRIMORAMENTO EM NUTROLOGIA
+PEDIÁTRICA (CANP)
+Virgínia Resende S. Weffort (MG)
+CONVERSANDO COM O PEDIATRA
+Victor Horácio da Costa Júnior (PR)
+PORTAL SBP
+Flávio Diniz Capanema (MG)
+COORDENAÇÃO DO CENTRO DE INFORMAÇÃO CIENTÍFICA
+José Maria Lopes (RJ)
+PROGRAMA DE ATUALIZAÇÃO CONTINUADA À DISTÂNCIA
+Altacílio Aparecido Nunes (SP)
+João Joaquim Freitas do Amaral (CE)
+DOCUMENTOS CIENTÍFICOS
+Luciana Rodrigues Silva (BA)
+Dirceu Solé (SP)
+Emanuel Sávio Cavalcanti Sarinho (PE)
+Joel Alves Lamounier (MG)
+DIRETORIA DE PUBLICAÇÕES
+Fábio Ancona Lopez (SP)
+EDITORES DA REVISTA SBP CIÊNCIA
+Joel Alves Lamounier (SP)
+Altacílio Aparecido Nunes (SP)
+Paulo Cesar Pinho Pinheiro (MG)
+Flávio Diniz Capanema (MG)
+EDITOR DO JORNAL DE PEDIATRIA
+Renato Procianoy (RS)
+
+EDITOR REVISTA RESIDÊNCIA PEDIÁTRICA
+Clémax Couto Sant’Anna (RJ)
+EDITOR ADJUNTO REVISTA RESIDÊNCIA PEDIÁTRICA
+Marilene Augusta Rocha Crispino Santos (RJ)
+CONSELHO EDITORIAL EXECUTIVO
+Gil Simões Batista (RJ)
+Sidnei Ferreira (RJ)
+Isabel Rey Madeira (RJ)
+Sandra Mara Amaral (RJ)
+Bianca Carareto Alves Verardino (RJ)
+Maria de Fátima B. Pombo March (RJ)
+Sílvio Rocha Carvalho (RJ)
+Rafaela Baroni Aurilio (RJ)
+COORDENAÇÃO DO PRONAP
+Carlos Alberto Nogueira-de-Almeida (SP)
+Fernanda Luísa Ceragioli Oliveira (SP)
+COORDENAÇÃO DO TRATADO DE PEDIATRIA
+Luciana Rodrigues Silva (BA)
+Fábio Ancona Lopez (SP)
+DIRETORIA DE ENSINO E PESQUISA
+Joel Alves Lamounier (MG)
+COORDENAÇÃO DE PESQUISA
+Cláudio Leone (SP)
+COORDENAÇÃO DE PESQUISA-ADJUNTA
+Gisélia Alves Pontes da Silva (PE)
+COORDENAÇÃO DE GRADUAÇÃO
+Rosana Fiorini Puccini (SP)
+COORDENAÇÃO ADJUNTA DE GRADUAÇÃO
+Rosana Alves (ES)
+Suzy Santana Cavalcante (BA)
+Angélica Maria Bicudo-Zeferino (SP)
+Silvia Wanick Sarinho (PE)
+COORDENAÇÃO DE PÓS-GRADUAÇÃO
+Victor Horácio da Costa Junior (PR)
+Eduardo Jorge da Fonseca Lima (PE)
+Fátima Maria Lindoso da Silva Lima (GO)
+Ana Cristina Ribeiro Zöllner (SP)
+Jefferson Pedro Piva (RS)
+COORDENAÇÃO DE RESIDÊNCIA E ESTÁGIOS EM PEDIATRIA
+Paulo de Jesus Hartmann Nader (RS)
+Ana Cristina Ribeiro Zöllner (SP)
+Victor Horácio da Costa Junior (PR)
+Clóvis Francisco Constantino (SP)
+Silvio da Rocha Carvalho (RJ)
+Tânia Denise Resener (RS)
+Delia Maria de Moura Lima Herrmann (AL)
+Helita Regina F. Cardoso de Azevedo (BA)
+Jefferson Pedro Piva (RS)
+Sérgio Luís Amantéa (RS)
+Gil Simões Batista (RJ)
+Susana Maciel Wuillaume (RJ)
+Aurimery Gomes Chermont (PA)
+COORDENAÇÃO DE DOUTRINA PEDIÁTRICA
+Luciana Rodrigues Silva (BA)
+Hélcio Maranhão (RN)
+COORDENAÇÃO DAS LIGAS DOS ESTUDANTES
+Edson Ferreira Liberal (RJ)
+Luciano Abreu de Miranda Pinto (RJ)
+COORDENAÇÃO DE INTERCÂMBIO EM RESIDÊNCIA NACIONAL
+Susana Maciel Wuillaume (RJ)
+COORDENAÇÃO DE INTERCÂMBIO EM RESIDÊNCIA INTERNACIONAL
+Herberto José Chong Neto (PR)
+DIRETOR DE PATRIMÔNIO
+Cláudio Barsanti (SP)
+COMISSÃO DE SINDICÂNCIA
+Gilberto Pascolat (PR)
+Aníbal Augusto Gaudêncio de Melo (PE)
+Isabel Rey Madeira (RJ)
+Joaquim João Caetano Menezes (SP)
+Valmin Ramos da Silva (ES)
+Paulo Tadeu Falanghe (SP)
+Tânia Denise Resener (RS)
+João Coriolano Rego Barros (SP)
+Maria Sidneuma de Melo Ventura (CE)
+Marisa Lopes Miranda (SP)
+CONSELHO FISCAL
+Titulares:
+Núbia Mendonça (SE)
+Nélson Grisard (SC)
+Antônio Márcio Junqueira Lisboa (DF)
+Suplentes:
+Adelma Alves de Figueiredo (RR)
+João de Melo Régis Filho (PE)
+Darci Vieira da Silva Bonetto (PR)
+ACADEMIA BRASILEIRA DE PEDIATRIA
+Presidente:
+José Martins Filho (SP)
+Vice-presidente:
+Álvaro de Lima Machado (ES)
+Secretário Geral:
+Reinaldo de Menezes Martins (RJ)
+
+15
+
+

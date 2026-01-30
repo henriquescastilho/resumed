@@ -1,0 +1,1244 @@
+Nº 4, 11 de Agosto de 2022
+
+Manual de Orientação
+Departamento Científico de
+C a r d i o l o g i a e N e o n a t o l o g i a (2019-2021)
+
+Sistematização do atendimento ao
+recém-nascido com suspeita ou
+diagnóstico de cardiopatia congênita
+Departamento Científico de Cardiologia
+Presidente:
+Jorge Yussef Afiune (Autor)
+Secretária:
+Márcia Fernanda Da Costa Carvalho
+Conselho Científico:	Cristiane Nogueira Binotto, Gisele Correia Pacheco Leite,
+Márcio Miranda Brito, Maurício Laerte Silva, Patrícia Guedes de Souza
+Departamento Científico de Neonatologia
+Presidente:
+Maria Albertina Santiago Rego (Revisora)
+Secretária:
+Lilian dos Santos Rodrigues Sadeck (Revisora)
+Conselho Científico:	Alexandre Lopes Miralha, Danielle Cintra Bezerra Brandão,
+João Henrique Carvalho Leme de Almeida, Leila Denise Cesário Pereira,
+Lícia Maria Oliveira Moreira, Marynea Silva do Vale, Salma Saraty Malveira,
+Silvana Salgado Nader
+
+Introdução
+As cardiopatias congênitas são defeitos
+estruturais do coração que estão presentes
+na vida fetal e ao nascimento. Esse grupo representa cerca de 30% de todas as malformações congênitas1 e tem incidência em torno
+de 9,4 casos para cada 1000 nascidos vivos
+(IC95%: 8,6-10,2), de acordo com estudo epidemiológico recentemente publicado2. Trata-se de
+um grupo heterogêneo de doenças que englo-
+
+ba desde cardiopatias simples sem repercussão
+clínica até cardiopatias complexas e de extrema
+gravidade, sendo considerado o responsável
+pela maioria dos óbitos decorrentes das malformações congênitas e por cerca de 10% a 15%
+dos óbitos infantis3. A maioria das cardiopatias
+congênitas ocorre de forma isolada, porém outras anomalias extracardíacas estão presentes
+em cerca de 25% dos bebês cardiopatas4. As
+cardiopatias congênitas que se apresentam no
+período neonatal geralmente são graves e necessitam de tratamento clínico especializado
+
+1
+
+Sistematização do atendimento ao recém-nascido com suspeita ou diagnóstico de cardiopatia congênita
+
+desde as primeiras horas de vida, além de necessitarem, na sua grande maioria, da realização
+de cirurgia cardíaca ou de cateterismo intervencionista ainda nos primeiros dias de vida. Esse
+tipo de tratamento cirúrgico ou intervencionista
+é realizado em centros especializados de cardiologia e cirurgia cardíaca neonatal que geralmente se encontram distantes geograficamente
+das maternidades. Isso torna o tratamento desses bebês um grande desafio para o nosso sistema de saúde, visto que temos que conseguir
+identificar rapidamente o recém-nascido (RN)
+cardiopata, estabilizar o seu quadro clínico e hemodinâmico e após isso conseguir que o mesmo
+seja transferido para um centro de referência
+cardiológico.
+O diagnóstico das cardiopatias congênitas
+pode ser feito na vida fetal, através de ultrassonografia e ecocardiografia fetal, ou após o nascimento através do exame clínico pós-natal, teste
+de oximetria de pulso e ecocardiografia fetal.
+Neonatologistas e pediatras têm um papel fundamental neste cenário pois são eles os profissionais responsáveis por identificar estes sinais
+clínicos no período ao redor do nascimento e
+tomar as medidas necessárias para estabilização
+do quadro até que se faça o tratamento específico de cada cardiopatia.
+
+Principais cardiopatias
+no período neonatal
+As cardiopatias congênitas que se manifestam no período neonatal são geralmente muito
+graves e têm incidência em torno de 3 a cada
+1000 nascidos vivos. Podemos dividi-las em dois
+grupos principais, de acordo com a gravidade e a
+fisiopatologia da cardiopatia5.
+1. Cardiopatias congênitas críticas: são aquelas
+que se manifestam no período neonatal por hipóxia, insuficiência cardíaca ou baixo débito sistêmico e que necessitam de intervenção cirúrgica ou de cateterismo intervencionista logo nos
+
+2
+
+primeiros dias de vida ou até o final do primeiro
+mês de vida. Estas cardiopatias também são chamadas de cardiopatias canal-dependentes pois
+a persistência do canal arterial aberto é fundamental para a sobrevivência destes bebês nos
+primeiros dias de vida. As principais cardiopatias
+congênitas críticas são as seguintes:
+1.1. Cardiopatias com fluxo pulmonar
+dependente do canal arterial
+Neste grupo encontram-se cardiopatias que
+apresentam uma obstrução anatômica ao fluxo
+pulmonar de grau acentuado, podendo ocorrer
+atresia da valva pulmonar ou estenose pulmonar
+de grau acentuado.
+O quadro clínico predominante é de cianose
+que é decorrente uma mistura de fluxo intracardíaca da direita para esquerda além de uma redução acentuada do fluxo pulmonar. O bebê geralmente nasce bem e logo nas primeiras horas
+de vida começa a apresentar cianose em repouso
+e às mamadas que progride rapidamente à medida que ocorre o fechamento do canal arterial e a
+redução do fluxo pulmonar. Geralmente não há
+sinais de baixo débito sistêmico ou de desconforto respiratório significativo e o uso de oxigênio através de máscara ou mesmo após intubação
+traqueal não resulta em melhora significativa da
+saturação periférica, o que ajuda a fazer o diagnóstico diferencial com doenças ventilatórias no
+período neonatal. Na radiografia de tórax observaremos trama vascular pulmonar reduzida, sem
+velamentos pulmonares significativos, podendo
+ou não haver cardiomegalia. As principais cardiopatias deste grupo são as seguintes:
+• Atresia pulmonar com septo ventricular íntegro
+• Síndrome de hipoplasia do coração direito
+• Estenose pulmonar valvar crítica
+• Atresia pulmonar com comunicação interventricular
+• Tetralogia de Fallot com atresia pulmonar ou
+com estenose pulmonar crítica
+• Ventrículo único com atresia pulmonar ou estenose pulmonar crítica (ex.: atresia tricúspide)
+• Anomalia de Ebstein da valva tricúspide
+
+Departamento Científico de Cardiologia e Neonatologia (2019-2021) • Sociedade Brasileira de Pediatria
+
+1.2. Cardiopatias com fluxo sistêmico
+dependente do canal arterial
+Neste grupo encontram-se cardiopatias que
+apresentam obstrução
+anatômica ao fluxo sistêmico, podendo haver
+atresia ou estenose crítica da valva aórtica ou
+obstrução crítica no arco aórtico.
+Do ponto vista fisiopatológico, estas cardiopatias apresentam o fluxo sistêmico dependente do canal arterial. A criança geralmente nasce
+bem e após algumas horas de vida apresenta
+sinais de baixo débito sistêmico e congestão
+venosa pulmonar, quadro este caracterizado
+inicialmente por taquidispneia progressiva que
+culmina com sinais de choque (má perfusão periférica, taquicardia, palidez cutânea, redução
+da amplitude dos pulsos arteriais, hipotensão,
+acidose metabólica e falência cardiopulmonar).
+Este quadro ocorre por redução do fluxo sistêmico causado pelo fechamento progressivo do
+canal arterial aliado ao aumento do fluxo pulmonar o que acarreta um desequilíbrio na relação
+entre os fluxos sistêmico e pulmonar. O quadro
+clínico principal é o de taquipneia e baixo débito sistêmico. Cianose clínica é pouco frequente,
+entretanto a saturação periférica geralmente
+fica entre 90% e 95%. O exame cardiológico
+mostra precórdio hiperdinâmico com impulsões
+palpáveis, hiperfonese de bulhas (principalmente da 2ª bulha na área pulmonar), podendo
+ou não apresentar sopro cardíaco. A radiografia de tórax revela cardiomegalia discreta com
+aumento significativo da trama vascular pulmonar, o que dificulta o diagnóstico diferencial
+com doenças pulmonares no período neonatal.
+As principais cardiopatias deste grupo são as
+seguintes:
+• Síndrome de hipoplasia do coração esquerdo
+• Estenose aórtica crítica
+• Coarctação de aorta crítica ou hipoplasia do
+arco aórtico
+
+cúspide com coarctação de aorta; dupla via de
+entrada de ventrículo esquerdo com coarctação
+de aorta)
+1.2.1. Cardiopatias com circulação em paralelo
+e circulação dependente de comunicação
+interatrial
+Neste grupo encontram-se as cardiopatias
+que mantém circulação em paralelo mesmo após
+o nascimento, sendo a transposição das grandes
+artérias a cardiopatia mais importante deste
+grupo. Nesta doença o retorno venoso sistêmico
+é direcionado do ventrículo direito para a aorta e o retorno venoso pulmonar é direcionado
+do ventrículo esquerdo para a artéria pulmonar,
+mantendo-se assim uma circulação em paralelo. A manifestação clínica principal é a cianose
+precoce (primeiro dia), associada a taquipneia e
+desconforto respiratório. Neste tipo de cardiopatia, é obrigatório haver alguma comunicação
+entre os átrios (forame oval ou comunicação interatrial) ou entre os ventrículos (comunicação
+interventricular) para que haja mistura sanguínea entre as circulações sistêmica e pulmonar.
+Apesar desta cardiopatia não ser considerada
+canal-dependente, a manutenção do canal arterial aberto é importante para que haja aumento
+do fluxo pulmonar e consequentemente do retorno venoso pulmonar para o átrio esquerdo
+e a partir daí ocorra aumento do fluxo do átrio
+esquerdo para o átrio direito, fazendo com que
+o fluxo de sangue oxigenado chegue até a aorta. O diagnóstico diferencial principal desta
+cardiopatia se faz com a hipertensão pulmonar
+persistente no RN cujo quadro clínico é muito
+semelhante. O exame físico não mostra sopros
+cardíacos, porém chama atenção a hiperfonese
+da 2ª bulha na área pulmonar. A radiografia de
+tórax mostrará uma área cardíaca normal ou um
+pouco aumentada com um aumento da trama
+vascular pulmonar. As principais cardiopatias
+deste grupo são as seguintes:
+• Transposição das grandes artérias
+
+• Interrupção do arco aórtico
+
+• Transposição das grandes artérias com CIV
+
+• Ventrículo único funcional com coarctação ou
+interrupção do arco aórtico (ex.: atresia tri-
+
+• Dupla via de saída de ventrículo direito com
+CIV subpulmonar
+
+3
+
+Sistematização do atendimento ao recém-nascido com suspeita ou diagnóstico de cardiopatia congênita
+
+• Conexão anômala total de veias pulmonares
+forma obstrutiva (CIA restritiva ou infradiafragmática)
+• Ventrículo único funcional com atresia de valva
+atrioventricular e CIA restritiva
+1.3. Cardiopatias congênitas graves: Qualquer
+cardiopatia que não se enquadre na categoria
+anterior, porém que apresente sinais de insuficiência cardíaca ou hipóxia e que necessitará de
+correção cirúrgica ou de cateterismo intervencionista ao longo do primeiro ano de vida. As principais cardiopatias congênitas são as seguintes:
+1.3.1. Cardiopatias com shunt misto
+Neste grupo de cardiopatias encontram-se
+aquelas em que existe uma mistura intracardíaca bidirecional (shunt esquerda-direita e shunt
+direita-esquerda). O quadro clínico geralmente é
+de taquidispneia e insuficiência cardíaca decorrente de hiperfluxo pulmonar, além de discreto
+grau de cianose decorrente do shunt direita-esquerda. Os sintomas tornam-se mais exuberantes após a segunda semana de vida à medida
+que ocorre uma redução da resistência vascular
+pulmonar e aumento do fluxo pulmonar. O exame físico geralmente mostra um precórdio hiperdinâmico, bulhas hiperfonéticas, não havendo sopros cardíacos significativos. Cianose pode
+ocorrer, porém, é bem discreta e a saturação
+periférica geralmente está entre 85% e 95%.
+Em geral, não há sinais de baixo débito sistêmico. A radiografia de tórax mostrará área cardíaca aumentada e aumento da trama vascular
+pulmonar. Estas cardiopatias não são consideradas do tipo canal-dependente. Os principais
+exemplos deste grupo são os seguintes:
+• Conexão anômala total de veias pulmonares
+• Tronco arterial comum
+• Ventrículo único funcional com ou sem estenose pulmonar
+1.3.2. Cardiopatias com shunt esquerda-direita
+exclusivo
+Neste grupo de cardiopatias encontram-se os defeitos septais de grande tamanho cuja
+
+4
+
+característica principal é a presença de shunt
+esquerda-direita exclusivo com hiperfluxo pulmonar. O quadro clínico é o de taquidispneia e
+insuficiência cardíaca, não havendo cianose. Os
+sintomas tornam-se mais exuberantes a partir da
+segunda semana de vida à medida que a resistência vascular pulmonar se reduz e o fluxo pulmonar aumenta de forma rápida. Ao exame físico
+geralmente se observa um precórdio hiperdinâmico e hiperfonese da 2ª bulha na área pulmonar. A saturação periférica geralmente está normal (>95%), não havendo sinais de baixo débito
+sistêmico. A radiografia de tórax mostrará área
+cardíaca aumentada e um aumento da trama
+vascular pulmonar. Os principais exemplos deste
+grupo são os seguintes:
+• Comunicação interventricular grande
+• Defeito do septo atrioventricular forma total
+• Persistência do canal arterial de grande tamanho
+• Janela aorto-pulmonar
+• Origem anômala da artéria pulmonar da aorta
+
+Como fazer o diagnóstico das
+cardiopatias congênitas no RN
+1. Diagnóstico fetal das cardiopatias
+congênitas: ecocardiografia fetal
+A grande maioria das cardiopatias congênitas críticas ou graves pode ser diagnosticada no
+período fetal por ultrassonografia gestacional e
+ecocardiografia fetal. Alguns estudos mostram
+que a taxa de diagnóstico fetal dessas cardiopatias está aumentando nos últimos anos, podendo
+chegar a valores em torno de 80% em países de
+renda alta6. Em relação ao Brasil, estima-se que a
+taxa global de diagnóstico fetal esteja em torno
+de 30%, mas com grande variabilidade nas diferentes regiões do país7.
+O objetivo principal do diagnóstico fetal das
+cardiopatias congênitas é o de planejar adequadamente o tratamento pós-natal do bebê além
+
+Departamento Científico de Cardiologia e Neonatologia (2019-2021) • Sociedade Brasileira de Pediatria
+
+de orientar e preparar a família para esta situação. A partir do diagnóstico fetal podemos nos
+organizar para que o nascimento ocorra em um
+centro terciário de neonatologia ou de cardiologia neonatal e que o RN receba o tratamento
+neonatal e cardiológico adequado desde os primeiros minutos de vida extrauterina. Isto poderá
+reduzir o risco de hipóxia ou choque, bem como
+permitirá que o tratamento cirúrgico ou intervencionista seja feito ainda nos primeiros dias
+de vida, antes que ocorra a deterioração clínica.
+
+Outro aspecto muito importante é o fato de que
+com diagnóstico fetal e o nascimento da criança
+em centro terciário, evitaríamos a necessidade
+de transferir e de transportar um recém-nascido
+tão grave de uma unidade hospitalar para outra, reduzindo assim os riscos e os custos com o
+transporte.
+Na Figura 1, podemos observar uma sugestão de fluxograma para o diagnóstico fetal das
+cardiopatias congênitas.
+
+Figura 1. Fluxograma para diagnóstico fetal das cardiopatias congênitas
+
+Gestante
+
+Pré-natal: Realizar ultrassom morfológico (1º e 2º trimestre)
+
+Não
+
+Suspeita de cardiopatia fetal?
+
+Sim
+
+Realizar Ecocardiograma Fetal
+(a partir de 20 semanas)
+
+Seguir o
+Pré-natal habitual
+
+Sem
+cardiopatia
+
+Com
+cardiopatia
+
+Cardiopatia
+“não crítica e “não grave”
+
+• Pré-natal habitual
+• Avaliação
+cardiológica do bebê
+no berçário ou após a
+alta, porém ainda no
+1º mês de vida
+
+Cardiopatia
+“crítica ou grave”
+
+• Pré-natal em serviço
+especializado
+• Parto em centro
+terciário de
+neonatologia e
+cardiologia neonatal
+
+Fonte: modificado de Pedra SFR et al. Diretriz Brasileira de Cardiologia Fetal. Arq Bras Cardiol. 2019;112(5):600-648
+
+5
+
+Sistematização do atendimento ao recém-nascido com suspeita ou diagnóstico de cardiopatia congênita
+
+1.4. Teste da oximetria de pulso para triagem
+de cardiopatias congênitas críticas no RN:
+teste do coraçãozinho
+O diagnóstico precoce das cardiopatias congênitas críticas no RN é crucial visto que o atraso no diagnóstico está relacionado a aumento
+de morbidade e mortalidade nesta população8.
+Sabemos também que RN com cardiopatias congênitas críticas e graves podem estar assintomáticos nas primeiras 48 horas de vida, podendo
+até mesmo receber alta hospitalar sem que se
+faça a suspeita clínica de cardiopatia, o que pode
+ocorrer em até 30% dos casos como demonstrado em estudos prévios9.
+A utilização da oximetria de pulso como
+ferramenta de triagem neonatal para detecção
+destas cardiopatias pode ajudar a detectar a hipoxemia presente na maioria destas cardiopatias, em uma fase em que o exame clínico ainda
+não consegue detectar. Considera-se como normal a SpO2 maior ou igual a 95% e uma diferença de SpO2 entre o membro superior direito
+e um dos membros inferiores menor ou igual a
+3%, sendo que alterações dessas medidas mostraram que podem ser utilizadas para a suspeita
+de cardiopatia congênita crítica no recém-nascido, apresentando uma sensibilidade de 76%
+e especificidade de 99% para o diagnóstico
+definitivo10.
+
+Em quem e quando devemos
+realizar o teste do coraçãozinho?
+Devemos realizar este teste de forma rotineira em todos os RN com idade gestacional igual
+ou maior que 35 semanas e que se encontram
+clinicamente bem, assintomáticos, em ambiente
+de alojamento conjunto.
+O teste deve ser feito preferencialmente entre 24 e 48 horas de vida. Esta estratégia mostrou reduzir a taxa de falso positivo ao mesmo
+tempo em que não retarda o diagnóstico nos casos patológicos. A taxa de falso positivo do tes-
+
+6
+
+te quando realizado após 24 horas de vida é de
+apenas 0,05%, bem menor que a taxa observada
+quanto realizado antes das 24 horas de vida que
+é de 0,5%11.
+
+O protocolo do teste do coraçãozinho
+Deve-se utilizar um equipamento de oximetria de pulso com sensores apropriados para RN
+e que tenha tecnologia que permita a leitura
+adequada em situações de baixa perfusão e na
+presença de movimentos.
+As medidas de oximetria devem ser realizadas em dois sítios: na mão direita (medida
+pré-ductal) e em um dos membros inferiores
+(medida pós-ductal). Os valores obtidos devem
+ser analisados da seguinte forma:
+• Teste negativo: SpO2 maior ou igual a 95% e
+a diferença entre as medidas no membro superior direito e o membro inferior deve ser
+menor ou igual a 3%. Nessa situação, a probabilidade de cardiopatia congênita crítica é
+pequena e o RN deve seguir os cuidados habituais da maternidade. Vale ressaltar que
+um teste do coraçãozinho negativo não exclui
+completamente a presença de cardiopatia congênita. Caso o RN apresente diagnóstico fetal
+ou sinais clínicos sugestivos de cardiopatia
+congênita, a avaliação cardiológica deverá ser
+realizada.
+• Teste positivo: SpO2 menor ou igual a 89% no
+membro superior direito ou no membro inferior. Nessa situação, o RN deverá ser reavaliado de forma minuciosa pelo médico pediatra/
+neonatologista e a avaliação cardiológica e
+ecocardiográfica deverá também ser realizada para confirmação diagnóstica. É importante
+ressaltar que este RN não deveria receber alta
+hospitalar antes que seja realizada esta avaliação cardiológica.
+• Teste duvidoso: SpO2 entre 90% e 94% ou
+uma diferença entre as medidas do membro
+superior direito e o membro inferior maior ou
+igual a 4%. Nesta situação, o teste deve ser realizado novamente após uma hora por até duas
+vezes. Caso as medidas de oximetria se man-
+
+Departamento Científico de Cardiologia e Neonatologia (2019-2021) • Sociedade Brasileira de Pediatria
+
+tenham nestes valores mesmo após a terceira
+avaliação, o teste será considerado positivo e o
+RN deverá ser submetido à avaliação cardiológica/ecocardiográfica. A realização do reteste
+nesta situação mostrou-se importante por re-
+
+duzir consideravelmente o número de falsos
+positivo com o teste.
+Na Figura 2, está representado um fluxograma para interpretação do teste do coraçãozinho.
+
+Figura 2. Fluxograma para interpretação do teste do coraçãozinho
+
+TESTE DO CORAÇÃOZINHO
+Aferir a oximetria de pulso na mão direita (MSD)
+e em um dos pés (MI), entre 24 e 48 horas de vida
+(recém-nascidos com IG>35 semanas, assintomáticas)
+
+SpO2 ≤ 89%
+
+SpO2 entre 90 e 94% ou
+≠ entre MSD e MMI ≥ 4%
+
+SpO2 ≥ 95% e
+≠ entre MSD e MMI ≤ 3%
+
+Repetir o teste após 1 hora
+
+SpO2 ≤ 89%
+
+SpO2 entre 90 e 94% ou ≠
+entre MSD e MMI ≥ 4%
+
+SpO2 ≥ 95% e
+≠ entre MSD e MMI ≤ 3%
+
+Repetir o teste após 1 hora
+
+SpO2 ≤ 89%
+
+SpO2 entre 90 e 94% ou ≠
+entre MSD e MMI ≥ 4%
+
+TESTE POSITIVO
+Realizar avaliação neonatal e cardiológica
+completa (exame clínico e ecocardiograma)
+Não dar alta até esclarecimento diagnóstico!
+
+1.5. Diagnóstico clínico pós-natal
+Os principais sinais clínicos sugestivos de
+cardiopatia congênita crítica no RN geralmente surgem nos primeiros dias de vida de forma
+relativamente rápida e são decorrentes das mudanças que ocorrem no padrão da circulação fetal e neonatal. A redução da resistência vascular
+pulmonar concomitantemente ao aumento do
+fluxo pulmonar aliados ao fechamento do canal
+arterial são os principais mecanismos fisiopatológicos envolvidos nesse processo. Em geral, as
+
+SpO2 ≥ 95% e
+≠ entre MSD e MMI ≤ 3%
+
+TESTE NEGATIVO
+Seguimento neonatal de rotina
+
+cardiopatias congênitas críticas e graves se apresentam por um ou mais dos seguintes cenários
+clínicos5:
+• Hipoxemia e cianose: Sinal clínico característico das cardiopatias críticas com fluxo pulmonar dependente do canal arterial (atresia
+pulmonar) ou cardiopatias com circulação em
+paralelo (transposição das grandes artérias).
+O diagnóstico diferencial principal deve ser
+feito com doenças pulmonares do período
+neonatal e hipertensão pulmonar persisten-
+
+7
+
+Sistematização do atendimento ao recém-nascido com suspeita ou diagnóstico de cardiopatia congênita
+
+te no RN. Uma forma de se tentar realizar o
+diagnóstico diferencial é pelo teste de hiperóxia. Caso ocorra aumento significativo da PO2
+(>250mmHg) ou da SpO2 (>97%) após o RN
+receber O2 a 100%, podemos praticamente
+excluir a possibilidade destas cardiopatias.
+Por outro lado, se a PO2 ficar < 100mmHg ou
+a SpO2<85% a probabilidade de cardiopatia é
+muito alta.
+• Baixo débito sistêmico: Quadro clínico característico das cardiopatias congênitas críticas
+com fluxo sistêmico dependente do canal arterial (ex.: síndrome de hipoplasia do coração
+esquerdo). Os sinais e sintomas principais são
+taquipneia progressiva, cansaço às mamadas,
+palidez cutânea, redução da amplitude dos
+pulsos arteriais e tempo de enchimento capilar
+prolongado. Estes sinais geralmente surgem de
+forma rápida e progressiva a partir das 24 horas de vida em decorrência do fechamento do
+canal arterial e do desequilíbrio entre os fluxos
+pulmonar e sistêmico. O diagnóstico diferencial
+principal se faz principalmente com a sepse
+neonatal que apresenta quadro clínico bem semelhante, porém com outros sinais sugestivos
+de infecção.
+• Insuficiência cardíaca: Um dos sinais clínicos
+mais precoces de insuficiência cardíaca no RN
+é a presença de taquipneia em repouso. Uma
+frequência respiratória maior que 70 por minuto é um sinal de alerta, mesmo na ausência de
+cianose ou de outros sinais de insuficiência cardíaca. Nas cardiopatias congênitas com shunt
+esquerda-direita ou com shunt misto costumam se apresentar com sinais progressivos de
+insuficiência cardíaca desde os primeiros dias
+de vida, porém estes sinais ficam mais exuberantes a partir da segunda semana de vida em
+decorrência do grande aumento do fluxo pulmonar. Cansaço e sudorese as mamadas, taquicardia e taquidispneia são os sinais mais frequentes nesta situação. Algum grau de cianose
+também pode estar presente nas cardiopatias
+com shunt misto.
+Em relação aos sinais do exame físico cardiológico do RN que podem sugerir o diagnóstico
+
+8
+
+de cardiopatia congênita, podemos dizer que os
+principais são os seguintes:
+• alterações da frequência cardíaca: bradicardia
+(FC <90bpm) ou taquicardia (FC > 180bpm);
+• taquipneia (FR > 70irpm)
+• hipoxemia (SpO2 menor que 95%)
+• presença de impulsões precordiais visíveis ou
+palpáveis (decorrente de dilatação ventricular
+direita ou esquerda);
+• hiperfonese de bulhas cardíacas, principalmente da 2ª bulha em foco pulmonar (decorrente de
+hipertensão pulmonar ou de alteração da posição das valvas arteriais);
+• presença de sopros cardíacos patológicos (sopro sistólico > +++ ou sopro contínuo);
+• redução da amplitude ou assimetria dos pulsos
+arteriais (sinais de baixo débito sistêmico ou de
+possível coarctação de aorta).
+1.6. Diagnóstico definitivo pelo
+ecocardiograma pós-natal:
+O ecocardiograma com mapeamento de fluxo
+em cores é o método de escolha para se realizar
+o diagnóstico definitivo das cardiopatias congênitas no RN, bem como o diagnóstico diferencial
+entre cardiopatia e outras doenças neonatais.
+Este exame fornece informações precisas sobre
+a anatomia do defeito cardíaco e da função cardíaca, condições da circulação transicional e canal arterial e de pressão pulmonar. É um exame
+não invasivo, de baixo custo e de fácil reprodutibilidade, podendo ser realizado na própria unidade de tratamento neonatal intensivo.
+Este exame pode ser realizado incialmente
+pelo próprio neonatologista que tenha treinamento em ecocardiografia funcional e posteriormente confirmado por um profissional habilitado em cardiologia e ecocardiografia pediátrica.
+Entretanto, vale lembrar que o tratamento inicial
+do RN com suspeita de cardiopatia congênita crítica não pode ser postergado até que se realize
+o ecocardiograma, principalmente no que se refere ao uso de prostaglandina E1, como veremos
+a seguir.
+
+Departamento Científico de Cardiologia e Neonatologia (2019-2021) • Sociedade Brasileira de Pediatria
+
+Tratamento inicial do recém-nascido
+com cardiopatia congênita crítica
+Cardiopatias congênitas críticas representam
+uma emergência médica e necessitam de um
+tratamento imediato para evitarmos que ocorra
+uma deterioração clínica rápida e muitas vezes
+irreversível. Idealmente, esse tratamento deve
+ser iniciado imediatamente após o nascimento ou nas primeiras horas de vida, e tem como
+objetivo principal manter o débito cardíaco pulmonar e sistêmico adequados e equilibrados por
+meio de clínicas de suporte hemodinâmico e
+ventilatório. Como o tratamento definitivo dessas cardiopatias é realizado na maioria das vezes
+em centros terciários de cardiologia e cirurgia
+cardiológica neonatal, torna-se essencial que o
+RN seja estabilizado e posteriormente transportado para esses centros. O papel do pediatra da
+assistência neonatal e ou neonatologista é o de
+instituir as medidas necessárias para obter esta
+estabilização clínica inicial até que o RN chegue
+ao centro terciário.
+As principais medidas a serem instituídas no
+manuseio dessas cardiopatias são as seguintes:
+• Oxigenioterapia
+RN com cardiopatia congênita com fluxo pulmonar dependente do canal arterial (ex.: atresia
+pulmonar) ou com circulação em paralelo (ex.:
+transposição das grandes artérias) geralmente
+apresentam hipoxemia acentuada (SpO2 menor
+que 80%) e necessitam de suporte de oxigênio
+na fase inicial do tratamento. Devemos ofertar
+oxigênio na forma de cateter ou capacete ou em
+ventilação mecânica para tentarmos aumentar
+um pouco a saturação arterial de O2 e consequentemente o transporte de O2 aos tecidos.
+Por outro lado, para as cardiopatias com fluxo
+sistêmico dependente do canal arterial (ex.: síndrome de hipoplasia do coração esquerdo), que
+geralmente não apresentam hipoxemia acentuada na fase inicial, o uso de oxigenioterapia
+deve ser evitado. Neste grupo de cardiopatias
+geralmente já existe uma situação de aumento
+do fluxo pulmonar e redução do fluxo sistêmi-
+
+co, sendo que a oxigenioterapia poderá acarretar um agravamento nessa situação devido aos
+efeitos de vasodilatação pulmonar.
+De uma forma simplificada podemos dizer que
+devemos utilizar oxigenioterapia nos RN cardiopatas que apresentarem SpO2 menor que 80%
+e evitar o uso de oxigênio se a SpO2 for maior
+que 90%.
+• Ventilação mecânica
+Nas cardiopatias congênitas que se manifestam
+preferencialmente com cianose e que estejam
+mantendo uma boa ventilação e débito sistêmico adequado, a ventilação mecânica não trará
+nenhum benefício significativa na oxigenação.
+Entretanto, em situações em que a saturação
+periférica estiver persistentemente menor que
+70%, a ventilação mecânica poderá ser necessária. Por outro lado, nos RN com cardiopatias
+que cursam com baixo débito sistêmico ou insuficiência cardíaca, a ventilação mecânica é
+frequentemente necessária e benéfica, pois
+acarreta redução acentuada do trabalho respiratório, redução do consumo de oxigênio e melhora da perfusão tecidual.
+De forma geral podemos dizer que ao se colocar um RN com cardiopatia congênita crítica em
+ventilação mecânica, devemos procurar como
+alvo terapêutico uma SpO2 periférica entre
+85% e 90%. Vale lembrar, entretanto que nas
+cardiopatias com shunt misto ou shunt exclusivamente esquerda-direita, como os defeitos
+septais (CIV), a saturação alvo deverá ser mais
+elevada (maior que 92%).
+• Uso de prostaglandina E1 (PGE1)
+Diante de RN que tenha diagnóstico fetal de
+cardiopatia congênita crítica ou que apresente quadro clínico sugestivo de cardiopatia
+congênita crítica, devemos iniciar imediatamente o uso de PGE1 por via endovenosa. As
+situações clínicas em que está indicado o uso de
+PGE1 são:
+• Hipoxemia persistente e não responsiva ao
+uso de oxigenioterapia (cardiopatias congênitas com fluxo pulmonar dependente do
+canal arterial ou com circulação em paralelo);
+
+9
+
+Sistematização do atendimento ao recém-nascido com suspeita ou diagnóstico de cardiopatia congênita
+
+• Baixo débito sistêmico ou choque não responsivo às medidas iniciais de tratamento
+(cardiopatias com fluxo sistêmico dependente do canal arterial).
+Em qualquer uma dessas situações, a utilização de PGE1 deve ser feita de forma imediata, não havendo necessidade de se aguardar a
+confirmação diagnóstica, que geralmente é feita
+pelo ecocardiograma pós-natal.
+A PGE1 tem ação dilatadora na camada muscular lisa do canal arterial nos primeiros dias de
+vida pós-natal. Esse efeito vasodilatador vai se
+reduzindo até o final do primeiro mês de vida ou
+se houver um fechamento total do canal arterial.
+Por isso é muito importante que o seu uso seja
+feito de forma rápida ainda nos primeiros dias
+de vida. Por ser uma medicação que apresenta
+um início de ação muito rápido, é possível observarmos uma boa resposta clínica após 15 a
+30 minutos de infusão, caracterizada por uma
+melhora da SpO2 ou dos sinais de baixo débito
+sistêmico.12
+Dose utilizada: A PGE1 deve ser utilizada
+em infusão contínua sendo a dose inicial de
+
+0,01mcg/kg/min, podendo ser aumentada gradativamente até a dose de 0,05mcg/kg/min, de
+acordo com a resposta clínica
+Via de utilização: Recomenda-se utilizar um
+acesso venoso profundo e preferencialmente
+central para a infusão desta medicação. O uso
+desta medicação em acesso venoso periférico
+não é recomendado, pois a perda temporária
+deste acesso venoso e conseguinte interrupção
+da infusão da medicação poderão trazer consequências catastróficas para o RN, pois em alguns
+minutos poderá ocorrer a constrição do canal
+arterial e o recrudescimento do quadro clínico
+inicial.
+Efeitos colaterais: Apneia e hipotensão são
+os efeitos colaterais mais frequentes e ocorrem
+principalmente quando se utilizam doses mais
+elevadas (acima de 0,03mcg/kg/min). Outros
+efeitos colaterais são a hipertermia, irritabilidade, edema de mãos e pés além de “rash” cutâneo.
+Na Figura 3 podemos observar um fluxograma com sugestão de tratamento inicial das principais cardiopatias congênitas críticas no RN.
+
+Figura 3. Fluxograma com sugestão de tratamento inicial das principais cardiopatias congênitas críticas no RN
+
+CARDIOPATIAS CONGÊNITAS CRÍTICAS NO RECÉM-NASCIDO
+
+CC CRÍTICAS COM HIPOXEMIA
+RESISTENTE A OXIGÊNIO
+
+CC COM FLUXO PULMONAR
+CANAL DEPENDENTE
+(Cardiopatias com atresia ou
+estenose pulmonar crítica)
+
+CC COM CIRCULAÇÃO
+EM PARALELO
+(Transposição das
+grandes artérias)
+
+CC CRÍTICAS COM BAIXO DÉBITO
+SISTÊMICO OU CHOQUE
+
+CC COM FLUXO SISTÊMICO
+CANAL DEPENDENTE
+(Síndrome hipoplasia coração esquerdo,
+coarctação/interrupção arco aórtico)
+
+TRATAMENTO INICIAL
+
+TRATAMENTO INICIAL
+
+Prostaglandina E1: iniciar imediatamente (acesso
+venoso profundo)
+Oxigenioterapia pode ser utilizada
+Suporte ventilatório (intubação pode ser necessária)
+Manter SpO2 entre 85% e 90%
+
+Prostaglandina E1: iniciar imediatamente (acesso
+venoso profundo)
+Evitar oxigenioterapia
+Suporte ventilatório (intubação pode ser necessária)
+Manter SpO2 entre 85% e 95%
+
+10
+
+Departamento Científico de Cardiologia e Neonatologia (2019-2021) • Sociedade Brasileira de Pediatria
+
+2. Transferência e transporte do RN
+com cardiopatia congênita crítica para
+um centro de referência
+Após a estabilização inicial, o RN com cardiopatia congênita crítica deverá ser transferido e transportado para um centro especializado em cardiologia neonatal. Idealmente, essa
+transferência deverá ocorrer em um prazo de
+até sete dias, antes que ocorram complicações
+infecciosas, neurológicas ou hemodinâmicas
+que possam comprometer o resultado final do
+tratamento.
+O transporte deve ser feito por equipe devidamente capacitada e treinada para cuidar de
+RN crítico. Além disso, os equipamentos e meio
+de transporte também devem ser adequados às
+suas demandas clínicas. Infelizmente, em muitas
+situações o transporte do RN pode acarretar um
+desequilíbrio hemodinâmico e ventilatório tão
+acentuado que pode comprometer até mesmo a
+vida da criança.
+Os pontos críticos a serem observados para
+a realização do transporte deste RN são a manutenção de acesso venoso e via aérea seguros.
+O acesso vascular deverá ser utilizado para o
+uso de PGE1 e inotrópicos, os quais não poderão ser descontinuados durante o transporte.
+
+Muita atenção deve ser dada ao padrão respiratório do lactente e caso ele ainda não esteja intubado, mas se encontra com desconforto
+respiratório, pode ser que seja mais seguro
+realizar o seu transporte em ventilação mecânica. A ventilação deverá ser feita em ventilador neonatal ou pediátrico ou ainda por
+ventilação manual com bolsa, devendo estar
+muito atentos ao risco de barotrauma durante o
+transporte.
+A equipe que realizará o transporte deve
+ser composta por indivíduos com experiência
+e competência para tratar RN graves, e que tenham habilidade para proceder a uma intubação
+e obtenção de acesso vascular durante o transporte, caso seja necessário.
+Durante o transporte, o bebê deve ser monitorizado continuadamente por monitor cardíaco
+com traçado eletrocardiográfico, oximetria de
+pulso e, se possível, capnografia. O nível de SpO2
+desejável para o bebê durante o transporte, deverá ser previamente discutido entre as equipes
+de transporte e equipe neonatal e individualizado para cada situação.
+A Tabela 1 sumariza a abordagem inicial dos
+principais grupos de cardiopatias que se apresentam no período neonatal.
+
+Tabela 1. Sistematização da abordagem inicial de cardiopatias no período neonatal
+
+Tipo de
+cardiopatia
+CC com fluxo
+pulmonar canaldependente
+
+Principais cardiopatias
+
+Início dos
+sintomas
+
+• Síndrome de hipoplasia
+1ª semana
+do coração direito (Atresia
+de vida
+pulmonar)
+• Atresia pulmonar com CIV
+• Estenose pulmonar crítica,
+• Tetralogia de Fallot
+• Atresia tricúspide com estenose
+pulmonar
+• Ventrículo único com estenose
+ou atresia pulmonar
+
+Apresentação
+clínica inicial
+Cianose +++
+SpO2: <85%
+Taquidispneia
+discreta
+
+Tratamento
+inicial
+Prostaglandina E1
+Oxigenioterapia
+Suporte
+ventilatório
+
+continua...
+
+11
+
+Sistematização do atendimento ao recém-nascido com suspeita ou diagnóstico de cardiopatia congênita
+... continuação
+
+Tipo de
+cardiopatia
+
+Principais cardiopatias
+
+Início dos
+sintomas
+
+Apresentação
+clínica inicial
+
+Tratamento
+inicial
+
+CC com fluxo
+sistêmico canaldependente
+
+• Síndrome de hipoplasia do
+coração esquerdo (atresia
+aórtica)
+• Coarctação de aorta ou
+Interrupção do arco aórtico
+• Estenose aórtica crítica
+• Ventrículo único com
+coarctação ou interrupção do
+arco aórtico
+
+1ª semana
+de vida
+
+Cianose +
+SpO2: 85 a 95%
+Taquidispneia
+acentuada
+Sinais de baixo
+débito sistêmico
+
+Prostaglandina E1
+Suporte
+ventilatório
+
+CC com circulação
+em paralelo
+
+• Transposição das grandes
+artérias
+
+1ª semana
+de vida
+
+Cianose +++
+SpO2: <85%
+Taquidispneia
+moderada
+
+Prostaglandina E1
+Oxigenioterapia
+Suporte
+ventilatório
+
+CC com shunt
+misto
+
+• Tronco arterial comum,
+2ª semana
+• Conexão anômala total de veias
+de vida
+pulmonares
+• Ventrículo único sem estenose
+pulmonar
+
+Cianose +
+SpO2: 85 a 95%
+Taquidispneia
+acentuada
+
+Diurético
+Suporte
+ventilatório
+
+CC com shunt
+esquerda-direita
+exclusivo
+
+• Comunicação interventricular
+grande
+• Defeito total do septo
+atrioventricular total
+• Persistência do canal arterial
+• Janela aorto-pulmonar
+• Origem anômala de artéria
+pulmonar da aorta
+
+Cianose ausente
+SpO2: >95%
+Taquidispneia
+acentuada
+
+Diurético
+Suporte
+ventilatório
+
+12
+
+2ª semana
+de vida
+
+Departamento Científico de Cardiologia e Neonatologia (2019-2021) • Sociedade Brasileira de Pediatria
+
+REFERÊNCIAS BIBLIOGRÁFICAS
+
+01. Zaidi S, Brueckner M. Genetics and genomics
+of congenital heart disease. Circ Res.
+2017;120:923-40.
+02. Liu Y, Chen S, Zuhlke L, Black GC, Choy M, Li N,
+et al. Global birth prevalence of congenital
+heart defects 1970–2017: updated systematic
+review and meta-analysis of 260 studies. Inter J
+Epidemiol. 2019; 58(21): 455–463.
+03. Wren C, Reinhardt Z, Khawaja K. Twenty-year
+trends in diagnosis of life-threatening neonatal
+cardiovascular malformations. Arch Dis Child.
+2008;93(1):F33–5.
+04. Massin MM, Astadicko I, Dessy H. Noncardiac
+comorbidities of congenital heart disease in
+children. Acta Paediatr 2007; 96:753.
+
+08. Brown KL, Ridout DA, Hoskote A, Verhulst L,
+Ricci M, Bull C. Delayed diagnosis of congenital
+heart disease worsens pre-operative condition
+and outcome of surgery in neonates. Heart
+2006;92(9):1298–302.
+09. Peterson C, Ailes E, Riehle-Colarusso T, Oster
+ME, Olney RS, Cassell CH, et al. Late detection
+of critical congenital heart disease among US
+infants: Estimation of the potential impact
+of proposed universal screening using pulse
+oximetry. JAMA Pediatr. 2014;168(4):361–70.
+10. Plana MN, Zamora J, Suresh G, Fernandez-Pineda
+L, Thangaratinam S, Ewer AK. Pulse oximetry
+screening for critical congenital heart defects.
+Cochrane Database Sys Rev 2018; 3: CD011912.
+
+05. Marino BS, Bird GL, Wernovsky G. Diagnosis and
+management of the newborn with suspected
+congenital heart disease. Clin Perinatol. 2001;
+28:91-133.
+
+11. Thangaratinam S, Brown K, Zamora J, Khan KS,
+Ewer AK. Pulse oximetry screening for critical
+congenital heart defects in asymptomatic
+newborn babies: A systematic review and metaanalysis. Lancet. 2012;379(9835):2459–64.
+
+06. Khoshnood B, Lelong N, Houyel L, Bonnet D,
+Ballon M, Jouannic J-M, et al. Impact of prenatal
+diagnosis on survival of newborns with four
+congenital heart defects: a prospective,
+population-based cohort study in France (the
+EPICARD Study). BMJ Open 2017;7:e018285.
+
+12. Akkinapally S, Hundalani SG, Kulkarni M,
+Fernandes CJ, Cabrera AG, Shivanna B, et al.
+Prostaglandin E1 for maintaining ductal patency
+in neonates with ductal-dependent cardiac
+lesions. Cochrane Database Syst Rev 2018;
+2:CD011417.
+
+07. Simone RF, Fontes P, Zielinsky P, Binotto CN.
+Diretriz Brasileira de Cardiologia Fetal – 2019.
+Arq Bras Cardiol. 2019;112(5):600-648
+
+13
+
+Sistematização do atendimento ao recém-nascido com suspeita ou diagnóstico de cardiopatia congênita
+
+Diretoria Plena (em processo de formação)
+Triênio 2022/2024
+
+PRESIDENTE:
+Clóvis Francisco Constantino (SP)
+1º VICE-PRESIDENTE:
+Edson Ferreira Liberal (RJ)
+2º VICE-PRESIDENTE:
+Anamaria Cavalcante e Silva (CE)
+SECRETÁRIO GERAL:
+Maria Tereza Fonseca da Costa (RJ)
+1º SECRETÁRIO:
+Ana Cristina Ribeiro Zöllner (SP)
+2º SECRETÁRIO:
+Rodrigo Aboudib Ferreira (ES)
+3º SECRETÁRIO:
+Claudio Hoineff (RJ)
+DIRETORIA FINANCEIRA:
+Sidnei Ferreira (RJ)
+2ª DIRETORIA FINANCEIRA:
+Maria Angelica Barcellos Svaiter (RJ)
+3ª DIRETORIA FINANCEIRA:
+Donizetti Dimer Giambernardino (PR)
+DIRETORIA DE INTEGRAÇÃO REGIONAL
+Eduardo Jorge da Fonseca Lima (PE)
+COORDENADORES REGIONAIS
+NORTE:
+Adelma Alves de Figueiredo (RR)
+NORDESTE:
+Marynea Silva do Vale (MA)
+SUDESTE:
+Marisa Lages Ribeiro (MG)
+SUL:
+Cristina Targa Ferreira (RS)
+CENTRO-OESTE:
+Renata Belem Pessoa de Melo Seixas (DF)
+COMISSÃO DE SINDICÂNCIA
+TITULARES:
+Jose Hugo Lins Pessoa (SP)
+Marisa Lages Ribeiro (MG)
+Marynea Silva do Vale (MA)
+Paulo de Jesus Hartmann Nader (RS)
+Vilma Francisca Hutim Gondim de Souza (PA)
+SUPLENTES:
+Analiria Moraes Pimentel (PE)
+Dolores Fernanadez Fernandez (BA)
+Rosana Alves (ES)
+Silvio da Rocha Carvalho (RJ)
+Sulim Abramovici (SP)
+CONSELHO FISCAL
+TITULARES:
+Clea Rodrigues Leone (SP)
+Licia Maria Oliveira Moreira (BA)
+Carlindo de Souza Machado e Silva Filho (RJ)
+SUPLENTES:
+Jocileide Sales Campos (CE)
+Ana Marcia Guimaraes Alves (GO)
+Gilberto Pascolat (PR)
+DIRETORIA DE DEFESA PROFISSIONAL
+DIRETOR:
+Fabio Augusto de Castro Guerra (MG)
+DIRETORIA CIENTÍFICA
+DIRETOR:
+Dirceu Solé (SP)
+DIRETORA ADJUNTA:
+Luciana Rodrigues Silva (BA)
+DIRETORIA DE CURSOS, EVENTOS
+E PROMOÇÕES
+DIRETORA:
+Lilian dos Santos Rodrigues Sadeck (SP)
+
+MEMBROS:
+Ricardo Queiroz Gurgel (SE)
+Paulo César Guimarães (RJ)
+Cléa Rodrigues Leone (SP)
+Paulo Tadeu de Mattos Prereira Poggiali (MG)
+COORDENAÇÃO DO PROGRAMA
+DE REANIMAÇÃO NEONATAL
+Maria Fernanda Branco de Almeida (SP)
+Ruth Guinsburg (SP)
+COORDENAÇÃO DO CURSO DE
+APRIMORAMENTO EM NUTROLOGIA
+PEDIÁTRICA (CANP)
+Virgínia Resende Silva Weffort (MG)
+PEDIATRIA PARA FAMÍLIAS
+Renata Dejtiar Waksman (SP)
+Edson Ferreira Liberal (RJ)
+Nilza Maria Medeiros Perin (SC)
+Normeide Pedreira dos Santos Franca (BA)
+Marcia de Freitas (SP)
+Nelson Grisard (SC)
+Adelma Alves de Figueiredo (RR)
+PORTAL SBP
+Clovis Francisco Constantino (SP)
+Edson Ferreira Liberal (RJ)
+Anamaria Cavalcante e Silva (CE)
+Maria Tereza Fonseca da Costa (RJ)
+Ana Cristina Ribeiro Zöllner (SP)
+Sidnei Ferreira (RJ)
+EDITORES DO JORNAL DE PEDIATRIA (JPED)
+COORDENAÇÃO:
+Renato Soibelmann Procianoy (RS)
+MEMBROS:
+Crésio de Aragão Dantas Alves (BA)
+Paulo Augusto Moreira Camargos (MG)
+João Guilherme Bezerra Alves (PE)
+Marco Aurelio Palazzi Safadi (SP)
+Magda Lahorgue Nunes (RS)
+Giselia Alves Pontes da Silva (PE)
+Dirceu Solé (SP)
+Antonio Jose Ledo Alves da Cunha (RJ)
+EDITORES REVISTA RESIDÊNCIA PEDIÁTRICA
+EDITORES CIENTÍFICOS:
+Clémax Couto Sant’Anna (RJ)
+Marilene Augusta Rocha Crispino Santos (RJ)
+EDITORA ADJUNTA:
+Márcia Garcia Alves Galvão (RJ)
+COORDENAÇÃO DO PRONAP
+Fernanda Luísa Ceragioli Oliveira (SP)
+Tulio Konstantyner (SP)
+Cláudia Bezerra de Almeida (SP)
+COORDENAÇÃO DO TRATADO
+DE PEDIATRIA
+Clóvis Francisco Constantino (SP)
+Dirceu Sole (SP)
+Edson Ferreira Liberal (RJ)
+Anamaria Cavalcante e Silva (CE)
+Luciana Rodrigues Silva (BA)
+Fábio Ancona Lopez (SP)
+DIRETORIA DE ENSINO E PESQUISA
+Angelica Maria Bicudo (SP)
+COORDENAÇÃO DE PESQUISA
+Cláudio Leone (SP)
+COORDENAÇÃO DE GRADUAÇÃO
+COORDENAÇÃO:
+Rosana Fiorini Puccini (SP)
+MEMBROS:
+Rosana Alves (ES)
+Suzy Santana Cavalcante (BA)
+Ana Lucia Ferreira (RJ)
+Silvia Wanick Sarinho (PE)
+Ana Cristina Ribeiro Zöllner (SP)
+
+DIRETORIA DE PATRIMÔNIO
+COORDENAÇÃO:
+Claudio Barsanti (SP)
+Edson Ferreira Liberal (RJ)
+Maria Tereza Fonseca da Costa (RJ)
+Paulo Tadeu Falanghe (SP)
+MUSEU DA PEDIATRIA
+(MEMORIAL DA PEDIATRIA BRASILEIRA)
+COORDENAÇÃO:
+Edson Ferreira Liberal (RJ)
+MEMBROS:
+Mario Santoro Junior (SP)
+José Hugo de Lins Pessoa (SP)
+Jeferson Pedro Piva (RS)
+REDE DA PEDIATRIA
+COORDENADOR GERAL:
+Rubem Couto (MT)
+COORDENADORES:
+Anamaria Cavalcante e Silva (CE)
+Maria Tereza Fonseca da Costa (RJ)
+Luciana Rodrigues Silva (BA)
+AC - SOCIEDADE ACREANA DE PEDIATRA
+Ana Isabel Coelho Montero
+AL - SOCIEDADE ALAGOANA DE
+PEDIATRIA
+Marcos Reis Gonçalves
+AM - SOCIEDADE AMAZONENSE DE
+PEDIATRIA
+Adriana Távora de Albuquerque Taveira
+AP - SOCIEDADE AMAPAENSE DE
+PEDIATRIA
+Camila dos Santos Salomão
+BA - SOCIEDADE BAIANA DE PEDIATRIA
+Ana Luiza Velloso da Paz Matos
+CE - SOCIEDADE CEARENSE DE
+PEDIATRIA
+Anamaria Cavalcante e Silva
+DF - SOCIEDADE DE PEDIATRIA
+DO DISTRITO FEDERAL
+Renata Belém Pessoa de Melo Seixas
+ES - SOCIEDADE ESPIRITOSSANTENSE
+DE PEDIATRIA
+Roberta Paranhos Fragoso
+GO - SOCIEDADE GOIANA DE PEDIATRIA
+Marise Helena Cardoso Tófoli
+MA - SOCIEDADE DE PUERICULTURA
+E PEDIATRIA DO MARANHÃO
+Marynea Silva do Vale
+MG - SOCIEDADE MINEIRA DE PEDIATRIA
+Cássio da Cunha Ibiapina
+MS - SOCIEDADE DE PED. DO MATO
+GROSSO DO SUL
+Carmen Lúcia de Almeida Santos
+MT - SOCIEDADE MATOGROSSENSE
+DE PEDIATRIA
+Paula Helena de Almeida Gattass Bumlai
+PA - SOCIEDADE PARAENSE DE
+PEDIATRIA
+Vilma Francisca Hutim Gondim de Souza
+PB - SOCIEDADE PARAIBANA DE
+PEDIATRIA
+Maria do Socorro Ferreira Martins
+PE - SOCIEDADE DE PEDIATRIA DE
+PERNAMBUCO
+Alexsandra Ferreira da Costa Coelho
+PI - SOCIEDADE DE PEDIATRIA DO PIAUÍ
+Anenísia Coelho de Andrade
+PR - SOCIEDADE PARANAENSE
+DE PEDIATRIA
+Victor Horácio de Souza Costa Junior
+
+www.sbp.com.br
+
+14
+
+RJ - SOCIEDADE DE PEDIATRIA DO
+ESTADO DO RIO DE JANEIRO
+Cláudio Hoineff
+RN - SOCIEDADE DE PEDIATRIA
+DO RIO GRANDE DO NORTE
+Manoel Reginaldo Rocha de Holanda
+RO - SOCIEDADE DE PEDIATRIA DE
+RONDÔNIA
+Wilmerson Vieira da Silva
+RR - SOCIEDADE RORAIMENSE DE PEDIATRIA
+Mareny Damasceno Pereira
+RS - SOCIEDADE DE PEDIATRIA DO
+RIO GRANDE DO SUL
+Sérgio Luis Amantéa
+SC - SOCIEDADE CATARINENSE DE PEDIATRIA
+Nilza Maria Medeiros Perin
+SE - SOCIEDADE SERGIPANA DE PEDIATRIA
+Ana Jovina Barreto Bispo
+SP - SOCIEDADE DE PEDIATRIA DE
+SÃO PAULO
+Renata Dejtiar Waksman
+TO - SOCIEDADE TOCANTINENSE
+DE PEDIATRIA
+Ana Mackartney de Souza Marinho
+DEPARTAMENTOS CIENTÍFICOS
+• Adolescência
+• Aleitamento Materno
+• Alergia
+• Bioética
+• Cardiologia
+• Dermatologia
+• Emergência
+• Endocrinologia
+• Gastroenterologia
+• Genética
+• Hematologia
+• Hepatologia
+• Imunizações
+• Imunologia Clínica
+• Infectologia
+• Medicina da Dor e Cuidados Paliativos
+• Nefrologia
+• Neonatologia
+• Neurologia
+• Nutrologia
+• Oncologia
+• Otorrinolaringologia
+• Pediatria Ambulatorial
+• Ped. Desenvolvimento e Comportamento
+• Pneumologia
+• Reumatologia
+• Saúde Escolar
+• Segurança
+• Sono
+• Suporte Nutricional
+• Terapia Intensiva
+• Toxicologia e Saúde Ambiental
+GRUPOS DE TRABALHO
+• Atividade física
+• Cirurgia pediátrica
+• Criança, adolescente e natureza
+• Doença inflamatória intestinal
+• Doenças raras
+• Drogas e violência na adolescência
+• Educação é Saúde
+• Imunobiológicos em pediatria
+• Metodologia científica
+• Oftalmologia pediátrica
+• Ortopedia para o pediatra
+• Pediatria e humanidades
+• Políticas públicas para neonatologia
+• Saúde mental
+• Saúde digital
+
+

@@ -1,0 +1,1086 @@
+Documento Científico
+Departamento Científico de
+Reumatologia (gestão 2022-2024)
+Nº 175, 09 de Outubro de 2024
+
+Febre reumática:
+diagnóstico, tratamento e profilaxia
+
+Departamento Científico de Reumatologia (Gestão 2022-2024)
+Presidente:
+Clovis Artur Almeida da Silva
+Secretária:
+Adriana Rodrigues Fonseca
+Conselho Científico:	Ana Luiza Garcia Cunha, Clarissa Carvalho de Miranda Valões,
+Cláudia Saad-Magalhães (relatora), Claudio Arnaldo Len,
+Glaucia Vanessa Novak Molina (relatora), Maria Odete Esteves Hilário
+
+O que é Febre Reumática?
+A febre reumática (FR) é uma doença inflamatória sistêmica que resulta de uma resposta
+tardia ao estreptococo beta-hemolítico do grupo
+A de Lancefield, tipicamente entre duas e quatro
+semanas após uma faringoamigdalite estreptocócica não tratada ou inadequadamente tratada,
+num indivíduo geneticamente predisposto.1
+
+Afeta crianças, adolescentes e adultos jovens, predominantemente entre cinco e 14 anos.
+O risco aumenta com a exposição repetitiva ao
+estreptococo, aglomerações familiar e urbana,
+saneamento básico inadequado e acesso precário aos serviços de saúde.4
+Apenas 0,3% a 3% dos pacientes com faringoamigdalite estreptocócica não tratada ou
+inadequadamente tratada, desenvolverão a FR,
+
+1
+
+Febre reumática: diagnóstico, tratamento e profilaxia
+
+sendo necessário portanto, uma combinação de
+fatores: susceptibilidade genética do indivíduo,
+infecção pela “cepa reumatogênica” do estreptococo e resposta inflamatória anormal.5
+A patogênese da FR inclui o mimetismo molecular. A proteína M presente na parede celular
+do estreptococo, altamente antigênica, é responsável pela virulência da bactéria e compartilha
+estruturas homólogas do tecido humano (miosina, tropomiosina, laminina e outras). É gatilho
+para ativação de vias humoral e celular, determinando a formação de autoanticorpos dirigido a
+estruturas cardíacas. Além da proteína M, outros
+componentes do estreptococo com semelhança
+molecular a antígenos próprios também desencadeiam a resposta autoimune.6
+A manifestação mais grave é a cardite, principal causa de cardiopatia adquirida na infância
+e adolescência nos países em desenvolvimento,
+sendo responsável pela morbimortalidade associada à doença aguda e crônica, com um indiscutível elevado custo socioeconômico ao país.7
+
+Quais são as manifestações
+clínicas que levam ao diagnóstico
+de Febre reumática?
+
+Artrite
+É a manifestação mais comum da doença,
+presente em mais de 70% dos casos.8 O padrão
+típico é a poliartrite migratória de grandes articulações, assimétrica, muito dolorosa, por vezes
+incapacitante, mas com boa resposta a anti-inflamatórios e não deixa sequelas. A duração é de
+3 a 5 dias em cada articulação, costuma resolver
+espontaneamente entre 2 e 3 semanas.
+As articulações mais afetadas são joelhos,
+tornozelos, cotovelos e punhos. Raramente acomete esqueleto axial, coluna cervical, lombossacra, articulações esternoclaviculares e temporomandibulares.
+
+2
+
+O quadro atípico pode atrasar o diagnóstico,
+pois pode ser de caráter aditivo, afetar pequenas articulações, esqueleto axial e cursar com
+entesite (inflamação na inserção de tendões ao
+osso que resulta em dor nos tendões, espontaneamente ou por pressão do examinador nestes
+pontos); inclusive podendo ter um curso mais
+prolongado com rigidez matinal e má resposta
+aos anti-inflamatórios. O período de latência entre a faringoamigdalite e início da artrite pode
+ser mais curto (1 a 2 semanas).
+Uma complicação secundária rara da FR ocorre nas pequenas articulações das mãos, causando deformidades e conhecida como artropatia
+de Jaccoud (fibrosite periarticular), apresentando subluxação das articulações metacarpofalangeanas e desvio ulnar.
+
+Cardite
+A cardite aguda está presente em 50% dos
+casos, é a manifestação mais grave e responsável pela morbimortalidade precoce e tardia da
+FR. É mais frequentemente diagnosticada nas
+primeiras três semanas da fase aguda.3,7,8
+A pancardite (comprometimento do pericárdio, miocárdio e endocárdio) é característica da
+FR. No entanto, o principal alvo de inflamação
+e responsável pelas manifestações clínicas é o
+endocárdio. A válvula mais acometida é a mitral
+(insuficiência mitral), seguida por dupla lesão
+valvar (mitral e aórtica) e da aórtica (insuficiência aórtica). Raramente afeta válvulas tricúspide
+e pulmonar.
+As manifestações clínicas incluem palpitações, dor torácica, dispneia, atrito pericárdico
+e sinais de insuficiência cardíaca congestiva.
+O achado mais frequente à ausculta cardíaca é
+o sopro de insuficiência/regurgitação mitral,
+holossistólico, apical, com irradiação para axila esquerda e mais audível em decúbito lateral
+esquerdo, associado ou não a sopro diastólico
+leve – sopro de Carey-Coombs nos casos graves.
+Por outro lado, o sopro da insuficiência/regurgitação aórtica é diastólico, inicia-se com o com-
+
+Departamento Científico de Reumatologia (gestão 2022-2024) • Sociedade Brasileira de Pediatria
+
+ponente aórtico da segunda bulha, mais audível
+no terceiro espaço intercostal esquerdo, com
+paciente em posição vertical.7,9
+A cardite reumática pode ser classificada
+em subclínica, leve, moderada e grave. A cardite subclínica é caracterizada pela ausência
+de sinais/sintomas além de ausculta cardíaca
+normal, porém com achados ecocardiográficos
+sugestivos de envolvimento valvar patológico.
+Na cardite leve ocorre taquicardia desproporcional a febre, sopros cardíacos, área cardíaca normal e ecocardiograma com regurgitação
+leve/moderada. Na cardite moderada ocorre taquicardia persistente e sopro mitral mais
+intenso, pode haver sopro de Carey-Coombs
+concomitante, aumento leve da área cardíaca e
+congestão pulmonar, e ao ecocardiograma aumento leve das câmaras cardíacas esquerdas.
+Na cardite grave, os sinais e sintomas de insuficiência cardíaca, cardiomegalia e congestão
+pulmonar são evidentes ao raio-X, ecocardiograma com regurgitação mitral e/ou aórtica de grau
+moderado/importante.7,10
+A progressão para cardiopatia reumática
+crônica depende principalmente da gravidade
+do surto inicial, da recorrência e adesão à profilaxia secundária. As lesões valvulares resultam
+em dano progressivo e cumulativo, levando a
+obstrução e estenose. A estenose mitral pura,
+dupla lesão mitral e/ou doença na valva aórtica
+são características do envolvimento reumático
+crônico.10
+
+É caracterizada por movimentos involuntários, incoordenados, de início insidioso ou
+abrupto, acometendo a face e extremidades distais, geralmente difusos, podendo ser unilateral
+(hemicoreia). Esta pode também se manifestar
+com hipotonia muscular, conhecida como “coreia
+mole”.
+Ao exame físico, os sinais podem ser sutis
+como a incoordenação motora em atividades
+da vida diária, e graus variáveis de movimentos
+involuntários, tais como os observados no sinal
+da ordenha (ao apertar a mão do examinador
+o paciente aumenta e diminui a pressão exercida por suas mãos), sinal do pronador (extensão dos braços sobre a cabeça leva à pronação
+das mãos) e sinal da colher (extensão das mãos
+resulta na hiperextensão dos dedos). Pode ainda apresentar movimentos involuntários durante a protrusão da língua, piora da caligrafia e
+manobra índex nariz com movimento incoordenado.
+Os fatores de piora são estresse, cansaço, esforço físico, estímulos luminosos e sonoros intensos. Por outro lado, pode diminuir ou desaparecer durante o sono. Geralmente há associação
+com alterações comportamentais como labilidade emocional, ansiedade, distúrbio obsessivo
+compulsivo, déficit de atenção e hiperatividade.
+A coreia pode ser manifestação isolada de FR
+ou estar associada à cardite clínica ou subclínica.
+O surto é autolimitado, com duração em média
+de 2 a 3 meses, podendo se prolongar por até
+um ano.
+
+Coreia
+A coreia de Sydenham é a manifestação neurológica secundária à inflamação dos gânglios
+da base e do núcleo caudado, ocorrendo em 5%
+a 36% dos pacientes com FR.8 É mais frequente no sexo feminino em idade escolar e início
+da adolescência. O período de latência é maior,
+em média 2 a 4 meses após a faringoamigdalite estreptocócica, podendo estender-se até
+12 meses. Portanto, as provas inflamatórias
+(VHS e proteína C reativa) podem ser negativas,
+assim como os níveis de anti-estreptolisina O.
+
+Nódulos subcutâneos
+Os nódulos subcutâneos são manifestações
+cutâneas raras, presentes em 2% a 5% dos casos, normalmente associados com a cardite
+grave.8 Os nódulos são endurecidos, móveis e
+indolores, localizados em superfície extensoras
+das articulações (cotovelos, punhos, joelhos),
+ocasionalmente em região occipital e coluna, variando de 0,5cm a 2cm de diâmetro. A duração
+em média de 1 a 2 semanas.
+
+3
+
+Febre reumática: diagnóstico, tratamento e profilaxia
+
+Eritema marginado
+Ocorre em menos de 3% dos pacientes,
+normalmente associado à cardite, sendo caracterizado por exantema não pruriginoso, róseo,
+distribuição centrífuga, com centro pálido e margens eritematosas serpiginosas, mais comum em
+tronco e raiz de membros, tendendo a poupar a
+face. As lesões podem ser fugazes, desencadeadas ou exacerbadas por banho morno ou calor.
+
+Como se faz o diagnóstico
+de Febre Reumática?
+A doença não é homogênea. Existe uma
+grande variabilidade clínica e imunológica.
+O diagnóstico pode ser desafiador uma vez que
+as manifestações clínicas podem ser mascaradas
+pelo uso regular de analgésicos, antitérmicos e,
+sobretudo de antinflamatórios não hormonais.
+O diagnóstico é baseado nos critérios de Jones modificados e revisados pela American Heart
+Association em 2015: presença de dois critérios
+
+maiores OU um critério maior e dois menores,
+associada à evidência de infecção estreptocócica
+prévia (cultura de orofaringe positiva, título elevados de antiestreptolisina O ou outro anticorpo
+estreptocócico, teste rápido de antígenos estreptocócicos positivo ou escarlatina recente).11
+O diagnóstico da recorrência de FR em paciente sem doença cardíaca reumática baseia-se
+em dois critérios maiores OU um maior e dois
+menores OU 3 menores, associados à evidência
+de infecção estreptocócica prévia. A recorrência
+de FR com doença cardíaca reumática estabelecida, pode ser diagnosticada por dois critérios
+menores mais a evidência de infecção estreptocócica anterior.10,11 Esses critérios baseiam-se no
+risco de FR na população, em baixo ou moderado/alto risco. A incidência de FR aguda em pré-escolares maior que 2:100.000 e prevalência de
+doença cárdica reumática na população maior
+que 1:1000 define a população como moderado/
+alto risco para febre reumática. Assim, a monoartrite aguda e a poliartralgia são considerados
+critérios maiores e a monoartralgia aguda e elevação de hemossedimentação acima de 30 mm/
+1ª hora como critérios menores em populações
+de moderado/alto risco. (Quadro 1)
+
+Quadro 1. Critérios para o diagnóstico de febre reumática.11
+Critérios Jones modificados
+
+Critérios Jones revisados
+População de baixo risco
+
+População de alto risco
+
+Critérios maiores
+Cardite
+
+Cardite
+
+Cardite
+
+Poliartrite
+
+Poliartrite (somente)
+
+Mono ou poliartrite ou poliartralgia
+
+Coreia
+
+Coreia
+
+Coreia
+
+Nódulos subcutâneos
+
+Nódulos subcutâneos
+
+Nódulos subcutâneos
+
+Eritema marginado
+
+Eritema marginado
+
+Eritema marginado
+
+Febre
+
+Febre
+
+Febre
+
+Artralgia
+
+Poliartralgia
+
+Monoartralgia
+
+Provas de atividade inflamatória
+
+PCR ≥ 3,0 mg/dL
+PCR ≥ 3,0 mg/dL
+
+VHS ≥ 60mm/1ª hora e/ou
+VHS ≥ 30mm/1ª hora e/ou
+
+Aumento do espaço PR no ECG
+
+Aumento do intervalo PR no ECG
+
+Aumento do intervalo PR no ECG
+
+Critérios menores
+
+4
+
+Departamento Científico de Reumatologia (gestão 2022-2024) • Sociedade Brasileira de Pediatria
+
+Quais exames complementares
+podem ser solicitados?
+As provas de fase aguda (VHS, PCR) devem
+ser solicitadas, pois auxiliam no diagnóstico da
+doença, acompanhamento e avaliação da resposta terapêutica. Estão aumentadas na FR, por
+ser uma doença inflamatória.
+Os exames para a confirmação da infecção estreptocócica prévia devem ser solicitados, pois trata-se de critério obrigatório para o
+diagnóstico, com exceção da coreia isolada e da
+cardite subclínica.10,11
+A cultura de orofaringe é o padrão-ouro para
+o diagnóstico da faringoamigdalite estreptocócica e deve ser solicitada para todos os casos
+suspeitos de FR. Devido ao período de latência,
+a sensibilidade é de apenas 20% a 30% durante
+a apresentação da FR. O teste rápido para detecção do estreptococo beta-hemolítico do grupo A
+apresenta elevada especificidade (95%), no entanto, sua sensibilidade é variável. O teste sorológico mais utilizado na prática clínica por seu
+custo benefício é o antiestreptolisina O (ASLO).
+O aumento dos títulos inicia-se em 7 a 10 dias
+após a infecção e atinge o pico entre 4 a 6 semanas. A dosagem seriada (intervalo mínimo de
+15 dias) deve ser realizada a fim de documentar a ascensão dos títulos. O ASLO aumentado
+indica infecção estreptocócica prévia, portanto,
+
+isoladamente não faz diagnóstico de FR.12 Outros
+testes para pesquisa de infecção estreptocócica
+podem ser solicitados como anti-DNAse B, anti-hialuronidade, antiestreptoquinase, aumentando a sensibilidade desta pesquisa.
+A radiografia de tórax, o eletrocardiograma
+e o ecocardiograma devem ser solicitados auxiliando o diagnóstico da cardite. Atualmente, o
+ecocardiograma com Döppler colorido deve ser
+solicitado para todos os casos suspeitos de FR,
+mesmo em pacientes assintomáticos, do ponto
+de vista cardiovascular, para detecção da cardite
+subclínica.10
+Nos casos de coreia, é importante solicitar FAN e os anticorpos antifosfolípides para
+diagnóstico diferencial de lúpus eritematoso
+sistêmico juvenil e síndrome do anticorpo antifosfolípide.7,10
+
+Quais os principais
+diagnósticos diferenciais?
+É necessário afastar causas infecciosas,
+neoplásicas e outras doenças autoimunes.
+O diagnostico diferencial deve incluir um grande
+número de doenças e o direcionamento da investigação dependerá do padrão das manifestações
+clínicas na apresentação da doença.7,8 (Quadro 2)
+
+Quadro 2. Diagnósticos diferenciais da febre reumática.
+• Lúpus eritematoso sistêmico juvenil
+• Leucemia, linfoma e neuroblastoma
+• Artrites virais: rubéola, hepatite B, caxumba, varicela, citomegalovírus, HIV.
+• Doença de Lyme
+• Artrite gonocócica
+• Tuberculose
+• Artrite reativa
+• Endocardite infecciosa
+• Outras doenças do tecido conectivo (como dermatomiosite, vasculites primárias, esclerodermia, etc)
+
+5
+
+Febre reumática: diagnóstico, tratamento e profilaxia
+
+Qual o tratamento da FR aguda?
+Os objetivos do tratamento são reduzir o processo inflamatório, aliviar os sintomas, atenuar
+o dano cardíaco, além da erradicação da infecção estreptocócica e prevenção de recorrência
+futura.4,5
+A internação hospitalar é indicada em pacientes com cardite moderada ou grave, coreia
+grave e artrite incapacitante. É ainda uma oportunidade para educação em saúde do paciente e
+família, garantindo maior adesão ao tratamento
+e profilaxia secundária.
+A monitorização da resposta terapêutica
+deve ser realizada após 4 semanas do início do
+quadro, com acompanhamento das provas de
+fase aguda, ecocardiograma, raio X de tórax e
+eletrocardiograma.
+
+Artrite
+Analgésicos comuns como o paracetamol
+podem ser utilizados para controle da artralgia/
+artrite até que o diagnóstico seja confirmado.
+Nos casos de poliartrite típica, migratória ou
+aditiva, autolimitada e com melhora importante
+24 a 48 horas após a introdução de anti-inflamatórios não hormonais. A refratariedade de resposta com persistência da artrite em uma mesma
+articulação por mais de 6 semanas deve sugerir
+outro diagnóstico.
+Os salicilatos (AAS) eram tradicionalmente usados como primeira linha de tratamento.
+Atualmente, os anti-inflamatórios não-hormonais (como naproxeno ou ibuprofeno) são mais
+usados em preferência à aspirina, pelo melhor
+perfil de segurança.4,13,14
+A dose inicial da aspirina (AAS) é 80 a
+100mg/kg/dia, dividida em 4 tomadas diárias,
+com redução para 60mg/kg/dia após 2 semanas
+de tratamento, se houver melhora clínica/laboratorial e mantida por 4 semanas.
+A dose do ibuprofeno é 30 a 40mg/kg/dia
+a cada 6 a 8 horas e do naproxeno é de 10 a
+
+6
+
+20mg/kg/dia a cada 12 horas. A duração da terapia dependerá da melhora clínica e dos marcadores inflamatórios (VHS, PCR), geralmente em
+torno de 4 semanas.
+Na presença de processo viral agudo, o AAS
+deve ser imediatamente suspenso pelo risco de
+síndrome de Reye.
+
+Cardite
+Até o momento não há uma terapia alvo durante o estágio inflamatório agudo da doença
+que modifique o curso e altere o prognóstico da
+sequela valvar. Além disso, o uso de glicocorticoides, prednisona ou prednisolona oral, em
+comparação à aspirina não reduziu o risco de
+doença cardíaca após um ano.15,16
+Os glicocorticoides são recomendados para
+cardite moderada/grave, pois reduzem o tempo
+de evolução da cardite aguda, controlam o processo inflamatório e melhoram a dor (associada
+a pericardite). Na cardite leve e subclínica o uso
+é controverso, podendo ser utilizado em menor
+dose e tempo de tratamento.4,7,15
+A dose de prednisona preconizada é
+2mg/kg/dia (máximo 60mg/dia) por 2 semanas,
+com redução de 20% a 25% da dose prévia, semanalmente, com tempo total de tratamento em
+torno de 12 semanas na cardite moderada/grave
+e por 4 a 8 semanas na cardite leve.
+A pulsoterapia com metilprednisolona
+30mg/kg/dia por 3 dias inicialmente, pode ser
+indicada para casos graves de cardite, nos casos
+refratários ou que necessitem cirurgia cardíaca
+de caráter emergencial (ruptura cordoalha tendínea valvar ou perfuração valvar). A imunoglobulina intravenosa não altera a evolução ou
+prognóstico da doença.6
+Nos casos de insuficiência cardíaca leve ou
+moderada, utilizam-se diuréticos (furosemida
+ou espironolactona), restrição hídrica e de sal.
+Os inibidores da enzima conversora de angiotensina (ECA) podem ser utilizados se houver
+regurgitação aórtica, por diminuir a pós-carga.
+A digoxina deve ser reservada para pacientes
+
+Departamento Científico de Reumatologia (gestão 2022-2024) • Sociedade Brasileira de Pediatria
+
+com taquicardia supraventricular e deve ser utilizada com cautela pelo risco de toxicidade.7
+O repouso relativo no leito por um período
+de 4 semanas é recomendado para os pacientes
+com cardite moderada ou grave, com retorno
+gradual a depender da melhora clínica e da inflamação.
+
+objetivamente avaliada utilizando a Escala de
+Classificação da Coreia de Sydeham da UFMG.
+Essa ferramenta fornece uma escala para avaliar
+o desempenho nas atividades diárias, alteração
+comportamental e função motora.18
+
+Como prevenir a Febre reumática?
+
+Coreia
+O tratamento farmacológico é indicado para
+coreia moderada/grave, em que os sintomas
+interferem substancialmente nas atividades
+diárias do paciente. Nestes casos pode ser necessária a internação hospitalar. A resposta à terapêutica pode ser observada 1 a 2 semanas e o
+tratamento deve ser mantido após 2 a 4 semanas
+após redução da coreia. É recomendado ambiente calmo, com pouco estímulo externo. O tratamento sintomático pode ser feito com haloperidol (dose inicial de 0,5 a 1mg/dia, máximo 5mg/
+dia), carbamazepina (3,5 a 10mg/kg/dose a cada
+12 horas), ácido valproico (7,5 a 10mg/kg/dose a
+cada 12 horas) ou fenobarbital 5 a 7mg/kg/dia.17
+Os glicocorticoides têm sido utilizados para
+coreia grave, na dose de 1mgkg/dia por 2 semanas, com posterior desmame e suspensão
+após 2 semanas. A resposta clínica pode ser
+
+Profilaxia primária
+É essencial o reconhecimento da faringoamigdalite bacteriana pelo pediatra (dor à deglutição, febre alta, adenomegalia, ausência de sintomas respiratórios e exsudato em orofaringe),
+uma vez que o tratamento da faringoamigdalite
+e erradicação do estreptococo beta-hemolítico
+do grupo A previne a FR e os surtos subsequentes.
+A erradicação do estreptococo é feita com
+penicilina G benzatina (600.000UI abaixo de
+20kg a 1.200.000 UI acima de 20kg) em dose
+única. Outras opções: amoxicilina, penicilina V e
+ampicilina por 10 dias. Nos pacientes alérgicos à
+penicilina, é recomendada a eritromicina, azitromicina ou clindamicina. (Tabela 1)
+
+Tabela 1. Drogas utilizadas para prevenção primária
+Agente farmacológico
+Penicilina G benzatina
+
+Esquema terapêutico
+600.000UI para < 20kg
+1.200.000 UI para > 20kg, IM (dose única)
+
+Penicilina V
+
+Crianças: 250mg, 2 a 3 vezes ao dia, via oral, por 10 dias
+Adolescentes: 500mg, 2 a 3 vezes ao dia, via oral por 10 dias
+
+Alérgicos:
+Estearato de eritromicina
+
+20 a 40 mg/kg/dia, 2 a 4 vezes ao dia, via oral por 10 dias
+
+Azitromicina
+
+12mg/kg/dia 1 vez ao dia por 5 dias (max 500mg)
+
+Clindamicina
+
+20mg/kg/dia dividido em 3 doses (max 300mg/dose), via oral por 10 dias
+
+Claritromicina
+
+15mg/kg/dia dividido em 2 doses, via oral por 10 dias
+
+7
+
+Febre reumática: diagnóstico, tratamento e profilaxia
+
+Profilaxia secundária
+O objetivo da profilaxia secundária é prevenir a recorrência ou aparecimento de novos
+surtos; prevenindo o dano cumulativo da lesão
+valvar e progressão da doença cardíaca reumática. Estudos recentes mostraram que em crianças
+e adolescentes com cardite reumática latente,
+a profilaxia antibiótica secundária reduz a progressão da doença em 2 anos.19
+A droga de escolha para profilaxia secundária é a Penicilina G Benzatina, na mesma dose,
+a cada 21 dias até os 21 anos ou até 5 anos
+
+após o último surto (o que durar mais) nos pacientes em doença cardíaca; até 25 anos ou
+10 anos após o último surto (o que durar mais)
+nos pacientes com cardite prévia (insuficiência
+mitral residual ou resolução da lesão valvar).
+Nos pacientes com lesão valvar residual moderada a grave a profilaxia será mantida minimamente até a quarta década de vida. (Quadro 3)7,20
+Nos pacientes alérgicos à penicilina, a sulfadiazina pode ser utilizada na dose de 500mg/dia
+até 30 kg e 1g/dia acima desse peso, diariamente. Também pode ser utilizada eritromicina na
+dose de 250mg a cada 12 horas.
+
+Quadro 3. Recomendações para duração profilaxia secundária.
+FR sem cardite prévia
+
+Até 21 anos ou 5 anos após o último surto
+(o que durar mais)
+
+FR com cardite prévia; insuficiência mitral leve
+ou residual ou resolução da lesão valvar
+
+Até 25 anos ou 10 anos após o último surto
+(o que durar mais)
+
+Lesão valvar residual moderada a grave
+
+Até os 40 anos ou por toda a vida
+
+Após cirurgia valvar
+
+Por toda a vida
+
+O que mais pode ser feito para
+prevenção da Febre Reumática?
+É importante a educação em saúde, principalmente da população que reside em áreas endêmicas, uma vez que fatores culturais e socioeconômicos podem estar envolvidos na adesão a
+profilaxia.20
+
+8
+
+O reconhecimento de manifestações subclínicas, como a indicação de ecocardiograma para
+diagnóstico de cardite subclínica pode ter efeito
+importante na redução da prevalência da cardite
+reumática crônica.
+Além disso, o desenvolvimento de vacinas
+para prevenção da infecção estreptocócica é
+promissor e pode mudar o cenário atual da febre
+reumática.21
+
+Departamento Científico de Reumatologia (gestão 2022-2024) • Sociedade Brasileira de Pediatria
+
+REFERÊNCIAS
+
+01. LeBlanc CMA, Houghton KM. Reactive Arthritis.
+In: Petty RE, et al (Ed). Textbook of Pediatric
+Rheumatology E-Book. 8th ed. Elsevier - OHCE;
+2020. Cap. 46
+
+12. Machado CS, Ortiz K, Martins A de L, Martins RS,
+Machado NC. Antistreptolysin O titer profile in
+acute rheumatic fever diagnosis. J Pediatr (Rio J).
+2001;77(2):105-11.
+
+02. Figueiredo ET, Azevedo L, Rezende ML, Alves CG.
+Febre Reumática: Uma Doença sem Cor. Arq. Bras.
+Cardiol. 2019;113(3):345-354.
+
+13. Uziel Y, Hashkes PJ, Kassem E, Padeh S, Goldman
+R, Wolach B. The use of naproxen in the treatment
+of children with rheumatic fever. J Pediatr
+2000;137(2):269-71.
+
+03. Miranda LP, Camargos PA, Torres RM, Meira ZM.
+Prevalence of rheumatic heart disease in a
+public school of Belo Horizonte. Arq Bras Cardiol.
+2014;103(2):89-97.
+04. Ralph AP, Currie BJ. Therapeutics for rheumatic
+fever and rheumatic heart disease. Aust Prescr.
+2022;45(4):104-112.
+05. Rwebembera J, Nascimento BR, Minja NW,
+de Loizaga S, Aliku T, Dos Santos LPA, et al.
+Recent Advances in the Rheumatic Fever and
+Rheumatic Heart Disease Continuum. Pathogens.
+2022;11(2):179.
+06. Lahiri S, Sanyahumbi A. Acute Rheumatic Fever.
+Pediatr Rev. 2021;42(5):221-232.
+07. Braga ALL, Achutti AC, Ramos AIO, Weksler C,
+Mota CCC, Santos CCL, et al. Diretrizes Brasileiras
+para o Diagnóstico, Tratamento e Prevenção da
+Febre Reumática. Arq Bras Cardiol. 2009;93(3
+supl 4):1-18.
+
+14. Hashkes PJ, Tauber T, Somekh E, Brik R, Barash
+J, Mukamel M, et al. Naproxen as an alternative
+to aspirin for the treatment of arthritis of
+rheumatic fever: a randomized trial. J Pediatr
+2003;143(3):399-401.
+15. Karthikeyan G, Guilherme L. Acute rheumatic
+fever. Lancet. 2018;392(10142):161-174.
+16. Cilliers A, Adler AJ, Saloojee H. Anti-inflammatory
+treatment for carditis in acute rheumatic
+fever. Cochrane Database Syst Rev. 2015 May
+28:(5):CD003176.
+17. Depietri G, Carli N, Sica A, Oliviero D, Costagliola
+G, Striano P, et al. Therapeutic aspects of
+Sydenham’s Chorea: an update. Acta Biomed.
+2022;92(S4):e2021414.
+18. Teixeira AL Jr, Maia DP, Cardoso F. UFMG Sydenham’s
+chorea rating scale (USCRS): reliability and
+consistency. Mov Disord 2005;20(5):585-91.
+
+08. Carvalho SM, Dalben I, Corrente JE, Magalhães
+CS. Rheumatic fever presentation an outcome:
+a case-series report. Rev Bras Reumatol.
+2012;52(2):241-6.
+
+19. Beaton A, Okello E, Rwebembera J, Grobler A,
+Engelman D, Alepere J, et al. Secondary Antibiotic
+Prophylaxis for Latent Rheumatic Heart Disease.
+N Engl J Med. 2022;386(3):230-240.
+
+09. Reményi B, Wilson N, Steer A, Ferreira B, Kado J,
+Kumar K, et al. World Heart Federation criteria for
+echocardiographic diagnosis of rheumatic heart
+disease--an evidence-based guideline. Nat Rev
+Cardiol. 2012;9(5):297-309.
+
+20. Ralph AP, Noonan S, Wade V, Currie BJ. The
+2020 Australian guideline for prevention,
+diagnosis and management of acute rheumatic
+fever and rheumatic heart disease. Med J Aust.
+2021;214(5):220-227.
+
+10. Rheumatic fever and rheumatic heart disease:
+report of a WHO expert consultation on rheumatic
+fever and rheumatic heart disease. World Health
+Organization. Geneva, 2001 Oct 29 - Nov 1.
+Geneva: WHO; 2004.
+
+21. Azuar A, Jin W, Mukaida S, Hussein WM, Toth
+I, Skwarczynski M. Recent Advances in the
+Development of Peptide Vaccines and Their
+Delivery Systems Against Group A Streptococcus.
+Vaccines (Basel). 2019;7(3):58.
+
+11. Gewitz MH, Baltimore RS, Tani LY, Sable CA,
+Shulman ST, Carapetis J, et al. American Heart
+Association Comittee on Rheumatic Fever,
+Endocarditis, and Kawasaki Disease of the Council
+on Cardiovascular Disease in the Young. Revision
+of the Jones Criteria for the diagnosis of rheumatic
+fever in the era of Doppler echocardiography: a
+scientific statement from the American Heart
+Association. Circulation. 2015;13(20):1806-18.
+
+9
+
+Febre reumática: diagnóstico, tratamento e profilaxia
+
+Diretoria Plena
+Triênio 2022/2024
+
+PRESIDENTE:
+Clóvis Francisco Constantino (SP)
+1º VICE-PRESIDENTE:
+Edson Ferreira Liberal (RJ)
+2º VICE-PRESIDENTE:
+Anamaria Cavalcante e Silva (CE)
+SECRETÁRIO GERAL:
+Maria Tereza Fonseca da Costa (RJ)
+1º SECRETÁRIO:
+Ana Cristina Ribeiro Zöllner (SP)
+2º SECRETÁRIO:
+Rodrigo Aboudib Ferreira Pinto (ES)
+3º SECRETÁRIO:
+Claudio Hoineff (RJ)
+DIRETOR FINANCEIRO:
+Sidnei Ferreira (RJ)
+1º DIRETOR FINANCEIRO:
+Maria Angelica Barcellos Svaiter (RJ)
+2º DIRETOR FINANCEIRO:
+Donizetti Dimer Giambernardino Filho (PR)
+DIRETORIA DE INTEGRAÇÃO REGIONAL
+Eduardo Jorge da Fonseca Lima (PE)
+COORDENADORES REGIONAIS
+NORTE: Adelma Alves de Figueiredo (RR)
+NORDESTE: Marynea Silva do Vale (MA)
+SUDESTE: Marisa Lages Ribeiro (MG)
+SUL: Cristina Targa Ferreira (RS)
+CENTRO-OESTE: Renata Belem Pessoa de Melo Seixas (DF)
+COMISSÃO DE SINDICÂNCIA
+TITULARES:
+Jose Hugo Lins Pessoa (SP)
+Marisa Lages Ribeiro (MG)
+Marynea Silva do Vale (MA)
+Paulo de Jesus Hartmann Nader (RS)
+Vilma Francisca Hutim Gondim de Souza (PA)
+SUPLENTES:
+Analiria Moraes Pimentel (PE)
+Dolores Fernanadez Fernandez (BA)
+Rosana Alves (ES)
+Silvio da Rocha Carvalho (RJ)
+Sulim Abramovici (SP)
+CONSELHO FISCAL
+TITULARES:
+Cléa Rodrigues Leone (SP)
+Licia Maria Moreira (BA)
+Carlindo de Souza Machado e Silva Filho (RJ)
+SUPLENTES:
+Jocileide Sales Campos (CE)
+Ana Márcia Guimarães Alves (GO)
+Gilberto Pascolat (PR)
+ASSESSORES DA PRESIDÊNCIA PARA POLÍTICAS PÚBLICAS:
+COORDENAÇÃO:
+Maria Tereza Fonseca da Costa (RJ)
+MEMBROS:
+Donizetti Dimer Giamberardino Filho (PR)
+Alda Elizabeth Boehler Iglesias Azevedo (MT)
+Evelyn Eisenstein (RJ)
+Rossiclei de Souza Pinheiro (AM)
+Helenilce de Paula Fiod Costa (SP)
+DIRETORIA E COORDENAÇÕES
+DIRETORIA DE QUALIFICAÇÃO E CERTIFICAÇÃO PROFISSIONAL
+Edson Ferreira Liberal (RJ)
+José Hugo de Lins Pessoa (SP)
+Maria Angelica Barcellos Svaiter (RJ)
+Maria Marluce dos Santos Vilela (SP)
+COORDENAÇÃO DE ÁREA DE ATUAÇÃO
+Sidnei Ferreira (RJ)
+Ana Cristina Ribeiro Zöllner (SP)
+Mauro Batista de Morais (SP)
+Kerstin Tanigushi Abagge (PR)
+COORDENAÇÃO DO CEXTEP (COMISSÃO EXECUTIVA DO
+TÍTULO DE ESPECIALISTA EM PEDIATRIA)
+COORDENAÇÃO:
+Hélcio Villaça Simões (RJ)
+COORDENAÇÃO ADJUNTA:
+Ricardo do Rego Barros (RJ)
+MEMBROS:
+Clovis Francisco Constantino (SP) - Licenciado
+Ana Cristina Ribeiro Zöllner (SP)
+Carla Príncipe Pires C. Vianna Braga (RJ)
+Cristina Ortiz Sobrinho Valete (RJ)
+Grant Wall Barbosa de Carvalho Filho (RJ)
+Sidnei Ferreira (RJ)
+Silvio Rocha Carvalho (RJ)
+COMISSÃO EXECUTIVA DO EXAME PARA OBTENÇÃO DO
+TÍTULO DE ESPECIALISTA EM PEDIATRIA AVALIAÇÃO SERIADA
+COORDENAÇÃO:
+Eduardo Jorge da Fonseca Lima (PE)
+Luciana Cordeiro Souza (PE)
+MEMBROS:
+João Carlos Batista Santana (RS)
+Victor Horácio de Souza Costa Junior (PR)
+Ricardo Mendes Pereira (SP)
+Mara Morelo Rocha Felix (RJ)
+Vera Hermina Kalika Koch (SP)
+DIRETORIA DE RELAÇÕES INTERNACIONAIS
+Nelson Augusto Rosário Filho (PR)
+Sergio Augusto Cabral (RJ)
+REPRESENTANTE NA AMÉRICA LATINA
+Ricardo do Rego Barros (RJ)
+INTERCÂMBIO COM OS PAÍSES DA LÍNGUA PORTUGUESA
+Marcela Damasio Ribeiro de Castro (MG)
+
+10
+
+DIRETORIA DE DEFESA DA PEDIATRIA
+DIRETOR:
+Fábio Augusto de Castro Guerra (MG)
+DIRETORIA ADJUNTA:
+Sidnei Ferreira (RJ)
+Edson Ferreira Liberal (RJ)
+MEMBROS:
+Gilberto Pascolat (PR)
+Paulo Tadeu Falanghe (SP)
+Cláudio Orestes Britto Filho (PB)
+Ricardo Maria Nobre Othon Sidou (CE)
+Anenisia Coelho de Andrade (PI)
+Isabel Rey Madeira (RJ)
+Donizetti Dimer Giamberardino Filho (PR)
+Carlindo de Souza Machado e Silva Filho (RJ)
+Corina Maria Nina Viana Batista (AM)
+Maria Nazareth Ramos Silva (RJ)
+DIRETORIA CIENTÍFICA
+DIRETOR:
+Dirceu Solé (SP)
+DIRETORIA CIENTÍFICA - ADJUNTA
+Luciana Rodrigues Silva (BA)
+DEPARTAMENTOS CIENTÍFICOS E GRUPOS DE TRABALHO:
+Dirceu Solé (SP)
+Luciana Rodrigues Silva (BA)
+MÍDIAS EDUCACIONAIS
+Luciana Rodrigues Silva (BA)
+Edson Ferreira Liberal (RJ)
+Rosana Alves (ES)
+Ana Alice Ibiapina Amaral Parente (ES)
+PROGRAMAS NACIONAIS DE ATUALIZAÇÃO
+PEDIATRIA - PRONAP
+Fernanda Luisa Ceragioli Oliveira (SP)
+Tulio Konstantyner (SP)
+Claudia Bezerra Almeida (SP)
+NEONATOLOGIA - PRORN
+Renato Soibelmann Procianoy (RS)
+Clea Rodrigues Leone (SP)
+TERAPIA INTENSIVA PEDIÁTRICA - PROTIPED
+Werther Bronow de Carvalho (SP)
+TERAPÊUTICA PEDIÁTRICA - PROPED
+Claudio Leone (SP)
+Sérgio Augusto Cabral (RJ)
+EMERGÊNCIA PEDIÁTRICA - PROEMPED
+Hany Simon Júnior (SP)
+Gilberto Pascolat (PR)
+DOCUMENTOS CIENTÍFICOS
+Emanuel Savio Cavalcanti Sarinho (PE)
+Dirceu Solé (SP)
+Luciana Rodrigues Silva (BA)
+PUBLICAÇÕES
+TRATADO DE PEDIATRIA
+Fábio Ancona Lopes (SP)
+Luciana Rodrigues Silva (BA)
+Dirceu Solé (SP)
+Clovis Artur Almeida da Silva (SP)
+Clóvis Francisco Constantino (SP)
+Edson Ferreira Liberal (RJ)
+Anamaria Cavalcante e Silva (CE)
+OUTROS LIVROS
+Fábio Ancona Lopes (SP)
+Dirceu Solé (SP)
+Clóvis Francisco Constantino (SP)
+DIRETORIA DE CURSOS, EVENTOS E PROMOÇÕES
+DIRETORA:
+Lilian dos Santos Rodrigues Sadeck (SP)
+MEMBROS:
+Ricardo Queiroz Gurgel (SE)
+Paulo César Guimarães (RJ)
+Cléa Rodrigues Leone (SP)
+Paulo Tadeu de Mattos Prereira Poggiali (MG)
+COORDENAÇÃO DO PROGRAMA DE REANIMAÇÃO NEONATAL
+Maria Fernanda Branco de Almeida (SP)
+Ruth Guinsburg (SP)
+COORDENAÇÃO PALS – REANIMAÇÃO PEDIÁTRICA
+Alexandre Rodrigues Ferreira (MG)
+Kátia Laureano dos Santos (PB)
+COORDENAÇÃO BLS – SUPORTE BÁSICO DE VIDA
+Valéria Maria Bezerra Silva (PE)
+COORDENAÇÃO DO CURSO DE APRIMORAMENTO
+EM NUTROLOGIA PEDIÁTRICA (CANP)
+Virgínia Resende Silva Weffort (MG)
+PEDIATRIA PARA FAMÍLIAS
+COORDENAÇÃO GERAL:
+Edson Ferreira Liberal (RJ)
+COORDENAÇÃO OPERACIONAL:
+Nilza Maria Medeiros Perin (SC)
+Renata Dejtiar Waksman (SP)
+MEMBROS:
+Adelma Alves de Figueiredo (RR)
+Marcia de Freitas (SP)
+Nelson Grisard (SC)
+Normeide Pedreira dos Santos Franca (BA)
+PORTAL SBP
+Clovis Francisco Constantino (SP)
+Edson Ferreira Liberal (RJ)
+Anamaria Cavalcante e Silva (CE)
+Maria Tereza Fonseca da Costa (RJ)
+Ana Cristina Ribeiro Zöllner (SP)
+Rodrigo Aboudib Ferreira Pinto (ES)
+Claudio Hoineff (RJ)
+Sidnei Ferreira (RJ)
+Maria Angelica Barcellos Svaiter (RJ)
+Donizetti Dimer Giambernardino (PR)
+PROGRAMA DE ATUALIZAÇÃO CONTINUADA À DISTÂNCIA
+Luciana Rodrigues Silva (BA)
+Edson Ferreira Liberal (RJ)
+
+Natasha Slhessarenko Fraife Barreto (MT)
+Ana Alice Ibiapina Amaral Parente (RJ)
+Cassio da Cunha Ibiapina (MG)
+Luiz Anderson Lopes (SP)
+Silvia Regina Marques (SP)
+DIRETORIA DE PUBLICAÇÕES
+Fábio Ancona Lopez (SP)
+EDITORES DA REVISTA SBP CIÊNCIA
+Joel Alves Lamounier (MG)
+Marco Aurelio Palazzi Safadi (SP)
+Mariana Tschoepke Aires (RJ)
+EDITORES DO JORNAL DE PEDIATRIA (JPED)
+COORDENAÇÃO:
+Renato Soibelmann Procianoy (RS)
+MEMBROS:
+Crésio de Aragão Dantas Alves (BA)
+Paulo Augusto Moreira Camargos (MG)
+João Guilherme Bezerra Alves (PE)
+Marco Aurelio Palazzi Safadi (SP)
+Magda Lahorgue Nunes (RS)
+Giselia Alves Pontes da Silva (PE)
+Dirceu Solé (SP)
+Antonio Jose Ledo Alves da Cunha (RJ)
+EDITORES REVISTA RESIDÊNCIA PEDIÁTRICA
+EDITORES CIENTÍFICOS:
+Clémax Couto Sant’Anna (RJ)
+Marilene Augusta Rocha Crispino Santos (RJ)
+EDITORA ADJUNTA:
+Márcia Garcia Alves Galvão (RJ)
+CONSELHO EDITORIAL EXECUTIVO:
+Sidnei Ferreira (RJ)
+Isabel Rey Madeira (RJ)
+Mariana Tschoepke Aires (RJ)
+Maria De Fatima Bazhuni Pombo Sant’Anna (RJ)
+Silvio da Rocha Carvalho (RJ)
+Rafaela Baroni Aurílio (RJ)
+Leonardo Rodrigues Campos (RJ)
+Álvaro Jorge Madeiro Leite (CE)
+Eduardo Jorge da Fonseca Lima (PE)
+Marcia C. Bellotti de Oliveira (RJ)
+CONSULTORIA EDITORIAL
+Ana Cristina Ribeiro Zöllner (SP)
+Fábio Ancona Lopez (SP)
+Dirceu Solé (SP)
+Angélica Maria Bicudo (SP)
+EDITORES ASSOCIADOS:
+Danilo Blank (RS)
+Paulo Roberto Antonacci Carvalho (RJ)
+Renata Dejtiar Waksman (SP)
+DIRETORIA DE ENSINO E PESQUISA
+Angelica Maria Bicudo (SP)
+COORDENAÇÃO DE PESQUISA
+Cláudio Leone (SP)
+COORDENAÇÃO DE GRADUAÇÃO
+COORDENAÇÃO:
+Rosana Fiorini Puccini (SP)
+MEMBROS:
+Rosana Alves (ES)
+Alessandra Carla de Almeida Ribeiro (MG)
+Angélica Maria Bicudo (SP)
+Suzy Santana Cavalcante (BA)
+Ana Lucia Ferreira (RJ)
+Silvia Wanick Sarinho (PE)
+Ana Cristina Ribeiro Zöllner (SP)
+COORDENAÇÃO DE RESIDÊNCIA E ESTÁGIOS EM PEDIATRIA
+COORDENAÇÃO:
+Ana Cristina Ribeiro Zöllner (SP)
+MEMBROS:
+Eduardo Jorge da Fonseca Lima (PE)
+Paulo de Jesus Hartmann Nader (RS)
+Victor Horácio da Costa Junior (PR)
+Silvio da Rocha Carvalho (RJ)
+Tânia Denise Resener (RS)
+Delia Maria de Moura Lima Herrmann (AL)
+Helita Regina F. Cardoso de Azevedo (BA)
+Jefferson Pedro Piva (RS)
+Sérgio Luís Amantéa (RS)
+Susana Maciel Wuillaume (RJ)
+Aurimery Gomes Chermont (PA)
+Silvia Regina Marques (SP)
+Claudio Barssanti (SP)
+Marynea Silva do Vale (MA)
+Liana de Paula Medeiros de A. Cavalcante (PE)
+COORDENAÇÃO DAS LIGAS DOS ESTUDANTES
+COORDENADOR:
+Lelia Cardamone Gouveia (SP)
+MEMBROS:
+Cassio da Cunha Ibiapina (MG)
+Luiz Anderson Lopes (SP)
+Anna Tereza Miranda Soares de Moura (RJ)
+Adelma Alves de Figueiredo (RR)
+André Luis Santos Carmo (PR)
+Marynea Silva do Vale (MA)
+Fernanda Wagner Fredo dos Santos (PR)
+MUSEU DA PEDIATRIA (MEMORIAL DA PEDIATRIA BRASILEIRA)
+COORDENAÇÃO:
+Edson Ferreira Liberal (RJ)
+MEMBROS:
+Mario Santoro Junior (SP)
+José Hugo de Lins Pessoa (SP)
+Sidnei Ferreira (RJ)
+Jeferson Pedro Piva (RS)
+DIRETORIA DE PATRIMÔNIO
+COORDENAÇÃO:
+Claudio Barsanti (SP)
+Edson Ferreira Liberal (RJ)
+Maria Tereza Fonseca da Costa (RJ)
+Paulo Tadeu Falanghe (SP)
+
+www.sbp.com.br
+
+REDE DE PEDIATRIA
+AC - SOCIEDADE ACREANA DE PEDIATRA
+Ana Isabel Coelho Montero
+AL - SOCIEDADE ALAGOANA DE PEDIATRIA
+Marcos Reis Gonçalves
+AM - SOCIEDADE AMAZONENSE DE PEDIATRIA
+Adriana Távora de Albuquerque Taveira
+AP - SOCIEDADE AMAPAENSE DE PEDIATRIA
+Camila dos Santos Salomão
+BA - SOCIEDADE BAIANA DE PEDIATRIA
+Ana Luiza Velloso da Paz Matos
+CE - SOCIEDADE CEARENSE DE PEDIATRIA
+João Cândido de Souza Borges
+DF - SOCIEDADE DE PEDIATRIA DO DISTRITO FEDERAL
+Luciana de Freitas Velloso Monte
+ES - SOCIEDADE ESPIRITOSSANTENSE DE PEDIATRIA
+Carolina Strauss Estevez Gadelha
+GO - SOCIEDADE GOIANA DE PEDIATRIA
+Valéria Granieri de Oliveira Araújo
+MA - SOCIEDADE DE PUERICULTURA E PEDIATRIA
+DO MARANHÃO
+Marynéa Silva do Vale
+MG - SOCIEDADE MINEIRA DE PEDIATRIA
+Márcia Gomes Penido Machado
+MS - SOCIEDADE DE PEDIATRIA DO MATO GROSSO DO SUL
+Carmen Lúcia de Almeida Santos
+MT - SOCIEDADE MATOGROSSENSE DE PEDIATRIA
+Paula Helena de Almeida Gattass Bumlai
+PA - SOCIEDADE PARAENSE DE PEDIATRIA
+Vilma Francisca Hutim Gondim de Souza
+PB - SOCIEDADE PARAIBANA DE PEDIATRIA
+Maria do Socorro Ferreira Martins
+PE - SOCIEDADE DE PEDIATRIA DE PERNAMBUCO
+Alexsandra Ferreira da Costa Coelho
+PI - SOCIEDADE DE PEDIATRIA DO PIAUÍ
+Ramon Nunes Santos
+PR - SOCIEDADE PARANAENSE DE PEDIATRIA
+Victor Horácio de Souza Costa Junior
+RJ - SOCIEDADE DE PEDIATRIA DO ESTADO DO RIO DE JANEIRO
+Cláudio Hoineff
+RN - SOCIEDADE DE PEDIATRIA DO RIO GRANDE DO NORTE
+Manoel Reginaldo Rocha de Holanda
+RO - SOCIEDADE DE PEDIATRIA DE RONDÔNIA
+Cristiane Figueiredo Reis Maiorquin
+RR - SOCIEDADE RORAIMENSE DE PEDIATRIA
+Erica Patricia Cavalcante Barbalho
+RS - SOCIEDADE DE PEDIATRIA DO RIO GRANDE DO SUL
+Jose Paulo Vasconcellos Ferreira
+SC - SOCIEDADE CATARINENSE DE PEDIATRIA
+Nilza Maria Medeiros Perin
+SE - SOCIEDADE SERGIPANA DE PEDIATRIA
+Ana Jovina Barreto Bispo
+SP - SOCIEDADE DE PEDIATRIA DE SÃO PAULO
+Renata Dejtiar Waksman
+TO - SOCIEDADE TOCANTINENSE DE PEDIATRIA
+Ana Mackartney de Souza Marinho
+DEPARTAMENTOS CIENTÍFICOS
+• Aleitamento Materno
+• Alergia
+• Bioética
+• Cardiologia
+• Dermatologia
+• Emergência
+• Endocrinologia
+• Gastroenterologia
+• Genética Clínica
+• Hematologia e Hemoterapia
+• Hepatologia
+• Imunizações
+• Imunologia Clínica
+• Infectologia
+• Medicina da Dor e Cuidados Paliativos
+• Medicina do Adolescente
+• Medicina Intensiva Pediátrica
+• Nefrologia
+• Neonatologia
+• Neurologia
+• Nutrologia
+• Oncologia
+• Otorrinolaringologia
+• Pediatria Ambulatorial
+• Ped. Desenvolvimento e Comportamento
+• Pneumologia
+• Prevenção e Enfrentamento das Causas Externas
+na Infância e Adolescência
+• Reumatologia
+• Saúde Escolar
+• Sono
+• Suporte Nutricional
+• Toxicologia e Saúde Ambiental
+GRUPOS DE TRABALHO
+• Atividade física
+• Cirurgia pediátrica
+• Criança, adolescente e natureza
+• Doença inflamatória intestinal
+• Doenças raras
+• Drogas e violência na adolescência
+• Educação é Saúde
+• Imunobiológicos em pediatria
+• Metodologia científica
+• Oftalmologia pediátrica
+• Ortopedia pediátrica
+• Pediatria e humanidades
+• Pediatria Internacional dos Países de Língua Portuguesa
+• Povos Originários do Brasil
+• Políticas públicas para neonatologia
+• Radiologia e Diagnóstico por Imagem
+• Saúde digital
+• Saúde mental
+• Saúde oral
+
+

@@ -1,0 +1,849 @@
+Nº 1, Dezembro de 2016
+
+Documento Científico
+Departamento Científico de Nefrologia
+
+Infecção do
+Trato Urinário
+Departamento Científico de Nefrologia
+Presidente:
+Nilzete Liberato Bresolin
+Secretário:
+Lucimary de Castro Silvestre
+Conselho Científico: Anelise Uhmann, Arnauld Kaufman, Clotilde Druck Garcia, Rubens Wolfe Lipinski
+
+Introdução
+
+trato urinário, identificado por urocultura coletada por método confiável.
+
+A infecção de trato urinário (ITU) constitui
+
+É uma doença que acomete principalmente
+o sexo feminino podendo chegar a 20:1 casos,
+embora, do período neonatal até os seis meses
+de idade pode haver predominância no sexo
+masculino.
+
+uma das infecções bacterianas mais frequentes
+em Pediatria. É, provavelmente, a infecção bacteriana mais prevalente no lactente.
+A importância do diagnóstico precoce da ITU
+é prevenir e minimizar a formação e progressão
+da cicatriz renal, principalmente no neonato e
+lactente mais suscetíveis à formação de cicatrizes que como consequência numa fase mais
+tardia poderão levar à hipertensão e/ou insuficiência renal crônica.
+O melhor entendimento de sua fisiopatogenia, o advento da ultrassonografia fetal (detecção precoce de malformações), a investigação
+por imagem, e a instituição terapêutica precoce
+melhoraram em muito o prognóstico destes pequenos pacientes.
+
+Definição
+
+A ITU consiste na multiplicação de um único germe patogênico em qualquer segmento do
+
+O aumento da incidência ocorre entre três
+e cinco anos de idade, havendo outro pico na
+adolescência, muito provavelmente devido às
+alterações hormonais (que favorecem a colonização bacteriana) e, em alguns casos, início precoce de atividade sexual. Tende à repetição podendo ocorrer novo episódio em cerca de 40%
+das pacientes. A recorrência é mais rara no sexo
+masculino.
+
+Fisiopatogenia
+
+A urina e o trato urinário são normalmente
+estéreis. O períneo e a zona uretral de neonatos
+e lactentes estão colonizados por: Escherichia
+coli, Enterobacteriaceae e Enterococus sp além
+de que o prepúcio de meninos não circuncidados
+
+1
+
+Infecção no Trato Urinário
+
+é um reservatório para várias espécies de Proteus. Esta colonização diminui após o primeiro
+ano de vida sendo rara após os cinco anos. A ITU
+ocorre quando estas bactérias ascendem à zona
+periuretral. Oitenta por cento das infecções urinárias adquiridas na comunidade são causadas
+pela E. coli uropatogênica (UPEC). Outros agentes estão listados no quadro abaixo (Quadro 1):
+
+Em relação aos fatores de resistência do
+hospedeiro estão o hábito miccional normal
+evitando a estase, urina de composição e osmolaridade adequadas apresentando efeito inibitório sobre a multiplicação bacteriana e, na presença destas bactérias patogênicas, o estímulo
+à reação inflamatória com consequente produção de citocinas tais como as interleucinas 6 e 8
+em resposta à agressão (Figura 2).
+
+Quadro 1 – Bactérias causadoras de ITU na criança*
+Figura 2 – Representação esquemática da adesão
+
+E. coli
+
+Pseudomonas
+
+Proteus
+
+Streptococcus Grupo B
+
+Klesbsiella
+
+Staphylococcus aureus
+
+Staphylococcus
+saprophyticus
+
+Staphylococcus
+epidermidis
+
+Enterococcus
+
+Haemophilus influenza
+
+bacteriana10
+
+Enterobacter
+*Contaminantes comuns: Lactobacillus sp., Corynebacterium sp.,
+Staphylococcus sp. coagulase-negativo e Streptococcus α-hemolítico
+
+AS UPEC isoladas de pacientes com ITU
+febril (pielonefrite) apresentam fatores de
+virulência que aumentam sua sobrevivência
+no hospedeiro. São as Pili ou fimbrias (S, P e
+a tipo 1) que facilitam a sua ascensão ao trato urinário por mecanismo de contra-corrente
+por aderirem ao epitélio tanto da bexiga como
+do trato urinário superior, e podem ficar quiescentes não se sabendo qual o estímulo que as
+reativam (Figura 1).
+Figura 1 – Representação esquemática E.coli
+uropatogênica10
+
+2
+
+Quadro Clínico
+
+Os sinais e sintomas na criança dependem
+principalmente da idade do paciente. Crianças
+menores apresentam sinais e sintomas mais
+inespecíficos. Febre é o sintoma mais frequente no lactente. A incidência de pielonefrite é
+maior em crianças menores de um ano e diminui
+gradativamente quando se aproxima da idade
+escolar podendo, porém, ocorrer em qualquer
+idade. Outros sinais e sintomas que nesta faixa
+etária devem ser levados em conta são: irritabilidade, recusa alimentar, icterícia, distensão abdominal e baixo ganho ponderal. O diagnóstico
+e a terapêutica precoces são fatores principais
+para evitar a formação da cicatriz renal. Após os
+dois anos de idade aparecem sintomas mais relacionados ao trato urinário inferior tais como:
+disúria, polaciúria, urge-incontinência, enurese
+(em crianças que já apresentavam controle esfincteriano prévio) e tenesmo, quadros clínicos
+denominados, cistites. Importante observar
+que estes quadros podem evoluir para pielonefrite (Quadro 2).
+
+Departamento Científico de Nefrologia • Sociedade Brasileira de Pediatria
+
+Quadro 2 – Diagnóstico diferencial de cistite do trato
+urinário inferior
+
+Vaginite
+Corpo estranho vaginal
+Corpo estranho uretral
+Oxiuríase
+Irritantes locais: sabonetes líquidos – maiôs
+Abuso sexual
+
+Avaliação Laboratorial
+Análise de urina
+O exame de urina não substitui a urocultura
+no diagnóstico de ITU, mas pode apresentar alterações permitindo iniciar precocemente o tratamento, já que resultados da cultura demoram
+24 a 72 horas para serem obtidos. Alguns centros fazem inicialmente coleta de urina através
+de saco coletor e, na presença de alterações,
+fazem uma nova coleta através de método adequado para se realizar urocultura.
+No quadro 3 são apresentados os dados de
+sensibilidade e especificidade em exame de
+urina que podem sugerir na ITU:
+
+Quadro 3 – Sensibilidade e especificidade dos
+componentes de exames de urina
+
+Sensibilidade
+
+Especificidade
+
+Esterase
+leucocitária
+
+83%
+
+78%
+
+Nitritos
+positivos
+
+50%
+
+92%
+
+Contagem
+leucocitária
+
+73%
+
+81%
+
+Bactereoscopia
+
+81%
+
+83%
+
+Gram
+
+93%
+
+95%
+
+Urocultura:
+Colhida por método adequado é padrão ouro
+para confirmação de ITU. Nas crianças, ainda
+sem controle esfincteriano, realiza-se punção
+suprapúbica (PSP) ou sondagem vesical (SV).
+Sendo a bexiga estéril, o crescimento de qualquer patógeno, independentemente do número
+
+de colônias, confirma o diagnóstico quando a
+coleta é realizada por PSP. A obtenção de urina
+por cateterização vesical é uma opção segura e
+simples, e a presença de crescimento bacteriano maior ou igual a 1000ufc/ml, caracteriza a
+presença de ITU.
+Em relação à coleta de urina por saco coletor, vários estudos mostram resultados falsos
+positivos em até 80% dos casos e, portanto, os
+resultados só devem ser valorizados quando a
+cultura resultar negativa.
+Na criança que já apresenta controle esfincteriano deve-se coletar urina de jato médio, após assepsia prévia, sendo considerada
+positiva a contagem bacteriana maior ou igual
+a 100.000ufc/ml ou mais de 50.000ufc/ml associada com a análise de urina demonstrando
+evidência de piúria.
+
+Tratamento
+
+O tratamento inicial com antibióticos é empírico observando-se a idade e o estado geral
+do paciente. O tratamento parenteral deve ser
+reservado principalmente aos lactentes muito
+jovens e àqueles com acometimento do estado
+geral e com vômitos (Quadro 4). O fármaco deve
+ter sempre propriedades bactericidas e o tratamento nunca deve ser inferior a sete dias, e preferentemente por 10 dias contínuos. Quando a
+opção inicial é de tratamento parenteral não
+há obrigatoriedade em manter-se esta via por
+10 dias. Sugere-se reavaliar o paciente em
+48 a 72 horas e, havendo melhora, pode-se
+optar por completar o tratamento por via oral
+com antibiótico de espectro semelhante ao parenteral e/ou sabidamente sensível ao teste de
+sensibilidade antimicrobiana (Quadro 5).
+Naquelas crianças que, concomitantemente, apresentem sintomas de disfunção das eliminações (vide tabela abaixo) deve-se fazer as
+orientações quanto ao hábito urinário adequado (urinar ao acordar, urinar a cada três horas,
+urinar com pés apoiados), importância da ingesta hídrica e correção da obstipação (Quadro 6).
+
+3
+
+Infecção no Trato Urinário
+
+Estas medidas são fundamentais e devem ser
+estimuladas porque estão diretamente relacio-
+
+nadas ao sucesso terapêutico e à prevenção de
+infecções de repetição.
+
+Quadro 4 – Agentes antimicrobianos para o tratamento parenteral da ITU2
+
+Agente antimicrobiano
+
+Dosagem
+
+Ceftriaxone
+
+75 mg/kg – 150mg/kg / 24hs
+
+Cefotaxime
+
+75 mg/kg – 150mg/kg / 24hs
+
+Ceftazidime
+
+100 mg/kg – 150mg/kg/d/8hs
+
+Gentamicina
+
+7,5mg/kg/24hs
+
+Tobramicina
+
+6mg/kg/24hs (dividida cada 6 a 8hs)
+
+Amicacina
+
+15mg/kg/24hs
+
+Piperaciclina
+
+300mg/kg/24hs (dividida cada 6-8hs)
+
+Quadro 5 – Agentes antimicrobianos para tratamento oral da ITU2
+
+Agente antimicrobiano
+
+Dosagem
+
+Amoxacilina-Clavulanato
+
+20-40mg/kg/dia/8hs
+
+Sulfametoxazol-Trimetropim
+
+30-60mg/kg/dia/12hs
+
+Cefalexina
+
+50-100mg/kg/dia/6hs
+
+Axetil-Cefuroxime
+
+20-30mg/kg/dia/12hs
+
+Cefprozil
+
+30mg/kg/dia/12hs
+
+Quadro 6 – Sinais sintomas sugestivos de disfunção das eliminações11
+
+Sistema Urinário
+
+Sistema gastrintestinal
+
+Sistema nervoso
+
+Incontinência
+
+Constipação
+
+Alterações da coluna
+
+Retenção urinária
+
+Encoprese
+
+Disrafismo sacral
+
+Reter até o último minuto
+
+Massa abdominal palpável
+
+Hemagioma sacral
+
+Não urinar ao acordar
+
+Fissura anal
+
+Assimetria pregas glúteas
+
+Trançar ou sentar sob os pés
+
+Palpação de fecalomas
+
+Assimetria das extremidades inferiores
+
+Enurese
+
+Profilaxia
+
+É tema bastante controverso ainda hoje, à
+luz do que existe, e alguns aspectos serão citados podendo ainda haver divergências quanto
+à conduta a ser seguida. Em crianças com trato
+urinário normal, a profilaxia deve ser avaliada
+com cautela devido à possibilidade de aparecimento de cepas mais resistentes aumentando o
+risco de infecção. No entanto, as crianças que
+têm infecção urinária de repetição com trato
+urinário normal e disfunção miccional são can-
+
+4
+
+Alterações sensitivas e motoras entre L1 S3 e S4
+
+didatas à quimioprofilaxia, por período de 3 a
+6 meses, até que estas disfunções sejam corrigidas.
+Diversos trabalhos mostram a presença de
+refluxo vesicoureteral (RVU) em até 30% dos
+pacientes com infecção urinária. É sabido que
+90% dos RUVs desaparecem espontaneamente
+(mesmo os de maiores graus) entre os segundo
+e terceiro anos de vida. A profilaxia deverá ficar
+reservada para pacientes portadores de refluxos
+maiores ou igual ao de terceiro grau e para aquelas crianças que já apresentam cicatriz renal.
+
+Departamento Científico de Nefrologia • Sociedade Brasileira de Pediatria
+
+Figura 3 – Representação esquemática dos graus de refluxo vésico-ureteral segundo International
+Reflux Study in Children9
+
+Pacientes com processos obstrutivos tais
+como: estenose de junção uretero pélvica e uretero vesical, devem ser colocados em profilaxia
+até que uma conduta para correção cirúrgica
+seja adotada.
+
+devem ser empregadas paralelamente à avaliação da função renal (anterior e, em alguns
+casos, posterior ao exame).
+
+Quadro 7 – Drogas utilizadas em profilaxia da ITU5
+
+Por ser exame não invasivo e não expor o
+paciente à radiação deve ser realizado em todos os que apresentaram ITU com o intuito de
+confirmar e/ou detectar má formações. No entanto, USG normal não exclui a existência de alterações e é necessário lembrar que este é um
+exame operador dependente, cujos resultados
+podem ser afetados pelo grau de expertise do
+profissional.
+
+Droga
+
+Dose
+
+Nitrofurantoína*
+
+1-2mg/kg/d
+
+Sulfametoxazol-Trimetoprim
+
+20mg/kg/d
+
+Cefalexina**
+
+20-30mg/kg/d
+
+*Não usar em crianças menores de dois meses de idade
+**Neonatos e crianças menores de dois meses de idade
+
+Investigação por Imagem
+
+Toda criança, independentemente de idade e sexo, que tenha diagnóstico de certeza
+de ITU merece uma investigação por imagem.
+No entanto, não há definição de quais procedimentos diagnósticos devem ser realizados
+e também não há definição de qual seria o
+melhor momento para sua realização. O consenso vigente é de que deve-se administrar
+a menor quantidade de radiação possível devido aos possíveis efeitos deletérios os quais
+podem persistir por muitos anos. Alergia e/ou
+nefrotoxicidade aos meios de contraste podem ocorrer e, portanto, medidas preventivas
+
+Ultrassonografia (USG) do aparelho urinário
+e bexiga
+
+Cintilografia renal com DMSA
+É exame padrão ouro na detecção da cicatriz
+renal e deve ser realizado em todos os lactentes com ITU febril, crianças que apresentaram
+quadro clínico de pielonefrite (mesmo naquelas
+crianças com USG normal de rins e vias urinárias)
+e pacientes com RVU. Deverá ser realizado após
+quatro a seis meses do episódio inicial de ITU.
+Uretrocistografia miccional (UCM)
+Exame radiológico realizado com administração de contraste iodado intravesical, portanto, sem possibilidade de alergia e ou nefrotoxidade. Nele procura-se observar alterações
+
+5
+
+Infecção no Trato Urinário
+
+da coluna, visualização da uretra, alteração da
+bexiga como, por exemplo, a presença de divertículo e a demonstração de RVU. A princípio,
+a UCM está reservada àqueles pacientes que
+
+apresentam USG de rins e vias urinárias e/ou
+cintilografia com DMSA alterada e/ou quadros
+repetitivos de infecção urinária associados à
+disfunção miccional.
+
+ALGORITIMO DA INVESTIGAÇÃO POR IMAGEM DA ITU1
+ITU
+
+US
+
+NORMAL
+
+ALTERADO
+
+DMSA
+
+NORMAL
+
+DMSA
+
+UCM
+
+ALTERADO
+
+UCM
+
+Prognóstico
+
+Quadro 8 – Fatores de risco para cicatriz renal
+
+Crianças menores de um ano de idade
+
+O prognóstico está relacionado a uma série
+de fatores como: idade de apresentação, presença ou não de cicatrizes renais, malformações
+e atraso no diagnóstico e na instituição de terapêutica (Quadro 8).
+
+Atraso no tratamento maior que 72hs
+Crianças com altos graus de refluxo
+Malformações com caráter obstrutivo
+ITU recorrentes
+
+O diagnóstico e a instituição precoce da terapêutica além de correção de malformações
+associadas melhoraram em muito o prognóstico
+destas crianças.
+
+6
+
+Departamento Científico de Nefrologia • Sociedade Brasileira de Pediatria
+
+BIBLIOGRAFIA SUGERIDA
+1.
+
+Neuvas recomendaciones frente a lãs actuales
+contraversias em infeccion urinaria Comité de
+Nefrologia (2011-2013), Sociedade Argentina
+de Pediatria;
+
+6.
+
+Schlager TA, Hendley JO, Dudley SM, et al.
+Explanation for false-positive urine cultures
+obtained by bag technique. Arch Pediatr
+Adolesc Med 1995;149:170-173.
+
+2.
+
+American Academy Of Pediatrics: Urinary Tract
+Infection: Clinical Practice Guideline For the
+Diagnosis and Management of the Initial UTI
+Febrile Infants and Children 2 to 24 Months.
+Pediatrics 2011;128(3): 595-610.
+
+7.
+
+Morello W, La Scola C, Alberici I, et al. Acute
+pyelonephritis in children; Pediatr Nephrol
+2016;31:1253-1265.
+
+8.
+
+Toporovski J. Nefrologia Pediátrica; Rio de
+Janeiro: Guanabara Koogan 2006; ISBN 85-2771205-9.
+Lebowitz RL, Olbing H, Parkkulainen KV, et al.
+International system of radiographic grading
+of vesicoureteric reflux. International Reflux
+Study in Children. Pediatr Radiol. 1985;15:105109.
+
+3.
+
+Smellie JM, Rigdem, SPA, Prescod ND. Urinary
+tract infection: a comparison of four methods of
+investigation. Arch Dis Child 1995;72:247-250.
+
+9.
+
+4.
+
+National Institute for Health and Clinical
+Excellence.
+Urinary
+Tract
+Infection
+in
+Children: Diagnosis, Tratament, and Longterm Management: Nice Clinical Guideline
+54. London, England: National Institute
+for Health and Clinical Excellence; 2007.
+Available
+at:
+www.nice.org.uk/nicemedia/
+live/11819/36032/36032.pdf.
+
+10. Roberts JA. Factors predisposing to urinary
+tract infections in children. Pediatr Nephrol.
+1996;10(4):517-22.
+
+Pediatric nephrology and urology: the requisites
+in pediatrics. Kaplan BS (ed), Kevin Meyers – 1st
+ed. ISBN 0-323-01841-6 ;2004
+
+11. Nardielo AN, Baquedano PD, Cavagnaro FSM.
+Dysfunctional Elimination Syndrome. Rev Chil
+Pediatr 2007;78(2):128-134
+
+5.
+
+7
+
+Diretoria
+Triênio 2016/2018
+PRESIDENTE:
+Luciana Rodrigues Silva (BA)
+1º VICE-PRESIDENTE:
+Clóvis Francisco Constantino (SP)
+2º VICE-PRESIDENTE:
+Edson Ferreira Liberal (RJ)
+SECRETÁRIO GERAL:
+Sidnei Ferreira (RJ)
+1º SECRETÁRIO:
+Cláudio Hoineff (RJ)
+2º SECRETÁRIO:
+Paulo de Jesus Hartmann Nader (RS)
+3º SECRETÁRIO:
+Virgínia Resende Silva Weffort (MG)
+DIRETORIA FINANCEIRA:
+Maria Tereza Fonseca da Costa (RJ)
+2ª DIRETORIA FINANCEIRA:
+Ana Cristina Ribeiro Zöllner (SP)
+3ª DIRETORIA FINANCEIRA:
+Fátima Maria Lindoso da Silva Lima (GO)
+DIRETORIA DE INTEGRAÇÃO REGIONAL:
+Fernando Antônio Castro Barreiro (BA)
+Membros:
+Hans Walter Ferreira Greve (BA)
+Eveline Campos Monteiro de Castro (CE)
+Alberto Jorge Félix Costa (MS)
+Analíria Moraes Pimentel (PE)
+Corina Maria Nina Viana Batista (AM)
+Adelma Alves de Figueiredo (RR)
+COORDENADORES REGIONAIS:
+Norte:
+Bruno Acatauassu Paes Barreto (PA)
+Nordeste:
+Anamaria Cavalcante e Silva (CE)
+Sudeste:
+Luciano Amedée Péret Filho (MG)
+Sul:
+Darci Vieira Silva Bonetto (PR)
+Centro-oeste:
+Regina Maria Santos Marques (GO)
+ASSESSORES DA PRESIDÊNCIA:
+Assessoria para Assuntos Parlamentares:
+Marun David Cury (SP)
+Assessoria de Relações Institucionais:
+Clóvis Francisco Constantino (SP)
+Assessoria de Políticas Públicas:
+Mário Roberto Hirschheimer (SP)
+Rubens Feferbaum (SP)
+Maria Albertina Santiago Rego (MG)
+Sérgio Tadeu Martins Marba (SP)
+Assessoria de Políticas Públicas – Crianças e
+Adolescentes com Deficiência:
+Alda Elizabeth Boehler Iglesias Azevedo (MT)
+Eduardo Jorge Custódio da Silva (RJ)
+Assessoria de Acompanhamento da Licença
+Maternidade e Paternidade:
+João Coriolano Rego Barros (SP)
+Alexandre Lopes Miralha (AM)
+Ana Luiza Velloso da Paz Matos (BA)
+Assessoria para Campanhas:
+Conceição Aparecida de Mattos Segre (SP)
+GRUPOS DE TRABALHO:
+Drogas e Violência na Adolescência:
+Evelyn Eisenstein (RJ)
+Doenças Raras:
+Magda Maria Sales Carneiro Sampaio (SP)
+Metodologia Científica:
+Gisélia Alves Pontes da Silva (PE)
+Cláudio Leone (SP)
+Pediatria e Humanidade:
+Álvaro Jorge Madeiro Leite (CE)
+Luciana Rodrigues Silva (BA)
+Christian Muller (DF)
+João de Melo Régis Filho (PE)
+Transplante em Pediatria:
+Themis Reverbel da Silveira (RS)
+Irene Kazue Miura (SP)
+Carmen Lúcia Bonnet (PR)
+Adriana Seber (SP)
+Paulo Cesar Koch Nogueira (SP)
+Fabiana Carlese (SP)
+DIRETORIA E COORDENAÇÕES:
+DIRETORIA DE QUALIFICAÇÃO E CERTIFICAÇÃO
+PROFISSIONAL
+Maria Marluce dos Santos Vilela (SP)
+COORDENAÇÃO DO CEXTEP:
+Hélcio Villaça Simões (RJ)
+
+8
+
+COORDENAÇÃO DE ÁREA DE ATUAÇÃO
+Mauro Batista de Morais (SP)
+COORDENAÇÃO DE CERTIFICAÇÃO PROFISSIONAL
+José Hugo de Lins Pessoa (SP)
+DIRETORIA DE RELAÇÕES INTERNACIONAIS
+Nelson Augusto Rosário Filho (PR)
+REPRESENTANTE NO GPEC (Global Pediatric Education
+Consortium)
+Ricardo do Rego Barros (RJ)
+REPRESENTANTE NA ACADEMIA AMERICANA DE PEDIATRIA (AAP)
+Sérgio Augusto Cabral (RJ)
+REPRESENTANTE NA AMÉRICA LATINA
+Francisco José Penna (MG)
+DIRETORIA DE DEFESA PROFISSIONAL, BENEFÍCIOS E PREVIDÊNCIA
+Marun David Cury (SP)
+DIRETORIA-ADJUNTA DE DEFESA PROFISSIONAL
+Sidnei Ferreira (RJ)
+Cláudio Barsanti (SP)
+Paulo Tadeu Falanghe (SP)
+Cláudio Orestes Britto Filho (PB)
+Mário Roberto Hirschheimer (SP)
+João Cândido de Souza Borges (CE)
+COORDENAÇÃO VIGILASUS
+Anamaria Cavalcante e Silva (CE)
+Fábio Elíseo Fernandes Álvares Leite (SP)
+Jussara Melo de Cerqueira Maia (RN)
+Edson Ferreira Liberal (RJ)
+Célia Maria Stolze Silvany ((BA)
+Kátia Galeão Brandt (PE)
+Elizete Aparecida Lomazi (SP)
+Maria Albertina Santiago Rego (MG)
+Isabel Rey Madeira (RJ)
+Jocileide Sales Campos (CE)
+COORDENAÇÃO DE SAÚDE SUPLEMENTAR
+Maria Nazareth Ramos Silva (RJ)
+Corina Maria Nina Viana Batista (AM)
+Álvaro Machado Neto (AL)
+Joana Angélica Paiva Maciel (CE)
+Cecim El Achkar (SC)
+Maria Helena Simões Freitas e Silva (MA)
+COORDENAÇÃO DO PROGRAMA DE GESTÃO DE CONSULTÓRIO
+Normeide Pedreira dos Santos (BA)
+DIRETORIA DOS DEPARTAMENTOS CIENTÍFICOS E COORDENAÇÃO
+DE DOCUMENTOS CIENTÍFICOS
+Dirceu Solé (SP)
+DIRETORIA-ADJUNTA DOS DEPARTAMENTOS CIENTÍFICOS
+Lícia Maria Oliveira Moreira (BA)
+DIRETORIA DE CURSOS, EVENTOS E PROMOÇÕES
+Lilian dos Santos Rodrigues Sadeck (SP)
+COORDENAÇÃO DE CONGRESSOS E SIMPÓSIOS
+Ricardo Queiroz Gurgel (SE)
+Paulo César Guimarães (RJ)
+Cléa Rodrigues Leone (SP)
+COORDENAÇÃO GERAL DOS PROGRAMAS DE ATUALIZAÇÃO
+Ricardo Queiroz Gurgel (SE)
+COORDENAÇÃO DO PROGRAMA DE REANIMAÇÃO NEONATAL:
+Maria Fernanda Branco de Almeida (SP)
+Ruth Guinsburg (SP)
+COORDENAÇÃO PALS – REANIMAÇÃO PEDIÁTRICA
+Alexandre Rodrigues Ferreira (MG)
+Kátia Laureano dos Santos (PB)
+COORDENAÇÃO BLS – SUPORTE BÁSICO DE VIDA
+Valéria Maria Bezerra Silva (PE)
+COORDENAÇÃO DO CURSO DE APRIMORAMENTO EM NUTROLOGIA
+PEDIÁTRICA (CANP)
+Virgínia Resende S. Weffort (MG)
+CONVERSANDO COM O PEDIATRA
+Victor Horácio da Costa Júnior (PR)
+PORTAL SBP
+Flávio Diniz Capanema (MG)
+COORDENAÇÃO DO CENTRO DE INFORMAÇÃO CIENTÍFICA
+José Maria Lopes (RJ)
+PROGRAMA DE ATUALIZAÇÃO CONTINUADA À DISTÂNCIA
+Altacílio Aparecido Nunes (SP)
+João Joaquim Freitas do Amaral (CE)
+DOCUMENTOS CIENTÍFICOS
+Luciana Rodrigues Silva (BA)
+Dirceu Solé (SP)
+Emanuel Sávio Cavalcanti Sarinho (PE)
+Joel Alves Lamounier (MG)
+DIRETORIA DE PUBLICAÇÕES
+Fábio Ancona Lopez (SP)
+EDITORES DA REVISTA SBP CIÊNCIA
+Joel Alves Lamounier (SP)
+Altacílio Aparecido Nunes (SP)
+Paulo Cesar Pinho Pinheiro (MG)
+Flávio Diniz Capanema (MG)
+EDITOR DO JORNAL DE PEDIATRIA
+Renato Procianoy (RS)
+
+EDITOR REVISTA RESIDÊNCIA PEDIÁTRICA
+Clémax Couto Sant’Anna (RJ)
+EDITOR ADJUNTO REVISTA RESIDÊNCIA PEDIÁTRICA
+Marilene Augusta Rocha Crispino Santos (RJ)
+CONSELHO EDITORIAL EXECUTIVO
+Gil Simões Batista (RJ)
+Sidnei Ferreira (RJ)
+Isabel Rey Madeira (RJ)
+Sandra Mara Amaral (RJ)
+Bianca Carareto Alves Verardino (RJ)
+Maria de Fátima B. Pombo March (RJ)
+Sílvio Rocha Carvalho (RJ)
+Rafaela Baroni Aurilio (RJ)
+COORDENAÇÃO DO PRONAP
+Carlos Alberto Nogueira-de-Almeida (SP)
+Fernanda Luísa Ceragioli Oliveira (SP)
+COORDENAÇÃO DO TRATADO DE PEDIATRIA
+Luciana Rodrigues Silva (BA)
+Fábio Ancona Lopez (SP)
+DIRETORIA DE ENSINO E PESQUISA
+Joel Alves Lamounier (MG)
+COORDENAÇÃO DE PESQUISA
+Cláudio Leone (SP)
+COORDENAÇÃO DE PESQUISA-ADJUNTA
+Gisélia Alves Pontes da Silva (PE)
+COORDENAÇÃO DE GRADUAÇÃO
+Rosana Fiorini Puccini (SP)
+COORDENAÇÃO ADJUNTA DE GRADUAÇÃO
+Rosana Alves (ES)
+Suzy Santana Cavalcante (BA)
+Angélica Maria Bicudo-Zeferino (SP)
+Silvia Wanick Sarinho (PE)
+COORDENAÇÃO DE PÓS-GRADUAÇÃO
+Victor Horácio da Costa Junior (PR)
+Eduardo Jorge da Fonseca Lima (PE)
+Fátima Maria Lindoso da Silva Lima (GO)
+Ana Cristina Ribeiro Zöllner (SP)
+Jefferson Pedro Piva (RS)
+COORDENAÇÃO DE RESIDÊNCIA E ESTÁGIOS EM PEDIATRIA
+Paulo de Jesus Hartmann Nader (RS)
+Ana Cristina Ribeiro Zöllner (SP)
+Victor Horácio da Costa Junior (PR)
+Clóvis Francisco Constantino (SP)
+Silvio da Rocha Carvalho (RJ)
+Tânia Denise Resener (RS)
+Delia Maria de Moura Lima Herrmann (AL)
+Helita Regina F. Cardoso de Azevedo (BA)
+Jefferson Pedro Piva (RS)
+Sérgio Luís Amantéa (RS)
+Gil Simões Batista (RJ)
+Susana Maciel Wuillaume (RJ)
+Aurimery Gomes Chermont (PA)
+COORDENAÇÃO DE DOUTRINA PEDIÁTRICA
+Luciana Rodrigues Silva (BA)
+Hélcio Maranhão (RN)
+COORDENAÇÃO DAS LIGAS DOS ESTUDANTES
+Edson Ferreira Liberal (RJ)
+Luciano Abreu de Miranda Pinto (RJ)
+COORDENAÇÃO DE INTERCÂMBIO EM RESIDÊNCIA NACIONAL
+Susana Maciel Wuillaume (RJ)
+COORDENAÇÃO DE INTERCÂMBIO EM RESIDÊNCIA INTERNACIONAL
+Herberto José Chong Neto (PR)
+DIRETOR DE PATRIMÔNIO
+Cláudio Barsanti (SP)
+COMISSÃO DE SINDICÂNCIA
+Gilberto Pascolat (PR)
+Aníbal Augusto Gaudêncio de Melo (PE)
+Isabel Rey Madeira (RJ)
+Joaquim João Caetano Menezes (SP)
+Valmin Ramos da Silva (ES)
+Paulo Tadeu Falanghe (SP)
+Tânia Denise Resener (RS)
+João Coriolano Rego Barros (SP)
+Maria Sidneuma de Melo Ventura (CE)
+Marisa Lopes Miranda (SP)
+CONSELHO FISCAL
+Titulares:
+Núbia Mendonça (SE)
+Nélson Grisard (SC)
+Antônio Márcio Junqueira Lisboa (DF)
+Suplentes:
+Adelma Alves de Figueiredo (RR)
+João de Melo Régis Filho (PE)
+Darci Vieira da Silva Bonetto (PR)
+ACADEMIA BRASILEIRA DE PEDIATRIA
+Presidente:
+José Martins Filho (SP)
+Vice-presidente:
+Álvaro de Lima Machado (ES)
+Secretário Geral:
+Reinaldo de Menezes Martins (RJ)
+
+

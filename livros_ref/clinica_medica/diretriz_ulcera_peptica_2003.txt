@@ -1,0 +1,637 @@
+Projeto Diretrizes
+Associação Médica Brasileira e Conselho Federal de Medicina
+
+Úlcera Péptica
+
+Autoria: Federação Brasileira de Gastroenterologia
+Elaboração Final: 31 de janeiro de 2003
+Participantes: Coelho LGV
+
+O Projeto Diretrizes, iniciativa conjunta da Associação Médica Brasileira e Conselho Federal
+de Medicina, tem por objetivo conciliar informações da área médica a fim de padronizar
+condutas que auxiliem o raciocínio e a tomada de decisão do médico. As informações contidas
+neste projeto devem ser submetidas à avaliação e à crítica do médico, responsável pela conduta
+a ser seguida, frente à realidade e ao estado clínico de cada paciente.
+
+1
+
+Projeto Diretrizes
+Associação Médica Brasileira e Conselho Federal de Medicina
+
+DESCRIÇÃO DO MÉTODO DE COLETA DE EVIDÊNCIAS:
+Revisão da literatura e consensos.
+GRAU DE RECOMENDAÇÃO E FORÇA DE EVIDÊNCIA:
+A: Estudos experimentais e observacionais de melhor consistência.
+B: Estudos experimentais e observacionais de menor consistência.
+C: Relatos de casos (estudos não controlados).
+D: Opinião desprovida de avaliação crítica, baseada em consensos,
+estudos fisiológicos ou modelos animais.
+OBJETIVOS:
+Orientar o diagnóstico e tratamento de pacientes com úlcera péptica.
+CONFLITO DE INTERESSE:
+Nenhum conflito de interesse declarado.
+
+2
+
+Úlcera Péptica
+
+Projeto Diretrizes
+Associação Médica Brasileira e Conselho Federal de Medicina
+
+INTRODUÇÃO
+A úlcera péptica era, até recentemente, considerada uma doença
+de etiologia desconhecida, de evolução em geral crônica, com
+surtos de ativação e períodos de acalmia, resultantes de perda
+circunscrita de tecido em regiões do trato digestivo capazes de
+entrar em contato com a secreção cloridropéptica do estômago. É
+diferenciada das erosões pelo fato destas não atingirem a submucosa
+e, portanto, não deixarem cicatriz ao se curarem.
+A identificação e isolamento do Helicobacter pylori (HP) proporcionou um enorme desenvolvimento em nossos conhecimentos acerca da úlcera péptica1(C). A infecção gástrica pelo HP é
+hoje responsável por mais de 95% dos casos de úlcera duodenal e
+80% dos portadores de úlcera gástrica 2 (D). O uso de
+antiinflamatórios constitui a segunda causa, especialmente na
+população mais idosa e, mais raramente, outras etiologias podem
+estar associadas como gastrinoma (Síndrome de Zollinger-Ellisson)
+e forma duodenal de doença de Crohn (Tabela 1)3(D).
+HP E ÚLCERA DUODENAL
+Os mecanismos pelos quais um microrganismo que sobrevive
+apenas em contato com epitélio gástrico lesa com mais freqüência
+o duodeno que o próprio estômago têm sido progressivamente
+Tabela1
+Causas de úlcera péptica3(D)
+Causas comuns
+Infecção por HP
+Uso de AINEs
+Causas raras
+Síndrome de Zollinger-Ellison
+Hiperpatiroidismo
+Doenças granulomatosas (doença de Crohn, sarcoidose)
+Neoplasias (carcinoma, linfoma, leiomioma, leiomiosarcoma)
+Infecções (tuberculose, sífilis, herpes simples, citomegalovírus)
+Tecido pancreático ectópico
+
+Úlcera Péptica
+
+3
+
+Projeto Diretrizes
+Associação Médica Brasileira e Conselho Federal de Medicina
+
+aclarados. A infecção do antro gástrico pelo H.
+pylori induz uma hipersecreção ácida através da
+inibição das células produtoras de somatostatina
+e conseqüente aumento da liberação de gastrina
+pelas células G do antro gástrico. Como conseqüência desta maior oferta de ácido ao duodeno,
+haverá o desenvolvimento (ou ampliação se
+preexistentes) de áreas de metaplasia gástrica no
+duodeno, as quais, então, poderão ser colonizadas pelo HP levando à duodenite e, eventualmente, úlcera duodenal4(B). Fatores genéticos
+e ambientais, além daqueles relacionados à
+virulência do microrganismo, poderão afetar a
+fisiologia gástrica e o desfecho da doença.
+HP E ÚLCERA GÁSTRICA
+Também aqui a identificação do HP tem
+permitido um grande avanço na compreensão
+dos mecanismos fisiopatológicos envolvidos.
+Considera-se HP responsável por 70% a 80%
+das ulcerações gástricas. Esta menor prevalência
+da bactéria na úlcera gástrica em relação à
+duodenal está relacionada à maior freqüência
+de úlceras associadas ao uso de antiinflamatórios
+não-esteróides (AINEs)5(D).
+As úlceras gástricas tendem a ocorrer em
+mucosa não secretora de ácido ou próximas à
+junção com a mucosa não secretora. Mesmo
+quando ocorrem na região alta da pequena curvatura, elas incidem em mucosa não secretora.
+Nesta circunstância, a pangastrite induzida pelo
+HP é a responsável pelas alterações metaplásicas
+que transformam a mucosa secretora em não
+secretora6(D).
+As evidências do papel do HP na úlcera
+péptica provêm dos ensaios terapêuticos que
+demonstram que a erradicação do microrganismo se acompanha de cura do processo ulceroso
+
+4
+
+gástrico ou duodenal na imensa maioria dos
+pacientes, e a recidiva da diátese ulcerosa só
+ocorre na presença de falha na erradicação ou
+recidiva do processo infeccioso7(B) 8,9(D).
+QUADRO CLÍNICO E DIAGNÓSTICO
+Em relação à sintomatologia da úlcera
+péptica, o conceito tradicional do padrão doloroso baseia-se na assertiva de que a acidez
+gástrica produz dor e sua neutralização a alivia. É por todos conhecida a dor epigástrica,
+tipo queimação, com ritmicidade, ou seja, com
+horário certo para seu aparecimento, guardando íntima relação com o ritmo alimentar, ocorrendo 2 a 3 horas após a alimentação ou à
+noite, e cedendo com o uso de alimentos ou
+alcalinos. Um fator discriminante importante
+é a ocorrência de dor noturna, acordando o
+paciente à noite, entre meia-noite e 3 horas da
+manhã. Tal sintoma aparece em aproximadamente 2/3 dos ulcerosos duodenais, mas é também encontrado em pacientes dispépticos funcionais. Importante salientar ainda o caráter
+periódico da dor epigástrica, durando vários dias
+ou semanas, desaparecendo a seguir por semanas ou meses, para reaparecer meses ou anos
+depois, com as mesmas características anteriores. A sensibilidade e a especificidade dos sintomas clínicos para o diagnóstico de úlcera
+péptica variam de país para país10(D).
+Importante salientar que 30% a 40% dos
+pacientes portadores de úlcera péptica têm familiares de primeiro grau acometidos pela
+doença. Quando não tratada, as complicações
+podem ocorrer em até 30% dos pacientes e incluem a hemorragia digestiva alta (20%) manifestada por melena, hematêmese ou por perda
+de sangue oculto nas fezes, a perfuração (6%) e
+
+Úlcera Péptica
+
+Projeto Diretrizes
+Associação Médica Brasileira e Conselho Federal de Medicina
+
+a obstrução piloro-duodenal (4%). Curiosamente, em 10% dos ulcerosos a hemorragia é a primeira manifestação da doença e em um terço
+dos pacientes com úlcera perfurada o episódio
+perfurativo constituiu o primeiro sintoma da
+doença11(D).
+A confirmação diagnóstica é realizada através da endoscopia digestiva alta que, além de
+mais sensível que a radiologia, permite a realização de biópsias12(D). Os testes de secreção
+gástrica, dosagem de gastrina sérica e ecoendoscopia são utilizados apenas em situações
+especiais ou em ambiente de investigação clínica. Paralelo ao diagnóstico da cratera ulcerosa,
+impõe-se a pesquisa da presença do HP, que pode
+ser efetuada durante o procedimento
+endoscópico, por pesquisa histológica ou pelo
+teste da urease, ou por meios não invasivos como
+o teste respiratório com uréia marcada com
+carbono 13 ou 14, determinação de antígenos
+fecais e por testes sorológicos com a pesquisa de
+anticorpos anti-HP13(D).
+TRATAMENTO
+Sendo a maioria das úlceras secundárias à
+infecção pelo HP, a abordagem terapêutica nesta eventualidade consiste, fundamentalmente,
+na erradicação do microrganismo. Ao se promover a erradicação do microrganismo, rapidamente se obtém a melhora da sintomatologia
+dolorosa, a cicatrização da cratera ulcerosa, a
+prevenção das recidivas e das complicações14(D).
+A estratégia hoje utilizada consiste na utilização de um anti-secretor, usualmente um
+inibidor de bomba protônica ou citrato de
+ranitidina bismuto (RBC), associado a dois
+antibacterianos por um período de 7 a 10 dias,
+sendo que a tendência atual é tratar inicialmente
+
+Úlcera Péptica
+
+durante apenas sete dias15,16(D)17(A). Estudos
+têm comprovado que, habitualmente, não é
+necessário prolongamento do uso de antisecretores após o final do tratamento para
+erradicação18(A). Constituem exceções a esta
+recomendação o tratamento antibacteriano logo
+após episódio de hemorragia digestiva ou cirurgia para úlcera perfurada, condições de potencial gravidade, no qual se recomenda o uso de
+anti-secretores por quatro a oito semanas depois do tratamento de erradicação visando a
+obtenção de cicatrização, mesmo em situações
+em que o microrganismo possa não ter sido
+erradicado15(D). A Tabela 2 exibe as opções
+terapêuticas mais eficazes entre nós.
+O controle de cura da infecção deve ser realizado no mínimo um mês após o final do tratamento (preferencialmente dois a três meses). O
+teste respiratório com uréia marcada com carbono 13 ou 14 constitui o método não invasivo
+ideal para realizar o controle da erradicação. É
+altamente sensível e específico e de custo
+moderado19(A). Deve-se evitar o exame em pacientes em uso de anti-secretores, especialmente os inibidores de bomba protônica ou antimicrobianos na semana precedente ao exame,
+para se evitar a possibilidade de falso-negativos.
+A sorologia não é um método útil no controle
+de erradicação do HP. Nos pacientes portadores de úlcera gástrica, persiste imprescindível a
+realização de endoscopia digestiva de controle
+da lesão ulcerosa e coleta de material para estudo histológico confirmando a benignidade da
+lesão e a situação do HP.
+A possibilidade de reinfecção após um tratamento bem sucedido é possível, porém pouco
+freqüente, sendo estimada em 2% a 3% ao ano
+em estudos de acompanhamento a longo prazo
+realizados entre nós20(B). Em caso de falha
+
+5
+
+Projeto Diretrizes
+Associação Médica Brasileira e Conselho Federal de Medicina
+
+Tabela 2
+Opções terapêuticas na erradicação do HP
+1) Inibidor de bomba protônica (omeprazol 20 mg ou lansoprazol 30 mg ou pantoprazol 40 mg ou
+rabeprazol 20 mg ou esomeprazol 20 mg) ou RBC + Claritromicina 500 mg + Amoxicilina 1.000
+mg, duas vezes por dia por sete ou dez dias
+Constitui um dos regimes mais empregados de todo o mundo, com índices de erradicação próximos a
+90%15,16(D)17(A). Bem tolerado, com poucos efeitos adversos, apresenta como inconveniente seu custo
+ainda elevado para a população brasileira.
+2) Inibidor de bomba protônica (omeprazol 20 mg ou lansoprazol 30 mg ou pantoprazol 40 mg ou
+rabeprazol 20 mg ou esomeprazol 40 mg) uma vez ao dia durante sete dias + Furazolidona
+200 mg três vezes ao dia + Azitromicina 500 mg uma vez ao dia, durante os três primeiros dias.
+Índices de erradicação próximos a 80% têm sido alcançados21(B). Bem tolerado, embora apresente
+efeitos adversos, especialmente náuseas em aproximadamente 30% dos pacientes. Tem custo
+razoável e implica em menor quantidade de comprimidos ao dia, com a azitromicina sendo ingerida
+à noite com o estômago vazio. Pelo efeito disulfiram-like da furazolidona, deve-se evitar o uso de
+bebidas alcoólicas 24h antes, durante e 48h após o tratamento.
+3) Inibidor de bomba protônica (omeprazol 20 mg ou lansoprazol 30 mg ou pantoprazol 40 mg ou
+rabeprazol 20 mg ou esomeprazol 40 mg) uma vez ao dia durante sete dias + Furazolidona
+200 mg duas vezes ao dia + claritromicina 500 mg duas vezes ao dia, durante sete dias.
+Estudos têm demonstrado índices de erradicação próximos a 90% com este regime22(B).
+
+terapêutica, utiliza-se anti-secretores em dose
+padrão duas vezes ao dia + subsalicilato ou
+subcitrato de bismuto 120 mg quatro vezes ao
+dia + metronidazol 500 mg três vezes ao dia +
+tetraciclina 500 mg quatro vezes ao dia, por
+um período mínimo de sete dias15(D). Falhas
+subseqüentes devem ser abordadas caso a caso,
+preferencialmente pelo especialista16(D).
+ÚLCERA PÉPTICA ASSOCIADA A
+ANTIINFLAMATÓRIOS NÃO-ESTERÓIDES
+(AINES)
+AINEs são hoje considerados como uma
+causa estabelecida de úlcera péptica, podendo
+ocorrer após administração oral ou sistêmica das
+
+6
+
+drogas e com praticamente todos os antiinflamatórios23(B). Acredita-se que AINEs
+promovem lesão gastroduodenal por dois mecanismos independentes, ou seja, diretamente por
+efeito tóxico direto, em nível epitelial, sobre os
+mecanismos de defesa da mucosa gastroduodenal, resultando em aumento da
+permeabilidade celular, inibição do transporte
+iônico e da fosforilação oxidativa, e, sistemicamente, enfraquecendo os mecanismos de defesa através da inibição da cicloxigenase, enzimachave na síntese das prostaglandinas24(D). Desta
+forma, AINEs causam uma redução significativa nos teores de prostaglandinas das mucosas.
+Sabe-se que as prostaglandinas E e A protegem
+a mucosa gástrica através de seus efeitos
+
+Úlcera Péptica
+
+Projeto Diretrizes
+Associação Médica Brasileira e Conselho Federal de Medicina
+
+estimulantes sobre a produção de muco e secreção de bicarbonato, enquanto aumentam
+o fluxo sangüíneo mucoso e reduzem o
+turnover celular. Recentemente, têm sido identificados dois tipos de cicloxigenase (COX):
+COX-1, com funções fisiológicas estabelecidas, ou seja, quando ativada, promove a produção de prostaciclina que, liberada no endotélio
+vascular, tem ação antitrombogênica, enquanto, na mucosa gástrica, induz citoproteção, e
+COX-2, encontrada em macrófagos, fibroblastos e células epiteliais e induzida em locais
+de inflamação25(D). O reconhecimento destes
+dois tipos de cicloxigenase descortina a possibilidade, a ser no futuro estudada, de que
+inibidores específicos COX-2 reduzam a dor
+e a inflamação sem lesar o estômago. A
+prevalência da úlcera gástrica em usuários
+crônicos de AINEs tem variado de 9% a 13%
+e, da úlcera duodenal, entre 0% e 19%. O
+risco relativo calculado de um usuário crônico destas drogas desenvolver úlcera gástrica
+ou duodenal é 46 e 8 vezes, respectivamente,
+maior que a população normal11(D).
+Os sintomas dispépticos nos usuários
+crônicos de AINEs são freqüentes, sendo
+impossível identificar clinicamente aqueles
+portadores de ulceração. A sintomatologia é
+mais comum nas primeiras semanas de tratamento, declinando com o passar do tempo,
+independentemente do tratamento. A úlcera
+induzida por AINEs produz menos sintomas
+que a úlcera causada por HP. De fato, 30% a
+40% dos pacientes com úlceras induzidas por
+AINEs são assintomáticos e, entre aqueles
+que desenvolvem hemorragia digestiva, até
+60% o fazem silenciosamente, em contraste
+com os 25% de hemorragias assintomáticas observadas nos não-usuários de antiinflamatórios11(D).
+
+Úlcera Péptica
+
+Como a maioria dos usuários de AINEs não
+apresenta complicações e se beneficia do tratamento, torna-se necessário identificar, entre o
+imenso número de pacientes que utilizam tais
+drogas, aqueles que são portadores de fatores
+predisponentes a complicações pelo seu uso prolongado. É improvável que algum subgrupo de
+usuários de AINEs esteja isento do risco de complicações advindas de seu emprego. Os fatores
+que cursam com risco claramente aumentado
+de complicações são:
+• História prévia de úlcera péptica ou
+sangramento digestivo26,27(B);
+• Idade superior a 60 anos, especialmente em
+mulheres26(B);
+• Dose, duração e tipo do antiinflamatório:
+quanto maior a dosagem empregada, maior
+o risco de complicações gastrointestinais.
+Existem algumas evidências sugerindo que
+o risco de desenvolvimento de úlcera e outras
+complicações depende também da duração
+do tratamento, sendo o primeiro mês de
+tratamento o período mais vulnerável para
+complicações28(A).
+• Co-administração de corticosteróides e
+anticoagulantes: enquanto o uso combinado de corticosteróides e AINEs está associado a um risco duas a três vezes maior de
+complicações gastrointestinais, o uso de
+antiinflamatórios isolado reduz tal risco pela
+metade11(D).
+TRATAMENTO DA ÚLCERA ASSOCIADA A
+AINES
+
+O principal mecanismo de toxicidade dos
+AINEs envolve a inibição da síntese de
+prostaglandinas com conseqüente surgimento
+de erosões na mucosa gastroduodenal, as quais
+são agravadas pela presença da secreção ácida
+do estômago. Assim, uma abordagem racional
+
+7
+
+Projeto Diretrizes
+Associação Médica Brasileira e Conselho Federal de Medicina
+
+para a úlcera induzida por AINEs deve incluir
+o emprego de anti-secretores e/ou prostaglandinas24(D).
+ÚLCERA PÉPTICA ASSOCIADA A
+GASTRINOMA OU SÍNDROME DE
+ZOLLINGER-ELLISON (SZE)
+
+Descrita por Zollinger e Ellison, em 1955,
+esta síndrome é caracterizada por úlcera péptica
+de evolução tormentosa, hipersecreção acentuada de ácido pelo estômago e tumor pancreático
+de células não pertencentes à linhagem beta das
+ilhotas pancreáticas. Dividem-se em tumores
+esporádicos e tumores geneticamente transmitidos, associados com a neoplasia endócrina
+múltipla tipo1 (MEN 1). São raros, ocorrendo
+em caso para cada mil casos de úlcera péptica
+associada ao HP, com leve predomínio no sexo
+masculino, na faixa etária dos 30 aos 50 anos.
+A manifestação mais freqüente é a úlcera péptica
+duodenal, única ou múltipla, que ocorre em 90%
+a 95% dos pacientes29(D). Em 20% a 25% dos
+casos a ulceração localiza-se mais distalmente
+no duodeno. A doença do refluxo gastroesofágico
+ocorre em até 60% dos casos e 1/3 dos pacientes apresentam diarréia aquosa, que pode preceder, por anos, o surgimento da úlcera29(D) 30(C).
+Constituem sinais de alerta para a possibilidade de gastrinoma a presença de úlcera única
+ou múltipla distal à primeira porção do duodeno,
+úlceras de difícil controle clínico, úlceras HP
+negativas, úlceras recorrentes pós-operatórias,
+úlceras associadas a diarréia ou cálculo renal, e
+úlceras em pacientes com história pessoal ou
+familiar sugestiva de tumor de hipófise ou
+paratiróide. A dosagem da gastrina sérica é o
+método mais sensível e específico para a identificação dos pacientes com gastrinoma. Em pessoas normais e nos pacientes portadores de
+
+8
+
+úlcera duodenal clássica, os níveis de gastrina
+sérica de jejum variam entre 50 e 60 pg/ml,
+com um limite superior de normalidade variando de 100 a 150 pg/ml. No gastrinoma, os níveis de gastrina sérica se encontram acima de
+150 pg/ml, comumente em torno de 1.000 pg/
+ml. Valores acima de 1.000 pg/ml em pacientes
+com achados clínicos sugerindo doença por
+excesso de secreção de ácido são praticamente
+diagnósticos de Zollinger-Ellison, sendo que
+valores acima de 1.500 pg/ml sugerem doença
+já com metástases31(D). Quando a elevação dos
+níveis de gastrina não é acentuada, podemos
+utilizar testes provocativos através da injeção
+endovenosa de secretina ou da infusão de cálcio. Estabelecido o diagnóstico, deve-se tentar
+localizar o tumor. A ressecção cirúrgica é a
+chance de cura da doença. A localização da lesão
+primária é freqüentemente difícil, não sendo
+possível em 10% a 20% dos casos. No pâncreas, estão mais freqüentemente localizados na
+cabeça, mas em 2/3 das vezes são extra-pancreáticos, sendo que a parede duodenal é o seu sítio
+mais comum. Os gastrinomas duodenais são
+malignos em mais da metade dos casos. A
+inibição da secreção ácida pelo estômago é a base
+para o tratamento clínico.
+Os bloqueadores de bomba de prótons são
+os agentes preferidos para cicatrizar as úlceras e
+controlar os sintomas dispépticos. A dose de
+omeprazol recomendada é de 60 mg por dia.
+Tem sido recomendado que a dose ideal seria a
+que mantém a secreção ácida menor que 10
+mEq/h, 1 hora antes de ingerir a dose subseqüente. O omeprazol ou, certamente, qualquer
+inibidor de bomba de prótons é indicado como
+tratamento inicial da SZE nos períodos de
+avaliação e estabilização dos pacientes e naqueles em que o tumor não foi localizado ou não
+foi ressecado. Os pacientes com lesões
+
+Úlcera Péptica
+
+Projeto Diretrizes
+Associação Médica Brasileira e Conselho Federal de Medicina
+
+metastáticas devem ser encaminhados a tratamento quimioterápico. A localização e completa extirpação do gastrinoma ocorre em aproximadamente 40% dos casos. A remoção completa do tumor é usualmente seguida de retorno da gastrina a níveis normais, redução da
+hipersecreção ácida pelo estômago e desaparecimento da úlcera e diarréia, havendo desta forma uma expectativa de sobrevida normal. Nos
+pacientes com SZE, nos quais não foi possível
+a retirada total do tumor, os medicamentos
+inibidores de bomba de prótons deverão ser
+administrados continuamente pelo resto da vida.
+A suspensão abrupta dos mesmos pode levar a
+recidivas graves de doença ulcerosa31,32(D).
+ÚLCERA PÉPTICA IDIOPÁTICA
+Em uma ínfima parcela de pacientes
+ulcerosos não se consegue identificar a presença de HP nem o uso de ácido acetilsalicílico ou
+outros antiinflamatórios. Nestas circunstâncias, torna-se prudente ainda uma re-investigação cuidadosa do emprego de antiinflamatórios.
+Por vezes, o próprio paciente desconhece que,
+entre os medicamentos por ele utilizados,
+incluem-se aqueles de potencial gastrotóxico.
+
+Úlcera Péptica
+
+Importante também excluir com segurança a
+presença de HP como agente causal do quadro
+ulceroso, realizando, sempre que possível, sua
+pesquisa através de mais de um método sensível e específico de diagnóstico.
+Entre as causas raras de ulceração gástrica ou duodenal, estão a síndrome de ZollingerEllison, a doença de Crohn de localização
+gastroduodenal, estados hipercalcêmicos,
+linfomas, mastocitose sistêmica e outras infecções por Helicobacter heilmannii, citomegalovírus ou herpes simples. Quando todas
+estas possibilidades etiológicas são afastadas,
+consideramos a úlcera como idiopática. Um
+estudo escocês envolvendo 435 portadores de
+úlcera péptica, após cuidadosa investigação,
+encontrou apenas seis pacientes em que um
+agente etiológico não foi definido33(C).
+Recentemente, alguns estudos têm descrito
+aumento da prevalência de úlceras idiopáticas,
+especialmente nos EUA, Canadá e Austrália, em que a prevalência da infecção por HP
+vem apresentando queda nas últimas décadas,
+porém, as explicações para este fenômeno
+ainda são controversas34(B)35(D).
+
+9
+
+Projeto Diretrizes
+Associação Médica Brasileira e Conselho Federal de Medicina
+
+REFERÊNCIAS
+1. Marshall BJ, Warren JR. Unidentified
+curved bacilli in the stomach of patients
+with gastritis and peptic ulceration. Lancet
+1984; 1:1311-5.
+2. Mégraud F. Epidemiology of Helicobacter
+pylori infection. Gastroenterol Clin North
+Am 1993; 22:73-88.
+3. Harris A, Misiewicz JJ. ABC of the upper
+gastrointestinal tract: management of
+Helicobacter pylori infection. BMJ 2001;
+323:1047-50.
+4. El-Omar EM, Penman ID, Ardill JE,
+Chittajallu RS, Howie C, McColl KE.
+Helicobacter pylori infection and abnormalities of acid secretion in patients with
+duodenal ulcer disease. Gastroenterology
+1995; 109:681-91.
+5. Malfertheiner P, Leodolter A, Peitz U. Cure
+of Helicobacter pylori-associated ulcer disease
+through eradication. Baillieres Best Pract
+Rec Clin Gastroenterol 2000; 14:119-32.
+6. Van Zanten SJ, Dixon MF, Lee A. The
+gastric transitional zones: neglected links
+between gastroduodenal pathology and
+Helicobacter ecology. Gastroenterology
+1999; 116:1217-29.
+7. Rauws EA, Tytgat GN. Cure of duodenal
+ulcer associated with eradication of
+Helicobacter pylori. Lancet 1990;
+335:1233-5.
+8. Hopkins RJ, Girardi LS, Turney EA.
+Relationship between Helicobacter pylori
+
+10
+
+eradication and reduced duodenal and
+gastric ulcer recurrence: a review. Gastroenterology 1996; 110:1244-52.
+9. Tytgat GN. Peptic ulcer and Helicobacter
+pylori: eradication and relapse. Scand J
+Gastroenterol Suppl 1995; 210:70-2.
+10. Petersen H, Johannessen T, Kleveland PM,
+Fjosne U, Dybdahl JH, Waldum HL. Do
+we need to listen to the patient? The
+predictive value of symptoms. Scand J
+Gastroenterol Suppl 1988; 155:30-6.
+11. Coelho LGV. Úlcera péptica gastroduodenal. In: Dani R, editor. Gastroenterologia essencial. 1 a ed. Rio de
+Janeiro: Guanabara Koogan; 1998.
+p.132-46.
+12. Cotton PB, Shorvon PJ. Analysis of
+endoscopy and radiography in the
+diagnosis, follow-up and treatment of
+peptic ulcer disease. Clin Gastroenterol
+1984; 13:383-403.
+13. Coelho LGV. H. pylori e doenças
+gastroduodenais. In: Mincis M, editor.
+Gastroenterologia e hepatologia. 2ª ed. São
+Paulo: Lemos Editorial e Gráfica; 2002.
+p. 331-58.
+14. Labenz J. Consequences of Helicobacter
+pylori cure in ulcer patients. Baillieres Best
+Pract Res Clin Gastroenterol 2000;
+14:133-45.
+15. Malfertheiner P, Megraud F, O’Morain
+C, Hungin AP, Jones R, Axon A, et al.
+Current concepts in the management of
+Helicobacter pylori infection-the Maastricht
+
+Úlcera Péptica
+
+Projeto Diretrizes
+Associação Médica Brasileira e Conselho Federal de Medicina
+
+2-2000 Consensus Report. Aliment
+Pharmacol Ther 2002; 16:167-80
+16. Coelho LG, Leon-Barua R, Quigley EM.
+Latin-American Consensus Conference on
+Helicobacter pylori infection. LatinAmerican National Gastroenterological
+Societies affiliated with the InterAmerican Association of Gastroenterology
+(AIGE). Am J Gastroenterol 2000;
+95:2688-91.
+17. Lind T, Veldhuyzen van Zanten S, Unge
+P, Spiller R, Bayerdorffer E, O’Morain C,
+et al. Eradication of Helicobacter pylori
+using one-week triple therapies combining
+omeprazole with two antimicrobials: the
+MACH I study. Helicobacter 1996;
+1:138-44.
+18. Tulassay Z, Kryszewski A , Dite P,
+Kleczkowski D, Rudzinski J, Bartuzi Z, et
+al. One week treatment with esomeprazolebased triple therapy eradicates Helicobacter
+pylori and heals patients with duodenal
+ulcer disease. Eur J Gastroenterol Hepatol
+2001; 13:1457-65.
+19. Megraud F, Burette A, Glupczynski Y,
+Fiocca R, Logan R, Quina M, et al.
+Comparison of tests for assessment of
+Helicobacter pylori eradication: results of a
+multi-centre study using centralized
+facility testing. Eur J Gastroenterol
+Hepatol 2000; 12:629-33.
+20. Coelho LG, Passos MC, Cunha FA, et al.
+Helicobacter pylori reinfection rates and
+serological evaluation in a 6.4 years followup study from an emerging country. Gut
+1999; 45 (Suppl 111): A110.
+
+Úlcera Péptica
+
+21. Coelho LG, Vieira WLS, Passos MCF et
+al. Azithromycin, furazolidone, and
+omeprazole: a promising low-dose, shortterm, anti-H. pylori triple therapy. GED Gastroenterol e Endosc Dig 2002;
+21:117-22.
+22. Dani R, Queiroz DM, Dias MG, Franco JM,
+Magalhaes LC, Mendes GS, et al.
+Omeprazole, clarithromycin and furazolidone
+for the eradication of Helicobacter pylori in
+patients with duodenal ulcer. Aliment
+Pharmacol Ther 1999; 13:1647-52.
+23. Singh G, Ramey DR, Morfeld D, Shi H,
+Hatoum HT, Fries JF. Gastrointestinal
+tract complications of nonsteroidal antiinflammatory drug treatment in rheumatoid arthritis a prospective observational
+cohort study. Arch Intern Med 1996;
+156:1530-6.
+24. Wallace JL. How do NSAIDs cause ulcer
+disease? Baillieres Best Pract Res Clin
+Gastroenterol 2000; 14:147-59.
+25. Hawkey CJ. COX-2 inhibitors. Lancet
+1999; 353:307-14.
+26. Fries JF, Miller SR, Spitz PW, Williams
+CA, Hubert HB, Bloch DA. Toward an
+epidemiology of gastropathy associated with
+nonsteroidal antiinflammatory drug use.
+Gastroenterology 1989; 96:647-55.
+27. Holvoet J, Terriere L, Van Hee W, Verbist
+L, Fierens E, Hautekeete ML. Relation of
+upper gastrointestinal bleeding to nonsteroidal antiinflammatory drugs and
+aspirin: a case control study. Gut 1991;
+32:730-4.
+
+11
+
+Projeto Diretrizes
+Associação Médica Brasileira e Conselho Federal de Medicina
+
+28. Gabriel SE, Jaakkimainen L, Bombardier
+C. Risk for serious gastrointestinal
+complications related to use of nonsteroidal
+anti-inflammatory drugs: a meta-analysis.
+Ann Intern Med 1991; 115-787-96.
+29. DelValle J, Yamada T. Zollinger-Ellison
+syndrome. In: Yamada T, editor. Textbook
+of gastroenterology, 2nd ed Philadelphia:
+JB Lippincot; 1995. p.1430-45.
+30. Richter JE, Pandol SJ, Castell DO,
+McCarthy DM. Gastroesophageal reflux
+disease in the Zollinger-Ellison syndrome.
+Ann Intern Med 1981; 95:37-43.
+31. Franco JMM, Castro LP. Gastrinoma
+(Síndrome de Zollinger-Ellison). In:
+Coronho V, Petroianu A, Santana EM,
+Pimenta LG, editors. Tratado de
+endocrinologia e cirurgia endócrina, Rio
+de Janeiro: Guanabara-Koogan; 2001.
+p. 884-8.
+
+12
+
+32. Orloff SL, Debas HT. Advances in the
+management of patients with ZollingerEllison syndrome. Surg Clin North Am
+1995; 75:511-24.
+33. McColl KE, El-Nujumi AM, Chittajallu
+RS, Dahill SW, Dorrian CA, el-Omar
+E, et al. A study of the pathogenesis of
+Helicobacter pylori negative chronic
+duodenal ulceration. Gut 1993;
+34:762-8.
+34.Ciociola AA, McSorley DJ, Turner K,
+Sykes D, Palmer JB. Helicobacter pylori
+infection rates in duodenal ulcer patients
+in the United States may be lower than
+previously estimated. Am J Gastroenterol
+1999; 94:1834-40.
+35.Peura DA. The problem of Helicobacter
+pylori-negative idiopathic ulcer disease.
+Baillieres Best Pract Res Clin
+Gastroenterol 2000; 14:109-17.
+
+Úlcera Péptica
+
+

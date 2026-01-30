@@ -1,0 +1,2651 @@
+J Bras Pneumol. 2018;44(5):405-424
+http://dx.doi.org/10.1590/S1806-37562018000000130
+
+ARTIGO ESPECIAL
+
+Recomendações para o manejo da
+pneumonia adquirida na comunidade 2018
+Ricardo de Amorim Corrêa1,a, Andre Nathan Costa2,b, Fernando Lundgren3.c,
+Lessandra Michelin4,d, Mara Rúbia Figueiredo5,e, Marcelo Holanda6,f,
+Mauro Gomes7,g, Paulo José Zimermann Teixeira8,h, Ricardo Martins9,i,
+Rodney Silva10,j, Rodrigo Abensur Athanazio2,k, Rosemeri Maurici da Silva11,l,
+Mônica Corso Pereira12,m
+1. Faculdade de Medicina, Universidade
+Federal de Minas Gerais – UFMG –
+Belo Horizonte (MG) Brasil.
+2. Faculdade de Medicina, Universidade
+de São Paulo – USP – São Paulo (SP)
+Brasil.
+3. Hospital Otávio de Freitas, Recife (PE)
+Brasil.
+4. Faculdade de Medicina, Universidade de
+Caxias do Sul, Caxias do Sul (RS) Brasil.
+5. Hospital de Messejana Dr Carlos Alberto
+Studart Gomes, Fortaleza (CE) Brasil.
+6. Faculdade de Medicina, Universidade
+Federal do Ceará – UFC –
+Fortaleza (CE) Brasil.
+7. Faculdade de Ciências Médicas, Santa
+Casa de São Paulo, São Paulo (SP)
+Brasil.
+8. Universidade Federal de Ciências da
+Saúde de Porto Alegre,
+Porto Alegre (RJ) Brasil.
+9. Faculdade de Medicina, Universidade de
+Brasília – UnB – Brasília (DF) Brasil.
+10. Faculdade de Medicina, Universidade
+Federal do Paraná – UFPR –
+Curitiba (PR) Brasil.
+11. Faculdade de Medicina, Universidade
+Federal de Santa Catarina – UFSC –
+Florianópolis (SC) Brasil.
+12. Faculdade de Medicina, Universidade
+Estadual de Campinas – Unicamp –
+Campinas (SP) Brasil.
+a.
+http://orcid.org/0000-0003-1779-0443
+http://orcid.org/0000-0002-8025-6940
+b.
+http://orcid.org/0000-0003-2188-4282
+c.
+http://orcid.org/0000-0003-2169-792X
+d.
+http://orcid.org/0000-0001-8711-8957
+e.
+http://orcid.org/0000-0002-6002-0084
+f.
+http://orcid.org/0000-0002-5165-4501
+g.
+http://orcid.org/0000-0002-4906-6970
+h.
+http://orcid.org/0000-0002-4701-8414
+i.
+http://orcid.org/0000-0003-1606-8811
+j.
+http://orcid.org/0000-0002-9399-5275
+k.
+http://orcid.org/0000-0001-9627-2112
+l.
+http://orcid.org/0000-0002-7669-4841
+m.
+Recebido: 21 abril 2018.
+Aprovado: 11 setembro 2018.
+Trabalho realizado na Faculdade de
+Medicina, Universidade Federal de Minas
+Gerais – UFMG – Belo Horizonte (MG)
+Brasil.
+
+RESUMO
+A pneumonia adquirida na comunidade (PAC) constitui a principal causa de morte no
+mundo. Apesar da vasta microbiota respiratória, o Streptococcus pneumoniae permanece
+como a bactéria de maior prevalência dentre os agentes etiológicos. Apesar da redução
+significativa das taxas de mortalidade por infecções do trato respiratório inferior nas
+últimas décadas, a PAC ocupa o terceiro lugar como causa de mortalidade em nosso meio.
+Desde a última publicação das Diretrizes Brasileiras sobre PAC da Sociedade Brasileira
+de Pneumologia e Tisiologia (SBPT; 2009), houve importantes avanços na aplicação dos
+exames de imagem, na investigação etiológica, na estratificação de risco à admissão e
+de escores prognósticos evolutivos, no uso de biomarcadores e nas recomendações de
+antibioticoterapia (e sua duração) e da prevenção por vacinas. Para revisar esses tópicos,
+a Comissão de Infecções Respiratórias da SBPT reuniu 13 membros com reconhecida
+experiência em PAC no Brasil que identificaram aspectos relevantes à prática clínica
+que demandam atualizações frente às novas evidências epidemiológicas e científicas
+publicadas. Foram determinados doze tópicos envolvendo aspectos diagnósticos,
+prognósticos, terapêuticos e preventivos. Os tópicos foram divididos entre os autores,
+que realizaram uma revisão de forma não sistemática da literatura, porém priorizando
+as principais publicações nas áreas específicas, incluindo artigos originais, artigos de
+revisão e revisões sistemáticas. Todos os autores tiveram a oportunidade de revisar e
+opinar sobre todas as questões, criando um documento único final que foi aprovado por
+consenso.
+Descritores: Pneumonia/diagnóstico; Pneumonia/prevenção & controle; Pneumonia/
+terapia; Pneumonia/tratamento farmacológico.
+INTRODUÇÃO
+A pneumonia adquirida na comunidade (PAC) constitui a principal causa de
+morte no mundo, com significativo impacto nas taxas de morbidade.(1) Apesar da
+vasta microbiota respiratória, da ampla disseminação de agentes potencialmente
+patogênicos, do fenômeno da globalização e da ocorrência de epidemias virais, o
+Streptococcus pneumoniae permanece como a bactéria de maior prevalência de
+PAC dentre os agentes etiológicos.(2)
+No Brasil, como em outros países, houve uma redução significativa das taxas
+de mortalidade por infecções do trato respiratório, apesar de inferior nas últimas
+décadas. Dentre as pneumonias, a PAC persiste como a de maior impacto e é a
+terceira causa de mortalidade no nosso meio. Embora o número absoluto de mortes
+no Brasil tenha crescido devido ao aumento da população e ao seu envelhecimento,
+quando a taxa de mortalidade por PAC é padronizada por idade, observa-se uma
+queda de 25,5% no período compreendido entre 1990 e 2015.(3) A melhora da
+situação socioeconômica, o maior acesso a cuidados de saúde, a disponibilidade
+nacional de antibióticos e as políticas de vacinação explicam em parte a redução
+das taxas de mortalidade em nosso meio.(4)
+Desde a última publicação das diretrizes brasileiras para PAC da Sociedade
+Brasileira de Pneumologia e Tisiologia (SBPT),(5) alguns tópicos têm sido revistos,
+tais como avanços na aplicação dos exames de imagem; avanços e impacto da
+investigação etiológica, particularmente da etiologia viral e de germes atípicos em
+
+Endereço para correspondência:
+
+Ricardo de Amorim Corrêa. Rua Abadessa Gertrudes Prado, 77/802, Vila Paris, CEP 30380-790, Belo Horizonte, MG, Brasil.
+Tel.: 55 31 3409-9255. E-mail: racorrea9@gmail.com
+Apoio financeiro: Nenhum.
+© 2018 Sociedade Brasileira de Pneumologia e Tisiologia
+
+ISSN 1806-3713
+
+405
+
+Recomendações para o manejo da pneumonia adquirida na comunidade 2018
+
+subgrupos de pacientes; estratificação de risco à
+admissão; escores prognósticos evolutivos; papel dos
+biomarcadores no manejo terapêutico; recomendações
+da antibioticoterapia e sua duração; e recomendações
+quanto à vacinação anti-influenza e antipneumocócica.
+MÉTODOS
+Os autores definiram em consenso tópicos específicos a
+serem abordados de acordo com publicações relevantes
+na literatura a respeito da PAC com relação a exames de
+imagem, investigação etiológica, estratificação de risco
+à admissão e de escores prognósticos evolutivos, uso
+de biomarcadores, recomendações da antibioticoterapia
+e de sua duração e prevenção por vacinas. Para revisar
+esses tópicos, a Comissão de Infecções Respiratórias da
+SBPT reuniu 13 membros com reconhecida experiência
+em PAC no Brasil que definiram 12 questões envolvendo
+os tópicos previamente definidos. As questões foram
+distribuídas entre os autores, os quais realizaram
+uma revisão de forma não sistemática da literatura,
+porém priorizando as principais publicações nas áreas
+específicas, incluindo artigos originais, artigos de revisão
+e revisões sistemáticas. Todos os participantes tiveram
+a oportunidade de revisar e opinar sobre todas as
+questões, obtendo-se um documento que foi aprovado
+por todos ao final do processo.
+RECOMENDAÇÕES PARA A REALIZAÇÃO
+DE MÉTODOS DE IMAGEM NA PAC
+
+Radiografia de tórax
+A radiografia de tórax, em associação com a
+anamnese e o exame físico, faz parte da tríade
+propedêutica clássica para PAC, sendo recomendada
+sua realização de rotina, quando disponível, nas
+incidências posteroanterior e perfil. Além da contribuição
+ao diagnóstico, a radiografia de tórax permite ainda
+avaliar a extensão das lesões, detectar complicações
+e auxiliar no diagnóstico diferencial.(6)
+Não obstante a existência de inúmeras diretrizes,
+não há consenso nas recomendações a respeito do
+manejo da PAC na atenção primária, especialmente no
+que tange à realização de exames complementares,
+muitas vezes não disponíveis de imediato. Nesta
+instância, quando o clínico está seguro do diagnóstico,
+a realização da radiografia de tórax não é necessária
+para dar início ao tratamento, e os antimicrobianos
+podem ser prescritos adequadamente. Entretanto,
+menos de 40% dos médicos são capazes de diagnosticar
+pneumonias com base somente no exame físico. Dentro
+desse contexto, a radiografia deveria ser obrigatória
+para pacientes com suspeita de PAC.(7) A radiografia
+de tórax está recomendada também quando há dúvida
+quanto ao diagnóstico ou necessidade de diagnóstico
+diferencial com câncer de pulmão, assim como quando,
+durante o seguimento do tratamento, a resposta clínica
+for insatisfatória. A realização da radiografia de tórax
+está recomendada para todos os pacientes admitidos
+ao hospital.(8,9)
+406
+
+J Bras Pneumol. 2018;44(5):405-424
+
+Ultrassonografia do tórax
+A ultrassonografia de tórax (UST) apresenta maior
+sensibilidade e maior acurácia do que a radiografia de
+tórax na identificação de alterações parenquimatosas.
+Os principais achados ultrassonográficos na PAC
+são consolidações, padrão intersticial focal, lesões
+subpleurais e anormalidades na linha pleural. A
+especificidade para consolidações é de 100%, enquanto
+a radiografia de tórax alcança somente 94% de
+sensibilidade nesse tipo de alteração.(10)
+A ultrassonografia à beira do leito realizada por
+clínicos no serviço de emergência médica apresenta
+uma sensibilidade de 95% contra 60% da radiografia
+de tórax e um valor preditivo negativo de 67% contra
+25% da radiografia para PAC. A especificidade é
+semelhante para os dois métodos diagnósticos.(11,12)
+Nas mãos de especialistas em ultrassonografia a
+sensibilidade do método alcança 94% e a especificidade
+96%. Entretanto, o rendimento do método realizado por
+clínicos nos serviços de emergência médica necessita
+ainda de melhor avaliação e evidências mais robustas.
+Deve-se ressaltar a sua utilidade em gestantes e em
+indivíduos restritos ao leito, onde a qualidade da
+radiografia é inferior à desejada. Adicionalmente, a UST
+apresenta alto rendimento na detecção de complicações
+como o derrame pleural, além de permitir a visualização
+de loculações na cavidade. A orientação para punção
+de derrame pleural (loculado ou não) constitui uma
+das indicações do uso da UST.(13-16) Dessa forma, a
+necessidade de treinamento específico no método assim
+como a sua indisponibilidade na atenção primária e
+em muitas unidades de saúde do Brasil restringem seu
+uso, atualmente, a centros de maior complexidade.
+
+TC de tórax
+A TC de tórax é o método mais sensível na identificação
+de acometimento infeccioso do parênquima pulmonar,
+em que pese a seu alto custo e alta exposição à
+radiação.(17)
+Trata-se de exame útil principalmente nos casos
+em que a acurácia da radiografia de tórax e da UST é
+baixa, como em pacientes obesos, imunossuprimidos
+e indivíduos com alterações radiológicas prévias. Além
+disso, a TC de tórax está indicada na suspeita de
+infecções fúngicas e para auxiliar na exclusão de outros
+diagnósticos em casos selecionados. A utilização de
+TC, empregada em pacientes com suspeita de PAC na
+unidade de emergência em um estudo, proporcionou
+16% de diagnósticos ou achados alternativos, como
+tromboembolismo pulmonar e neoplasias, e, em 8%
+deles, houve diagnóstico de tuberculose pulmonar.(18)
+Outros autores demonstraram mais recentemente que
+o emprego da TC aumenta a taxa de diagnósticos em
+pacientes com PAC e radiografia de tórax normal, mas
+também pode não confirmar a doença em pacientes
+com radiografia com opacidades, o que permitiria
+a descontinuação de antibióticos em um proporção
+significativa de casos.(19,20)
+
+Corrêa RA, Costa AN, Lundgren F, Michelin L, Figueiredo MR, Holanda M, Gomes M,
+Teixeira PJZ, Martins R, Silva R, Athanasio RA, Silva RM, Pereira MC
+
+Em função da alta exposição radiológica pela TC,
+alguns autores têm sugerido o uso da UST como teste
+auxiliar intermediário antes do uso da TC no diagnóstico
+em casos difíceis de diagnosticar.(21)
+Ressalta-se ainda a importância da TC de tórax para
+a avaliação de complicações da PAC, como abscesso de
+pulmão e derrame pleural loculado, e a investigação de
+motivos da falta de resposta clínica ao tratamento.(22,23)
+INVESTIGAÇÃO ETIOLÓGICA DA PAC
+AMBULATORIAL E EM INTERNADOS: QUAIS
+AS RECOMENDAÇÕES?
+Embora possa haver resposta inadequada a alguns
+tratamentos empíricos, a realização de testes etiológicos
+não é necessária nos casos de pacientes com PAC não
+grave com tratamento ambulatorial. Assim, permanecem
+as recomendações para a realização de exames que
+busquem a etiologia somente para pacientes com PAC
+grave ou não respondedora à terapia empírica inicial,
+bem como nos internados em UTI.
+Na seleção dos testes a serem realizados, deve-se
+levar em conta a idade do paciente, a presença de
+comorbidades, a gravidade da doença e o tratamento
+anti-infeccioso prévio.(24)
+O desenvolvimento de novos métodos para a
+identificação microbiológica em geral, e da PAC em
+particular, ampliou a chance de escolher adequadamente
+o espectro do antibiótico a ser utilizado no tratamento
+da pneumonia. Destacam-se tanto métodos radiológicos,
+como a UST, assim como microbiológicos, a saber
+Multiplex PCR(25) e matrix-assisted laser desorption
+ionization-time of flight mass spectrometry, uma
+metodologia promissora para a identificação rápida
+de patógenos,(26) dentre outros.
+Em relação aos exames microbiológicos, o exame
+direto e a cultura de amostras de escarro (ou de
+aspirado nasotraqueal para os que não conseguem
+expectorar) devem obedecer os critérios de qualidade
+da amostra, isto é, menos de 10 células epiteliais e
+mais de 25 leucócitos por campo examinado. Além
+disso, devem-se respeitar as normas técnicas de
+coleta, transporte e análise de amostras biológicas
+para esses testes microbiológicos.(27)
+Num estudo observacional em 670 pacientes com
+PAC hospitalizados, obtiveram-se 478 amostras de
+escarro de boa qualidade de um total de 591 amostras.
+A especificidade foi bem superior à sensibilidade (S.
+pneumoniae: 91,5% vs. 62,5%), muito semelhante às
+de outros agentes bacterianos identificados. Destaca-se
+que o tratamento dos casos nos quais o patógeno foi
+identificado foi semelhante ao tratamento iniciado
+empiricamente.(28)
+Os testes de base molecular têm se mostrado mais
+eficientes na detecção dos agentes atípicos. O teste
+molecular film array respiratory panel é um teste
+multiplex, rápido (1 hora), que detecta 20 patógenos
+respiratórios (17 vírus e três bactérias: Mycoplasma
+pneumoniae, Chlamydophila pneumoniae e Bordetella
+
+pertussis). Outro teste (Nxtag Respiratory Pathogen
+Panel) é capaz de identificar 18 vírus, M. pneumoniae e
+C. pneumoniae.(29) As recomendações para o emprego
+de testes moleculares na atualidade incluem: (1) teste
+rápido para influenza com alta acurácia; (2) teste
+molecular rápido para M. tuberculosis (factível em
+algumas horas); (3) teste rápido para vírus respiratórios
+que podem causar PAC ou infecção respiratória baixa;
+e (4) teste rápido para detectar patógenos atípicos
+(M. pneumoniae, C. pneumoniae, Legionella sp. e B.
+pertussis).(30)
+Enfim, pacientes com PAC grave devem ser
+investigados etiologicamente com os exames básicos
+disponíveis: exame direto e cultura de escarro, bem
+como hemocultura, testes para detecção de antígenos
+urinários para S. pneumoniae e Legionella sp., testes
+sorológicos e eventual cultura para germes atípicos.
+Em casos selecionados e em um contexto clínico
+apropriado, culturas especiais e testes de galactomanana
+e 1-3-beta-glucana para fungos, assim como os mais
+recentes testes antigênicos ou de biologia molecular
+para vírus e germes atípicos, podem ser realizados,
+mas com pouca indicação no manejo habitual da PAC.
+Em pacientes em ventilação mecânica, pacientes não
+respondedores à terapêutica empírica inicial ou aqueles
+com suspeita de agentes etiológicos menos comuns,
+assim como em casos que necessitem diagnóstico
+diferencial com doença pulmonar não infecciosa, como,
+por exemplo, tumores, vasculites ou doença intersticial
+pulmonar, pode ser necessária a coleta de amostras de
+forma invasiva via broncoscopia, aspiração endotraqueal,
+lavado broncoalveolar ou toracocentese, em casos com
+derrame pleural do mesmo lado da lesão.(5)
+PAPEL DOS VÍRUS E RECOMENDAÇÕES
+PARA SUA INVESTIGAÇÃO NA PAC
+O advento do uso dos testes moleculares na prática
+clínica tem sinalizado para um papel de maior relevância
+dos vírus como possíveis agentes etiológicos da PAC.
+Estudos que incluem em seu escopo de trabalho a
+PCR como ferramenta de diagnóstico têm detectado
+vírus em aproximadamente um terço dos casos de
+PAC em adultos,(20,21) sendo o vírus influenza o mais
+comumente isolado. Além do influenza, outros agentes
+virais são considerados possíveis agentes etiológicos
+de PAC, como rinovírus, vírus sincicial respiratório,
+vírus parainfluenza, adenovírus e metapneumovírus.(31)
+Musher et al. avaliaram 259 pacientes hospitalizados
+com PAC para a identificação dos agentes etiológicos.
+Quarenta e quatro vírus foram identificados em 42
+pacientes, sendo rinovírus, em 26; coronavírus, em
+7; parainfluenza, em 4; virus sincicial respiratório,
+em 3; metapneumovírus, em 1; e influenza, em 1. Os
+vírus eram os únicos patógenos em 30 dos pacientes.
+Os autores encontraram forte evidência da ação dos
+vírus como agentes causais de pneumonia em 28 dos
+42 pacientes.(32)
+Entretanto, há ainda incertezas sobre o real papel
+dos vírus na PAC pela dificuldade de se determinar se
+J Bras Pneumol. 2018;44(5):405-424
+
+407
+
+Recomendações para o manejo da pneumonia adquirida na comunidade 2018
+
+esses agem como copatógenos ou colonizadores. Um
+exemplo desta afirmação está no estudo de Jartti et
+al, que evidenciou a presença de vírus em cerca de
+30% em swabs de nasofaringe de adultos saudáveis.
+Entretanto, o isolamento de influenza, virus sincicial
+respiratório e metapneumovirus é rara em adultos
+assintomáticos.(33)
+Outra possível ação dos vírus na PAC seria a
+promoção de prejuízos nos mecanismos de defesa
+das vias aéreas respiratórias superiores, facilitando o
+estabelecimento de um outro microrganismo nas vias
+aéreas inferiores; este parece ser o papel dos rinovírus
+e do coronavírus. (34,35) A coparticipação dos vírus e
+bactérias parece se associar com um quadro clínico
+de PAC mais grave. Johansson et al. demonstraram
+que essa coinfecção se estabelecia em 20% dos casos,
+sendo responsável por pneumonias mais graves e com
+necessidade de internações mais prolongadas do que
+as PAC causadas por um agente bacteriano isolado.(34)
+As evidências desses estudos reforçam a indicação
+da solicitação de testes complementares, em especial
+os testes moleculares, como a PCR, para o diagnóstico
+de vírus notadamente nos casos de PAC grave.(36)
+SITUAÇÃO ATUAL DOS ESCORES DE
+AVALIAÇÃO DA GRAVIDADE DA PAC
+À ADMISSÃO E DOS ESCORES PARA A
+IDENTIFICAÇÃO PRECOCE DO RISCO
+DE NECESSIDADE DO USO DE SUPORTE
+VENTILATÓRIO E/OU VASOPRESSOR PARA
+EVITAR O DESENVOLVIMENTO DE SEPSE
+GRAVE OU DE FALÊNCIA TERAPÊUTICA.
+QUAIS AS RECOMENDAÇÕES?
+Os pacientes com diagnóstico de PAC devem ser
+sempre avaliados quanto à gravidade da doença, cuidado
+que tem impacto direto na redução da mortalidade.(37-40)
+Os escores de prognóstico disponíveis dimensionam a
+gravidade e ajudam a predizer o prognóstico da PAC,
+guiando a decisão quanto ao local de tratamento —
+ambulatorial, hospitalar ou UTI — quanto à necessidade
+de investigação etiológica, quanto à escolha do
+antibiótico e sua via de administração.(5,37)
+Os instrumentos validados incluem Pneumonia
+Severity Index (PSI); mental Confusion, Urea,
+Respiratory rate, Blood pressure, and age ≥ 65 years
+(CURB-65); CRB-65 (sem determinação de ureia);
+as diretrizes da American Thoracic Society/Infectious
+Diseases Society of America (ATS/IDSA) de 2007;
+Systolic blood pressure, Multilobar involvement,
+Albumin, Respiratory rate, Tachycardia, Confusion,
+Oxygenation, and pH (SMART-COP); e Severe
+Community-Acquired Pneumonia (SCAP) — os três
+últimos relacionados a pneumonia grave e internação
+em UTI.(41-46)
+É importante frisar que a gravidade da doença definida
+pelos escores é o fator preponderante para a decisão
+sobre internação hospitalar; porém, outros fatores
+devem ser levados em consideração, como a viabilidade
+do uso de medicação por via oral, comorbidades
+associadas, fatores psicossociais e características
+408
+
+J Bras Pneumol. 2018;44(5):405-424
+
+socioeconômicas que indiquem vulnerabilidade do
+indivíduo.(5,22,44) Idealmente, a SpO2 deve ser sempre
+avaliada: valores de SpO2 inferiores a 92% devem
+indicar internação.(22,47)
+
+PSI
+O PSI é composto por 20 itens que incluem
+características demográficas, comorbidades, alterações
+laboratoriais, alterações radiológicas e achados do
+exame físico.(41) Ele classifica os pacientes em cinco
+categorias, estimando a mortalidade em 30 dias e
+sugerindo o local de tratamento (Quadros 1 e 2). O PSI,
+entretanto, pode subestimar a gravidade da doença
+em pacientes jovens e sem doenças associadas por
+ponderar muito a idade e a presença de comorbidades
+na sua pontuação.(22,39)
+Outro ponto negativo é o uso de muitas variáveis,
+tornando o cálculo complexo; entretanto, esse trabalho
+pode ser abreviado por meio do uso de calculadoras
+disponíveis on-line, citando-se, como exemplos, PSI/
+Pneumonia Patient Outcomes Research Team (PORT)
+Score: PSI for CAP e PSI Calculator.1
+
+CURB-65 e CRB-65
+O CURB-65 baseia-se em variáveis das quais deriva
+seu nome (em inglês): Confusão mental (escore ≤ 8,
+segundo o abbreviated mental test score)(48); Ureia
+> 50 mg/dl; frequência Respiratória > 30 ciclos/min;
+(Blood pressure): pressão arterial sistólica < 90 mmHg
+ou pressão arterial diastólica < 60 mmHg; e Idade ≥
+65 anos (Figura 1).(42) A forma simplificada (CRB-65),
+sem a dosagem de ureia, é útil em ambientes nos quais
+exames laboratoriais não estão disponíveis, como na
+atenção primária (Figura 2).(43)
+A maior limitação desses escores é a falta de inclusão
+de comorbidades que podem acrescentar maior risco
+de complicações na PAC, como alcoolismo, insuficiência
+cardíaca ou hepática e neoplasias, fazendo com que seu
+valor preditivo negativo de mortalidade seja um pouco
+inferior ao do PSI.(5,40) Entretanto, eles se qualificam
+pela simplicidade, aplicabilidade imediata e facilidade
+de uso, em ambientes hospitalares ou não.
+
+Diretrizes da ATS/IDSA 2007
+Os critérios de gravidade adotados pelo documento
+conjunto da ATS/IDSA(44) e sua versão simplificada(49)
+estão classificados como maiores e menores (Quadro 3).
+Na presença de um dos critérios maiores (choque
+séptico ou indicação de ventilação mecânica), há a
+indicação de admissão à UTI. Já a presença de três
+ou mais critérios menores também indica cuidados
+intensivos. Esses critérios, entretanto, não se prestam
+para a avaliação de pacientes ambulatoriais, motivo
+pelo qual o próprio documento recomenda o uso do PSI
+ou do CURB-65 para guiar a decisão nesses pacientes.
+
+1
+(https://www.mdcalc.com/psi-port-score-pneumoniaseverity-index-cap
+https://www.thecalculator.co/health/PneumoniaSeverity-Index-(PSI)-Calculator-977.html).
+
+Corrêa RA, Costa AN, Lundgren F, Michelin L, Figueiredo MR, Holanda M, Gomes M,
+Teixeira PJZ, Martins R, Silva R, Athanasio RA, Silva RM, Pereira MC
+
+Quadro 1. Escore de pontos utilizado no Pneumonia Severity Index (índice de gravidade da pneumonia).
+
+Fatores demográficos
+
+Escore
+
+Idade, anos
+Homens
+Mulheres
+Procedência de asilos
+
+n
+n − 10
++10
+
+Comorbidades
+Neoplasia
+Doença hepática
+ICC
+Doença cerebrovascular
+
++30
++20
++10
++10
+
+Doença renal
+
++10
+
+Achados laboratoriais e
+radiológicos
+pH < 7,35
+Ureia > 65 mg/l
+Sódio < 130 mEq/l
+Glicose > 250 mg/l
+Hematócrito < 30%
+PO2 < 60 mmHg
+Derrame pleural
+Exame físico
+Alteração do estado mental
+FR > 30 ciclos/min
+PAS < 90 mmHg
+Temperatura < 35° ou >
+40°C
+FC ≥ 125 bpm
+
+Escore
++30
++20
++20
++10
++10
++10
++10
++20
++20
++20
++15
++10
+
+Adaptado de Corrêa et al.(5); ICC: insuficiência cardíaca congestiva; e PAS: pressão arterial sistólica.
+Quadro 2. Estratificação de risco segundo o Pneumonia Severity Index (índice de gravidade da pneumonia).
+
+Classe
+I
+II
+III
+IV
+V
+
+Pontos
+≤ 70
+71-90
+91-130
+> 130
+
+Mortalidade, %
+0,1
+0,6
+2,8
+8,2
+29,2
+
+Local sugerido de tratamento
+Ambulatório
+Ambulatório
+Ambulatório ou internação breve
+Internação
+Internação
+
+Adaptado de Corrêa et al.(5)
+
+CURB-65
+
+0-1
+
+2
+
+≥3
+
+Mortalidade
+baixa
+1,5%
+
+Mortalidade
+intermediária
+9,2%
+
+Mortalidade
+alta
+22%
+
+Candidato ao
+tratamento
+ambulatorial
+
+Considerar
+tratamento
+hospitalar
+
+Tratamento hospitalar
+como PAC grave
+4-5: avaliar UTI
+
+Figura 1. Escore CURB-65 e sugestões do local de tratamento de pacientes com pneumonia adquirida na comunidade.
+Adaptado de Corrêa et al.(5) CURB-65: Confusão mental; Ureia > 50 mg/dl; frequência Respiratória > 30 ciclos/min;
+Blood pressure (pressão arterial sistólica) < 90 mmHg ou diastólica < 60 mmHg; e idade ≥ 65 anos; PAC: pneumonia
+adquirida na comunidade.
+
+SCAP e SMART COP
+Outras ferramentas para a predição da ocorrência de
+PAC grave foram desenvolvidas para avaliar desfechos
+diversos dos riscos genéricos de morte ou de admissão
+à UTI. Esses desfechos incluem, além da necessidade
+de admissão à UTI, o desenvolvimento de sepse grave,
+necessidade de ventilação mecânica e risco de falência
+
+terapêutica, no caso do SCAP, e desfechos associados
+de forma mais específica à necessidade do uso de
+suporte ventilatório mecânico invasivo ou não invasivo
+ou do emprego de drogas vasopressoras para suporte
+circulatório, no caso do SMART-COP.(45,46)
+Esses desfechos têm sido considerados marcadores
+mais objetivos da gravidade da PAC, tendo em vista a
+J Bras Pneumol. 2018;44(5):405-424
+
+409
+
+Recomendações para o manejo da pneumonia adquirida na comunidade 2018
+
+CRB-65
+
+0
+
+1-2
+
+3-4
+
+Mortalidade
+baixa
+1,2%
+
+Mortalidade
+intermediária
+8,15%
+
+Mortalidade
+alta
+31%
+
+Candidato a
+tratamento
+ambulatorial
+
+Avaliar
+tratamento
+hospitalar
+
+Hospitalização
+urgente
+
+Figura 2. Escore CRB-65 e sugestões do local de tratamento de pacientes com PAC. Adaptado de Corrêa et al.(5) CRB65: CRB-65: C: Confusão mental; frequência Respiratória > 30 ciclos/min; Blood pressure (pressão arterial sistólica)
+< 90 mmHg ou diastólica < 60 mmHg; e idade ≥ 65 anos.
+Quadro 3. Estratificação de risco segundo consenso da
+American Thoracic Society/Infectious Diseases Society of
+America simplificado.
+
+Critérios maiores
+Choque séptico
+Necessidade de ventilação
+mecânica
+Critérios menores
+FR > 30 ciclos/min
+Confusão mental
+PaO2/FiO2 < 250
+Ureia ≥ 50 mg/dl
+Infiltrados multilobares
+PAS < 90 mmHg
+PAS: pressão arterial sistólica.
+
+heterogeneidade de indicações e protocolos de admissão
+à UTI entre instituições e sistemas de saúde diversos.
+
+SCAP
+Os critérios maiores são pH < 7,30 (13 pontos) e
+pressão arterial sistólica < 90 mmHg (11 pontos). Os
+critérios menores são FR > 30 ciclos/min (9 pontos);
+PaO2/FiO2 < 250 (6 pontos); ureia > 30 mg/dl (5
+pontos); alteração do nível de consciência (5 pontos);
+idade ≥ 80 anos (5 pontos); e presença de infiltrado
+radiológico multilobar ou bilateral (5 pontos).(46)
+Uma pontuação ≥ 10 pontos prediz um maior risco
+de uso de ventilação mecânica e necessidade de uso
+de droga vasoativa.
+
+SMART-COP
+Pressão arterial sistólica < 90 mmHg (2 pontos);
+envolvimento multilobar (1 ponto); albumina < 3,5
+g/dl (1 ponto); FR ≥ 25 ciclos/min (1 ponto); FC
+> 125 bpm (1 ponto); confusão mental (1 ponto);
+SpO2 < 93% ou PaO2 < 70 mmHg (2 pontos); e pH
+< 7,30 (2 pontos).(45) Uma pontuação superior a 3
+identificou 92% dos pacientes que necessitaram de
+uso de ventilação mecânica invasiva ou de drogas
+vasoativas na evolução da PAC.
+410
+
+J Bras Pneumol. 2018;44(5):405-424
+
+Dessa forma, recomenda-se que o paciente com PAC
+seja avaliado objetivamente na sala de emergência
+quanto a gravidade inicial e identificação precoce
+do risco de evolução para desfechos graves, como
+necessidade de admissão à UTI, desenvolvimento
+de sepse grave, necessidade de suporte ventilatório
+invasivo ou não invasivo, de suporte inotrópico ou
+do risco de falência terapêutica (SCAP, SMART-COP
+ou ATS/ISDA simplificado, embora necessitem
+ainda maior validação externa). Na ausência de PAC
+grave, ou seja, sem indicações socioeconômicas de
+internação, doenças associadas descompensadas,
+hipoxemia, impossibilidade de ingestão oral de
+medicamentos e presença de pelo menos 2 pontos
+no escore CURB-65 (ou de pelo menos 1 no escore
+CRB-65 ou de mais que 70 pontos no PSI), o médico
+assistente deve considerar o tratamento ambulatorial
+para pacientes com PAC.
+RECOMENDAÇÕES PARA O USO DE
+BIOMARCADORES NO MANEJO DA PAC
+Define-se biomarcador como qualquer molécula
+mensurável que sirva para auxiliar no diagnóstico ou na
+estimativa de prognóstico dos pacientes portadores de
+alguma condição clínica. Como a PAC é uma condição
+com intensa atividade inflamatória, vários estudos
+avaliaram diversos biomarcadores nos últimos anos
+(proteina C reativa, procalcitonina, proadrenomedulina,
+lactato, peptídeo atrial natriurético, D-dímeros, cortisol,
+dentre outros), sendo os mais estudados a proteína C
+reativa e a procalcitonina. A procalcitonina é produzida
+em grande quantidade pelas células parenquimatosas
+em resposta a toxinas bacterianas e citocinas próinflamatórias, mas é pouco produzida na presença
+de infecções virais. Os níveis de procalcitonina se
+elevam dentro de 2 h após o estímulo bacteriano,
+mais rapidamente do que a elevação da proteina C
+
+Corrêa RA, Costa AN, Lundgren F, Michelin L, Figueiredo MR, Holanda M, Gomes M,
+Teixeira PJZ, Martins R, Silva R, Athanasio RA, Silva RM, Pereira MC
+
+reativa, sendo ainda mais específica para infecções
+bacterianas, uma vez que a proteina C reativa se eleva
+em qualquer processo inflamatório.(50,51)
+A proteina C reativa é secretada pelas células
+hepáticas em resposta à elevação das interleucinas
+6,1β e TNF-α. Outras fontes da proteina C reativa
+reconhecidas são os linfócitos, monócitos, neurônios
+e placas ateroscleróticas. O pico da proteina C reativa
+ocorre ao redor de 48 h após o estímulo agressor, e a
+meia vida plasmática é ao redor de 19 h tanto na saúde
+como na doença. Müller et al.(52) demonstraram uma
+melhora significativa na acurácia diagnóstica quando
+acrescentaram a dosagem de procalcitonina e proteina
+C reativa aos sinais e sintomas clínicos nos pacientes
+com suspeita de PAC atendidos na assistência primária
+e na emergência. Esses biomarcadores apresentaram
+melhor desempenho do que a elevação do número
+de leucócitos e temperatura, auxiliando também a
+diferenciar pacientes com e sem bacteremia. A área
+sob a curva dos sinais clínicos e sintomas isolados foi
+0,79 (IC95%: 0,75-0,83) e, adicionando procalcitonina
+e proteina C reativa ultrassensível, ela foi 0,92 (IC95%:
+0,89-0,94; p < 0,001). Um estudo recente avaliou
+o valor de quatro biomarcadores e três escalas de
+gravidade para predizer a mortalidade em 28 dias de
+pacientes com PAC atendidos na emergência.(53) Os
+resultados mostraram que a procalcitonina foi o melhor
+biomarcador isolado para predizer a mortalidade.
+Os modelos que combinaram a procalcitonina e/ou
+proteina C reativa com o PSI demonstraram melhor
+resultado do que o PSI isolado.(53) Recentemente, um
+estudo demonstrou que se a proteína C reativa não
+cai 50% do seu nível no terceiro dia de tratamento
+e permanece acima de 75 mg/l, há maior risco de
+morte em 30 dias.(54) Um estudo com 191 pacientes
+com PAC internados em UTI mostrou que aqueles 66
+pacientes com rápido declínio da proteína C reativa
+tiveram mortalidade de 4,8%; 81 com declínio lento
+tiveram 17,3% de mortalidade; e 44 sem redução na
+
+proteína C reativa tiveram mortalidade de 36,4%.(55)
+Dessa forma, baseado nesses estudos, pode-se utilizar
+a procalcitonina como auxílio ao diagnóstico da PAC,
+assim como a procalcitonina e/ou proteina C reativa
+podem ser utilizadas na avaliação da resposta ao
+tratamento. É importante salientar que o uso dos
+biomarcadores deve ser complementar à avaliação
+clínica e não ser tomado como um critério isolado
+para estabelecer ou modificar a conduta terapêutica
+(Quadro 4 e Figura 3).
+Uma meta-análise recém atualizada com 50 ensaios
+clínicos, incluindo dados de 12 países, demonstrou que
+o uso da procalcitonina como guia para o início e a
+duração do tratamento antibiótico resultou em menor
+risco de mortalidade, menor consumo de antibióticos
+e menor risco de efeitos colaterais relacionados aos
+antibióticos.(56) Esses resultados foram semelhantes
+para qualquer tipo de infecção do trato respiratório
+inferior. É importante salientar que, quando o antibiótico
+foi suspenso baseado na queda da dosagem da
+procalcitonina, a falha de tratamento foi semelhante
+à do grupo que não utilizou a procalcitonina para guiar
+a suspensão do antibiotico.(56,57)
+ANTIBIOTICOTERAPIA NA PAC:
+RECOMENDAÇÕES PARA USO DE
+MONOTERAPIA E TERAPIA COMBINADA
+
+Tratamento de pacientes ambulatoriais
+O tratamento antibiótico inicial é definido de forma
+empírica devido à impossibilidade de se obterem
+resultados microbiológicos logo após o diagnóstico da
+PAC, o que permitiria escolher antibióticos dirigidos
+a agentes específicos. A escolha do antibiótico deve
+levar em consideração: 1) patógeno mais provável
+no local de aquisição da doença; 2) fatores de risco
+individuais; 3) presença de doenças associadas; e
+
+Quadro 4. Vantagens e desvantagens do uso de biomarcadores em doenças infecciosas.
+
+Vantagens
+Fornece informações que são específicas para infecções que necessitam antibióticos
+Níveis elevados nas infecções bacterianas e baixo nas infecções virais
+Níveis se elevam rapidamente nas infecções bacterianas
+Resposta não depende do organismo
+Níveis podem estar alterados no início da doença, antes das anormalidades clínicas e radiológicas
+Podem auxiliar na definição do prognóstico
+Aumentam o rendimento dos escores de gravidade
+Auxiliam a monitoração da resposta terapêutica
+Podem ser mais específicos do que as manifestações clínicas
+Podem auxiliar para reduzir o uso de antibióticos sem consequências adversas.
+Desvantagens
+Resultados podem ser conflitantes com a avaliação clínica cuidadosa
+Uso prévio de antibióticos pode reduzir níveis rapidamente e dar achados falso-negativos
+Pode não diferenciar patógenos atípicos de pneumonia viral
+Nem sempre reconhece infecção bacteriana complicando influenza
+Não distingue pneumonia aspirativa química de aspiração bacteriana secundária
+Adaptado de Müller et al.(52)
+J Bras Pneumol. 2018;44(5):405-424
+
+411
+
+Recomendações para o manejo da pneumonia adquirida na comunidade 2018
+
+10
+
+PCT (ng/ml)
+Valores de referência
+
+5,0
+1,0
+
+Mortalidade > 25%
+
+0,75
+Mortalidade > 10%
+
+0,5
+
+Streptococcus pneumoniae
+
+0,25
+
+PAC mista
+0,05
+Bactérias típicas
+
+Bactérias
+atípicas
+Viral
+
+Legionella pneumophilla
+
+Indivíduos sãos e
+PAC sem repercussão PAC com critérios de
+outros diagnósticos
+sistêmica
+sepse Bacteremia
+cardiopulmonares
+
+Bacteremia
+
+Choque Séptico
+
+Figura 3. Valores séricos de procalcitonina (PCT) em relação à pneumonia adquirida na comunidade (PAC). Adaptado
+de Julián-Jiménez et al.(57)
+
+4) fatores epidemiológicos, como viagens recentes,
+alergias e relação custo-eficácia.
+A cobertura antibiótica para patógenos atípicos nos
+casos de PAC de menor gravidade ainda é controversa,
+e vários estudos não mostraram vantagens com
+essa conduta. Um estudo cruzado comparando
+o uso de betalactâmicos vs. betalactâmicos mais
+macrolídeos vs. novas fluoroquinolonas ativas contra
+germes respiratórios (levofloxacino, moxifloxacino ou
+gemifloxacino) demonstrou a falta de inferioridade
+na mortalidade em 90 dias com os betalactâmicos
+isoladamente em comparação aos outros regimes
+antibióticos em PAC não grave.(58)
+As recomendações norte-americanas, europeias,
+britânicas e latino-americanas diferem quanto ao
+tratamento dos casos ambulatoriais. As orientações
+britânicas, europeias e da Associação Latinoamericana
+do Tórax colocam menos importância nos patógenos
+atípicos para os casos menos graves e não recomendam
+a sua cobertura inicialmente. Recomendações britânicas
+e europeias promovem a amoxicilina como tratamento
+de primeira escolha, reservando os macrolídeos como
+droga alternativa.(59-62)
+As orientações norte-americanas de 2007 defendem
+o tratamento de patógenos atípicos e pneumococos
+e sugerem macrolídeos ou doxiciclina quando não
+há suspeita de resistência aos antibióticos.(44) Um
+estudo retrospectivo de coorte realizado entre 2011 e
+2015 com pacientes que receberam monoterapia em
+PAC ambulatorial mostrou que 22,1% dos pacientes
+necessitaram tratamento adicional.(63) Isso ocorreu
+em pacientes mais velhos, mulheres e pacientes com
+comorbidades. Betalactâmicos foram mais associados à
+falência terapêutica (25,7%), seguidos por macrolídeos
+412
+
+J Bras Pneumol. 2018;44(5):405-424
+
+(22,9%), tetraciclinas (22,5%) e novas fluoroquinolonas
+(20,8%).(63) Em nosso meio, os dados mais recentes
+apontam que a resistência à penicilina do pneumococo
+não deve ser uma preocupação para os casos menos
+graves de PAC.(64)
+A proposta do grupo executivo da presente
+recomendação é o uso de monoterapia com
+β-lactâmico ou macrolídeos para os pacientes
+ambulatoriais, sem comorbidades, nenhum uso
+recente de antibióticos, sem fatores de risco para
+resistência e sem contraindicação ou história de
+alergia a essas drogas (Quadro 5).
+Para esses casos sugere-se evitar o uso das
+fluoroquinolonas devido ao recente alerta da agência
+norte-americana Food and Drug Administration sobre
+o potencial risco de efeitos colaterais graves.(65) Essas
+drogas devem ser reservadas para pacientes com
+fatores de risco, doença mais grave ou quando não
+houver outra opção de tratamento, situações essas
+em que os benefícios superariam os potenciais riscos.
+Quanto aos macrolídeos, a azitromicina é mais efetiva
+in vitro contra a maioria das cepas de Haemophilus
+influenzae do que a claritromicina e, por isso, deveria
+ser preferida nos pacientes com DPOC.(44,66)
+Os riscos de infecção por agentes patogênicos
+resistentes e de falência terapêutica são maiores
+quando há história de uso de um antibiótico nos três
+meses anteriores, quando os pacientes vêm de regiões
+onde a taxa local de resistência aos macrolídeos é
+superior a 25% — o que ocorre, por exemplo, nos EUA
+e em alguns outros países — e presença de doenças
+associadas (DPOC, doença hepática ou renal, câncer,
+diabetes, insuficiência cardíaca congestiva, alcoolismo
+ou imunossupressão). Para esses casos específicos,
+
+Corrêa RA, Costa AN, Lundgren F, Michelin L, Figueiredo MR, Holanda M, Gomes M,
+Teixeira PJZ, Martins R, Silva R, Athanasio RA, Silva RM, Pereira MC
+
+Quadro 5. Tratamento antibiótico empírico para pneumonia adquirida na comunidade.
+
+Tratamento de pacientes ambulatoriais
+Duração, dias
+Sem comorbidades, sem uso recente de antibióticos, sem fator de risco para resistência, sem
+contraindicação ou história de alergia a essas drogas
+Amoxicilina ou amoxicilina + ácido clavulânico ou
+7
+macrolídeos: azitromicina ou
+3-5
+claritromicina
+7
+Com fatores de risco, doença mais grave, uso recente de antibióticos
+β-lactâmico + macrolídeo
+5-7
+Em caso de alergia a β-lactâmicos/macrolídeos
+Moxifloxacino ou levofloxacino ou gemifloxacino
+5-7
+Tratamento de pacientes internados em enfermaria
+Cefalosporinas de terceira geração (ceftriaxona ou cefotaxima) ou ampicilina/sulbactam + um
+7-10
+macrolídeo (azitromicina ou claritromicina) ou
+Cefalosporinas de terceira geração (ceftriaxona ou cefotaxima) ou amoxicilina + ácido clavulânico
+7-10
+ou
+Levofloxacino ou moxifloxacino ou gemifloxacino em monoterapia
+5-7
+Tratamento de pacientes internados em UTI
+Cefalosporinas de terceira geração (ceftriaxona ou cefotaxima) ou ampicilina/sulbactan + um
+macrolídeo (azitromicina ou claritromicina) ou
+7-14
+Cefalosporinas de terceira geração (ceftriaxona ou cefotaxima) + quinolona respiratória
+Terapia alvo-específica
+Pneumococo resistente à penicilina
+Não grave: β-lactâmico em alta dose (amoxicilina 3 g/dia ou amoxicilina + ácido clavulânico 4 g/dia;
+alternativas: ceftriaxona, cefotaxima, cefepima ou ceftarolina) + macrolídeo ou fluoroquinolona
+5-7
+respiratória
+Grave: ceftriaxona, cefotaxima, cefepima ou ceftarolina
+7-10
+Staphylococcus aureus resistente a meticilina: adquirida na comunidade
+Clindamicina ou linezolida ou vancomicina
+7-21
+S. aureus resistente a meticilina
+Linezolida ou vancomicina
+7-21
+Enterobactérias produtoras de betalactamase de espectro estendido
+Ertapenem
+7-14
+Pseudomonas spp.
+Fluoroquinolonas antipseudomonas, piperacilina/tazobactan, meropenem, polimixina B
+10-14
+(monoterapia ou terapia combinada)
+Pacientes com suspeita de pneumonia aspirativa
+Pneumonia aspirativa: quinolonas ou cefalosporina de 3ª geração
+7-10
+Aspiração de conteúdo gástrico, pneumonia necrosante, abscesso pulmonar ou doença periodontal
+grave:
+β-lactâmico + inibidor de betalactamase, piperacilina-tazobactam, clindamicina ou moxifloxacina
+7-21
+recomenda-se para o tratamento ambulatorial da PAC
+associar macrolídeos a um β-lactâmico ou realizar
+monoterapia com uma fluoroquinolona respiratória
+por pelo menos 5 dias.
+
+Tratamento de pacientes internados em
+enfermarias
+A monoterapia com o uso de uma fluoroquinolona
+respiratória isolada (levofloxacino, moxifloxacino ou
+gemifloxacino) ou a associação de um β-lactâmico a
+um macrolídeo têm sido recomendadas por diretrizes
+para o tratamento de pacientes com PAC internados
+em enfermarias devido a boa cobertura e bons
+resultados nas infecções causadas por S. pneumoniae,
+M. pneumoniae, C. pneumoniae, H. influenzae ou
+Legionella sp.(29,51,54) As fluoroquinolonas respiratórias
+apresentam ampla cobertura microbiológica,
+
+comodidade posológica e facilidade na mudança de
+terapia parenteral para oral. Entretanto, seu uso
+excessivo pode induzir o aparecimento subsequente
+de organismos multirresistentes entre os pacientes
+tratados, fato também observado com β-lactâmicos.
+(67)
+Vale ressaltar que o ciprofloxacino, embora seja
+uma fluoroquinolona de segunda geração, não está
+recomendado para o tratamento da PAC por germes
+comunitários por carecer de ação contra o pneumococo
+e outros organismos Gram positivos. Nesses casos, a
+monoterapia com macrolideos não está indicada em
+nosso meio devido à alta prevalência de resistência do
+S. pneumoniae a esta classe de antibióticos. Segundo
+dados de um levantamento de 2014, na faixa etária de
+5 a 49 anos, foi encontrada resistência pneumocócica à
+eritromicina em 16,9% dos casos e cepas sensíveis em
+83,1%, de um total de 425 amostras. Entre pacientes
+J Bras Pneumol. 2018;44(5):405-424
+
+413
+
+Recomendações para o manejo da pneumonia adquirida na comunidade 2018
+
+com mais de 50 anos, a resistência encontrada foi de
+13,6% de um total de 418 amostras. No total de 986
+amostras, abrangendo todas as faixas etárias (de
+menos de 12 meses a mais de 60 anos), a resistência
+à eritromicina encontrada em relação a S. pneumoniae
+foi de 17,2%.(64)
+Debate-se na literatura atual sobre a real necessidade
+de se cobrir especificamente os germes atípicos.
+Estudos que investigaram essa indicação demonstram
+que, no caso de Legionella sp., sua incidência em PAC
+não grave foi baixa, de maneira que a monoterapia
+com um β-lactâmico não foi inferior à combinação
+de β-lactâmico com macrolídeo ou monoterapia com
+fluoroquinolona.(68,69) O resultado da investigação ocorreu
+apenas no ajuste de dose quando Legionella sp. foi
+encontrada.(68,69) Estudos comparativos de terapias
+com um β-lactâmico associado a um macrolídeo com
+fluoroquinolona como monoterapia não mostraram
+diferenças na mortalidade em 90 dias, tempo de
+hospitalização e prescrição do antibiótico por via
+oral.(67,69,70)
+A recomendação atual é o emprego de β-lactâmico
+associado a um macrolídeo ou fluoroquinolona
+respiratória isolada. Um β-lactâmico isolado pode ser
+usado se houver exclusão confirmada de Legionella
+sp. (Quadro 5).
+
+Tratamento de pacientes internados em UTI
+Na PAC grave, estudos avaliando a terapia combinada
+têm demonstrado resultados favoráveis em relação
+a diversos desfechos clínicos. Um grande estudo
+observacional com pacientes com PAC grave (N =
+956) comparou monoterapia e terapia combinada (dois
+antibióticos) na mortalidade precoce (60 dias). Na
+análise multivariada, a mortalidade de 60 dias não foi
+significativamente diferente entre a terapia dupla e a
+monoterapia (razão de risco [RR]: 1,14; IC95%: 0,861,50; p = 0,37).(71) Por outro lado, a terapia combinada
+aumentou as chances de a terapia antibiótica inicial ser
+adequada, definida como um ou mais antibióticos ativos
+in vitro contra os microrganismos identificados ou, na
+ausência deste dado, tratamento iniciado no momento
+da admissão à UTI e sem necessidade de ajuste após
+48 h. A terapia inicial adequada por sua vez se associou
+de forma independente com melhor sobrevida na coorte
+geral (RR: 0,63; IC95%: 0,42-0,94; p = 0,02).(71) Um
+estudo observacional(72) analisou o impacto sobre a
+mortalidade da terapia combinada com pelo menos
+dois antimicrobianos com diferentes mecanismos de
+ação, comparando-o ao da monoterapia e de outras
+combinações de antimicrobianos em pacientes com
+sepse grave ou choque séptico admitidos em UTI.
+Dentre 1.022 pacientes com infecção adquirida na
+comunidade, 362 tinham PAC. A taxa de mortalidade
+foi significativamente menor em pacientes tratados
+com terapia combinada utilizando diferentes classes de
+antibióticos do que nos que receberam monoterapia ou
+outras combinações de antimicrobianos (34% vs. 40%;
+p = 0,042).(72) Em um estudo caso-controle, a mudança
+de prescrição e administração de antibioticoterapia em
+414
+
+J Bras Pneumol. 2018;44(5):405-424
+
+favor da terapia combinada (macrolídeo associado a
+β-lactâmico) e, ao mesmo tempo, sua administração
+mais precoce, associou-se a uma redução de 15% na
+mortalidade por pneumonia pneumocócica em pacientes
+admitidos em UTI.(73) Um resultado similar foi observado
+quando se fez estudo com metodologia semelhante
+em pacientes de UTI com PAC causada por agentes
+etiológicos variados, excluindo-se o pneumococo.(74)
+Um estudo observacional prospectivo (75) que
+incluiu 218 pacientes com PAC e intubados (75,7%
+em choque séptico ou com sepse grave) identificou,
+após uma análise estatística ajustada por gravidade,
+que o uso de macrolídeos se associou a uma menor
+mortalidade na UTI (RR: 0,48; IC95%: 0,23-0,97; p =
+0,04) quando comparado ao uso de fluoroquinolonas.
+Na análise isolada dos pacientes com sepse grave e
+choque séptico (n = 92), obtiveram-se resultados
+similares (RR: 0,44; IC95%: 0,20-0,95; p = 0,03).(75)
+Em uma revisão sistemática com meta-análise
+envolvendo quase 10 mil pacientes com PAC grave,
+o uso de macrolídeos associou-se a uma redução
+relativa de 18% e uma redução absoluta de 3%
+na mortalidade em comparação com terapias sem
+macrolídeos no esquema de tratamento.(76) A terapia
+com dois antibióticos envolvendo a associação entre
+β-lactâmicos e macrolídeos foi superior à associação
+β-lactâmico com quinolonas em uma revisão sistemática
+e meta-análise, mas estudos randomizados devem
+ser realizados para a confirmação desses resultados
+devido ao alto risco de vieses metodológicos entre os
+estudos analisados.(77)
+Diante disto, a terapia combinada deve ser
+recomendada para pacientes com PAC grave com
+indicação de admissão em UTI por reduzir a mortalidade.
+A administração dos antibióticos deve ser a mais precoce
+possível e deve incluir preferencialmente um macrolídeo
+e um β-lactâmico, ambos por via endovenosa.
+Excetuando-se cenários clínicos que indiquem
+alta probabilidade de germes específicos como
+agentes causadores (ver Antibioticoterapia na PAC:
+recomendações para uso de monoterapia e terapia
+combinada), as sugestões para a antibioticoterapia
+inicial na PAC grave são descritas no Quadros 5 e 6.
+RECOMENDAÇÕES PARA TERAPIA ALVOESPECÍFICA DE GERMES EM PACIENTES DE
+RISCO DE BACTÉRIAS BASTONETES GRAM
+NEGATIVAS, STAPHYLOCOCCUS AUREUS
+E OUTROS GERMES POTENCIALMENTE
+RESISTENTES NA COMUNIDADE
+O reconhecimento de fatores de risco para os principais
+agentes etiológicos da PAC auxilia na definição da
+melhor terapêutica a ser utilizada, principalmente na
+época de disseminação de bactérias resistentes na
+comunidade. Atualmente podemos definir os agentes
+etiológicos bacterianos como patógenos padrão — S.
+pneumoniae, H. influenzae, S. aureus, M. pneumoniae,
+Streptococcus sp. Grupo A, Legionella sp., Chlamydophila
+sp. e Moraxella catarrhalis,(78,79) — assim como
+patógenos multirresistentes — community-acquired
+
+Corrêa RA, Costa AN, Lundgren F, Michelin L, Figueiredo MR, Holanda M, Gomes M,
+Teixeira PJZ, Martins R, Silva R, Athanasio RA, Silva RM, Pereira MC
+
+methicillin-resistant S. aureus (CA-MRSA, S. aureus
+adquirida na comunidade e resistente a meticilina) e
+pneumococo resistente à penicilina.(80,81)
+As pneumonias por patógenos padrão têm como
+fatores de risco a idade, a exposição ocupacional
+e a presença de comorbidades, como ocorre na
+doença invasiva pneumocócica pulmonar, comum em
+pacientes com doenças respiratórias crônicas, diabetes,
+cardiopatias e imunodepressão.(82) As pneumonias por
+patógenos multirresistentes dependem principalmente
+da epidemiologia local. O CA-MRSA ainda tem como
+apresentação típica pneumonia necrosante de rápida
+evolução, podendo estar associado à lesão cutânea ou
+à prática de esportes coletivos em pacientes hígidos.(81)
+Recentemente, um novo grupo de bactérias
+multirresistentes tem sido associado a PAC em pacientes
+com contato prévio com um serviço de assistência à
+saúde, como serviços de assistência domiciliar, de
+diálise, serviços ambulatoriais de cuidado de feridas
+crônicas e casas de repouso. Nesses pacientes, MRSA,
+enterobactérias produtoras de betalactamase de
+espectro expandido e Pseudomonas sp. multirresistentes
+têm sido agentes frequentes de pneumonia, mesmo
+depois de longos períodos sem internação hospitalar,
+apenas pelo fato de os pacientes permanecerem
+colonizados.(83) São fatores de risco para infecções
+por essas bactérias: internação hospitalar em até
+90 dias antes do episódio de pneumonia, uso prévio
+de antibióticos há 90 dias, imunossupressão, uso de
+bloqueador gástrico, alimentação enteral, hemodiálise e
+colonização intestinal prévia por bactéria multirresistente
+ou MRSA nasal.(84)
+Diferentemente da terapia de primeira linha para PAC,
+que se baseia em fatores regionais, como a incidência
+local de patógenos padrão e fatores de gravidade do
+paciente,(69,85) na terapia alvo-específica, os fatores
+de risco e a prevalência local de microrganismos
+resistentes são avaliados como direcionadores da
+terapêutica. No Brasil, há poucas publicações sobre a
+epidemiologia de bactérias multirresistentes em trato
+respiratório. Dados de um informe regional revelaram
+uma média de sensibilidade à penicilina de 93%
+para isolados respiratórios, tendo sido observado um
+aumento de circulação do sorotipo 19A em adultos, o
+qual apresentou sensibilidade à penicilina de apenas
+50%.(64) No mesmo relatório, está descrita uma média
+de sensibilidade de 95% à ceftriaxona, de 83% à
+eritromicina, de 66% ao sulfametoxazol/trimetoprim
+e de 99% ao cloranfenicol.(64)
+Para CA-MRSA, os dados nacionais são raros, sendo
+que os fatores de risco devem ser considerados, como
+ocorre para os patógenos multirresistentes associados
+a serviços em saúde. Os medicamentos de escolha para
+o tratamento são aqueles que inibem a produção de
+toxina: clindamicina, linezolida ou vancomicina, que
+podem ser utilizados em monoterapia, associados
+entre si (linezolida e clindamicina ou vacomicina
+e clindamicina) ou à rifampicina no caso de cepas
+resistentes ou de dificuldade de penetração em tecido
+necrótico.(86,87)
+
+O tratamento de pneumococo resistente à penicilina
+é realizado com cefalosporinas, podendo ser utilizadas
+ceftriaxona, cefotaxima e cefepima.(63) Recentemente,
+um estudo com uma nova cefalosporina, a ceftarolina,
+demonstrou sua superioridade ao uso de ceftriaxona
+para o tratamento de pneumonia por pneumococo.(88) Em
+quadros de infecção não grave, em que a monoterapia
+oral é uma escolha, o uso de cefuroxima e ampicilina/
+sulbactam têm sido opções seguras em locais com baixa
+resistência a β-lactâmicos, bem como fluoroquinolonas,
+já que a resistência é rara em pneumococos.(89) Nos
+casos de CA-MRSA, o objetivo é suprimir a produção
+de toxina, e o tratamento de escolha é clindamicina,
+sulfametoxazol/trimetoprim ou linezolida. Deve ser
+considerado o potencial de indução de resistência
+pela clindamicina em infecções de alto inóculo via
+efluxo ou por alterações ribossômicas.(90) Um ensaio
+de difusão em disco de antibióticos (D-test) identificou
+resistência indutível à clindamicina em isolados de
+S. aureus resistentes à eritromicina e susceptíveis
+à clindamicina. (91) Para MRSA, a linezolida tem-se
+mostrado superior ao tratamento com vancomicina
+em infecções graves, principalmente em pacientes em
+UTI. Enterobactérias produtoras de betalactamase de
+espectro expandido podem ser tratadas em regime
+ambulatorial com ertapenem, devido a sua posologia
+de dose única diária, via intramuscular ou endovenosa,
+possibilitando sua aplicação em regime de hospital-dia.
+Espécies de Pseudomonas sp. resistentes têm sido
+tratadas com fluoroquinolonas, piperacilina/tazobactam,
+meropenem ou polimixina B, em monoterapia ou
+terapia combinada (Quadro 6).(92,93)
+DURAÇÃO DA ANTIBIOTICOTERAPIA
+PARA PACIENTES AMBULATORIAIS E
+INTERNADOS COM PAC
+A duração ideal da antibioticoterapia no tratamento
+da PAC não está ainda definitivamente estabelecida. A
+antibioticoterapia de curta duração parece ser a mais
+apropriada, uma vez que proporciona menor exposição
+do paciente à ação de antibióticos, reduz a ocorrência
+de efeitos adversos, diminui o desenvolvimento de
+resistência por parte dos microrganismos, melhora a
+adesão dos pacientes e pode minimizar o tempo de
+internação e os custos financeiros.(94) Adicionalmente,
+tratamentos muito longos favorecem o desenvolvimento
+de resistência bacteriana e a ocorrência de efeitos
+adversos potencialmente graves, como infecções
+por Clostridium difficile.(95) No entanto, o tratamento
+curto deve ser tão eficaz quanto os tratamentos mais
+longos no que diz respeito às taxas de mortalidade,
+complicações e recorrência da doença.
+As recomendações sobre o tempo ideal de
+antibioticoterapia têm se modificado ao longo do
+tempo, havendo discrepâncias entre diretrizes a esse
+respeito (Tabela 1).
+J Bras Pneumol. 2018;44(5):405-424
+
+415
+
+Recomendações para o manejo da pneumonia adquirida na comunidade 2018
+
+Quadro 6. Posologia e vias de administração de antibióticos utilizáveis no tratamento da pneumonia adquirida na
+comunidade.
+
+Via
+
+Dose
+
+Amoxicilina/ácido clavulânico
+
+Fármaco
+
+Oral
+
+875/125 mg
+
+8
+
+Amoxicilina/ácido clavulânico
+
+Oral
+
+2.000/135 mg
+
+12
+
+Amoxicilina/ácido clavulânico
+
+Intravenosa
+
+1.000-2.000/200 mg
+
+8-12
+
+Ampicilina/sulbactam
+
+Intravenosa
+
+1,5/3,0 g
+
+6-8
+
+Azitromicina
+
+Oral-intravenosa
+
+500 mg
+
+24
+
+Cefepima
+
+Intravenosa
+
+2g
+
+12
+
+Cefotaxima
+
+Intravenosa
+
+1-2 g
+
+8
+
+Ceftarolina
+
+Intravenosa
+
+600 mg
+
+12
+
+Ceftriaxona
+
+Intravenosa
+
+1g
+
+12
+
+Ciprofloxacino
+
+Oral
+
+500-750 mg
+
+12
+
+Ciprofloxacino
+
+Intravenosa
+
+400 mg
+
+8-12
+
+Claritromicina
+
+Oral
+
+500 mg
+
+12
+24
+
+Claritromicina liberação prolongada
+
+Intervalo, h
+
+Oral
+
+1.000 mg
+
+Claritromicina
+
+Intravenosa
+
+500 mg
+
+12
+
+Clindamicina
+
+Oral
+
+600 mg
+
+12
+
+Clindamicina
+
+Intravenosa
+
+600 mg
+
+8
+
+Ertapenem
+
+Intravenosa
+
+1g
+
+24
+
+Imipenem
+
+Intravenosa
+
+1g
+
+8
+
+Oral
+
+500-750 mg
+
+24
+
+Levofloxacino
+Levofloxacino
+
+Intravenosa
+
+750 mg
+
+24
+
+Linezolida
+
+Oral-intravenosa
+
+600 mg
+
+12
+
+Meropenem
+
+Intravenosa
+
+1g
+
+8
+
+Moxifloxacino
+
+Oral
+
+400 mg
+
+24
+
+Piperacilina-tazobactam
+
+Intravenosa
+
+4 g/0,5 g
+
+6-8
+
+Vancomicina
+
+Intravenosa
+
+500 mg/1.000 mg
+
+6/12
+
+Observação: Em caso de infecção causada por um microrganismo com concentração inibitória mínima > 0,5 mg/l,
+é conveniente administrar o antimicrobiano a cada 8 h para evitar a seleção de cepas resistentes.
+
+A duração do tratamento, suficiente para garantir
+sucesso no tratamento da PAC (considerando como
+principal desfecho a mortalidade, mas também efeitos
+adversos e falência do tratamento), pode ser diferente
+conforme a gravidade da PAC, segundo os escores
+de gravidade atualmente disponíveis. Tratamentos
+de 5 a 7 dias parecem ser suficientes na maior parte
+das vezes, especialmente em infecções não graves.
+Segundo uma meta-análise que avaliou a eficácia
+dos esquemas de curta duração (inferiores a 7 dias)
+em pacientes adultos com PAC de leve a moderada
+gravidade, envolvendo 2.796 pacientes em 15 estudos
+selecionados, não houve menor desempenho dos
+tratamentos mais curtos em relação aos esquemas
+tradicionais.(95) Outra meta-análise investigou a
+eficácia e a segurança de tratamentos curtos (iguais
+ou inferiores a 7 dias) vs. tratamentos longos (com 2
+ou mais dias de diferença) para PAC, com o mesmo
+antibiótico e posologia.(94) Foram incluídos cinco estudos
+randomizados e controlados em adultos envolvendo
+pacientes de gravidade leve a moderada. Não foram
+encontradas diferenças entre tratamentos de curta (3
+a 7 dias) e de longa duração (7 a 10 dias) em relação
+ao sucesso clínico (N = 1.095 pacientes; OR = 0,89;
+IC95%: 0,74-1,07), à melhora microbiológica, às taxas
+de recaída e de mortalidade e aos efeitos adversos.(94)
+416
+
+J Bras Pneumol. 2018;44(5):405-424
+
+O documento do Instituto Nacional de Saúde
+Britânico, publicado em 2014, recomenda que o
+tempo de tratamento seja definido pela gravidade da
+pneumonia, e não pelos agentes etiológicos per se
+ou pelo antibiótico escolhido.(60) Dessa forma, para
+PAC de baixa gravidade, a monoterapia por 5 dias
+parece ser o suficiente; o seu prolongamento deve ser
+considerado no caso de os sintomas não melhorarem
+após 3 dias de tratamento. Já para a PAC de moderada
+a alta gravidade, o documento recomenda que um
+tratamento de 7 a 10 dias deva ser suficiente, segundo
+consenso das opiniões do grupo de trabalho, uma
+vez que a evidência disponível advém da análise de
+um subgrupo de pacientes de apenas um estudo.(96)
+Estratégias e procedimentos visando abreviar o tempo
+de antibioticoterapia têm sido testados comparando-se
+tratamentos mais curtos e longos em relação à
+eficácia. Murray et al.(97) avaliaram o impacto de uma
+intervenção multidisciplinar com o objetivo de reduzir
+o tempo de antibioticoterapia: a partir da classificação
+da gravidade estabelecida pelo CURB-65, uma data
+para seu término era definida. Por ocasião daquela
+data, o clínico era avisado pela farmácia clínica a esse
+respeito, após o que o médico assistente decidia pela
+continuação ou não do tratamento, de acordo com os
+dados clínicos evolutivos. Essa intervenção resultou em
+
+Corrêa RA, Costa AN, Lundgren F, Michelin L, Figueiredo MR, Holanda M, Gomes M,
+Teixeira PJZ, Martins R, Silva R, Athanasio RA, Silva RM, Pereira MC
+
+Tabela 1. Recomendações de diretrizes quanto à duração da antibioticoterapia para pneumonia adquirida na comunidade.a
+
+Autores(referência)
+Duração recomendada
+Mandel et al.(99)
+- Pelo menos 5 dias (nível 1), sem febre por 48-72 h e sem
+sinais de instabilidade clínica antes da alta (nível 2)
+- Duração mais prolongada: terapia inicial não ativa
+contra o patógeno identificado ou se há complicacões
+extrapulmonares, como meningite ou endocardite (nível 3)
+
+Lim et al.(59)
+
+Corrêa et al.(5)
+
+Torres et al.(100)
+
+Eccles et al.(60)
+
+- PAC ambulatorial ou internados não graves e PAC não
+complicada: 7 dias de antibioticoterapia
+- PAC grave sem agente definido: 7-10 dias
+- 14-21 dias se houver suspeita ou confirmação de
+Staphylococcus aureus ou bacilos entéricos gram-negativos (C)
+- PAC leve a moderada: até 7 dias
+- Recomendação válida para as classes de antibióticos então
+recomendadas
+- A duração não deve exceder 8 dias no paciente responsivo
+ao tratamento (C2)
+
+Nível de evidência
+Nível 1: alta (ECR)
+Nível 2: moderada (estudos
+controlados sem randomização,
+de coorte, série de pacientes,
+caso-controle)
+Nível 3: baixa (estudos de caso
+e opinião de experts)
+C: combinação formal de
+opiniões de experts
+
+A: ensaios randômicos e
+controlados e/ou rica base de
+dados
+C2: evidência insuficiente,
+de um estudo randomizado
+controlado, ou mais de
+um estudo randomizado
+controlado, porém sem revisão
+sistemática ou meta-análise
+- PAC de baixa gravidade: 5 dias de antibioticoterapia
+- Evidência de baixa e
+- Considerar extensão se não houver melhora clínica em 3 dias moderada qualidade; trabalhos
+- Pacientes e cuidadores: se não houver melhora dos sintomas heterogêneos, mas com
+(ou houver piora) em 3 dias, procurar novamente auxílio
+consistência em demonstrar
+médico
+equivalência em termos de
+eficácia entre tratamentos
+curtos e longos
+- PAC de moderada a alta gravidade: 7-10 dias de tratamento - Evidência de baixa qualidade;
+recomendação baseada em
+consenso dos membros do
+grupo de trabalho
+
+ECR: ensaios clínicos randomizados; e PAC: pneumonia adquirida na comunidade.
+
+redução de 18% no tempo de tratamento e de 39%
+nos efeitos adversos relacionados à antibioticoterapia.
+Não houve redução na mortalidade nem no tempo de
+internação.(97) Outros autores avaliaram a utilização
+de um fluxo sistematizado envolvendo três passos
+visando a transição de antibioticoterapia por via
+endovenosa para por via oral e, com isso, reduzir
+o tempo de internação. Os autores demonstraram
+que usar critérios mais objetivos para considerar a
+administração de antibióticos por via oral e a alta
+hospitalar resulta em redução do tempo de internação
+e do emprego de antibióticos por via endovenosa,
+sem quaisquer consequências adversas.(98) Ainda,
+biomarcadores (principalmente proteína C reativa e
+procalcitonina) têm sido amplamente estudados para
+auxiliar na monitorização clínica do paciente com
+PAC, como método auxiliar na decisão de modificar
+ou interromper o tratamento.
+Recomenda-se que para a PAC de baixa gravidade
+e com tratamento ambulatorial, esse seja feito com
+monoterapia e por 5 dias. A PAC de moderada a
+alta gravidade deve ser tratada com os esquemas
+antibióticos acima discutidos, por períodos de 7 a 10
+dias. O tratamento pode ser estendido até 14 dias
+a critério do médico assistente.
+
+RECOMENDAÇÕES PARA USO DE
+CORTICOIDE COMO TRATAMENTO
+ADJUVANTE NA PAC
+Durante um quadro infeccioso, o adequado balanço
+entre a ativação da resposta imune e o controle
+da inflamação é fundamental para o combate da
+infecção sem lesão tecidual adjacente. A ativação do
+eixo hipotálamo-hipófise-adrenal é responsável pela
+produção do cortisol, um corticosteroide endógeno, que,
+durante quadros pneumônicos, induz a expressão de
+proteínas anti-inflamatórias e a inibição de moléculas
+pró-inflamatórias.(101)
+Nos últimos anos, ensaios clínicos randomizados e
+meta-análises foram publicados avaliando o papel dos
+corticosteroides na PAC, mas algumas lacunas ainda não
+foram totalmente resolvidas. Evidências de moderada
+a alta qualidade sugerem que os corticoides, quando
+associados a antibióticos e terapia usual, melhoram a
+evolução de pacientes com PAC tratados. Os benefícios
+incluem redução no tempo de internação, tempo para
+estabilização clínica, assim como redução na taxa
+de ventilação mecânica e de progressão para SARA
+aguda.(102-106)
+A maior parte desses estudos avaliou o papel
+dos corticoides na PAC grave com necessidade de
+J Bras Pneumol. 2018;44(5):405-424
+
+417
+
+Recomendações para o manejo da pneumonia adquirida na comunidade 2018
+
+hospitalização. Em relação à mortalidade, o papel
+dos corticoides na prevenção de óbitos relacionados
+à PAC não foi ainda bem definido,(103) apesar de os
+dados envolvendo apenas indivíduos com apresentação
+grave sugerirem benefícios dessa terapia nesse
+subgrupo. (102,104,107) Outro aspecto importante a ser
+considerado é a falta de padronização do esquema
+terapêutico utilizado nos ensaios clínicos. A Tabela 2
+mostra os principais esquemas de tratamento com
+corticoides utilizados para o tratamento da PAC.(107-113)
+Em 2015, dois ensaios clínicos randomizados
+importantes foram publicados. Blum et al.(108) avaliaram
+o uso de prednisona na dose de 50 mg/dia por 7 dias
+em 785 pacientes. O grupo tratado com corticoide
+apresentou menor tempo para atingir estabilidade
+clínica que o grupo controle (3,0 dias vs. 4,4 dias;
+p < 0,0001). A estabilidade clínica foi considerada
+como o retorno a níveis normais de parâmetros como
+temperatura, FC, FR, SpO2, estado mental, pressão
+arterial sistólica e capacidade de ingestão alimentar
+por via oral.(108) Torres et al.(109) testaram o efeito do
+uso de metilprednisolona 0,5 mg/kg a cada 12 h por 5
+dias em indivíduos com PAC grave, conforme critérios
+da ATS ou escore alto na escala de risco PSI, e com
+resposta inflamatória elevada, caracterizada por uma
+proteína C reativa sérica > 150 mg/l. Os pacientes
+que receberam corticoide apresentaram um risco de
+falência terapêutica inferior ao grupo controle (OR =
+0,34; IC95%: 0,14-0,87; p = 0,02). O estudo também
+evidenciou uma melhor evolução radiológica no grupo
+que recebeu metilprednisolona. Um ponto positivo e
+diferencial do estudo em relação aos demais foi que
+houve uma melhor homogeneização dos pacientes,
+incluindo um fenótipo de indivíduos com maior expressão
+inflamatória (proteína C reativa elevada).(109)
+Em relação aos desfechos de segurança, o emprego
+de corticoides resultou em boa tolerância sem aumentar
+a incidência de efeitos adversos, excetuando-se
+hiperglicemia, que foi mais frequentemente relatada
+no grupo que recebeu corticoterapia. Contudo, outras
+intercorrências usualmente atribuídas ao uso de
+corticoides foram semelhantes em relação às do grupo
+controle, como taxa de sangramento gastrointestinal,
+complicações neuropsiquiátricas ou readmissões
+hospitalares.(102-104)
+Em conclusão, o uso de corticoides na PAC grave
+mostrou-se tanto seguro como benéfico em diversos
+desfechos clínicos importantes. Entretanto, são
+necessários novos estudos que confirmem o impacto
+dessa terapia sobre a mortalidade relacionada à PAC,
+apesar de as meta-análises sugerirem a redução
+dessa taxa, sobretudo no subgrupo com apresentação
+mais grave.
+Por outro lado, deve-se ressaltar a importância de se
+evitar o uso indiscriminado dessa terapia, priorizando
+sua utilização em indivíduos com maior propensão de
+benefícios clínicos tais como aqueles com maior grau
+de inflamação sistêmica. Nesse contexto, a proteína
+C reativa pode ser considerada um biomarcador útil,
+418
+
+J Bras Pneumol. 2018;44(5):405-424
+
+identificando pacientes com maior risco de complicações
+relacionadas à PAC e que, consequentemente, podem se
+beneficiar da corticoterapia adjuvante. Essas indicações
+não devem ser extrapoladas para pacientes com PAC
+de menor gravidade e em tratamento ambulatorial.
+RECOMENDAÇÕES ATUAIS PARA
+A VACINAÇÃO EM ADULTOS: ANTIINFLUENZA E ANTIPNEUMOCÓCICA
+
+Vacina anti-Influenza
+Influenza é uma infecção viral com manifestações
+sistêmicas, causada por vírus da família
+Orthomyxoviridae, classificados em tipos antigênicos
+A, B e C. A influenza tipo A está associada a pandemias
+e à doença de maior gravidade; a do tipo B está
+associada a epidemias regionais; e a do tipo C associa-se
+a surtos pequenos e isolados, com pouca relevância
+clínica em humanos.
+A gripe, causada pelo vírus influenza dos tipos A e B,
+associa-se a um aumento da morbidade e mortalidade
+em pacientes portadores de doenças crônicas.(114,115)
+Existe uma forte relação entre as infecções por
+influenza e pneumonias bacterianas secundárias à
+infecção viral. (116) A vacinação reduz a intensidade
+dos sintomas, a necessidade de hospitalização e a
+mortalidade.(117,118)
+O vírus influenza tem altas taxas de mutação, e as
+epidemias anuais (sazonais) decorrem de novos subtipos
+surgidos devido a pequenas alterações antigênicas
+que ocorrem durante a replicação viral. A ocorrência
+dessas mutações da estrutura viral contribuem para o
+aumento da incidência sazonal da doença e justificam a
+necessidade de vacinação anual, uma vez que a proteção
+decorrente da vacina é temporária.(115) A composição
+da vacina é estabelecida pela Organização Mundial de
+Saúde, levando-se em conta informações recebidas de
+laboratórios de referência sobre a prevalência das cepas
+circulantes. Habitualmente, a Organização Mundial de
+Saúde faz recomendações anuais sobre a composição
+da vacina no segundo semestre para a elaboração da
+vacina do ano seguinte a fim de cobrir as prováveis
+cepas de influenza no ano subsequente.(119)
+No Brasil, as vacinas disponíveis são constituídas de
+vírus inativados e fragmentados (portanto, sem risco
+de infectar o paciente), obtidos a partir de culturas em
+ovos embrionados de galinhas. As vacinas inativadas
+diminuem a magnitude dos sintomas respiratórios
+quando a cepa viral circulante é similar às cepas
+vacinais, levando à redução da incidência da doença
+em mais de 60%.(120) Há dois tipos aprovados para uso
+no país pela Agência Nacional de Vigilância Sanitária:
+•
+
+•
+
+Vacina anti-influenza trivalente (A/H1N1, A/H3N2
+e influenza B): disponível no Sistema Único de
+Saúde, nas unidades básicas de saúde durante
+as campanhas de vacinação (e posteriormente
+até terminar a sua disponibilidade) conforme
+as indicações
+Vacina anti-influenza tetravalente — ou quadrivalente — (A/H1N1, A/H3N2 e duas cepas de
+
+Corrêa RA, Costa AN, Lundgren F, Michelin L, Figueiredo MR, Holanda M, Gomes M,
+Teixeira PJZ, Martins R, Silva R, Athanasio RA, Silva RM, Pereira MC
+
+Tabela 2. Principais esquemas de tratamento com corticoides utilizados para o tratamento da pneumonia adquirida
+na comunidade.
+
+Estudo(referência)
+Torres et al.(109)
+Fernandez-Serrano et al.(107)
+
+País
+Espanha
+Espanha
+
+Blum et al.(108)
+Snijders et al.(110)
+Confalonieri et al.(111)
+Sabry et al.(112)
+Li et al.(113)
+
+Suiça
+Holanda
+Itália
+Egito
+China
+
+Esquema terapêutico
+Metilprednisolona 0,5 mg/kg de 12/12 h por 5 dias
+Metilprednisolona 20 mg de 6/6 h por 3 dias, 20 mg de
+12/12 h por 3 dias, 20 mg/dia por 3 dias
+Prednisona 50 mg/dia por 7 dias
+Prednisolona 40 mg/dia por 7 dias
+Hidrocortisona 200 mg/dia por 7 dias
+Hidrocortisona 300 mg/dia por 7 dias
+Metilprednisolona 80 mg/dia por 7 dias
+
+influenza B): disponível em clínicas privadas,
+com as mesmas indicações
+Embora a vacina possa ser empregada a partir dos
+6 meses de idade, a aplicação da vacina tem sido
+priorizada para grupos de risco pelo calendário do
+Ministério da Saúde do Brasil.(5,121-123)
+
+Indicações prioritárias (não exclusivas)
+•
+•
+
+•
+•
+
+•
+•
+•
+•
+•
+
+•
+
+Adultos com idade igual ou superior a 60 anos
+Paciente com enfermidades crônicas pulmonares,
+cardiovasculares (exceto hipertensão arterial
+sistêmica), renais, hepáticas, hematológicas e
+metabólicas
+Adultos em estado de imunossupressão
+Indivíduos com distúrbios neuromusculares, comprometimento funcional pulmonar e dificuldade
+para remover secreções
+Gestantes e mulheres que planejam engravidar e
+mulheres que estejam em estado de amamentação
+Residentes em lares de idosos
+Potenciais transmissores dos vírus para indivíduos
+de maior risco
+Profissionais de saúde
+Cuidadores domiciliares de crianças (idade
+inferior a 5 anos) e de indivíduos adultos (idade
+superior a 50 anos)
+População indígena e população privada de
+liberdade
+
+Indivíduos que não devem ser vacinados
+•
+
+•
+•
+
+Pessoas com alergia grave (anafilaxia) a ovo
+de galinha, a algum componente da vacina ou
+à dose anterior
+Menores de 6 meses de idade
+História prévia de síndrome de Guillain-Barré,
+sobretudo se essa ocorreu após vacinação para
+influenza
+
+Observações
+•
+
+•
+•
+
+Pessoas com história de alergia grave a ovo
+de galinha, com sinais de anafilaxia, devem
+receber vacina em ambiente com condições de
+atendimento de reações anafiláticas e permanecer
+em observação por pelo menos 30 minutos
+Em caso de febre, deve-se adiar a vacinação até
+que ocorra remissão do sinal
+No caso de história de síndrome de Guillain-Barré
+até seis semanas após a dose anterior da vacina,
+recomenda-se avaliação médica criteriosa sobre
+
+•
+•
+•
+•
+
+o risco-benefício antes de se administrar uma
+nova dose
+Excetuando-se os casos aqui citados, não são
+necessários cuidados especiais antes da vacinação
+Compressas frias aliviam a reação no local da
+aplicação, e, em casos mais intensos, pode-se usar
+medicação para dor sob recomendação médica
+Qualquer sintoma grave e/ou inesperado após
+a vacinação deve ser notificado ao serviço que
+a realizou
+Sintomas de eventos adversos persistentes, que
+se prolongam por mais que 72 h (dependendo
+do sintoma), devem ser investigados para a
+verificação de outras causas
+
+Vacina antipneumocócica
+Atualmente, dispõe-se de dois tipos de vacinas:
+uma vacina polissacarídica 23-valente (VPP23),
+não conjugada a carreador proteico, que possui
+antígenos da parede de 23 sorotipos pneumocócicos.
+A segunda utiliza um carreador proteico para os
+antígenos polissacarídeos, sendo denominada vacina
+antipneumocócica conjugada (PCV). Essa formulação
+aumenta o efeito imunogênico e, por estimular a
+memória imunológica via células T, confere proteção
+mais duradoura. Duas novas formulações conjugadas
+com antígenos de 10 (PCV10) e 13 (PCV13) sorotipos
+estão disponíveis no Brasil. A PCV10 está aprovada
+para a prevenção de doença pneumocócica invasiva
+em crianças de até 2 anos, enquanto a PCV13 está
+aprovada para crianças desde seis semanas de vida
+até adultos. Os sorotipos associam-se à gravidade
+da doença e, por isto, o impacto clínico da vacinação
+depende da cobertura dos mesmos.(124)
+A PCV13 deve ser administrada como uma dose
+única em adultos com 50 anos de idade ou mais,
+incluindo aqueles vacinados anteriormente com a
+vacina pneumocócica polissacarídica. A necessidade
+de revacinação com uma dose subsequente de PCV13
+não foi estabelecida.
+Um esquema sequencial de PCV13 e VPP23 está
+recomendado rotineiramente pela Sociedade Brasileira
+de Imunizações para indivíduos com 60 anos ou
+mais.(125) Para indivíduos com algumas comorbidades,
+um esquema sequencial de PCV13 e VPP23 está
+recomendado. Deve-se iniciar com uma dose da PCV13,
+seguida de uma dose de VPP23 6-12 meses após, e
+uma segunda dose de VPP23 5 anos após a primeira. No
+J Bras Pneumol. 2018;44(5):405-424
+
+419
+
+Recomendações para o manejo da pneumonia adquirida na comunidade 2018
+
+caso de pessoas que já receberam uma dose de VPP23,
+recomenda-se o intervalo de 1 ano para a aplicação
+de PCV13. A segunda dose de VPP23 deve ser feita 5
+anos após a primeira, mantendo-se um intervalo de
+6-12 meses da PCV13. Para os que já receberam duas
+doses de VPP23, recomenda-se uma dose de PCV13
+com um intervalo mínimo de 1 ano após a última dose
+de VPP23. Se a segunda dose de VPP23 foi aplicada
+antes dos 65 anos, está recomendada uma terceira dose
+depois dessa idade, com intervalo mínimo de 5 anos
+da última dose. Segundo este calendário, a vacinação
+entre 50-59 anos com PCV13 pode ser feita a critério do
+médico assistente. As vacinas polissacarídicas resultam
+na redução da ocorrência de doença pneumocócica
+invasiva na população adulta e têm menor efetividade
+na prevenção de PAC em pacientes com redução da
+imunidade. A vacina conjugada resulta na redução de
+45,6% de casos de PAC pelos sorotipos vacinais, de
+45% de casos de pneumonias bacterianas e de 75% de
+doença pneumocócica invasiva.(126) A vacina está indicada
+para casos de risco aumentado de PAC.(82,115,126-129)
+
+Indicações da vacina
+•
+•
+
+•
+
+•
+
+•
+•
+
+Adultos com idade igual ou superior a 60 anos
+Indivíduos com idade entre 2 e 59 anos, com
+doença crônica cardíaca, pulmonar, doença
+falciforme, diabetes, alcoolismo, cirrose hepática,
+fístulas cérebro-espinhais ou implantes cocleares
+Indivíduos com idade entre 2 e 59 anos, com
+doença ou condição imunossupressora, como
+doença de Hodgkin, linfoma ou leucemia,
+insuficiência renal, mieloma múltiplo, síndrome
+nefrótica, infecção por HIV ou AIDS, doença
+esplênica ou asplenia, e transplantados de órgãos
+Indivíduos com idade entre 2 e 59 anos que
+utilizem drogas imunossupressoras, como
+tratamento com corticoides por longo prazo,
+drogas utilizadas no tratamento de câncer ou
+que tenham passado por radioterapia
+Adultos entre 19 e 59 anos, tabagistas ou
+portadores de asma
+Residentes em casas de saúde e asilos de longa
+permanência
+
+REFERÊNCIAS
+1. Welte T, Torres A, Nathwani D. Clinical and economic burden of
+community-acquired pneumonia among adults in Europe. Thorax.
+2012;67(1):71-9. https://doi.org/10.1136/thx.2009.129502
+2. Rozenbaum MH, Pechlivanoglou P, van der Werf TS, Lo-Ten-Foe
+JR, Postma MJ, Hak E. The role of Streptococcus pneumoniae in
+community-acquired pneumonia among adults in Europe: a metaanalysis. Eur J Clin Microbiol Infect Dis. 2013;32(3):305-16. https://doi.
+org/10.1007/s10096-012-1778-4
+3. Corrêa RA, José BPS, Malta DC, Passos VMA, França EB, Teixeira RA,
+et al. Burden of disease by lower respiratory tract infections in Brazil,
+1990 to 2015: estimates of the Global Burden of Disease 2015 study.
+Rev Bras Epidemiol. 2017; 20Suppl 01(Suppl 01):171-181.
+4. Batista Filho M, Cruz RS. Child health around the world and in Brazil
+[Article in Portuguese]. Rev Bras Saude Mater Infant. 2015;15(4):4514. https://doi.org/10.1590/S1519-38292015000400010
+5. Corrêa Rde A, Lundgren FL, Pereira-Silva JL, Frare e Silva RL, Cardoso
+AP, Lemos AC, et al. Brazilian guidelines for community-acquired
+pneumonia in immunocompetent adults - 2009. J Bras Pneumol.
+2009;35(6):574-601.
+6. British Thoracic Society Bronchoscopy Guidelines Committee, a
+Subcommittee of Standards of Care Committee of British Thoracic
+Society. British Thoracic Society guidelines on diagnostic flexible
+bronchoscopy. Thorax. 2001;56 Suppl 1:i1-21. https://doi.org/10.1136/
+thx.56.suppl_1.i1
+7. Bantar C, Curcio D, Jasovich A, Bagnulo H, Arango Á, Bavestrello
+L, et al. Updated acute community-acquired pneumonia in adults:
+Guidelines for initial antimicrobial therapy based on local evidence from
+the South American Working Group (ConsenSur II)[Article in Spanish].
+Rev Chil Infectol. 2010;27 Suppl 1:S9-S38.
+8. Moberg AB, Taléus U, Garvin P, Fransson SG, Falk M. Communityacquired pneumonia in primary care: clinical assessment and the
+usability of chest radiography. Scand J Prim Health Care. 2016;34(1):217. https://doi.org/10.3109/02813432.2015.1132889
+9. Lim W, Smith D, Wise M, Welham S. British Thoracic Society
+community acquired pneumonia guideline and the NICE pneumonia
+guideline: how they fit together. Thorax. 2015;70(7):698-700. https://
+doi.org/10.1136/thoraxjnl-2015-206881
+10. Liu X, Lian R, Tao Y, Gu C, Zhang G. Lung ultrasonography: an effective
+way to diagnose community-acquired pneumonia. Emerg Med J.
+2015;32(6):433-8. https://doi.org/10.1136/emermed-2013-203039
+11. Llamas-Álvarez AM, Tenza-Lozano EM, Latour-Pérez J. Accuracy of
+Lung Ultrasonography in the Diagnosis of Pneumonia in Adults. Chest.
+2017;151(2):374-382. https://doi.org/10.1016/j.chest.2016.10.039
+12. Bourcier JE, Paquet J, Seinger M, Gallard E, Redonnet JP, Cheddadi
+F, et al. Performance comparison of lung ultrasound and chest
+x-ray for the diagnosis of pneumonia in the ED. Am J Emerg Med.
+
+420
+
+J Bras Pneumol. 2018;44(5):405-424
+
+2017;32(2):115-8. https://doi.org/10.1016/j.ajem.2013.10.003
+13. Alzahrani SA, Al-Salamah MA, Al-Madani WH, Elbarbary MA.
+Systematic review and meta-analysis for the use of ultrasound versus
+radiology in diagnosing of pneumonia. Crit Ultrasound J. 2017;9(1):6.
+https://doi.org/10.1186/s13089-017-0059-y
+14. Long L, Zhao HT, Zhang ZY, Wang GY, Zhao HL. Lung ultrasound
+for the diagnosis of pneumonia in adults: A meta-analysis.
+Medicine (Baltimore). 2017;96(3):e5713. https://doi.org/10.1097/
+MD.0000000000005713
+15. Nazerian P, Volpicelli G, Vanni S, Gigli C, Betti L, Bartolucci M, et
+al. Accuracy of lung ultrasound for the diagnosis of consolidations
+when compared to chest computed tomography. Am J Emerg Med.
+2017;33(5):620-5. https://doi.org/10.1016/j.ajem.2015.01.035
+16. Ticinesi A, Lauretani F, Nouvenne A, Mori G, Chiussi G, Maggio M,
+et al. Lung ultrasound and chest x-ray for detecting pneumonia in an
+acute geriatric ward. Medicine (Baltimore). 2016;95(27):e4153. https://
+doi.org/10.1097/MD.0000000000004153
+17. Romano L, Pinto A, Merola S, Gagliardi N, Tortora G, Scaglione M.
+Intensive-care unit lung infections: The role of imaging with special
+emphasis on multi-detector row computed tomography. Eur J Radiol.
+2008;65(3):333-9. https://doi.org/10.1016/j.ejrad.2007.09.018
+18. Banker PD, Jain VR, Haramati LB. Impact of chest CT on the clinical
+management of immunocompetent emergency department patients
+with chest radiographic findings of pneumonia. Emerg Radiol.
+2007;14(6):383-8. https://doi.org/10.1007/s10140-007-0659-0
+19. Claessens YE, Debray MP, Tubach F, Brun AL, Rammaert B, Hausfater
+P, et al. Early Chest Computed Tomography Scan to Assist Diagnosis
+and Guide Treatment Decision for Suspected Community-acquired
+Pneumonia. Am J Respir Crit Care Med. 2015;192(8):974-82. https://
+doi.org/10.1164/rccm.201501-0017OC
+20. Upchurch CP, Grijalva CG, Wunderink RG, Williams DJ, Waterer GW,
+Anderson EJ, et al. Community-Acquired Pneumonia Visualized on CT
+Scans but Not Chest Radiographs: Pathogens, Severity, and Clinical
+Outcomes. Chest. 2018;153(3):601-610. https://doi.org/10.1016/j.
+chest.2017.07.035
+21. Niederman MS. Imaging for the Management of Community-Acquired
+Pneumonia: What to Do if the Chest Radiograph Is Clear. Chest.
+2018;153(3):583-585. https://doi.org/10.1016/j.chest.2017.09.045
+22. Prina E, Ranzani OT, Torres A. Community-acquired pneumonia.
+Lancet. 2017;386(9998):1097-108. https://doi.org/10.1016/S01406736(15)60733-4
+23. Tanaka N, Emoto T, Suda H, Matsumoto T, Matsunaga N. Communityacquired pneumonia: a correlative study between chest radiographic
+and HRCT findings. Jpn J Radiol. 2015;33(6):317-28. https://doi.
+org/10.1007/s11604-015-0420-7
+24. Cao B, Huang Y, She DY, Cheng QJ, Fan H, Tian XL, et al. Diagnosis
+
+Corrêa RA, Costa AN, Lundgren F, Michelin L, Figueiredo MR, Holanda M, Gomes M,
+Teixeira PJZ, Martins R, Silva R, Athanasio RA, Silva RM, Pereira MC
+
+and treatment of community-acquired pneumonia in adults: 2016
+clinical practice guidelines by the Chinese Thoracic Society, Chinese
+Medical Association. Clin Respir J. 2018;12(4):1320-1360. https://doi.
+org/10.1111/crj.12674
+25. Postma DF, van Werkhoven CH, Oosterheert JJ. Communityacquired pneumonia requiring hospitalization: rational decision making
+and interpretation of guidelines. Curr Opin Pulm Med. 2017;23(3):204210. https://doi.org/10.1097/MCP.0000000000000371
+26. Singhal N, Kumar M, Kanaujia PK, Virdi JS. MALDI-TOF mass
+spectrometry: an emerging technology for microbial identification
+and diagnosis. Front Microbiol. 2015;6:791. https://doi.org/10.3389/
+fmicb.2015.00791
+27. Brasil. Ministério da Saúde. Biblioteca Virtual da Saúde [homepage on
+the Internet]. Brasília: o Ministério; c2018 [cited 2018 Jan 29] Agência
+Nacional de Vigilância Sanitária; Gerência Geral de Serviços de Saúde;
+Gerência de Controle de Riscos à Saúde. Manual de Procedimentos
+Básicos em Microbiologia Clínica para o Controle de Infecção
+Hospitalar. Módulo I [Adobe Acrobat document, 51p.]. Available from:
+http://bvsms.saude.gov.br/bvs/publicacoes/manual_procedimentos_
+microbiologiaclinica_controle_infechospitalar.pdf
+28. Fukuyama H, Yamashiro S, Kinjo K, Tamaki H, Kishaba T. Validation of
+sputum Gram stain for treatment of community-acquired pneumonia
+and healthcare-associated pneumonia: a prospective observational
+study. BMC Infect Dis. 2014;14:534. https://doi.org/10.1186/14712334-14-534
+29. Arnold FW, Summersgill JT, Ramirez JA. Role of Atypical
+Pathogens in the Etiology of Community-Acquired Pneumonia.
+Semin Respir Crit Care Med. 2016;37(6):819-828. https://doi.
+org/10.1055/s-0036-1592121
+30. Gaydos CA. What is the role of newer molecular tests in the
+management of CAP? Infect Dis Clin North Am. 2013;27(1):49-69.
+https://doi.org/10.1016/j.idc.2012.11.012
+31. Ruuskanen O, Lahti E, Jennings LC, Murdoch DR. Viral pneumonia.
+Lancet. 2011;377(9773):1264-75. https://doi.org/10.1016/S01406736(10)61459-6
+32. Musher DM, Roig IL, Cazares G, Stager CE, Logan N, Safar H. Can
+an etiologic agent be identified in adults who are hospitalized for
+community-acquired pneumonia: results of a one-year study. J Infect.
+2017;67(1):11-8. https://doi.org/10.1016/j.jinf.2013.03.003
+33. Jartti T, Jartti L, Peltola V, Waris M, Ruuskanen O. Identification
+of respiratory viruses in asymptomatic subjects: asymptomatic
+respiratory viral infections. Pediatr Infect Dis J. 2008;27(12):1103-7.
+https://doi.org/10.1097/INF.0b013e31817e695d
+34. Johansson N, Kalin M, Hedlund J. Clinical impact of combined viral and
+bacterial infection in patients with community-acquired pneumonia.
+Scand J Infect Dis. 2011;43(8):609-15. https://doi.org/10.3109/00365
+548.2011.570785
+35. Cawcutt K, Kalil AC. Pneumonia with bacterial and viral coinfection.
+Curr Opin Crit Care. 2017;23(5):385-390. https://doi.org/10.1097/
+MCC.0000000000000435
+36. Marrie TJ, File Jr. TM. Epidemiology, pathogenesis, and microbiology
+of community-acquired pneumonia in adults. In: UpToDate. Bond S,
+editor. Waltam MA; 2017 [cited 2017 Dec 1]. Available from: https://
+www.uptodate.com/contents/epidemiology-pathogenesis-andmicrobiology-of-community-acquired-pneumonia-in-adults
+37. Musher DM, Thorner AR. Community-Acquired Pneumonia. N Engl J
+Med. 2014;371(17):1619-28. https://doi.org/10.1056/NEJMra1312885
+38. Restrepo MI, Mortensen EM, Rello J, Brody J, Anzueto A. Late
+admission to the ICU in patients with community-acquired pneumonia
+is associated with higher mortality. Chest. 2010;137(3):552-7. https://
+doi.org/10.1378/chest.09-1547
+39. Marti C, Garin N, Grosgurin O, Poncet A, Combescure C, Carballo S, et
+al. Prediction of severe community-acquired pneumonia: a systematic
+review and meta-analysis. Crit Care. 2012;16(4):R141. https://doi.
+org/10.1186/cc11447
+40. Loke YK, Kwok CS, Niruban A, Myint PK. Value of severity scales in
+predicting mortality from community-acquired pneumonia: systematic
+review and meta-analysis. Thorax. 2010;65(10):88490. https://doi.
+org/10.1136/thx.2009.134072
+41. Fine MJ, Auble TE, Yealy DM, Hanusa BH, Weissfeld LA, Singer DE,
+et al. A prediction rule to identify low-risk patients with communityacquired pneumonia. N Engl J Med. 1997;336(4):243-50. https://doi.
+org/10.1056/NEJM199701233360402
+42. Lim WS, Lewis S, Macfarlane JT. Severity prediction rules in
+community acquired pneumonia: a validation study. Thorax.
+2000;55(3):219-23. https://doi.org/10.1136/thorax.55.3.219
+43. Capelastegui A, España PP, Quintana JM, Areitio I, Gorordo I,
+
+Egurrola M, et al. Validation of a predictive rule for the management
+of community-acquired pneumonia. Eur Respir J. 2006;27(1):151-7.
+https://doi.org/10.1183/09031936.06.00062505
+44. Mandell LA, Wunderink RG, Anzueto A, Bartlett JG, Campbell GD,
+Dean NC, et al. Infectious Diseases Society of America/American
+Thoracic Society consensus guidelines on the management of
+community-acquired pneumonia in adults. Clin Infect Dis. 2007;44
+Suppl 2:S27-72. https://doi.org/10.1086/511159
+45. Charles PG, Wolfe R, Whitby M, Fine MJ, Fuller AJ, Stirling R, et al.
+SMART-COP: a tool for predicting the need for intensive respiratory
+or vasopressor support in community-acquired pneumonia. Clin Infect
+Dis. 2008;47(3):375-84. https://doi.org/10.1086/589754
+46. España PP, Capelastegui A, Quintana JM, Bilbao A, Diez R, Pascual
+S, et al. Validation and comparison of SCAP as a predictive score for
+identifying low-risk patients in community-acquired pneumonia. J
+Infect. 2010;60(2):106-13. https://doi.org/10.1016/j.jinf.2009.11.013
+47. Majumdar SR, Eurich DT, Gamble JM, Senthilselvan A, Marrie TJ.
+Oxygen saturations less than 92% are associated with major adverse
+events in outpatients with pneumonia: a population-based cohort
+study. Clin Infect Dis. 2011;52(3):325-31. https://doi.org/10.1093/cid/
+ciq076
+48. Hodkinson HM. Evaluation of a mental test score for assessment of
+mental impairment in the elderly. Age Ageing. 1972;1(4):233-8. https://
+doi.org/10.1093/ageing/1.4.233
+49. Salih W, Schembri S, Chalmers JD. Simplification of the
+IDSA/ATS criteria for severe CAP using meta-analysis and
+observational data. Eur Respir J. 2014;43(3):842-51. https://doi.
+org/10.1183/09031936.00089513
+50. Christ-Crain M, Müller B. Biomarkers in respiratory tract infections:
+diagnostic guides to antibiotic prescription, prognostic markers
+and mediators. Eur Respir J. 2007;30(3):556-73. https://doi.
+org/10.1183/09031936.00166106
+51. Upadhyay S, Niederman MS. Biomarkers: what is their benefit in the
+identification of infection, severity assessment, and management
+of community-acquired pneumonia? Infect Dis Clin North Am.
+2013;27(1):19-31. https://doi.org/10.1016/j.idc.2012.11.003
+52. Müller B, Harbarth S, Stolz D, Bingisser R, Mueller C, Leuppi J, et
+al. Diagnostic and prognostic accuracy of clinical and laboratory
+parameters in community-acquired pneumonia. BMC Infect Dis.
+2007;7:10. https://doi.org/10.1186/1471-2334-7-10
+53. Kim MW, Lim JY, Oh SH. Mortality prediction using serum biomarkers
+and various clinical risk scales in community-acquired pneumonia.
+Scand J Clin Lab Invest. 2017;77(7):486-492. https://doi.org/10.1080
+/00365513.2017.1344298
+54. Andersen SB, Baunbæk Egelund G, Jensen AV, Petersen PT, Rohde
+G, Ravn P. Failure of CRP decline within three days of hospitalization
+is associated with poor prognosis of Community-acquired Pneumonia.
+Infect Dis (Lond). 2017;49(4):251-260. https://doi.org/10.1080/237442
+35.2016.1253860
+55. Coelho LM, Salluh JIF, Soares M, Bozza FA, Verdeal JR, CastroFaria-Neto HC, et al. Patterns of c-reactive protein RATIO response
+in severe community-acquired pneumonia: a cohort study. Crit Care.
+2012;16(2):R53. https://doi.org/10.1186/cc11291
+56. Schuetz P, Wirz Y, Sager R, Christ-Crain M, Stolz D, Tamm M, et al.
+Procalcitonin to initiate or discontinue antibiotics in acute respiratory
+tract infections. Cochrane Database Syst Rev. 2017;10:CD007498.
+57. Julián-Jiménez A, González del Castillo J, Candel FJ. Usefulness
+and prognostic value of biomarkers in patients with communityacquired pneumonia in the emergency department. Med Clin (Barc).
+2017;148(11):501-510. https://doi.org/10.1016/j.medcli.2017.02.024
+58. Mortensen EM, Halm EA, Pugh MJ, Copeland LA, Metersky M, Fine
+MJ, et al. Association of azithromycin with mortality and cardiovascular
+events among older patients hospitalized with pneumonia. JAMA.
+2014;311(21):2199-208. https://doi.org/10.1001/jama.2014.4304
+59. Lim WS, Baudouin SV, George RC, Hill AT, Jamieson C, Le Jeune
+I, et al. BTS guidelines for the management of community acquired
+pneumonia in adults: update 2009. Thorax. 2009;64 Suppl 3:iii1-55.
+https://doi.org/10.1136/thx.2009.121434
+60. Eccles S, Pincus C, Higgins B, Woodhead M; Guideline Development
+Group. Diagnosis and management of community and hospital
+acquired pneumonia in adults: summary of NICE guidance. BMJ.
+2014;349:g6722. https://doi.org/10.1136/bmj.g6722
+61. Woodhead M, Blasi F, Ewig S, Garau J, Huchon G, Ieven M, et al.
+Guidelines for the management of adult lower respiratory tract
+infections--full version. Clin Microbiol Infect. 2011;17 Suppl 6:E1-59.
+https://doi.org/10.1111/j.1469-0691.2011.03672.x
+62. Grupo de trabajo de la Asociación Latinoamericana del Tórax
+J Bras Pneumol. 2018;44(5):405-424
+
+421
+
+Recomendações para o manejo da pneumonia adquirida na comunidade 2018
+
+(ALAT). Update to the Latin American Thoracic Society (ALAT)
+recommendations on community acquired pneumonia [Article
+in Spanish]. Arch Bronconeumol. 2004;40(8):364-74. https://doi.
+org/10.1016/S1579-2129(06)60322-4
+63. McKinnell J, Classi P, Blumberg P, Murty S, Tillotson G. Clinical
+Predictors of Antibiotic Failure in Adult Outpatients with CommunityAcquired Pneumonia. In: A95 Acute Pneumonia: Clinical studies.
+American Thoracic Society 2017 International Conference, 2017 May
+19-24; Washington DC: Am J Respir Crit Care Med. 2017;195:A2644.
+(Abstract Issue).
+64. Organización Panamericana de la Salud [homepage on the Internet].
+Washington DC: the organization [cited 2017 Oct 8]. Informe Regional
+de SIREVA II, 2014. Datos por país y por grupos de edad sobre las
+características de los aislamientos de Streptococcus pneumoniae,
+Haemophilus influenzae y Neisseria meningitidis, en procesos
+invasores. [Adobe Acrobat document, 358p.]. Available from: http://
+www.paho.org/hq/index.php?option=com_docman&task=doc_downl
+oad&gid=22372&Itemid=270&lang=es
+65. U.S. Department of Health and Human Services; U.S, Food and Drug
+Administration. Silver Spring, MD: FDA [cited 2018 Jan 29]. FDA
+Drug Safety Communication: FDA advises restricting fluoroquinolone
+antibiotic use for certain uncomplicated infections; warns about
+disabling side effects that can occur together. [about 4 screens].
+Available from: https://www.fda.gov/Drugs/DrugSafety/ucm500143.
+htm
+66. Blasi F, Cazzola M, Tarsia P, Cosentini R, Aliberti S, Santus
+P, et al. Azithromycin and lower respiratory tract infections.
+Expert Opin Pharmacother. 2005;6(13):2335-51. https://doi.
+org/10.1517/14656566.6.13.2335
+67. Goldstein RC, Husk G, Jodlowski T, Mildvan D, Perlman DC, Ruhe
+JJ. Fluoroquinolone- and ceftriaxone-based therapy of communityacquired pneumonia in hospitalized patients: the risk of subsequent
+isolation of multidrug-resistant organisms. Am J Infect Control.
+2017;42(5):539-41. https://doi.org/10.1016/j.ajic.2014.01.005
+68. Simonetti AF, Garcia-Vidal C, Viasus D, García-Somoza D, Dorca J,
+Gudiol F, et al. Declining mortality among hospitalized patients with
+community-acquired pneumonia. Clin Microbiol Infect. 2017;22(6):567.
+e1-7. https://doi.org/10.1016/j.cmi.2016.03.015
+69. Postma DF, van Werkhoven CH, van Elden LJ, Thijsen SF, Hoepelman
+AI, Kluytmans JA, et al. Antibiotic treatment strategies for communityacquired pneumonia in adults. N Engl J Med. 2015;372(14):1312-23.
+https://doi.org/10.1056/NEJMoa1406330
+70. Lee JS, Giesler DL, Gellad WF, Fine MJ. Antibiotic Therapy for Adults
+Hospitalized with Community-Acquired Pneumonia: A Systematic
+Review. JAMA. 2016;315(6):593-602. https://doi.org/10.1001/
+jama.2016.0115
+71. Adrie C, Schwebel C, Garrouste-Orgeas M, Vignoud L, Planquette
+B, Azoulay E, et al. Initial use of one or two antibiotics for critically
+ill patients with community-acquired pneumonia: impact on survival
+and bacterial resistance. Crit Care. 2013;17(6):R265. https://doi.
+org/10.1186/cc13095
+72. Díaz-Martín A, Martínez-González ML, Ferrer R, Ortiz-Leyba C,
+Piacentini E, Lopez-Pueyo MJ, et al. Antibiotic prescription patterns
+in the empiric therapy of severe sepsis: combination of antimicrobials
+with different mechanisms of action reduces mortality. Crit Care.
+2012;16(6):R223. https://doi.org/10.1186/cc11869
+73. Gattarello S, Borgatta B, Solé-Violán J, Vallés J, Vidaur L, Zaragoza R, et
+al. Decrease in mortality in severe community-acquired pneumococcal
+pneumonia: impact of improving antibiotic strategies (2000-2013).
+Chest. 2014;146(1):22-31. https://doi.org/10.1378/chest.13-1531
+74. Gattarello S, Lagunes L, Vidaur L, Solé-Violán J, Zaragoza R, Vallés
+J, et al. Improvement of antibiotic therapy and ICU survival in severe
+non-pneumococcal community-acquired pneumonia: a matched casecontrol study. Crit Care. 2015;19:335. https://doi.org/10.1186/s13054015-1051-1
+75. Martin-Loeches I, Lisboa T, Rodriguez A, Putensen C, Annane D,
+Garnacho-Montero J, et al. Combination antibiotic therapy with
+macrolides improves survival in intubated patients with communityacquired pneumonia. Intensive Care Med. 2010;36(4):612-20. https://
+doi.org/10.1007/s00134-009-1730-y
+76. Sligl WI, Asadi L, Eurich DT, Tjosvold L, Marrie TJ, Majumdar SR.
+Macrolides and mortality in critically ill patients with communityacquired pneumonia: a systematic review and meta-analysis.
+Crit Care Med. 2014;42(2):420-32. https://doi.org/10.1097/
+CCM.0b013e3182a66b9b
+77. Lee JH, Kim HJ, Kim YH. Is β-Lactam Plus Macrolide More Effective
+than β-Lactam Plus Fluoroquinolone among Patients with Severe
+Community-Acquired Pneumonia?: a Systemic Review and Meta-
+
+422
+
+J Bras Pneumol. 2018;44(5):405-424
+
+Analysis. J Korean Med Sci. 2017;32(1):77-84. https://doi.org/10.3346/
+jkms.2017.32.1.77
+78. Wunderink RG, Waterer G. Advances in the causes and management
+of community acquired pneumonia in adults. BMJ. 2017;358:j2471.
+https://doi.org/10.1136/bmj.j2471
+79. Dickson RP, Erb-Downward JR, Huffnagle GB. Towards an ecology
+of the lung: new conceptual models of pulmonary microbiology and
+pneumonia pathogenesis. Lancet Respir Med. 2017;2(3):238-46.
+https://doi.org/10.1016/S2213-2600(14)70028-1
+80. Griffin MR, Zhu Y, Moore MR, Whitney CG, Grijalva CG. U.S.
+hospitalizations for pneumonia after a decade of pneumococcal
+vaccination. N Engl J Med. 2013;369(2):155-63. https://doi.
+org/10.1056/NEJMoa1209165
+81. Self WH, Wunderink RG, Williams DJ, Zhu Y, Anderson EJ, Balk
+RA, et al. Staphylococcus aureus Community-acquired Pneumonia:
+Prevalence, Clinical Characteristics, and Outcomes. Clin Infect Dis.
+2016;63(3):300-9. https://doi.org/10.1093/cid/ciw300
+82. Torres A, Blasi F, Dartois N, Akova M. Which individuals are at increased
+risk of pneumococcal disease and why? Impact of COPD, asthma,
+smoking, diabetes, and/or chronic heart disease on communityacquired pneumonia and invasive pneumococcal disease. Thorax.
+2015;70(10):984-9. https://doi.org/10.1136/thoraxjnl-2015-206780
+83. Webb BJ, Dascomb K, Stenehjem E, Dean N. Predicting risk of
+drug-resistant organisms in pneumonia: moving beyond the HCAP
+model. Respir Med. 2015;109(1):1-10. https://doi.org/10.1016/j.
+rmed.2014.10.017
+84. Shindo Y, Ito R, Kobayashi D, Ando M, Ichikawa M, Shiraki A, et al.
+Risk Factors for drug-resistant pathogens in community-acquired
+and healthcare-associated pneumonia. Am J Respir Crit Care Med.
+2013;188(8):985-95. https://doi.org/10.1164/rccm.201301-0079OC
+85. Garin N, Genné D, Carballo S, Chuard C, Eich G, Hugli O, et al.
+β-Lactam monotherapy vs β-lactam-macrolide combination treatment
+in moderately severe community-acquired pneumonia: a randomized
+noninferiority trial. JAMA Intern Med. 2014;174(12):1894-901. https://
+doi.org/10.1001/jamainternmed.2014.4887
+86. Lambert M. IDSA Guidelines on the Treatment of MRSA Infections in
+Adults and Children. Am Fam Physician. 2011;84(4):455-463.
+87. Khan A, Wilson B, Gould IM. Current and future treatment options for
+community-associated MRSA infection. Expert Opin Pharmacother.
+2018;19(5):457-470. https://doi.org/10.1080/14656566.2018.1442826
+88. Taboada M, Melnick D, Iaconis JP, Sun F, Zhong NS, File TM, et al.
+Ceftaroline fosamil versus ceftriaxone for the treatment of communityacquired pneumonia: individual patient data meta-analysis of
+randomized controlled trials. J Antimicrob Chemother. 2016;71(4):86270. Erratum in: J Antimicrob Chemother. 2016 Jun;71(6):1748-9.
+https://doi.org/10.1093/jac/dkv415
+89. Lee YR, Houngue C, Hall RG. Treatment of community-acquired
+pneumonia. Expert Rev Anti Infect Ther. 2015;13(9):1109-21. https://
+doi.org/10.1586/14787210.2015.1060125
+90. Peppard W, Daniels A, Fehrenbacher L, Winner J. Evidence based
+approach to the treatment of community-associated methicillinresistant Staphylococcus aureus. Infect Drug Resist. 2009;2:27-40.
+https://doi.org/10.2147/IDR.S3794
+91. Siberry GK, Tekle T, Carroll K, Dick J. Failure of clindamycin treatment
+of methicillin-resistant Staphylococcus aureus expressing inducible
+clindamycin resistance in vitro. Clin Infect Dis. 2003;37(9):1257-60.
+https://doi.org/10.1086/377501
+92. Gross AE, Van Schooneveld TC, Olsen KM, Rupp ME, Bui TH,
+Forsung E, et al. Epidemiology and predictors of multidrug-resistant
+community-acquired and health care-associated pneumonia.
+Antimicrob Agents Chemother. 2014;58(9):5262-8. https://doi.
+org/10.1128/AAC.02582-14
+93. Tomczyk S, Jain S, Bramley AM, Self WH, Anderson EJ, Trabue C,
+et al. Antibiotic Prescribing for Adults Hospitalized in the Etiology
+of Pneumonia in the Community Study. Open Forum Infect Dis.
+2017;4(2):ofx088. https://doi.org/10.1093/ofid/ofx088
+94. Dimopoulos G, Matthaiou DK, Karageorgopoulos DE, Grammatikos
+AP, Athanassa Z, Falagas ME. Short- versus long-course antibacterial
+therapy for community-acquired pneumonia: a meta-analysis. Drugs.
+2008;68(13):1841-54. https://doi.org/10.2165/00003495-20086813000004
+95. Li JZ, Winston LG, Moore DH, Bent S. Efficacy of short-course
+antibiotic regimens for community-acquired pneumonia: a metaanalysis. Am J Med. 2017;120(9):783-90. https://doi.org/10.1016/j.
+amjmed.2007.04.023
+96. Dunbar LM, Wunderink RG, Habib MP, Smith LG, Tennenberg
+AM, Khashab MM, et al. High-dose, short-course levofloxacin for
+
+Corrêa RA, Costa AN, Lundgren F, Michelin L, Figueiredo MR, Holanda M, Gomes M,
+Teixeira PJZ, Martins R, Silva R, Athanasio RA, Silva RM, Pereira MC
+
+community-acquired pneumonia: a new treatment paradigm. Clin
+Infect Dis. 2003;37(6):752-60. https://doi.org/10.1086/377539
+97. Murray C, Shaw A, Lloyd M, Smith RP, Fardon TC, Schembri S, et al.
+A multidisciplinary intervention to reduce antibiotic duration in lower
+respiratory tract infections. J Antimicrob Chemother. 2014;69(2):5158. https://doi.org/10.1093/jac/dkt362
+98. Carratalà J, Garcia-Vidal C, Ortega L, Fernández-Sabé N, Clemente M,
+Albero G, et al. Effect of a 3-step critical pathway to reduce duration
+of intravenous antibiotic therapy and length of stay in communityacquired pneumonia: a randomized controlled trial. Arch Intern Med.
+2012;172(12):922-8. https://doi.org/10.1001/archinternmed.2012.1690
+99. Mandell LA, Wunderink RG, Anzueto A, Bartlett JG, Campbell GD,
+Dean NC, et al. Infectious Diseases Society of America/American
+Thoracic Society consensus guidelines on the management of
+community-acquired pneumonia in adults. Clin Infect Dis. 2007;44
+Suppl 2:S27-72. https://doi.org/10.1086/511159
+100. Torres A, Ewig S, Lode H, Carlet J; European HAP working group.
+Defining, treating and preventing hospital acquired pneumonia:
+European perspective. Intensive Care Med. 2009;35(1):9-29. https://
+doi.org/10.1007/s00134-008-1336-9
+101. Rhen T, Cidlowski JA. Antiinflammatory action of glucocorticoids-new mechanisms for old drugs. N Engl J Med. 2005;353(16):1711-23.
+https://doi.org/10.1056/NEJMra050541
+102. Siemieniuk RA, Meade MO, Alonso-Coello P, Briel M, Evaniew N,
+Prasad M, et al. Corticosteroid Therapy for Patients Hospitalized With
+Community-Acquired Pneumonia: A Systematic Review and Metaanalysis. Ann Intern Med. 2015;163(7):519-28. https://doi.org/10.7326/
+M15-0715
+103. Wan YD, Sun TW, Liu ZQ, Zhang SG, Wang LX, Kan QC. Efficacy
+and Safety of Corticosteroids for Community-Acquired Pneumonia: A
+Systematic Review and Meta-Analysis. Chest. 2017;149(1):209-19.
+https://doi.org/10.1378/chest.15-1733
+104. Wu WF, Fang Q, He GJ. Efficacy of corticosteroid treatment for
+severe community-acquired pneumonia: A meta-analysis. Am J Emerg
+Med. 2018;36(2):179-184. https://doi.org/10.1016/j.ajem.2017.07.050
+105. Sui D, Zhang W, Zhao H, Wang ZY. Clinical efficacy of glucocorticoids
+in the treatment of severe community acquired pneumonia and its
+impact on CRP. J Clin Pulm Med. 2013;18:1171-3.
+106. Bi J, Yang J, Wang Y, Yao C, Mei J, Liu Y, et al. Efficacy and Safety
+of Adjunctive Corticosteroids Therapy for Severe Community-Acquired
+Pneumonia in Adults: An Updated Systematic Review and MetaAnalysis. PLoS One. 2016;11(11):e0165942. https://doi.org/10.1371/
+journal.pone.0165942
+107. Fernández-Serrano S, Dorca J, Garcia-Vidal C, Fernández-Sabé N,
+Carratalà J, Fernández-Agüera A, et al. Effect of corticosteroids on
+the clinical course of community-acquired pneumonia: a randomized
+controlled trial. Crit Care. 2011;15(2):R96. https://doi.org/10.1186/
+cc10103
+108. Blum CA, Nigro N, Briel M, Schuetz P, Ullmer E, Suter-Widmer
+I, et al. Adjunct prednisone therapy for patients with communityacquired pneumonia : a multicentre, double-blind, randomised,
+placebo-controlled trial. Lancet. 2015;385(9977):1511-8. https://doi.
+org/10.1016/S0140-6736(14)62447-8
+109. Torres A, Sibila O, Ferrer M, Polverino E, Menendez R, Mensa
+J, et al. Effect of corticosteroids on treatment failure among
+hospitalized patients with severe community-acquired pneumonia
+and high inflammatory response: a randomized clinical trial. JAMA.
+2015;313(7):677-86. https://doi.org/10.1001/jama.2015.88
+110. Snijders D, Daniels JM, de Graaff CS, van der Werf TS, Boersman
+WG. Efficacy of corticosteroids in community-acquired pneumonia: a
+randomized double-blinded clinical trial. Am J Respir Crit Care Med.
+2010;181(9):975-82. https://doi.org/10.1164/rccm.200905-0808OC
+111. Confalonieri M, Urbino R, Potena A, Piattella M, Parigi P, Puccio
+G, et al. Hydrocortisone infusion for severe community-acquired
+pneumonia: a preliminary randomized study. Am J Respir Crit Care
+Med. 2005;171(3):242-8. https://doi.org/10.1164/rccm.200406-808OC
+112. Sabry NA, Omar EE. Corticosteroids and ICU course of community
+acquired pneumonia in Egyptian settings. Pharmacol Pharm.
+2011;2(2):73-81. https://doi.org/10.4236/pp.2011.22009
+113. Li G, Gu C, Zhang S, Lian R, Zhang C. Value of glucocorticoid
+steroids in the treatment of patients with severe community-acquired
+
+pneumonia complicated with septic shock. Zhonghua Wei Zhong Bing
+Ji Jiu Yi Xue. 2016;28(9):780-784.
+114. Moreno D, Barroso J, Garcia A. Vaccines for Patients with COPD.
+Recent Pat Inflamm Allergy Drug Discov. 2015;9(1):23-30. https://doi.
+org/10.2174/1872213X09666150223114958
+115. Lundgren F, Maranhão B, Martins R, Chatkin JM, Rabahi MF, Corrêa
+RA, et al. Vaccination in the prevention of infectious respiratory
+diseases in adults. Rev Assoc Med Bras(1992). 2014;60(1):4-15.
+https://doi.org/10.1590/1806-9282.60.02.004
+116. Shrestha S, Foxman B, Dawid S, Aiello AE, Davis BM, Berus J, et al.
+Time and dose-dependent risk of pneumococcal pneumonia following
+influenza: a model for within-host interaction between influenza and
+Streptococcus pneumoniae. J R Soc Interface. 2013;10(86):20130233.
+https://doi.org/10.1098/rsif.2013.0233
+117. Jackson ML, Nelson JC, Weiss NS, Neuzil KM, Barlow W, Jackson
+LA. Influenza vaccination and risk of community-acquired pneumonia
+in immunocompetent elderly people: a population-based, nested
+case-control study. Lancet. 2017;372(9636):398-405. https://doi.
+org/10.1016/S0140-6736(08)61160-5
+118. Zhang YY, Tang XF, Du CH, Wang BB, Bi ZW, Dong BR. Comparison
+of dual influenza and pneumococcal polysaccharide vaccination
+with influenza vaccination alone for preventing pneumonia and
+reducing mortality among the elderly: A meta-analysis. Hum Vaccin
+Immunother. 2016;12(12):3056-3064. https://doi.org/10.1080/216455
+15.2016.1221552
+119. Brasil. Ministério da Saúde. Agência Nacional de Vigilância Sanitária
+(ANVISA) [homepage on the Internet]. Brasília: ANVISA [cited 2018
+Jan 27]. Resolução de Diretoria Colegiada - RDC n° 119, 2016 Oct 27
+Dispõe sobre a composição das vacinas influenza a serem utilizadas
+no Brasil no ano de 2017. [about 1 screen]. Available from: http://
+portal.anvisa.gov.br/documents/10181/3072077/RDC_119_2016_.
+pdf/9cd4cac1-9fbe-4a05-b0c4-f150af0697ff
+120. Demicheli V, Jefferson T, Al-Ansary LA, Ferroni E, Rivetti A, Di
+Pietrantonj C. Vaccines for preventing influenza in healthy adults.
+Cochrane Database Syst Rev. 2014;(3):CD001269.
+121. Almirall J, Serra-Prat M, Bolibar I. Risk factors for community-acquired
+pneumonia in adults: Recommendations for its prevention. Community
+Acquired Infect. 2015;2(2):32-37. https://doi.org/10.4103/22256482.159217
+122. Torres A, Peetermans WE, Viegi G, Blasi F. Risk factors for communityacquired pneumonia in adults in Europe: a literature review. Thorax.
+2013;68(11):1057-65. https://doi.org/10.1136/thoraxjnl-2013-204282
+123. Black C, Yue X, Ball SW, Donahue SM, Izrael D, de Perio MA, et al.
+Influenza Vaccination Coverage Among Health Care Personnel - United
+States, 2015-16 Influenza Season. MMWR Morb Mortal Wkly Rep.
+2016;65(38):1026-31. https://doi.org/10.15585/mmwr.mm6538a2
+124. Aliberti S, Mantero M, Mirsaeidi M, Blasi F. The role of vaccination
+in preventing pneumococcal disease in adults. Clin Microbiol Infect.
+2017;20 Suppl 5:52-8. https://doi.org/10.1111/1469-0691.12518
+125. Sociedade Brasileira de Imunizações (SBIm) [homepage on the
+Internet]. São Paulo: SBIm; c2017 [cited 2018 Jan 27]. Calendário de
+Vacinação SBIm Adulto 2018/2019. [Adobe Acrobat document, 1p.].
+Available from: https://sbim.org.br/images/calendarios/calend-sbimadulto.pdf
+126. Tin Tin Htar M, Stuurman AL, Ferreira G, Alicino C, Bollaerts K,
+Paganino C, et al. Effectiveness of pneumococcal vaccines in
+preventing pneumonia in adults, a systematic review and metaanalyses of observational studies. PLoS One. 2017;12(5):e0177985.
+https://doi.org/10.1371/journal.pone.0177985
+127. de Soárez PC, Sartori AM, Freitas AC, Nishikawa ÁM, Novaes HM.
+Cost-Effectiveness Analysis of Universal Vaccination of Adults Aged
+60 Years with 23-Valent Pneumococcal Polysaccharide Vaccine versus
+Current Practice in Brazil. PLoS One. 2015;10(6):e0130217. https://doi.
+org/10.1371/journal.pone.0130217
+128. Waight PA, Andrews NJ, Ladhani SN, Sheppard CL, Slack MP,
+Miller E. Effect of the 13-valent pneumococcal conjugate vaccine on
+invasive pneumococcal disease in England and Wales 4 years after
+its introduction: an observational cohort study. Lancet Infect Dis.
+2015;15(5):535-43. https://doi.org/10.1016/S1473-3099(15)70044-7
+129. Blamey R. Pneumococcal vaccines in adults: an update [Article
+in Spanish]. Rev Chilena Infectol. 2014;31(5):607-9. https://doi.
+org/10.4067/S0716-10182014000500014
+
+J Bras Pneumol. 2018;44(5):405-424
+
+423
+
+Recomendações para o manejo da pneumonia adquirida na comunidade 2018
+
+ERRATA
+No artigo “Recomendações para o manejo da pneumonia adquirida na comunidade 2018”, com número de DOI:
+10.1590/S1806-37562018000000130, publicado no periódico J Bras Pneumol. 45(5):405-423, na página 411:
+Onde se lia:
+“Recentemente, um estudo demonstrou que se a procalcitonina não cai 50% do seu nível no terceiro dia
+de tratamento e permanece acima de 75 mg/l, há maior risco de morte em 30 dias.(54) Um estudo com 191
+pacientes com PAC internados em UTI mostrou que aqueles 66 pacientes com rápido declínio da procalcitonina
+tiveram mortalidade de 4,8%; 81 com declínio lento tiveram 17,3% de mortalidade; e 44 sem redução na
+procalcitonina tiveram mortalidade de 36,4%.(55)”
+Leia-se:
+“Recentemente, um estudo demonstrou que se a proteína C reativa não cai 50% do seu nível no terceiro dia
+de tratamento e permanece acima de 75 mg/l, há maior risco de morte em 30 dias.(54) Um estudo com 191
+pacientes com PAC internados em UTI mostrou que aqueles 66 pacientes com rápido declínio da proteína C
+reativa tiveram mortalidade de 4,8%; 81 com declínio lento tiveram 17,3% de mortalidade; e 44 sem redução
+na proteína C reativa tiveram mortalidade de 36,4%.(55)”
+
+424
+
+J Bras Pneumol. 2018;44(5):405-424
+
+

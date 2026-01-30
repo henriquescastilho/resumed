@@ -1,0 +1,4088 @@
+www.arquivosonline.com.br
+
+Sociedade Brasileira de Cardiologia • ISSN-0066-782X • Volume 106, Nº 4, Supl. 2, Abril 2016
+
+II DIRETRIZES BRASILEIRAS
+DE FIBRILAÇÃO ATRIAL
+
+II Diretrizes Brasileiras
+de Fibrilação Atrial
+
+Autores da Diretriz:
+Magalhães LP, Figueiredo MJO, Cintra FD, Saad EB, Kuniyishi RR, Teixeira RA, Lorga Filho AM,
+D’Avila A, de Paola AAV, Kalil CA, Moreira DAR, Sobral Filho DC, Sternick EB, Darrieux FCC,
+Fenelon G, Lima GG, Atié J, Mateos JCP, Moreira JM, Vasconcelos JTM, Zimerman LI, Silva LRL,
+Silva MA, Scanavacca MI, Souza OF
+
+www.arquivosonline.com.br
+
+REVISTA DA SOCIEDADE BRASILEIRA DE CARDIOLOGIA - Publicada desde 1948
+
+Diretor Científico
+Raul Dias dos Santos Filho
+
+Cardiologia Cirúrgica
+Paulo Roberto B. Evora
+
+Arritmias/Marcapasso
+Mauricio Scanavacca
+
+Editor-Chefe
+Luiz Felipe P. Moreira
+
+Cardiologia
+Intervencionista
+Pedro A. Lemos
+
+Métodos Diagnósticos
+Não-Invasivos
+Carlos E. Rochitte
+
+Cardiologia Pediátrica/
+Congênitas
+Antonio Augusto Lopes
+
+Pesquisa Básica
+ou Experimental
+Leonardo A. M. Zornoff
+
+Editores Associados
+Cardiologia Clínica
+José Augusto Barreto-Filho
+
+Epidemiologia/Estatística
+Lucia Campos Pellanda
+Hipertensão Arterial
+Paulo Cesar B. V. Jardim
+Ergometria, Exercício
+e Reabilitação Cardíaca
+Ricardo Stein
+Primeiro Editor (1948-1953)
+† Jairo Ramos
+
+Conselho Editorial
+Brasil
+Aguinaldo Figueiredo de Freitas Junior (GO)
+Alfredo José Mansur (SP)
+Aloir Queiroz de Araújo Sobrinho (ES)
+Amanda G. M. R. Sousa (SP)
+Ana Clara Tude Rodrigues (SP)
+André Labrunie (PR)
+Andrei Sposito (SP)
+Angelo A. V. de Paola (SP)
+Antonio Augusto Barbosa Lopes (SP)
+Antonio Carlos C. Carvalho (SP)
+Antônio Carlos Palandri Chagas (SP)
+Antonio Carlos Pereira Barretto (SP)
+Antonio Cláudio L. Nóbrega (RJ)
+Antonio de Padua Mansur (SP)
+Ari Timerman (SP)
+Armênio Costa Guimarães (BA)
+Ayrton Pires Brandão (RJ)
+Beatriz Matsubara (SP)
+Brivaldo Markman Filho (PE)
+Bruno Caramelli (SP)
+Carisi A. Polanczyk (RS)
+Carlos Eduardo Rochitte (SP)
+Carlos Eduardo Suaide Silva (SP)
+Carlos Vicente Serrano Júnior (SP)
+Celso Amodeo (SP)
+Charles Mady (SP)
+Claudio Gil Soares de Araujo (RJ)
+Cláudio Tinoco Mesquita (RJ)
+Cleonice Carvalho C. Mota (MG)
+Clerio Francisco de Azevedo Filho (RJ)
+Dalton Bertolim Précoma (PR)
+Dário C. Sobral Filho (PE)
+Décio Mion Junior (SP)
+Denilson Campos de Albuquerque (RJ)
+Djair Brindeiro Filho (PE)
+Domingo M. Braile (SP)
+Edmar Atik (SP)
+Emilio Hideyuki Moriguchi (RS)
+
+Enio Buffolo (SP)
+Eulógio E. Martinez Filho (SP)
+Evandro Tinoco Mesquita (RJ)
+Expedito E. Ribeiro da Silva (SP)
+Fábio Vilas-Boas (BA)
+Fernando Bacal (SP)
+Flávio D. Fuchs (RS)
+Francisco Antonio Helfenstein Fonseca (SP)
+Gilson Soares Feitosa (BA)
+Glaucia Maria M. de Oliveira (RJ)
+Hans Fernando R. Dohmann (RJ)
+Humberto Villacorta Junior (RJ)
+Ínes Lessa (BA)
+Iran Castro (RS)
+Jarbas Jakson Dinkhuysen (SP)
+João Pimenta (SP)
+Jorge Ilha Guimarães (RS)
+José Antonio Franchini Ramires (SP)
+José Augusto Soares Barreto Filho (SE)
+José Carlos Nicolau (SP)
+José Lázaro de Andrade (SP)
+José Péricles Esteves (BA)
+Leonardo A. M. Zornoff (SP)
+Leopoldo Soares Piegas (SP)
+Lucia Campos Pellanda (RS)
+Luís Eduardo Rohde (RS)
+Luís Cláudio Lemos Correia (BA)
+Luiz A. Machado César (SP)
+Luiz Alberto Piva e Mattos (SP)
+Marcia Melo Barbosa (MG)
+Marcus Vinícius Bolívar Malachias (MG)
+Maria da Consolação V. Moreira (MG)
+Mario S. S. de Azeredo Coutinho (SC)
+Maurício I. Scanavacca (SP)
+Max Grinberg (SP)
+Michel Batlouni (SP)
+Murilo Foppa (RS)
+Nadine O. Clausell (RS)
+Orlando Campos Filho (SP)
+Otávio Rizzi Coelho (SP)
+
+Otoni Moreira Gomes (MG)
+Paulo Andrade Lotufo (SP)
+Paulo Cesar B. V. Jardim (GO)
+Paulo J. F. Tucci (SP)
+Paulo R. A. Caramori (RS)
+Paulo Roberto B. Évora (SP)
+Paulo Roberto S. Brofman (PR)
+Pedro A. Lemos (SP)
+Protásio Lemos da Luz (SP)
+Reinaldo B. Bestetti (SP)
+Renato A. K. Kalil (RS)
+Ricardo Stein (RS)
+Salvador Rassi (GO)
+Sandra da Silva Mattos (PE)
+Sandra Fuchs (RS)
+Sergio Timerman (SP)
+Silvio Henrique Barberato (PR)
+Tales de Carvalho (SC)
+Vera D. Aiello (SP)
+Walter José Gomes (SP)
+Weimar K. S. B. de Souza (GO)
+William Azem Chalela (SP)
+Wilson Mathias Junior (SP)
+Exterior
+Adelino F. Leite-Moreira (Portugal)
+Alan Maisel (Estados Unidos)
+Aldo P. Maggioni (Itália)
+Cândida Fonseca (Portugal)
+Fausto Pinto (Portugal)
+Hugo Grancelli (Argentina)
+James de Lemos (Estados Unidos)
+João A. Lima (Estados Unidos)
+John G. F. Cleland (Inglaterra)
+Maria Pilar Tornos (Espanha)
+Pedro Brugada (Bélgica)
+Peter A. McCullough (Estados Unidos)
+Peter Libby (Estados Unidos)
+Piero Anversa (Itália)
+
+Sociedade Brasileira de Cardiologia
+Editor-Chefe dos Arquivos Brasileiros
+de Cardiologia
+Luiz Felipe P. Moreira
+
+SBC/CE – Sandro Salgueiro Rodrigues
+
+Governador do Capítulo Brasil do ACC
+Roberto Kalil Filho
+
+SBC/DF – José Roberto de Mello Barreto Filho
+
+Coordenadorias Adjuntas
+
+SBC/GO – Aguinaldo Figueiredo Freitas Jr.
+
+Diretora Financeira
+Gláucia Maria Moraes Oliveira
+
+Coordenador de Relações Internacionais
+David de Pádua Brasil
+
+SBC/MA – Márcio Mesquita Barbosa
+
+Diretor Administrativo
+Denilson Campos de Albuquerque
+
+Coordenador da Universidade Corporativa
+Gilson Soares Feitosa Filho
+
+SBC/MS – Delcio Gonçalves da Silva Junior
+
+Diretor de Relações Governamentais
+Renault Mattos Ribeiro Júnior
+
+Coordenador de Diretrizes e Normatizações
+José Francisco Kerr Saraiva
+
+SBC/MT – Max Wagner de Lima
+
+Diretor de Tecnologia da Informação
+Osni Moreira Filho
+
+Coordenador de Registros Cardiovasculares
+Otávio Rizzi Coelho
+
+SBC/PA – Sônia Conde Cristino
+
+Coordenador de Valorização Profissional
+Carlos Japhet da Matta Albuquerque
+
+SBC/PB – Miguel Pereira Ribeiro
+
+Presidente
+Marcus Vinícius Bolívar Malachias
+Vice-Presidente
+Eduardo Nagib Gaui
+Diretor Científico
+Raul Dias dos Santos Filho
+
+Diretor de Comunicação
+Celso Amodeo
+Diretor de Pesquisa
+Leandro Ioshpe Zimerman
+Diretor de Qualidade Assistencial
+Walter José Gomes
+Diretor de Departamentos Especializados
+João David de Sousa Neto
+Diretor de Relacionamento com Estaduais
+e Regionais
+José Luis Aziz
+Diretor de Promoção de Saúde
+Cardiovascular – SBC/Funcor
+Weimar Kunz Sebba Barroso de Souza
+Ouvidor Geral
+Lázaro Fernandes de Miranda
+
+SBC/CO – Danilo Oliveira de Arruda
+
+SBC/ES – Bruno Moulin Machado
+
+SBC/MG – José Carlos da Costa Zanon
+
+SBC/NNE – Claudine Maria Alves Feio
+
+SBC/PE – Paulo Sérgio Rodrigues Oliveira
+
+Coordenador de Novos Projetos
+Fernando Augusto Alves da Costa
+
+SBC/PI – Wildson de Castro Gonçalves Filho
+
+Coordenadores de Educação Continuada
+Marcelo Westerlund Montera e Rui Manuel
+dos Santos Póvoa
+
+SBC/RJ (SOCERJ) – Ricardo Mourilhe Rocha
+
+Conselho de Planejamento Estratégico
+Andrea Araújo Brandão, Ari Timeman, Dalton
+Bertolin Precoma, Fábio Biscegli Jatene
+
+SBC/RO (SOCERON) – João Roberto Gemelli
+
+Editoria do Jornal SBC
+Carlos Eduardo Suaide Silva
+
+SBC/PR – Gerson Luiz Bredt Júnior
+
+SBC/RN – Maria de Fátima Azevedo
+
+SBC/RS (SOCERGS) – Gustavo Glotz de Lima
+SBC/SC – Maria Emilia Lueneberg
+SBC/SE – Sergio Costa Tavares Filho
+
+Presidentes das Soc. Estaduais e Regionais
+SBC/AL – Pedro Ferreira de Albuquerque
+
+SBC/SP (SOCESP) – Ibraim Masciarelli
+Francisco Pinto
+
+SBC/BA – Nivaldo Menezes Filgueiras Filho
+
+SBC/TO – Andrés Gustavo Sánchez
+
+Presidentes dos Departamentos Especializados e Grupos de Estudos
+SBC/DA – André Arpad Faludi
+
+SBCCV – Fabio Biscegli Jatene
+
+GECO – Roberto Kalil Filho
+
+SBC/DCC – José Carlos Nicolau
+
+SBHCI – Marcelo José de Carvalho Cantarelli
+
+GEECABE – José Antônio Marin Neto
+
+SBC/DCC/CP – Maria Angélica Binotto
+
+SOBRAC – Denise Tessariol Hachul
+
+GEECG – Nelson Samesima
+
+SBC/DCM – Elizabeth Regina Giunco Alexandre
+
+GAPO – Bruno Caramelli
+
+GEICPED – Estela Azeka
+
+SBC/DECAGE – José Maria Peixoto
+
+GECC – Mauricio Wajngarten
+
+GEMCA – Álvaro Avezum Junior
+
+SBC/DEIC – Luis Eduardo Paim Rohde
+
+GECESP – Daniel Jogaib Daher
+
+GEMIC – Felix Jose Alvarez Ramires
+
+SBC/DERC – Salvador Manoel Serra
+
+GECETI – Gilson Soares Feitosa Filho
+
+GERCPM – Tales de Carvalho
+
+SBC/DFCVR – João Jackson Duarte
+
+GECHOSP – Evandro Tinoco Mesquita
+
+GERTC – Marcello Zapparoli
+
+SBC/DHA – Eduardo Costa Duarte Barbosa
+
+GECIP – Gisela Martina Bohns Meyer
+
+GETAC – João David de Souza Neto
+
+SBC/DIC – Samira Saady Morhy
+
+GECN – Andréa Maria Gomes Marinho Falcão
+
+GEVAL – Luiz Francisco Cardoso
+
+Arquivos Brasileiros de Cardiologia
+Volume 106, Nº 4, Supl. 2, Abril 2016
+Indexação: ISI (Thomson Scientific), Cumulated Index Medicus (NLM),
+SCOPUS, MEDLINE, EMBASE, LILACS, SciELO, PubMed
+
+Av. Marechal Câmara, 160 - 3º andar - Sala 330
+20020-907 • Centro • Rio de Janeiro, RJ • Brasil
+Tel.: (21) 3478-2700
+E-mail: arquivos@cardiol.br
+www.arquivosonline.com.br
+SciELO: www.scielo.br
+
+Departamento Comercial
+Telefone: (11) 3411-5500
+e-mail: comercialsp@cardiol.br
+Produção Editorial
+SBC - Tecnologia da Informação e
+Comunicação
+Núcleo Interno de Publicações
+
+Produção Gráfica e Diagramação
+SBC - Tecnologia da Informação e
+Comunicação
+Núcleo Interno de Publicações
+
+Os anúncios veiculados nesta edição são de exclusiva responsabilidade dos
+anunciantes, assim como os conceitos emitidos em artigos assinados são de
+exclusiva responsabilidade de seus autores, não refletindo necessariamente a
+opinião da SBC.
+
+Material de distribuição exclusiva à classe médica. Os Arquivos Brasileiros de
+Cardiologia não se responsabilizam pelo acesso indevido a seu conteúdo e que
+contrarie a determinação em atendimento à Resolução da Diretoria Colegiada
+(RDC) nº 96/08 da Agência Nacional de Vigilância Sanitária (Anvisa), que atualiza
+o regulamento técnico sobre Propaganda, Publicidade, Promoção e informação de
+Medicamentos. Segundo o artigo 27 da insígnia, "a propaganda ou publicidade de
+medicamentos de venda sob prescrição deve ser restrita, única e exclusivamente,
+aos profissionais de saúde habilitados a prescrever ou dispensar tais produtos (...)".
+
+Garantindo o acesso universal, o conteúdo científico do periódico continua
+disponível para acesso gratuito e integral a todos os interessados no endereço:
+www.arquivosonline.com.br.
+
+Filiada à Associação
+Médica Brasileira
+
+APOIO
+
+Sumário
+1. Introdução.......................................................................................................................................página 1
+1.1. Necessidade de atualização................................................................................................................página 1
+
+2.Mudanças epidemiológicas da fibrilação atrial nas últimas décadas..................página 1
+2.1. Fatores clínicos predisponentes..........................................................................................................página 1
+2.2. Classificação clínica............................................................................................................................página 2
+2.3. Prognóstico.........................................................................................................................................página 2
+
+3. Prevenção de fenômenos tromboembólicos...................................................................página 3
+3.1. Algoritmos de avaliação do risco de fenômenos tromboembólicos e de sangramento........................página 3
+3.2. Novos anticoagulantes disponíveis na prática clínica..........................................................................página 4
+3.2.1. Dabigatrana.....................................................................................................................................página 4
+3.2.2. Rivaroxabana...................................................................................................................................página 4
+3.2.3. Apixabana........................................................................................................................................página 5
+3.2.4. Edoxabana.......................................................................................................................................página 5
+3.3. Orientações aos pacientes em uso de anticoagulação........................................................................página 5
+3.3.1. Pacientes em uso de antagonistas da vitamina K...........................................................................página 5
+3.3.2. Pacientes em uso dos novos anticoagulantes orais........................................................................página 6
+3.4. Orientações nos casos de sangramento com os novos anticoagulantes..............................................página 6
+3.5. Uso dos novos anticoagulantes em situações especiais......................................................................página 7
+3.5.1. Cardioversão elétrica......................................................................................................................página 7
+3.5.2. Fibrilação atrial valvar.....................................................................................................................página 7
+3.6. Oclusão percutânea do apêndice atrial esquerdo................................................................................página 7
+3.6.1. Dispositivos para oclusão do apêndice atrial esquerdo.................................................................página 8
+3.6.1.1. Dispositivo WATCHMAN®.............................................................................................................página 8
+3.6.1.2. Dispositivo AMPLATZER CARDIAC PLUG®......................................................................................página 8
+3.6.1.3. Dispositivo LARIAT®.......................................................................................................................página 8
+
+4. Drogas antiarrítmicas mais utilizadas no manejo clínico da fibrilação atrial..página 8
+4.1. Medicamentos utilizados para manutenção do ritmo sinusal..............................................................página 9
+4.2. Medicamentos utilizados para controle da frequência.........................................................................página 9
+
+5. Ablação por cateter na fibrilação atrial.............................................................................página 10
+5.1. Controle da frequência cardíaca..........................................................................................................página 11
+5.2. Controle do ritmo................................................................................................................................página 11
+
+6. Novas tecnologias de mapeamento e ablação..............................................................página 12
+7. Sistemas de mapeamento tridimensional.......................................................................página 13
+8. Ecocardiograma intracardíaco...............................................................................................página 13
+9. Angiografia rotacional...............................................................................................................página 13
+10. Tecnologias dos cateteres de ablação.............................................................................página 13
+11. Tecnologias de navegação robótica..................................................................................página 14
+12. Tratamento cirúrgico da fibrilação atrial........................................................................página 14
+13. Tratamento híbrido da fibrilação atrial............................................................................página 15
+
+Anexo I – Principais medicamentos e posologia utilizada em pacientes
+portadores de fibrilação atrial.....................................................................................................página 16
+Anexo II – Efeitos adversos mais comuns..............................................................................página 16
+Referências..........................................................................................................................................página 16
+
+II Diretrizes Brasileiras de Fibrilação Atrial
+Realização
+Sociedade Brasileira de Cardiologia e Sociedade Brasileira de Arritmias Cardíacas (SBC/SOBRAC)
+
+Conselho de Normatizações e Diretrizes
+Antonio Carlos Sobral Sousa, Claudio Pereira da Cunha, Lucélia Batista Neves Cunha Magalhães, Sergio Emanuel Kaiser
+
+Coordenador de Normatizações e Diretrizes
+José Francisco Kerr Saraiva
+
+Presidente SOBRAC
+Denise Tessariol Hachul
+
+Coordenadores
+Fatima Dumas Cintra e Marcio Jansen de Oliveira Figueiredo
+
+Autores
+Adalberto Menezes Lorga Filho, Andre Luiz Buchele D’Avila, Angelo Amato Vincenzo de Paola, Carlos Antonio Abunader
+Kalil, Dalmo Antonio Ribeiro Moreira, Dario Celestino Sobral Filho, Eduardo Back Sternick, Eduardo Benchimol Saad,
+Fatima Dumas Cintra*, Francisco Carlos da Costa Darrieux, Guilherme Fenelon, Gustavo Glotz de Lima, Jacob Atié,
+José Carlos Pachón Mateos, José Marcos Moreira, José Tarcísio Medeiros de Vasconcelos, Leandro Ioschpe Zimerman,
+Luiz Pereira de Magalhães, Luiz Roberto Leite da Silva, Marcio Augusto Silva, Marcio Jansen de Oliveira Figueiredo*,
+Mauricio Ibrahim Scanavacca, Olga Ferreira de Souza, Ricardo Ryoshim Kuniyoshi
+Esta diretriz deverá ser citada como:
+Magalhães LP, Figueiredo MJO, Cintra FD, Saad EB, Kuniyishi RR, Teixeira RA, et al. II Diretrizes Brasileiras de Fibrilação
+Atrial. Arq Bras Cardiol 2016; 106(4Supl.2):1-22
+Nota: estas Diretrizes se prestam a informar e não a substituir o julgamento clínico do médico que, em última análise,
+deve determinar o tratamento apropriado para seus pacientes.
+Correspondência:
+Sociedade Brasileira de Cardiologia
+Av. Marechal Câmara, 360/330 – Centro – Rio de Janeiro – CEP: 20020-907
+e-mail: scb@cardiol.br
+
+DOI: 10.5935/abc.20160055
+
+Declaração de potencial conflito de interesses dos autores/colaboradores das
+II Diretrizes Brasileiras de Fibrilação Atrial da Sociedade Brasileira de Cardiologia
+Se nos últimos 3 anos o autor/colaborador das Diretrizes:
+
+Nomes Integrantes da
+Diretriz
+
+Participou de
+estudos clínicos e/
+ou experimentais
+subvencionados pela
+indústria farmacêutica
+ou de equipamentos
+relacionados à diretriz
+em questão
+
+Foi palestrante
+em eventos
+ou atividades
+patrocinadas
+pela indústria
+relacionados
+à diretriz em
+questão
+
+Foi (é) membro
+do conselho
+consultivo
+ou diretivo
+da indústria
+farmacêutica
+ou de
+equipamentos
+
+Participou
+de comitês
+normativos
+de estudos
+científicos
+patrocinados
+pela indústria
+
+Recebeu
+auxílio
+pessoal ou
+institucional
+da indústria
+
+Elaborou
+textos
+científicos
+em
+periódicos
+patrocinados
+pela
+indústria
+
+Tem
+ações da
+indústria
+
+Adalberto Menezes Lorga
+Filho
+
+Boehringer Ingelheim,
+Bayer, Pfizer
+
+Boehringer
+Ingelheim, Bayer,
+Pfizer, DaiichiSankyo, Abbot
+
+Pfizer, DaiichiSankyo
+
+Não
+
+Não
+
+Bayer, Pfizer,
+Abbot
+
+Não
+
+Andre Luiz BucheleE D'Avila
+
+Não
+
+Não
+
+Não
+
+Não
+
+Não
+
+Não
+
+Não
+
+Angelo Amato Vincenzo de
+Paola
+
+Boehringer
+
+Bayer
+
+Não
+
+Não
+
+Não
+
+Não
+
+Não
+
+Carlos Antonio Abunader Kalil
+
+Daiichi Sankyo, BristolMyers Squibb, Bayer,
+Johnson
+
+Bayer
+
+Não
+
+Não
+
+Daiichi
+Sankyo,
+Bristol-Myers
+Squibb,
+Bayer,
+Johnson
+
+Não
+
+Não
+
+Dalmo Antonio Ribeiro
+Moreira
+
+Não
+
+Bayer, Pfizer,
+Daiichi-Sankyo
+
+Daiichi Sankyo
+
+Não
+
+Bayer, Pfizer
+
+Bayer, Pfizer
+
+Não
+
+Dário C. Sobral Filho
+
+Daiichi-Sankyo
+
+Bayer e DaiichiSankyo
+
+Não
+
+Não
+
+Não
+
+Não
+
+Não
+
+Eduardo Back Sternick
+
+Não
+
+Não
+
+Não
+
+Não
+
+Não
+
+Não
+
+Não
+
+Não
+
+Não
+
+Eduardo B. Saad
+
+Não
+
+Pfiser
+
+Não
+
+Não
+
+St. Jude,
+Biosense
+
+Fatima Dumas Cintra
+
+Não
+
+Não
+
+Não
+
+Não
+
+Não
+
+Não
+
+Não
+
+Francisco Darrieux
+
+Não
+
+Boehringer
+Ingelheim, Bayer,
+Pfizer
+
+Boehringer
+Ingelheim
+
+Não
+
+Boehringer
+Ingelheim,
+Bayer, Pfizer
+
+Boehringer
+Ingelheim,
+Bayer, Libbs.
+
+Não
+
+Guilherme Fenelon
+
+Medtronic
+
+Daichi Sankyo
+
+Não
+
+Não
+
+Medtronic,
+St Jude,
+Biosense
+
+Abbott
+
+Não
+
+Gustavo Glotz de Lima
+
+Bristol-Myers Squibb,
+Pfizer
+
+Bayer, Remedica,
+Daiichi Sankyo
+
+Não
+
+St Jude
+Medical
+
+St Jude
+Medical
+
+Não
+
+Jacob Atié
+
+Não
+
+Pfizer
+
+Não
+
+não
+
+não
+
+Não
+
+não
+
+José Carlos Pachón Mateos
+
+Não
+
+Não
+
+Não
+
+Não
+
+Não
+
+Não
+
+Não
+
+José Marcos Moreira
+
+Não
+
+Não
+
+Não
+
+Não
+
+Não
+
+Não
+
+Não
+
+José Tarcísio Medeiros de
+Vasconcelos
+
+Não
+
+Bristol/Pfizer,
+Boehringer, Bayer
+
+St Jude Medical
+
+Não
+
+Não
+
+Lab Avert
+
+Não
+
+Leandro Ioschpe Zimerman
+
+Não
+
+Boehringer
+Ingelheim, Bayer,
+Pfizer
+
+Pfizer
+
+Não
+
+Bayer,
+Boehringer
+Ingelheim,
+Pfize
+
+Abbott, Pfizer
+
+Não
+
+Luiz Pereira de Magalhães
+
+Não
+
+Não
+
+Não
+
+Não
+
+Não
+
+Bayer
+
+Não
+
+Luiz Roberto Leite da Silva
+
+Não
+
+Biosense Webster
+
+Não
+
+Não
+
+Não
+
+Abbot
+
+Não
+
+Marcio Augusto Silva
+
+Não
+
+Johnson&Johnson
+
+Não
+
+Não
+
+St. Jude
+Medical /
+Bayer
+
+Não
+
+Não
+
+Continuação
+Márcio Jansen de Oliveira
+Figueiredo
+
+Não
+
+Bayer, Daiichi
+Sankyo, Abbott
+
+Daiichi Sankyo,
+Libbs
+
+Não
+
+Não
+
+Não
+
+Não
+
+Mauricio Scanavacca
+
+Estrudo X-Vert Bayer
+
+Bayer, Daichii
+Sankyo, St. Jude,
+J&J
+
+J&J, Daichii
+Sankyo
+
+Estrudo X-Vert
+Bayer,
+
+Bayer, Daichii
+Sankyo, St.
+Jude, J&J
+
+Abbot
+
+Não
+
+Olga Ferreira de Souza
+
+Não
+
+Não
+
+Não
+
+Não
+
+Não
+
+Não
+
+Não
+
+Ricardo Alkmim Teixeira
+
+Biotronik
+
+Medtronic,
+Biotronik
+
+Não
+
+Não
+
+Biotronik, St
+Jude Medical
+
+Abbott
+
+Não
+
+Ricardo Ryoshim Kuniyoshi
+
+Não
+
+Não
+
+Não
+
+Não
+
+Não
+
+Não
+
+Não
+
+Siglas utilizadas nos textos e nas tabelas
+Abreviações
+
+Significado
+
+FA
+
+Fibrilação Atrial
+
+AA
+
+Antiarrítmicas
+
+FC
+
+Frequência Cardíaca
+
+AAE
+
+Apêndice Atrial Esquerdo
+
+HR
+
+Hazard Ratio
+
+AAS
+
+Ácido Acetilacetílico
+
+IC
+
+Insuficiência Cardíaca
+
+ACO
+
+Anticoagulante Oral
+
+ICE
+
+abreviatura do inglês Intracardiac Echocardiogram
+
+AE
+
+Átrio Esquerdo
+
+MP
+
+Marca-Passo
+
+AIT
+
+Ataque Isquêmico Transitório
+
+NACO
+
+novos anticoagulantes orais
+
+AOS
+
+Apneia Obstrutiva do Sono
+
+PFC
+
+Plasma Fresco Congelado
+
+AV
+
+Atrioventricular
+
+RF
+
+Radiofrequência
+
+AVC
+
+Acidente Vascular Cerebral
+
+RNI
+
+Razão Normalizada Internacional
+
+AVK
+
+Antagonistas da Vitamina K
+
+SBC
+
+Sociedade Brasileira de Cardiologia
+
+CCP
+
+Concentrados de Complexos Protrombínicos
+
+SOBRAC
+
+Sociedade Brasileira de Arritmias Cardíacas
+
+CDI
+
+Cardioversor Desfibrilador Implantável
+
+TRC
+
+Terapia de Ressincronização Cardíaca
+
+CPAP
+
+abreviatura do inglês continuous positive airway pressure
+
+II Diretrizes Brasileiras de Fibrilação Atrial
+
+Diretrizes
+1. Introdução
+1.1. Necessidade de atualização
+Atualmente, existe uma enorme quantidade de evidências
+científicas sobre um determinado assunto, com o objetivo
+de auxiliar os médicos na escolha da melhor abordagem
+do paciente na prática clínica diária. As diretrizes resumem
+e avaliam todas essas evidências, e a Sociedade Brasileira
+de Cardiologia (SBC) periodicamente emite esse tipo de
+documento, com foco em várias afecções cardiovasculares.
+Desde 2009, quando a SBC divulgou as Diretrizes
+Brasileiras de Fibrilação Atrial1 foram publicados vários
+estudos importantes sobre o tema, notadamente com
+respeito aos Novos Anticoagulantes Orais (NACO) 2-6
+e pelo menos três desses medicamentos (dabigatrana,
+rivaroxabana e apixabana) encontram-se atualmente
+aprovados para uso clínico no Brasil.
+Além do tratamento farmacológico, novos dados
+relacionados com o tratamento não farmacológico
+[notadamente a ablação com radiofrequência (RF)]
+permitiram ampliar a indicação para o uso dessa modalidade
+terapêutica. O papel da ablação continua evoluindo
+rapidamente, com melhora na eficácia e segurança do
+procedimento. Esse avanço resultou em aumento nas
+evidências de que, em algumas situações, a ablação pode
+ser considerada superior ao tratamento farmacológico,7-11
+fazendo com que o papel dessa modalidade terapêutica
+deva ser revisto.
+Todas essas novidades trouxeram grande impacto na
+clínica cardiológica, tornando necessária uma atualização.
+Assim, a SBC e a Sociedade Brasileira de Arritmias Cardíacas
+(SOBRAC) optaram por incluir as novas evidências e
+tratamentos para essa importante arritmia, que afeta um
+grande número de pessoas e faz parte do dia a dia de todos
+os cardiologistas.
+
+2. Mudanças epidemiológicas da fibrilação
+atrial nas últimas décadas
+Nas últimas duas décadas, a Fibrilação Atrial (FA) tornou‑se
+um importante problema de saúde pública, com grande
+consumo de recursos em saúde. Apresenta importante
+repercussão na qualidade de vida, em especial devido a
+suas consequências clínicas, fenômenos tromboembólicos
+e alterações cognitivas. Nos Estados Unidos, estima-se que
+sua prevalência será de 15,9 milhões em 2050, com metade
+desses pacientes apresentando idade superior a 80 anos.12
+Dessa forma, é crucial uma visão epidemiológica e social
+clara do impacto dessa arritmia, com o objetivo de uso
+adequado de recursos em saúde e planejamento estratégico
+de políticas em saúde.
+A FA é a arritmia sustentada mais frequente na prática clínica,
+e sua prevalência na população geral foi estimada entre 0,5
+e 1%. Estudos mais recentes, entretanto, demonstram que a
+prevalência é quase o dobro da observada na década passada,
+variando de 1,9%, na Itália, a 2,9%, na Suécia.13 Além disso,
+possivelmente esses números ainda estão subestimados, uma
+vez que muitos casos (10 a 25%) não provocam sintomas.
+
+Estudos americanos com pessoas acima de 65 anos
+demonstram um aumento na prevalência de FA em 0,3% ao
+ano e crescimento absoluto de 4,5%, no período de 1993
+a 2007, possivelmente associado ao aumento na idade.
+A figura 1 demonstra com clareza a relação da idade com
+a FA, sendo que, em pacientes com menos de 60 anos, a
+prevalência é inferior a 0,1%, ao passo que, naqueles acima
+de 80 anos, sua prevalência é de 8%.1
+Além do envelhecimento populacional, outros potenciais
+fatores podem ser levantados para explicar o incremento
+na prevalência de FA. Um deles é a maior habilidade de
+tratamento de doenças cardíacas crônicas, contribuindo para
+um número maior de indivíduos suscetíveis a FA. A melhoria
+nos recursos de investigação, com o uso de ferramentas
+para monitorização prolongada na prática clínica, também
+pode ser levantada como um fator contribuinte ao aumento
+da prevalência, uma vez que pacientes portadores de FA
+sintomática podem ter a sua arritmia documentada.
+A prevalência também sofre influência do sexo. A razão
+homem-mulher observada na FA é de aproximadamente
+1.2:1. Apesar da maior predisposição no sexo masculino, as
+mulheres representam maior massa de pacientes com FA,
+devido à sua maior sobrevida. Além disso, é conhecida a
+maior susceptibilidade a fenômenos tromboembólicos e a
+mortalidade observada no sexo feminino.14,15
+Finalmente, em relação à classificação, a forma de
+apresentação permanente é a mais frequente, de acordo
+com estudos clínicos observacionais, ocorrendo em
+aproximadamente 40 a 50% dos pacientes,16 seguida pelas
+formas paroxísticas e persistentes.
+2.1. Fatores clínicos predisponentes
+A FA ocorre quando anormalidades eletrofisiológicas
+alteram o tecido atrial e promovem formação/propagação
+anormal do impulso elétrico. Muitos fatores de risco
+clínicos estão associados ao aumento no risco de FA e,
+possivelmente, participam da elevação na prevalência
+observada nas últimas décadas. Além dos fatores de risco
+clássicos [hipertensão, diabetes, doença valvar, infarto
+do miocárdio e insuficiência cardíaca (IC)],17,18 podemos
+observar novos fatores de risco potenciais, que podem
+ocasionar grandes implicações no manejo clínico da FA.
+Dentre eles, destacam-se a presença de Apneia Obstrutiva
+do Sono (AOS),19 obesidade,20 uso de bebidas alcoólicas,21
+exercício físico,22 história familiar e fatores genéticos,23,24
+mas, na prática clínica, a influência da obesidade e da
+AOS parece impactar significativamente na abordagem
+terapêutica dos pacientes portadores de FA.
+A AOS é caracterizada pela obstrução, completa ou
+parcial, recorrente das vias aérea superiores durante o
+sono, resultando em períodos de apneia, dessaturação
+de oxiemoglobina, e em despertares noturnos frequentes.
+Os mecanismos relacionados a anormalidade do sono
+e o dano cardiovascular possivelmente são inúmeros.
+No entanto, três fatores principais merecem destaque:
+hipóxia intermitente, despertares frequentes e alterações
+na pressão intratorácica. Essas alterações acabam por
+desencadear hiperatividade do sistema nervoso simpático,
+
+Arq Bras Cardiol 2016; 106(4Supl.2):1-22
+
+1
+
+II Diretrizes Brasileiras de Fibrilação Atrial
+
+Diretrizes
+
+Figura 1 – Prevalência de fibrilação atrial associada ao incremento na idade.
+
+disfunção endotelial e inflamação,25,26 culminando com
+o aparecimento de várias comorbidades cardiovasculares
+− dentre elas, a FA.
+Em estudo prospectivo com pacientes referidos para a
+cardioversão elétrica de FA/flutter atrial, observaram-se 82%
+de recorrência nos pacientes com AOS sem tratamento
+ou com tratamento inadequado e 42% de recorrência nos
+pacientes tratados.27 Além disso, no grupo de pacientes
+não tratados, a recorrência foi ainda maior entre os que
+apresentavam maior queda na saturação de oxigênio, durante
+o evento de apneia. A influência da AOS também foi verificada
+após o isolamento elétrico das VP, como estratégia de controle
+do ritmo em pacientes com FA. Os autores demonstraram que
+o tratamento com CPAP (abreviatura do inglês continuous
+positive airway pressure) resultou em uma maior taxa de
+sobrevida livre de FA quando comparado com o grupo com
+AOS sem tratamento efetivo (71,9% vs. 36,7%; p = 0,01).28
+A taxa de recorrência dos pacientes apneicos tratados com
+CPAP foi semelhante à observada em indivíduos sem AOS
+(HR: 0,7; p = 0,46). A recorrência de FA após isolamento
+elétrico das VP, no grupo sem tratamento com CPAP, foi
+significativamente mais alta e semelhante à de pacientes
+com AOS que tiveram a FA controlada com medicamentos
+sem o tratamento intervencionista. Duas importantes
+metanálises sobre o assunto foram concluídas recentemente,
+demonstrando a influência significativa da apneia no aumento
+da taxa de recorrência de FA após ablação por cateter e
+os benefícios da terapia com CPAP, enfatizando, assim, a
+necessidade do reconhecimento dessa condição em pacientes
+com FA elegíveis ao tratamento intervencionista.29,30
+2.2. Classificação clínica
+A classificação mais utilizada na prática clínica refere‑se
+a forma de apresentação da FA. Define-se “fibrilação atrial
+
+2
+
+Arq Bras Cardiol 2016; 106(4Supl.2):1-22
+
+paroxística” aquela que é revertida espontaneamente
+ou com intervenção médica em até 7 dias de seu início.
+Episódios com duração superior a 7 dias têm o nome de
+“fibrilação atrial persistente”. Alguns estudos utilizam
+a terminologia de “fibrilação atrial persistente de longa
+duração” para designar os casos com duração superior a
+1 ano. Finalmente, o termo “fibrilação atrial permanente”
+é utilizado nos casos em que as tentativas de reversão ao
+ritmo sinusal não serão mais instituídas.
+“Fibrilação atrial não valvar” é definida por FA na ausência
+de estenose mitral reumática, válvula mecânica ou biológica
+ou plastia mitral prévia.
+2.3 Prognóstico
+Estudos epidemiológicos demonstram clara associação entre
+FA e risco de Acidente Vascular Cerebral (AVC), isquêmico
+ou hemorrágico, e mortalidade. Alterações cognitivas, IC e
+implicações socioeconômicas também são consequências
+importantes da FA. Em estudos clínicos envolvendo pacientes
+com IC, a FA foi considerada fator de risco independente para
+mortalidade. IC e FA coexistem em uma alta porcentagem de
+pacientes (22 a 42%). Além disso, o aparecimento de FA em
+pacientes portadores de IC está associado à elevação de duas
+vezes o risco de morte em comparação com os indivíduos sem
+o distúrbio do ritmo.18,31,32
+Em indivíduos acima de 65 anos, a mortalidade associada
+à FA é de 10,8% em 30 dias após o diagnóstico da arritmia,
+chegando a 42% em 3 anos de acompanhamento. 33
+Pacientes com 65 anos apresentam risco relativo de morte
+de 4,88 para mulheres e de 3,07 para homens em 1 ano.
+A FA é um preditor significativo de morte por todas as
+causas na presença de insuficiência renal, câncer e doença
+pulmonar obstrutiva crônica.34
+
+II Diretrizes Brasileiras de Fibrilação Atrial
+
+Diretrizes
+3. Prevenção de fenômenos
+tromboembólicos
+
+Tabela 1 – Escore de CHADS2 utilizado para avaliação de risco
+para fenômenos tromboembólicos em pacientes portadores de
+fibrilação atrial
+
+3.1. Algoritmos de avaliação do risco de fenômenos
+tromboembólicos e de sangramento
+
+Critérios de risco CHADS2
+Cardiac failure (IC)
+
+1
+
+A FA é a principal fonte emboligênica de origem cardíaca
+de que se tem conhecimento, representando cerca de 45%
+dos casos quando comparada com outras cardiopatias,
+como infarto do miocárdio, aneurismas ventriculares e
+doenças valvares.2 Em condições não relacionadas a doenças
+concomitantes ou a fatores de risco apropriados, raramente o
+trombo se forma em pacientes com FA. As causas da formação
+de trombos são multifatoriais e estão relacionadas com a tríade
+de Virchow que inclui: (1) estase sanguínea atrial; (2) lesão
+endotelial; (3) aumento da trombogenicidade sanguínea,
+própria dessa arritmia.3 No primeiro caso, a lentificação do
+fluxo na região do Apêndice Atrial Esquerdo (AAE) favorece
+a estase sanguinea e a formação de coágulos de fibrina, que
+se acumulam e geram o trombo. Essas estruturas se deslocam
+daquela pequena cavidade, vão para o território atrial e se
+desprendem para a circulação sistêmica. Infelizmente, o
+cérebro, muito mais que membros e vísceras, é a região mais
+afetada, em cerca de 80% dos casos. O aspecto morfológico
+do apêndice atrial também pode desempenhar um papel
+importante no risco de tromboembolismo sistêmico.4-6
+
+Hypertension (Hipertensão)
+
+1
+
+Age ≥ 75 (idade ≥ 75 anos)
+
+1
+
+Diabetes mellitus (diabetes melito)
+
+1
+
+Stroke or TIA (histórico de AVC ou AIT)
+
+2
+
+Além disso, estudos da década de 1970 já mostravam que
+lesões do endocárdio atrial apresentavam microtrombos e que
+estes eram os precursores de trombos maiores.7 Pacientes que
+não apresentavam tais lesões tinham muito menor propensão
+à trombose atrial. O atrito do sangue com o endocárdio, lesões
+miocitárias causadas por agressões teciduais secundárias a
+citocinas inflamatórias (fator de necreose tumoral, interleucina
+6, proteína C-reativa e outras) prejudicam ainda mais os
+miócitos atriais e expõem tecido colágeno na superfície, o
+que aumenta a aderência de plaquetas e a deposição de
+fibrina, gerando o trombo. Dessa forma, a FA cria um estado
+pró-trombótico, hipercoagulável próprio.8
+O aumento da agregação plaquetária [mais intensa no
+átrio esquerdo (AE)],9 a elevação dos níveis plasmáticos do
+fator de Von Wilebrand, os fragmentos de protrombina e
+do fibrinogênio plasmático, dentre outros, confirmam essa
+maior trombogenicidade sanguínea, independentemente de
+qualquer outro fator.8 Assim, as três condições estabelecidas
+por Virshow estão presentes em paciente com FA.
+Apesar disso, nem todos os pacientes com FA evoluem com
+tromboembolismo sistêmico, indicando que outros fatores
+estão presentes nessa condição, e que sua identificação pode
+facilitar a indicação e tornar menos empírico o tratamento
+com ACO nos pacientes acometidos. Estudos realizados em
+décadas passadas apontaram a presença de fatores de risco
+comuns aos pacientes com FA associada ao tromboembolismo
+sistêmico.10,11,35 Nestes estudos, idade (acima de 75 anos),
+história prévia de AVC, presença de IC, diabetes e sexo
+feminino eram os fatores mais frequentemente presentes.
+Assim, em 2001, foi possível a primeira descrição de um escore
+de risco para fenômeno tromboembólico em pacientes com
+FA, que incluiu a maioria desses fatores para ser aplicada em
+pacientes ambulatoriais36 (Tabela 1).
+
+Pontuação
+
+IC: insuficiência cardíaca; AVC: acidente vascular cerebral; AIT: ataque
+isquêmico transitório.
+
+À medida que a pontuação aumentava, foi possível
+determinar que o risco de AVC também aumentava.
+Passou‑se a indicar a anticoagulação para pacientes com
+escore CHADS2 ≥ 2 (risco elevado) enquanto que pacientes
+com escores entre zero e 1, apesar de apresentarem
+algum risco (por volta de 2,8 a 4% ao ano), não tinham a
+anticoagulação contemplada. O escore CHADS2, portanto,
+identificava particularmente indivíduos de alto risco, ou seja,
+aqueles que realmente deveriam ser tratados.
+Devido à maior propensão de pacientes com FA de
+apresentarem risco inerente à própria arritmia de formar
+coágulos, independentemente de outros fatores, parece
+clara a necessidade de se identificar exatamente aquele
+de menor risco e excluí-lo da necessidade de anticoagular,
+por meio da inclusão de outros critérios de risco que
+possam caracterizá‑los. Em outras palavras, ficariam fora da
+necessidade de terapia com ACO os pacientes com real risco
+baixo. Por essa razão, outras variáveis, que foram identificadas
+naqueles estudos clínicos como importantes fatores de risco
+e que não estavam presentes no escore CHADS2, passaram
+a ser valorizadas. Passou-se a considerar que pacientes de
+muito baixo risco, ou seja, pacientes nos quais aquelas
+variáveis não eram encontradas, não necessitariam de
+anticoagulação. Os fatores de risco incorporados a essa nova
+proposta incluíam sexo feminino, doença vascular periférica
+e idade entre 64 e 75 anos. No entanto, mais importante
+ainda foi a valorização da idade acima de 75 anos (2 pontos).
+Com essas informações, foi criado o escore CHA2DS2‑VASc
+(Tabela 2).37 A grande vantagem de sua utilização é que
+pacientes com escore zero não necessitam anticoagulação,
+pois o risco de complicação trombótica, neste caso, é
+muito baixo. No caso de CHA2DS2‑VASc igual a 1, o risco
+é considerado baixo (1,3% ao ano), e a anticoagulação é
+opcional e fica na dependência do risco de sangramento e
+opção do paciente. Em outras palavras, são identificados, por
+meio desse escore de risco, os pacientes verdadeiramente
+de baixo risco.38 Na prática, esse fato indica que todos os
+pacientes com FA devem ser anticoagulados, exceto aqueles
+de baixo risco identificados pelo escore CHA2DS2-VASc.
+Pacientes com FA apresentam, por outro lado, um risco
+maior de hemorragia quando tratados com ACO. História de
+sangramento, disfunção renal ou hepática, bem como
+a hipertensão arterial não controlada (níveis pressóricos
+
+Arq Bras Cardiol 2016; 106(4Supl.2):1-22
+
+3
+
+II Diretrizes Brasileiras de Fibrilação Atrial
+
+Diretrizes
+Tabela 2 – (A) Escore de CHA2DS2-VASc utilizado para avaliação de risco para fenômenos tromboembólicos em pacientes portadores de
+fibrilação atrial. (B) Taxa ajusta de eventos por ano de acordo com o escore.
+(A)
+CHA2DS2-VASc
+
+Pontuação
+
+Congestive heart failure/left ventricular dysfunction (ICC/ disfunção ventricular esquerda)
+
+1
+
+Hypertension (hipertensão)
+
+1
+
+Age ≥ 75 yrs (Idade ≥ 75 anos)
+
+2
+
+Diabetes mellitus (diabetes melito)
+
+1
+
+Stroke/transient ischaemic attack/TE (histórico de AVC)
+
+2
+
+Vascular disease (prior myocardial infarction, peripheral artery disease or aortic plaque) (Doença Vascular)
+
+1
+
+Age 65–74 yrs (Idade)
+
+1
+
+Sex category (i.e. female gender) (Sexo feminino)
+
+1
+
+ICC: insuficiência cardíaca congênita; AVC: acidente vascular cerebral.
+
+HAS-BLED são, na atualidade, as principais ferramentas
+recomendadas para esse objetivo40-42 (Quadro 1).
+
+(B)
+Escore
+
+Taxa ajustada de AVC (%/ano)
+
+0
+
+0,0
+
+3.2. Novos anticoagulantes disponíveis na prática clínica
+
+1
+
+1,3
+
+2
+
+2,2
+
+3
+
+3,2
+
+4
+
+4,0
+
+Atualmente, quatro Novos ACO (NACO) foram
+disponibilizados na prática clínica para prevenção de fenômenos
+tromboembólicos em pacientes portadores de FA. Tratam-se dos
+inibidores diretos do fator Xa, como a rivaroxabana, a apixabana
+e a edoxabana, e o inibidor do fator IIa, dabigatrana.
+
+5
+
+6,7
+
+6
+
+9,8
+
+7
+
+9,6
+
+8
+
+6,7
+
+9
+
+15,2
+
+acima de 160 mmHg), além labilidade da taxa de Razão
+Normalizada Internacional (RNI), a idade > 65 anos e uso
+de fármacos anti‑inflamatórios ou consumo de álcool, são
+todos fatores de risco que aumentam a possibilidade de
+sangramento em pacientes em uso de varfarina. Por essa
+razão, na terapêutica com ACO, visando-se à prevenção
+do AVC, torna-se necessário não apenas avaliar o risco
+de tromboembolismo sistêmico, utilizando-se o escore
+CHA2DS2‑VASc mas também de hemorragia39 quando o
+ACO for prescrito. O escore de risco para hemorragia mais
+empregado na atualidade é o HAS‑BLED (Tabela 3), cuja
+pontuação > 3 indica maior risco de hemorragia pelo ACO.
+Deve‑se destacar, contudo, que esse escore não contraindica
+o uso de ACO, mas orienta quanto a necessidade de cuidados
+especiais para tornar o tratamento mais seguro.
+Quando os escores de risco para tromboembolismo
+e hemorragia são considerados, a terapia anticoagulante
+torna‑se menos empírica e mais segura. O conceito
+“benefício líquido” leva em consideração os aspectos
+positivos da redução de risco de tromboembolismo bem
+como de hemorragia, causados pelo ACO, e é essa premissa
+que deve ser buscada quando o tratamento é implementado
+em pacientes com FA. Os escores CHA 2 DS 2 -VASc e
+
+4
+
+Arq Bras Cardiol 2016; 106(4Supl.2):1-22
+
+3.2.1 Dabigatrana
+Foi o primeiro NACO disponibilizado no mercado e validado
+pelo estudo RE-LY (Randomized Evaluation of Long‑term
+anticoagulante therapY with dabigatran etexilate).43 Trata-se de
+um estudo prospectivo, randomizado, fase III que comparou
+duas doses de dabigatrana (110 mg e 150 mg) duas vezes ao dia
+com doses ajustadas de varfarina. O desfecho primário foi AVC
+e embolia sistêmica. A dose de 150 mg foi superior a varfarina
+sem diferenças significativas entre os desfechos de segurança,
+incluindo sangramento maior. A dose de 110 mg foi não inferior
+a varfarina, com 20% de redução na taxa de sangramento.
+3.2.2 Rivaroxabana
+O estudo ROCKET-AF (Rivaroxaban-once daily, oral, direct
+factor Xa inhibition compared with vitamin K antagonism for
+prevention of stroke and Embolism Trial in Atrial Fibrillation) foi
+o responsável por introduzir a rivaroxabana na prática clínica
+para prevenção de fenômenos tromboembólicos no paciente
+com FA não valvar.44 Estudo duplo-cego, que randomizou
+14.264 pacientes de alto risco para eventos tromboembólicos
+para rivaroxabana 20 mg ao dia. Pacientes com prejuízo da
+função renal receberam 15 mg do medicamento. Esse estudo
+apresenta a peculiaridade de apresentar uma população com
+risco para fenômenos tromboembólico superior ao observado
+nos demais estudos com os NACO. A rivaroxabana foi não
+inferior a varfarina para o desfecho primário de AVC e embolia
+sistêmica. Em relação aos desfechos de segurança, houve
+redução significativa no AVC hemorrágico e sangramento
+intracraniano, sem impacto na taxa de mortalidade.
+
+II Diretrizes Brasileiras de Fibrilação Atrial
+
+Diretrizes
+Tabela 3 – Variáveis clínicas empregadas para identificação de pacientes com risco de hemorragia pelos anticoagulantes orais incluídas no
+escore HAS-BLED
+Risco HAS-BLED
+
+Pontuação
+
+Hypertension (hipertensão)
+
+1
+
+Abnormal renal or liver function (1 point each) (alteração da função renal ou hepática)
+
+1 ou 2
+
+Stroke (AVC)
+
+1
+
+Bleeding (sangramento prévio)
+
+1
+
+Labile INRs (labilidade de RNI)
+
+1
+
+Elderly (e.g. age > 65 years) (idade avançada)
+
+1
+
+Drugs or alcohol (1 point each) (uso de drogas ou álcool)
+
+1 ou 2
+
+AVC: acidente vascular cerebral; RNI: Razão Normalizada Internacional.
+
+Quadro 1 – Recomendações para prevenção de fenômenos tromboembólicos na fibrilação atrial não valvar.
+Recomendações
+
+Classe
+
+Nível de Evidência
+
+O escore CHA2DS2-VASc deve ser empregado em todos os pacientes
+
+I
+
+B
+
+Pacientes de baixo risco, com CHA2DS2-VASc igual a zero não têm indicação de terapia antitrombótica
+
+I
+
+B
+
+Em pacientes com escore CHA2DS2-VASc igual a 1, a terapia antitrombótica pode ser instituída, levando-se em
+consideração o risco de sangramento e as preferências do paciente
+
+IIa
+
+C
+
+Pacientes com escore CHA2DS2-VASc ≥ 2 têm indicação de terapia antitrombótica
+
+I
+
+A
+
+3.2.3 Apixabana
+O ARISTOTLE (Apixaban for Reduction in Stroke and
+Other Thromboembolic Events in Atrial Fibrillation) foi o
+principal estudo de avaliação da apixabana em pacientes
+com FA não valvar.45 Esse estudo duplo-cego, randomizado,
+analisou a dose de 5,0 mg duas vezes ao dia, ou a dose
+ajustada de 2,5 mg duas vezes ao dia, nos pacientes com
+pelo menos dois dos três fatores a seguir: com idade
+superior a 80 anos, peso abaixo de 60 kg e creatinina
+sérica igual ou superior a 1,5 mg/dL. O controle foi
+realizado com varfarina. Houve redução significativa nos
+desfechos de eficácia (AVC e embolia sistêmica) em 21%,
+quando comparado com a varfarina, associada a reduções
+significativas de 31% em sangramento maior e de 11% na
+mortalidade por todas as causas.
+3.2.4 Edoxabana
+Avaliada pelo estudo ENGAGE-AF (Edoxaban versus
+Warfarin in Patients with Atrial Fibrillation),46 duplo-cego e
+randomizado, com três braços (varfarina, edoxabana alta
+dose e edoxabana baixa dose), a edoxabana mostrou-se não
+inferior à varfarina, tanto no regime de alta dose (60 mg uma
+vez ao dia), quanto no regime de baixa dose (30 mg uma
+vez ao dia). A dose foi reduzida à metade da dose indicada
+na randomização nos pacientes randomizados para os dois
+regimes de edoxabana, quando presente um dos seguintes
+fatores: clearance de creatinina inferior a 50 mL/minuto, peso
+inferior a 60 kg e uso concomitante a inibidores potentes da
+glicoproteína P (basicamente Verapamil).
+
+Analisando-se o regime de alta dose da edoxabana, houve
+redução significativa na ocorrência de AVC (isquêmicos e
+hemorrágicos). Já no regime de baixa dose, identificou‑se
+aumento significativo de AVC isquêmico no grupo da
+edoxabana. Dessa forma, a melhor relação de eficácia e
+segurança ocorreu no regime de alta dose, enquanto que o
+regime de baixa dose tende a perder em eficácia, conferindo
+maior segurança quanto ao risco de sangramentos maiores e
+AVC hemorrágicos (Quadro 2).
+As principais características dos quatro estudos estão
+resumidas na tabela 4.
+3.3. Orientações aos pacientes em uso de anticoagulação
+O sucesso do tratamento anticoagulante está muito mais
+influenciado pela educação do paciente e/ou familiares
+e cuidadores, do que pela escolha do ACO per se.47,48
+É necessário que o paciente ou cuidador responsável tenham
+conhecimento dos ACO, sejam os tradicionais Antagonistas
+da Vitamina K (AVK) ou os ACO sem esse mecanismo de
+ação, os NACO, incluindo as possibilidades de interação
+medicamentosa, aderência aos horários, detalhes da
+alimentação (especialmente com os AVK) e necessidade de
+controles laboratoriais.
+3.3.1. Pacientes em uso de antagonistas da vitamina K
+Os pacientes que estão em uso de AVK necessitam de
+controles laboratoriais periódicos, devendo ser feito o reajuste
+da dose de acordo com o valor estabelecido do RNI. O valor
+
+Arq Bras Cardiol 2016; 106(4Supl.2):1-22
+
+5
+
+II Diretrizes Brasileiras de Fibrilação Atrial
+
+Diretrizes
+Quadro 2 – Recomendações para o uso dos novos anticoagulantes para a prevenção de fenômenos tromboembólicos na fibrilação atrial.
+Recomendações
+
+Classe
+
+Nível de Evidência
+
+Pacientes com FA não valvar com indicação de terapia antitrombótica podem utilizar a varfarina ou algum NACO
+
+I
+
+A
+
+Pacientes com FA não valvar com indicação de terapia antitrombótica e contraindicação ao uso de ACO podem
+receber a associação AAS e clopidogrel
+
+IIa
+
+B
+
+FA: fibrilação atrial; NACO: novos anticoagulantes orais; AAS: ácido acetilacetílico, ACO: anticoagulante oral.
+
+Tabela 4 – Características metodológicas e principais resultados dos estudos fase III com os novos anticoagulantes
+Dabigatrana
+
+Rivaroxabana
+
+Apixabana
+
+Edoxaban
+
+18.113
+
+14.264
+
+18.201
+
+21.105
+
+População
+
+FA não valvar com escore de
+CHADS igual ou superior a
+1 (idade média de 72 anos)
+
+FA não valvar com escore de
+CHADS igual ou superior a
+2 (idade média de 73 anos)
+
+FA não valvar com escore de
+CHADS igual ou superior a
+1 (idade média de 70 anos)
+
+FA não valvar com escore de
+CHADS igual ou superior a
+2 (idade média de 72 anos)
+
+Desenho do estudo
+
+Não inferioridade, randomizado
+
+Não inferioridade, duplo
+cego randomizado
+
+Não inferioridade, duplo
+cego randomizado
+
+Não inferioridade, duplo
+cego randomizado
+
+Dosagem
+
+150 mg (110 mg) 2 vezes
+ao dia
+
+20 mg (15 mg) 1 vez ao dia
+
+5 mg (2,5 mg) 2 vezes ao dia
+
+60 mg (30 mg) 1 vez ao dia
+
+Controle
+
+Varfarina (RNI 2-3) TTR 64%
+
+Varfarina (RNI 2-3) TTR 55%
+
+Varfarina (RNI 2-3) TTR 62%
+
+Varfarina (INR 2-3) TTR 68,4%
+
+Desfecho primário – Eficácia
+
+AVC isquêmico, hemorrágico
+ou embolia sistêmica
+
+AVC isquêmico, hemorrágico
+ou embolia sistêmica
+
+AVC isquêmico, hemorrágico
+ou embolia sistêmica
+
+AVC isquêmico, hemorrágico
+ou embolia sistêmica
+
+Desfecho Primário –
+Segurança
+
+Combinação de Sangramento
+não-maior e maior
+
+Combinado de sangramento
+não maior e maior
+
+Sangramento maior
+
+Sangramento maior
+
+Resultado
+
+Eficácia: Dabigatrana 110 mg
+vs varfarina
+(0,91, IC 95%, 0,74–1,11;
+p não inferioridade < 0,001)
+Dabigatrana 150 mg vs
+varfarina (0,66, IC 95%,
+0,53–0,82; p superioridade
+< 0,001)
+Segurança Dabigatrana
+110 mg vs varfarina (0,80,
+IC 95%, 0,69–0,93; p = 0,003)
+Segurança Dabigatrana
+150 mg vs varfarina (0,93,
+IC 95%, 0,81–1,07; p = 0,31)
+
+Eficácia Apixabana 5 mg
+vs varfarina (0,79, IC 95%,
+0,66–0,95; p < 0,001 não
+inferioridade, p = 0,01
+superioridade)
+Segurança Apixabana 5 mg
+vs varfarina (0,69, IC 95%,
+0,60–0,80; p < 0,001)
+
+Eficácia Edoxabana
+60 mg vs varfarina (0,79;
+IC 97,5%, 0.63‑0.99; p não
+inferioridade < 0,01)
+Eficácia Edoxabana
+30 mg vs varfarina (1.07;
+IC 97,5% 0.87‑1.31; p não
+inferioridade = 0,005)
+Segurança Edoxabana 60 mg
+vs varfarina (0,80; IC 95%,
+0,71-0,91; p < 0,001)
+Segurança Edoxabana 30 mg
+vs varfarina (0,47; IC 95%,
+0,41-0,55; p < 0,001)
+
+Número de pacientes
+
+Eficácia Rivaroxabana
+20 mg vs varfarina (0,88,
+IC 95%, 0,75–1,03; p não
+inferioridade < 0,001,
+p superioridade = 0,12)
+Segurança rivaroxabana 20 mg
+vs varfarina (1,03; IC 95%,
+0,96-1,11; p = 0,44)
+
+FA: fibrilação atrial; TTR: porcentagem de tempo na faixa terapêutica; AVC: acidente vascular cerebral.
+
+padrão é oscilar entre 2,0 e 3,0 a cada aferição, pelo menos
+quinzenal ou mensal, tempo este que pode ser mais encurtado
+quando houver grande oscilação de RNI. A automonitorização
+pode ser considerada, se preferida pelo paciente.49 O cartão
+de acompanhamento do uso do anticoagulante, assim como
+maior detalhamento do acompanhamento estão disponíveis
+no www.sobrac.org.br.
+3.3.2. Pacientes em uso dos novos anticoagulantes orais
+Antes de prescrever um NACO ao paciente com FA, a função
+renal deve ser avaliada. Pacientes portadores de insuficiência
+renal com importante comprometimento no clerance de
+creatinina não devem receber os NACO. É importante
+considerar também as interações medicamentosas, que podem
+influenciar nos resultados de segurança e eficácia desses
+
+6
+
+Arq Bras Cardiol 2016; 106(4Supl.2):1-22
+
+fármacos50 e o uso de medicamentos como os inibidores de
+bomba de próton podem ser considerados para reduzir o risco
+de sangramento gastrintestinal nesses pacientes.51,52
+3.4. Orientações nos casos de sangramento com os novos
+anticoagulantes
+NACO trouxeram uma drástica mudança na abordagem
+terapêutica da FA não valvar em termos de prevenção de
+acidentes tromboembólicos, entretanto as complicações
+hemorrágicas relacionadas ao uso dessas drogas podem
+representar uma limitação. Os NACO são fármacos de
+meia‑vida curta, portanto um sangramento de pequena
+intensidade pode ser solucionado simplesmente pela suspensão
+da droga. As características farmacocinéticas são distintas entre
+os NACO e tais peculiaridades podem determinar mudanças
+
+II Diretrizes Brasileiras de Fibrilação Atrial
+
+Diretrizes
+de conduta. A dabigatrana, por exemplo, é um fármaco
+que apresenta fraca ligação às proteínas plasmáticas, sendo
+potencialmente removida por hemodiálise. A rivaroxabana e
+a apixabana, por outro lado, não são substâncias dialisáveis,
+dada a sua forte ligação proteica no plasma.53 O carvão ativado
+pode ser utilizado nos casos de ingestão do anticoagulante até
+2 horas do evento hemorrágico. É conveniente salientar que
+seu uso é contraindicado em situações de hemorragia digestiva.
+O carvão ativado está disponível sob a forma de pó e pode ser
+administrado diluído em água ou suco, se o paciente estiver
+acordado, ou por sonda nasogátrica, na dose de 1 g por kg de
+peso corporal. Embora não estejam disponíveis atualmente
+no Brasil, existem avanços com relação a medicamentos que
+possam reverter a ação dos NACO. O Idarucizumab é um
+fragmento de anticorpo monoclonal, que se liga à dabigatrana
+com mais afinidade que a observada com a trombina, e seu
+uso intravenoso para a reversão já foi avaliado54 e, com base
+nos resultados, o medicamento foi recentemente aprovado
+para uso clínico nos Estados Unidos.
+A Andexanet, por sua vez, é uma proteína recombinante
+inativa que se liga aos inibidores do fator X ativado
+(rivaroxabana, apixabana e edoxabana), revertendo o seu
+efeito anticoagulante. Os efeitos da administração intravenosa
+já foram avaliados, com taxa de reversão satisfatória,55 e é
+esperado que o seu uso clínico também seja aprovado.
+A administração de Plasma Fresco Congelado pode
+ser realizada, mas, como medida de suplementação de
+fatores de coagulação apresenta concentrações muito
+inferiores às observadas nos Concentrados de Complexos
+Protrombínicos (CCP). A indicação de CCP é razoável em
+situações de hemorragias graves.56
+3.5. Uso dos novos anticoagulantes em situações especiais
+3.5.1. Cardioversão elétrica
+Uma subanálise do estudo RE-LY com 1.989 cardioversões
+elétricas encontrou taxa semelhante de AVC dentro de 30 dias
+(0,6% com varfarina, 0,3% com dabigatrana 150 mg duas
+vezes ao dia e 0,8% com dabigatrana 110 mg duas vezes ao
+dia).57 A maioria dos pacientes fez uso da terapia por mais que
+3 semanas, sendo o ecocardiograma transesofágico realizado
+somente em 25% dos casos. Também não houve diferença
+significativa na presença de trombo no AE.
+O estudo X-VeRT (Rivaroxaban vs. vitamin K antagonists
+for cardioversion in atrial fibrillation)58 foi o primeiro estudo
+prospectivo randomizado com o uso de um NACO em
+pacientes portadores de FA submetidos à cardioversão
+elétrica eletiva. Foram randomizados 1.504 pacientes
+
+para receber rivaroxabana (20 mg/dia ou 15 mg/dia caso
+clerance de creatinina entre 30 a 49 mL/min) ou varfarina.
+Além disso, o estudo avaliou o protocolo de cardioversão
+precoce (1 a 5 dias, com utilização de ecocardiograma
+transesofágico) ou tardia (3 a 8 semanas sem a utilização
+de ecocardiograma transesofágico). O uso da rivaroxabana
+foi associado à incidência de eventos adversos e a
+sangramentos similar a varfarina, mas a rivaroxabana
+reduziu significativamente o tempo para cardioversão nos
+pacientes elegíveis ao protocolo tardio.
+Recentemente 540 pacientes submetidos à cardioversão
+elétrica foram analisados. Os pacientes estavam em uso de
+apixabana ou varfarina, sendo as taxas de eventos adversos
+semelhantes entre os dois grupos.59 Porém as pesquisas
+avaliando o papel dos NACO na cardioversão elétrica ainda
+são escassas e novos estudos são necessários antes de sua
+recomendação para esses casos. O ecotransesofágico deve
+ser considerado nos casos em que existe alguma dúvida na
+aderência do paciente ao tratamento (Quadro 3).
+3.5.2. Fibrilação atrial valvar
+Pacientes portadores de valva protética mecânica
+ou estenose mitral hemodinamicamente significativa
+foram excluídos dos principais estudos com os novos
+anticoagulantes em pacientes portadores de FA. 44-46
+O estudo RE-ALIGN (Dabigatran versus warfarin in patients with
+mechanical heart valves), que comparou dabigatrana à varfarina
+em pacientes com valva protética mecânica, foi suspenso pela
+maior ocorrência de eventos (AVC, infarto agudo do miocárdio
+e trombose de prótese) no grupo em uso de dabigatrana.60
+Além disso, houve maior sangramento após cirurgia valvar nos
+usuários de dabigatrana. Alguns estudos com os nAOC, como
+o ARISTOTLE e ENGAGE-AF, permitiram a randomização de
+pacientes com FA e próteses biológica, mas apesar de previsões
+para apresentação em breve, até o momento não há análises
+publicada desse subgrupo de pacientes.
+3.6. Oclusão percutânea do apêndice atrial esquerdo
+Os agentes ACO continuam como a principal opção
+terapêutica na prevenção de fenômenos embólicos em
+pacientes com FA. No entanto, a utilização dos anticoagulantes
+oferece riscos significativos. Os mais temidos são a ocorrência
+de AVC hemorrágico e outras hemorragias potencialmente
+graves, como o sangramento gastrintestinal. Além disso, a
+necessidade de monitorização periódica do RNI, em pacientes
+que fazem uso de varfarina, e as diversas interações com
+outros fármacos e alimentos resultam frequentemente em
+níveis subterapêuticos de anticoagulação ou em elevado risco
+de eventos hemorrágicos.61,62
+
+Quadro 3 – Recomendações para uso de anticoagulantes em situações especiais.
+Recomendações
+
+Classe
+
+Nível de Evidência
+
+Cardioversão elétrica pode ser realizada após anticoagulação, por, no mínimo, 3 semanas com varfarina ou
+rivaroxabana e mantida por pelo menos 4 semanas
+
+I
+
+B
+
+Cardioversão elétrica pode ser realizada após anticoagulação, por, no mínimo, 3 semanas de anticoagulação com
+dabigatrana ou apixanaba e mantida por pelo menos 4 semanas
+
+IIa
+
+B
+
+Arq Bras Cardiol 2016; 106(4Supl.2):1-22
+
+7
+
+II Diretrizes Brasileiras de Fibrilação Atrial
+
+Diretrizes
+Mesmo para os NACO, a necessidade de suspensão,
+em função de efeitos colaterais e eventos hemorrágicos,
+chega a 25% nos grandes estudos recentemente realizados.
+Tais limitações terapêuticas, associadas à gravidade dos eventos
+embólicos relacionados à FA, motivaram o desenvolvimento
+de novas estratégias com o objetivo de reduzir a taxa de
+fenômenos tromboembólicos. Dessa forma, a oclusão do AAE
+surgiu como uma importante alternativa terapêutica.
+3.6.1. Dispositivos para oclusão do apêndice atrial esquerdo
+Na última década, diversos dispositivos para oclusão
+percutânea foram desenvolvidos. Cada sistema possui
+características próprias, porém o método de implante é
+semelhante para todos eles.63 Esses dispositivos são liberados
+por meio de uma técnica que utiliza acesso vascular
+venoso e punção transeptal, geralmente sob orientação
+de ecocardiograma transesofágico e/ou intracardíaco.
+Atualmente, existem duas formas de abordagem para ocluir
+o AAE por via percutânea. A primeira estratégia utiliza
+dispositivos que são inseridos no AAE com o objetivo de
+ocluí-lo em sua face endocárdica. A outra utiliza uma técnica
+de ligadura percutânea epicárdica, destinada a excluir
+externamente o AAE.
+3.6.1.1. Dispositivo WATCHMAN®
+O WATCHMAN® é implantado por meio de punção
+transeptal e possui uma membrana de polietileno cobrindo
+uma armação de nitinol autoexpansível com farpas para
+ancorar adequadamente o dispositivo no AAE. É o dispositivo
+com maior número de evidências científicas publicadas.64-68
+O primeiro e mais importante estudo controlado com
+esse dispositivo PROTECT-AF − WATCHMAN (Left Atrial
+Appendage System for Embolic Protection in Patients with
+Atrial Fibrillation)64 envolveu 707 pacientes com FA não valvar
+e sem contraindicações para emprego de anticoagulantes,
+sendo randomizados para utilização do dispositivo (e posterior
+suspensão da anticoagulação) ou para uso permanente da
+varfarina com RNI alvo entre 2 e 3. Foi demonstrada a não
+inferioridade da intervenção percutânea para o desfecho
+composto por AVC, embolia sistêmica e morte cardiovascular.
+Houve redução de risco relativo de 38%, sugerindo que o
+tratamento pode ser uma alternativa à anticoagulação crônica.
+Além disso, o risco de hemorragias foi significativamente
+menor no grupo que recebeu o dispositivo, visto que 86% dos
+pacientes interromperam o anticoagulante após 45 dias do
+implante e 93% estavam sem esse tratamento aos 12 meses.
+Houve, porém, significativa incidência (12%) de efeitos
+adversos relacionadas ao procedimento (derrame pericárdico,
+migração do dispositivo, AVC e sepse). O seguimento do
+
+estudo PROTECT-AF demonstrou a não inferioridade deste
+dispositivo comparado à varfarina após média de 2,3 anos
+e o benefício a favor da oclusão, com redução de 40% no
+desfecho primário, após 5 anos de acompanhamento.65
+3.6.1.2. Dispositivo AMPLATZER CARDIAC PLUG®
+O AMPLATZER CARDIAC PLUG® é feito de uma malha
+de nitinol autoexpansível, apresentando um lobo distal e um
+disco proximal conectados por uma haste articulada. O lobo foi
+projetado para fixação ao interior do AAE e o disco, para selar
+seu óstio. Estudo canadense avaliou o AMPLATZER CARDIAC
+PLUG® em 52 pacientes com contraindicação ao uso de
+anticoagulantes e alto risco tromboembólico e hemorrágico.
+Foi demonstrada baixa taxa de eventos embólicos (1,1% de
+AVC isquêmico) quando comparado com 8,6% esperado pelo
+escore de risco.69 Nessa série, nenhuma embolia do dispositivo
+foi observada e derrame pericárdico ocorreu em apenas 1,9%
+dos casos. Houve também significativa redução de eventos
+hemorrágicos maiores.
+3.6.1.3. Dispositivo LARIAT®
+Uma nova alternativa para exclusão do AAE envolve
+a combinação de acesso endocárdico (via transeptal) e
+epicárdico (punção subxifoide percutânea), utilizando um
+dispositivo magnético para enlaçar o AAE em seu óstio.
+Esse dispositivo foi avaliado em 85 pacientes.70 Em 82
+pacientes (96,5%), foi obtida oclusão completa do AAE.
+As complicações relatadas foram relacionadas à punção
+epicárdica e transeptal.
+É importante mencionar que, após a oclusão do AAE, a
+terapia antitrombótica ainda é necessária. O uso da aspirina
+associada ao clopidogrel pode ser mantida por 3 a 6 meses
+após o implante, seguida de monoterapia com aspirina, na
+ausência de contraindicações71,72 (Quadro 4).
+
+4. Drogas antiarrítmicas mais utilizadas no
+manejo clínico da fibrilação atrial
+Após a avaliação de um caso de FA, o paciente pode
+ser alocado na estratégia de controle do ritmo ou controle
+da frequência, de acordo com suas características clínicas,
+ecocardiográficas e evolução de tratamentos anteriores.
+Nesse cenário, o uso de drogas AA apresenta papel relevante
+em ambas as estratégias. A avaliação inicial deve definir a
+presença de cardiopatia estrutural, assim como avaliar se
+a causa é reversível. Por exemplo, episódios causados por
+ingesta excessiva de álcool ou crise tireotóxica que reverteram
+ao ritmo sinusal espontaneamente ou após cardioversão não
+necessitam de tratamento com AA por longo prazo.
+
+Quadro 4 – Recomendações para oclusão percutânea do apêndice atrial esquerdo.
+Recomendações
+
+Nível de Evidência
+
+Pacientes com alto risco para fenômenos tromboembólicos e contraindicação ao uso de ACO
+
+IIa
+
+B
+
+Pacientes com AVC isquêmico de origem cardioembólica apesar do correto uso de um ACO
+
+IIa
+
+C
+
+ACO: anticoagulante oral; AVC: acidente vascular cerebral.
+
+8
+
+Classe
+
+Arq Bras Cardiol 2016; 106(4Supl.2):1-22
+
+II Diretrizes Brasileiras de Fibrilação Atrial
+
+Diretrizes
+Deve-se lembrar que as medidas não farmacológicas,
+como atividade física regular, dieta balanceada, controle
+de peso, otimização da qualidade do sono, devem ser
+instituídas. Além disso, alguns medicamentos não AA
+apresentam importante papel na prevenção de FA como
+as estatinas, os inibidores da enzima conversora da
+angiotensina e bloqueadores dos receptores da angiotensina
+I, especialmente nos pacientes que também apresentam
+hipertensão arterial ou IC. A descrição e o uso de tais
+medicamentos foram abordados na Diretriz de Fibrilação
+Atrial, de 2009.1 As estratégias utilizadas para controle do
+ritmo estão sumarizadas na figura 2.
+4.1. Medicamentos utilizados para manutenção do
+ritmo sinusal
+Para essa finalidade, há um número limitado de
+medicamentos, já que não temos disponíveis dofetilide e
+dronedarona. As drogas disponíveis no Brasil são: propafenona,
+sotalol e amiodarona. A propafenona é um fármaco útil tanto na
+reversão aguda como na manutenção do ritmo sinusal. É uma
+medicação segura em pacientes com coração estruturalmente
+normal, mas deve ser evitado na presença de cardiopatia
+estrutural, pelo risco de induzirem a arritmias ventriculares.73
+O sotalol é um fármaco sem resultados significativos
+na reversão aguda da arritmia, mas útil na prevenção de
+recorrências, com descrição de manutenção de ritmo sinusal
+em até 72% dos pacientes em 6 meses em determinados
+grupos. Além disso, diminui sintomas por reduzir a resposta
+ventricular dos episódios devido ao seu efeito betabloqueador.
+Os efeitos colaterais mais comuns são aqueles ligados ao
+efeito betabloqueador, como cansaço e fadiga. No entanto,
+o mais importante é o prolongamento do intervalo QT e
+desenvolvimento de torsade de pointes. O sotalol não pode
+ser utilizado em pacientes com ICC.74
+
+A amiodarona é bastante efetiva na reversão e manutenção
+do ritmo sinusal. Alguns estudos demonstram superioridade
+dessa medicação em relação as demais,75,76 contudo, além
+do risco proarrítmico, pode apresentar efeitos colaterais
+importantes em vários órgãos, como tireoide, pulmão, fígado,
+olhos e pele. O índice de descontinuidade do tratamento
+com essa droga é por volta de 30% em 5 anos. Atualmente,
+é a medicação disponível para pacientes com insuficiência
+cardíaca congestiva.77,78
+4.2. Medicamentos utilizados para controle da frequência
+O controle da frequência na FA é uma estratégia
+importante, tanto para a prevenção de sintomas (palpitações,
+cansaço e redução da capacidade de exercício etc.) como para
+redução da morbidade associada à doença e, principalmente,
+o desenvolvimento de taquicardiomiopatia, o que impacta na
+qualidade de vida do paciente. Os parâmetros de fequência
+Cardíaca (FC) ótima na FA permanecem controversos.
+No estudo RACE II (Lenient versus Strict Rate Control in
+Patients with Atrial Fibrillation), não houve diferença entre
+um controle de frequência mais estrito (menor que 80 bpm
+no repouso e 110 bpm durante exercício moderado) e um
+menos estrito (inferior a 110 bpm no repouso), tanto no
+desfecho primário composto por mortalidade e morbidade
+cardiovascular, quanto nos desfechos secundários, que
+incluíram sintomas e classe funcional.79 Contudo há uma
+crítica a esse estudo pelo fato de a média da frequência
+dos pacientes alocados para o grupo controle menos estrito
+não ter sido alta (85 ± 14 bpm). Esse controle menos estrito
+pode ser considerado na prática clínica especialmente em
+pacientes assintomáticos portadores de FA permanente,
+sem doença estrutural cardíaca. Uma análise post-hoc do
+estudo RACE II, que incluiu pacientes com disfunção sistólica
+(fração de ejeção do ventrículo esquerdo inferior a 40%)
+
+Figura 2 – Estratégia para controle do ritmo em pacientes com fibrilação atrial. ICC: insuficiência cardíaca congestiva.
+
+Arq Bras Cardiol 2016; 106(4Supl.2):1-22
+
+9
+
+II Diretrizes Brasileiras de Fibrilação Atrial
+
+Diretrizes
+ou com histórico de hospitalização ou sinais e sintomas
+de IC demonstrou, após 3 anos de seguimento, também
+não haver diferença no desfecho primário composto por
+morbidade cardiovascular e mortalidade entre o controle
+estrito vs. menos estrito nesse grupo de pacientes. 80
+Apesar desse estudo, ainda não há dados suficientes contra
+a realização de avaliações periódicas da função ventricular
+visando à prevenção da taquicardiomiopatia, pois o tempo
+de seguimento curto poderia não ser suficiente para gerar
+perda de função.
+Os determinantes principais da frequência ventricular
+durante a FA são as características de condução e refratariedade
+do nó atrioventricular (AV) e dos tônus simpático e
+parassimpático.81 Vários fármacos foram testados e provaram
+ser eficazes no controle da frequência. Entre eles, estão os
+betabloqueadores, os bloqueadores dos canais de cálcio
+não diidropiridínicos e alguns AA, como, por exemplo, a
+amiodarona e o sotalol. Para a escolha, é importante considerar
+o grau de sintomas do paciente, o estado hemodinâmico, a
+função ventricular, os fatores precipitantes da FA e o risco de
+eventos adversos.
+Os betabloqueadores são os medicamentos mais
+comumente utilizados para o controle da frequência
+na FA.82 Têm como ação principal o bloqueio do tônus
+adrenérgico por meio da inibição competitiva da ligação
+catecolaminas‑receptores beta. Seus representantes reduzem
+o declive da despolarização espontânea (fase 4 do potencial
+de ação), particularmente nas células no nó sinusal e do nó
+AV (reduzem a condução pelo nó AV). Também aumentam
+a refratariedade do sistema His‑Purkinje. Podem ser seletivos
+beta-1 (atenolol, bisoprolol, esmolol e metoprolol), não
+seletivos (propranolol e nadolol) ou não seletivos com
+efeito no bloqueio alfa‑adrenérgico (carvedilol e labetalol).
+São especialmente úteis na presença de aumento do tônus
+adrenérgico e na isquemia miocárdica sintomática ocorrendo
+simultaneamente à FA.81 Também são importantes no manejo
+da frequência elevada nos pacientes portadores de IC com
+disfunção ventricular, desde que hemodinamicamente
+estáveis. O uso intravenoso de esmolol, propranolol
+e metoprolol foi efetivo em casos de FA aguda. 83-85
+A combinação entre betabloqueadores e outras classes
+mostrou-se também efetiva no controle da frequência.
+O uso de carvedilol associado à digoxina auxiliou no controle
+da frequência bem como na melhora da função ventricular
+de pacientes portadores de IC.86
+Os bloqueadores de canais de cálcio não diidropiridinicos
+como o verapamil e o diltiazem bloqueiam os canais
+de cálcio do tipo L do sistema de condução cardíaco
+principalmente no nó AV. São eficazes para controle da
+frequência na FA aguda ou permanente, 87-89 tanto na
+administração intravenosa quanto oral. O verapamil e
+o diltiazem não devem ser utilizados em pacientes com
+disfunção ventricular esquerda ou IC descompensada devido
+ao seu efeito inotrópico negativo. A associação com outro
+fármaco (digital, por exemplo) pode permitir doses menores
+com consequente melhor tolerância.
+A digoxina é comumente utilizada mesmo não
+sendo considerada um agente de primeira linha para
+o controle da frequência na FA. Atua diretamente na
+
+10
+
+Arq Bras Cardiol 2016; 106(4Supl.2):1-22
+
+membrana das células atriais, ventriculares e do sistema
+de condução, com efeito principal no aumento do
+tônus vagal, reduzindo a automaticidade do nó sinusal e
+lentificando a condução pelo nó AV. Devido ao seu pico
+de ação prolongado (aproximadamente 6 horas), não
+é a melhor opção quando há a necessidade de rápida
+redução da resposta ventricular.90 Também é pouco eficaz
+no controle da resposta ventricular durante o exercício.
+É muito utilizada nos casos de IC, por não apresentar
+efeito inotrópico negativo. A dose de digoxina deve ser
+ajustada conforme nível sérico, devido ao seu perfil de
+efeitos adversos. Esse ajuste é mais importante em idosos,
+portadores de insuficiência renal e usuários de outras
+medicações que reduzem sua excreção (amiodarona,
+propafenona ou bloqueador do cálcio não diidropirinínico).
+Em subanálise do estudo AFFIRM (Atrial Fibrillation
+Follow‑Up Investigation of Rhythm Management), a
+digoxina esteve associada com maior mortalidade
+independente de presença de IC.91 Esses dados não foram
+confirmados em outra subanálise do mesmo estudo em
+pacientes que já utilizavam a medicação desde a inclusão,92
+nem em subanálise do estudo RACE II, cujos dados foram
+recentemente demonstrados.93 Já no estudo DIG (The Effect
+of Digoxin on Mortality and Morbidity in Patients with Heart
+Failure) houve incremento da mortalidade quando o nível
+sérico de digoxina esteve > 0,9 mg/mL.94
+Finalmente, os AA da classe III atuam prolongando a
+duração do potencial de ação da célula predominantemente
+pelo aumento do período refratário. Por serem fármacos
+com efeito importante na reversão do ritmo, são
+considerados agentes de segunda linha para controle de
+frequência e devem ser evitados em pacientes portadores
+de FA permanente a menos que não haja outra opção.81
+A amiodarona é considerada o mais potente AA por
+sua atuação mais abrangente (ação nos canais de
+sódio, potássio, cálcio e na modulação da adrenalina).
+Contudo, é menos efetiva no controle da frequência
+quando comparada aos bloqueadores dos canais de
+cálcio não diidropiridínicos em pacientes críticos, além
+de requerer maior tempo para o controle adequado.95,96
+Seu início de ação pode ser acelerado com doses de ataque
+mais elevadas, porém há o risco de piora hemodinâmica
+em pacientes hipotensos ou portadores de IC agudamente
+descompensada. Quanto ao controle da frequência na FA
+permanente, demonstrou eficácia semelhante à digoxina.97
+Seu perfil de eventos adversos (alteração da função
+tireoidiana, fibrose pulmonar, depósitos na córnea etc.)
+torna seu uso crônico indesejável. Assim como os demais
+representantes do grupo, apresenta como efeito adverso
+o prolongamento do intervalo QT. Conforme já descrito,
+o sotalol (por seu efeito betabloqueador) também pode
+ser utilizado no controle da frequência, porém seu uso
+isolado não é indicado, a menos que o controle do ritmo
+seja também objetivo81 (Quadro 5).
+
+5. Ablação por cateter na fibrilação atrial
+A terapia invasiva da FA por meio da ablação por cateter
+pode ser considerada nos cenários do controle da frequência
+ou do ritmo.
+
+II Diretrizes Brasileiras de Fibrilação Atrial
+
+Diretrizes
+Quadro 5 – Recomendações para drogas antiarrítmicas no manejo clínico da fibrilação atrial.
+Recomendações
+
+Classe
+
+Nível de Evidência
+
+Antes do início de drogas AA, as potenciais causas reversíveis devem ser descartadas e medidas não
+farmacológicas, instituídas
+
+I
+
+B
+
+Propafenona*, sotalol* e amiodarona** são drogas que podem ser utilizadas para evitar a recorrência da FA
+
+I
+
+B
+
+Betabloqueadores e bloqueadores de canais de cálcio (diltiazem e verapamil) são utilizados para o controle da
+resposta ventricular
+
+I
+
+B
+
+Digoxina pode ser associada a betabloqueadores ou bloqueadores de canais de cálcio para melhor controle da
+resposta ventricular
+
+IIa
+
+B
+
+Amiodarona pode ser utilizada no controle da resposta ventricular em uso de anticogulantes
+
+IIb
+
+B
+
+Uso de digoxina, verapamil, diltiazen ou betabloqueadores na presença de pré-excitação ventricular e FA
+
+III
+
+B
+
+Propafenona para controle do ritmo em pacientes com disfunção do ventrículo esquerdo
+
+III
+
+B
+
+AA: antiarrítmicas.
+*Usados preferencialmente nos pacientes sem doença cardíaca estrutural; ** usado preferencialmente em pacientes com disfunção ventricular.
+
+5.1. Controle da frequência cardíaca
+O controle do ritmo com drogas Antiarrítmicas (AA) é o
+tratamento de escolha na maioria dos pacientes com FA.
+No entanto, devido à baixa eficácia e aos efeitos adversos
+desses fármacos, o controle da FC se estabeleceu como
+estratégia terapêutica aceitável em certos grupos de pacientes,
+principalmente nos idosos (mais que 65 anos).1,98 O uso de
+fármacos que atuam no nó AV é o método de eleição para
+controle da FC, mas, nos pacientes resistentes ou intolerantes, o
+implante de Marca-Passo (MP), associado à ablação da junção AV
+(indução de bloqueio AV total), pode ser indicado (Quadro 6).
+Essa intervenção é simples, com elevada taxa de sucesso
+e baixo risco de complicações, melhorando a qualidade
+de vida e reduzindo hospitalizações e incidência de IC
+quando comparada com o tratamento farmacológico.99,100
+Desvantagens dessa abordagem incluem a dependência
+do MP, a necessidade de anticoagulação permanente e os
+efeitos deletérios da dissincronia gerada pela estimulação
+do ventrículo direito. Nesse aspecto, é importante avaliar
+criteriosamente a função ventricular, para determinar o tipo
+de MP (convencional ou ressincronizador) a ser implantado
+nos pacientes submetidos à ablação da junção AV.101
+O implante do MP deve preceder à ablação da junção AV
+em 4 a 6 semanas, a fim de possibilitar adequada maturação
+dos cabos-eletrodos, posto que o paciente fica dependente
+do MP. Face ao risco de morte súbita por torsades de
+pointes após a ablação, o dispositivo deve ser programado
+com frequência elevada (90 a 100bpm), com diminuição
+progressiva em 3 a 4 semanas.102
+
+do ritmo.103-105 Esse sucesso ampliou paulatinamente as
+indicações para o tratamento intervencionista da FA.
+Diretrizes internacionais recentes81,106,107 indicam a ablação
+como opção (Classe I) para a falência de uma droga AA e
+também como primeira escolha (Classe IIa) em pacientes
+selecionados com FA paroxística, sem doença estrutural.
+Pacientes com cardiopatia estrutural e FA paroxística igualmente
+podem ser considerados para ablação como terapia inicial,
+desde que se suspeite de taquicardiomiopatia e que o paciente
+deseje realizar ablação (ver figura 2 da página 9).
+A eficácia da ablação da FA varia conforme as características
+clínicas da arritmia e a extensão da cardiopatia de base.
+As evidências mais robustas de benefício e os melhores
+resultados são obtidos nos pacientes jovens com FA
+paroxística/persistente sintomática sem cardiopatia estrutural
+relevante.107,108 Nesse perfil de pacientes, a intervenção
+proporciona melhora significativa da sintomatologia e da
+qualidade de vida. Porém faltam dados que comprovem
+o benefício do procedimento nos pacientes muito idosos,
+com FA persistente de longa duração, ou IC avançada.107
+A indicação para pacientes assintomáticos ainda não está
+estabelecida, sendo motivo de grande controvérsia.81,106,107
+Ainda não existem evidências de que a intervenção
+seja superior a dos fármacos AA, no tocante à redução
+de desfechos duros, como mortalidade, IC e acidentes
+vasculares cerebrais. Estudos em andamento estão avaliando
+esses pontos.109
+
+5.2. Controle do ritmo
+
+O objetivo principal da ablação de FA é o isolamento
+elétrico das VP. Dentre as várias técnicas disponíveis para
+esse fim, a ablação por RF convencional ponto a ponto, com
+auxílio de mapeamento eletroanatômico e/ou ecocardiografia
+intracardíaca, é a mais utilizada.110-112 A crioablação, que
+utiliza cateter balão para obter o isolamento circunferencial
+das VP, é uma técnica alternativa igualmente validada.107,113,114
+Cateteres multipolares em forma espiral capazes de liberar
+energia de RF por meio de todos os eletrodos simultaneamente115
+e cateteres balão a laser116 também vêm ganhando espaço para
+criar lesões ao redor das VP.
+
+Evidências sólidas indicam que a ablação da FA (isolamento
+das VP) é mais eficaz do que as drogas AA para controle
+
+Os alvos eletrofisiológicos do procedimento de ablação
+variam de acordo com o tipo da FA.81,106,107 O isolamento
+
+Atualmente, a ablação da junção AV com implante de MP
+é pouco utilizada, sendo mais indicada nos pacientes idosos
+com muitas comorbidades, intolerância a fármacos ou que
+não sejam candidatos à ablação da FA [isolamento das Veias
+Pulmonares − VP e também naqueles em que a FA provoca
+terapias inapropriadas pelo CDI.1
+
+Arq Bras Cardiol 2016; 106(4Supl.2):1-22
+
+11
+
+II Diretrizes Brasileiras de Fibrilação Atrial
+
+Diretrizes
+Quadro 6 – Recomendações para ablação da junção atrioventricular na fibrilação atrial.
+Recomendações
+
+Classe
+
+Nível de Evidência
+
+FA gerando terapias inapropriadas do CDI, em que outros métodos terapêuticos foram incapazes ou não puderam ser
+usados para restauração/manutenção do ritmo sinusal ou controle da frequência ventricular
+
+I
+
+C
+
+FA em portadores de TRC para a otimização da ressincronização
+
+IIa
+
+B
+
+A ablação do nó AV com estimulação ventricular permanente é razoável como estratégia de controle da frequência
+cardíaca, quando a terapia com medicamentos é inadequada e o controle do ritmo não é possível
+
+IIa
+
+C
+
+Ablação do nó AV com estimulação ventricular permanente em pacientes bem controlados clinicamente
+
+III
+
+C
+
+FA: fibrilação atrial; CDI: cardioversor desfibrilador implantável; TRC: terapia de ressincronização cardíaca; AV: atrioventricular.
+
+das VP, via de regra, é suficiente para os casos paroxísticos.
+Nas formas persistentes, principalmente as de longa duração,
+com átrios já remodelados, abordagens adicionais são muitas
+vezes necessárias, incluindo a criação de lesões lineares,117 e a
+ablação de potenciais fragmentados complexos,118 de plexos
+ganglionares,119 de ninhos de FA identificados por análise
+espectral120,121 e, mais recentemente, de rotores.122
+O tipo da arritmia e a extensão do substrato atrial têm
+influência direta no sucesso da ablação: na FA paroxística
+e persistente em átrios normais (ou pouco alterados), os
+resultados são excelentes, com sucesso de aproximadamente
+70% sem uso de fármacos AA e de 80 a 90% quando são
+associadas drogas.110,111,113 No entanto, os resultados ainda
+são desapontadores nas formas persistentes de longa duração
+ou quando o AE apresenta dilatação importante (maior que
+50 mm).103-105 Desse modo, a ablação deve ser indicada
+precocemente, antes que ocorra progressão da arritmia e
+remodelação atrial significativa.123
+A despeito de sua comprovada eficácia, a ablação da FA
+é um procedimento de alta complexidade, com risco de
+complicações maiores em torno de 4,5%,107,124-126 incluindo
+tamponamento cardíaco (1,3 a 3,8%), fístula átrio-esofágica
+(0,04%), Acidente Vascular Cerebral AVC ou Ataque Isquêmico
+Transitório (AIT) (0,94%), e óbito (0,15%). Essas observações
+reforçam a recomendação de que a ablação de FA seja realizada
+apenas por grupos experimentados.
+A ablação de FA não é curativa. Recorrências são comuns,
+ocorrendo devido à reconexão das VP ou à progressão do
+substrato atrial.127 Nesses casos, um novo procedimento de
+ablação pode ser necessário.128 Após a ablação, todos os
+pacientes devem ser anticoagulados por 2 a 3 meses.81,106,107
+Ao final desse prazo, a suspensão dos anticoagulantes
+está autorizada apenas nos pacientes com baixo risco de
+fenômenos tromboembólicos.129,130 Como recorrências tardias
+e assintomáticas da FA podem acontecer, principalmente após
+a ablação,131,132 é necessário monitorar o paciente por períodos
+prologados, para assegurar o controle da arritmia.
+Com relação aos resultados de longo prazo, uma revisão
+da literatura mostra que, de 2003 a 2011, foram publicados
+19 estudos que avaliavam o resultado da ablação da FA
+em longo prazo, considerando um tempo de seguimento
+superior a 3 anos (média maior que 24 meses), num total
+de 6.167 pacientes.133 Nesta metanálise, em 11 estudos,
+foram mostrados os resultados de longo prazo da ablação da
+FA paroxística; em 6, da FA não paroxística; e em outros 6,
+
+12
+
+Arq Bras Cardiol 2016; 106(4Supl.2):1-22
+
+englobaram os resultados da FA paroxística e não paroxística.
+O isolamento das VP, por meio de ablação circunferencial
+antral extensa ou isolamento segmentar, foi a técnica
+predominante. No seguimento de longo prazo, superior
+a 3 anos, a taxa de sucesso global foi 53,1% (Intervalo de
+Confiança de 95% − IC95%: 46,2% - 60,0%). Com relação
+aos resultados da ablação da FA paroxística e não paroxística,
+a taxa de sucesso global foi 54,1% (IC95%: 44,4% - 63,4%) e
+41,8% (IC95%: 25,2% - 60,5%) respectivamente.
+Em se tratando a ablação por cateter, que constitui um
+procedimento de alto grau de complexidade, não é surpresa
+que os riscos de complicações sejam mais altos que os
+observados em ablações de outras arritmias. A incidência
+de complicações maiores foi avaliada em dois grandes
+levantamentos multicêntricos de alcance global. 124,134,135
+Em que pese o caráter voluntário na coleta desses dados, tais
+levantamentos nos permitiram reconhecer as complicações
+mais graves e prevalentes. No primeiro, 6% dos pacientes
+tiveram pelo menos uma complicação maior, com quatro
+mortes precoces em 8.745 pacientes. As complicações
+mais frequentes e temidas foram: tamponamento cardíaco,
+estenose de VP, fístula átrio‑esofágica, lesão do nervo vago
+e AVC ou embolia sistêmica.
+As indicações para a ablação da FA estão elencadas no
+quadro 7.
+
+6. Novas tecnologias de mapeamento
+e ablação
+Desde o advento da ablação da FA, em 1998,136 várias
+técnicas e novas tecnologias vem sendo incorporadas, para
+melhorar seus resultados e diminuir suas complicações.
+Recomendações para uso de anticoagulantes em situações
+especiais inicial, cujo objetivo era encontrar gatilhos dentro
+das VP utilizando o sistema tradicional de mapeamento
+eletrofisiológico, sem nenhuma sofisticação, e ablacioná-los
+com cateteres clássicos com ponta de 4 mm, já se passaram
+15 anos. Inúmeros avanços tecnológicos ocorreram, tanto nos
+sistemas de mapeamento quanto nos cateteres que utilizamos
+para mapeamento e ablação do AE.
+Atualmente, a utilização de sistemas de mapeamento
+tridimensional para a ablação da FA é considerada no mundo
+inteiro o tratamento padrão. Com o objetivo de orientar
+visualmente o operador no entendimento da complexidade
+anatômica do AE, assim como na localização do cateter, eles
+
+II Diretrizes Brasileiras de Fibrilação Atrial
+
+Diretrizes
+Quadro 7 – Recomendações para a ablação por cateter da fibrilação atrial para manutenção do ritmo sinusal
+Recomendações
+
+Classe
+
+Nível de Evidência
+
+Pacientes sintomáticos com FA paroxística refratária ou intolerante a pelo menos uma droga AA das classes I ou III,
+quando a estratégia de controle do ritmo é desejada
+
+I
+
+A
+
+Pacientes sintomáticos selecionados com FA persistente refratária ou intolerante a pelo menos uma droga AA das
+classes I ou III
+
+IIa
+
+A
+
+Pacientes com FA paroxística sintomática recorrente como primeira terapia (antes de medicações AA), sendo esta a
+opção do paciente
+
+IIa
+
+B
+
+Pacientes sintomáticos com FA persistente de longa duração (> 12 meses) quando refratária ou intolerante a pelo
+menos uma droga AA das classes I ou III e quando a estratégia de controle do ritmo é desejada
+
+IIb
+
+B
+
+Como primeira terapia (antes de medicações AA classe I ou III) em pacientes com FA persistente quando a estratégia
+de controle do ritmo é desejada
+
+IIb
+
+C
+
+Pacientes que não podem ser tratados com anticoagulante durante e após o procedimento
+
+III
+
+C
+
+FA: fibrilação atrial; AA: antiarrítmicas.
+
+permitiram a diminuição da quantidade de radiação para o
+paciente e para toda a equipe envolvida no procedimento.
+Hoje dispomos de diferentes sistemas de mapeamento,
+assim como de diferentes formas de energia para ablação,
+alguns já existem no nosso meio há mais de 10 anos, outros
+já foram aprovados para uso em humanos, mas ainda não
+estão liberados para uso no Brasil.
+
+7. Sistemas de mapeamento tridimensional
+Os sistemas de mapeamento tridimensional auxiliam
+na visão direta do cateter, ao navegar em uma anatomia
+tridimensional, orientação esta que não pode ser visualizada
+pela radioscopia bidimensional utilizada tradicionalmente nos
+laboratórios de hemodinâmica e eletrofisiologia.137-139
+Ambos os sistemas, apesar de tecnologicamente diferentes,
+têm utilização semelhante, no que tange ao mapeamento e na
+ablação da FA. Basicamente, possibilitam reconstruir de forma
+tridimensional o AE e as VP poe meio da mobilização de um
+cateter posicionado na cavidade e em contato direto com a
+parede do AE. É reconhecido que, com o uso desses sistemas,
+existe uma significativa redução de exposição ao raio X.140
+Softwares mais modernos permitem ainda a fusão da
+imagem angiotomográfica ou de angiorressonância do AE, com
+o mapa gerado pelo sistema com a manipulação do cateter,
+aumentando a acurácia do procedimento e facilitando ainda
+mais a navegação.141
+Como já referido, outros sistemas de mapeamento
+tridimensionais já estão disponíveis, mas ainda não são amplamente
+difundidos e testados, sobretudo no Brasil.142,143 Há consenso
+entre os especialistas brasileiros de que o uso do mapeamento
+tridimensional aumenta a segurança do procedimento.
+
+8. Ecocardiograma intracardíaco
+O Ecocardiograma Intracardíaco (ICE – abreviatura do inglês
+intracardiac echocardiogram) consiste na utilização de uma sonda
+de ecocardiograma especial, posicionada no átrio direito, sendo
+hoje um ótimo recurso adjuvante nos procedimentos de ablação.
+
+Permite auxílio na punção transeptal, diminuindo as
+complicações do procedimento;144 possibilita visualização
+dos óstios das VP, assim como do cateter multipolar, que é
+colocado no antro das VP;145 e, além disso, pode ser útil na
+monitorização em tempo real de possíveis complicações,
+como o aparecimento de trombo na ponta do cateter
+ou na bainha, e o surgimento de efusões pericárdicas.146
+Há consenso entre os especialistas brasileiros de que o uso
+do ICE aumenta a segurança do procedimento.
+
+9. Angiografia rotacional
+A angiografia rotacional para mapeamento e ablação da
+FA é um método radiológico utilizado para se adquirir a
+imagem do AE no laboratório de eletrofisiologia utilizando
+um equipamento de hemodinâmica básico.147,148 A qualidade
+da imagem é muito próxima de uma tomografia, mas é
+feita em tempo real no laboratório, podendo a imagem ser
+utilizada como memória no ato do mapeamento para a
+navegação dos cateteres.149,150 A desvantagem desse método
+em relação ao mapeamento tridimensional, descrito acima,
+é a utilização de contraste iônico, além de uma grande
+quantidade de radiação.
+
+10. Tecnologias dos cateteres de ablação
+Atualmente, os cateteres de ablação irrigados são
+utilizados em praticamente todos os procedimentos.151,152
+Mais recentemente, os cateteres irrigados passaram a estar
+disponíveis também com a tecnologia de controle de contato,
+que é capaz de medir a intensidade da interação catetermiocárdio, parecendo aumentar a eficácia da lesão com a
+diminuição das complicações.153-156
+Diversos cateteres de ablação vêm sendo desenvolvidos
+e estudados, muitos já em uso. Multieletrodos para ablação,
+irrigados ou não,157-159 com aplicação de energia unipolar ou
+bipolar, cateteres balão, entre outros: as pesquisas continuam
+e a vantagem tecnológica almejada visa à redução do tempo
+do procedimento, aliado à segurança. O isolamento da VP
+com uma ou duas aplicações já se mostra realidade.
+
+Arq Bras Cardiol 2016; 106(4Supl.2):1-22
+
+13
+
+II Diretrizes Brasileiras de Fibrilação Atrial
+
+Diretrizes
+Apesar de presentes, estudos mais robustos precisam
+ser realizados para definirmos, de forma mais precisa, sua
+segurança e efetividade.
+Quanto às novas fontes de energia, existem disponíveis três
+variedades, todas já em utilização nesses cateteres: ultrassom,
+laser e crioterapia. Destaque pode ser dado a crioterapia, que
+vem sendo amplamente estudada e utilizada fora do nosso
+país. Diversos estudos demonstram sua grande efetividade,
+porém não são isentos de complicações. Relatos de estenose
+de VP e lesão de nervo frênico160-163 ainda alertam para se ter
+cautela para uso em larga escala.
+
+11. Tecnologias de navegação robótica
+A elevada exposição à radiação imposta pela maioria
+das modalidades de ablação fez surgir a navegação
+robótica. Fora do Brasil dois tipos dessa navegação estão
+disponíveis: a navegação robótica remota e a navegação
+remota magnética.164-166 Aliado à principal vantagem do
+operador não estar dentro do ambiente da radioscopia,
+diminuindo a exposição à radiação, a maior rapidez da curva
+de aprendizado para a realização das ablações complexas
+parece ser uma importante contribuição dessa modalidade.
+No entanto, não existem, até o momento, estudos que
+comprovem maior sucesso ou a diminuição das complicações
+com esses sistemas, e o elevado custo ainda se mostra uma
+grande barreira a ser vencida.
+
+12. Tratamento cirúrgico da fibrilação atrial
+Vários procedimentos foram desenvolvidos para o
+tratamento cirúrgico da FA desde a década de 1980.167
+Guiraudon at al. 168 descreveram o “procedimento do
+corredor” em 1985. Eles criaram um corredor entre o nó
+sinusal e o nó AV, que restaurava o ritmo regular. Porém o
+sucesso com a cirurgia do corredor foi limitado pela perda
+
+da função atrial de transporte, pois a maioria do tecido
+muscular atrial permanecia em FA. Baseado em estudos de
+mapeamento da FA em animais e humanos, Cox at al.169
+desenvolveram um procedimento cirúrgico (procedimento de
+Cox-Maze) que controla a FA em mais de 90% dos pacientes
+selecionados. No procedimento original, o apêndice atrial é
+ressecado, e as VP são isoladas. Incisões apropriadas nos átrios
+não só interrompem a principal rota do circuito de reentrada
+mais comum, como também direcionam o impulso sinusal
+direto do nó sinusal para o nó AV, por uma rota específica.169,170
+Embora resultados encorajadores e de sucesso tenham sido
+obtidos, a técnica cirúrgica original, a cirurgia de Cox-Maze I,
+foi modificada para se tornar cirurgia de Cox-Maze II, por
+conta de problemas cronotrópicos tardios, com a ablação
+cirúrgica do nó sinusal e o retardo da condução intra-atrial,
+que resultavam em diminuição da contração atrial.
+No entanto, a cirurgia de Cox-Maze II mostrou-se
+tecnicamente difícil de ser realizada. Como resultado, foi
+novamente modificada, tornando-se a cirurgia de Cox-Maze
+III, a qual se tornou a técnica de escolha para o tratamento de
+paciente com indicação de cirurgia cardíaca, cursando com
+FA concomitante.170,171 A cirurgia de Cox-Maze III, ou cirurgia
+do labirinto, é o padrão-ouro para o tratamento cirúrgico da
+FA (Figura 3). Na verdade, é a mais efetiva terapia curativa
+da FA já desenvolvida.170,172-174 Na cirurgia de Cox-Maze III,
+incisões no átrio direito e esquerdo e criolesões são construídas
+para interromper os circuitos múltiplos e desorganizados de
+reentradas que caracterizam a FA. Em adição, essas lesões
+direcionam o impulso sinusal diretamente do nó sinusal
+para o nó AV por uma rota específica. Múltiplos “caminhos
+cegos”, partindo dessa via principal de condução (semelhante
+a um labirinto), propiciam a coordenação elétrica do
+miocárdio atrial. Os componentes-chave da cirurgia de Maze
+permanecem o isolamento das VP e a ressecção do apêndice
+atrial. Estes fatores são mantidos na maioria das novas técnicas
+cirúrgicas desenvolvidas para tratar a FA.
+
+Figura 3 – Representação esquemática da parede posterior do átrio esquerdo na cirurgia de Cox-Maze III. As linhas descontinuadas representam as incisões cirúrgicas.
+A linha contínua oval representa a incisão cirúrgica para ressecção do apêndice atrial esquerdo.
+
+14
+
+Arq Bras Cardiol 2016; 106(4Supl.2):1-22
+
+II Diretrizes Brasileiras de Fibrilação Atrial
+
+Diretrizes
+Apesar de a cirurgia de Maze poder ser minimamente
+invasiva, utilizando uma pequena incisão na parede torácica,
+a operação requer circulação extracorpórea e cardioplegia.
+Em mãos experientes, a cirurgia de Maze requer 45 a
+60 minutos de circulação extracorpórea e cardioplegia.173-175
+A operação, embora possa ser realizada isoladamente, é
+comumente indicada para pacientes que necessitem ser
+submetidos à cirurgia cardíaca por outras doenças, como as
+valvulopatias ou as cardiomiopatias isquêmicas.
+Talvez o mais importante fator, em adição à restauração do
+ritmo sinusal, seja a diminuição do risco potencial de AVC ou
+de outros fenômenos tromboembólicos.176,177 Nesse aspecto,
+o tratamento cirúrgico pode ser útil para pacientes com idade
+inferior a 65 anos, com presença de trombo em AE ou fatores
+de risco para tromboembolismo, se este for previsto como
+maior que 2% ao ano.178,179
+Outros centros têm documentado excelentes resultados
+com a cirurgia de Maze, com restauração do ritmo sinusal
+em 75 a 95% dos pacientes, baixo risco de AVC tardio, e
+pouquíssimas morbidade e mortalidade operatória.174,175
+A despeito desses achados, a cirurgia de Maze tem sido
+relativamente pouco usada. Hoje, poucos pacientes são
+referidos para um procedimento cirúrgico de ablação de
+FA isoladamente e, mesmo naqueles submetidos à cirurgia
+cardíaca por outras razões, os cirurgiões são relutantes em
+
+adicionar a cirurgia de Maze. A complexidade e a magnitude
+da cirurgia contribuem para essa tendência.
+
+13. Tratamento híbrido da fibrilação atrial
+Os chamados “procedimentos híbridos” combinam
+cirurgia epicárdica minimamente invasiva com mapeamento
+eletrofisiológico e ablação por cateter endocárdicos.
+O objetivo dessa técnica mista é tratar, em especial, pacientes
+com FA persistente ou persistente de longa duração, nos
+quais essas técnicas utilizadas isoladamente teriam resultados
+insatisfatórios.180
+A maioria dos estudos com procedimentos híbridos foi
+observacional − alguns deles em que as etapas cirúrgica e
+percutânea foram realizadas separadamente, e outros em
+que estas foram simultâneas. As taxas de sucesso, livres de
+drogas AA, variaram de 36,8 a 93%.181-187 A taxa geral de
+complicações foi de 4,1%, incluindo três mortes precoces por
+fístula átrio-esofágica (0,8%) e conversão para esternotomia,
+devido a sangramento incontrolável, de 10%.188
+No geral, os resultados iniciais publicados com os
+procedimentos híbridos são expressivos, principalmente
+considerando a maior complexidade da população tratada
+(FA persistente e de longa duração), porém com número
+restrito de pacientes. É esperado que o aprimoramento da
+técnica permita a sua maior utilização (Quadro 8).
+
+Quadro 8 – Recomendações para o tratamento cirúrgico da fibrilação atrial.
+Recomendações
+
+Classe
+
+Nível de Evidência
+
+Pacientes com FA sintomática que serão submetidos a cirurgia cardíaca
+
+IIA
+
+B
+
+Cirurgia para tratamento exclusivo da FA em pacientes com FA sintomática, em quem o tratamento clínico ou a
+ablação por cateter tenham falhado ou não possam ser realizados
+
+IIB
+
+C
+
+Pacientes com fibrilação assintomática que serão submetidos a cirurgia cardíaca por outra causa quando
+possível e com mínimo risco
+
+IIB
+
+C
+
+Procedimentos híbridos (cirúrgicos epicárdicos e por cateter endocárdicos) podem ser realizados para tratar
+pacientes com FA persistente ou persistente de longa duração, sintomáticos, refratários a uma ou mais drogas AA
+das classes I e III, nos quais houve falha na ablação por cateter ou esta não pôde ser realizada
+
+IIB
+
+C
+
+FA: fibrilação atrial; AA: antiarrítmicas.
+
+Arq Bras Cardiol 2016; 106(4Supl.2):1-22
+
+15
+
+II Diretrizes Brasileiras de Fibrilação Atrial
+
+Diretrizes
+Anexo I – Principais medicamentos
+e posologia utilizada em pacientes
+portadores de fibrilação atrial
+Tabela 1 – Posologia
+Fármaco
+Amiodarona
+Propafenona
+Sotalol
+
+Via
+
+Dose de ataque (mg)
+
+Dose de manutenção (mg/dia)
+
+Oral
+
+800-1.600/dia por 15-20 dias
+
+200-400
+
+IV
+
+150-1.200
+
+100-300
+
+Oral
+
+—
+
+450-900
+
+IV
+
+150
+
+2 mg/minuto
+
+—
+
+160-480
+
+Oral
+
+IV: por via intravenosa. Adaptado de: Zimerman L et al.
+
+Intervalo de doses (hora)
+24
+8
+12
+
+189
+
+Anexo II – Efeitos adversos mais comuns
+Propafenona: depressão moderada da contratilidade miocárdica; gosto metálico, visão borrada, náusea, constipação, tontura; agranulocitose
+Betabloqueadores: bradicardia, broncoespasmo, erupção cutânea, fadiga, depressão mental, pesadelos
+Amiodarona: pneumonite (1-23%); neuropatia periférica, tremor, insônia e ataxia; fotossensibilização (90%); hipo- e hipertireoidismo (1-14%); depósitos na córnea, com
+repercussões visuais (3-13%); insuficiência cardíaca, bradicardia; intolerância digestiva, hepatite medicamentosa; coloração azulada da pele; exacerbação de asma
+brônquica; alterações no metabolismo dos glicídios e triglicerídeos; epididimite; disfunção renal
+Sotalol: torsades de pointes (2,4%); bradicardia, fadiga, astenia, dispneia, tontura (2-4%)
+Adaptado de: Zimerman L et al.190
+
+Referências
+1.
+
+Zimerman LI, Fenelon G, Martinelli Filho M, Grupi C, Atié J, Lorga Filho
+A, et al; Sociedade Brasileira de Cardiologia. Diretrizes brasileiras de
+fibrilação atrial. Arq Bras Cardiol. 2009;92(6 supl 1):1-39.
+
+8.
+
+Choudhury A, Lip GY. Atrial fibrillation and the hypercoagulable state:
+from basic science to clinical practice. Pathophysiol Haemost Thromb.
+2003;33(5-6):282-9.
+
+2.
+
+Wolf PA, Abbott RD, Kannel WD. Atrial fibrillation as an independent risk
+factor for stroke: the Framingham Study. Stroke. 1991;22(8):983-8.
+
+9.
+
+3.
+
+Watson T, Shantsila E, Lip GY. Mechanisms of thrombogenesis in atrial
+fibrillation: Virchow’s triad revisited. Lancet. 2009;373(9658):155-66.
+
+Willougby SR, Roberts-Thomson RL, Lim HS, Schulz C, Prabhu A, De
+Sciscio P, et al. Atrial platelet reactivity in patients with atrial fibrillation.
+Heart Rhythm. 2010;7(9):1178-83.
+
+10.
+
+4.
+
+Al-Saady NM, Obel OA, Camm AJ. Left atrial appendage: structure,
+function, and role in thromboembolism. Heart. 1999;82(5):547-55.
+
+Risk factors for stroke and efficacy of antithrombotic therapy in atrial
+fibrillation: analysis of pooled data from five randomized controlled trials.
+Arch Intern Med. 1994;154(13):1449-57.
+
+11.
+
+5.
+
+Di Biase L, Santangeli P, Anselmino M, Mohanty P, Salvetti I, Gili S, et al.
+Does the left atrial appendage morphology correlate with the risk of stroke
+in patients with atrial fibrillation? Results from a multicenter study. J Am
+Coll Cardiol. 2012;60(6):531-8.
+
+Stroke Prevention in Atrial Fibrillation Investigators. Risk factors for
+thromboembolism during aspirin therapy in patients with atrial fibrillation: the
+stroke prevention in atrial fibrillation study. J Cerebrovasc Dis. 1995;5:147-57.
+
+12.
+
+Patel NJ, Deshmukh A, Pant S, Singh V, Patel N, Arora S, et al. Contemporary
+trends of hospitalization for atrial fibrillation in the United States, 2000 through
+2010: implications for healthcare planning. Circulation. 2014;129(23):2371-9.
+
+13.
+
+Zoni-Berisso M, Lercari F, Carazza T, Domenicucci S. Epidemiology of atrial
+fibrillation: European perspective. Clin Epidemiol. 2014;6:213-20.
+
+14.
+
+Renoux C, Patenaude V, Suissa S. Incidence, mortality, and sex differences
+of non-valvular atrial fibrillation: a population-based study. J Am Heart
+Assoc. 2014;3(6):e001402.
+
+6.
+
+7.
+
+16
+
+Agmon Y, Khandheria BK, Gentile F, Seward JB. Clinical and
+echocardiographic characteristics of patients with left atrial thrombus
+and sinus rhythm: experience in 20 643 consecutive transesophageal
+echocardiographic examinations. Circulation. 2002;105(1):27-31.
+Davies MJ, Pomerance A. Pathology of atrial fibrillation in man. Br Heart
+J. 1972;34(5):520-5.
+
+Arq Bras Cardiol 2016; 106(4Supl.2):1-22
+
+II Diretrizes Brasileiras de Fibrilação Atrial
+
+Diretrizes
+15.
+
+Michelena HI, Powell BD, Brady PA, Friedman PA, Ezekowitz MD. Gender
+in atrial fibrillation: ten years later. Gend Med. 2010;7(3):206-17.
+
+16.
+
+Zoni-Berisso M, Filippi A, Landolina M, Brignoli O, D’Ambrosio G,
+Maglia G, et al. Frequency, patient characteristics, treatment strategies,
+and resource usage of atrial fibrillation [From the Italian Survey of Atrial
+Fibrillation Management (ISAF) Study]. Am J Cardiol. 2013;111(5):705-11.
+
+17.
+
+18.
+
+34.
+
+Andersson T, Magnuson A, Bryngelson IL, Frobert O, Henriksson KM,
+Edvardsson N, et al. All cause mortality in 272186 patients hospitalized
+with incident atrial fibrillation1995–2008: a Swedish nationwide longterm case-control study. Eur Heart J. 2013;34(14):1061-7.
+
+35.
+
+Benjamin EJ, Levy D, Vaziri SM, D’Agostino RB, Belanger AJ, Wolf PA.
+Independent risk factors for atrial fibrillation in a population-based cohort.
+The Framingham Heart Study. JAMA. 1994;271(11):840-4.
+
+Wang TJ, Massaro JM, Levy D, Vasan RS, Wolf PA, D’Agostino RB, et al.
+A risk score for predicting stroke or death in individuals with new-onset
+atrial fibrillation in the community: the Framingham Heart Study. JAMA.
+2003;290(8):1049-56.
+
+36.
+
+Wang TJ, Larson MG, Levy D, Vasan RS, Leip EP, Wolf PA, et al. Temporal
+relations of atrial fibrillation and congestive heart failure and their joint
+influence on mortality: the Framingham Heart Study. Circulation.
+2003;107(23):2920-5.
+
+Gage BF, Waterman AD, Shannon W, Boechler M, Rich MW, Radford
+MJ. Validation of clinical classification schemes for predicting
+stroke: results from the National Registry of Atrial Fibrillation. JAMA.
+2001;285(22):2864-70.
+
+37.
+
+Lip GY, Nieuwlaat R, Pisters R, Lane DA, Crijns HJ. Refining clinical
+risk stratification for predicting stroke and thromboembolism in atrial
+fibrillation using a novel risk factor-based approach: the Euro Heart Survey
+on Atrial Fibrillation. Chest. 2010;137(2):263-72.
+
+38.
+
+Potpara TS, Polovina MM, Licina MM, Marinkovic JM, Prostran MS, Lip
+GY. Reliable identification of ’truly low’ thromboembolic risk in patients
+initially diagnosed with ’lone’ atrial fibrillation: the Belgrade Atrial
+Fibrillation Study. Circ Arrhythm Electrophysiol. 2012;5(2):319-26.
+
+39.
+
+Lip GY, Andreotti F, Fauchier L, Huber K, Hylek E, Knight E, et al. Bleeding
+risk assessment, management in atrial fibrillation patients. Executive
+Summary of a Position Document from the European Heart Rhythm
+Association [EHRA], endorsed by the European Society of Cardiology [ESC]
+Working Group on Thrombosis. Europace. 2011;13(5):723-46.
+
+40.
+
+Olesen JB, Lip GY, Hansen ML, Hansen PR, Tolstrup JS, Lindhardsen J,
+et al. Validation of risk stratification schemes for predicting stroke and
+thromboembolism in patients with atrial fibrillation: nationwide cohort
+study. BMJ. 2011;342:d124.
+
+19.
+
+Gami AS, Hodge DO, Herges RM, Olson EJ, Nykodym J, Kara T, et al.
+Obstructive sleep apnea, obesity, and the risk of incident atrial fibrillation.
+J Am Coll Cardiol. 2007;49(5):565-71.
+
+20.
+
+Frost L, Hune LJ, Vestergaard P. Overweight and obesity as risk factors for
+atrial fibrillation or flutter: the Danish Diet, Cancer, and Health Study. Am
+J Med. 2005;118(5):489-95.
+
+21.
+
+Conen D, Tedrow UB, Cook NR, Moorthy MV, Buring JE, Albert CM.
+Alcohol consumption and risk of incident atrial fibrillation in women.
+JAMA. 2008;300(21):2489-96.
+
+22.
+
+Frost L, Frost P, Vestergaard P. Work related physical activity and risk of a
+hospital discharge diagnosis of atrial fibrillation or flutter: the Danish Diet,
+Cancer, and Health Study. Occup Environ Med. 2005;62(1):49-53.
+
+23.
+
+Lubitz SA, Yin X, Fontes JD, Magnani JW, Rienstra M, Pai M, et al.
+Association between familial atrial fibrillation and risk of new-onset atrial
+fibrillation. JAMA. 2010;304(20):2263-9.
+
+24.
+
+Ellinor PT, Lunetta KL, Albert CM, Glaser NL, Ritchie MD, Smith AV, et al.
+Meta-analysis identifies six new susceptibility loci for atrial fibrillation. Nat
+Genet. 2012;44(6):670-5.
+
+41.
+
+Singer DE, Chang Y, Fang MC, Borowsky LH, Pomernacki NK, Udaltsova N,
+et al. The net clinical benefit of warfarin anticoagulation in atrial fibrillation.
+Ann Intern Med. 2009;151(5):297-305.
+
+25.
+
+McCord JM. Oxygen-derived free radicals in postischemic tissue injury. N
+Engl J Med. 1985;312(3):159-63.
+
+42.
+
+26.
+
+Findley LJ, Boykin M, Fallon T, Belardinelli L. Plasma adenosine and
+hypoxemia in patients with sleep apnea. J Appl Physiol. 1988;64(2):556-61.
+
+Friberg L, Rosenqvist M, Lip G. Net clinical benefit of warfarin in patients
+with atrial fibrillation: a report from the Swedish Atrial Fibrillation cohort
+study. Circulation. 2012;125(19):2298-307.
+
+43.
+
+27.
+
+Kanagala R, Murali NS, Friedman PA, Ammash NM, Gersh BJ, Ballman
+KV, et al. Obstructive sleep apnea and recurrence of atrial fibrillation.
+Circulation. 2003;107(20):2589-94
+
+Connolly SJ, Ezekowitz MD, Yusuf S, Eikelboom J, Oldgren J, Parekh A, et
+al; RE-LY Steering Committee and Investigators. Dabigatran vs. warfarin
+in patients with atrial fibrillation. N Engl J Med. 2009;361(12):1139-51.
+
+44.
+
+Fein AS, Shvilkin A, Shah D, Haffajee CI, Das S, Kumar K, et al. Treatment
+of obstructive sleep apnea reduces the risk of atrial fibrillation recurrence
+after catheter ablation. J Am Coll Cardiol. 2013;62(4):300-5.
+
+Patel MR, Mahaffey KW, Garg J, Pan G, Singer DE, Hacke W, et al; ROCKET
+AF Investigators. Rivaroxaban vs. warfarin in nonvalvular atrial fibrillation.
+N Engl J Med. 2011;365(10):883-91.
+
+45.
+
+Ng CY, Liu T, Shehata M, Stevens S, Chugh SS, Wang X. Meta-analysis of
+obstructive sleep apnea as predictor of atrial fibrillation recurrence after
+catheter ablation. Am J Cardiol. 2011;108(1):47-51.
+
+Granger CB, Alexander JH, McMurray JJ, Lopes RD, Hylek EM, Hanna M,
+et al; ARISTOTLE Committees and Investigators. Apixaban vs. warfarin in
+patients with atrial fibrillation. N Engl J Med. 2011;365(11):981-92.
+
+46.
+
+Giugliano RP, Ruff CT, Braunwald E, Murphy SA, Wiviott SD, Halperin
+JL, et al; ENGAGE AF-TIMI 48 Investigators. Edoxaban versus warfarin in
+patients with atrial fibrillation. N Engl J Med. 2013;369(22):2093-104.
+
+47.
+
+Kagansky N, Knobler Hilla, Rimon E, Ozer Z, Levy S. Safety of
+anticoagulation therapy in well-informed older patients. Arch Intern
+Med. 2004;164(18):2044-50.
+
+48.
+
+Hendriks JM, de Wit R, Crijns HJ, Vrijhoef HJ, Prins MH, Pisters R, et al.
+Nurse-led care vs. usual care for patients with atrial fibrillation: results of
+a randomized trial of integrated chronic care vs. routine clinical care in
+ambulatory patients with atrial fibrillation. Eur Heart J. 2012;33(21):2692-9.
+
+49.
+
+Heidbuchel H, Verhamme P, Alings M, Antz M, Hocke W, Oldgren J, et al.
+European Heart Rhythm Association Practical Guide on the use of new oral
+anticoagulants in patients with non-valvular atrial fibrillation. Europace.
+2013;15(5):625-51.
+
+50.
+
+Lahaye SA, Gibbens SL, Ball DG, Day AG, Olesen JB, Skanes AC. A clinical
+decision aid for the selection of antithrombotic therapy for the prevention
+of stroke due to atrial fibrillation. Eur Heart J. 2012;33(17):2163-71.
+
+28.
+
+29.
+
+30.
+
+31.
+
+Li L, Wang ZW, Li J, Ge X, Guo LZ, Wang Y, et al. Efficacy of catheter
+ablation of atrial fibrillation in patients with obstructive sleep apnoea
+with and without continuous positive airway pressure treatment: a metaanalysis of observational studies. Europace. 2014;16(9):1309-14.
+Mountantonakis SE, Grau-Sepulveda MV, Bhatt DL, Hernandez AF,
+Peterson ED, Fonarow GC. Presence of atrial fibrillation is independently
+associated with adverse outcomes in patients hospitalized with heart
+failure: an analysis of Get with the Guidelines – Heart Failure. Circ Heart
+Fail. 2012;5(2):191-201.
+
+32.
+
+Chamberlain AM, Redfield MM, Alonso A, Weston SA, Roger VL. Atrial
+fibrillation and mortality in heart failure: a community study. Circ Heart
+Fail. 2011;4(6):740-6.
+
+33.
+
+Piccini JP, Hammil BG, Sinner MF, Jensen PN, Hernandez AF, Heckhert
+SR, et al. Incidence and prevalence of atrial fibrillation and associated
+mortality among Medicare beneficiaries: 1993–2007. Circ Cardiovasc
+Qual Outcomes. 2012;5(1):85-93.
+
+Arq Bras Cardiol 2016; 106(4Supl.2):1-22
+
+17
+
+II Diretrizes Brasileiras de Fibrilação Atrial
+
+Diretrizes
+51.
+
+Blech S, Ebner T, Ludwig-Schwellinger E, Stangier J, Roth W. The
+metabolism and disposition of the oral direct thrombin inhibitor,
+dabigatran, in humans. Drug Metab Dispos. 2008;36(2):386-99.
+
+68.
+
+Gangireddy SR, Halperin JL, Fuster V, Reddy VY. Percutaneous left atrial
+appendage closure for stroke prevention in patients with atrial fibrillation:
+an assessment of net clinical benefit. Eur Heart J. 2012;33(21):2700-8.
+
+52.
+
+Moore KT, Plotnikov AN, Thyssen A, Vaccaro N, Ariyawansa J, Burton
+PB. Effect of multiple doses of omeprazole on the pharmacokinetics,
+pharmacodynamics, and safety of a single dose of rivaroxaban. J
+Cardiovasc Pharmacol. 2011;58(6):581-8.
+
+69.
+
+Urena M, Rodés-Cabau J, Freixa X, Saw J, Webb JG, Freeman M, et al.
+Percutaneous left atrial appendage closure with the AMPLATZER cardiac plug
+device in patients with nonvalvular atrial fibrillation and contraindications to
+anticoagulation therapy. J Am Coll Cardiol. 2013;62(2):96-102.
+
+53.
+
+Eriksson BI, Quinlan DJ, Weitz JI. Comparative pharmacodynamics and
+pharmacokinetics of oral direct thrombin and factor Xa inhibitors in
+development. Clin Pharmacokinet. 2009;48(1):1-22.
+
+70.
+
+54.
+
+Pollack C V, Reilly PA, Eikelboom J, Glund S, Verhamme P, Bernstein RA, et al.
+Idarucizumab for Dabigatran Reversal. N Engl J Med. 2015;373(6):511-20.
+
+Bartus K, Han FT, Bednarek J, Myc J, Kapelak B, Sadowsky J, et al.
+Percutaneous left atrial appendage suture ligation using the LARIAT device
+in patients with atrial fibrillation: initial clinical experience. J Am Coll
+Cardiol. 2013;62(2):108-18.
+
+71.
+
+55.
+
+Siegal DM, Curnutte JT, Connolly SJ, Lu G, Conley PB, Wiens BL, et al.
+Andexanet Alfa for the Reversal of Factor Xa Inhibitor Activity. N Engl J
+Med. 2015;373(25):2413–24.
+
+Lewalter T, Ibrahim R, Albers B, Camm AJ. An update and current expert
+opinions on percutaneous left atrial appendage occlusion for stroke
+prevention in atrial fibrillation. Europace. 2013;15(5):652-6.
+
+72.
+
+56.
+
+Babilonia K, Trujillo T. The role of prothrombin complex concentrates in
+reversal of target specific anticoagulants. Thromb J. 2014;12:8.
+
+57.
+
+Nagarakanti R, Ezekowitz MD, Oldgren J, Yang S, Chernick M, Aikens TH, et
+al. Dabigatran versus warfarin in patients with atrial fibrillation: an analysis
+of patients undergoing cardioversion. Circulation. 2011;123(2):131-6.
+
+Camm AJ, Lip GY, De Caterina R, Savelieva I, Atar D, Hohnloser SH, et
+al; ESC Committee for Practice Guidelines (CPG). 2012 focused update
+of the ESC Guidelines for the management of atrial fibrillation: an update
+of the 2010 ESC Guidelines for the management of atrial fibrillation.
+Developed with the special contribution of the European Heart Rhythm
+Association. Eur Heart J. 2012;33(21):2719-47. Erratum in: Eur Heart J.
+2013;34(10):790. Eur Heart J. 2013;34(36):2850-1.
+
+58.
+
+Cappato R, Ezekowitz MD, Klein AL, Camm AJ, Ma CS, Le Heuzey JY,
+et al; X-VeRT Investigators. Rivaroxaban vs. vitamin K antagonists for
+cardioversion in atrial fibrillation. Eur Heart J. 2014;35(47):3346-55.
+
+73.
+
+Stroobandt R, Stiels B, Hoebrechts R. Propafenone for conversion and
+prophylaxis of atrial fibrillation. Propafenone Atrial Fibrillation Trial
+Investigators. Am J Cardiol. 1997;79(4):418-23.
+
+59.
+
+Flaker G, Lopes RD, Al-Khatib SM, Hermosillo AG, Hohnloser SH,
+Tinga B, et al; ARISTOTLE Committees and Investigators. Efficacy and
+safety of apixaban in patients after cardioversion for atrial fibrillation:
+insights from the ARISTOTLE Trial (Apixaban for Reduction in Stroke and
+Other Thromboembolic Events in Atrial Fibrillation). J Am Coll Cardiol.
+2014;63(11):1082-7.
+
+74.
+
+Jull-Moller S, Edvardsson N, Rehenqvist-Ahlberg N. Sotalol versus
+quinidine for the maintenance of sinus rhythm after direct current
+conversion of atrial fibrillation. Circulation. 1990;82(6):1932-9.
+
+75.
+
+Kochiadakis GE, Marketou ME, Igoumenidis NE, Chrysostomakis SI,
+Mavrakis HE, Kaleboubas MD, et al. Amiodarone, sotalol, or propafenone
+in atrial fibrillation: which is preferred to maintain normal sinus rhythm?
+Pacing Clin Electrophysiol. 2000;23(11 Pt 2):1883-7.
+
+76.
+
+Freemantle N, Lafuente-Lafuente C, Mitchell S, Eckert L, Reynolds M.
+Mixed treatment comparison of dronedarone, amiodarone, sotalol,
+flecainide, and propafenone, for the management of atrial fibrillation.
+Europace. 2011;13(3):329-45.
+
+77.
+
+Deedwania PC, Singh BN, Ellenbogen K, Fisher S, Fletcher R, Singh SN.
+Spontaneous conversion and maintenance of sinus rhythm by amiodarone
+in patients with heart failure and atrial fibrillation: observations from the
+veterans affairs congestive heart failure survival trial of antiarrhythmic
+therapy (CHF-STAT). The Department of Veterans Affairs CHF-STAT
+Investigators. Circulation. 1998;98(23):2574-9.
+
+78.
+
+Roy D, Talajic M, Dorian P, Connoly S, Eisenberg MJ, Green M, et al:
+Amiodarone to prevent recurrence of atrial fibrillation. N Engl J Med.
+2000;342(13):913-20.
+
+79.
+
+Van Gelder IC, Groenveld HF, Crijns HJ, Tuininga YS, Tijssen JG,Alings AM,
+et al; RACE Investigators. Lenient versus strict rate control in patients with
+atrial fibrillation. N Eng J Med 2010;362(15):1363-73.
+
+80.
+
+Mulder BA, Van Veldhuisen DJ, Crijns HJ, Tijssen JG, Hillege HL, Hillege HL, et
+al. Lenient vs. strict rate control in patients with atrial fibrillation and heart failure:
+a post-hoc analysis of the RACE II Study. Eur J Heart Fail. 2013;15(11):1311-8.
+
+81.
+
+Camm AJ, Kirchhof P, Lip GY, Schotten U, Savelieva E, Ernst S, et al.
+Guidelines for the management of atrial fibrillation: the Task Force for the
+Management of Atrial Fibrillation of the European Society of Cardiology
+(ESC). Eur Heart J. 2010;31(19):2369-429.
+
+82.
+
+Olshansky B, Rosenfeld LE, Warner AL, Solomon AJ, O’Neill G, Sharma
+A, et al. The Atrial Fibrillation Follow-up Investigation of Rhythm
+Management (AFFIRM) study: approaches to control rate in atrial
+fibrillation. J Am Coll Cardiol. 2004;43(7):1201-8.
+
+83.
+
+Abrams J, Allen J, Allin D, Anderson J, Anderson S, Blanski L, et al. Efficacy
+and safety of esmolol vs propranolol in the treatment of supraventricular
+tachyarrhythmias: a multicenter double-blind clinical trial. Am Heart J.
+1985;110(5):913-22.
+
+60.
+
+61.
+
+Wyse DG. Bleeding while starting anticoagulation for thromboembolism
+prophylaxis in elderly patients with atrial fibrillation: from bad to worse.
+Circulation. 2007;115(21):2684-6.
+
+62.
+
+Flegel KM, Shipley MJ, Rose G. Risk of stroke in non-rheumatic atrial
+fibrillation. Lancet. 1987;1(8532):526-9.
+
+63.
+
+Aryana A, Saad EB, d’Avila A. Left atrial appendage occlusion and
+ligation devices: what is available, how to implement them, and how to
+avoid and manage complications. Curr Treat Options Cardiovasc Med.
+2012;14(5):503-19.
+
+64.
+
+Holmes DR, Reddy VY, Turi ZG, Doshi SK, Sievert H, Buchbinder M, et al.
+Percutaneous closure of the left atrial appendage versus warfarin therapy
+for prevention of stroke in patients with atrial fibrillation: a randomised
+non-inferiority trial. Lancet. 2009;374(9689):534-42.
+
+65.
+
+18
+
+Van de Werf F, Brueckmann M, Connolly SJ, Friedman J, Granger CB,
+Hartter S, et al. A comparison of dabigatran etexilate with warfarin in
+patients with mechanical heart valves: The Randomized, phase II study
+to evaluate the safety and pharmacokinetics of oral dabigatran etexilate
+in patients after heart valve replacement (RE-ALIGN). Am Heart J.
+2012;163(6):931-7.
+
+Reddy VY, Doshi SK, Siever H, Buchbinder M, Neuzil P, Huber K, et
+al. Percutaneous left atrial appendage closure for stroke prophylaxis in
+patients with atrial fibrillation: 2.3 year follow-up of the PROTECT AF trial
+(Watchman left atrial appendage system for embolic protection in patients
+with atrial fibrillation) trial. Circulation. 2013;127(6):720-9.
+
+66.
+
+Reddy VY, Mobius-Winkler S, Miller MA, Neuzil P, Schuler G, Wiebe J, et
+al. Left atrial appendage closure with the Watchman device in patients
+with a contraindication for oral anticoagulation: the ASAP study (ASA
+Plavix Feasibility Study With Watchman Left Atrial Appendage Closure
+Technology). J Am Coll Cardiol. 2013;61(25):2551-6.
+
+67.
+
+Reddy VY, Holmes DR, Doshi SK, Neuzil P, Kar S. Safety of percutaneous left
+atrial appendage closure: results from the watchamn left atrial appendage
+system for embolic protection in patients with AF (PROTECT AF) clinical
+trial and the continued access registry. Circulation. 2011;123(4):417-24.
+
+Arq Bras Cardiol 2016; 106(4Supl.2):1-22
+
+II Diretrizes Brasileiras de Fibrilação Atrial
+
+Diretrizes
+84.
+
+Platia EV, Michelson EL, Porterfield JK, Das G. Esmolol versus verapamil
+in the acute treatment of atrial fibrillation or atrial flutter. Am J Cardiol.
+1989;63(13):925-9.
+
+85.
+
+Demircan C, Cikriklar HI, Engindeniz Z, Cebicci H, Atar N, Guler V, et al.
+Comparison of the effectiveness of intravenous diltiazem and metoprolol
+in the management of rapid ventricular rate in atrial fibrillation. Emerg
+Med J. 2005;22(6):411-4.
+
+86.
+
+87.
+
+Khand AU, Rankin AC, Martin W, Taylor J, Gemmell I, Cleland JG.
+Carvedilol alone or in combination with digoxin for the management
+of atrial fibrillation in patients with heart failure? J Am Coll Cardiol.
+2003;42(11):1944-51.
+Ellenbogen KA, Dias VC, Plumb VJ, Heywood JT, Mirvis DM. A placebocontrolled trial of continuous intravenous diltiazem infusion for 24-hour
+heart rate control during atrial fibrillation and atrial flutter: a multicenter
+study. J Am Coll Cardiol. 1991;18(4):891-7.
+
+88.
+
+Phillips BG, Gandhi AJ, Sanoski CA, Just VL, Bauman JL. Comparison
+of intravenous diltiazem and verapamil for the acute treatment of atrial
+fibrillation and atrial flutter. Pharmacotherapy. 1997;17(6):1238-45.
+
+89.
+
+Schamroth L. Immediate effects of intravenous verapamil on atrial
+fibrillation. Cardiovasc Res. 1971;5(4):419-24.
+
+90.
+
+Jordaens L, Trouerbach J, Calle P, Tavernier R, Derycke E, Vertongen P, et al.
+Conversion of atrial fibrillation to sinus rhythm and rate control by digoxin
+in comparison to placebo. Eur Heart J. 1997;18(4):643-8.
+
+91.
+
+Whitbeck MG, Charnigo RJ, Khairi P, Zaida K, Bailey AL, Zegarra MM, et
+al. Increased mortality among patients taking digoxin - analysis from the
+AFFIRM study. Eur Heart J. 2013;34(20):1481-8.
+
+92.
+
+Gheorghiade M, Fonarow GC, Van Veldhuisen DJ, Cleland JG, Butler J,
+Epstein AE, et al. Lack of evidence of increased mortality among patients
+with atrial fibrillation taking digoxin: findings from post hoc propensitymatched analysis of the AFFIRM trial. Eur Heart J. 2013;34(20):1489-97.
+
+93.
+
+Mulder BA, Van Veldhuisen DJ, Crijns HJ, Tijssen JG, Hillege HL, Hillege
+HL, et al. Digoxin in patients with permanent atrial fibrillation: data from
+de RACE II Study. Heart Rhythm. 2014;11(9):1543-50.
+
+94.
+
+Digitalis Investigation Group. The effect of digoxin on mortality
+an d m o r b i d i t y i n pa t i ent s wi t h hea r t f a i lu r e . N E ngl J Me d.
+1997;336(8):525-33.
+
+95.
+
+Siu CW, Lau CP, Lee WL, Lam KF, Tse HF. Intravenous diltiazem is superior
+to intravenous amiodarone or digoxin for achieving ventricular rate control
+in patients with acute uncomplicated atrial fibrillation. Crit Care Med.
+2009;37(7):2174-9.
+
+96.
+
+Hofmann R, Steinwender C, Kammler J, Kypta A, Leisch F. Effects of a high
+dose intravenous bolus amiodarone in patients with atrial fibrillation and
+a rapid ventricular rate. Int J Cardiol. 2006;110(1):27-32.
+
+97.
+
+Tse HF, Lam YM, Lau CP, Cheung BM, Kumana CR. Comparison of digoxin
+versus low-dose amiodarone for ventricular rate control in patients with
+chronic atrial fibrillation. Clin Exp Pharmacol Physiol. 2001;28(5-6):446-50.
+
+98.
+
+Roy D, Talajic M, Nattel S, Wise DG, Dorian P, Lee KL, et al. Rhythm control
+versus rate control for atrial fibrillation and heart failure. N Eng J Med.
+2008;358(25):2667-77.
+
+99.
+
+Ozcan C, Jahangir A, Friedman PA, Patel PJ, Munger TM, Rea RF, et al. Longterm survival after ablation of the atrioventricular node and implantation
+of a permanent pacemaker in patients with atrial fibrillation. N Engl J Med.
+2001;344(14):1043-51.
+
+100. Wood MA, Brown-Mahoney C, Kay GN, Ellenbogen KA. Clinical outcomes
+after ablation and pacing therapy for atrial fibrillation: a meta-analysis.
+Circulation. 2000;101(10):1138-44.
+101. Curtis AB, Worley SJ, Adamson PB, Chung ES, Niasi I, Sherfesee L, et al.
+Biventricular pacing for atrioventricular block and systolic dysfunction. N
+Engl J Med. 2013;368(17):158-93.
+
+102. Wang RX, Lee HC, Hodge DO, Cha YM, Friedman PA, Rea RF, et al. Effect
+of pacing method on risk of sudden death after atrioventricular node
+ablation and pacemaker implantation in patients with atrial fibrillation.
+Heart Rhythm. 2013;10(5):696-701.
+103. Calkins H, Reynolds MR, Spector P, Sondhi M, Xu Y, Martin A, et al.
+Treatment of atrial fibrillation with antiarrhythmic drugs or radiofrequency
+ablation: two systematic literature reviews and meta-analyses. Circulation
+Arrhythm Electrophysiol. 2009;2(4):349-61.
+104. Piccini JP, Lopes RD, Kong MH, Hasselblad V, Jackson K, Al-Khatib SM.
+Pulmonary vein isolation for the maintenance of sinus rhythm in patients
+with atrial fibrillation: a meta-analysis of randomized, controlled trials.
+Circ Arrhythm Electrophysiol. 2009;2(6):626-33.
+105. Terasawa T, Balk EM, Chung M, Garlitski AC, Alsheikh-Ali AA, Lau J, et al.
+Systematic review: comparative effectiveness of radiofrequency catheter
+ablation for atrial fibrillation. Ann Intern Med. 2009;151(3):191-202.
+106. Calkins H, Kuck KH, Cappato R, Brugada J, Camm AJ, Chen SA, et al.
+2012 HRS/EHRA/ECAS expert consensus statement on catheter and
+surgical ablation of atrial fibrillation: recommendations for patient
+selection, procedural techniques, patient management and follow-up,
+definitions, endpoints, and research trial design: a report of the Heart
+Rhythm Society (HRS) Task Force on Catheter and Surgical Ablation of
+Atrial Fibrillation. Heart Rhythm. 2012;9(4):632-96. e21.
+107. January CT, Wann LS, Alpert JS, Calkins H, Cigarroa JE, Cleveland
+JC Jr, et al. 2014 AHA/ACC/HRS Guideline for the Management of
+Patients With Atrial Fibrillation: Executive Summary: a Report of the
+American College of Cardiology/American Heart Association Task Force
+on Practice Guidelines and the Heart Rhythm Society. Circulation.
+2014;130(23):2071-104.
+108. Leong-Sit P, Zado E, Callans DJ, Garcia F, Lin D, Dixit S, et al. Efficacy and
+risk of atrial fibrillation ablation before 45 years of age. Circ Arrhythm
+Electrophysiol. 2010;3(5):452-7.
+109. Packer DL, Lee KL, Mark DB, et al. Catheter Ablation vs Antiarrhythmic
+Drug Therapy for Atrial Fibrillation: Results of the CABANA Pilot Study.
+In: 59th American College of Cardiology Annual Scientific Sessions, March
+15, 2010. Atlanta; 2010.
+110. Wilber DJ, Pappone C, Neuzil P, De Paola A, Marchlinski F, Natale A, et al.
+Comparison of antiarrhythmic drug therapy and radiofrequency catheter
+ablation in patients with paroxysmal atrial fibrillation: a randomized
+controlled trial. JAMA. 2010;303(4):333-40.
+111. Morillo CA, Verma A, Connolly SJ, Kuck KH, Nair GM, Champagne J, et
+al. Radiofrequency ablation vs antiarrhythmic drugs as first-line treatment
+of paroxysmal atrial fibrillation (RAAFT-2): a randomized trial. JAMA.
+2014;311(7):692-700.
+112. Kim SS, Hijazi ZM, Lang RM, Knight BP. The use of intracardiac
+echocardiography and other intracardiac imaging tools to guide noncoronary
+cardiac interventions. J Am Coll Cardiol. 2009;53(23):2117-28.
+113. Packer DL, Kowal RC, Wheelan KR, Irwin JM, Champagne J, Guerra
+PG, et al. Cryoballoon ablation of pulmonary veins for paroxysmal atrial
+fibrillation: first results of the North American Arctic Front (STOP AF)
+pivotal trial. J Am Coll Cardiol. 2013;61(16):1713-23.
+114. Andrade JG, Khairy P, Guerra PG, Deyell MW, Richard L, Macie L, et al.
+Efficacy and safety of cryoballoon ablation for atrial fibrillation: a systematic
+review of published studies. Heart Rhythm. 2011;8(9):1444-51.
+115. Hummel J, Michaud G, Hoyt R, DeLurgio D, Rasekh A, Kusumoto F, et al;
+TTOP-AF Investigators. Phased RF ablation in persistent atrial fibrillation.
+Heart Rhythm. 2014;11(2):202-9.
+116. Dukkipati SR, Kuck KH, Neuzil P, Woollett I, Kautzner J, McElderry HT, et
+al. Pulmonary vein isolation using a visually guided laser balloon catheter:
+the first 200-patient multicenter clinical experience. Circ Arrhythm
+Electrophysiol. 2013;6(3):467-72.
+
+Arq Bras Cardiol 2016; 106(4Supl.2):1-22
+
+19
+
+II Diretrizes Brasileiras de Fibrilação Atrial
+
+Diretrizes
+117. Jones DG, Haldar SK, Jarman JW, Johar S, Hussain W, Markides V, et
+al. Impact of stepwise ablation on the biatrial substrate in patients with
+persistent atrial fibrillation and heart failure. Circ Arrhythm Electrophysiol.
+2013;6(4):761-8.
+118. Verma A, Sanders P, Champagne J, Macle L, Nair GM, Calkins H, et al.
+Selective complex fractionated atrial electrograms targeting for atrial
+fibrillation study (SELECT AF): a multicenter, randomized trial. Circ
+Arrhythm Electrophysiol. 2014;7(1):55-62.
+119. Scherlag BJ, Jackman WM. Unravelling the paradoxical effects of ganglia
+ablation. Circ Arrhythm Electrophysiol. 2014;7(4):570-2.
+120. Pachon M JC, Pachon M EI, Pachon M JC, Lobo TJ, Pachon MZ, Vargas RN,
+et al. A new treatment for atrial fibrillation based on spectral analysis to
+guide the catheter RF-ablation. Europace. 2004;6(6):590-601. Erratum
+in: Europace. 2005;7(1):92-3.
+121. Mateos JC, Mateos EI, Lobo TJ, Pachón MZ, Mateos JC, Pachón DQ, et al.
+Radiofrequency catheter ablation of atrial fibrillation guided by spectral
+mapping of atrial fibrillation nests in sinus rhythm. Arq Bras Cardiol.
+2007;89(3):124-34, 140-50.
+122. Narayan SM, Baykaner T, Clopton P, Schricker A, Lalani GG, Krummen
+DE, et al. Ablation of rotor and focal sources reduces late recurrence of
+atrial fibrillation compared with trigger ablation alone: extended followup of the CONFIRM trial (Conventional Ablation for Atrial Fibrillation
+With or Without Focal Impulse and Rotor Modulation). J Am Coll Cardiol.
+2014;63(17):1761-8.
+123. Bunch TJ, May HT, Bair TL, Johnson DL, Weiss JP, Crandall BG, et
+al. Increasing time between first diagnosis of atrial fibrillation and
+catheter ablation adversely affects long-term outcomes. Heart Rhythm.
+2013;10(9):1257-62.
+124. Cappato R, Calkins H, Chen SA, Davies W, Iesaka Y, Kalman J, et al.
+Updated worldwide survey on the methods, efficacy, and safety of catheter
+ablation for human atrial fibrillation. Circ Arrhythm Electrophysiol.
+2010;3(1):32-8.
+125. Arbelo E, Brugada J, Hindricks G, Maggioni A, Tavazzi L, Vardas P, et al. ESCEURObservational Research Programme: the Atrial Fibrillation Ablation
+Pilot Study, conducted by the European Heart Rhythm Association.
+Europace. 2012;14(8):1094-103.
+126. Shah RU, Freeman JV, Shilane D, Wang PJ, Go AS, Hlatky MA. Procedural
+complications, rehospitalizations, and repeat procedures after catheter
+ablation for atrial fibrillation. J Am Coll Cardiol. 2012;59(2):143-9.
+127. Ouyang F, Tilz R, Chun J, Schmidt B, Wissner E, Zerm T, et al. Long-term
+results of catheter ablation in paroxysmal atrial fibrillation: lessons from a
+5-year follow-up. Circulation. 2010;122(23):2368-77.
+128. Pokushalov E, Romanov A, De Melis M, Artyomenko S, Baranova
+V, Losik D, et al. Progression of atrial fibrillation after a failed initial
+ablation procedure in patients with paroxysmal atrial fibrillation: a
+randomized comparison of drug therapy versus reablation. Circ Arrhythm
+Electrophysiol. 2013;6(4):754-60.
+129. Themistoclakis S, Corrado A, Marchlinski FE, Jais P, Zado E, Rossillo A, et
+al. The risk of thromboembolism and need for oral anticoagulation after
+successful atrial fibrillation ablation. J Am Coll Cardiol. 2010;55(8):735-43.
+130. Saad EB, D’Avila A, Costa IP, Aryana A, Slater C, Costa R, et al. Very low
+risk of thromboembolic events in patients undergoing successful catheter
+ablation of atrial fibrillation with a CHADS2 score < 3: a long-term
+outcome study. Circ Arrhythm Electrophysiol. 2011;4(5):615-21.
+
+20
+
+133. Ganesan AN, Shipp NJ, Brooks AG, Kuklik P, Lau DH, Lim HS, et al. Longterm outcomes of catheter ablation of atrial fibrillation: a systematic review
+and meta-analysis. J Am Heart Assoc. 2013;2(2):e004549.
+134. Cappato R, Calkins H, Chen SA, Davies W, Iesaka Y, Kolman J, et al.
+Worldwide survey on the methods, efficacy, and safety of catheter ablation
+for human atrial fibrillation. Circulation. 2005;111(9):1100-5.
+135. Cappato R, Calkins H, Chen SA, Davies W, Iesaka Y, Kolman J, et al.
+Prevalence and causes of fatal outcome in catheter ablation of atrial
+fibrillation. J Am Coll Cardiol 2009;53(19):1798-803.
+136. Lavergne T, Jaïs P, Bruszewski W, Shah DC, Bruneval P, Takahashi A, et al.
+Segment by segment linear ablation with an articulated bilimb catheter: initial
+experimental results. Pacing Clin Electrophysiol. 1998;21(11 Pt 2):2539-46.
+137. Piorkowski C, Hindricks G, Schreiber D, Tanner H, Weise W, Koch A, et al.
+Electroanatomic reconstruction of the left atrium, pulmonary veins, and
+esophagus compared with the “true anatomy” on multislice computed
+tomography in patients undergoing catheter ablation of atrial fibrillation.
+Heart Rhythm. 2006;3(3):317-27.
+138. Khaykin Y, Oosthuizen R, Zarnett L, Wulffhart ZA, Whaley B, Hill C, et al.
+CARTO-guided vs. NavX-guided pulmonary vein antrum isolation and
+pulmonary vein antrum isolation performed without 3-D mapping: effect
+of the 3-D mapping system on procedure duration and fluoroscopy time.
+J Interv Card Electrophysiol. 2011;30(3):233-40.
+139. Macías R, Uribe I, Tercedor L, Jiménez J, Barrio T, Alvarez M. A zerofluoroscopy approach to cavotricuspid isthmus catheter ablation:
+comparative analysis of two electroanatomical mapping systems. Pacing
+Clin Electrophysiol. 2014;37(8):1029-37.
+140. Rotter M, Takahashi Y, Sanders P, Haissaguerre M, Jais P, Hsu LF, et al.
+Reduction of fluoroscopy exposure and procedure duration during
+ablation of atrial fibrillation using a novel anatomical navigation system.
+Eur Heart J. 2005;26(14):1415-21.
+141. Caponi D, Corleto A, Scaglione M, Blandino A, Biasco L, Cristoforetti Y,
+et al. Ablation of atrial fibrillation: does the addition of three-dimensional
+magnetic resonance imaging of the left atrium to electroanatomic
+mapping improve the clinical outcome?: a randomized comparison
+of Carto-Merge vs. Carto-XP three-dimensional mapping ablation in
+patients with paroxysmal and persistent atrial fibrillation. Europace.
+2010;12(8):1098-104.
+142. Sommer P, Richter S, Hindricks G, Rolf S. Non-fluoroscopic catheter
+visualization using MediGuide™ technology: experience from the first
+600 procedures. J Interv Card Electrophysiol. 2014;40(3):209-14.
+143. Bourier F, Fahrig R, Wang P, Santangeli P, Kurzidim K, Strobel N, et al.
+Accuracy assessment of catheter guidance technology in electrophysiology
+procedures: a comparison of a new 3D-based fluoroscopy navigation
+system to current electroanatomic mapping systems. J Cardiovasc
+Electrophysiol. 2014;25(1):74-83.
+144. Lakkireddy D, Rangisetty U, Prasad S, Verma A, Biria M, Berenbom L, et
+al. Intracardiac echo-guided radiofrequency catheter ablation of atrial
+fibrillation in patients with atrial septal defect or patent foramen ovale
+repair: a feasibility, safety, and efficacy study. J Cardiovasc Electrophysiol.
+2008;19(11):1137-42.
+145. Jongbloed MR, Bax JJ, de Groot NM, Dirksen MS, Lamb HJ, de Roos A,
+et al. Radiofrequency catheter ablation of paroxysmal atrial fibrillation;
+guidance by intracardiac echocardiography and integration with other
+imaging techniques. Eur J Echocardiogr. 2003;4(1):54-8.
+
+131. Wokhlu A, Hodge DO, Monahan KH, Asirvatham SJ, Friedman PA,
+Munger TM, et al. Long-term outcome of atrial fibrillation ablation:
+impact and predictors of very late recurrence. J Cardiovasc Electrophysiol.
+2010;21(10):1071-8.
+
+146. Wazni OM, Rossillo A, Marrouche NF, Saad EB, Martin DO, Bhargava M, et
+al. Embolic events and char formation during pulmonary vein isolation in
+patients with atrial fibrillation: impact of different anticoagulation regimens
+and importance of intracardiac echo imaging. J Cardiovasc Electrophysiol.
+2005;16(6):576-81.
+
+132. Verma A, Champagne J, Sapp J, Essebag V, Novak P, Skanes A, et al.
+Discerning the incidence of symptomatic and asymptomatic episodes
+of atrial fibrillation before and after catheter ablation (DISCERN AF): a
+prospective, multicenter study. JAMA Intern Med. 2013;173(2):149-56.
+
+147. Yeh DT, Oralkan O, Wygant IO, O’Donnell M, Khuri-Yakub BT. 3D
+ultrasound imaging using a forward-looking CMUT ring array for
+intravascular/intracardiac applications. IEEE Trans Ultrason Ferroelectr
+Freq Control. 2006;53(6):1202-11.
+
+Arq Bras Cardiol 2016; 106(4Supl.2):1-22
+
+II Diretrizes Brasileiras de Fibrilação Atrial
+
+Diretrizes
+148. Singh SM, Heist EK, Donaldson DM, Collins RM, Chevalier J, Mela T, et al.
+Image integration using intracardiac ultrasound to guide catheter ablation
+of atrial fibrillation. Heart Rhythm. 2008;5(11):1548-55.
+149. Kriatselis C, Tang M, Roser M, Fleck E, Gerds-Li H. A new approach for
+contrast-enhanced X-ray imaging of the left atrium and pulmonary veins
+for atrial fibrillation ablation: rotational angiography during adenosineinduced asystole. Europace. 2009;11(1):35-41.
+150. Li JH, Haim M, Movassaghi B, Mendel JB, Chaudhry GM, Haffajee CI,
+et al. Segmentation and registration of three-dimensional rotational
+angiogram on live fluoroscopy to guide atrial fibrillation ablation: a new
+online imaging tool. Heart Rhythm. 2009;6(2):231-7.
+151. Yamamoto T, Yamada T, Yoshida Y, Inden Y, Tsuboi N, Suzuki H, et al.
+Comparison of the change in the dimension of the pulmonary vein ostia
+immediately after pulmonary vein isolation for atrial fibrillation-open
+irrigated-tip catheters versus non-irrigated conventional 4 mm-tip
+catheters. J Interv Card Electrophysiol. 2014;41(1):83-90.
+152. Stabile G, Bertaglia E, Pappone A, Themistoclakis S, Tondo C, Calzolari V,
+et al. Low incidence of permanent complications during catheter ablation
+for atrial fibrillation using open-irrigated catheters: a multicentre registry.
+Europace. 2014;16(8):1154-9.
+153. Okumura Y, Johnson SB, Bunch TJ, Henz BD, O’Brien CJ, Packer DL. A
+systematical analysis of in vivo contact forces on virtual catheter tip/tissue
+surface contact during cardiac mapping and intervention. J Cardiovasc
+Electrophysiol. 2008;19(6):632-40.
+154. Yokoyama KN, Shah DC, Lambert H, Leo G, Aeby N, Ikeda A, et al. Novel
+contact force sensor incorporated in irrigated radiofrequency ablation
+catheter predicts lesion size and incidence of steam pop and thrombus.
+Circ Arrhythm Electrophysiol. 2008;1(5):354-62.
+155. Schmidt B, Kuck KH, Shah D, Reddy V, Saoudi N, Herrera C, et al. Toccata
+multi-center clinical study using irrigated ablation catheter with integrated
+contact force sensor: first results. Heart Rhythm. 2009;6:S536.
+156. Natale A, Reddy VY, Monir G, Wilber DJ, Lindsay BD, McElderry HT, et
+al. Paroxysmal AF catheter ablation with a contact force sensing catheter:
+results of the prospective, multicenter SMART-AF trial. J Am Coll Cardiol.
+2014;64(7):647-56.
+157. Richter B, Gwechenberger M, Kriegisch M, Albinni S, Marx M, Gössinger
+HD. Combined circular multielectrode catheter and point-by-point
+ablation is superior to point-by-point ablation alone in eliminating atrial
+fibrillation. Int J Cardiol. 2013;168(4):3721-7.
+158. Shin DI, Kirmanoglou K, Eickholt C, Schmidt J, Clasen L, Butzbach B, et al.
+Initial results of using a novel irrigated multielectrode mapping and ablation
+catheter for pulmonary vein isolation. Heart Rhythm. 2014;11(3):375-83.
+159. Rosso R, Halkin A, Michowitz Y, Belhassen B, Glick A, Viskin S. Radiofrequency
+ablation of paroxysmal atrial fibrillation with the new irrigated multipolar
+nMARQ ablation catheter: verification of intracardiac signals with a second
+circular mapping catheter. Heart Rhythm. 2014;11(4):559-65.
+160. Oswald H, Gardiwal A, Lusebrink U, Klein G. Left atrial substrate ablation in
+addition to pulmonary vein isolation in paroxysmal atrial fibrillation using a
+large 28-mm cryoballoon. Pacing Clin Electrophysiol. 2009;32(2):273-4.
+161. Chun KR, Schmidt B, Metzner A, Tilz R, Zerm T, Koster I, et al. The “single
+big cryoballoon” technique for acute pulmonary vein isolation in patients
+with paroxysmal atrial fibrillation: a prospective observational single centre
+study. Eur Heart J. 2009;30(6):699-709.
+162. Mondésert B, Andrade JG, Khairy P, Guerra PG, Dyrda K, Macle L, et
+al. Clinical experience with a novel electromyographic approach to
+preventing phrenic nerve injury during cryoballoon ablation in atrial
+fibrillation. Circ Arrhythm Electrophysiol. 2014;7(4):605-11.
+163. Aryana A, Morkoch S, Bailey S, Lim HW, Sara R, d’Avila A, et al. Acute
+procedural and cryoballoon characteristics from cryoablation of
+atrial fibrillation using the first- and second-generation cryoballoon: a
+retrospective comparative study with follow-up outcomes. J Interv Card
+Electrophysiol. 2014;41(2):177-86.
+
+164. Saliba W, Reddy VY, Wazni O, Cummings JE, Burkhardt JD, Haissaguerre
+M, et al. Atrial fibrillation ablation using a robotic catheter remote control
+system: initial human experience and long-term follow-up results. J Am
+Coll Cardiol. 2008;51(25):2407-11.
+165. Pappone C, Vicedomini G, Manguso F, Gugliotta F, Mazzone P, Gulletta S,
+et al. Robotic magnetic navigation for atrial fibrillation ablation. J Am Coll
+Cardiol. 2006;47(7):1390-400.
+166. Di Biase L, Fahmy TS, Patel D, Bai R, Civello K, Wazni OM, et al. Remote
+magnetic navigation: human experience in pulmonary vein ablation. J Am
+Coll Cardiol. 2007;50(9):868-74.
+167. Guden M, Akpinar B, Sanisoglu I, Sagbas E, Bayindir O. Intraoperative
+salineirrigated radiofrequency modified Maze procedure for atrial
+fibrillation. Ann Thorac Surg. 2002;74(4):S1301-6.
+168. Guiraudon GM, Campbell CS, Jones DL. Combined sinoatrial node
+atrioventricular node isolation: a surgical alternative to his bundle ablation
+in patients with atrial fibrillation. Circulation. 1985;72(Suppl 2):III-220.
+169. Cox JL, Schuessler RB, D’Agostino HJ Jr, Stone CM, Chang BC, Cain
+ME, et al. The surgical treatment of atrial fibrillation. III. Development
+of a definitive surgical procedure. J Thorac Cardiovasc Surg .
+1991;101(4):569-83.
+170. Cox JL, Boineau JP, Schuessler RB, Jaquiss RD, Lappas DG. Modification
+of the Maze procedure for atrial flutter and atrial fibrillation. I. Rationale
+and surgical results. J Thorac Cardiovasc Surg. 1995;110(2):473-84.
+171. Cox JL. Cardiac surgery for arrhythmias. J Cardiovasc Electrophysiol.
+2004;15(2):250-62.
+172. Cox JL, Schuessler RB, Boineau JP. The development of the Maze
+procedure for the treatment of atrial fibrillation. Semin Thorac Cardiovasc
+Surg. 2000;12(1):2-14.
+173. McCarthy PM, Gillinov AM, Castle L, Chung M, Cosgrove D 3rd.et al. The
+Cox-Maze procedure: the Cleveland Clinic experience. Semin Thorac
+Cardiovasc Surg. 2000;12(1):25-9.
+174. Schaff HV, Dearani JA, Daly RC, Orszulak TA, Danielson GK. Cox-Maze
+procedure for atrial fibrillation: Mayo Clinic experience. Semin Thorac
+Cardiovasc Surg. 2002;12(1):30-7.
+175. Cox JL, Ad N, Palazzo T, Fitzpatrick S, Suyderhoud JP, Degroot KW, et al.
+Current status of the Maze procedure for the treatment of atrial fibrillation.
+Semin Thorac Cardiovasc Surg. 2000;12(1):15-9.
+176. Ad N, Cox JL. Stroke prevention as an indication for the Maze procedure
+in the treatment of atrial fibrillation. Semin Thorac Cardiovasc Surg.
+2001;12(1):56-62.
+177. Gillinov AM, Sirak J, Blackstone EH, McCarthy PM, Rayeswaran J,
+Pettersson G, et al. The Cox Maze procedure in mitral valve disease:
+predictors of recurrent atrial fibrillation. J Thorac Cardiovasc Surg.
+2005;130(6):1653-60.
+178. Kalil RA, Lima GG, Leiria TL, Abrahão R, Pires LM, Prates PR, et al. Simple
+surgical isolation of pulmonary veins for treating secondary atrial fibrillation
+in mitral valve disease. Ann Thorac Surg. 2002;73(4):1169-73.
+179. Abreu Filho CA, Lisboa LA, Dallan LA, Spina GS, Grinberg M, Scanavacca
+M, et al. Effectiveness of the maze procedure using cooled-tip
+radiofrequency ablation in patients with permanent atrial fibrillation and
+rheumatic mitral valve disease Circulation. 2005;112(9 Suppl):I20-5.
+180. Robertson JO, Lawrance CP, Maniar HS, Damiano RJ. Surgical techniques
+used for the treatment of atrial fibrillation. Circ J. 2013;77(8):1941-51.
+181. Gelsomino S, Van Breugel HN, Pison L, Parise O, Crijns HJ, Wellens F,
+et al. Hybrid thoracoscopic and transvenous catheter ablation of atrial
+fibrillation. Eur J Cardiothorac Surg. 2014;45(3):401-7.
+182. Mahapatra S, LaPar DJ, Kamath S, Payne J, Bilchick KC, Mangrum JM, et
+al. Initial experience of sequential surgical epicardial catheter endocardial
+ablation for persistent and long-standing persistent atrial fibrillation with
+long-term follow-up. Ann Thorac Surg. 2011;91(6):1890-8.
+
+Arq Bras Cardiol 2016; 106(4Supl.2):1-22
+
+21
+
+II Diretrizes Brasileiras de Fibrilação Atrial
+
+Diretrizes
+183. Muneretto C, Bisleri G, Bontempi L, Curnis A. Durable staged
+hybrid ablation with thoracoscopic and percutaneous approach
+for treatment of long standing atrial fibrillation: a 30-month
+assessment with continuous monitoring. J Thorac Cardiovasc Surg.
+2012;144(6):1460-5.
+184. Bisleri G, Rosati F, Bontempi L, Curnis A, Muneretto C. Hybrid
+approach for the treatment of long-standing persistent atrial fibrillation:
+electrophysiological findings and clinical results. Eur J Cardiothorac Surg.
+2013;44(5):919-23.
+185. La Meir M. Surgical options for treatment of atrial fibrillation. Ann
+Cardiothorac Surg. 2014;3(1):30-7.
+186. La Meir M, Gelsomino S, Lucà F, Pison L, Parise O, Colella A, et al.
+Minimally invasive surgical treatment of lone atrial fibrillation: early
+results of hybrid versus standard minimally invasive approach employing
+radiofrequency sources. Int J Cardiol. 2013;167(4):1469-75.
+
+22
+
+Arq Bras Cardiol 2016; 106(4Supl.2):1-22
+
+187. Kurfirst V, Mokrácek A, Bulava A, Canádyová J, Hanis J, Pesl L. Two-staged
+hybrid treatment of persistent atrial fibrillation: short-term single centre
+results. Interact Cardiovasc Thorac Surg. 2014;18(4):451-6.
+188. Krul SP, Driessen AH, van Boven WJ, Linnenbank AC, Geuzebroek
+GS, Jackman WM, et al. Thoracoscopic video-assisted pulmonary vein
+antrum isolation, ganglionated plexus ablation, and periprocedural
+confirmation of ablation lesions: First results of a hybrid surgicalelectrophysiological approach for atrial fibrillation. Circ Arrhythm
+Electrophysiol. 2011;4(3):262-70.
+189. Zimerman L, Pimentel M, Fuchs F. Antiarrítmicos. In: Fuchs FD,
+Wannmacher L, Ferreira MBC. Farmacologia Clínica. Fundamentos da
+Terapêutica Racional. Rio de Janeiro: Guanabara Koogan; 2006. p. 884.
+190. Zimerman L, Pimentel M, Fuchs F. Antiarrítmicos. In: Fuchs FD,
+Wannmacher L, Ferreira MBC. Farmacologia Clínica. Fundamentos da
+terapêutica racional. Rio de Janeiro: Guanabara Koogan; 2006. p. 886.
+
+
