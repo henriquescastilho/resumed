@@ -1,6 +1,6 @@
-# 🎯 MASTER PLAN - RESUMED
+# 🎯 MASTER PLAN - RESUMED (ENAMED MVP)
 
-**Versão:** 1.0.1
+**Versão:** 1.1.0
 **Data:** 04/02/2026
 **Status:** Pre-Launch Planning
 
@@ -8,7 +8,7 @@
 
 ## 🔥 VISÃO EXECUTIVA
 
-**RESUMED** é o primeiro **copiloto IA para aprovação em residência médica** no Brasil.
+**RESUMED** é o primeiro **copiloto IA para aprovação em residência médica** no Brasil, com foco no **ENAMED no MVP**.
 
 **Não somos:**
 - ❌ Cursinho com aulas
@@ -16,7 +16,7 @@
 - ❌ Banco de questões isolado
 
 **Somos:**
-- ✅ **Notion + Anki + ChatGPT + Mentoria** em um único app
+- ✅ **Notion + Anki + IA + planejamento** em um único app
 - ✅ **Planejamento 100% personalizado via IA**
 - ✅ **Complemento perfeito para cursinhos** (não competidor)
 
@@ -29,6 +29,8 @@
 - **Plano de estudo é 100% pessoal.** O sistema gera e ajusta conforme perfil e objetivos.
 - **Prioridade por matéria é configurável** (ex.: Clínica Médica > Pediatria > etc.).
 - **ENAMED sem pesos.** Todas as áreas têm o mesmo peso na prova.
+- **Sem aulas e sem simulados** no MVP (evitar conflito com cursinhos).
+- **Posicionamento estratégico:** “lobo em pele de cordeiro” — app de planejamento/cronograma, com questões e IA de apoio.
 
 ---
 
@@ -107,9 +109,9 @@
 Login → Info Básicas → Configuração IA
     ├─ Horas/dia disponíveis
     ├─ Data da prova (ex: ENAMED 2026)
-    ├─ Qual prova (Gemma treinado por edital)
-    ├─ Especialidade atual
-    └─ Limite baseado em tempo recomendado
+    ├─ Qual prova (Gemma Med treinado por edital)
+    ├─ Especialidade (uma ou mais)
+    └─ Limite baseado em tempo recomendado + volume de concursos
 
     ↓
 Gemma MedTreinado gera Plano Único
@@ -127,7 +129,7 @@ Plano adaptativo que evolui com performance
    └─ Área (ex: Clínica Médica)
        └─ Tema (ex: Cardiologia)
            └─ Assunto (ex: Insuficiência Cardíaca)
-               └─ [Praticar] → Questões específicas
+               └─ [Questões] → Treino do dia (estilo Duolingo)
 ```
 
 **Prioridades por matéria (configurável):**
@@ -161,6 +163,11 @@ Errou questão:
 
 Não estudou tópico na semana:
 └─ Principais assuntos → Revisão prioritária
+```
+
+**Método Andrei Toribio (revisão de erros):**
+- Revisões periódicas focadas no que o aluno mais erra.
+- Priorização dinâmica por área/tema/assunto.
 
 **Flashcards (ResuCards):**
 - Criação 100% do aluno
@@ -193,7 +200,8 @@ Não estudou tópico na semana:
 - Nome: Grey
 - Tom: Acolhedor, não robótico
 - Limite: Só dúvidas médicas (sem desvio)
-- Auto-corte: Desviou muito? → Encerra conversa
+- Auto-corte: Desviou muito? → Encerra conversa e encerra fluxo
+- Uso diário limitado (ex.: 5 dúvidas/dia) para evitar custo inflado
 
 **Funcionalidades:**
 - Tira dúvidas 24/7
@@ -209,7 +217,7 @@ Não estudou tópico na semana:
 
 ## 📱 NAVEGAÇÃO DO APP
 
-### **6 Telas Principais:**
+### **6 Telas Principais (MVP ENAMED):**
 
 1. **Home**
    - Dashboard com atividades do dia
@@ -242,6 +250,8 @@ Não estudou tópico na semana:
    - Outras INEP
    - Principais institucionais
 
+> Observação: **não há “Praticar” como aba separada** no MVP. As questões aparecem no contexto do plano e do treino diário.
+
 ---
 
 ## 🎨 DESIGN SYSTEM
@@ -262,10 +272,10 @@ Não estudou tópico na semana:
 
 ---
 
-## 🚀 ROADMAP MVP
+## 🚀 ROADMAP MVP (ENAMED)
 
 ### **Sprint 1: Fundação (Semanas 1-4)**
-- [ ] Onboarding completo (7 passos)
+- [ ] Onboarding completo (login + infos básicas + horas/dia + prova + especialidade)
 - [ ] Autenticação (Google OAuth)
 - [ ] Modelo de dados (PostgreSQL)
 - [ ] API básica (FastAPI)
@@ -283,13 +293,13 @@ Não estudou tópico na semana:
 - [ ] Fila de revisão de erros
 
 ### **Sprint 4: Grey + Analytics (Semanas 13-16)**
-- [ ] Chatbot Grey (Gemini API)
+- [ ] Chatbot Grey (Gemma Med API)
 - [ ] Dashboard de performance
 - [ ] Gráficos (radar, barras)
 - [ ] Analytics social ("90% erraram...")
 
 ### **Sprint 5: ResuCards + Polimento (Semanas 17-20)**
-- [ ] Flashcards pessoais
+- [ ] Flashcards pessoais (criação do aluno)
 - [ ] PWA offline
 - [ ] Gamificação (XP, badges, streak)
 - [ ] Testes de usabilidade
@@ -303,12 +313,16 @@ Não estudou tópico na semana:
 
 ## 💰 MODELO DE NEGÓCIO
 
-### **Freemium:**
+### **MVP 100% gratuito (inspirado em Akira ENEM)**
+- Sem paywall no início.
+- Monetização futura após validação.
+
+### **Freemium (Futuro):**
 
 **Free (Para Sempre):**
 - ✅ Plano básico (30 dias)
 - ✅ 50 questões/mês
-- ✅ Grey (10 perguntas/dia)
+- ✅ Grey (5 perguntas/dia)
 - ✅ ResuCards (50 cards)
 - ✅ Analytics básico
 
@@ -385,7 +399,7 @@ Não estudou tópico na semana:
 
 | Risco | Impacto | Mitigação |
 |-------|---------|-----------|
-| Cursinhos veem como ameaça | Alto | Posicionar como complemento |
+| Cursinhos veem como ameaça | Alto | Posicionar como complemento, sem aulas/simulados |
 | Baixa adoção inicial | Médio | Freemium generoso + comunidade |
 | IA dá respostas erradas | Alto | Validação por médicos + disclaimer |
 | Custo IA elevado | Alto | Cache de respostas + rate limit |
