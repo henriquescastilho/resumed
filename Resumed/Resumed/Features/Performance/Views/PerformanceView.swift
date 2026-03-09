@@ -11,10 +11,13 @@ import Combine
 
 struct PerformanceView: View {
     @StateObject private var viewModel = PerformanceViewModel()
+    @State private var showAccuracyBreakdown = false
 
     var body: some View {
         ScrollView {
             VStack(spacing: Spacing.lg) {
+                PerformanceIntroCard()
+
                 // Level section
                 LevelSection(
                     level: viewModel.level,
@@ -24,7 +27,12 @@ struct PerformanceView: View {
                 )
 
                 // Stats cards
-                StatsCardsSection(stats: viewModel.stats)
+                StatsCardsSection(
+                    stats: viewModel.stats,
+                    onAccuracyTap: viewModel.subjectStats.isEmpty ? nil : {
+                        showAccuracyBreakdown = true
+                    }
+                )
 
                 // Subject performance
                 SubjectPerformanceSection(subjects: viewModel.subjectStats)
@@ -43,6 +51,34 @@ struct PerformanceView: View {
         .navigationBarTitleDisplayMode(.inline)
         .task {
             await viewModel.loadData()
+        }
+        .sheet(isPresented: $showAccuracyBreakdown) {
+            AccuracyBreakdownSheet(subjects: viewModel.subjectStats)
+        }
+    }
+}
+
+private struct PerformanceIntroCard: View {
+    var body: some View {
+        ResumedCard {
+            VStack(alignment: .leading, spacing: Spacing.sm) {
+                Text("Como funciona o Progresso")
+                    .font(.resumed.h4)
+                    .foregroundColor(.resumed.white)
+
+                Text("Aqui você acompanha sua evolução por matéria, o nível de XP e os pontos a melhorar. As métricas vêm das suas questões, ResuCards e sessões de estudo.")
+                    .font(.resumed.bodySmall)
+                    .foregroundColor(.resumed.gray)
+
+                HStack(spacing: Spacing.sm) {
+                    Label("XP e nível", systemImage: "star.fill")
+                        .font(.resumed.caption)
+                        .foregroundColor(.resumed.gold)
+                    Label("Matérias", systemImage: "chart.bar")
+                        .font(.resumed.caption)
+                        .foregroundColor(.resumed.gray)
+                }
+            }
         }
     }
 }
@@ -70,6 +106,8 @@ class PerformanceViewModel: ObservableObject {
         let id = UUID()
         let subject: String
         let score: Double
+        let questionsAnswered: Int
+        let correctAnswers: Int
         let color: Color
     }
 
@@ -88,38 +126,95 @@ class PerformanceViewModel: ObservableObject {
             } else {
                 userStats = try await APIClient.shared.getUserStats()
             }
-            level = userStats.level
-            currentXP = userStats.xp
-            xpToNextLevel = userStats.xpToNextLevel
-            levelTitle = LevelSystem.titleForLevel(level)
+            apply(userStats: userStats)
         } catch {
             loadMockData()
         }
     }
 
-    private func loadMockData() {
+    private func apply(userStats: UserStats) {
+        level = userStats.level
+        currentXP = userStats.xp
+        xpToNextLevel = userStats.xpToNextLevel
+        levelTitle = LevelSystem.titleForLevel(level)
+
         stats = [
-            StatItem(title: "Questões", value: "1.247", trend: "+42", trendPositive: true),
-            StatItem(title: "Acurácia", value: "78%", trend: "+5%", trendPositive: true),
-            StatItem(title: "Streak", value: "7 dias", trend: nil, trendPositive: true),
-            StatItem(title: "Tempo", value: "42h", trend: "+3h", trendPositive: true)
+            StatItem(title: "Questões", value: "\(userStats.totalQuestionsAnswered)", trend: nil, trendPositive: true),
+            StatItem(title: "Acurácia", value: userStats.accuracyPercentage, trend: nil, trendPositive: true),
+            StatItem(title: "Streak", value: "\(userStats.streak) dias", trend: nil, trendPositive: true),
+            StatItem(title: "Tempo", value: userStats.studyTimeFormatted, trend: nil, trendPositive: true)
         ]
 
-        subjectStats = [
-            SubjectPerformance(subject: "Clínica", score: 82, color: .resumed.clinicaMedica),
-            SubjectPerformance(subject: "Cirurgia", score: 68, color: .resumed.cirurgia),
-            SubjectPerformance(subject: "Pediatria", score: 75, color: .resumed.pediatria),
-            SubjectPerformance(subject: "GO", score: 71, color: .resumed.ginecologia),
-            SubjectPerformance(subject: "Preventiva", score: 85, color: .resumed.preventiva)
+        subjectStats = userStats.subjectStats
+            .map { stat in
+                SubjectPerformance(
+                    subject: stat.subject,
+                    score: stat.accuracy,
+                    questionsAnswered: stat.questionsAnswered,
+                    correctAnswers: stat.correctAnswers,
+                    color: subjectColor(for: stat.subject)
+                )
+            }
+            .sorted { $0.subject < $1.subject }
+
+        weakTopics = userStats.subjectStats
+            .filter { $0.questionsAnswered > 0 }
+            .map { stat in
+                WeakTopic(subject: stat.subject, topic: "Revisão prioritária", accuracy: stat.accuracy)
+            }
+            .sorted { $0.accuracy < $1.accuracy }
+
+        unlockedBadges = Set(userStats.badges.compactMap(Badge.init(rawValue:)))
+    }
+
+    private func loadMockData() {
+        let snapshot = ProgressTracker.shared.snapshot()
+        let totalQuestions = snapshot.totalQuestions
+        guard totalQuestions > 0 else {
+            apply(userStats: MockData.userStats)
+            return
+        }
+        let accuracy = totalQuestions > 0 ? Int((Double(snapshot.totalCorrect) / Double(totalQuestions)) * 100) : 0
+        let studyHours = Double(snapshot.studyMinutes) / 60.0
+
+        stats = [
+            StatItem(title: "Questões", value: "\(totalQuestions)", trend: nil, trendPositive: true),
+            StatItem(title: "Acurácia", value: "\(accuracy)%", trend: nil, trendPositive: true),
+            StatItem(title: "Streak", value: "\(GamificationManager.shared.streak) dias", trend: nil, trendPositive: true),
+            StatItem(title: "Tempo", value: String(format: "%.1fh", studyHours), trend: nil, trendPositive: true)
         ]
 
-        weakTopics = [
-            WeakTopic(subject: "Pediatria", topic: "Neonatologia", accuracy: 42),
-            WeakTopic(subject: "Cirurgia", topic: "Trauma", accuracy: 48),
-            WeakTopic(subject: "Clínica", topic: "Nefrologia", accuracy: 55)
-        ]
+        subjectStats = snapshot.subjectStats.map { subject, progress in
+            SubjectPerformance(
+                subject: subject,
+                score: progress.accuracy,
+                questionsAnswered: progress.questionsAnswered,
+                correctAnswers: progress.correctAnswers,
+                color: subjectColor(for: subject)
+            )
+        }.sorted { $0.subject < $1.subject }
 
-        unlockedBadges = [.firstQuestion, .weekStreak, .hundredQuestions]
+        weakTopics = snapshot.subjectStats
+            .filter { $0.value.questionsAnswered > 0 }
+            .map { subject, progress in
+                WeakTopic(subject: subject, topic: "Revisão prioritária", accuracy: progress.accuracy)
+            }
+            .sorted { $0.accuracy < $1.accuracy }
+
+        unlockedBadges = GamificationManager.shared.unlockedBadges
+    }
+
+    private func subjectColor(for subject: String) -> Color {
+        switch subject {
+        case "Clínica Médica": return .resumed.clinicaMedica
+        case "Cirurgia Geral": return .resumed.cirurgia
+        case "Pediatria": return .resumed.pediatria
+        case "Ginecologia e Obstetrícia": return .resumed.ginecologia
+        case "MFC": return .resumed.preventiva
+        case "Saúde Mental": return .resumed.warning
+        case "Saúde Coletiva": return .resumed.gray
+        default: return .resumed.gray
+        }
     }
 }
 
@@ -160,29 +255,107 @@ struct LevelSection: View {
 
 struct StatsCardsSection: View {
     let stats: [PerformanceViewModel.StatItem]
+    let onAccuracyTap: (() -> Void)?
 
     var body: some View {
         LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: Spacing.sm) {
             ForEach(stats) { stat in
-                ResumedCard {
-                    VStack(alignment: .leading, spacing: Spacing.xs) {
-                        Text(stat.title)
-                            .font(.resumed.caption)
-                            .foregroundColor(.resumed.gray)
-
-                        HStack(alignment: .bottom, spacing: Spacing.xs) {
-                            Text(stat.value)
-                                .font(.resumed.h3)
-                                .foregroundColor(.resumed.white)
-
-                            if let trend = stat.trend {
-                                Text(trend)
+                Button {
+                    if stat.title == "Acurácia" {
+                        onAccuracyTap?()
+                    }
+                } label: {
+                    ResumedCard {
+                        VStack(alignment: .leading, spacing: Spacing.xs) {
+                            HStack(alignment: .top) {
+                                Text(stat.title)
                                     .font(.resumed.caption)
-                                    .foregroundColor(stat.trendPositive ? .resumed.success : .resumed.error)
+                                    .foregroundColor(.resumed.gray)
+
+                                Spacer()
+
+                                if stat.title == "Acurácia", onAccuracyTap != nil {
+                                    Image(systemName: "chevron.right")
+                                        .font(.resumed.caption)
+                                        .foregroundColor(.resumed.gray)
+                                }
+                            }
+
+                            HStack(alignment: .bottom, spacing: Spacing.xs) {
+                                Text(stat.value)
+                                    .font(.resumed.h3)
+                                    .foregroundColor(.resumed.white)
+
+                                if let trend = stat.trend {
+                                    Text(trend)
+                                        .font(.resumed.caption)
+                                        .foregroundColor(stat.trendPositive ? .resumed.success : .resumed.error)
+                                }
+                            }
+                        }
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                    }
+                }
+                .buttonStyle(.plain)
+            }
+        }
+    }
+}
+
+struct AccuracyBreakdownSheet: View {
+    let subjects: [PerformanceViewModel.SubjectPerformance]
+    @Environment(\.dismiss) private var dismiss
+
+    var body: some View {
+        NavigationStack {
+            ScrollView {
+                VStack(alignment: .leading, spacing: Spacing.md) {
+                    Text("Acurácia por matéria")
+                        .font(.resumed.h3)
+                        .foregroundColor(.resumed.white)
+
+                    ForEach(subjects) { subject in
+                        ResumedCard {
+                            VStack(alignment: .leading, spacing: Spacing.sm) {
+                                HStack {
+                                    Text(subject.subject)
+                                        .font(.resumed.body)
+                                        .foregroundColor(.resumed.white)
+
+                                    Spacer()
+
+                                    Text("\(Int(subject.score))%")
+                                        .font(.resumed.h4)
+                                        .foregroundColor(subject.color)
+                                }
+
+                                GeometryReader { geometry in
+                                    ZStack(alignment: .leading) {
+                                        RoundedRectangle(cornerRadius: 4)
+                                            .fill(Color.resumed.blackTertiary)
+                                        RoundedRectangle(cornerRadius: 4)
+                                            .fill(subject.color)
+                                            .frame(width: geometry.size.width * (subject.score / 100))
+                                    }
+                                }
+                                .frame(height: 12)
+
+                                Text("\(subject.correctAnswers) acertos em \(subject.questionsAnswered) questões")
+                                    .font(.resumed.caption)
+                                    .foregroundColor(.resumed.gray)
                             }
                         }
                     }
-                    .frame(maxWidth: .infinity, alignment: .leading)
+                }
+                .padding(Spacing.md)
+            }
+            .background(Color.resumed.black)
+            .navigationTitle("Acurácia")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button("Fechar") { dismiss() }
+                        .foregroundColor(.resumed.gold)
                 }
             }
         }

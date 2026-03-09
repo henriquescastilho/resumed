@@ -10,6 +10,11 @@ import Combine
 
 struct StudyPlanView: View {
     @StateObject private var viewModel = StudyPlanViewModel()
+    @ObservedObject private var networkMonitor = NetworkMonitor.shared
+    @State private var showQuestionsSheet = false
+    @State private var selectedTask: StudyTask?
+    @State private var showOfflineAlert = false
+    @State private var showStudySheet = false
 
     var body: some View {
         VStack(spacing: 0) {
@@ -48,6 +53,16 @@ struct StudyPlanView: View {
                     ForEach(viewModel.days) { day in
                         DaySection(day: day) { taskId in
                             Task { await viewModel.toggleTask(taskId) }
+                        } onQuestions: { task in
+                            if networkMonitor.isConnected {
+                                selectedTask = task
+                                showQuestionsSheet = true
+                            } else {
+                                showOfflineAlert = true
+                            }
+                        } onStudy: { task in
+                            selectedTask = task
+                            showStudySheet = true
                         }
                     }
                 }
@@ -61,11 +76,48 @@ struct StudyPlanView: View {
         .task {
             await viewModel.loadPlan()
         }
+        .sheet(isPresented: $showQuestionsSheet) {
+            if let task = selectedTask {
+                DailyQuestionsView(
+                    subject: task.subject,
+                    theme: task.theme,
+                    isOnline: networkMonitor.isConnected
+                )
+            }
+        }
+        .sheet(isPresented: $showStudySheet) {
+            if let task = selectedTask {
+                StudyDetailSheet(task: task) {
+                    Task { await viewModel.toggleTask(task.id) }
+                }
+            }
+        }
+        .alert("Offline", isPresented: $showOfflineAlert) {
+            Button("OK", role: .cancel) {}
+        } message: {
+            Text("Para resolver questões, conecte-se à internet.")
+        }
     }
 }
 
 @MainActor
 class StudyPlanViewModel: ObservableObject {
+    private enum PlanDefaults {
+        static let weeklyMinimumPercent: Double = 0.13
+        static let minBlockMinutes: Int = 20
+        static let roundToMinutes: Int = 5
+    }
+
+    private let mandatorySubjects = [
+        "Clínica Médica",
+        "Cirurgia Geral",
+        "Ginecologia e Obstetrícia",
+        "Pediatria",
+        "MFC",
+        "Saúde Mental",
+        "Saúde Coletiva"
+    ]
+
     @Published var weekOffset = 0
     @Published var days: [DayPlan] = []
     @Published var weekProgress: Double = 0
@@ -76,7 +128,13 @@ class StudyPlanViewModel: ObservableObject {
     }
 
     func loadPlan() async {
-        loadMockData()
+        if let stored = StudyPlanStore.shared.load(weekOffset: weekOffset), isPlanValid(stored) {
+            days = stored
+        } else {
+            loadMockData()
+            StudyPlanStore.shared.save(weekOffset: weekOffset, days: days)
+        }
+        injectErrorReviews()
     }
 
     func previousWeek() {
@@ -95,8 +153,14 @@ class StudyPlanViewModel: ObservableObject {
         for (dayIndex, day) in days.enumerated() {
             if let taskIndex = day.tasks.firstIndex(where: { $0.id == taskId }) {
                 days[dayIndex].tasks[taskIndex].completed.toggle()
+                let task = days[dayIndex].tasks[taskIndex]
+                if task.completed {
+                    ProgressTracker.shared.recordStudy(subject: task.subject, minutes: task.estimatedMinutes)
+                    GamificationManager.shared.addXP(XPReward.completeTask, reason: .studySession)
+                }
                 HapticManager.shared.success()
                 updateProgress()
+                StudyPlanStore.shared.save(weekOffset: weekOffset, days: days)
                 return
             }
         }
@@ -114,42 +178,115 @@ class StudyPlanViewModel: ObservableObject {
         let calendar = Calendar.current
         let (weekStart, _) = WeekNavigator.weekDateRange(for: weekOffset)
 
+        let weeklyAllocation = buildWeeklyAllocation()
+
         days = (0..<7).compactMap { dayOffset -> DayPlan? in
             guard let date = calendar.date(byAdding: .day, value: dayOffset, to: weekStart) else { return nil }
 
-            let tasks: [StudyTask] = (dayOffset < 5) ? [
-                StudyTask(
-                    id: "task-\(dayOffset)-1",
-                    title: "Clínica Médica",
-                    subject: "Clínica Médica",
-                    type: .review,
-                    dueDate: date,
-                    completed: dayOffset < 2,
-                    estimatedMinutes: 60,
-                    theme: "Cardiologia",
-                    topics: ["IC", "Arritmias"]
-                ),
-                StudyTask(
-                    id: "task-\(dayOffset)-2",
-                    title: "Cirurgia Geral",
-                    subject: "Cirurgia Geral",
-                    type: .review,
-                    dueDate: date,
-                    completed: dayOffset < 1,
-                    estimatedMinutes: 45,
-                    theme: "Trauma",
-                    topics: ["ATLS"]
-                )
-            ] : []
-
+            let tasks = buildDailyTasks(
+                date: date,
+                dayOffset: dayOffset,
+                allocation: weeklyAllocation
+            )
             let orderedTasks = orderByPriority(tasks)
-            let totalMinutes = tasks.reduce(0) { $0 + $1.estimatedMinutes }
-            let completedMinutes = tasks.filter { $0.completed }.reduce(0) { $0 + $1.estimatedMinutes }
+            let totalMinutes = orderedTasks.reduce(0) { $0 + $1.estimatedMinutes }
+            let completedMinutes = orderedTasks.filter { $0.completed }.reduce(0) { $0 + $1.estimatedMinutes }
 
             return DayPlan(date: date, tasks: orderedTasks, totalMinutes: totalMinutes, completedMinutes: completedMinutes)
         }
 
         updateProgress()
+    }
+
+    private func buildWeeklyAllocation() -> [String: Int] {
+        let studyHoursPerDay = max(UserDefaults.standard.integer(forKey: "studyHoursPerDay"), 1)
+        let weeklyMinutes = studyHoursPerDay * 60 * 7
+
+        let minPerSubject = Int(Double(weeklyMinutes) * PlanDefaults.weeklyMinimumPercent)
+        let baseTotal = minPerSubject * mandatorySubjects.count
+        let remaining = max(weeklyMinutes - baseTotal, 0)
+
+        let priority = UserDefaults.standard.stringArray(forKey: "subjectPriority") ?? []
+        let rankedSubjects = priority.filter { mandatorySubjects.contains($0) }
+        let fallbackSubjects = mandatorySubjects.filter { !rankedSubjects.contains($0) }
+        let ordered = rankedSubjects + fallbackSubjects
+
+        let weights = ordered.enumerated().map { index, _ in max(ordered.count - index, 1) }
+        let weightSum = weights.reduce(0, +)
+
+        var allocation: [String: Int] = [:]
+        for (index, subject) in ordered.enumerated() {
+            let bonus = weightSum > 0 ? Int(Double(remaining) * Double(weights[index]) / Double(weightSum)) : 0
+            allocation[subject] = minPerSubject + bonus
+        }
+
+        return allocation
+    }
+
+    private func buildDailyTasks(date: Date, dayOffset: Int, allocation: [String: Int]) -> [StudyTask] {
+        var tasks: [StudyTask] = []
+
+        let priority = UserDefaults.standard.stringArray(forKey: "subjectPriority") ?? []
+        let rankedSubjects = priority.filter { mandatorySubjects.contains($0) }
+        let fallbackSubjects = mandatorySubjects.filter { !rankedSubjects.contains($0) }
+        let orderedSubjects = rankedSubjects + fallbackSubjects
+
+        var dailyMinutesBySubject: [String: Int] = [:]
+        for subject in orderedSubjects {
+            let weekly = allocation[subject] ?? 0
+            let rawDaily = Double(weekly) / 7.0
+            let rounded = max(PlanDefaults.minBlockMinutes, roundTo(rawDaily))
+            dailyMinutesBySubject[subject] = rounded
+        }
+
+        let dayTarget = max(UserDefaults.standard.integer(forKey: "studyHoursPerDay"), 1) * 60
+        let currentSum = dailyMinutesBySubject.values.reduce(0, +)
+        if let top = orderedSubjects.first, currentSum != dayTarget {
+            let diff = dayTarget - currentSum
+            dailyMinutesBySubject[top] = max(PlanDefaults.minBlockMinutes, (dailyMinutesBySubject[top] ?? 0) + diff)
+        }
+
+        for (index, subject) in orderedSubjects.enumerated() {
+            let minutes = dailyMinutesBySubject[subject] ?? PlanDefaults.minBlockMinutes
+            let task = StudyTask(
+                id: "task-\(dayOffset)-\(index)-\(subjectKey(subject))",
+                title: subject,
+                subject: subject,
+                type: .review,
+                dueDate: date,
+                completed: false,
+                estimatedMinutes: minutes,
+                theme: "Matriz ENAMED",
+                topics: nil
+            )
+            tasks.append(task)
+        }
+
+        return tasks
+    }
+
+    private func roundTo(_ value: Double) -> Int {
+        let step = Double(PlanDefaults.roundToMinutes)
+        let rounded = Int((value / step).rounded() * step)
+        return max(PlanDefaults.minBlockMinutes, rounded)
+    }
+
+    private func subjectKey(_ subject: String) -> String {
+        subject.lowercased().replacingOccurrences(of: " ", with: "_")
+    }
+
+    private func injectErrorReviews() {
+        let (weekStart, _) = WeekNavigator.weekDateRange(for: weekOffset)
+        var updated = days
+        ErrorReviewScheduler.shared.applyReviewTasks(to: &updated, weekStart: weekStart)
+        updated = updated.map { day in
+            var copy = day
+            copy.tasks = orderByPriority(copy.tasks)
+            return copy
+        }
+        days = updated
+        updateProgress()
+        StudyPlanStore.shared.save(weekOffset: weekOffset, days: days)
     }
 
     private func orderByPriority(_ tasks: [StudyTask]) -> [StudyTask] {
@@ -162,11 +299,19 @@ class StudyPlanViewModel: ObservableObject {
             return leftIndex < rightIndex
         }
     }
+
+    private func isPlanValid(_ days: [DayPlan]) -> Bool {
+        let subjectsInPlan = Set(days.flatMap { $0.tasks.map { $0.subject } })
+        let required = Set(mandatorySubjects)
+        return required.isSubset(of: subjectsInPlan)
+    }
 }
 
 struct DaySection: View {
     let day: DayPlan
     let onToggleTask: (String) -> Void
+    let onQuestions: (StudyTask) -> Void
+    let onStudy: (StudyTask) -> Void
     @State private var isExpanded = true
 
     var body: some View {
@@ -202,7 +347,12 @@ struct DaySection: View {
                         .foregroundColor(.resumed.gray)
                 } else {
                     ForEach(day.tasks) { task in
-                        TaskRow(task: task) { onToggleTask(task.id) }
+                        TaskRow(
+                            task: task,
+                            onToggle: { onToggleTask(task.id) },
+                            onQuestions: { onQuestions(task) },
+                            onStudy: { onStudy(task) }
+                        )
                     }
                 }
             }
@@ -216,38 +366,107 @@ struct DaySection: View {
 struct TaskRow: View {
     let task: StudyTask
     let onToggle: () -> Void
+    let onQuestions: () -> Void
+    let onStudy: () -> Void
 
     var body: some View {
-        HStack {
-            Button(action: onToggle) {
-                Image(systemName: task.completed ? "checkmark.circle.fill" : "circle")
-                    .font(.system(size: IconSize.lg))
-                    .foregroundColor(task.completed ? .resumed.gold : .resumed.gray)
-            }
-
-            VStack(alignment: .leading) {
-                Text(task.subject)
-                    .font(.resumed.body)
-                    .foregroundColor(task.completed ? .resumed.gray : .resumed.white)
-                    .strikethrough(task.completed)
-
-                HStack(spacing: Spacing.xs) {
-                    Image(systemName: task.type.icon)
-                        .font(.system(size: 10))
-                    Text(task.type.displayName)
-                        .font(.resumed.caption)
+        VStack(spacing: Spacing.sm) {
+            HStack {
+                Button(action: onToggle) {
+                    Image(systemName: task.completed ? "checkmark.circle.fill" : "circle")
+                        .font(.system(size: IconSize.lg))
+                        .foregroundColor(task.completed ? .resumed.gold : .resumed.gray)
                 }
-                .foregroundColor(.resumed.gray)
+
+                VStack(alignment: .leading) {
+                    Text(task.subject)
+                        .font(.resumed.body)
+                        .foregroundColor(task.completed ? .resumed.gray : .resumed.white)
+                        .strikethrough(task.completed)
+
+                    Text("Conteúdo do dia • \(task.estimatedMinutes) min")
+                        .font(.resumed.caption)
+                        .foregroundColor(.resumed.gray)
+                }
+
+                Spacer()
             }
 
-            Spacer()
-
-            Text("\(task.estimatedMinutes) min")
-                .font(.resumed.caption)
-                .foregroundColor(.resumed.gray)
+            HStack(spacing: Spacing.sm) {
+                ResumedButton(
+                    title: "Estudar",
+                    style: .ghost,
+                    action: onStudy,
+                    icon: "book.fill",
+                    fullWidth: true
+                )
+                ResumedButton(
+                    title: "Questões",
+                    style: .ghost,
+                    action: onQuestions,
+                    icon: "pencil.and.list.clipboard",
+                    fullWidth: true
+                )
+            }
         }
         .padding(Spacing.sm)
         .background(Color.resumed.blackTertiary)
         .cornerRadius(CornerRadius.md)
+    }
+}
+
+private struct StudyDetailSheet: View {
+    let task: StudyTask
+    let onComplete: () -> Void
+    @Environment(\.dismiss) var dismiss
+
+    var body: some View {
+        NavigationStack {
+            VStack(alignment: .leading, spacing: Spacing.md) {
+                Text(task.subject)
+                    .font(.resumed.h3)
+                    .foregroundColor(.resumed.white)
+
+                if let theme = task.theme {
+                    Text("Tema: \(theme)")
+                        .font(.resumed.bodySmall)
+                        .foregroundColor(.resumed.gray)
+                }
+
+                if let topics = task.topics, !topics.isEmpty {
+                    VStack(alignment: .leading, spacing: Spacing.xs) {
+                        Text("Assuntos")
+                            .font(.resumed.caption)
+                            .foregroundColor(.resumed.gray)
+                        ForEach(topics, id: \.self) { topic in
+                            Text("• \(topic)")
+                                .font(.resumed.body)
+                                .foregroundColor(.resumed.white)
+                        }
+                    }
+                }
+
+                Text("Este bloco é o conteúdo principal do dia. Após estudar, marque como concluído.")
+                    .font(.resumed.bodySmall)
+                    .foregroundColor(.resumed.gray)
+
+                Spacer()
+
+                ResumedButton(title: "Marcar como estudado", style: .primary, action: {
+                    onComplete()
+                    dismiss()
+                })
+            }
+            .padding(Spacing.md)
+            .background(Color.resumed.black)
+            .navigationTitle("Estudar")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Button("Fechar") { dismiss() }
+                        .foregroundColor(.resumed.gray)
+                }
+            }
+        }
     }
 }

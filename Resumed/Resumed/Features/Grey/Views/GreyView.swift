@@ -58,14 +58,11 @@ struct GreyView: View {
                 isLoading: viewModel.isTyping,
                 isDisabled: viewModel.isLimitReached
             )
+            .padding(.bottom, Layout.tabBarHeight)
         }
         .background(Color.resumed.black)
         .navigationTitle("Grey")
         .navigationBarTitleDisplayMode(.inline)
-        .safeAreaInset(edge: .bottom) {
-            // Keep input above the custom tab bar
-            Color.clear.frame(height: 80)
-        }
     }
 }
 
@@ -84,9 +81,9 @@ class GreyViewModel: ObservableObject {
     init() {
         resetIfNewDay()
         messages = [
-            ChatMessage(id: UUID().uuidString, role: .assistant, content: "Oi! Sou a Grey, sua assistente de estudos. Como posso te ajudar?", timestamp: Date())
+            ChatMessage(id: UUID().uuidString, role: .assistant, content: "Oi! Sou a Grey. Tiro dúvidas médicas e explico conteúdos do ENAMED.", timestamp: Date())
         ]
-        suggestedQuestions = ["Organizar minha semana", "Priorizar matérias", "Rever meu plano"]
+        suggestedQuestions = ["Explique fibrilação atrial", "Como manejar hiponatremia (SIADH)?", "Diferença entre dor mecânica e inflamatória?"]
     }
 
     var isLimitReached: Bool {
@@ -104,6 +101,13 @@ class GreyViewModel: ObservableObject {
         let userMessage = inputText.trimmingCharacters(in: .whitespacesAndNewlines)
         guard !userMessage.isEmpty else { return }
 
+        if isOffTopic(userMessage) {
+            messages.append(ChatMessage(id: UUID().uuidString, role: .assistant, content: "Eu sou focada em dúvidas médicas. Me envie uma dúvida sobre conteúdos do ENAMED.", timestamp: Date()))
+            inputText = ""
+            HapticManager.shared.notification(.warning)
+            return
+        }
+
         incrementInteractions()
         messages.append(ChatMessage(id: UUID().uuidString, role: .user, content: userMessage, timestamp: Date()))
         inputText = ""
@@ -112,7 +116,7 @@ class GreyViewModel: ObservableObject {
 
         try? await Task.sleep(nanoseconds: 1_500_000_000)
 
-        let response = "Boa pergunta! Posso te ajudar a organizar seus estudos e tirar dúvidas de forma objetiva.\n\nSe quiser, me diga:\n1. **Tema exato** que você quer revisar\n2. **Nível de prioridade** hoje\n3. **Tempo disponível**"
+        let response = "Boa pergunta! Posso explicar o tema e resolver dúvidas objetivas. Se quiser, me diga:\n1. **Tema específico**\n2. **O que você já entende**\n3. **Onde travou**"
 
         messages.append(ChatMessage(id: UUID().uuidString, role: .assistant, content: response, timestamp: Date()))
         isTyping = false
@@ -148,6 +152,26 @@ class GreyViewModel: ObservableObject {
     private func updateRemaining() {
         let current = UserDefaults.standard.integer(forKey: interactionCountKey)
         remainingInteractions = max(GreyLimit.maxDailyInteractions - current, 0)
+    }
+
+    private func isOffTopic(_ message: String) -> Bool {
+        let text = message.lowercased()
+        let allowedKeywords = [
+            "medicina", "clinica", "clínica", "cirurgia", "pediatria", "gineco", "obst", "obstetricia",
+            "saude", "saúde", "mental", "mfc", "coletiva", "enamed", "revalida", "sus",
+            "diagnostico", "diagnóstico", "tratamento", "sintoma", "sinais", "conduta", "protocolos",
+            "hipertens", "diabetes", "dengue", "tuberculose", "sifilis", "sífilis", "cad", "arritmia"
+        ]
+
+        let blockedKeywords = [
+            "agenda", "semana", "cronograma", "plano", "organizar", "prioridade", "priorizar",
+            "minha vida", "pessoal", "finanças", "trabalho", "namoro", "relacionamento"
+        ]
+
+        if blockedKeywords.contains(where: { text.contains($0) }) {
+            return true
+        }
+        return !allowedKeywords.contains(where: { text.contains($0) })
     }
 
     private static func dayKey(from date: Date) -> String {

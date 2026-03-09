@@ -11,6 +11,7 @@ import Combine
 struct HomeView: View {
     @EnvironmentObject var appState: AppState
     @StateObject private var viewModel = HomeViewModel()
+    @State private var showSettings = false
 
     var body: some View {
         ScrollView {
@@ -44,15 +45,22 @@ struct HomeView: View {
         .toolbar {
             ToolbarItem(placement: .navigationBarLeading) {
                 HStack(spacing: Spacing.sm) {
-                    Image(systemName: "brain.head.profile")
-                        .font(.system(size: 24))
-                        .foregroundColor(.resumed.gold)
+                    Button {
+                        showSettings = true
+                    } label: {
+                        Image(systemName: "brain.head.profile")
+                            .font(.system(size: 24))
+                            .foregroundColor(.resumed.gold)
+                    }
 
                     Text("RESUMED")
                         .font(.resumed.h4)
                         .foregroundColor(.resumed.gold)
                 }
             }
+        }
+        .navigationDestination(isPresented: $showSettings) {
+            SettingsView()
         }
         .task {
             await viewModel.loadData()

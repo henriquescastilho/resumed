@@ -1,9 +1,99 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <entity name="Item" representedClassName="Item" syncable="YES" codeGenerationType="class">
-        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    <entity name="CDFlashCard" representedClassName="CDFlashCard" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="NO" attributeType="String"/>
+        <attribute name="front" optional="NO" attributeType="String"/>
+        <attribute name="back" optional="NO" attributeType="String"/>
+        <attribute name="subject" optional="NO" attributeType="String"/>
+        <attribute name="tags" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromDataTransformerName"/>
+        <attribute name="easeFactor" optional="NO" attributeType="Double" defaultValueString="2.5"/>
+        <attribute name="interval" optional="NO" attributeType="Integer 32" defaultValueString="1"/>
+        <attribute name="repetitions" optional="NO" attributeType="Integer 32" defaultValueString="0"/>
+        <attribute name="nextReviewDate" optional="NO" attributeType="Date"/>
+        <attribute name="createdAt" optional="NO" attributeType="Date"/>
+        <attribute name="lastReviewedAt" optional="YES" attributeType="Date"/>
+        <attribute name="isSynced" optional="NO" attributeType="Boolean" defaultValueString="NO"/>
+    </entity>
+    <entity name="CDQuestion" representedClassName="CDQuestion" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="NO" attributeType="String"/>
+        <attribute name="statement" optional="NO" attributeType="String"/>
+        <attribute name="optionsData" optional="NO" attributeType="Binary"/>
+        <attribute name="correctOptionId" optional="NO" attributeType="String"/>
+        <attribute name="explanation" optional="NO" attributeType="String"/>
+        <attribute name="subject" optional="NO" attributeType="String"/>
+        <attribute name="source" optional="YES" attributeType="String"/>
+        <attribute name="difficulty" optional="YES" attributeType="String"/>
+        <attribute name="imageURL" optional="YES" attributeType="String"/>
+        <attribute name="cachedAt" optional="NO" attributeType="Date"/>
+    </entity>
+    <entity name="CDQuestionHistory" representedClassName="CDQuestionHistory" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="NO" attributeType="String"/>
+        <attribute name="questionId" optional="NO" attributeType="String"/>
+        <attribute name="selectedAnswer" optional="NO" attributeType="String"/>
+        <attribute name="isCorrect" optional="NO" attributeType="Boolean" defaultValueString="NO"/>
+        <attribute name="subject" optional="NO" attributeType="String"/>
+        <attribute name="timeSpentSeconds" optional="NO" attributeType="Integer 32" defaultValueString="0"/>
+        <attribute name="answeredAt" optional="NO" attributeType="Date"/>
+        <attribute name="isSynced" optional="NO" attributeType="Boolean" defaultValueString="NO"/>
+    </entity>
+    <entity name="CDStudySession" representedClassName="CDStudySession" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="NO" attributeType="String"/>
+        <attribute name="type" optional="NO" attributeType="String"/>
+        <attribute name="subject" optional="YES" attributeType="String"/>
+        <attribute name="startedAt" optional="NO" attributeType="Date"/>
+        <attribute name="endedAt" optional="YES" attributeType="Date"/>
+        <attribute name="durationMinutes" optional="NO" attributeType="Integer 32" defaultValueString="0"/>
+        <attribute name="questionsAnswered" optional="NO" attributeType="Integer 32" defaultValueString="0"/>
+        <attribute name="correctAnswers" optional="NO" attributeType="Integer 32" defaultValueString="0"/>
+        <attribute name="flashcardsReviewed" optional="NO" attributeType="Integer 32" defaultValueString="0"/>
+        <attribute name="xpEarned" optional="NO" attributeType="Integer 32" defaultValueString="0"/>
+        <attribute name="isSynced" optional="NO" attributeType="Boolean" defaultValueString="NO"/>
+    </entity>
+    <entity name="CDUserStats" representedClassName="CDUserStats" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="NO" attributeType="String"/>
+        <attribute name="level" optional="NO" attributeType="Integer 32" defaultValueString="1"/>
+        <attribute name="totalXP" optional="NO" attributeType="Integer 32" defaultValueString="0"/>
+        <attribute name="streak" optional="NO" attributeType="Integer 32" defaultValueString="0"/>
+        <attribute name="longestStreak" optional="NO" attributeType="Integer 32" defaultValueString="0"/>
+        <attribute name="totalQuestionsAnswered" optional="NO" attributeType="Integer 32" defaultValueString="0"/>
+        <attribute name="totalCorrectAnswers" optional="NO" attributeType="Integer 32" defaultValueString="0"/>
+        <attribute name="totalStudyTimeMinutes" optional="NO" attributeType="Integer 32" defaultValueString="0"/>
+        <attribute name="totalFlashcardsReviewed" optional="NO" attributeType="Integer 32" defaultValueString="0"/>
+        <attribute name="totalExamsCompleted" optional="NO" attributeType="Integer 32" defaultValueString="0"/>
+        <attribute name="unlockedBadgesData" optional="YES" attributeType="Binary"/>
+        <attribute name="subjectStatsData" optional="YES" attributeType="Binary"/>
+        <attribute name="lastStudyDate" optional="YES" attributeType="Date"/>
+        <attribute name="updatedAt" optional="NO" attributeType="Date"/>
+    </entity>
+    <entity name="CDOfflineQueue" representedClassName="CDOfflineQueue" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="NO" attributeType="String"/>
+        <attribute name="actionType" optional="NO" attributeType="String"/>
+        <attribute name="endpoint" optional="NO" attributeType="String"/>
+        <attribute name="method" optional="NO" attributeType="String"/>
+        <attribute name="payload" optional="YES" attributeType="Binary"/>
+        <attribute name="createdAt" optional="NO" attributeType="Date"/>
+        <attribute name="retryCount" optional="NO" attributeType="Integer 16" defaultValueString="0"/>
+        <attribute name="lastAttemptAt" optional="YES" attributeType="Date"/>
+    </entity>
+    <entity name="CDCachedExam" representedClassName="CDCachedExam" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="NO" attributeType="String"/>
+        <attribute name="institution" optional="NO" attributeType="String"/>
+        <attribute name="name" optional="NO" attributeType="String"/>
+        <attribute name="year" optional="NO" attributeType="Integer 32"/>
+        <attribute name="subjects" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromDataTransformerName"/>
+        <attribute name="questionCount" optional="NO" attributeType="Integer 32"/>
+        <attribute name="durationMinutes" optional="NO" attributeType="Integer 32"/>
+        <attribute name="difficulty" optional="YES" attributeType="String"/>
+        <attribute name="questionsData" optional="YES" attributeType="Binary"/>
+        <attribute name="cachedAt" optional="NO" attributeType="Date"/>
     </entity>
     <elements>
-        <element name="Item" positionX="-63" positionY="-18" width="128" height="44"/>
+        <element name="CDFlashCard" positionX="-63" positionY="-18" width="128" height="44"/>
+        <element name="CDQuestion" positionX="-63" positionY="36" width="128" height="44"/>
+        <element name="CDQuestionHistory" positionX="-63" positionY="90" width="128" height="44"/>
+        <element name="CDStudySession" positionX="-63" positionY="144" width="128" height="44"/>
+        <element name="CDUserStats" positionX="-63" positionY="198" width="128" height="44"/>
+        <element name="CDOfflineQueue" positionX="-63" positionY="252" width="128" height="44"/>
+        <element name="CDCachedExam" positionX="-63" positionY="306" width="128" height="44"/>
     </elements>
 </model>

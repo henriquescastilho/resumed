@@ -6,6 +6,7 @@
 import XCTest
 @testable import Resumed
 
+@MainActor
 final class FocusSessionManagerTests: XCTestCase {
     private let lastDayKey = "pomodoro_last_day"
     private let completedKey = "pomodoros_completed_today"

@@ -14,8 +14,8 @@ class CoreDataStack {
     static let shared = CoreDataStack()
 
     lazy var persistentContainer: NSPersistentContainer = {
-        // Create the model programmatically
-        let model = createManagedObjectModel()
+        // Prefer bundled model when available, fallback to programmatic model.
+        let model = NSManagedObjectModel.mergedModel(from: [Bundle.main]) ?? createManagedObjectModel()
         let container = NSPersistentContainer(name: "Resumed", managedObjectModel: model)
 
         // Configure for lightweight migration
@@ -84,7 +84,7 @@ class CoreDataStack {
         properties.append(createAttribute(name: "front", type: .stringAttributeType, optional: false))
         properties.append(createAttribute(name: "back", type: .stringAttributeType, optional: false))
         properties.append(createAttribute(name: "subject", type: .stringAttributeType, optional: false))
-        properties.append(createAttribute(name: "tags", type: .transformableAttributeType, optional: true))
+        properties.append(createAttribute(name: "tags", type: .transformableAttributeType, optional: true, transformerName: NSValueTransformerName.secureUnarchiveFromDataTransformerName.rawValue))
         properties.append(createAttribute(name: "easeFactor", type: .doubleAttributeType, optional: false, defaultValue: 2.5))
         properties.append(createAttribute(name: "interval", type: .integer32AttributeType, optional: false, defaultValue: 1))
         properties.append(createAttribute(name: "repetitions", type: .integer32AttributeType, optional: false, defaultValue: 0))
@@ -219,7 +219,7 @@ class CoreDataStack {
         properties.append(createAttribute(name: "institution", type: .stringAttributeType, optional: false))
         properties.append(createAttribute(name: "name", type: .stringAttributeType, optional: false))
         properties.append(createAttribute(name: "year", type: .integer32AttributeType, optional: false))
-        properties.append(createAttribute(name: "subjects", type: .transformableAttributeType, optional: true))
+        properties.append(createAttribute(name: "subjects", type: .transformableAttributeType, optional: true, transformerName: NSValueTransformerName.secureUnarchiveFromDataTransformerName.rawValue))
         properties.append(createAttribute(name: "questionCount", type: .integer32AttributeType, optional: false))
         properties.append(createAttribute(name: "durationMinutes", type: .integer32AttributeType, optional: false))
         properties.append(createAttribute(name: "difficulty", type: .stringAttributeType, optional: true))
@@ -236,7 +236,8 @@ class CoreDataStack {
         name: String,
         type: NSAttributeType,
         optional: Bool,
-        defaultValue: Any? = nil
+        defaultValue: Any? = nil,
+        transformerName: String? = nil
     ) -> NSAttributeDescription {
         let attribute = NSAttributeDescription()
         attribute.name = name
@@ -244,6 +245,9 @@ class CoreDataStack {
         attribute.isOptional = optional
         if let defaultValue = defaultValue {
             attribute.defaultValue = defaultValue
+        }
+        if let transformerName = transformerName {
+            attribute.valueTransformerName = transformerName
         }
         return attribute
     }
@@ -278,146 +282,4 @@ class CoreDataStack {
     func performBackgroundTask(_ block: @escaping (NSManagedObjectContext) -> Void) {
         persistentContainer.performBackgroundTask(block)
     }
-}
-
-// MARK: - Managed Object Classes
-
-@objc(CDFlashCard)
-public class CDFlashCard: NSManagedObject {
-    @NSManaged public var id: String
-    @NSManaged public var front: String
-    @NSManaged public var back: String
-    @NSManaged public var subject: String
-    @NSManaged public var tags: [String]?
-    @NSManaged public var easeFactor: Double
-    @NSManaged public var interval: Int32
-    @NSManaged public var repetitions: Int32
-    @NSManaged public var nextReviewDate: Date
-    @NSManaged public var createdAt: Date
-    @NSManaged public var lastReviewedAt: Date?
-    @NSManaged public var isSynced: Bool
-
-    func toFlashCard() -> FlashCard {
-        FlashCard(
-            id: id,
-            front: front,
-            back: back,
-            subject: subject,
-            tags: tags ?? [],
-            easinessFactor: easeFactor,
-            interval: Int(interval),
-            repetitions: Int(repetitions),
-            nextReviewDate: nextReviewDate,
-            lastReviewDate: lastReviewedAt
-        )
-    }
-
-    func update(from card: FlashCard) {
-        easeFactor = card.easinessFactor
-        interval = Int32(card.interval)
-        repetitions = Int32(card.repetitions)
-        nextReviewDate = card.nextReviewDate
-        lastReviewedAt = card.lastReviewDate
-        isSynced = false
-    }
-}
-
-@objc(CDQuestion)
-public class CDQuestion: NSManagedObject {
-    @NSManaged public var id: String
-    @NSManaged public var statement: String
-    @NSManaged public var optionsData: Data
-    @NSManaged public var correctOptionId: String
-    @NSManaged public var explanation: String
-    @NSManaged public var subject: String
-    @NSManaged public var source: String?
-    @NSManaged public var difficulty: String?
-    @NSManaged public var imageURL: String?
-    @NSManaged public var cachedAt: Date
-
-    func toQuestion() -> Question? {
-        guard let options = try? JSONDecoder().decode([QuestionOption].self, from: optionsData) else {
-            return nil
-        }
-        return Question(
-            id: id,
-            statement: statement,
-            options: options,
-            correctOptionId: correctOptionId,
-            explanation: explanation,
-            subject: subject,
-            source: source ?? ""
-        )
-    }
-}
-
-@objc(CDQuestionHistory)
-public class CDQuestionHistory: NSManagedObject {
-    @NSManaged public var id: String
-    @NSManaged public var questionId: String
-    @NSManaged public var selectedAnswer: String
-    @NSManaged public var isCorrect: Bool
-    @NSManaged public var subject: String
-    @NSManaged public var timeSpentSeconds: Int32
-    @NSManaged public var answeredAt: Date
-    @NSManaged public var isSynced: Bool
-}
-
-@objc(CDStudySession)
-public class CDStudySession: NSManagedObject {
-    @NSManaged public var id: String
-    @NSManaged public var type: String
-    @NSManaged public var subject: String?
-    @NSManaged public var startedAt: Date
-    @NSManaged public var endedAt: Date?
-    @NSManaged public var durationMinutes: Int32
-    @NSManaged public var questionsAnswered: Int32
-    @NSManaged public var correctAnswers: Int32
-    @NSManaged public var flashcardsReviewed: Int32
-    @NSManaged public var xpEarned: Int32
-    @NSManaged public var isSynced: Bool
-}
-
-@objc(CDUserStats)
-public class CDUserStats: NSManagedObject {
-    @NSManaged public var id: String
-    @NSManaged public var level: Int32
-    @NSManaged public var totalXP: Int32
-    @NSManaged public var streak: Int32
-    @NSManaged public var longestStreak: Int32
-    @NSManaged public var totalQuestionsAnswered: Int32
-    @NSManaged public var totalCorrectAnswers: Int32
-    @NSManaged public var totalStudyTimeMinutes: Int32
-    @NSManaged public var totalFlashcardsReviewed: Int32
-    @NSManaged public var totalExamsCompleted: Int32
-    @NSManaged public var unlockedBadgesData: Data?
-    @NSManaged public var subjectStatsData: Data?
-    @NSManaged public var lastStudyDate: Date?
-    @NSManaged public var updatedAt: Date
-}
-
-@objc(CDOfflineQueue)
-public class CDOfflineQueue: NSManagedObject {
-    @NSManaged public var id: String
-    @NSManaged public var actionType: String
-    @NSManaged public var endpoint: String
-    @NSManaged public var method: String
-    @NSManaged public var payload: Data?
-    @NSManaged public var createdAt: Date
-    @NSManaged public var retryCount: Int16
-    @NSManaged public var lastAttemptAt: Date?
-}
-
-@objc(CDCachedExam)
-public class CDCachedExam: NSManagedObject {
-    @NSManaged public var id: String
-    @NSManaged public var institution: String
-    @NSManaged public var name: String
-    @NSManaged public var year: Int32
-    @NSManaged public var subjects: [String]?
-    @NSManaged public var questionCount: Int32
-    @NSManaged public var durationMinutes: Int32
-    @NSManaged public var difficulty: String?
-    @NSManaged public var questionsData: Data?
-    @NSManaged public var cachedAt: Date
 }

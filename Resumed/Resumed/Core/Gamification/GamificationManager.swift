@@ -157,6 +157,19 @@ class GamificationManager: ObservableObject {
         checkBadgeProgress()
     }
 
+    func recordQuestionAnswered(isCorrect: Bool) {
+        let total = UserDefaults.standard.integer(forKey: "totalQuestionsAnswered") + 1
+        UserDefaults.standard.set(total, forKey: "totalQuestionsAnswered")
+
+        if isCorrect {
+            let correct = UserDefaults.standard.integer(forKey: "totalCorrectAnswers") + 1
+            UserDefaults.standard.set(correct, forKey: "totalCorrectAnswers")
+        }
+
+        updateStreak()
+        checkBadgeProgress()
+    }
+
     func recordExamComplete(accuracy: Double) {
         let total = UserDefaults.standard.integer(forKey: "examsCompleted") + 1
         UserDefaults.standard.set(total, forKey: "examsCompleted")

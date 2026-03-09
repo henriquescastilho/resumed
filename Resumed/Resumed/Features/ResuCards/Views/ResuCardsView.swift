@@ -24,6 +24,12 @@ struct ResuCardsView: View {
                 .padding(.horizontal, Spacing.md)
                 .padding(.top, Spacing.sm)
 
+                ResuCardFilterBar(
+                    selectedSubject: $viewModel.selectedSubject,
+                    subjects: viewModel.subjects
+                )
+                .padding(.horizontal, Spacing.md)
+
                 Group {
                     switch viewModel.mode {
                     case .review:
@@ -54,8 +60,9 @@ struct ResuCardsView: View {
                         }
                     case .myCards:
                         MyCardsList(
-                            cards: viewModel.myCards,
-                            onCreate: { viewModel.showCreateCard = true }
+                            cards: viewModel.filteredMyCards,
+                            onCreate: { viewModel.showCreateCard = true },
+                            onEdit: { viewModel.startEdit(card: $0) }
                         )
                     }
                 }
@@ -79,6 +86,11 @@ struct ResuCardsView: View {
         .sheet(isPresented: $viewModel.showCreateCard) {
             CreateCardSheet(viewModel: viewModel)
         }
+        .sheet(isPresented: $viewModel.showEditCard) {
+            if let card = viewModel.editingCard {
+                EditCardSheet(viewModel: viewModel, card: card)
+            }
+        }
     }
 }
 
@@ -91,19 +103,46 @@ class ResuCardsViewModel: ObservableObject {
     @Published var mode: Mode = .review
     @Published var cards: [FlashCard] = []
     @Published var myCards: [FlashCard] = []
+    @Published var selectedSubject: String = "Todas"
     @Published var currentIndex = 0
     @Published var isFlipped = false
     @Published var cardsReviewed = 0
     @Published var xpEarned = 0
     @Published var showCreateCard = false
+    @Published var showEditCard = false
+    @Published var editingCard: FlashCard?
     @Published var errorMessage: String?
 
     private let coreData = CoreDataManager.shared
     private let userTag = "user"
+    private let defaultSubjects = [
+        "Clínica Médica",
+        "Cirurgia Geral",
+        "Pediatria",
+        "Ginecologia e Obstetrícia",
+        "Medicina Preventiva",
+        "Psiquiatria"
+    ]
+
+    var subjects: [String] {
+        let availableSubjects = Set((cards + myCards).map(\.subject).filter { !$0.isEmpty })
+        let mergedSubjects = availableSubjects.union(defaultSubjects)
+        return ["Todas"] + mergedSubjects.sorted()
+    }
 
     var currentCard: FlashCard? {
-        guard currentIndex < cards.count else { return nil }
-        return cards[currentIndex]
+        guard currentIndex < filteredCards.count else { return nil }
+        return filteredCards[currentIndex]
+    }
+
+    var filteredCards: [FlashCard] {
+        if selectedSubject == "Todas" { return cards }
+        return cards.filter { $0.subject == selectedSubject }
+    }
+
+    var filteredMyCards: [FlashCard] {
+        if selectedSubject == "Todas" { return myCards }
+        return myCards.filter { $0.subject == selectedSubject }
     }
 
     func loadCards() async {
@@ -113,19 +152,28 @@ class ResuCardsViewModel: ObservableObject {
         do {
             let dueLocal = coreData.fetchDueFlashCards()
             if !dueLocal.isEmpty {
-                cards = dueLocal
+                cards = dueLocal.shuffled()
             } else if APIClient.mode == .mock {
-                cards = []
+                let response = try await MockAPIClient.shared.getFlashCardsDue()
+                let loadedCards = response.flashcards.map { $0.toFlashCard() }
+                cards = loadedCards.shuffled()
+                loadedCards.forEach { coreData.saveOrUpdateFlashCard($0) }
             } else {
                 let response = try await APIClient.shared.getFlashCardsDue()
-                cards = response.flashcards.map { $0.toFlashCard() }
+                cards = response.flashcards.map { $0.toFlashCard() }.shuffled()
                 cards.forEach { coreData.saveOrUpdateFlashCard($0) }
             }
         } catch {
             cards = []
         }
 
-        state = cards.isEmpty ? .empty : .reviewing
+        loadMyCards()
+
+        state = filteredCards.isEmpty ? .empty : .reviewing
+        currentIndex = 0
+        if state == .reviewing {
+            cardsReviewed = 0
+        }
     }
 
     func flipCard() {
@@ -139,18 +187,20 @@ class ResuCardsViewModel: ObservableObject {
         guard var card = currentCard else { return }
 
         SM2Algorithm.applyReview(to: &card, quality: quality)
-        cards[currentIndex] = card
+        if let index = cards.firstIndex(where: { $0.id == card.id }) {
+            cards[index] = card
+        }
         coreData.saveOrUpdateFlashCard(card)
         loadMyCards()
         xpEarned += quality.xpReward
         cardsReviewed += 1
 
-        if cardsReviewed >= cards.count {
+        if cardsReviewed >= filteredCards.count {
             withAnimation { state = .completed }
             HapticManager.shared.celebration()
         } else {
             isFlipped = false
-            currentIndex += 1
+            currentIndex = min(currentIndex + 1, max(filteredCards.count - 1, 0))
             HapticManager.shared.selection()
         }
     }
@@ -160,7 +210,22 @@ class ResuCardsViewModel: ObservableObject {
         cardsReviewed = 0
         xpEarned = 0
         isFlipped = false
-        state = .reviewing
+        cards.shuffle()
+        state = filteredCards.isEmpty ? .empty : .reviewing
+    }
+
+    func goToNext() {
+        guard !filteredCards.isEmpty else { return }
+        isFlipped = false
+        currentIndex = min(currentIndex + 1, filteredCards.count - 1)
+        HapticManager.shared.selection()
+    }
+
+    func goToPrevious() {
+        guard !filteredCards.isEmpty else { return }
+        isFlipped = false
+        currentIndex = max(currentIndex - 1, 0)
+        HapticManager.shared.selection()
     }
 
     func createCard(front: String, back: String, subject: String) {
@@ -171,6 +236,23 @@ class ResuCardsViewModel: ObservableObject {
         if state == .empty {
             cards = [newCard]
             state = .reviewing
+        }
+    }
+
+    func startEdit(card: FlashCard) {
+        editingCard = card
+        showEditCard = true
+    }
+
+    func updateCard(_ card: FlashCard, front: String, back: String, subject: String) {
+        var updated = card
+        updated.front = front
+        updated.back = back
+        updated.subject = subject
+        coreData.saveOrUpdateFlashCard(updated)
+        loadMyCards()
+        if let index = cards.firstIndex(where: { $0.id == updated.id }) {
+            cards[index] = updated
         }
     }
 
@@ -187,10 +269,10 @@ struct ReviewingContent: View {
         VStack(spacing: Spacing.lg) {
             // Progress
             VStack(spacing: Spacing.sm) {
-                ProgressBar(current: viewModel.cardsReviewed, total: viewModel.cards.count, showLabel: false)
+                ProgressBar(current: viewModel.cardsReviewed, total: max(viewModel.filteredCards.count, 1), showLabel: false)
 
                 HStack {
-                    Text("Card \(viewModel.cardsReviewed + 1) de \(viewModel.cards.count)")
+                    Text("Card \(viewModel.cardsReviewed + 1) de \(viewModel.filteredCards.count)")
                         .font(.resumed.bodySmall)
                         .foregroundColor(.resumed.gray)
                     Spacer()
@@ -207,6 +289,16 @@ struct ReviewingContent: View {
                     viewModel.flipCard()
                 }
                 .padding(.horizontal, Spacing.md)
+                .gesture(
+                    DragGesture(minimumDistance: 20)
+                        .onEnded { value in
+                            if value.translation.width < -40 {
+                                viewModel.goToNext()
+                            } else if value.translation.width > 40 {
+                                viewModel.goToPrevious()
+                            }
+                        }
+                )
             }
 
             Spacer()
@@ -315,11 +407,29 @@ struct CreateCardSheet: View {
     @State private var front = ""
     @State private var back = ""
     @State private var subject = "Clínica Médica"
+    private var subjects: [String] { viewModel.subjects.filter { $0 != "Todas" } }
 
     var body: some View {
         NavigationStack {
             ScrollView {
                 VStack(spacing: Spacing.lg) {
+                    VStack(alignment: .leading, spacing: Spacing.sm) {
+                        Text("Categoria")
+                            .font(.resumed.body)
+                            .foregroundColor(.resumed.gray)
+
+                        Picker("Categoria", selection: $subject) {
+                            ForEach(subjects, id: \.self) { item in
+                                Text(item).tag(item)
+                            }
+                        }
+                        .pickerStyle(.menu)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .padding(Spacing.md)
+                        .background(Color.resumed.blackSecondary)
+                        .cornerRadius(CornerRadius.md)
+                    }
+
                     VStack(alignment: .leading, spacing: Spacing.sm) {
                         Text("Frente")
                             .font(.resumed.body)
@@ -357,9 +467,86 @@ struct CreateCardSheet: View {
     }
 }
 
+private struct EditCardSheet: View {
+    @ObservedObject var viewModel: ResuCardsViewModel
+    let card: FlashCard
+    @Environment(\.dismiss) var dismiss
+    @State private var front: String
+    @State private var back: String
+    @State private var subject: String
+    private var subjects: [String]
+
+    init(viewModel: ResuCardsViewModel, card: FlashCard) {
+        self.viewModel = viewModel
+        self.card = card
+        _front = State(initialValue: card.front)
+        _back = State(initialValue: card.back)
+        _subject = State(initialValue: card.subject)
+        self.subjects = viewModel.subjects.filter { $0 != "Todas" }
+    }
+
+    var body: some View {
+        NavigationStack {
+            ScrollView {
+                VStack(spacing: Spacing.lg) {
+                    VStack(alignment: .leading, spacing: Spacing.sm) {
+                        Text("Categoria")
+                            .font(.resumed.body)
+                            .foregroundColor(.resumed.gray)
+
+                        Picker("Categoria", selection: $subject) {
+                            ForEach(subjects, id: \.self) { item in
+                                Text(item).tag(item)
+                            }
+                        }
+                        .pickerStyle(.menu)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .padding(Spacing.md)
+                        .background(Color.resumed.blackSecondary)
+                        .cornerRadius(CornerRadius.md)
+                    }
+
+                    VStack(alignment: .leading, spacing: Spacing.sm) {
+                        Text("Frente")
+                            .font(.resumed.body)
+                            .foregroundColor(.resumed.gray)
+                        ResumedTextArea(placeholder: "Pergunta...", text: $front, minHeight: 100)
+                    }
+
+                    VStack(alignment: .leading, spacing: Spacing.sm) {
+                        Text("Verso")
+                            .font(.resumed.body)
+                            .foregroundColor(.resumed.gray)
+                        ResumedTextArea(placeholder: "Resposta...", text: $back, minHeight: 150)
+                    }
+                }
+                .padding(Spacing.md)
+            }
+            .background(Color.resumed.black)
+            .navigationTitle("Editar ResuCard")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Button("Cancelar") { dismiss() }
+                        .foregroundColor(.resumed.gray)
+                }
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button("Salvar") {
+                        viewModel.updateCard(card, front: front, back: back, subject: subject)
+                        dismiss()
+                    }
+                        .foregroundColor(.resumed.gold)
+                        .disabled(front.isEmpty || back.isEmpty)
+                }
+            }
+        }
+    }
+}
+
 private struct MyCardsList: View {
     let cards: [FlashCard]
     let onCreate: () -> Void
+    let onEdit: (FlashCard) -> Void
 
     var body: some View {
         if cards.isEmpty {
@@ -398,6 +585,11 @@ private struct MyCardsList: View {
                                 .font(.resumed.bodySmall)
                                 .foregroundColor(.resumed.gray)
                                 .lineLimit(2)
+
+                            HStack {
+                                Spacer()
+                                IconButton(icon: "pencil", action: { onEdit(card) }, size: 36, color: .resumed.gold)
+                            }
                         }
                         .padding(Spacing.md)
                         .background(Color.resumed.blackSecondary)
@@ -415,5 +607,45 @@ private struct MyCardsList: View {
             return "Revisar hoje"
         }
         return "Revisar em \(days)d"
+    }
+}
+
+private struct ResuCardFilterBar: View {
+    @Binding var selectedSubject: String
+    let subjects: [String]
+
+    var body: some View {
+        HStack {
+            Text("Categoria")
+                .font(.resumed.caption)
+                .foregroundColor(.resumed.gray)
+
+            Spacer()
+
+            Menu {
+                ForEach(subjects, id: \.self) { subject in
+                    Button(subject) { selectedSubject = subject }
+                }
+            } label: {
+                HStack(spacing: 6) {
+                    Text(selectedSubject)
+                        .font(.resumed.bodySmall)
+                        .foregroundColor(.resumed.white)
+                        .lineLimit(1)
+                    Image(systemName: "chevron.down")
+                        .font(.system(size: 12, weight: .semibold))
+                        .foregroundColor(.resumed.gold)
+                }
+                .padding(.horizontal, Spacing.md)
+                .padding(.vertical, Spacing.sm)
+                .background(Color.resumed.blackSecondary)
+                .cornerRadius(CornerRadius.round)
+                .overlay(
+                    RoundedRectangle(cornerRadius: CornerRadius.round)
+                        .stroke(Color.resumed.border, lineWidth: 1)
+                )
+            }
+        }
+        .padding(.vertical, Spacing.xs)
     }
 }

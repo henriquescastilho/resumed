@@ -74,15 +74,10 @@ struct LoginView: View {
                             .frame(width: 140, height: 140)
                             .scaleEffect(showContent ? 1 : 0.5)
 
-                        Image(systemName: "brain.head.profile")
-                            .font(.system(size: 70))
-                            .foregroundStyle(
-                                LinearGradient(
-                                    colors: [Color.resumed.gold, Color.resumed.goldLight],
-                                    startPoint: .topLeading,
-                                    endPoint: .bottomTrailing
-                                )
-                            )
+                        Image("ResumedLogo")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 90, height: 90)
                             .scaleEffect(showContent ? 1 : 0)
                     }
                     .animation(.spring(response: 0.6, dampingFraction: 0.7), value: showContent)
@@ -170,17 +165,6 @@ struct LoginView: View {
                     .opacity(showContent ? 1 : 0)
                     .animation(.easeOut(duration: 0.5).delay(0.7), value: showContent)
 
-                    // Demo mode
-                    Button {
-                        enterDemoMode()
-                    } label: {
-                        Text("Explorar sem conta (Demo)")
-                            .font(.resumed.caption)
-                            .foregroundColor(.resumed.gray)
-                    }
-                    .padding(.top, Spacing.sm)
-                    .opacity(showContent ? 1 : 0)
-                    .animation(.easeOut(duration: 0.5).delay(0.8), value: showContent)
                 }
                 .padding(.horizontal, Spacing.lg)
                 .padding(.bottom, Spacing.xl)
@@ -230,25 +214,6 @@ struct LoginView: View {
         }
     }
 
-    private func enterDemoMode() {
-        HapticManager.shared.selection()
-
-        // Create demo user
-        appState.user = User(
-            id: "demo_user",
-            email: "demo@resumed.app",
-            name: "Estudante Demo",
-            avatar: nil,
-            targetExam: nil,
-            examDate: nil,
-            studyHoursPerDay: 4,
-            createdAt: Date(),
-            onboardingCompleted: false
-        )
-        appState.isAuthenticated = true
-
-        FirebaseManager.shared.logEvent(.login, parameters: ["method": "demo"])
-    }
 }
 
 // MARK: - Feature Highlight

@@ -245,6 +245,10 @@ extension APIClient {
         return try await request(endpoint: "/exams")
     }
 
+    func getExamQuestions(examId: String) async throws -> [Question] {
+        return try await request(endpoint: "/exams/\(examId)/questions")
+    }
+
     // Gamification
     func updateUserXP(totalXP: Int, level: Int) async throws -> MessageResponse {
         return try await request(

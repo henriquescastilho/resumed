@@ -78,8 +78,8 @@ struct StudyTask: Codable, Identifiable {
 
 // MARK: - Day Plan
 
-struct DayPlan: Identifiable {
-    let id = UUID()
+struct DayPlan: Identifiable, Codable {
+    var id: UUID = UUID()
     let date: Date
     var tasks: [StudyTask]
     var totalMinutes: Int
@@ -105,6 +105,26 @@ struct DayPlan: Identifiable {
     var progress: Double {
         guard totalMinutes > 0 else { return 0 }
         return Double(completedMinutes) / Double(totalMinutes)
+    }
+
+    enum CodingKeys: String, CodingKey {
+        case date, tasks, totalMinutes, completedMinutes
+    }
+
+    init(date: Date, tasks: [StudyTask], totalMinutes: Int, completedMinutes: Int) {
+        self.date = date
+        self.tasks = tasks
+        self.totalMinutes = totalMinutes
+        self.completedMinutes = completedMinutes
+    }
+
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        date = try container.decode(Date.self, forKey: .date)
+        tasks = try container.decode([StudyTask].self, forKey: .tasks)
+        totalMinutes = try container.decode(Int.self, forKey: .totalMinutes)
+        completedMinutes = try container.decode(Int.self, forKey: .completedMinutes)
+        id = UUID()
     }
 }
 

@@ -10,7 +10,6 @@ import Combine
 
 struct PastExamsView: View {
     @StateObject private var viewModel = PastExamsViewModel()
-
     var body: some View {
         VStack(spacing: 0) {
             // Filters
@@ -53,15 +52,42 @@ struct PastExamsView: View {
         .background(Color.resumed.black)
         .navigationTitle("Provas Anteriores")
         .navigationBarTitleDisplayMode(.inline)
+        .toolbar {
+            ToolbarItem(placement: .navigationBarTrailing) {
+                Button("Como estudar") { viewModel.showHowToStudy = true }
+                    .foregroundColor(.resumed.gold)
+            }
+        }
         .task {
             await viewModel.loadExams()
         }
         .sheet(isPresented: $viewModel.showExamDetail) {
             if let exam = viewModel.selectedExam {
-                ExamDetailSheet(exam: exam, onStart: {
-                    viewModel.showExamDetail = false
-                })
+                ExamDetailSheet(
+                    exam: exam,
+                    canStart: true,
+                    onStart: {
+                        viewModel.showExamDetail = false
+                        viewModel.startExam(exam)
+                    },
+                    onPrint: {
+                        viewModel.printExam(exam)
+                    }
+                )
             }
+        }
+        .sheet(isPresented: $viewModel.showExamSession) {
+            if let exam = viewModel.selectedExam {
+                ExamTimerView(exam: exam)
+            }
+        }
+        .sheet(isPresented: $viewModel.showShareSheet) {
+            if let url = viewModel.shareURL {
+                ShareSheet(activityItems: [url])
+            }
+        }
+        .sheet(isPresented: $viewModel.showHowToStudy) {
+            HowToStudySheet()
         }
     }
 }
@@ -72,7 +98,12 @@ class PastExamsViewModel: ObservableObject {
     @Published var selectedInstitution: String?
     @Published var selectedExam: Exam?
     @Published var showExamDetail = false
+    @Published var showExamSession = false
     @Published var isLoading = false
+    @Published var showShareSheet = false
+    @Published var shareURL: URL?
+    @Published var isPreparingPrint = false
+    @Published var showHowToStudy = false
 
     var institutions: [String] {
         Array(Set(exams.map { $0.institution })).sorted()
@@ -87,6 +118,55 @@ class PastExamsViewModel: ObservableObject {
         isLoading = true
         loadMockExams()
         isLoading = false
+    }
+
+    func startExam(_ exam: Exam) {
+        selectedExam = exam
+        showExamSession = true
+    }
+
+    func printExam(_ exam: Exam) {
+        isPreparingPrint = true
+        do {
+            let content = buildPrintableExam(exam: exam)
+            let url = try writePrintableExam(exam: exam, content: content)
+            shareURL = url
+            showShareSheet = true
+            HapticManager.shared.selection()
+        } catch {
+            HapticManager.shared.error()
+        }
+        isPreparingPrint = false
+    }
+
+    private func buildPrintableExam(exam: Exam) -> String {
+        var lines: [String] = []
+        lines.append("RESUMED — FOLHA DE RASCUNHO")
+        lines.append("\(exam.name) • \(exam.year)")
+        lines.append("Duração: \(exam.formattedDuration) • Questões: \(exam.questionCount)")
+        lines.append("")
+        lines.append("Nome: ______________________________  Data: ____/____/______")
+        lines.append("Instituição: ________________________  Tempo limite: ________")
+        lines.append("")
+        lines.append("FOLHA DE RESPOSTAS (marque apenas uma alternativa)")
+        lines.append("")
+        for index in 1...exam.questionCount {
+            lines.append(String(format: "%3d  [ ] A   [ ] B   [ ] C   [ ] D   [ ] E", index))
+        }
+        lines.append("")
+        lines.append("ANOTAÇÕES / RASCUNHO")
+        lines.append("------------------------------------------------------------------")
+        for _ in 0..<24 {
+            lines.append("__________________________________________________________________")
+        }
+        return lines.joined(separator: "\n")
+    }
+
+    private func writePrintableExam(exam: Exam, content: String) throws -> URL {
+        let fileName = "RESUMED_\(exam.institution)_\(exam.year).txt"
+        let url = FileManager.default.temporaryDirectory.appendingPathComponent(fileName)
+        try content.write(to: url, atomically: true, encoding: .utf8)
+        return url
     }
 
     private func loadMockExams() {
@@ -195,7 +275,9 @@ struct ExamCard: View {
 
 struct ExamDetailSheet: View {
     let exam: Exam
+    let canStart: Bool
     let onStart: () -> Void
+    let onPrint: () -> Void
     @Environment(\.dismiss) var dismiss
 
     var body: some View {
@@ -251,6 +333,16 @@ struct ExamDetailSheet: View {
                         style: .primary,
                         action: onStart,
                         icon: "play.fill",
+                        isDisabled: !canStart,
+                        fullWidth: true
+                    )
+
+                    ResumedButton(
+                        title: "Imprimir Rascunho",
+                        style: .ghost,
+                        action: onPrint,
+                        icon: "printer.fill",
+                        isDisabled: !canStart,
                         fullWidth: true
                     )
                 }

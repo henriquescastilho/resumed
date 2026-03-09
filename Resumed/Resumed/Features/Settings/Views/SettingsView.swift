@@ -67,6 +67,9 @@ class SettingsViewModel: ObservableObject {
     @Published var dailyGoal: Int = 20
     @Published var selectedExam: String = "ENAMED"
     @Published var examDate: Date = Date().addingTimeInterval(60 * 60 * 24 * 180) // 6 months
+    @Published var studyHoursPerDay: Int = 4
+    @Published var subjectPriority: [String] = []
+    @Published var showPrioritySheet = false
 
     // Notifications
     @Published var notificationsEnabled = true
@@ -85,6 +88,15 @@ class SettingsViewModel: ObservableObject {
 
     let examOptions = ["ENAMED", "USP", "UNICAMP", "UNIFESP", "SUS-SP", "ENARE", "Outro"]
     let dailyGoalOptions = [10, 15, 20, 30, 50]
+    let subjects = [
+        "Clínica Médica",
+        "Cirurgia Geral",
+        "Ginecologia e Obstetrícia",
+        "Pediatria",
+        "MFC",
+        "Saúde Mental",
+        "Saúde Coletiva"
+    ]
 
     init() {
         loadSettings()
@@ -94,7 +106,12 @@ class SettingsViewModel: ObservableObject {
         dailyGoal = UserDefaults.standard.integer(forKey: "dailyGoal")
         if dailyGoal == 0 { dailyGoal = 20 }
 
-        selectedExam = UserDefaults.standard.string(forKey: "selectedExam") ?? "ENAMED"
+        selectedExam = UserDefaults.standard.string(forKey: "targetExam")
+            ?? UserDefaults.standard.string(forKey: "selectedExam")
+            ?? "ENAMED"
+        studyHoursPerDay = UserDefaults.standard.integer(forKey: "studyHoursPerDay")
+        if studyHoursPerDay == 0 { studyHoursPerDay = 4 }
+        subjectPriority = UserDefaults.standard.stringArray(forKey: "subjectPriority") ?? subjects
         hapticFeedback = UserDefaults.standard.bool(forKey: "hapticFeedback")
         soundEffects = UserDefaults.standard.bool(forKey: "soundEffects")
         notificationsEnabled = UserDefaults.standard.bool(forKey: "notificationsEnabled")
@@ -113,7 +130,10 @@ class SettingsViewModel: ObservableObject {
     func saveSettings() {
         UserDefaults.standard.set(dailyGoal, forKey: "dailyGoal")
         UserDefaults.standard.set(selectedExam, forKey: "selectedExam")
+        UserDefaults.standard.set(selectedExam, forKey: "targetExam")
         UserDefaults.standard.set(examDate, forKey: "examDate")
+        UserDefaults.standard.set(studyHoursPerDay, forKey: "studyHoursPerDay")
+        UserDefaults.standard.set(subjectPriority, forKey: "subjectPriority")
         UserDefaults.standard.set(hapticFeedback, forKey: "hapticFeedback")
         UserDefaults.standard.set(soundEffects, forKey: "soundEffects")
         UserDefaults.standard.set(notificationsEnabled, forKey: "notificationsEnabled")
@@ -130,6 +150,25 @@ class SettingsViewModel: ObservableObject {
 
     func clearLocalData() {
         CoreDataManager.shared.clearAllData()
+        let keysToClear = [
+            "hasCompletedOnboarding",
+            "subjectPriority",
+            "targetExam",
+            "selectedExam",
+            "examDate",
+            "studyHoursPerDay",
+            "dailyGoal",
+            "hapticFeedback",
+            "soundEffects",
+            "notificationsEnabled",
+            "dailyReminderEnabled",
+            "reminderTime",
+            "streakReminder",
+            "grey_last_interaction_date",
+            "grey_interaction_count",
+            "grey_saved_drafts"
+        ]
+        keysToClear.forEach { UserDefaults.standard.removeObject(forKey: $0) }
         HapticManager.shared.notification(.success)
     }
 
@@ -218,6 +257,23 @@ struct StudyPreferencesSection: View {
 
                     Divider().background(Color.resumed.border)
 
+                    SettingsRow(title: "Horas por dia", value: "\(viewModel.studyHoursPerDay)h") {
+                        Stepper(value: $viewModel.studyHoursPerDay, in: 1...12, step: 1) {
+                            Text("\(viewModel.studyHoursPerDay)h")
+                                .font(.resumed.bodySmall)
+                                .foregroundColor(.resumed.white)
+                        }
+                    }
+
+                    Divider().background(Color.resumed.border)
+
+                    SettingsRow(title: "Prioridade de matérias", value: "Editar") {
+                        Button("Editar") { viewModel.showPrioritySheet = true }
+                            .foregroundColor(.resumed.gold)
+                    }
+
+                    Divider().background(Color.resumed.border)
+
                     // Exam Date
                     HStack {
                         Text("Data da Prova")
@@ -249,7 +305,46 @@ struct StudyPreferencesSection: View {
         }
         .onChange(of: viewModel.dailyGoal) { _, _ in viewModel.saveSettings() }
         .onChange(of: viewModel.selectedExam) { _, _ in viewModel.saveSettings() }
+        .onChange(of: viewModel.studyHoursPerDay) { _, _ in viewModel.saveSettings() }
         .onChange(of: viewModel.examDate) { _, _ in viewModel.saveSettings() }
+        .onChange(of: viewModel.subjectPriority) { _, _ in viewModel.saveSettings() }
+        .sheet(isPresented: $viewModel.showPrioritySheet) {
+            SubjectPrioritySheet(subjects: $viewModel.subjectPriority)
+        }
+    }
+}
+
+private struct SubjectPrioritySheet: View {
+    @Binding var subjects: [String]
+    @Environment(\.dismiss) var dismiss
+
+    var body: some View {
+        NavigationStack {
+            List {
+                ForEach(subjects, id: \.self) { subject in
+                    Text(subject)
+                        .font(.resumed.body)
+                        .foregroundColor(.resumed.white)
+                }
+                .onMove { indices, newOffset in
+                    subjects.move(fromOffsets: indices, toOffset: newOffset)
+                }
+            }
+            .scrollContentBackground(.hidden)
+            .background(Color.resumed.black)
+            .navigationTitle("Prioridade de matérias")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Button("Fechar") { dismiss() }
+                        .foregroundColor(.resumed.gray)
+                }
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    EditButton()
+                        .foregroundColor(.resumed.gold)
+                }
+            }
+        }
     }
 }
 

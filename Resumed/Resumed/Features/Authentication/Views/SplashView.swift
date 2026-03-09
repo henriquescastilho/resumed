@@ -82,18 +82,12 @@ struct SplashView: View {
                         .scaleEffect(showLogo ? 1 : 0)
                         .opacity(showLogo ? 1 : 0)
 
-                    // Brain icon
-                    Image(systemName: "brain.head.profile")
-                        .font(.system(size: 70, weight: .thin))
-                        .foregroundStyle(
-                            LinearGradient(
-                                colors: [Color.resumed.gold, Color.resumed.goldLight],
-                                startPoint: .topLeading,
-                                endPoint: .bottomTrailing
-                            )
-                        )
+                    Image("ResumedLogo")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 110, height: 110)
                         .scaleEffect(showLogo ? 1 : 0)
-                        .rotationEffect(.degrees(showLogo ? 0 : -45))
+                        .rotationEffect(.degrees(showLogo ? 0 : -25))
                         .shadow(color: Color.resumed.gold.opacity(0.5), radius: 20)
                 }
                 .animation(.spring(response: 0.8, dampingFraction: 0.6), value: showLogo)
@@ -213,9 +207,10 @@ struct SimpleSplashView: View {
             Color.resumed.black.ignoresSafeArea()
 
             VStack(spacing: Spacing.lg) {
-                Image(systemName: "brain.head.profile")
-                    .font(.system(size: 80))
-                    .foregroundColor(.resumed.gold)
+                Image("ResumedLogo")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 120, height: 120)
 
                 Text("RESUMED")
                     .font(.system(size: 36, weight: .bold, design: .rounded))

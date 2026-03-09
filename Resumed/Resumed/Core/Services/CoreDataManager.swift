@@ -62,7 +62,7 @@ class CoreDataManager {
         entity.front = card.front
         entity.back = card.back
         entity.subject = card.subject
-        entity.tags = card.tags
+        entity.tags = card.tags as NSArray
         entity.easeFactor = card.easinessFactor
         entity.interval = Int32(card.interval)
         entity.repetitions = Int32(card.repetitions)
@@ -170,7 +170,7 @@ class CoreDataManager {
 
     // MARK: - Question History Operations
 
-    func saveQuestionAnswer(questionId: String, selectedAnswer: String, isCorrect: Bool, subject: String) {
+    func saveQuestionAnswer(questionId: String, selectedAnswer: String, isCorrect: Bool, subject: String, timeSpentSeconds: Int = 0) {
         let entity = CDQuestionHistory(context: viewContext)
         entity.id = UUID().uuidString
         entity.questionId = questionId
@@ -178,7 +178,7 @@ class CoreDataManager {
         entity.isCorrect = isCorrect
         entity.subject = subject
         entity.answeredAt = Date()
-        entity.timeSpentSeconds = 0
+        entity.timeSpentSeconds = Int32(timeSpentSeconds)
         entity.isSynced = false
         save()
     }
@@ -197,6 +197,22 @@ class CoreDataManager {
             return try viewContext.fetch(request)
         } catch {
             print("Fetch Question History Error: \(error)")
+            return []
+        }
+    }
+
+    func fetchSubjectsWithHistory() -> [String] {
+        let request = NSFetchRequest<NSDictionary>(entityName: "CDQuestionHistory")
+        request.resultType = .dictionaryResultType
+        request.propertiesToFetch = ["subject"]
+        request.returnsDistinctResults = true
+
+        do {
+            let results = try viewContext.fetch(request)
+            let subjects = results.compactMap { $0["subject"] as? String }
+            return Array(Set(subjects)).sorted()
+        } catch {
+            print("Fetch Subjects Error: \(error)")
             return []
         }
     }
