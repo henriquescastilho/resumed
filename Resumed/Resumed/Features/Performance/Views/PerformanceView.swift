@@ -210,7 +210,7 @@ class PerformanceViewModel: ObservableObject {
         case "Cirurgia Geral": return .resumed.cirurgia
         case "Pediatria": return .resumed.pediatria
         case "Ginecologia e Obstetrícia": return .resumed.ginecologia
-        case "MFC": return .resumed.preventiva
+        case "MFC", "Medicina Preventiva", "Preventiva": return .resumed.preventiva
         case "Saúde Mental": return .resumed.warning
         case "Saúde Coletiva": return .resumed.gray
         default: return .resumed.gray
@@ -306,43 +306,75 @@ struct AccuracyBreakdownSheet: View {
     let subjects: [PerformanceViewModel.SubjectPerformance]
     @Environment(\.dismiss) private var dismiss
 
+    private var sortedSubjects: [PerformanceViewModel.SubjectPerformance] {
+        subjects.sorted { $0.score > $1.score }
+    }
+
     var body: some View {
         NavigationStack {
             ScrollView {
                 VStack(alignment: .leading, spacing: Spacing.md) {
-                    Text("Acurácia por matéria")
-                        .font(.resumed.h3)
-                        .foregroundColor(.resumed.white)
+                    if sortedSubjects.isEmpty {
+                        VStack(spacing: Spacing.md) {
+                            Image(systemName: "chart.bar.xaxis")
+                                .font(.system(size: 48))
+                                .foregroundColor(.resumed.gray)
+                            Text("Nenhuma questão respondida ainda")
+                                .font(.resumed.body)
+                                .foregroundColor(.resumed.gray)
+                        }
+                        .frame(maxWidth: .infinity)
+                        .padding(.top, Spacing.xl)
+                    } else {
+                        Text("Acurácia por matéria")
+                            .font(.resumed.h3)
+                            .foregroundColor(.resumed.white)
 
-                    ForEach(subjects) { subject in
-                        ResumedCard {
-                            VStack(alignment: .leading, spacing: Spacing.sm) {
-                                HStack {
-                                    Text(subject.subject)
-                                        .font(.resumed.body)
-                                        .foregroundColor(.resumed.white)
+                        ForEach(Array(sortedSubjects.enumerated()), id: \.element.id) { index, subject in
+                            ResumedCard {
+                                VStack(alignment: .leading, spacing: Spacing.sm) {
+                                    HStack {
+                                        Text(subject.subject)
+                                            .font(.resumed.body)
+                                            .foregroundColor(.resumed.white)
 
-                                    Spacer()
+                                        Spacer()
 
-                                    Text("\(Int(subject.score))%")
-                                        .font(.resumed.h4)
-                                        .foregroundColor(subject.color)
-                                }
+                                        Text(String(format: "%.1f%%", subject.score))
+                                            .font(.resumed.h4)
+                                            .foregroundColor(accuracyColor(subject.score))
+                                    }
 
-                                GeometryReader { geometry in
-                                    ZStack(alignment: .leading) {
-                                        RoundedRectangle(cornerRadius: 4)
-                                            .fill(Color.resumed.blackTertiary)
-                                        RoundedRectangle(cornerRadius: 4)
-                                            .fill(subject.color)
-                                            .frame(width: geometry.size.width * (subject.score / 100))
+                                    GeometryReader { geometry in
+                                        ZStack(alignment: .leading) {
+                                            RoundedRectangle(cornerRadius: 4)
+                                                .fill(Color.resumed.blackTertiary)
+                                            RoundedRectangle(cornerRadius: 4)
+                                                .fill(subject.color)
+                                                .frame(width: geometry.size.width * (subject.score / 100))
+                                                .animation(.easeOut(duration: 0.5), value: subject.score)
+                                        }
+                                    }
+                                    .frame(height: 12)
+
+                                    HStack {
+                                        Text("\(subject.correctAnswers) acertos em \(subject.questionsAnswered) questões")
+                                            .font(.resumed.caption)
+                                            .foregroundColor(.resumed.gray)
+
+                                        Spacer()
+
+                                        if index == 0 {
+                                            Label("Melhor", systemImage: "star.fill")
+                                                .font(.resumed.caption)
+                                                .foregroundColor(.resumed.gold)
+                                        } else if index == sortedSubjects.count - 1, sortedSubjects.count > 1 {
+                                            Label("Foco aqui", systemImage: "exclamationmark.triangle.fill")
+                                                .font(.resumed.caption)
+                                                .foregroundColor(.resumed.warning)
+                                        }
                                     }
                                 }
-                                .frame(height: 12)
-
-                                Text("\(subject.correctAnswers) acertos em \(subject.questionsAnswered) questões")
-                                    .font(.resumed.caption)
-                                    .foregroundColor(.resumed.gray)
                             }
                         }
                     }
@@ -358,6 +390,14 @@ struct AccuracyBreakdownSheet: View {
                         .foregroundColor(.resumed.gold)
                 }
             }
+        }
+    }
+
+    private func accuracyColor(_ score: Double) -> Color {
+        switch score {
+        case 80...: return .resumed.success
+        case 60..<80: return .resumed.gold
+        default: return .resumed.warning
         }
     }
 }
