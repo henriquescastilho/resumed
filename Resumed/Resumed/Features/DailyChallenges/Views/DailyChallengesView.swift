@@ -91,22 +91,27 @@ class DailyChallengesViewModel: ObservableObject {
     func loadChallenges() async {
         isLoading = true
 
-        // Simulate API call
-        try? await Task.sleep(nanoseconds: 300_000_000)
+        // Read real progress from UserDefaults
+        let todayKey = Self.todayKey()
+        let questionsToday = UserDefaults.standard.integer(forKey: "questions_correct_today_\(todayKey)")
+        let flashcardsToday = UserDefaults.standard.integer(forKey: "flashcards_reviewed_today_\(todayKey)")
+        let studyMinutesToday = UserDefaults.standard.integer(forKey: "study_minutes_today_\(todayKey)")
+        let correctStreak = UserDefaults.standard.integer(forKey: "correct_streak_today_\(todayKey)")
+        let subjectsToday = UserDefaults.standard.integer(forKey: "subjects_studied_today_\(todayKey)")
 
-        // Load mock data
         challenges = [
             DailyChallenge(
                 id: "1",
                 type: .questions,
                 title: "Questões Rápidas",
-                description: "Acerte 5 questões de Clínica Médica",
+                description: "Acerte 5 questões",
                 target: 5,
-                current: 3,
+                current: min(questionsToday, 5),
                 xpReward: 50,
-                subject: "Clínica Médica",
+                subject: nil,
                 difficulty: .easy,
-                icon: "checkmark.circle"
+                icon: "checkmark.circle",
+                isCompleted: questionsToday >= 5
             ),
             DailyChallenge(
                 id: "2",
@@ -114,11 +119,12 @@ class DailyChallengesViewModel: ObservableObject {
                 title: "Mestre da Memória",
                 description: "Revise 10 flashcards",
                 target: 10,
-                current: 0,
+                current: min(flashcardsToday, 10),
                 xpReward: 75,
                 subject: nil,
                 difficulty: .medium,
-                icon: "rectangle.stack"
+                icon: "rectangle.stack",
+                isCompleted: flashcardsToday >= 10
             ),
             DailyChallenge(
                 id: "3",
@@ -126,11 +132,12 @@ class DailyChallengesViewModel: ObservableObject {
                 title: "Maratonista",
                 description: "Estude por 30 minutos",
                 target: 30,
-                current: 15,
+                current: min(studyMinutesToday, 30),
                 xpReward: 100,
                 subject: nil,
                 difficulty: .medium,
-                icon: "clock"
+                icon: "clock",
+                isCompleted: studyMinutesToday >= 30
             ),
             DailyChallenge(
                 id: "4",
@@ -138,11 +145,12 @@ class DailyChallengesViewModel: ObservableObject {
                 title: "Precisão Máxima",
                 description: "Acerte 10 questões seguidas",
                 target: 10,
-                current: 0,
+                current: min(correctStreak, 10),
                 xpReward: 150,
                 subject: nil,
                 difficulty: .hard,
-                icon: "target"
+                icon: "target",
+                isCompleted: correctStreak >= 10
             ),
             DailyChallenge(
                 id: "5",
@@ -150,11 +158,12 @@ class DailyChallengesViewModel: ObservableObject {
                 title: "Explorador",
                 description: "Responda questões de 3 matérias diferentes",
                 target: 3,
-                current: 1,
+                current: min(subjectsToday, 3),
                 xpReward: 80,
                 subject: nil,
                 difficulty: .easy,
-                icon: "books.vertical"
+                icon: "books.vertical",
+                isCompleted: subjectsToday >= 3
             )
         ]
 
@@ -169,13 +178,36 @@ class DailyChallengesViewModel: ObservableObject {
             subject: nil,
             difficulty: .legendary,
             icon: "star.fill",
-            isFeatured: true
+            isFeatured: true,
+            isCompleted: completedCount >= 5
         )
 
-        challengeStreak = 7
-        weeklyProgress = [true, true, true, true, true, true, false]
+        // Real streak from GamificationManager
+        challengeStreak = GamificationManager.shared.streak
+
+        // Build weekly progress from last 7 days
+        weeklyProgress = Self.buildWeeklyProgress()
 
         isLoading = false
+    }
+
+    private static func todayKey() -> String {
+        let f = DateFormatter()
+        f.dateFormat = "yyyy-MM-dd"
+        return f.string(from: Date())
+    }
+
+    private static func buildWeeklyProgress() -> [Bool] {
+        let calendar = Calendar.current
+        let today = calendar.startOfDay(for: Date())
+        let f = DateFormatter()
+        f.dateFormat = "yyyy-MM-dd"
+
+        return (0..<7).map { daysAgo in
+            let date = calendar.date(byAdding: .day, value: -(6 - daysAgo), to: today)!
+            let key = f.string(from: date)
+            return UserDefaults.standard.integer(forKey: "questions_correct_today_\(key)") > 0
+        }
     }
 
     func startChallenge(_ challenge: DailyChallenge) {
