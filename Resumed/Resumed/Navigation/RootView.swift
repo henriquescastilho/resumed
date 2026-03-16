@@ -19,6 +19,10 @@ struct RootView: View {
                     LoginView()
                 } else if !appState.hasCompletedOnboarding {
                     OnboardingView()
+                } else if !appState.hasCompletedPlacementTest {
+                    PlacementTestView {
+                        appState.completePlacementTest()
+                    }
                 } else {
                     TabBarView()
                 }
@@ -44,7 +48,7 @@ struct RootView: View {
 
 struct LoginView: View {
     @EnvironmentObject var appState: AppState
-    @StateObject private var firebaseManager = FirebaseManager.shared
+    @ObservedObject private var firebaseManager = FirebaseManager.shared
     @State private var isLoading = false
     @State private var showError = false
     @State private var errorMessage = ""

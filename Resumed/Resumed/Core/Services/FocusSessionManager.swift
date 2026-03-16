@@ -125,13 +125,14 @@ final class FocusSessionManager: ObservableObject {
 
     private func startTimer() {
         stopTimer()
-        timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { [weak self] _ in
+        let t = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { [weak self] _ in
             guard let self else { return }
             Task { @MainActor in
                 self.tick()
             }
         }
-        RunLoop.main.add(timer!, forMode: .common)
+        timer = t
+        RunLoop.main.add(t, forMode: .common)
     }
 
     private func stopTimer() {
@@ -222,12 +223,16 @@ final class FocusSessionManager: ObservableObject {
         totalPomodorosCompleted = UserDefaults.standard.integer(forKey: Keys.totalPomodorosCompleted)
     }
 
+    private static let dayFormatter: DateFormatter = {
+        let f = DateFormatter()
+        f.calendar = Calendar.current
+        f.timeZone = .current
+        f.dateFormat = "yyyy-MM-dd"
+        return f
+    }()
+
     private static func dayKey(from date: Date) -> String {
-        let formatter = DateFormatter()
-        formatter.calendar = Calendar.current
-        formatter.timeZone = .current
-        formatter.dateFormat = "yyyy-MM-dd"
-        return formatter.string(from: date)
+        dayFormatter.string(from: date)
     }
 }
 

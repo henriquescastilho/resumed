@@ -18,16 +18,21 @@ def get_plan(
     current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db)
 ):
+    if end_date < start_date:
+        raise HTTPException(status_code=400, detail="end_date must be >= start_date")
+    if (end_date - start_date).days > 90:
+        raise HTTPException(status_code=400, detail="Date range cannot exceed 90 days")
+
     tasks = db.query(StudyPlanTask).filter(
         StudyPlanTask.user_id == current_user.id,
         StudyPlanTask.date >= start_date,
         StudyPlanTask.date <= end_date
     ).all()
-    
-    if not tasks:
-        # Generate default plan if empty
+
+    if not tasks and start_date >= date.today():
+        # Only auto-generate for current/future dates
         tasks = PlanService.generate_week_plan(db, current_user, start_date, end_date)
-        
+
     return tasks
 
 @router.put("/{task_id}/status", response_model=PlanTaskOut)
@@ -59,5 +64,5 @@ def rebalance_plan(
     current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db)
 ):
-    # Call service (mocked/simple for now)
-    return {"message": "Plan rebalanced"}
+    result = PlanService.rebalance_plan(db, current_user)
+    return {"message": "Plan rebalanced", "tasks_skipped": result.get("skipped", 0), "tasks_created": result.get("created", 0)}

@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { ViewState, UserProfile } from '../types';
 import { Button, Input, Card } from '../components/Common';
 import { Logo } from '../components/Logo';
@@ -190,17 +190,22 @@ export const Onboarding: React.FC<OnboardingProps> = ({ setView, setProfile }) =
     </div>
   );
 
-  const renderProcessing = () => {
-    setTimeout(() => {
-        setProfile({
-            name,
-            targetExams: exams,
-            availableDays: days,
-            hoursPerDay: hours,
-            subjectWeights: weights
-        });
-        setView('HOME');
-    }, 4000);
+  const handleProcessingComplete = useCallback(() => {
+    setProfile({
+      name,
+      targetExams: exams,
+      availableDays: days,
+      hoursPerDay: hours,
+      subjectWeights: weights
+    });
+    setView('HOME');
+  }, [name, exams, days, hours, weights, setProfile, setView]);
+
+  const ProcessingStep: React.FC = () => {
+    useEffect(() => {
+      const timer = setTimeout(handleProcessingComplete, 4000);
+      return () => clearTimeout(timer);
+    }, []);
 
     return (
       <div className="h-full flex flex-col items-center justify-center text-center space-y-8 animate-fade-in">
@@ -226,7 +231,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({ setView, setProfile }) =
     case 'ONBOARDING_HOURS': return renderHours();
     case 'ONBOARDING_DISTRIBUTION': return renderDistribution();
     case 'ONBOARDING_ASSESSMENT': return renderAssessment();
-    case 'ONBOARDING_PROCESSING': return renderProcessing();
+    case 'ONBOARDING_PROCESSING': return <ProcessingStep />;
     default: return renderWelcome();
   }
 };

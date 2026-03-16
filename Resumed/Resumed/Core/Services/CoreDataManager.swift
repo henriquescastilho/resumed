@@ -36,10 +36,9 @@ class CoreDataManager {
         }
     }
 
+    @MainActor
     func saveAsync() async {
-        await viewContext.perform {
-            self.save()
-        }
+        save()
     }
 
     // MARK: - Background Context
@@ -265,14 +264,22 @@ class CoreDataManager {
         for entityName in entities {
             let request = NSFetchRequest<NSFetchRequestResult>(entityName: entityName)
             let deleteRequest = NSBatchDeleteRequest(fetchRequest: request)
+            deleteRequest.resultType = .resultTypeObjectIDs
 
             do {
-                try viewContext.execute(deleteRequest)
+                let result = try viewContext.execute(deleteRequest) as? NSBatchDeleteResult
+                let objectIDs = result?.result as? [NSManagedObjectID] ?? []
+                // Merge batch delete into in-memory context so objects don't linger
+                if !objectIDs.isEmpty {
+                    NSManagedObjectContext.mergeChanges(
+                        fromRemoteContextSave: [NSDeletedObjectsKey: objectIDs],
+                        into: [viewContext]
+                    )
+                }
             } catch {
                 print("Clear \(entityName) Error: \(error)")
             }
         }
-        save()
     }
 }
 

@@ -17,6 +17,6 @@ class RAGDocument(Base):
     # Embedding: In production use Vector(768) from pgvector
     # embedding = Column(Vector(768)) 
     
-    metadata_json = Column(JSON, default={}) # source, page, section
+    metadata_json = Column(JSON, default=lambda: {}) # source, page, section
     
     created_at = Column(DateTime(timezone=True), server_default=func.now())

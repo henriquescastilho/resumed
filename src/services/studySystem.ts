@@ -15,8 +15,8 @@ export const calculateNextReview = (card: Flashcard, rating: 'fail' | 'hard' | '
   if (rating === 'fail') {
     newStep = 0;
   } else if (rating === 'hard') {
-    // Keep same step or minimum 0, allows to review tomorrow
-    newStep = Math.max(0, newStep); 
+    // Step back by 1 (penalized progress), but never below 0
+    newStep = Math.max(0, newStep - 1);
   } else if (rating === 'good') {
     newStep = newStep + 1;
   } else if (rating === 'easy') {

@@ -87,23 +87,59 @@ struct FeedbackCard: View {
     let explanation: String
     let socialMessage: String
 
+    private var trimmedExplanation: String {
+        let maxChars = 320
+        guard explanation.count > maxChars else { return explanation }
+        return String(explanation.prefix(maxChars)) + "…"
+    }
+
     var body: some View {
         VStack(alignment: .leading, spacing: Spacing.sm) {
-            Text(isCorrect ? "Resposta certa" : "Resposta incorreta")
-                .font(.resumed.h4)
-                .foregroundColor(isCorrect ? .resumed.success : .resumed.error)
+            // Header
+            HStack(spacing: Spacing.xs) {
+                Image(systemName: isCorrect ? "checkmark.circle.fill" : "xmark.circle.fill")
+                    .foregroundColor(isCorrect ? .resumed.success : .resumed.error)
+                Text(isCorrect ? "Resposta certa!" : "Resposta incorreta")
+                    .font(.resumed.h4)
+                    .foregroundColor(isCorrect ? .resumed.success : .resumed.error)
+            }
 
-            Text(explanation)
-                .font(.resumed.bodySmall)
-                .foregroundColor(.resumed.white)
+            // Explanation — only on wrong answers
+            if !isCorrect, !explanation.isEmpty {
+                Divider()
+                    .background(Color.resumed.border)
 
-            Text(socialMessage)
-                .font(.resumed.caption)
-                .foregroundColor(.resumed.gray)
+                Text("Explicação")
+                    .font(.resumed.caption)
+                    .foregroundColor(.resumed.gold)
+
+                Text(trimmedExplanation)
+                    .font(.resumed.bodySmall)
+                    .foregroundColor(.resumed.white)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+
+            // Social message — only when non-empty
+            if !socialMessage.isEmpty {
+                Text(socialMessage)
+                    .font(.resumed.caption)
+                    .foregroundColor(.resumed.gray)
+            }
         }
         .padding(Spacing.md)
-        .background(Color.resumed.blackSecondary)
+        .background(
+            (isCorrect ? Color.resumed.success : Color.resumed.error)
+                .opacity(0.08)
+        )
+        .overlay(
+            RoundedRectangle(cornerRadius: CornerRadius.md)
+                .stroke(
+                    isCorrect ? Color.resumed.success : Color.resumed.error,
+                    lineWidth: 1
+                )
+        )
         .cornerRadius(CornerRadius.md)
         .padding(.horizontal, Spacing.md)
+        .transition(.move(edge: .bottom).combined(with: .opacity))
     }
 }

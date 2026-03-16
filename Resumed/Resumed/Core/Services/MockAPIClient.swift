@@ -208,10 +208,10 @@ struct MockData {
         studyTimeMinutes: 2520,
         subjectStats: [
             SubjectStat(subject: "Clínica Médica", questionsAnswered: 450, correctAnswers: 369),
-            SubjectStat(subject: "Cirurgia", questionsAnswered: 280, correctAnswers: 190),
+            SubjectStat(subject: "Cirurgia Geral", questionsAnswered: 280, correctAnswers: 190),
             SubjectStat(subject: "Pediatria", questionsAnswered: 200, correctAnswers: 150),
-            SubjectStat(subject: "GO", questionsAnswered: 180, correctAnswers: 133),
-            SubjectStat(subject: "Preventiva", questionsAnswered: 137, correctAnswers: 130)
+            SubjectStat(subject: "Ginecologia e Obstetrícia", questionsAnswered: 180, correctAnswers: 133),
+            SubjectStat(subject: "Medicina Preventiva", questionsAnswered: 137, correctAnswers: 130)
         ],
         badges: ["first_question", "hundred_questions", "week_streak"]
     )

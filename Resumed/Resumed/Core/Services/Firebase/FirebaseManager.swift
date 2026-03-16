@@ -39,9 +39,10 @@ class FirebaseManager: ObservableObject {
     // MARK: - Configuration
 
     func configure() {
+        guard !isInitialized else { return }
+
         // Uncomment after adding Firebase SDK:
         // FirebaseApp.configure()
-        // isInitialized = true
         // setupCrashlytics()
         // checkCurrentUser()
 

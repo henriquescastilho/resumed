@@ -83,15 +83,18 @@ struct ExamTimerView: View {
         guard !isFinished else { return }
         isRunning = true
         timer?.invalidate()
-        timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { _ in
-            if remainingSeconds > 0 {
-                remainingSeconds -= 1
-            }
-            if remainingSeconds <= 0 {
-                finish()
+        let t = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { _ in
+            DispatchQueue.main.async {
+                if remainingSeconds > 0 {
+                    remainingSeconds -= 1
+                }
+                if remainingSeconds <= 0 {
+                    finish()
+                }
             }
         }
-        RunLoop.main.add(timer!, forMode: .common)
+        timer = t
+        RunLoop.main.add(t, forMode: .common)
     }
 
     private func pause() {

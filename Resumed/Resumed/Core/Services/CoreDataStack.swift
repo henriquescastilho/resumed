@@ -27,6 +27,15 @@ class CoreDataStack {
         container.loadPersistentStores { storeDescription, error in
             if let error = error as NSError? {
                 print("❌ Core Data Error: \(error), \(error.userInfo)")
+                #if DEBUG
+                fatalError("Core Data failed to load: \(error), \(error.userInfo)")
+                #else
+                // In production, post notification so the app can show an alert
+                NotificationCenter.default.post(
+                    name: NSNotification.Name("CoreDataLoadFailed"),
+                    object: error
+                )
+                #endif
             } else {
                 print("✅ Core Data loaded successfully")
             }

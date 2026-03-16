@@ -71,7 +71,7 @@ export const Performance: React.FC<PerformanceProps> = ({ userStats }) => {
                     <div className="w-full h-2 bg-gray-200 dark:bg-[#1F1F1F] rounded-full overflow-hidden">
                     <div 
                         className="h-full bg-[#D4A54A] shadow-[0_0_10px_rgba(212,165,74,0.5)]" 
-                        style={{ width: `${(userStats.xp / (userStats.level * XP_PER_LEVEL)) * 100}%` }} 
+                        style={{ width: `${Math.min(100, (userStats.xp / (userStats.level * XP_PER_LEVEL)) * 100)}%` }}
                     />
                     </div>
                 </div>

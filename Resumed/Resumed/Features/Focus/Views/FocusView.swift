@@ -61,7 +61,7 @@ struct FocusView: View {
         .navigationTitle("Foco")
         .navigationBarTitleDisplayMode(.inline)
         .onChange(of: scenePhase) { _, newPhase in
-            if newPhase == .background || newPhase == .inactive {
+            if newPhase == .background {
                 manager.pause()
             }
         }

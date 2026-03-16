@@ -1,4 +1,4 @@
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from app.models.content import Flashcard
 
 class SRSService:
@@ -17,7 +17,7 @@ class SRSService:
         if rating not in [0, 1, 2, 3]:
             raise ValueError("Invalid rating")
             
-        now = datetime.now()
+        now = datetime.now(timezone.utc)
         
         # Current values
         step = card.srs_step

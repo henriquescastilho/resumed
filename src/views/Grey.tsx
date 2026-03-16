@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { initChat, sendMessageToGrey } from '../services/geminiService';
+import { initChat, sendMessageToGrey, resetChat } from '../services/geminiService';
 import { ChatMessage } from '../types';
 import { Input, Button } from '../components/Common';
 import { Send, Bot, User } from 'lucide-react';
@@ -19,6 +19,7 @@ export const Grey: React.FC = () => {
 
   useEffect(() => {
     initChat();
+    return () => { resetChat(); };
   }, []);
 
   useEffect(() => {
@@ -114,13 +115,14 @@ export const Grey: React.FC = () => {
           <input
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            onKeyPress={(e) => e.key === 'Enter' && handleSend()}
+            onKeyDown={(e) => e.key === 'Enter' && !e.shiftKey && handleSend()}
             placeholder="Pergunte sobre medicina..."
             className="w-full bg-[#0A0A0A] border border-[#333] rounded-full pl-5 pr-12 py-3.5 text-white focus:border-[#D4A54A] focus:outline-none transition-colors placeholder-[#444]"
           />
-          <button 
+          <button
             onClick={handleSend}
             disabled={!input.trim()}
+            aria-label="Enviar mensagem"
             className="absolute right-2 top-1.5 p-2 bg-[#D4A54A] rounded-full text-black hover:scale-105 active:scale-95 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
           >
             <Send size={18} />

@@ -36,8 +36,11 @@ def get_current_user(
             
         return user
         
+    except HTTPException:
+        raise
     except Exception as e:
+        print(f"Auth error: {e}")
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
-            detail=str(e)
+            detail="Could not validate credentials"
         )

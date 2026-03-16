@@ -80,8 +80,18 @@ class GreyViewModel: ObservableObject {
 
     init() {
         resetIfNewDay()
+        let providerInfo: String
+        switch GreyAIService.shared.activeProvider {
+        case .medgemma:
+            providerInfo = " Estou usando MedGemma local — IA médica especializada."
+        case .gemini:
+            providerInfo = " Estou conectada ao Gemini na nuvem."
+        case .local:
+            providerInfo = " Estou em modo offline com respostas limitadas. Inicie o Ollama para IA completa."
+        }
+
         messages = [
-            ChatMessage(id: UUID().uuidString, role: .assistant, content: "Oi! Sou a Grey. Tiro dúvidas médicas e explico conteúdos do ENAMED.", timestamp: Date())
+            ChatMessage(id: UUID().uuidString, role: .assistant, content: "Oi! Sou a Grey. Tiro dúvidas médicas e explico conteúdos do ENAMED.\(providerInfo)", timestamp: Date())
         ]
         suggestedQuestions = ["Explique fibrilação atrial", "Como manejar hiponatremia (SIADH)?", "Diferença entre dor mecânica e inflamatória?"]
     }
@@ -114,9 +124,7 @@ class GreyViewModel: ObservableObject {
         isTyping = true
         suggestedQuestions = []
 
-        try? await Task.sleep(nanoseconds: 1_500_000_000)
-
-        let response = "Boa pergunta! Posso explicar o tema e resolver dúvidas objetivas. Se quiser, me diga:\n1. **Tema específico**\n2. **O que você já entende**\n3. **Onde travou**"
+        let response = await GreyAIService.shared.sendMessage(userMessage)
 
         messages.append(ChatMessage(id: UUID().uuidString, role: .assistant, content: response, timestamp: Date()))
         isTyping = false
@@ -174,12 +182,16 @@ class GreyViewModel: ObservableObject {
         return !allowedKeywords.contains(where: { text.contains($0) })
     }
 
+    private static let dayFormatter: DateFormatter = {
+        let f = DateFormatter()
+        f.calendar = Calendar.current
+        f.timeZone = .current
+        f.dateFormat = "yyyy-MM-dd"
+        return f
+    }()
+
     private static func dayKey(from date: Date) -> String {
-        let formatter = DateFormatter()
-        formatter.calendar = Calendar.current
-        formatter.timeZone = .current
-        formatter.dateFormat = "yyyy-MM-dd"
-        return formatter.string(from: date)
+        dayFormatter.string(from: date)
     }
 }
 

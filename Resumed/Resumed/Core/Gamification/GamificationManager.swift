@@ -39,6 +39,7 @@ class GamificationManager: ObservableObject {
 
         checkBadgeProgress()
         saveToStorage()
+        WidgetDataBridge.shared.sync()
 
         Task { await syncWithServer() }
     }
@@ -56,17 +57,27 @@ class GamificationManager: ObservableObject {
     }
 
     func updateStreak() {
+        let calendar = Calendar.current
+        let today = calendar.startOfDay(for: Date())
         let lastStudyDate = UserDefaults.standard.object(forKey: "lastStudyDate") as? Date
 
-        if let lastDate = lastStudyDate {
-            let calendar = Calendar.current
-            let daysSinceLastStudy = calendar.dateComponents([.day], from: lastDate, to: Date()).day ?? 0
+        // Already updated today — skip to avoid incrementing N times per session
+        if let lastDate = lastStudyDate, calendar.isDateInToday(lastDate) {
+            return
+        }
 
-            if daysSinceLastStudy == 1 {
+        // Save previous date for comeback badge detection
+        if let lastDate = lastStudyDate {
+            UserDefaults.standard.set(lastDate, forKey: "previousLastStudyDate")
+        }
+
+        if let lastDate = lastStudyDate {
+            if calendar.isDateInYesterday(lastDate) {
                 streak += 1
                 addXP(XPReward.dailyStreak, reason: .streak)
                 checkStreakBadges()
-            } else if daysSinceLastStudy > 1 {
+            } else {
+                // More than 1 day gap — reset streak
                 streak = 1
             }
         } else {

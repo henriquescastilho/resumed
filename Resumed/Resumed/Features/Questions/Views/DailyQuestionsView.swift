@@ -89,7 +89,11 @@ struct DailyQuestionsView: View {
                             ResumedButton(
                                 title: "Confirmar",
                                 style: .primary,
-                                action: session.confirmAnswer,
+                                action: {
+                                    withAnimation(.spring(response: 0.35, dampingFraction: 0.8)) {
+                                        session.confirmAnswer()
+                                    }
+                                },
                                 isDisabled: session.selectedOptionId == nil
                             )
                         }

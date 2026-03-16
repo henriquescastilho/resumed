@@ -14,7 +14,8 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         _ application: UIApplication,
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil
     ) -> Bool {
-        FirebaseApp.configure()
+        // Firebase configuration is centralized in FirebaseManager.configure()
+        // called from RootView.onAppear to avoid double-configure crash
         return true
     }
 }
