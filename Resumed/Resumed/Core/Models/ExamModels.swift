@@ -27,6 +27,12 @@ struct Exam: Identifiable, Codable {
         subjects.map { $0.name }
     }
 
+    var formattedDuration: String {
+        let hours = durationMinutes / 60
+        let minutes = durationMinutes % 60
+        return hours > 0 ? "\(hours)h \(minutes)min" : "\(minutes)min"
+    }
+
     var isUpcoming: Bool {
         guard let date = examDate else { return false }
         return date > Date()

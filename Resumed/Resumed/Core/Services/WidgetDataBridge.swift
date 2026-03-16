@@ -62,7 +62,10 @@ class WidgetDataBridge {
         defaults.set(pendingCards, forKey: "widget_pendingCards")
 
         // Overall accuracy
-        defaults.set(progressSnapshot.overallAccuracy, forKey: "widget_accuracy")
+        let overallAccuracy = progressSnapshot.totalQuestions > 0
+            ? Int(Double(progressSnapshot.totalCorrect) / Double(progressSnapshot.totalQuestions) * 100)
+            : 0
+        defaults.set(overallAccuracy, forKey: "widget_accuracy")
 
         // Random motivational quote
         defaults.set(quotes.randomElement() ?? quotes[0], forKey: "widget_quote")

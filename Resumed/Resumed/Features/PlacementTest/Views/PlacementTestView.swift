@@ -155,7 +155,8 @@ private struct PlacementTestingScreen: View {
                 if !viewModel.isAnswered {
                     ResumedButton(title: "Confirmar", style: .primary,
                         action: { withAnimation { viewModel.confirmAnswer() } },
-                        fullWidth: true, isDisabled: viewModel.selectedOptionId == nil)
+                        isDisabled: viewModel.selectedOptionId == nil,
+                        fullWidth: true)
                 } else {
                     ResumedButton(title: "Próxima", style: .primary,
                         action: { withAnimation { viewModel.nextQuestion() } },

@@ -178,8 +178,8 @@ class DailyChallengesViewModel: ObservableObject {
             subject: nil,
             difficulty: .legendary,
             icon: "star.fill",
-            isFeatured: true,
-            isCompleted: completedCount >= 5
+            isCompleted: completedCount >= 5,
+            isFeatured: true
         )
 
         // Real streak from GamificationManager

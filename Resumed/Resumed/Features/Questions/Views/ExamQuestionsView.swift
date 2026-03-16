@@ -90,7 +90,7 @@ struct ExamQuestionsView: View {
 
     private func startSession() async {
         if APIClient.mode == .mock {
-            await session.start(subject: exam.subjects.first ?? "Clínica Médica", count: exam.questionCount)
+            await session.start(subject: exam.subjectNames.first ?? "Clínica Médica", count: exam.questionCount)
             return
         }
 

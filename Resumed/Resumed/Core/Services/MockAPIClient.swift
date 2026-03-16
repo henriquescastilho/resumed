@@ -383,16 +383,7 @@ struct MockData {
 
     // MARK: - Exams
 
-    static let exams = [
-        Exam(id: "exam_1", institution: "USP", name: "USP - Clínica Médica 2023", year: 2023, subjects: ["Clínica Médica"], questionCount: 100, durationMinutes: 240, difficulty: "Difícil"),
-        Exam(id: "exam_2", institution: "UNICAMP", name: "UNICAMP - Geral 2023", year: 2023, subjects: ["Clínica", "Cirurgia", "Pediatria", "GO"], questionCount: 120, durationMinutes: 300, difficulty: "Difícil"),
-        Exam(id: "exam_3", institution: "ENAMED", name: "ENAMED 2023", year: 2023, subjects: ["Todas"], questionCount: 100, durationMinutes: 300, difficulty: "Médio"),
-        Exam(id: "exam_4", institution: "SUS-SP", name: "SUS-SP 2023", year: 2023, subjects: ["Clínica", "Preventiva", "Cirurgia"], questionCount: 80, durationMinutes: 180, difficulty: "Médio"),
-        Exam(id: "exam_5", institution: "UNIFESP", name: "UNIFESP - Cirurgia 2023", year: 2023, subjects: ["Cirurgia"], questionCount: 60, durationMinutes: 150, difficulty: "Difícil"),
-        Exam(id: "exam_6", institution: "USP", name: "USP - Pediatria 2022", year: 2022, subjects: ["Pediatria"], questionCount: 80, durationMinutes: 180, difficulty: "Difícil"),
-        Exam(id: "exam_7", institution: "ENARE", name: "ENARE 2022", year: 2022, subjects: ["Todas"], questionCount: 100, durationMinutes: 300, difficulty: "Médio"),
-        Exam(id: "exam_8", institution: "FMUSP", name: "FMUSP - GO 2022", year: 2022, subjects: ["Ginecologia", "Obstetrícia"], questionCount: 60, durationMinutes: 120, difficulty: "Difícil")
-    ]
+    static let exams = ExamCalendar.exams
 
     // MARK: - Grey AI Responses
 
