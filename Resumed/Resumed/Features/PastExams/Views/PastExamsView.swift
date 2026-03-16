@@ -170,32 +170,11 @@ class PastExamsViewModel: ObservableObject {
     }
 
     private func loadMockExams() {
-        exams = [
-            Exam(id: "1", institution: "USP", name: "USP - Clínica Médica", year: 2023, subjects: ["Clínica Médica"], questionCount: 100, durationMinutes: 240, difficulty: "Difícil"),
-            Exam(id: "2", institution: "UNICAMP", name: "UNICAMP - Geral", year: 2023, subjects: ["Clínica", "Cirurgia", "Pediatria"], questionCount: 120, durationMinutes: 300, difficulty: "Difícil"),
-            Exam(id: "3", institution: "ENARE", name: "ENARE 2023", year: 2023, subjects: ["Todas"], questionCount: 100, durationMinutes: 300, difficulty: "Médio"),
-            Exam(id: "4", institution: "SUS-SP", name: "SUS-SP 2022", year: 2022, subjects: ["Clínica", "Preventiva"], questionCount: 80, durationMinutes: 180, difficulty: "Médio"),
-            Exam(id: "5", institution: "UNIFESP", name: "UNIFESP - Cirurgia", year: 2022, subjects: ["Cirurgia"], questionCount: 60, durationMinutes: 150, difficulty: "Difícil")
-        ]
+        exams = ExamCalendar.exams
     }
 }
 
-struct Exam: Identifiable, Codable {
-    let id: String
-    let institution: String
-    let name: String
-    let year: Int
-    let subjects: [String]
-    let questionCount: Int
-    let durationMinutes: Int
-    let difficulty: String
-
-    var formattedDuration: String {
-        let hours = durationMinutes / 60
-        let minutes = durationMinutes % 60
-        return hours > 0 ? "\(hours)h \(minutes)min" : "\(minutes)min"
-    }
-}
+// Exam struct is defined in Core/Models/ExamModels.swift
 
 struct FilterChip: View {
     let title: String
@@ -261,7 +240,7 @@ struct ExamCard: View {
 
                         HStack(spacing: Spacing.xs) {
                             Image(systemName: "chart.bar")
-                            Text(exam.difficulty)
+                            Text(exam.difficulty.rawValue)
                         }
                         .font(.resumed.caption)
                         .foregroundColor(.resumed.gray)
@@ -313,7 +292,7 @@ struct ExamDetailSheet: View {
                             .foregroundColor(.resumed.white)
 
                         LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: Spacing.sm) {
-                            ForEach(exam.subjects, id: \.self) { subject in
+                            ForEach(exam.subjectNames, id: \.self) { subject in
                                 Text(subject)
                                     .font(.resumed.bodySmall)
                                     .foregroundColor(.resumed.white)
