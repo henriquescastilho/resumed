@@ -29,6 +29,7 @@ enum APIError: Error, LocalizedError {
     case serverError(statusCode: Int)
     case networkError(Error)
     case decodingError(Error)
+    case encodingError(Error)
     case offline
 
     var errorDescription: String? {
@@ -42,6 +43,7 @@ enum APIError: Error, LocalizedError {
         case .serverError(let code): return "Erro do servidor (\(code))"
         case .networkError: return "Erro de rede"
         case .decodingError: return "Erro ao processar dados"
+        case .encodingError: return "Erro ao preparar requisição"
         case .offline: return "Sem conexão"
         }
     }
@@ -115,7 +117,7 @@ class APIClient {
             do {
                 request.httpBody = try encoder.encode(AnyEncodable(body))
             } catch {
-                throw APIError.decodingError(error)
+                throw APIError.encodingError(error)
             }
         }
 

@@ -25,6 +25,7 @@ struct ProgressSnapshot {
     let subjectStats: [String: SubjectProgress]
 }
 
+@MainActor
 final class ProgressTracker {
     static let shared = ProgressTracker()
 

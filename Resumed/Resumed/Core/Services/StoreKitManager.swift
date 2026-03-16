@@ -198,12 +198,12 @@ class StoreKitManager: ObservableObject {
     // MARK: - Transaction Listener
 
     private func listenForTransactions() -> Task<Void, Error> {
-        return Task.detached {
+        return Task {
             for await result in Transaction.updates {
                 do {
-                    let transaction = try await self.checkVerified(result)
+                    let transaction = try checkVerified(result)
 
-                    await self.updatePurchasedProducts()
+                    await updatePurchasedProducts()
 
                     await transaction.finish()
                 } catch {
@@ -291,8 +291,11 @@ enum StoreError: Error, LocalizedError {
 struct ProFeatures {
     static let shared = ProFeatures()
 
+    /// Source of truth is StoreKitManager's verified entitlements, not UserDefaults.
+    /// UserDefaults "isPro" is only a cache for the widget extension.
+    @MainActor
     private var isPro: Bool {
-        UserDefaults.standard.bool(forKey: "isPro")
+        StoreKitManager.shared.isPro
     }
 
     // MARK: - Feature Limits
