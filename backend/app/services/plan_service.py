@@ -66,45 +66,47 @@ class PlanService:
         return generated_tasks
 
     @staticmethod
-    def rebalance_plan(db: Session, user: User, start_date: date, end_date: date):
+    def rebalance_plan(db: Session, user: User) -> dict:
         """
         Rebalances the plan:
         1. Finds all PENDING tasks before current date.
-        2. Updates their status to REVIEW or SKIPPED.
-        3. Creates 'Review' tasks for today or next available day.
+        2. Updates their status to SKIPPED.
+        3. Creates a consolidated 'Review' task for today.
+        Returns counts for the API response.
         """
         today = date.today()
-        
+
         # 1. Find overdue pending tasks
         overdue_tasks = db.query(StudyPlanTask).filter(
             StudyPlanTask.user_id == user.id,
             StudyPlanTask.date < today,
             StudyPlanTask.status == TaskStatus.PENDING
         ).all()
-        
+
         if not overdue_tasks:
-            return
-            
-        # 2. Mark them as SKIPPED (or REVIEW if we want to track history better)
-        # For this MVP, let's mark as SKIPPED so they don't clutter, 
-        # and create a consolidated Review task.
+            return {"skipped": 0, "created": 0}
+
+        # 2. Mark them as SKIPPED
         skipped_topics = set()
         for task in overdue_tasks:
             task.status = TaskStatus.SKIPPED
             if task.topic_id:
                 skipped_topics.add(task.topic_id)
-        
+
+        created = 0
         # 3. Create review task for today
         if skipped_topics:
             review_task = StudyPlanTask(
                 user_id=user.id,
                 date=today,
                 title="Revisão de Atrasados",
-                status=TaskStatus.REVIEW, # Create this status if not exists, or maps to PENDING type REVIEW
+                status=TaskStatus.PENDING,
                 type=TaskType.REVIEW,
                 time_estimated_min=60,
-                topic_id=None # Generic review
+                topic_id=None
             )
             db.add(review_task)
-            
+            created = 1
+
         db.commit()
+        return {"skipped": len(overdue_tasks), "created": created}

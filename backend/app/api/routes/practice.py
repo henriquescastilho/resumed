@@ -1,7 +1,8 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
-from typing import List
-from pydantic import BaseModel
+from typing import List, Literal
+from pydantic import BaseModel, field_validator
+from pydantic import conint
 from uuid import UUID
 from datetime import datetime
 
@@ -13,14 +14,21 @@ from app.api.deps import get_current_user
 router = APIRouter()
 
 class PracticeSessionRequest(BaseModel):
-    mode: str = "random" # random, topic, smart
-    count: int = 10
+    mode: Literal["random", "topic", "smart"] = "random"
+    count: conint(ge=1, le=50) = 10
     topic_ids: List[str] = []
 
 class PracticeAnswerRequest(BaseModel):
     question_id: str
-    chosen_option: str # "A"
-    time_seconds: int
+    chosen_option: str
+    time_seconds: conint(ge=0, le=3600) = 0
+
+    @field_validator("chosen_option")
+    @classmethod
+    def validate_option(cls, v: str) -> str:
+        if v not in ("A", "B", "C", "D", "E"):
+            raise ValueError("chosen_option must be A-E")
+        return v
 
 class QuestionOut(BaseModel):
     id: UUID

@@ -18,7 +18,7 @@ class User(Base):
     # available_days: [1, 2, 3]
     # hours_per_day: 4
     # level_assessment: { "clinica": "medio", "cirurgia": "fraco" }
-    profile_data = Column(JSON, default={})
+    profile_data = Column(JSON, default=lambda: {})
     
     created_at = Column(DateTime(timezone=True), server_default=func.now())
     updated_at = Column(DateTime(timezone=True), onupdate=func.now())

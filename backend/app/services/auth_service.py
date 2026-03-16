@@ -82,7 +82,8 @@ class AuthService:
                 detail="Incorrect claims, please check the audience and issuer"
             )
         except Exception as e:
+            print(f"Token validation error: {e}")
             raise HTTPException(
                 status_code=status.HTTP_401_UNAUTHORIZED,
-                detail=f"Could not validate credentials: {str(e)}"
+                detail="Could not validate credentials"
             )

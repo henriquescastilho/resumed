@@ -68,7 +68,12 @@ def update_profile(
     db.refresh(current_user)
     
     # Recalculate 'is_onboarding_complete'
-    is_complete = True
+    updated_data = current_user.profile_data or {}
+    is_complete = (
+        bool(updated_data.get("available_days")) and
+        bool(updated_data.get("hours_per_day")) and
+        bool(updated_data.get("target_exams"))
+    )
     
     return UserProfileOut(
         id=current_user.id,

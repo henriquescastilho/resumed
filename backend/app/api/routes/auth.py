@@ -32,9 +32,10 @@ def login(request: LoginRequest, db: Session = Depends(get_db)):
     except HTTPException as e:
         raise e
     except Exception as e:
-         raise HTTPException(
+        print(f"Auth login error: {e}")
+        raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
-            detail=f"Authentication failed: {str(e)}"
+            detail="Authentication failed"
         )
 
     firebase_uid = payload.get("sub")

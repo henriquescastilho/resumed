@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from typing import List
-from datetime import datetime
+from datetime import datetime, timezone
 from pydantic import BaseModel
 from uuid import UUID
 
@@ -30,7 +30,7 @@ def get_due_cards(
     current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db)
 ):
-    now = datetime.now()
+    now = datetime.now(timezone.utc)
     cards = db.query(Flashcard).filter(
         Flashcard.user_id == current_user.id,
         Flashcard.next_review <= now
@@ -66,9 +66,9 @@ def seed_cards(
 ):
     # Temporary endpoint to seed cards for MVP
     mock_cards = [
-        Flashcard(user_id=current_user.id, front="Tríade de Beck?", back="Hipotensão, Estase Jugular, Bulhas Abafadas", next_review=datetime.now()),
-        Flashcard(user_id=current_user.id, front="Agente etiológico da Erisipela?", back="Streptococcus pyogenes (Grupo A)", next_review=datetime.now()),
-        Flashcard(user_id=current_user.id, front="Critérios de Light?", back="Diferenciar exsudato de transudato pleural", next_review=datetime.now()),
+        Flashcard(user_id=current_user.id, front="Tríade de Beck?", back="Hipotensão, Estase Jugular, Bulhas Abafadas", next_review=datetime.now(timezone.utc)),
+        Flashcard(user_id=current_user.id, front="Agente etiológico da Erisipela?", back="Streptococcus pyogenes (Grupo A)", next_review=datetime.now(timezone.utc)),
+        Flashcard(user_id=current_user.id, front="Critérios de Light?", back="Diferenciar exsudato de transudato pleural", next_review=datetime.now(timezone.utc)),
     ]
     db.add_all(mock_cards)
     db.commit()
