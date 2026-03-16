@@ -25,8 +25,7 @@ export const initChat = () => {
     // Always use { apiKey: ... } named parameter for initialization
     const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
     chatSession = ai.chats.create({
-      // Upgrade to gemini-3-flash-preview as per standard task guidelines
-      model: 'gemini-3-flash-preview',
+      model: 'gemini-2.0-flash',
       config: {
         systemInstruction: SYSTEM_INSTRUCTION,
       },
@@ -34,6 +33,10 @@ export const initChat = () => {
   } catch (error) {
     console.error("Failed to initialize Gemini:", error);
   }
+};
+
+export const resetChat = () => {
+  chatSession = null;
 };
 
 export const sendMessageToGrey = async (message: string): Promise<string> => {

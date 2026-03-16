@@ -17,7 +17,9 @@ export type ViewState =
   | 'PERFORMANCE' 
   | 'HISTORY'
   | 'COMMUNITY'
-  | 'GREY';
+  | 'GREY'
+  | 'PLAN'
+  | 'CONNECT';
 
 export type Theme = 'light' | 'dark';
 

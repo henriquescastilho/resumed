@@ -12,6 +12,9 @@ import { ResuCards } from './views/ResuCards';
 import { Practice } from './views/Practice';
 import { History } from './views/History';
 import { Performance } from './views/Performance';
+import { Grey } from './views/Grey';
+import { Plan } from './views/Plan';
+import { Connect } from './views/Connect';
 import { Logo } from './components/Logo';
 
 const Splash: React.FC<{ onFinish: () => void }> = ({ onFinish }) => {
@@ -43,8 +46,10 @@ export default function App() {
 
   const handleCardReview = (cardId: string, rating: 'fail' | 'hard' | 'good' | 'easy') => {
     setFlashcards(prev => prev.map(card => card.id === cardId ? calculateNextReview(card, rating) : card));
-    const { newStats } = addXP(userStats, rating === 'easy' ? 20 : 15);
-    setUserStats(prev => ({ ...newStats, cardsReviewedToday: prev.cardsReviewedToday + 1 }));
+    setUserStats(prev => {
+      const { newStats } = addXP(prev, rating === 'easy' ? 20 : 15);
+      return { ...newStats, cardsReviewedToday: prev.cardsReviewedToday + 1 };
+    });
   };
 
   const renderView = () => {
@@ -58,6 +63,9 @@ export default function App() {
       case 'RESUCARDS': return <ResuCards flashcards={flashcards} onReview={handleCardReview} />;
       case 'HISTORY': return <History />;
       case 'PERFORMANCE': return <Performance userStats={userStats} />;
+      case 'GREY': return <Grey />;
+      case 'PLAN': return <Plan />;
+      case 'CONNECT': return <Connect />;
       case 'SCHEDULE': return <History />; // Mocked to history for brevity
       default: return <Home setView={setView} userStats={userStats} profile={profile} />;
     }
