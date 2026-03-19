@@ -128,20 +128,22 @@ struct StudyPlanView: View {
                 Task { await viewModel.loadPlan() }
             }
         }
-        .sheet(isPresented: $showQuestionsSheet) {
-            if let task = selectedTask {
-                DailyQuestionsView(
-                    subject: task.subject,
-                    theme: task.theme,
-                    isOnline: networkMonitor.isConnected
-                )
-            }
+        .sheet(item: Binding(
+            get: { showQuestionsSheet ? selectedTask : nil },
+            set: { if $0 == nil { showQuestionsSheet = false; selectedTask = nil } }
+        )) { task in
+            DailyQuestionsView(
+                subject: task.subject,
+                theme: task.theme,
+                isOnline: networkMonitor.isConnected
+            )
         }
-        .sheet(isPresented: $showStudySheet) {
-            if let task = selectedTask {
-                StudyDetailSheet(task: task) {
-                    Task { await viewModel.toggleTask(task.id) }
-                }
+        .sheet(item: Binding(
+            get: { showStudySheet ? selectedTask : nil },
+            set: { if $0 == nil { showStudySheet = false; selectedTask = nil } }
+        )) { task in
+            StudyDetailSheet(task: task) {
+                Task { await viewModel.toggleTask(task.id) }
             }
         }
         .sheet(isPresented: $showEditSheet) {
@@ -861,7 +863,8 @@ struct DaySection: View {
                             task: task,
                             onToggle: { onToggleTask(task.id) },
                             onQuestions: { onQuestions(task) },
-                            onStudy: { onStudy(task) }
+                            onStudy: { onStudy(task) },
+                            onEdit: task.id.hasPrefix("spaced-") || task.id.hasPrefix("review-") ? nil : { onEditTask(task) }
                         )
                         .contextMenu {
                             if !task.id.hasPrefix("spaced-") && !task.id.hasPrefix("review-") {
@@ -920,6 +923,7 @@ struct TaskRow: View {
     let onToggle: () -> Void
     let onQuestions: () -> Void
     let onStudy: () -> Void
+    var onEdit: (() -> Void)? = nil
 
     private var isSpacedReview: Bool {
         task.id.hasPrefix("spaced-") || task.id.hasPrefix("review-")
@@ -983,6 +987,12 @@ struct TaskRow: View {
                         .padding(.vertical, 2)
                         .background(Color.resumed.info.opacity(0.1))
                         .cornerRadius(CornerRadius.sm)
+                } else if let onEdit {
+                    Button(action: onEdit) {
+                        Image(systemName: "pencil.circle")
+                            .font(.system(size: 18))
+                            .foregroundColor(.resumed.gray)
+                    }
                 }
             }
 
