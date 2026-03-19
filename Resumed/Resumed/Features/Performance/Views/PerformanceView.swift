@@ -484,6 +484,7 @@ struct WeakTopicsSection: View {
 struct BadgesSection: View {
     let badges: [Badge]
     let unlockedBadges: Set<Badge>
+    @State private var selectedBadge: Badge?
 
     var body: some View {
         VStack(alignment: .leading, spacing: Spacing.md) {
@@ -493,10 +494,96 @@ struct BadgesSection: View {
 
             LazyVGrid(columns: [GridItem(.adaptive(minimum: 80))], spacing: Spacing.md) {
                 ForEach(badges, id: \.rawValue) { badge in
-                    BadgeItem(badge: badge, isUnlocked: unlockedBadges.contains(badge))
+                    Button {
+                        selectedBadge = badge
+                        HapticManager.shared.selection()
+                    } label: {
+                        BadgeItem(badge: badge, isUnlocked: unlockedBadges.contains(badge))
+                    }
                 }
             }
         }
+        .sheet(item: $selectedBadge) { badge in
+            BadgeDetailSheet(badge: badge, isUnlocked: unlockedBadges.contains(badge))
+        }
+    }
+}
+
+// MARK: - Badge Detail Sheet
+
+private struct BadgeDetailSheet: View {
+    let badge: Badge
+    let isUnlocked: Bool
+    @Environment(\.dismiss) var dismiss
+
+    var body: some View {
+        VStack(spacing: Spacing.lg) {
+            Spacer()
+
+            ZStack {
+                Circle()
+                    .fill(isUnlocked ? Color.resumed.gold.opacity(0.15) : Color.resumed.blackSecondary)
+                    .frame(width: 100, height: 100)
+                Image(systemName: badge.icon)
+                    .font(.system(size: 44))
+                    .foregroundColor(isUnlocked ? .resumed.gold : .resumed.gray)
+                if !isUnlocked {
+                    Image(systemName: "lock.fill")
+                        .font(.system(size: 16))
+                        .foregroundColor(.resumed.gray)
+                        .offset(x: 30, y: 30)
+                }
+            }
+
+            Text(badge.displayName)
+                .font(.resumed.h3)
+                .foregroundColor(isUnlocked ? .resumed.gold : .resumed.white)
+
+            if isUnlocked {
+                HStack(spacing: Spacing.xs) {
+                    Image(systemName: "checkmark.seal.fill")
+                        .foregroundColor(.resumed.success)
+                    Text("Desbloqueado!")
+                        .font(.resumed.body)
+                        .foregroundColor(.resumed.success)
+                }
+            }
+
+            VStack(spacing: Spacing.sm) {
+                Text(isUnlocked ? "Conquista" : "Como desbloquear")
+                    .font(.resumed.caption)
+                    .foregroundColor(.resumed.gray)
+                Text(badge.unlockHint)
+                    .font(.resumed.body)
+                    .foregroundColor(.resumed.white)
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal, Spacing.lg)
+
+                if badge.xpReward > 0 {
+                    HStack(spacing: Spacing.xs) {
+                        Image(systemName: "star.fill")
+                            .foregroundColor(.resumed.gold)
+                        Text("+\(badge.xpReward) XP")
+                            .font(.resumed.bodySmall)
+                            .foregroundColor(.resumed.gold)
+                    }
+                    .padding(.top, Spacing.xs)
+                }
+            }
+            .padding(Spacing.md)
+            .background(Color.resumed.blackSecondary)
+            .cornerRadius(CornerRadius.lg)
+
+            Spacer()
+
+            Button("Fechar") { dismiss() }
+                .font(.resumed.body)
+                .foregroundColor(.resumed.gray)
+                .padding(.bottom, Spacing.lg)
+        }
+        .padding(Spacing.md)
+        .background(Color.resumed.black)
+        .presentationDetents([.medium])
     }
 }
 

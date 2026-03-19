@@ -278,6 +278,78 @@ enum Badge: String, CaseIterable, Codable {
     }
 }
 
+// MARK: - Badge Display Info
+
+extension Badge: Identifiable {
+    var id: String { rawValue }
+
+    var displayName: String {
+        switch self {
+        case .firstQuestion: return "Primeira Questão"
+        case .hundredQuestions: return "100 Questões"
+        case .fiveHundredQuestions: return "500 Questões"
+        case .thousandQuestions: return "1.000 Questões"
+        case .fiveThousandQuestions: return "5.000 Questões"
+        case .weekStreak: return "Streak de 7 dias"
+        case .monthStreak: return "Streak de 30 dias"
+        case .hundredDayStreak: return "Streak de 100 dias"
+        case .yearStreak: return "Streak de 365 dias"
+        case .flashcardFan: return "Fã de ResuCards"
+        case .memoryMaster: return "Mestre da Memória"
+        case .flashcardGuru: return "Guru dos Cards"
+        case .perfectScore: return "Nota Perfeita"
+        case .perfectWeek: return "Semana Perfeita"
+        case .examAce: return "Ás do Simulado"
+        case .speedDemon: return "Velocista"
+        case .nightOwl: return "Coruja Noturna"
+        case .earlyBird: return "Madrugador"
+        case .marathonStudier: return "Maratonista"
+        case .weekendWarrior: return "Guerreiro do Fim de Semana"
+        case .levelTen: return "Nível 10"
+        case .levelTwentyFive: return "Nível 25"
+        case .levelFifty: return "Nível 50"
+        case .levelHundred: return "Nível 100"
+        case .betaTester: return "Beta Tester"
+        case .firstExamComplete: return "Primeiro Simulado"
+        case .allSubjectsMastered: return "Mestre Geral"
+        case .comeback: return "Volta por Cima"
+        }
+    }
+
+    var unlockHint: String {
+        switch self {
+        case .firstQuestion: return "Responda sua primeira questão"
+        case .hundredQuestions: return "Responda 100 questões"
+        case .fiveHundredQuestions: return "Responda 500 questões"
+        case .thousandQuestions: return "Responda 1.000 questões"
+        case .fiveThousandQuestions: return "Responda 5.000 questões"
+        case .weekStreak: return "Estude por 7 dias seguidos"
+        case .monthStreak: return "Estude por 30 dias seguidos"
+        case .hundredDayStreak: return "Estude por 100 dias seguidos"
+        case .yearStreak: return "Estude por 365 dias seguidos"
+        case .flashcardFan: return "Revise 50 ResuCards"
+        case .memoryMaster: return "Revise 200 ResuCards"
+        case .flashcardGuru: return "Revise 500 ResuCards"
+        case .perfectScore: return "Acerte 100% em uma sessão de 10+ questões"
+        case .perfectWeek: return "Complete todas as tarefas de uma semana"
+        case .examAce: return "Acerte 90%+ em um simulado completo"
+        case .speedDemon: return "Responda 20 questões em menos de 10 minutos"
+        case .nightOwl: return "Estude após as 22h"
+        case .earlyBird: return "Estude antes das 7h"
+        case .marathonStudier: return "Estude por 4+ horas em um dia"
+        case .weekendWarrior: return "Estude no sábado e domingo"
+        case .levelTen: return "Alcance o nível 10"
+        case .levelTwentyFive: return "Alcance o nível 25"
+        case .levelFifty: return "Alcance o nível 50"
+        case .levelHundred: return "Alcance o nível 100"
+        case .betaTester: return "Usar o app durante a fase beta"
+        case .firstExamComplete: return "Complete seu primeiro simulado"
+        case .allSubjectsMastered: return "Acerte 80%+ em todas as matérias"
+        case .comeback: return "Volte a estudar após 7+ dias de inatividade"
+        }
+    }
+}
+
 // MARK: - Complete Task Response
 
 struct CompleteTaskResponse: Codable {
