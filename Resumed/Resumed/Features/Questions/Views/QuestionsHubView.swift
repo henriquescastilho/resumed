@@ -13,6 +13,7 @@ struct QuestionsHubView: View {
     @State private var showSubjectDrill = false
     @State private var showErrorReview = false
     @State private var showMarathon = false
+    @State private var showRegisterSheet = false
 
     private let subjects = [
         "Clínica Médica", "Cirurgia Geral", "Pediatria",
@@ -94,6 +95,14 @@ struct QuestionsHubView: View {
                     accentColor: Color.resumed.warning,
                     action: { showMarathon = true }
                 )
+
+                modeCard(
+                    icon: "doc.text.badge.plus",
+                    title: "Registrar Resultado",
+                    subtitle: "Cadastre o resultado de um simulado externo.",
+                    accentColor: Color.resumed.info,
+                    action: { showRegisterSheet = true }
+                )
             }
             .padding(.horizontal, Spacing.md)
             .padding(.top, Spacing.md)
@@ -123,6 +132,10 @@ struct QuestionsHubView: View {
         // Marathon
         .fullScreenCover(isPresented: $showMarathon) {
             MarathonLauncher()
+        }
+        // Register simulation result
+        .sheet(isPresented: $showRegisterSheet) {
+            RegisterSimulationSheet()
         }
     }
 

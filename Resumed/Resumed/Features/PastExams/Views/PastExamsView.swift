@@ -42,6 +42,13 @@ struct PastExamsView: View {
                                 viewModel.selectedExam = exam
                                 viewModel.showExamDetail = true
                             }
+                            .contextMenu {
+                                Button {
+                                    viewModel.generateAndSharePDF(exam: exam)
+                                } label: {
+                                    Label("Baixar PDF da Prova", systemImage: "arrow.down.doc.fill")
+                                }
+                            }
                         }
                     }
                     .padding(Spacing.md)
@@ -72,6 +79,10 @@ struct PastExamsView: View {
                     },
                     onPrint: {
                         viewModel.printExam(exam)
+                    },
+                    onDownloadPDF: {
+                        viewModel.showExamDetail = false
+                        viewModel.generateAndSharePDF(exam: exam)
                     }
                 )
             }
@@ -123,6 +134,18 @@ class PastExamsViewModel: ObservableObject {
     func startExam(_ exam: Exam) {
         selectedExam = exam
         showExamSession = true
+    }
+
+    func generateAndSharePDF(exam: Exam) {
+        Task {
+            if let url = ExamPDFGenerator.shared.generateExamPDF(exam: exam) {
+                shareURL = url
+                showShareSheet = true
+                HapticManager.shared.success()
+            } else {
+                HapticManager.shared.error()
+            }
+        }
     }
 
     func printExam(_ exam: Exam) {
@@ -257,7 +280,22 @@ struct ExamDetailSheet: View {
     let canStart: Bool
     let onStart: () -> Void
     let onPrint: () -> Void
+    let onDownloadPDF: (() -> Void)?
     @Environment(\.dismiss) var dismiss
+
+    init(
+        exam: Exam,
+        canStart: Bool,
+        onStart: @escaping () -> Void,
+        onPrint: @escaping () -> Void,
+        onDownloadPDF: (() -> Void)? = nil
+    ) {
+        self.exam = exam
+        self.canStart = canStart
+        self.onStart = onStart
+        self.onPrint = onPrint
+        self.onDownloadPDF = onDownloadPDF
+    }
 
     var body: some View {
         NavigationStack {
@@ -324,6 +362,16 @@ struct ExamDetailSheet: View {
                         isDisabled: !canStart,
                         fullWidth: true
                     )
+
+                    if let onDownloadPDF = onDownloadPDF {
+                        ResumedButton(
+                            title: "Baixar PDF da Prova",
+                            style: .secondary,
+                            action: onDownloadPDF,
+                            icon: "arrow.down.doc.fill",
+                            fullWidth: true
+                        )
+                    }
                 }
                 .padding(Spacing.md)
             }

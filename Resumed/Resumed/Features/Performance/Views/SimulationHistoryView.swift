@@ -10,6 +10,7 @@ import SwiftUI
 struct SimulationHistoryView: View {
     @State private var logs: [SimulationLog] = []
     @State private var selectedLog: SimulationLog?
+    @State private var showRegisterSheet = false
 
     var body: some View {
         ScrollView {
@@ -74,11 +75,27 @@ struct SimulationHistoryView: View {
         .background(Color.resumed.black)
         .navigationTitle("Histórico de Sessões")
         .navigationBarTitleDisplayMode(.inline)
+        .toolbar {
+            ToolbarItem(placement: .navigationBarTrailing) {
+                Button {
+                    showRegisterSheet = true
+                    HapticManager.shared.selection()
+                } label: {
+                    Image(systemName: "plus.circle.fill")
+                        .foregroundColor(.resumed.gold)
+                }
+            }
+        }
         .onAppear { logs = SimulationLogStore.loadAll() }
         .sheet(item: $selectedLog) { log in
             NavigationStack {
                 SimulationDetailView(log: log)
             }
+        }
+        .sheet(isPresented: $showRegisterSheet, onDismiss: {
+            logs = SimulationLogStore.loadAll()
+        }) {
+            RegisterSimulationSheet()
         }
     }
 
