@@ -34,6 +34,10 @@ struct StudyPlanView: View {
     @State private var showPlanBuilder = false
     @State private var showExportSheet = false
     @State private var showStudyGroups = false
+    @State private var showEditSheet = false
+    @State private var showAddSheet = false
+    @State private var editingDayIndex: Int = 0
+    @State private var addingToDate: Date = Date()
 
     var body: some View {
         VStack(spacing: 0) {
@@ -140,6 +144,28 @@ struct StudyPlanView: View {
                 }
             }
         }
+        .sheet(isPresented: $showEditSheet) {
+            if let task = selectedTask {
+                EditTaskSheet(
+                    mode: .edit(task: task),
+                    onSave: { updatedTask in
+                        viewModel.updateTask(updatedTask, inDayIndex: editingDayIndex)
+                    },
+                    onDelete: {
+                        viewModel.deleteTask(task.id, fromDayIndex: editingDayIndex)
+                    }
+                )
+            }
+        }
+        .sheet(isPresented: $showAddSheet) {
+            EditTaskSheet(
+                mode: .add(date: addingToDate),
+                onSave: { newTask in
+                    viewModel.addTask(newTask, toDayIndex: editingDayIndex)
+                },
+                onDelete: nil
+            )
+        }
         .alert("Offline", isPresented: $showOfflineAlert) {
             Button("OK", role: .cancel) {}
         } message: {
@@ -209,6 +235,16 @@ struct StudyPlanView: View {
                         } onStudy: { task in
                             selectedTask = task
                             showStudySheet = true
+                        } onEditTask: { task in
+                            selectedTask = task
+                            editingDayIndex = index
+                            showEditSheet = true
+                        } onDeleteTask: { taskId in
+                            viewModel.deleteTask(taskId, fromDayIndex: index)
+                        } onAddTask: {
+                            editingDayIndex = index
+                            addingToDate = day.date
+                            showAddSheet = true
                         }
                     }
                 }
@@ -336,21 +372,40 @@ class StudyPlanViewModel: ObservableObject {
             loadMockData()
             StudyPlanStore.shared.save(weekOffset: weekOffset, days: days)
         }
-        injectErrorReviews()
-        autoMigrateUncompletedTasks()
+        autoMigrateUncompletedTasks()  // BEFORE injection — avoids migrating injected overlay tasks
+        injectErrorReviews()           // AFTER migration
         detectConflicts()
         StudyWidgetDataBridge.syncTodayPlan(days)
     }
 
-    /// Process any task completions made via the widget and re-sync.
+    /// Process any task completions made via the widget and re-sync (serial, idempotent).
     func onForeground() {
         let pending = StudyWidgetDataBridge.pendingCompletions()
         guard !pending.isEmpty else { return }
-        for taskId in pending {
-            Task { await toggleTask(taskId) }
+        Task {
+            for taskId in pending {
+                await completeTask(taskId)
+            }
+            StudyWidgetDataBridge.clearPendingCompletions()
+            StudyWidgetDataBridge.syncTodayPlan(days)
         }
-        StudyWidgetDataBridge.clearPendingCompletions()
-        StudyWidgetDataBridge.syncTodayPlan(days)
+    }
+
+    /// Idempotent task completion — only marks incomplete tasks as complete, never toggles back.
+    func completeTask(_ taskId: String) async {
+        for (dayIndex, day) in days.enumerated() {
+            if let taskIndex = day.tasks.firstIndex(where: { $0.id == taskId }) {
+                guard !days[dayIndex].tasks[taskIndex].completed else { return }
+                days[dayIndex].tasks[taskIndex].completed = true
+                let task = days[dayIndex].tasks[taskIndex]
+                ProgressTracker.shared.recordStudy(subject: task.subject, minutes: task.estimatedMinutes)
+                GamificationManager.shared.addXP(XPReward.completeTask, reason: .studySession)
+                HapticManager.shared.success()
+                updateProgress()
+                StudyPlanStore.shared.save(weekOffset: weekOffset, days: days)
+                return
+            }
+        }
     }
 
     private func detectConflicts() {
@@ -374,10 +429,9 @@ class StudyPlanViewModel: ObservableObject {
     }
 
     private func recordVelocityForCurrentWeek() {
+        guard weekOffset < 0 else { return } // Only record past (completed) weeks
         let plannedMinutes = days.reduce(0) { $0 + $1.totalMinutes }
-        let actualMinutes = days.reduce(0) { sum, day in
-            sum + day.tasks.filter { $0.completed }.reduce(0) { $0 + $1.estimatedMinutes }
-        }
+        let actualMinutes = days.reduce(0) { $0 + $1.completedMinutes }
         guard plannedMinutes > 0 else { return }
         VelocityTracker.shared.record(
             weekOffset: weekOffset,
@@ -415,14 +469,57 @@ class StudyPlanViewModel: ObservableObject {
         }
     }
 
+    // MARK: - Task Editing
+
+    func addTask(_ task: StudyTask, toDayIndex dayIndex: Int) {
+        guard dayIndex >= 0, dayIndex < days.count else { return }
+        days[dayIndex].tasks.append(task)
+        days[dayIndex].totalMinutes += task.estimatedMinutes
+        updateProgress()
+        StudyPlanStore.shared.save(weekOffset: weekOffset, days: days)
+        StudyWidgetDataBridge.syncTodayPlan(days)
+        HapticManager.shared.success()
+    }
+
+    func updateTask(_ task: StudyTask, inDayIndex dayIndex: Int) {
+        guard dayIndex >= 0, dayIndex < days.count else { return }
+        if let taskIndex = days[dayIndex].tasks.firstIndex(where: { $0.id == task.id }) {
+            let oldMinutes = days[dayIndex].tasks[taskIndex].estimatedMinutes
+            days[dayIndex].tasks[taskIndex] = task
+            days[dayIndex].totalMinutes += (task.estimatedMinutes - oldMinutes)
+            updateProgress()
+            StudyPlanStore.shared.save(weekOffset: weekOffset, days: days)
+            StudyWidgetDataBridge.syncTodayPlan(days)
+        }
+    }
+
+    func deleteTask(_ taskId: String, fromDayIndex dayIndex: Int) {
+        guard dayIndex >= 0, dayIndex < days.count else { return }
+        if let taskIndex = days[dayIndex].tasks.firstIndex(where: { $0.id == taskId }) {
+            let task = days[dayIndex].tasks[taskIndex]
+            days[dayIndex].totalMinutes -= task.estimatedMinutes
+            days[dayIndex].tasks.remove(at: taskIndex)
+            updateProgress()
+            StudyPlanStore.shared.save(weekOffset: weekOffset, days: days)
+            StudyWidgetDataBridge.syncTodayPlan(days)
+            HapticManager.shared.notification(.warning)
+        }
+    }
+
+    func dayIndex(for date: Date) -> Int? {
+        let calendar = Calendar.current
+        return days.firstIndex(where: { calendar.isDate($0.date, inSameDayAs: date) })
+    }
+
     // MARK: - Auto-migration
 
     private func autoMigrateUncompletedTasks() {
         let calendar = Calendar.current
         let today = calendar.startOfDay(for: Date())
 
-        // Guard: only run once per day
-        let migrationKey = "lastMigrationDate"
+        // Guard: only run once per day, namespaced per user
+        let uid = SupabaseManager.shared.currentUser?.id ?? "local"
+        let migrationKey = "lastMigrationDate_\(uid)"
         if let lastRun = UserDefaults.standard.object(forKey: migrationKey) as? Date,
            calendar.isDate(lastRun, inSameDayAs: today) {
             return
@@ -440,7 +537,7 @@ class StudyPlanViewModel: ObservableObject {
             let pastDay = days[dayIndex]
             guard calendar.startOfDay(for: pastDay.date) < today else { continue }
 
-            let uncompleted = pastDay.tasks.filter { !$0.completed }
+            let uncompleted = pastDay.tasks.filter { !$0.completed && !$0.id.hasPrefix("spaced-") && !$0.id.hasPrefix("review-") }
             for task in uncompleted {
                 // Build migrated copy
                 var migratedTask = task
@@ -482,9 +579,7 @@ class StudyPlanViewModel: ObservableObject {
 
     private func updateProgress() {
         let totalMinutes = days.reduce(0) { $0 + $1.totalMinutes }
-        let completedMinutes = days.reduce(0) { sum, day in
-            sum + day.tasks.filter { $0.completed }.reduce(0) { $0 + $1.estimatedMinutes }
-        }
+        let completedMinutes = days.reduce(0) { $0 + $1.completedMinutes }
         weekProgress = totalMinutes > 0 ? Double(completedMinutes) / Double(totalMinutes) : 0
     }
 
@@ -504,9 +599,8 @@ class StudyPlanViewModel: ObservableObject {
             )
             let orderedTasks = orderByPriority(tasks)
             let totalMinutes = orderedTasks.reduce(0) { $0 + $1.estimatedMinutes }
-            let completedMinutes = orderedTasks.filter { $0.completed }.reduce(0) { $0 + $1.estimatedMinutes }
 
-            return DayPlan(date: date, tasks: orderedTasks, totalMinutes: totalMinutes, completedMinutes: completedMinutes)
+            return DayPlan(date: date, tasks: orderedTasks, totalMinutes: totalMinutes)
         }
 
         updateProgress()
@@ -695,6 +789,9 @@ struct DaySection: View {
     let onToggleTask: (String) -> Void
     let onQuestions: (StudyTask) -> Void
     let onStudy: (StudyTask) -> Void
+    let onEditTask: (StudyTask) -> Void
+    let onDeleteTask: (String) -> Void
+    let onAddTask: () -> Void
     @State private var isExpanded = true
 
     var body: some View {
@@ -766,7 +863,47 @@ struct DaySection: View {
                             onQuestions: { onQuestions(task) },
                             onStudy: { onStudy(task) }
                         )
+                        .contextMenu {
+                            if !task.id.hasPrefix("spaced-") && !task.id.hasPrefix("review-") {
+                                Button {
+                                    onEditTask(task)
+                                } label: {
+                                    Label("Editar", systemImage: "pencil")
+                                }
+
+                                Button(role: .destructive) {
+                                    onDeleteTask(task.id)
+                                } label: {
+                                    Label("Remover", systemImage: "trash")
+                                }
+                            }
+                        }
+                        .swipeActions(edge: .trailing, allowsFullSwipe: true) {
+                            if !task.id.hasPrefix("spaced-") && !task.id.hasPrefix("review-") {
+                                Button(role: .destructive) {
+                                    onDeleteTask(task.id)
+                                } label: {
+                                    Label("Remover", systemImage: "trash")
+                                }
+                            }
+                        }
                     }
+                }
+
+                // Add Task button
+                Button {
+                    onAddTask()
+                    HapticManager.shared.selection()
+                } label: {
+                    HStack(spacing: Spacing.sm) {
+                        Image(systemName: "plus.circle.fill")
+                            .font(.system(size: 16))
+                        Text("Adicionar tarefa")
+                            .font(.resumed.bodySmall)
+                    }
+                    .foregroundColor(.resumed.gold)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding(.vertical, Spacing.sm)
                 }
             }
         }

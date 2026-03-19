@@ -59,8 +59,7 @@ final class CodeReviewFixTests: XCTestCase {
             DayPlan(
                 date: Date(),
                 tasks: [],
-                totalMinutes: 0,
-                completedMinutes: 0
+                totalMinutes: 0
             )
         ]
         StudyPlanStore.shared.save(weekOffset: 999, days: testDays)
@@ -168,8 +167,7 @@ final class CodeReviewFixTests: XCTestCase {
         let day = DayPlan(
             date: Date(),
             tasks: [task],
-            totalMinutes: 60,
-            completedMinutes: 0
+            totalMinutes: 60
         )
 
         let ics = service.generateICS(for: [day])
