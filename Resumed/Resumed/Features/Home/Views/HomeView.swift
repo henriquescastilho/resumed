@@ -163,44 +163,37 @@ class HomeViewModel: ObservableObject {
         // Count today's pending spaced reviews
         let todayReviews = SpacedReviewStore.reviewsForDate(Date())
         pendingReviewsToday = todayReviews.count
-        // Always read real local stats first
+        // Always use real local stats from ProgressTracker
         let snapshot = ProgressTracker.shared.snapshot()
-        let localQuestions = snapshot.totalQuestions
-        let localAccuracy: Int = snapshot.totalQuestions > 0
-            ? Int(Double(snapshot.totalCorrect) / Double(snapshot.totalQuestions) * 100)
+        let totalQuestions = snapshot.totalQuestions
+        let accuracy = totalQuestions > 0
+            ? Int(Double(snapshot.totalCorrect) / Double(totalQuestions) * 100)
             : 0
-        let localMinutes = snapshot.studyMinutes
-        let localHours = localMinutes / 60
+        let studyMinutes = snapshot.studyMinutes
+        let studyFormatted = studyMinutes >= 60 ? "\(studyMinutes / 60)h" : "\(studyMinutes)min"
 
-        do {
-            let stats: UserStats
-            if APIClient.mode == .mock {
-                stats = try await MockAPIClient.shared.getUserStats()
-            } else {
-                stats = try await APIClient.shared.getUserStats()
-            }
-            self.streak = stats.streak
-
-            // Prefer local real data; fall back to API mock only when local has 0
-            let questionsValue = localQuestions > 0 ? localQuestions : stats.totalQuestionsAnswered
-            let accuracyValue = localQuestions > 0 ? "\(localAccuracy)%" : stats.accuracyPercentage
-            let timeValue = localMinutes > 0 ? (localHours > 0 ? "\(localHours)h" : "\(localMinutes)min") : stats.studyTimeFormatted
-
+        if totalQuestions > 0 || studyMinutes > 0 {
             self.quickStats = [
-                QuickStat(title: "Questões", value: "\(questionsValue)", icon: "checkmark.circle"),
-                QuickStat(title: "Acurácia", value: accuracyValue, icon: "chart.bar"),
-                QuickStat(title: "Tempo", value: timeValue, icon: "clock")
+                QuickStat(title: "Questões", value: "\(totalQuestions)", icon: "checkmark.circle"),
+                QuickStat(title: "Acurácia", value: "\(accuracy)%", icon: "chart.bar"),
+                QuickStat(title: "Tempo", value: studyFormatted, icon: "clock")
             ]
-        } catch {
-            // Use real local data; only use hardcoded mock if everything is zero
-            if localQuestions > 0 || localMinutes > 0 {
-                self.quickStats = [
-                    QuickStat(title: "Questões", value: "\(localQuestions)", icon: "checkmark.circle"),
-                    QuickStat(title: "Acurácia", value: "\(localAccuracy)%", icon: "chart.bar"),
-                    QuickStat(title: "Tempo", value: localHours > 0 ? "\(localHours)h" : "\(localMinutes)min", icon: "clock")
-                ]
-            } else {
-                loadMockData()
+        } else {
+            loadMockData()
+        }
+
+        // Fetch streak from API if available (non-blocking)
+        Task {
+            do {
+                let stats: UserStats
+                if APIClient.mode == .mock {
+                    stats = try await MockAPIClient.shared.getUserStats()
+                } else {
+                    stats = try await APIClient.shared.getUserStats()
+                }
+                self.streak = stats.streak
+            } catch {
+                // streak stays at default value
             }
         }
     }

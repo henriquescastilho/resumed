@@ -50,6 +50,8 @@ struct LoginView: View {
     @State private var showError = false
     @State private var errorMessage = ""
     @State private var showContent = false
+    @State private var emailText = ""
+    @State private var passwordText = ""
 
     var body: some View {
         ZStack {
@@ -112,43 +114,69 @@ struct LoginView: View {
 
                 Spacer()
 
-                // Login buttons
+                // Login form
                 VStack(spacing: Spacing.md) {
-                    // Google Sign In Button
+                    // Email field
+                    TextField("Email", text: $emailText)
+                        .font(.resumed.body)
+                        .foregroundColor(.resumed.white)
+                        .textContentType(.emailAddress)
+                        .autocorrectionDisabled()
+                        .textInputAutocapitalization(.never)
+                        .keyboardType(.emailAddress)
+                        .padding(Spacing.md)
+                        .background(Color.resumed.blackSecondary)
+                        .cornerRadius(CornerRadius.md)
+                        .overlay(
+                            RoundedRectangle(cornerRadius: CornerRadius.md)
+                                .stroke(Color.resumed.border, lineWidth: 1)
+                        )
+
+                    // Password field
+                    SecureField("Senha", text: $passwordText)
+                        .font(.resumed.body)
+                        .foregroundColor(.resumed.white)
+                        .textContentType(.password)
+                        .padding(Spacing.md)
+                        .background(Color.resumed.blackSecondary)
+                        .cornerRadius(CornerRadius.md)
+                        .overlay(
+                            RoundedRectangle(cornerRadius: CornerRadius.md)
+                                .stroke(Color.resumed.border, lineWidth: 1)
+                        )
+
+                    // Email login button
                     Button {
-                        signInWithGoogle()
+                        signInWithEmail()
                     } label: {
                         HStack(spacing: Spacing.md) {
                             if isLoading {
                                 ProgressView()
                                     .progressViewStyle(CircularProgressViewStyle(tint: .resumed.black))
                             } else {
-                                Image(systemName: "g.circle.fill")
-                                    .font(.system(size: 24))
+                                Image(systemName: "envelope.fill")
+                                    .font(.system(size: 20))
                             }
-
-                            Text("Entrar com Google")
+                            Text("Entrar")
                                 .font(.resumed.button)
                         }
                         .foregroundColor(.resumed.black)
                         .frame(maxWidth: .infinity)
                         .frame(height: Layout.buttonHeight)
-                        .background(Color.resumed.white)
+                        .background(Color.resumed.gold)
                         .cornerRadius(CornerRadius.md)
-                        .shadow(color: Color.white.opacity(0.1), radius: 10, y: 5)
                     }
-                    .disabled(isLoading)
+                    .disabled(isLoading || emailText.isEmpty || passwordText.isEmpty)
                     .opacity(showContent ? 1 : 0)
                     .animation(.easeOut(duration: 0.5).delay(0.6), value: showContent)
 
-                    // Apple Sign In placeholder
+                    // Apple Sign In
                     Button {
                         // Apple Sign In - to be implemented
                     } label: {
                         HStack(spacing: Spacing.md) {
                             Image(systemName: "apple.logo")
                                 .font(.system(size: 20))
-
                             Text("Entrar com Apple")
                                 .font(.resumed.button)
                         }
@@ -165,7 +193,6 @@ struct LoginView: View {
                     .disabled(isLoading)
                     .opacity(showContent ? 1 : 0)
                     .animation(.easeOut(duration: 0.5).delay(0.7), value: showContent)
-
                 }
                 .padding(.horizontal, Spacing.lg)
                 .padding(.bottom, Spacing.xl)
@@ -181,30 +208,23 @@ struct LoginView: View {
         }
     }
 
-    private func signInWithGoogle() {
+    private func signInWithEmail() {
         isLoading = true
         HapticManager.shared.impact(.medium)
 
         Task {
             do {
-                // TODO: Google Sign-In removed (using Supabase email auth)
-
-                // Create or update user in backend
-                let idToken = "mock_id_token"
-                let deviceId = UIDevice.current.identifierForVendor?.uuidString ?? UUID().uuidString
-
-                // Try to authenticate with backend
-                if APIClient.mode == .mock {
-                    let response = try await MockAPIClient.shared.login(with: idToken, deviceId: deviceId)
-                    appState.user = response.user
-                }
-
+                try await SupabaseManager.shared.signIn(
+                    email: emailText.trimmingCharacters(in: .whitespaces),
+                    password: passwordText
+                )
                 appState.isAuthenticated = true
+                appState.hasCompletedOnboarding = UserDefaults.standard.bool(forKey: "hasCompletedOnboarding")
                 isLoading = false
-
+                HapticManager.shared.success()
             } catch {
                 isLoading = false
-                errorMessage = error.localizedDescription
+                errorMessage = "Email ou senha incorretos. Tente novamente."
                 showError = true
                 HapticManager.shared.error()
             }
