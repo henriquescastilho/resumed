@@ -319,12 +319,12 @@ struct ReviewingContent: View {
                     }
                 }
                 .padding(.horizontal, Spacing.md)
-                .padding(.bottom, Spacing.lg)
+                .padding(.bottom, Layout.tabBarHeight + Spacing.md)
             } else {
                 Text("Toque para ver a resposta")
                     .font(.resumed.caption)
                     .foregroundColor(.resumed.gray)
-                    .padding(.bottom, Spacing.lg)
+                    .padding(.bottom, Layout.tabBarHeight + Spacing.md)
             }
         }
         .padding(.top, Spacing.md)
@@ -356,6 +356,10 @@ struct CardFace: View {
     let subject: String
     let isQuestion: Bool
 
+    private func markdownString(_ text: String) -> AttributedString {
+        (try? AttributedString(markdown: text, options: .init(interpretedSyntax: .inlineOnlyPreservingWhitespace))) ?? AttributedString(text)
+    }
+
     var body: some View {
         VStack(spacing: Spacing.md) {
             HStack {
@@ -376,7 +380,7 @@ struct CardFace: View {
             Spacer()
 
             ScrollView {
-                Text(content)
+                Text(markdownString(content))
                     .font(isQuestion ? .resumed.h3 : .resumed.body)
                     .foregroundColor(.resumed.white)
                     .multilineTextAlignment(isQuestion ? .center : .leading)
