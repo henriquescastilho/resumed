@@ -30,7 +30,11 @@ struct StudyPlanStore {
         return try? decoder.decode([DayPlan].self, from: data)
     }
 
+    private static var userId: String {
+        SupabaseManager.shared.currentUser?.id ?? "local"
+    }
+
     private static func key(for weekOffset: Int) -> String {
-        "plan_week_\(weekOffset)"
+        "plan_week_\(userId)_\(weekOffset)"
     }
 }

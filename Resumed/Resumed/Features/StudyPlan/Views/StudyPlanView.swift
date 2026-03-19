@@ -2,11 +2,22 @@
 //  StudyPlanView.swift
 //  Resumed
 //
-//  Study Plan View - Meu Plano (Weekly Calendar)
+//  Study Plan View - Meu Plano (Weekly/Monthly/Daily Calendar)
 //
 
 import SwiftUI
 import Combine
+import WidgetKit
+
+// MARK: - View Mode
+
+enum PlanViewMode: String, CaseIterable {
+    case week = "Semana"
+    case month = "Mês"
+    case day = "Dia"
+}
+
+// MARK: - Main View
 
 struct StudyPlanView: View {
     @StateObject private var viewModel = StudyPlanViewModel()
@@ -15,8 +26,140 @@ struct StudyPlanView: View {
     @State private var selectedTask: StudyTask?
     @State private var showOfflineAlert = false
     @State private var showStudySheet = false
+    @State private var viewMode: PlanViewMode = .week
+    @State private var selectedDay: Date = Date()
+    @State private var showCalendarExportAlert = false
+    @State private var calendarExportMessage = ""
+    @State private var showCalendarExportError = false
+    @State private var showPlanBuilder = false
+    @State private var showExportSheet = false
+    @State private var showStudyGroups = false
 
     var body: some View {
+        VStack(spacing: 0) {
+            // View mode picker
+            Picker("Modo", selection: $viewMode) {
+                ForEach(PlanViewMode.allCases, id: \.self) { mode in
+                    Text(mode.rawValue).tag(mode)
+                }
+            }
+            .pickerStyle(.segmented)
+            .padding(.horizontal, Spacing.md)
+            .padding(.vertical, Spacing.sm)
+            .background(Color.resumed.blackSecondary)
+
+            // Migration banner
+            if viewModel.migratedTasksCount > 0 {
+                MigrationBanner(count: viewModel.migratedTasksCount)
+                    .padding(.horizontal, Spacing.md)
+                    .padding(.top, Spacing.xs)
+            }
+
+            // Content by mode
+            switch viewMode {
+            case .week:
+                weekView
+            case .month:
+                CalendarHeatmapView { date in
+                    selectedDay = date
+                    viewMode = .day
+                }
+                .id(viewMode) // Force reload when switching back to month
+            case .day:
+                DayTimelineView(date: selectedDay) { taskId in
+                    Task { await viewModel.toggleTask(taskId) }
+                }
+            }
+        }
+        .background(Color.resumed.black)
+        .navigationTitle("Meu Plano")
+        .navigationBarTitleDisplayMode(.inline)
+        .toolbar {
+            ToolbarItem(placement: .navigationBarTrailing) {
+                HStack(spacing: Spacing.sm) {
+                    Button {
+                        HapticManager.shared.selection()
+                        showStudyGroups = true
+                    } label: {
+                        Image(systemName: "person.2.fill")
+                            .font(.system(size: 14))
+                            .foregroundColor(.resumed.gold)
+                    }
+
+                    Button {
+                        HapticManager.shared.selection()
+                        showExportSheet = true
+                    } label: {
+                        Image(systemName: "square.and.arrow.up")
+                            .font(.system(size: 14))
+                            .foregroundColor(.resumed.gold)
+                    }
+
+                    Button {
+                        HapticManager.shared.selection()
+                        showPlanBuilder = true
+                    } label: {
+                        Image(systemName: "plus.rectangle.on.rectangle")
+                            .font(.system(size: 14))
+                            .foregroundColor(.resumed.gold)
+                    }
+                }
+            }
+        }
+        .task {
+            await viewModel.loadPlan()
+        }
+        .sheet(isPresented: $showPlanBuilder) {
+            PlanBuilderView()
+        }
+        .sheet(isPresented: $showExportSheet) {
+            ExportPlanSheet(days: viewModel.days, weekRange: viewModel.weekRange)
+        }
+        .navigationDestination(isPresented: $showStudyGroups) {
+            StudyGroupView()
+        }
+        .onChange(of: showPlanBuilder) { _, isPresented in
+            // Reload plan after builder is dismissed (plan may have been rebuilt)
+            if !isPresented {
+                Task { await viewModel.loadPlan() }
+            }
+        }
+        .sheet(isPresented: $showQuestionsSheet) {
+            if let task = selectedTask {
+                DailyQuestionsView(
+                    subject: task.subject,
+                    theme: task.theme,
+                    isOnline: networkMonitor.isConnected
+                )
+            }
+        }
+        .sheet(isPresented: $showStudySheet) {
+            if let task = selectedTask {
+                StudyDetailSheet(task: task) {
+                    Task { await viewModel.toggleTask(task.id) }
+                }
+            }
+        }
+        .alert("Offline", isPresented: $showOfflineAlert) {
+            Button("OK", role: .cancel) {}
+        } message: {
+            Text("Para resolver questões, conecte-se à internet.")
+        }
+        .alert("Calendário", isPresented: $showCalendarExportAlert) {
+            Button("OK", role: .cancel) {}
+        } message: {
+            Text(calendarExportMessage)
+        }
+        .alert("Erro no Calendário", isPresented: $showCalendarExportError) {
+            Button("OK", role: .cancel) {}
+        } message: {
+            Text(calendarExportMessage)
+        }
+    }
+
+    // MARK: - Week view (original layout)
+
+    private var weekView: some View {
         VStack(spacing: 0) {
             // Week navigation
             HStack {
@@ -50,8 +193,11 @@ struct StudyPlanView: View {
             // Days
             ScrollView {
                 LazyVStack(spacing: Spacing.md) {
-                    ForEach(viewModel.days) { day in
-                        DaySection(day: day) { taskId in
+                    ForEach(Array(viewModel.days.enumerated()), id: \.element.id) { index, day in
+                        DaySection(
+                            day: day,
+                            hasConflict: viewModel.conflictDayIndices.contains(index)
+                        ) { taskId in
                             Task { await viewModel.toggleTask(taskId) }
                         } onQuestions: { task in
                             if networkMonitor.isConnected {
@@ -70,35 +216,89 @@ struct StudyPlanView: View {
                 .padding(.bottom, Layout.tabBarHeight + Spacing.lg)
             }
         }
-        .background(Color.resumed.black)
-        .navigationTitle("Meu Plano")
-        .navigationBarTitleDisplayMode(.inline)
-        .task {
-            await viewModel.loadPlan()
+    }
+
+    // MARK: - Calendar export
+
+    private func exportToCalendar() async {
+        let service = EventKitService.shared
+        let granted = await service.requestAccess()
+        guard granted else {
+            calendarExportMessage = "Acesso ao calendário negado. Verifique as permissões nas Configurações."
+            showCalendarExportError = true
+            return
         }
-        .sheet(isPresented: $showQuestionsSheet) {
-            if let task = selectedTask {
-                DailyQuestionsView(
-                    subject: task.subject,
-                    theme: task.theme,
-                    isOnline: networkMonitor.isConnected
-                )
-            }
-        }
-        .sheet(isPresented: $showStudySheet) {
-            if let task = selectedTask {
-                StudyDetailSheet(task: task) {
-                    Task { await viewModel.toggleTask(task.id) }
+
+        HapticManager.shared.selection()
+
+        do {
+            switch viewMode {
+            case .week:
+                for day in viewModel.days {
+                    try await service.exportDayPlan(day)
+                }
+                calendarExportMessage = "Semana exportada com sucesso para o Apple Calendário!"
+            case .month:
+                calendarExportMessage = "Use a visualização semanal ou diária para exportar eventos."
+            case .day:
+                let weekOffset = weekOffsetForDate(selectedDay)
+                if let days = StudyPlanStore.shared.load(weekOffset: weekOffset),
+                   let dayPlan = days.first(where: { Calendar.current.isDate($0.date, inSameDayAs: selectedDay) }) {
+                    try await service.exportDayPlan(dayPlan)
+                    calendarExportMessage = "Dia exportado com sucesso para o Apple Calendário!"
+                } else {
+                    calendarExportMessage = "Nenhuma tarefa encontrada para este dia."
                 }
             }
-        }
-        .alert("Offline", isPresented: $showOfflineAlert) {
-            Button("OK", role: .cancel) {}
-        } message: {
-            Text("Para resolver questões, conecte-se à internet.")
+            HapticManager.shared.success()
+            showCalendarExportAlert = true
+        } catch {
+            calendarExportMessage = error.localizedDescription
+            showCalendarExportError = true
         }
     }
+
+    private func weekOffsetForDate(_ date: Date) -> Int {
+        let calendar = Calendar.current
+        let today = Date()
+        guard let todayWeekStart = calendar.date(
+            from: calendar.dateComponents([.yearForWeekOfYear, .weekOfYear], from: today)
+        ),
+        let dateWeekStart = calendar.date(
+            from: calendar.dateComponents([.yearForWeekOfYear, .weekOfYear], from: date)
+        ) else { return 0 }
+        let diff = calendar.dateComponents([.weekOfYear], from: todayWeekStart, to: dateWeekStart)
+        return diff.weekOfYear ?? 0
+    }
 }
+
+// MARK: - Migration Banner
+
+private struct MigrationBanner: View {
+    let count: Int
+
+    var body: some View {
+        HStack(spacing: Spacing.sm) {
+            Image(systemName: "arrow.right.circle.fill")
+                .foregroundColor(.resumed.warning)
+
+            Text("\(count) tarefa\(count > 1 ? "s" : "") de dias anteriores foram movidas para hoje.")
+                .font(.resumed.caption)
+                .foregroundColor(.resumed.white)
+
+            Spacer()
+        }
+        .padding(Spacing.sm)
+        .background(Color.resumed.warning.opacity(0.12))
+        .cornerRadius(CornerRadius.md)
+        .overlay(
+            RoundedRectangle(cornerRadius: CornerRadius.md)
+                .stroke(Color.resumed.warning.opacity(0.3), lineWidth: 1)
+        )
+    }
+}
+
+// MARK: - ViewModel
 
 @MainActor
 class StudyPlanViewModel: ObservableObject {
@@ -121,6 +321,8 @@ class StudyPlanViewModel: ObservableObject {
     @Published var weekOffset = 0
     @Published var days: [DayPlan] = []
     @Published var weekProgress: Double = 0
+    @Published var migratedTasksCount: Int = 0
+    @Published var conflictDayIndices: [Int] = []
 
     var weekRange: String {
         let (start, end) = WeekNavigator.weekDateRange(for: weekOffset)
@@ -135,18 +337,53 @@ class StudyPlanViewModel: ObservableObject {
             StudyPlanStore.shared.save(weekOffset: weekOffset, days: days)
         }
         injectErrorReviews()
+        autoMigrateUncompletedTasks()
+        detectConflicts()
+        StudyWidgetDataBridge.syncTodayPlan(days)
+    }
+
+    /// Process any task completions made via the widget and re-sync.
+    func onForeground() {
+        let pending = StudyWidgetDataBridge.pendingCompletions()
+        guard !pending.isEmpty else { return }
+        for taskId in pending {
+            Task { await toggleTask(taskId) }
+        }
+        StudyWidgetDataBridge.clearPendingCompletions()
+        StudyWidgetDataBridge.syncTodayPlan(days)
+    }
+
+    private func detectConflicts() {
+        let studyHoursPerDay = max(UserDefaults.standard.integer(forKey: "studyHoursPerDay"), 1)
+        let dailyCapacity = studyHoursPerDay * 60
+        conflictDayIndices = StudyPlanScheduler.shared.detectConflicts(in: days, dailyCapacityMinutes: dailyCapacity)
     }
 
     func previousWeek() {
+        recordVelocityForCurrentWeek()
         weekOffset -= 1
         HapticManager.shared.selection()
         Task { await loadPlan() }
     }
 
     func nextWeek() {
+        recordVelocityForCurrentWeek()
         weekOffset += 1
         HapticManager.shared.selection()
         Task { await loadPlan() }
+    }
+
+    private func recordVelocityForCurrentWeek() {
+        let plannedMinutes = days.reduce(0) { $0 + $1.totalMinutes }
+        let actualMinutes = days.reduce(0) { sum, day in
+            sum + day.tasks.filter { $0.completed }.reduce(0) { $0 + $1.estimatedMinutes }
+        }
+        guard plannedMinutes > 0 else { return }
+        VelocityTracker.shared.record(
+            weekOffset: weekOffset,
+            plannedMinutes: plannedMinutes,
+            actualMinutes: actualMinutes
+        )
     }
 
     func toggleTask(_ taskId: String) async {
@@ -157,12 +394,89 @@ class StudyPlanViewModel: ObservableObject {
                 if task.completed {
                     ProgressTracker.shared.recordStudy(subject: task.subject, minutes: task.estimatedMinutes)
                     GamificationManager.shared.addXP(XPReward.completeTask, reason: .studySession)
+
+                    // Schedule spaced reviews when completing a study task
+                    if taskId.hasPrefix("spaced-") {
+                        // Completing a spaced review — mark it done in store
+                        let reviewId = String(taskId.dropFirst("spaced-".count))
+                        SpacedReviewStore.complete(reviewId: reviewId)
+                    } else if task.type == .review || task.type == .reading {
+                        // Completing a study block — schedule future spaced reviews
+                        let topic = task.theme ?? task.subject
+                        SpacedReviewStore.scheduleReview(subject: task.subject, topic: topic)
+                    }
                 }
                 HapticManager.shared.success()
                 updateProgress()
                 StudyPlanStore.shared.save(weekOffset: weekOffset, days: days)
+                StudyWidgetDataBridge.syncTodayPlan(days)
                 return
             }
+        }
+    }
+
+    // MARK: - Auto-migration
+
+    private func autoMigrateUncompletedTasks() {
+        let calendar = Calendar.current
+        let today = calendar.startOfDay(for: Date())
+
+        // Guard: only run once per day
+        let migrationKey = "lastMigrationDate"
+        if let lastRun = UserDefaults.standard.object(forKey: migrationKey) as? Date,
+           calendar.isDate(lastRun, inSameDayAs: today) {
+            return
+        }
+
+        var migrated = 0
+
+        // Find today's index in current week
+        guard let todayIndex = days.firstIndex(where: { calendar.isDate($0.date, inSameDayAs: today) }) else {
+            return
+        }
+
+        // Scan past days in current week (offset 0 only to keep scope manageable)
+        for dayIndex in 0..<todayIndex {
+            let pastDay = days[dayIndex]
+            guard calendar.startOfDay(for: pastDay.date) < today else { continue }
+
+            let uncompleted = pastDay.tasks.filter { !$0.completed }
+            for task in uncompleted {
+                // Build migrated copy
+                var migratedTask = task
+                migratedTask = StudyTask(
+                    id: "migrated-\(task.id)",
+                    title: task.title,
+                    subject: task.subject,
+                    type: task.type,
+                    dueDate: today,
+                    completed: false,
+                    estimatedMinutes: task.estimatedMinutes,
+                    theme: task.theme,
+                    topics: task.topics
+                )
+
+                // Append to today's tasks (avoid duplicates)
+                let alreadyThere = days[todayIndex].tasks.contains(where: { $0.id == migratedTask.id })
+                if !alreadyThere {
+                    days[todayIndex].tasks.append(migratedTask)
+                    days[todayIndex].totalMinutes += migratedTask.estimatedMinutes
+                    migrated += 1
+                }
+
+                // Remove original from past day so it won't inflate progress
+                if let origIndex = days[dayIndex].tasks.firstIndex(where: { $0.id == task.id }) {
+                    days[dayIndex].totalMinutes -= days[dayIndex].tasks[origIndex].estimatedMinutes
+                    days[dayIndex].tasks.remove(at: origIndex)
+                }
+            }
+        }
+
+        if migrated > 0 {
+            migratedTasksCount = migrated
+            StudyPlanStore.shared.save(weekOffset: weekOffset, days: days)
+            updateProgress()
+            UserDefaults.standard.set(today, forKey: migrationKey)
         }
     }
 
@@ -200,7 +514,7 @@ class StudyPlanViewModel: ObservableObject {
 
     private func buildWeeklyAllocation() -> [String: Int] {
         let studyHoursPerDay = max(UserDefaults.standard.integer(forKey: "studyHoursPerDay"), 1)
-        let weeklyMinutes = studyHoursPerDay * 60 * 7
+        let weeklyMinutes = VelocityTracker.shared.adjustedMinutesForWeek(declaredDailyHours: studyHoursPerDay)
 
         let minPerSubject = Int(Double(weeklyMinutes) * PlanDefaults.weeklyMinimumPercent)
         let baseTotal = minPerSubject * mandatorySubjects.count
@@ -218,6 +532,45 @@ class StudyPlanViewModel: ObservableObject {
         for (index, subject) in ordered.enumerated() {
             let bonus = weightSum > 0 ? Int(Double(remaining) * Double(weights[index]) / Double(weightSum)) : 0
             allocation[subject] = minPerSubject + bonus
+        }
+
+        // Apply placement test weights: fraco subjects get extra time, forte subjects less.
+        let placementWeights = PlacementTestStore.shared.priorityWeights()
+        if !placementWeights.isEmpty {
+            let totalBefore = Double(allocation.values.reduce(0, +))
+
+            var weighted: [String: Double] = [:]
+            for subject in ordered {
+                let base = Double(allocation[subject] ?? minPerSubject)
+                let multiplier = placementWeights[subject] ?? 1.0
+                weighted[subject] = base * multiplier
+            }
+
+            let totalAfter = weighted.values.reduce(0, +)
+            let scaleFactor = totalAfter > 0 ? totalBefore / totalAfter : 1.0
+            for subject in ordered {
+                let scaled = (weighted[subject] ?? Double(minPerSubject)) * scaleFactor
+                allocation[subject] = max(PlanDefaults.minBlockMinutes, Int(scaled.rounded()))
+            }
+        }
+
+        // Apply active template subject weights (if present)
+        let decoder = JSONDecoder()
+        if let data = UserDefaults.standard.data(forKey: "templateSubjectWeights"),
+           let templateWeights = try? decoder.decode([String: Double].self, from: data) {
+            let totalBefore = Double(allocation.values.reduce(0, +))
+            var weighted: [String: Double] = [:]
+            for subject in ordered {
+                let base = Double(allocation[subject] ?? minPerSubject)
+                let multiplier = templateWeights[subject] ?? 1.0
+                weighted[subject] = base * multiplier
+            }
+            let totalAfter = weighted.values.reduce(0, +)
+            let scaleFactor = totalAfter > 0 ? totalBefore / totalAfter : 1.0
+            for subject in ordered {
+                let scaled = (weighted[subject] ?? Double(minPerSubject)) * scaleFactor
+                allocation[subject] = max(PlanDefaults.minBlockMinutes, Int(scaled.rounded()))
+            }
         }
 
         return allocation
@@ -279,6 +632,7 @@ class StudyPlanViewModel: ObservableObject {
         let (weekStart, _) = WeekNavigator.weekDateRange(for: weekOffset)
         var updated = days
         ErrorReviewScheduler.shared.applyReviewTasks(to: &updated, weekStart: weekStart)
+        injectSpacedReviews(into: &updated)
         updated = updated.map { day in
             var copy = day
             copy.tasks = orderByPriority(copy.tasks)
@@ -287,6 +641,32 @@ class StudyPlanViewModel: ObservableObject {
         days = updated
         updateProgress()
         StudyPlanStore.shared.save(weekOffset: weekOffset, days: days)
+    }
+
+    private func injectSpacedReviews(into days: inout [DayPlan]) {
+        let calendar = Calendar.current
+        for dayIndex in days.indices {
+            let dayDate = calendar.startOfDay(for: days[dayIndex].date)
+            let reviews = SpacedReviewStore.reviewsForDate(dayDate)
+            for entry in reviews {
+                let taskId = "spaced-\(entry.review.id)"
+                guard !days[dayIndex].tasks.contains(where: { $0.id == taskId }) else { continue }
+
+                let task = StudyTask(
+                    id: taskId,
+                    title: "Revisão \(entry.review.label)",
+                    subject: entry.subject,
+                    type: .flashcards,
+                    dueDate: entry.review.scheduledDate,
+                    completed: entry.review.completed,
+                    estimatedMinutes: 15,
+                    theme: entry.topic,
+                    topics: ["Revisão espaçada — \(entry.review.label) após estudo"]
+                )
+                days[dayIndex].tasks.insert(task, at: 0) // Reviews first
+                days[dayIndex].totalMinutes += task.estimatedMinutes
+            }
+        }
     }
 
     private func orderByPriority(_ tasks: [StudyTask]) -> [StudyTask] {
@@ -307,8 +687,11 @@ class StudyPlanViewModel: ObservableObject {
     }
 }
 
+// MARK: - DaySection
+
 struct DaySection: View {
     let day: DayPlan
+    var hasConflict: Bool = false
     let onToggleTask: (String) -> Void
     let onQuestions: (StudyTask) -> Void
     let onStudy: (StudyTask) -> Void
@@ -319,15 +702,32 @@ struct DaySection: View {
             Button { withAnimation { isExpanded.toggle() } } label: {
                 HStack {
                     VStack(alignment: .leading) {
-                        Text(day.dayOfWeek)
-                            .font(.resumed.caption)
-                            .foregroundColor(day.isToday ? .resumed.gold : .resumed.gray)
+                        HStack(spacing: Spacing.xs) {
+                            Text(day.dayOfWeek)
+                                .font(.resumed.caption)
+                                .foregroundColor(day.isToday ? .resumed.gold : .resumed.gray)
+                            if hasConflict {
+                                Image(systemName: "exclamationmark.triangle.fill")
+                                    .font(.system(size: 10))
+                                    .foregroundColor(.resumed.warning)
+                            }
+                        }
                         Text(day.dayNumber)
                             .font(.resumed.h3)
                             .foregroundColor(day.isToday ? .resumed.gold : .resumed.white)
                     }
 
                     Spacer()
+
+                    if hasConflict {
+                        Text("Sobrecarregado")
+                            .font(.system(size: 10, weight: .medium))
+                            .foregroundColor(.resumed.warning)
+                            .padding(.horizontal, 6)
+                            .padding(.vertical, 2)
+                            .background(Color.resumed.warning.opacity(0.12))
+                            .cornerRadius(CornerRadius.sm)
+                    }
 
                     if day.totalMinutes > 0 {
                         Text("\(day.completedMinutes)/\(day.totalMinutes) min")
@@ -341,6 +741,19 @@ struct DaySection: View {
             }
 
             if isExpanded {
+                if hasConflict {
+                    HStack(spacing: Spacing.xs) {
+                        Image(systemName: "exclamationmark.triangle.fill")
+                            .font(.system(size: 11))
+                            .foregroundColor(.resumed.warning)
+                        Text("Dia sobrecarregado — considere redistribuir")
+                            .font(.resumed.caption)
+                            .foregroundColor(.resumed.warning)
+                    }
+                    .padding(.horizontal, Spacing.xs)
+                    .padding(.bottom, Spacing.xs)
+                }
+
                 if day.tasks.isEmpty {
                     Text("Nenhuma tarefa")
                         .font(.resumed.body)
@@ -363,57 +776,111 @@ struct DaySection: View {
     }
 }
 
+// MARK: - TaskRow
+
 struct TaskRow: View {
     let task: StudyTask
     let onToggle: () -> Void
     let onQuestions: () -> Void
     let onStudy: () -> Void
 
+    private var isSpacedReview: Bool {
+        task.id.hasPrefix("spaced-") || task.id.hasPrefix("review-")
+    }
+
+    private var accentColor: Color {
+        isSpacedReview ? .resumed.info : .resumed.gold
+    }
+
     var body: some View {
         VStack(spacing: Spacing.sm) {
-            HStack {
+            HStack(spacing: Spacing.sm) {
                 Button(action: onToggle) {
                     Image(systemName: task.completed ? "checkmark.circle.fill" : "circle")
                         .font(.system(size: IconSize.lg))
-                        .foregroundColor(task.completed ? .resumed.gold : .resumed.gray)
+                        .foregroundColor(task.completed ? accentColor : .resumed.gray)
                 }
 
-                VStack(alignment: .leading) {
-                    Text(task.subject)
-                        .font(.resumed.body)
-                        .foregroundColor(task.completed ? .resumed.gray : .resumed.white)
-                        .strikethrough(task.completed)
+                VStack(alignment: .leading, spacing: 2) {
+                    HStack(spacing: Spacing.xs) {
+                        if isSpacedReview {
+                            Image(systemName: "brain.head.profile")
+                                .font(.system(size: 12))
+                                .foregroundColor(.resumed.info)
+                        }
+                        if task.wasAutoMigrated == true {
+                            Image(systemName: "arrow.right.circle")
+                                .font(.system(size: 12))
+                                .foregroundColor(.resumed.warning)
+                        }
+                        Text(task.subject)
+                            .font(.resumed.body)
+                            .foregroundColor(task.completed ? .resumed.gray : .resumed.white)
+                            .strikethrough(task.completed)
+                    }
 
-                    Text("Conteúdo do dia • \(task.estimatedMinutes) min")
-                        .font(.resumed.caption)
-                        .foregroundColor(.resumed.gray)
+                    HStack(spacing: Spacing.xs) {
+                        if isSpacedReview {
+                            Text(task.title)
+                                .font(.resumed.caption)
+                                .foregroundColor(.resumed.info)
+                        }
+                        if let theme = task.theme, !theme.isEmpty, theme != "Revisão" {
+                            Text(theme)
+                                .font(.resumed.caption)
+                                .foregroundColor(.resumed.gray)
+                        }
+                        Text("• \(task.estimatedMinutes) min")
+                            .font(.resumed.caption)
+                            .foregroundColor(.resumed.gray)
+                    }
                 }
 
                 Spacer()
+
+                if isSpacedReview {
+                    Text("SRS")
+                        .font(.system(size: 9, weight: .bold, design: .monospaced))
+                        .foregroundColor(.resumed.info)
+                        .padding(.horizontal, 6)
+                        .padding(.vertical, 2)
+                        .background(Color.resumed.info.opacity(0.1))
+                        .cornerRadius(CornerRadius.sm)
+                }
             }
 
-            HStack(spacing: Spacing.sm) {
-                ResumedButton(
-                    title: "Estudar",
-                    style: .ghost,
-                    action: onStudy,
-                    icon: "book.fill",
-                    fullWidth: true
-                )
-                ResumedButton(
-                    title: "Questões",
-                    style: .ghost,
-                    action: onQuestions,
-                    icon: "pencil.and.list.clipboard",
-                    fullWidth: true
-                )
+            if !isSpacedReview {
+                HStack(spacing: Spacing.sm) {
+                    ResumedButton(
+                        title: "Estudar",
+                        style: .ghost,
+                        action: onStudy,
+                        icon: "book.fill",
+                        fullWidth: true
+                    )
+                    ResumedButton(
+                        title: "Questões",
+                        style: .ghost,
+                        action: onQuestions,
+                        icon: "pencil.and.list.clipboard",
+                        fullWidth: true
+                    )
+                }
             }
         }
         .padding(Spacing.sm)
-        .background(Color.resumed.blackTertiary)
+        .background(isSpacedReview ? Color.resumed.info.opacity(0.03) : Color.resumed.blackTertiary)
         .cornerRadius(CornerRadius.md)
+        .overlay(
+            isSpacedReview
+                ? RoundedRectangle(cornerRadius: CornerRadius.md)
+                    .stroke(Color.resumed.info.opacity(0.15), lineWidth: 1)
+                : nil
+        )
     }
 }
+
+// MARK: - StudyDetailSheet
 
 private struct StudyDetailSheet: View {
     let task: StudyTask

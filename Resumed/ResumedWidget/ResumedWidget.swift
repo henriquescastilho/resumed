@@ -121,7 +121,7 @@ struct SmallWidgetView: View {
                 Spacer()
 
                 // Daily Progress
-                ProgressView(value: Double(entry.dailyProgress) / Double(entry.dailyGoal))
+                ProgressView(value: entry.dailyGoal > 0 ? Double(entry.dailyProgress) / Double(entry.dailyGoal) : 0)
                     .progressViewStyle(LinearProgressViewStyle(tint: Color(hex: "FFD700")))
 
                 Text("\(entry.dailyProgress)/\(entry.dailyGoal) questões")
@@ -182,7 +182,7 @@ struct MediumWidgetView: View {
                             .font(.system(size: 10))
                             .foregroundColor(.gray)
 
-                        ProgressView(value: Double(entry.dailyProgress) / Double(entry.dailyGoal))
+                        ProgressView(value: entry.dailyGoal > 0 ? Double(entry.dailyProgress) / Double(entry.dailyGoal) : 0)
                             .progressViewStyle(LinearProgressViewStyle(tint: Color(hex: "FFD700")))
 
                         Text("\(entry.dailyProgress)/\(entry.dailyGoal)")
@@ -325,7 +325,7 @@ struct LargeWidgetView: View {
                             .font(.system(size: 20, weight: .bold, design: .rounded))
                             .foregroundColor(.white)
 
-                        ProgressView(value: Double(entry.dailyProgress) / Double(entry.dailyGoal))
+                        ProgressView(value: entry.dailyGoal > 0 ? Double(entry.dailyProgress) / Double(entry.dailyGoal) : 0)
                             .progressViewStyle(LinearProgressViewStyle(tint: Color(hex: "FFD700")))
 
                         Text("Meta diária")
@@ -416,6 +416,7 @@ struct LockScreenWidgetView: View {
             Text("\(entry.streak)")
                 .font(.system(size: 14, weight: .bold, design: .rounded))
         }
+        .widgetBackground(Color.clear)
     }
 }
 
@@ -426,6 +427,10 @@ struct ResumedWidgetBundle: WidgetBundle {
     var body: some Widget {
         ResumedWidget()
         ResumedLockScreenWidget()
+        NextTaskWidget()
+        DayProgressWidget()
+        ExamCountdownWidget()
+        StudyLockScreenWidget()
     }
 }
 
@@ -460,15 +465,114 @@ struct ResumedWidgetEntryView: View {
     let entry: ResumedEntry
 
     var body: some View {
+        Group {
+            switch family {
+            case .systemSmall:
+                SmallWidgetView(entry: entry)
+            case .systemMedium:
+                MediumWidgetView(entry: entry)
+            case .systemLarge:
+                LargeWidgetView(entry: entry)
+            default:
+                SmallWidgetView(entry: entry)
+            }
+        }
+        .widgetBackground(Color(hex: "000000"))
+    }
+}
+
+// MARK: - Study Widget Configurations
+
+struct NextTaskWidget: Widget {
+    let kind: String = "StudyNextTaskWidget"
+
+    var body: some WidgetConfiguration {
+        StaticConfiguration(kind: kind, provider: NextTaskProvider()) { entry in
+            NextTaskWidgetView(entry: entry)
+        }
+        .configurationDisplayName("Próxima Tarefa")
+        .description("Veja sua próxima tarefa de estudo do dia.")
+        .supportedFamilies([.systemSmall])
+    }
+}
+
+struct DayProgressWidget: Widget {
+    let kind: String = "StudyDayProgressWidget"
+
+    var body: some WidgetConfiguration {
+        StaticConfiguration(kind: kind, provider: DayProgressProvider()) { entry in
+            DayProgressWidgetView(entry: entry)
+        }
+        .configurationDisplayName("Progresso do Dia")
+        .description("Acompanhe todas as tarefas de estudo de hoje.")
+        .supportedFamilies([.systemMedium])
+    }
+}
+
+struct ExamCountdownWidget: Widget {
+    let kind: String = "StudyExamCountdownWidget"
+
+    var body: some WidgetConfiguration {
+        StaticConfiguration(kind: kind, provider: ExamCountdownProvider()) { entry in
+            ExamCountdownWidgetView(entry: entry)
+        }
+        .configurationDisplayName("Contagem da Prova")
+        .description("Quantos dias faltam para sua prova.")
+        .supportedFamilies([.systemSmall])
+    }
+}
+
+struct StudyLockScreenWidget: Widget {
+    let kind: String = "StudyLockScreenWidget"
+
+    var body: some WidgetConfiguration {
+        StaticConfiguration(kind: kind, provider: DayProgressProvider()) { entry in
+            StudyLockScreenEntryView(progressEntry: entry)
+        }
+        .configurationDisplayName("Plano de Estudo")
+        .description("Progresso e próxima tarefa na tela de bloqueio.")
+        .supportedFamilies([.accessoryCircular, .accessoryRectangular, .accessoryInline])
+    }
+}
+
+struct StudyLockScreenEntryView: View {
+    @Environment(\.widgetFamily) var family
+    let progressEntry: DayProgressEntry
+
+    var nextTaskEntry: NextTaskEntry {
+        let first = progressEntry.tasks.first { !$0.completed }
+        guard let task = first else {
+            return progressEntry.tasks.isEmpty ? .empty : NextTaskEntry(
+                date: progressEntry.date,
+                taskTitle: "Tudo concluído!",
+                taskTheme: "",
+                taskMinutes: 0,
+                taskId: "",
+                isCompleted: true,
+                isEmpty: false
+            )
+        }
+        return NextTaskEntry(
+            date: progressEntry.date,
+            taskTitle: task.subject,
+            taskTheme: "",
+            taskMinutes: task.minutes,
+            taskId: task.id,
+            isCompleted: false,
+            isEmpty: false
+        )
+    }
+
+    var body: some View {
         switch family {
-        case .systemSmall:
-            SmallWidgetView(entry: entry)
-        case .systemMedium:
-            MediumWidgetView(entry: entry)
-        case .systemLarge:
-            LargeWidgetView(entry: entry)
+        case .accessoryCircular:
+            StudyLockCircularView(entry: progressEntry)
+        case .accessoryRectangular:
+            StudyLockRectangularView(entry: nextTaskEntry)
+        case .accessoryInline:
+            StudyLockInlineView(entry: progressEntry)
         default:
-            SmallWidgetView(entry: entry)
+            StudyLockCircularView(entry: progressEntry)
         }
     }
 }
