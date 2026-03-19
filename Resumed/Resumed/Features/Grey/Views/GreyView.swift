@@ -9,6 +9,7 @@ import SwiftUI
 import Combine
 
 struct GreyView: View {
+    var initialContext: String? = nil
     @StateObject private var viewModel = GreyViewModel()
 
     var body: some View {
@@ -63,6 +64,11 @@ struct GreyView: View {
         .background(Color.resumed.black)
         .navigationTitle("Grey")
         .navigationBarTitleDisplayMode(.inline)
+        .task {
+            if let context = initialContext, !context.isEmpty {
+                viewModel.inputText = context
+            }
+        }
     }
 }
 
@@ -80,20 +86,24 @@ class GreyViewModel: ObservableObject {
 
     init() {
         resetIfNewDay()
-        let providerInfo: String
-        switch GreyAIService.shared.activeProvider {
-        case .medgemma:
-            providerInfo = " Estou usando MedGemma local — IA médica especializada."
-        case .gemini:
-            providerInfo = " Estou conectada ao Gemini na nuvem."
-        case .local:
-            providerInfo = " Estou em modo offline com respostas limitadas. Inicie o Ollama para IA completa."
-        }
+
+        let userName = SupabaseManager.shared.currentUser?.firstName ?? "Estudante"
 
         messages = [
-            ChatMessage(id: UUID().uuidString, role: .assistant, content: "Oi! Sou a Grey. Tiro dúvidas médicas e explico conteúdos do ENAMED.\(providerInfo)", timestamp: Date())
+            ChatMessage(
+                id: UUID().uuidString,
+                role: .assistant,
+                content: """
+                Oi, \(userName)! Sou a **Grey**, sua tutora de medicina.
+
+                Estou aqui para te ajudar na sua preparação para o ENAMED, Revalida e residência médica.
+
+                Por enquanto, posso te ajudar com alguns temas básicos. Me pergunte!
+                """,
+                timestamp: Date()
+            )
         ]
-        suggestedQuestions = ["Explique fibrilação atrial", "Como manejar hiponatremia (SIADH)?", "Diferença entre dor mecânica e inflamatória?"]
+        suggestedQuestions = ["Explique fibrilação atrial", "Como manejar hiponatremia (SIADH)?", "Tratamento da sífilis"]
     }
 
     var isLimitReached: Bool {
@@ -172,7 +182,7 @@ class GreyViewModel: ObservableObject {
         ]
 
         let blockedKeywords = [
-            "agenda", "semana", "cronograma", "plano", "organizar", "prioridade", "priorizar",
+            "agenda pessoal", "meu cronograma", "minha semana",
             "minha vida", "pessoal", "finanças", "trabalho", "namoro", "relacionamento"
         ]
 
@@ -210,6 +220,10 @@ struct ChatMessage: Identifiable {
 struct MessageBubble: View {
     let message: ChatMessage
 
+    private func markdownAttributedString(from text: String) -> AttributedString {
+        (try? AttributedString(markdown: text, options: .init(interpretedSyntax: .inlineOnlyPreservingWhitespace))) ?? AttributedString(text)
+    }
+
     var body: some View {
         HStack(alignment: .top) {
             if message.role.isUser { Spacer(minLength: 60) }
@@ -221,7 +235,7 @@ struct MessageBubble: View {
                         .foregroundColor(.resumed.gold)
                 }
 
-                Text(message.content)
+                Text(markdownAttributedString(from: message.content))
                     .font(.resumed.body)
                     .foregroundColor(message.role.isUser ? .resumed.black : .resumed.white)
                     .padding(Spacing.md)

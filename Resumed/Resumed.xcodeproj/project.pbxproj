@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B7E4A0B2F3B8C5000E4F1A1 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 5B7E4A0A2F3B8C5000E4F1A1 /* FirebaseCore */; };
+		5B7E4A0B2F3B8C5000E4F1A1 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 5B7E4A0A2F3B8C5000E4F1A1 /* Supabase */; };
+		AA001001AA001001AA001001 /* ResumedWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AA001000AA001000AA001000 /* ResumedWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,13 +26,45 @@
 			remoteGlobalIDString = 5ABAA0452F2CEDD60002A3C2;
 			remoteInfo = Resumed;
 		};
+		AA002001AA002001AA002001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ABAA03E2F2CEDD60002A3C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA000001AA000001AA000001;
+			remoteInfo = ResumedWidget;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA005001AA005001AA005001 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AA001001AA001001AA001001 /* ResumedWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5ABAA0462F2CEDD60002A3C2 /* Resumed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Resumed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ABAA0582F2CEDD70002A3C2 /* ResumedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResumedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ABAA0622F2CEDD70002A3C2 /* ResumedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResumedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA001000AA001000AA001000 /* ResumedWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ResumedWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AA003002AA003002AA003002 /* Exceptions for "ResumedWidget" folder in "ResumedWidget" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = AA000001AA000001AA000001 /* ResumedWidget */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		5ABAA0482F2CEDD60002A3C2 /* Resumed */ = {
@@ -49,6 +82,14 @@
 			path = ResumedUITests;
 			sourceTree = "<group>";
 		};
+		AA003001AA003001AA003001 /* ResumedWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AA003002AA003002AA003002 /* Exceptions for "ResumedWidget" folder in "ResumedWidget" target */,
+			);
+			path = ResumedWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B7E4A0B2F3B8C5000E4F1A1 /* FirebaseCore in Frameworks */,
+				5B7E4A0B2F3B8C5000E4F1A1 /* Supabase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +115,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AA004001AA004001AA004001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,6 +131,7 @@
 				5ABAA0482F2CEDD60002A3C2 /* Resumed */,
 				5ABAA05B2F2CEDD70002A3C2 /* ResumedTests */,
 				5ABAA0652F2CEDD70002A3C2 /* ResumedUITests */,
+				AA003001AA003001AA003001 /* ResumedWidget */,
 				5ABAA0472F2CEDD60002A3C2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,6 +142,7 @@
 				5ABAA0462F2CEDD60002A3C2 /* Resumed.app */,
 				5ABAA0582F2CEDD70002A3C2 /* ResumedTests.xctest */,
 				5ABAA0622F2CEDD70002A3C2 /* ResumedUITests.xctest */,
+				AA001000AA001000AA001000 /* ResumedWidget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,17 +157,19 @@
 				5ABAA0422F2CEDD60002A3C2 /* Sources */,
 				5ABAA0432F2CEDD60002A3C2 /* Frameworks */,
 				5ABAA0442F2CEDD60002A3C2 /* Resources */,
+				AA005001AA005001AA005001 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AA006001AA006001AA006001 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				5ABAA0482F2CEDD60002A3C2 /* Resumed */,
 			);
 			name = Resumed;
 			packageProductDependencies = (
-				5B7E4A0A2F3B8C5000E4F1A1 /* FirebaseCore */,
+				5B7E4A0A2F3B8C5000E4F1A1 /* Supabase */,
 			);
 			productName = Resumed;
 			productReference = 5ABAA0462F2CEDD60002A3C2 /* Resumed.app */;
@@ -169,6 +221,28 @@
 			productReference = 5ABAA0622F2CEDD70002A3C2 /* ResumedUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		AA000001AA000001AA000001 /* ResumedWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA007001AA007001AA007001 /* Build configuration list for PBXNativeTarget "ResumedWidget" */;
+			buildPhases = (
+				AA008001AA008001AA008001 /* Sources */,
+				AA004001AA004001AA004001 /* Frameworks */,
+				AA009001AA009001AA009001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AA003001AA003001AA003001 /* ResumedWidget */,
+			);
+			name = ResumedWidget;
+			packageProductDependencies = (
+			);
+			productName = ResumedWidget;
+			productReference = AA001000AA001000AA001000 /* ResumedWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -190,6 +264,9 @@
 						CreatedOnToolsVersion = 26.2;
 						TestTargetID = 5ABAA0452F2CEDD60002A3C2;
 					};
+					AA000001AA000001AA000001 = {
+						CreatedOnToolsVersion = 26.2;
+					};
 				};
 			};
 			buildConfigurationList = 5ABAA0412F2CEDD60002A3C2 /* Build configuration list for PBXProject "Resumed" */;
@@ -202,7 +279,7 @@
 			mainGroup = 5ABAA03D2F2CEDD60002A3C2;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				5A95B8932F33DE130017E18D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				5A95B8932F33DE130017E18D /* XCRemoteSwiftPackageReference "supabase-swift" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 5ABAA0472F2CEDD60002A3C2 /* Products */;
@@ -212,6 +289,7 @@
 				5ABAA0452F2CEDD60002A3C2 /* Resumed */,
 				5ABAA0572F2CEDD70002A3C2 /* ResumedTests */,
 				5ABAA0612F2CEDD70002A3C2 /* ResumedUITests */,
+				AA000001AA000001AA000001 /* ResumedWidget */,
 			);
 		};
 /* End PBXProject section */
@@ -232,6 +310,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5ABAA0602F2CEDD70002A3C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA009001AA009001AA009001 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -262,6 +347,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AA008001AA008001AA008001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -274,6 +366,11 @@
 			isa = PBXTargetDependency;
 			target = 5ABAA0452F2CEDD60002A3C2 /* Resumed */;
 			targetProxy = 5ABAA0632F2CEDD70002A3C2 /* PBXContainerItemProxy */;
+		};
+		AA006001AA006001AA006001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA000001AA000001AA000001 /* ResumedWidget */;
+			targetProxy = AA002001AA002001AA002001 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -404,12 +501,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Resumed/Resumed.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 87WY975ZY5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "O Resumed usa o calendário para sincronizar seus blocos de estudo.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -438,12 +537,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Resumed/Resumed.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 87WY975ZY5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "O Resumed usa o calendário para sincronizar seus blocos de estudo.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -551,6 +652,64 @@
 			};
 			name = Release;
 		};
+		AA00A001AA00A001AA00A001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ResumedWidget/ResumedWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 87WY975ZY5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ResumedWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DMETECHNOLOGY.Resumed.ResumedWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA00B001AA00B001AA00B001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ResumedWidget/ResumedWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 87WY975ZY5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ResumedWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DMETECHNOLOGY.Resumed.ResumedWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -590,24 +749,33 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		AA007001AA007001AA007001 /* Build configuration list for PBXNativeTarget "ResumedWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA00A001AA00A001AA00A001 /* Debug */,
+				AA00B001AA00B001AA00B001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		5A95B8932F33DE130017E18D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+		5A95B8932F33DE130017E18D /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			repositoryURL = "https://github.com/supabase/supabase-swift";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 12.9.0;
+				minimumVersion = 2.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		5B7E4A0A2F3B8C5000E4F1A1 /* FirebaseCore */ = {
+		5B7E4A0A2F3B8C5000E4F1A1 /* Supabase */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5A95B8932F33DE130017E18D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseCore;
+			package = 5A95B8932F33DE130017E18D /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

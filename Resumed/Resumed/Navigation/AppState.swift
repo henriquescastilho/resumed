@@ -22,6 +22,7 @@ class AppState: ObservableObject {
     init() {
         checkInitialState()
         observeAuthManager()
+        observeSupabaseManager()
     }
 
     func navigateTo(_ tab: Tab) {
@@ -30,7 +31,8 @@ class AppState: ObservableObject {
     }
 
     private func checkInitialState() {
-        isAuthenticated = AuthManager.shared.accessToken != nil
+        // Check both legacy AuthManager and SupabaseManager for auth state
+        isAuthenticated = AuthManager.shared.accessToken != nil || SupabaseManager.shared.isAuthenticated
         hasCompletedOnboarding = UserDefaults.standard.bool(forKey: "hasCompletedOnboarding")
         hasCompletedPlacementTest = UserDefaults.standard.bool(forKey: PlacementTestStore.hasTakenTestKey)
         isLoading = false
@@ -41,10 +43,48 @@ class AppState: ObservableObject {
             .receive(on: RunLoop.main)
             .sink { [weak self] authed in
                 guard let self else { return }
-                if !authed && self.isAuthenticated {
+                if !authed && self.isAuthenticated && !SupabaseManager.shared.isAuthenticated {
                     self.isAuthenticated = false
                     self.hasCompletedOnboarding = false
                     self.hasCompletedPlacementTest = false
+                    self.user = nil
+                }
+            }
+            .store(in: &cancellables)
+    }
+
+    private func observeSupabaseManager() {
+        SupabaseManager.shared.$isAuthenticated
+            .receive(on: RunLoop.main)
+            .sink { [weak self] authed in
+                guard let self else { return }
+                if authed && !self.isAuthenticated {
+                    // Supabase session restored (e.g. on app relaunch)
+                    self.isAuthenticated = true
+                    self.hasCompletedOnboarding = UserDefaults.standard.bool(forKey: "hasCompletedOnboarding")
+                    self.hasCompletedPlacementTest = UserDefaults.standard.bool(forKey: PlacementTestStore.hasTakenTestKey)
+                } else if !authed && self.isAuthenticated {
+                    // Supabase signed out
+                    self.isAuthenticated = false
+                    self.hasCompletedOnboarding = false
+                    self.hasCompletedPlacementTest = false
+                    self.user = nil
+                }
+            }
+            .store(in: &cancellables)
+
+        // Keep appState.user in sync with SupabaseManager.currentUser
+        SupabaseManager.shared.$currentUser
+            .receive(on: RunLoop.main)
+            .sink { [weak self] supaUser in
+                guard let self else { return }
+                if let supaUser {
+                    self.user = User(
+                        id: supaUser.id,
+                        email: supaUser.email,
+                        name: supaUser.fullName
+                    )
+                } else {
                     self.user = nil
                 }
             }
@@ -63,6 +103,7 @@ class AppState: ObservableObject {
 
     func signOut() async {
         await AuthManager.shared.signOut()
+        try? await SupabaseManager.shared.signOut()
         isAuthenticated = false
         hasCompletedOnboarding = false
         hasCompletedPlacementTest = false

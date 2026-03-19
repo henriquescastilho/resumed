@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct ErrorReviewScheduler {
+@MainActor struct ErrorReviewScheduler {
     static let shared = ErrorReviewScheduler()
 
     private init() {}
@@ -80,7 +80,8 @@ struct ErrorReviewScheduler {
     }
 
     private func scheduleKey(for subject: String) -> String {
-        "review_schedule_\(subjectKey(subject))"
+        let uid = SupabaseManager.shared.currentUser?.id ?? "local"
+        return "review_schedule_\(uid)_\(subjectKey(subject))"
     }
 
     private func subjectKey(_ subject: String) -> String {

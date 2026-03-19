@@ -8,7 +8,7 @@
 import Foundation
 import CoreData
 
-class CoreDataManager {
+@MainActor class CoreDataManager {
     static let shared = CoreDataManager()
 
     // MARK: - Core Data Stack
@@ -36,7 +36,6 @@ class CoreDataManager {
         }
     }
 
-    @MainActor
     func saveAsync() async {
         save()
     }
@@ -56,20 +55,7 @@ class CoreDataManager {
     // MARK: - FlashCard Operations
 
     func saveFlashCard(_ card: FlashCard) {
-        let entity = CDFlashCard(context: viewContext)
-        entity.id = card.id
-        entity.front = card.front
-        entity.back = card.back
-        entity.subject = card.subject
-        entity.tags = card.tags as NSArray
-        entity.easeFactor = card.easinessFactor
-        entity.interval = Int32(card.interval)
-        entity.repetitions = Int32(card.repetitions)
-        entity.nextReviewDate = card.nextReviewDate
-        entity.createdAt = Date()
-        entity.lastReviewedAt = card.lastReviewDate
-        entity.isSynced = false
-        save()
+        saveOrUpdateFlashCard(card)
     }
 
     func fetchFlashCards(subject: String? = nil) -> [FlashCard] {
@@ -111,10 +97,22 @@ class CoreDataManager {
         do {
             if let entity = try viewContext.fetch(request).first {
                 entity.update(from: card)
-                save()
             } else {
-                saveFlashCard(card)
+                let entity = CDFlashCard(context: viewContext)
+                entity.id = card.id
+                entity.front = card.front
+                entity.back = card.back
+                entity.subject = card.subject
+                entity.tags = card.tags as NSArray
+                entity.easeFactor = card.easinessFactor
+                entity.interval = Int32(card.interval)
+                entity.repetitions = Int32(card.repetitions)
+                entity.nextReviewDate = card.nextReviewDate
+                entity.createdAt = Date()
+                entity.lastReviewedAt = card.lastReviewDate
+                entity.isSynced = false
             }
+            save()
         } catch {
             print("SaveOrUpdate FlashCard Error: \(error)")
         }
@@ -222,6 +220,24 @@ class CoreDataManager {
 
         let correct = history.filter { $0.isCorrect }.count
         return Double(correct) / Double(history.count) * 100
+    }
+
+    // MARK: - Study Session Operations
+
+    func saveStudySession(type: String, subject: String? = nil, startedAt: Date, durationMinutes: Int, xpEarned: Int) {
+        let entity = CDStudySession(context: viewContext)
+        entity.id = UUID().uuidString
+        entity.type = type
+        entity.subject = subject
+        entity.startedAt = startedAt
+        entity.endedAt = Date()
+        entity.durationMinutes = Int32(durationMinutes)
+        entity.questionsAnswered = 0
+        entity.correctAnswers = 0
+        entity.flashcardsReviewed = 0
+        entity.xpEarned = Int32(xpEarned)
+        entity.isSynced = false
+        save()
     }
 
     // MARK: - Offline Queue Operations
