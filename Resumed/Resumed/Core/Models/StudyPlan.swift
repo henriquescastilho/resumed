@@ -89,7 +89,11 @@ struct DayPlan: Identifiable, Codable {
     let date: Date
     var tasks: [StudyTask]
     var totalMinutes: Int
-    var completedMinutes: Int
+
+    /// Computed from completed tasks — never stored, always accurate.
+    var completedMinutes: Int {
+        tasks.filter { $0.completed }.reduce(0) { $0 + $1.estimatedMinutes }
+    }
 
     var isToday: Bool {
         Calendar.current.isDateInToday(date)
@@ -114,14 +118,13 @@ struct DayPlan: Identifiable, Codable {
     }
 
     enum CodingKeys: String, CodingKey {
-        case date, tasks, totalMinutes, completedMinutes
+        case date, tasks, totalMinutes
     }
 
-    init(date: Date, tasks: [StudyTask], totalMinutes: Int, completedMinutes: Int) {
+    init(date: Date, tasks: [StudyTask], totalMinutes: Int) {
         self.date = date
         self.tasks = tasks
         self.totalMinutes = totalMinutes
-        self.completedMinutes = completedMinutes
     }
 
     init(from decoder: Decoder) throws {
@@ -129,8 +132,18 @@ struct DayPlan: Identifiable, Codable {
         date = try container.decode(Date.self, forKey: .date)
         tasks = try container.decode([StudyTask].self, forKey: .tasks)
         totalMinutes = try container.decode(Int.self, forKey: .totalMinutes)
-        completedMinutes = try container.decode(Int.self, forKey: .completedMinutes)
         id = UUID()
+    }
+
+    func encode(to encoder: Encoder) throws {
+        var container = encoder.container(keyedBy: CodingKeys.self)
+        try container.encode(date, forKey: .date)
+        try container.encode(tasks, forKey: .tasks)
+        try container.encode(totalMinutes, forKey: .totalMinutes)
+    }
+
+    mutating func recomputeTotalMinutes() {
+        totalMinutes = tasks.reduce(0) { $0 + $1.estimatedMinutes }
     }
 }
 

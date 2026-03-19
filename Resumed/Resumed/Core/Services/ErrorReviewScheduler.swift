@@ -70,6 +70,11 @@ import Foundation
             daysToAdd = 30
         }
 
+        // Don't reset if a future review date already exists
+        if let existing = nextReviewDate(for: subject), existing > Date() {
+            return
+        }
+
         if let next = calendar.date(byAdding: .day, value: daysToAdd, to: Date()) {
             UserDefaults.standard.set(next, forKey: scheduleKey(for: subject))
         }

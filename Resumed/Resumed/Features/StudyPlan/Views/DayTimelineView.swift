@@ -29,22 +29,14 @@ final class DayTimelineViewModel: ObservableObject {
     }
 
     func toggleTask(_ taskId: String) {
-        guard let plan = dayPlan else { return }
-        let weekOffset = weekOffsetFor(date: targetDate)
-
+        // Only update local UI state — persistence is handled by the parent's onToggleTask callback
         if let taskIndex = dayPlan?.tasks.firstIndex(where: { $0.id == taskId }) {
             dayPlan?.tasks[taskIndex].completed.toggle()
-
-            // Persist change back through the week store
-            if var days = StudyPlanStore.shared.load(weekOffset: weekOffset) {
-                for (dayIndex, day) in days.enumerated() {
-                    if calendar.isDate(day.date, inSameDayAs: targetDate) {
-                        days[dayIndex] = dayPlan ?? plan
-                    }
-                }
-                StudyPlanStore.shared.save(weekOffset: weekOffset, days: days)
-            }
         }
+    }
+
+    func reload() {
+        loadDay(targetDate)
     }
 
     var tasksWithTime: [StudyTask] {
