@@ -111,23 +111,24 @@ struct ExamQuestionsView: View {
                                 FeedbackCard(
                                     isCorrect: session.isCorrect,
                                     explanation: session.explanation,
-                                    socialMessage: session.socialMessage,
-                                    onAskGrey: session.isCorrect ? nil : {
-                                        if let q = session.currentQuestion {
-                                            let selectedText = q.options.first(where: { $0.id == session.selectedOptionId })?.text ?? ""
-                                            let correctText = q.options.first(where: { $0.id == q.correctOptionId })?.text ?? ""
-                                            greyContext = """
-                                            Questão: \(q.statement)
-                                            Minha resposta: \(selectedText)
-                                            Resposta correta: \(correctText)
-                                            Explicação: \(q.explanation)
-
-                                            Me explique por que a resposta correta é essa e por que a minha está errada.
-                                            """
-                                            showGreySheet = true
-                                        }
-                                    }
+                                    socialMessage: session.socialMessage
                                 )
+
+                                if !session.isCorrect {
+                                    Button(action: askGreyAboutQuestion) {
+                                        HStack(spacing: Spacing.sm) {
+                                            Image(systemName: "brain.head.profile")
+                                            Text("Perguntar à Grey")
+                                                .font(.resumed.bodySmall)
+                                                .fontWeight(.medium)
+                                        }
+                                        .foregroundColor(.resumed.gold)
+                                        .frame(maxWidth: .infinity)
+                                        .padding(.vertical, Spacing.sm)
+                                        .background(Color.resumed.gold.opacity(0.1))
+                                        .cornerRadius(CornerRadius.md)
+                                    }
+                                }
                             }
                         }
                     }
@@ -232,6 +233,14 @@ struct ExamQuestionsView: View {
     }
 
     // MARK: - Session Start
+
+    private func askGreyAboutQuestion() {
+        guard let q = session.currentQuestion else { return }
+        let selectedText = q.options.first(where: { $0.id == session.selectedOptionId })?.text ?? ""
+        let correctText = q.options.first(where: { $0.id == q.correctOptionId })?.text ?? ""
+        greyContext = "Questão: \(q.statement)\nMinha resposta: \(selectedText)\nResposta correta: \(correctText)\nExplicação: \(q.explanation)\n\nMe explique por que a resposta correta é essa e por que a minha está errada."
+        showGreySheet = true
+    }
 
     private func startSession() async {
         switch source {

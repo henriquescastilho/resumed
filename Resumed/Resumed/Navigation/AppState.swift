@@ -82,7 +82,13 @@ class AppState: ObservableObject {
                     self.user = User(
                         id: supaUser.id,
                         email: supaUser.email,
-                        name: supaUser.fullName
+                        name: supaUser.fullName,
+                        avatar: nil,
+                        targetExam: nil,
+                        examDate: nil,
+                        studyHoursPerDay: UserDefaults.standard.integer(forKey: "studyHoursPerDay"),
+                        createdAt: Date(),
+                        onboardingCompleted: UserDefaults.standard.bool(forKey: "hasCompletedOnboarding")
                     )
                 } else {
                     self.user = nil

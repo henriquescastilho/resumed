@@ -7,15 +7,14 @@
 
 import SwiftUI
 import Combine
-import FirebaseCore
+// Firebase removed — auth migrated to Supabase
 
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(
         _ application: UIApplication,
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil
     ) -> Bool {
-        // Firebase configuration is centralized in FirebaseManager.configure()
-        // called from RootView.onAppear to avoid double-configure crash
+        // Firebase removed — auth migrated to Supabase
         return true
     }
 }

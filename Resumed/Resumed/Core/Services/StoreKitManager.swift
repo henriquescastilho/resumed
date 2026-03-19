@@ -117,13 +117,6 @@ class StoreKitManager: ObservableObject {
 
                 isLoading = false
 
-                // Track purchase
-                FirebaseManager.shared.trackSubscription(
-                    plan: product.id,
-                    price: NSDecimalNumber(decimal: product.price).doubleValue,
-                    currency: product.priceFormatStyle.currencyCode
-                )
-
                 return transaction
 
             case .userCancelled:
@@ -190,9 +183,6 @@ class StoreKitManager: ObservableObject {
 
         // Update user defaults for quick access
         UserDefaults.standard.set(isPro, forKey: "isPro")
-
-        // Update Firebase user property
-        FirebaseManager.shared.setUserProperty(isPro ? "pro" : "free", forName: "subscription_status")
     }
 
     // MARK: - Transaction Listener
