@@ -30,6 +30,40 @@ struct ResuCardsView: View {
                 )
                 .padding(.horizontal, Spacing.md)
 
+                if viewModel.mode == .review {
+                    ScrollView(.horizontal, showsIndicators: false) {
+                        HStack(spacing: Spacing.sm) {
+                            ReviewPackCard(
+                                title: "Essencial ENAMED",
+                                cardCount: viewModel.essentialPackCount,
+                                icon: "star.fill",
+                                color: .resumed.gold,
+                                isSelected: viewModel.selectedPack == .essential,
+                                action: { viewModel.selectPack(.essential) }
+                            )
+
+                            ReviewPackCard(
+                                title: "Revisao Rapida",
+                                cardCount: viewModel.quickReviewPackCount,
+                                icon: "bolt.fill",
+                                color: .resumed.info,
+                                isSelected: viewModel.selectedPack == .quickReview,
+                                action: { viewModel.selectPack(.quickReview) }
+                            )
+
+                            ReviewPackCard(
+                                title: "Todos os Cards",
+                                cardCount: viewModel.allCardsCount,
+                                icon: "rectangle.stack.fill",
+                                color: .resumed.gray,
+                                isSelected: viewModel.selectedPack == nil,
+                                action: { viewModel.selectPack(nil) }
+                            )
+                        }
+                        .padding(.horizontal, Spacing.md)
+                    }
+                }
+
                 Group {
                     switch viewModel.mode {
                     case .review:
@@ -98,6 +132,10 @@ struct ResuCardsView: View {
 class ResuCardsViewModel: ObservableObject {
     enum State { case loading, empty, reviewing, completed }
     enum Mode { case review, myCards }
+    enum ReviewPack {
+        case essential
+        case quickReview
+    }
 
     @Published var state: State = .loading
     @Published var mode: Mode = .review
@@ -112,6 +150,9 @@ class ResuCardsViewModel: ObservableObject {
     @Published var showEditCard = false
     @Published var editingCard: FlashCard?
     @Published var errorMessage: String?
+    @Published var selectedPack: ReviewPack? = nil
+
+    private var allCards: [FlashCard] = []
 
     private let coreData = CoreDataManager.shared
     private let userTag = "user"
@@ -123,6 +164,48 @@ class ResuCardsViewModel: ObservableObject {
         "Medicina Preventiva",
         "Psiquiatria"
     ]
+
+    var essentialPackCount: Int {
+        let essentialSubjects = ["Clínica Médica", "Cirurgia Geral", "Pediatria", "Ginecologia e Obstetrícia"]
+        return allCards.filter { essentialSubjects.contains($0.subject) }.prefix(20).count
+    }
+
+    var quickReviewPackCount: Int {
+        min(10, allCards.count)
+    }
+
+    var allCardsCount: Int {
+        allCards.count
+    }
+
+    func selectPack(_ pack: ReviewPack?) {
+        selectedPack = pack
+        filterCardsByPack()
+    }
+
+    private func filterCardsByPack() {
+        switch selectedPack {
+        case .essential:
+            let essentialSubjects = ["Clínica Médica", "Cirurgia Geral", "Pediatria", "Ginecologia e Obstetrícia"]
+            var filtered = allCards.filter { essentialSubjects.contains($0.subject) }
+            if filtered.count > 20 { filtered = Array(filtered.prefix(20)) }
+            cards = filtered
+        case .quickReview:
+            let snapshot = ProgressTracker.shared.snapshot()
+            let worstSubjects = snapshot.subjectStats
+                .sorted { $0.value.accuracy < $1.value.accuracy }
+                .prefix(3)
+                .map { $0.key }
+            var filtered = allCards.filter { worstSubjects.contains($0.subject) }
+            if filtered.count > 10 { filtered = Array(filtered.prefix(10)) }
+            cards = filtered
+        case nil:
+            cards = allCards
+        }
+        currentIndex = 0
+        isFlipped = false
+        state = cards.isEmpty ? .empty : .reviewing
+    }
 
     var subjects: [String] {
         let availableSubjects = Set((cards + myCards).map(\.subject).filter { !$0.isEmpty })
@@ -168,6 +251,9 @@ class ResuCardsViewModel: ObservableObject {
         }
 
         loadMyCards()
+
+        // Store the full unfiltered set for pack filtering
+        allCards = cards
 
         state = filteredCards.isEmpty ? .empty : .reviewing
         currentIndex = 0
@@ -611,6 +697,45 @@ private struct MyCardsList: View {
             return "Revisar hoje"
         }
         return "Revisar em \(days)d"
+    }
+}
+
+private struct ReviewPackCard: View {
+    let title: String
+    let cardCount: Int
+    let icon: String
+    let color: Color
+    let isSelected: Bool
+    let action: () -> Void
+
+    var body: some View {
+        Button(action: {
+            action()
+            HapticManager.shared.selection()
+        }) {
+            VStack(alignment: .leading, spacing: Spacing.xs) {
+                HStack(spacing: Spacing.xs) {
+                    Image(systemName: icon)
+                        .font(.system(size: 14))
+                        .foregroundColor(color)
+                    Text("\(cardCount)")
+                        .font(.system(size: 16, weight: .bold, design: .rounded))
+                        .foregroundColor(isSelected ? color : .resumed.white)
+                }
+                Text(title)
+                    .font(.resumed.caption)
+                    .foregroundColor(isSelected ? .resumed.white : .resumed.gray)
+                    .lineLimit(1)
+            }
+            .padding(Spacing.sm)
+            .frame(width: 130)
+            .background(isSelected ? color.opacity(0.15) : Color.resumed.blackSecondary)
+            .cornerRadius(CornerRadius.md)
+            .overlay(
+                RoundedRectangle(cornerRadius: CornerRadius.md)
+                    .stroke(isSelected ? color.opacity(0.4) : Color.resumed.border, lineWidth: 1)
+            )
+        }
     }
 }
 

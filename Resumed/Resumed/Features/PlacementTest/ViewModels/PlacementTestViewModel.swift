@@ -116,6 +116,32 @@ final class PlacementTestViewModel: ObservableObject {
     }
 
     private func loadQuestion(specialty: PlacementSpecialty, difficulty: QuestionDifficulty) {
+        // First try the real question bank; fall back to embedded pool if unavailable
+        let bankQuestions = QuestionBankLoader.shared.allQuestions()
+            .filter { $0.subject == specialty.rawValue }
+            .shuffled()
+
+        if !bankQuestions.isEmpty {
+            let bankQuestion = bankQuestions.first!
+            let placement = PlacementQuestion(
+                id: bankQuestion.id,
+                specialty: specialty,
+                difficulty: difficulty,
+                statement: bankQuestion.statement,
+                options: bankQuestion.options,
+                correctOptionId: bankQuestion.correctOptionId,
+                explanation: bankQuestion.explanation
+            )
+            withAnimation(.easeInOut(duration: 0.25)) {
+                currentQuestion = placement
+                selectedOptionId = nil
+                isAnswered = false
+                isCorrect = false
+            }
+            return
+        }
+
+        // Fallback: embedded hardcoded pool
         let pool = PlacementQuestion.questions(for: specialty, difficulty: difficulty)
         guard let question = pool.randomElement() else {
             if difficulty == .medium { specialtyLevels[specialty] = .medio; totalExpected -= 1 }
