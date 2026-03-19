@@ -7,30 +7,77 @@
 
 import SwiftUI
 import Combine
+import WidgetKit
 
 struct HomeView: View {
     @EnvironmentObject var appState: AppState
     @StateObject private var viewModel = HomeViewModel()
-    @State private var showSettings = false
+
+    enum HomeDestination: Hashable {
+        case settings
+        case studyPlan
+        case exams
+        case dailyChallenges
+        case studyGroups
+        case questionsHub
+    }
 
     var body: some View {
         ScrollView {
             VStack(spacing: Spacing.lg) {
                 // Header
                 HomeHeader(
-                    userName: appState.user?.name ?? "Estudante",
+                    userName: appState.user?.name
+                        ?? SupabaseManager.shared.currentUser?.firstName
+                        ?? "Estudante",
                     targetExam: viewModel.targetExam,
                     streak: viewModel.streak
                 )
 
+                // Exam countdown or reminder
+                if viewModel.hasNoExams {
+                    NavigationLink(value: HomeDestination.settings) {
+                        SetExamReminderContent()
+                    }
+                } else {
+                    ForEach(viewModel.userExams) { exam in
+                        ExamCountdownCard(
+                            daysRemaining: exam.daysRemaining,
+                            targetExam: exam.name
+                        )
+                    }
+                }
+
                 // Quick stats
                 QuickStatsSection(stats: viewModel.quickStats)
 
-                // Modules grid
-                ModulesGrid()
+                // Continue studying — primary CTA
+                ContinueStudyingCard(
+                    pendingCards: viewModel.pendingCards,
+                    pendingReviews: viewModel.pendingReviewsToday
+                )
 
-                // Today's activity
-                TodayActivityCard(pendingCards: viewModel.pendingCards)
+                // Smart shortcuts — only features NOT on the tab bar
+                VStack(alignment: .leading, spacing: Spacing.md) {
+                    Text("Atalhos")
+                        .font(.resumed.h4)
+                        .foregroundColor(.resumed.white)
+
+                    HStack(spacing: Spacing.md) {
+                        NavigationLink(value: HomeDestination.studyPlan) {
+                            SmartShortcutLabel(title: "Meu Plano", icon: "calendar", color: .resumed.gold)
+                        }
+                        NavigationLink(value: HomeDestination.exams) {
+                            SmartShortcutLabel(title: "Provas", icon: "doc.text.fill", color: .resumed.info)
+                        }
+                        NavigationLink(value: HomeDestination.questionsHub) {
+                            SmartShortcutLabel(title: "Questões", icon: "pencil.and.list.clipboard", color: .resumed.success)
+                        }
+                        NavigationLink(value: HomeDestination.dailyChallenges) {
+                            SmartShortcutLabel(title: "Desafios", icon: "flame.fill", color: .resumed.warning)
+                        }
+                    }
+                }
 
                 // Quote
                 if let quote = viewModel.dailyQuote {
@@ -45,22 +92,32 @@ struct HomeView: View {
         .toolbar {
             ToolbarItem(placement: .navigationBarLeading) {
                 HStack(spacing: Spacing.sm) {
-                    Button {
-                        showSettings = true
-                    } label: {
-                        Image(systemName: "brain.head.profile")
-                            .font(.system(size: 24))
-                            .foregroundColor(.resumed.gold)
-                    }
+                    Image(systemName: "brain.head.profile")
+                        .font(.system(size: 24))
+                        .foregroundColor(.resumed.gold)
 
                     Text("RESUMED")
                         .font(.resumed.h4)
                         .foregroundColor(.resumed.gold)
                 }
             }
+            ToolbarItem(placement: .navigationBarTrailing) {
+                NavigationLink(value: HomeDestination.settings) {
+                    Image(systemName: "gearshape")
+                        .font(.system(size: 18))
+                        .foregroundColor(.resumed.gray)
+                }
+            }
         }
-        .navigationDestination(isPresented: $showSettings) {
-            SettingsView()
+        .navigationDestination(for: HomeDestination.self) { destination in
+            switch destination {
+            case .settings: SettingsView()
+            case .studyPlan: StudyPlanView()
+            case .exams: PastExamsView()
+            case .dailyChallenges: DailyChallengesView()
+            case .studyGroups: StudyGroupView()
+            case .questionsHub: QuestionsHubView()
+            }
         }
         .task {
             await viewModel.loadData()
@@ -75,6 +132,11 @@ class HomeViewModel: ObservableObject {
     @Published var pendingCards = 15
     @Published var quickStats: [QuickStat] = []
     @Published var dailyQuote: String? = "A persistência é o caminho do êxito."
+    @Published var daysRemaining: Int?
+    @Published var examDateValue: Date?
+    @Published var userExams: [UserExam] = []
+    @Published var hasNoExams = false
+    @Published var pendingReviewsToday = 0
 
     struct QuickStat: Identifiable {
         let id = UUID()
@@ -84,6 +146,32 @@ class HomeViewModel: ObservableObject {
     }
 
     func loadData() async {
+        // Load exams from multi-exam store
+        userExams = UserExamStore.load().filter { $0.isFuture }.sorted { $0.date < $1.date }
+        hasNoExams = userExams.isEmpty
+        StudyWidgetDataBridge.syncExamCountdown()
+
+        // Use nearest future exam for countdown
+        if let nearest = userExams.first {
+            daysRemaining = nearest.daysRemaining
+            examDateValue = nearest.date
+            targetExam = nearest.name
+        } else if let exam = UserDefaults.standard.string(forKey: "targetExam"), !exam.isEmpty {
+            targetExam = exam
+        }
+
+        // Count today's pending spaced reviews
+        let todayReviews = SpacedReviewStore.reviewsForDate(Date())
+        pendingReviewsToday = todayReviews.count
+        // Always read real local stats first
+        let snapshot = ProgressTracker.shared.snapshot()
+        let localQuestions = snapshot.totalQuestions
+        let localAccuracy: Int = snapshot.totalQuestions > 0
+            ? Int(Double(snapshot.totalCorrect) / Double(snapshot.totalQuestions) * 100)
+            : 0
+        let localMinutes = snapshot.studyMinutes
+        let localHours = localMinutes / 60
+
         do {
             let stats: UserStats
             if APIClient.mode == .mock {
@@ -92,13 +180,28 @@ class HomeViewModel: ObservableObject {
                 stats = try await APIClient.shared.getUserStats()
             }
             self.streak = stats.streak
+
+            // Prefer local real data; fall back to API mock only when local has 0
+            let questionsValue = localQuestions > 0 ? localQuestions : stats.totalQuestionsAnswered
+            let accuracyValue = localQuestions > 0 ? "\(localAccuracy)%" : stats.accuracyPercentage
+            let timeValue = localMinutes > 0 ? (localHours > 0 ? "\(localHours)h" : "\(localMinutes)min") : stats.studyTimeFormatted
+
             self.quickStats = [
-                QuickStat(title: "Questões", value: "\(stats.totalQuestionsAnswered)", icon: "checkmark.circle"),
-                QuickStat(title: "Acurácia", value: stats.accuracyPercentage, icon: "chart.bar"),
-                QuickStat(title: "Tempo", value: stats.studyTimeFormatted, icon: "clock")
+                QuickStat(title: "Questões", value: "\(questionsValue)", icon: "checkmark.circle"),
+                QuickStat(title: "Acurácia", value: accuracyValue, icon: "chart.bar"),
+                QuickStat(title: "Tempo", value: timeValue, icon: "clock")
             ]
         } catch {
-            loadMockData()
+            // Use real local data; only use hardcoded mock if everything is zero
+            if localQuestions > 0 || localMinutes > 0 {
+                self.quickStats = [
+                    QuickStat(title: "Questões", value: "\(localQuestions)", icon: "checkmark.circle"),
+                    QuickStat(title: "Acurácia", value: "\(localAccuracy)%", icon: "chart.bar"),
+                    QuickStat(title: "Tempo", value: localHours > 0 ? "\(localHours)h" : "\(localMinutes)min", icon: "clock")
+                ]
+            } else {
+                loadMockData()
+            }
         }
     }
 
@@ -167,63 +270,122 @@ struct QuickStatsSection: View {
     }
 }
 
-struct ModulesGrid: View {
+// MARK: - Continue Studying Card (primary CTA)
+
+struct ContinueStudyingCard: View {
     @EnvironmentObject var appState: AppState
-    @State private var showGrey = false
-    @State private var showExams = false
+    let pendingCards: Int
+    var pendingReviews: Int = 0
 
     var body: some View {
         VStack(alignment: .leading, spacing: Spacing.md) {
-            Text("Módulos")
+            Text("Continuar Estudando")
                 .font(.resumed.h4)
                 .foregroundColor(.resumed.white)
 
-            LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: Spacing.md) {
-                ModuleCard(title: "GPS", subtitle: "Meu Plano", icon: "calendar") {
-                    appState.navigateTo(.plan)
-                }
-                ModuleCard(title: "ResuCard", subtitle: "Revisar", icon: "rectangle.stack.fill") {
-                    appState.navigateTo(.cards)
-                }
-                ModuleCard(title: "Grey", subtitle: "Dúvidas", icon: "brain.head.profile") {
-                    showGrey = true
-                }
-                ModuleCard(title: "Progresso", subtitle: "Analytics", icon: "chart.bar.fill") {
-                    appState.navigateTo(.performance)
-                }
-                ModuleCard(title: "Provas", subtitle: "Simulados", icon: "doc.text.fill") {
-                    showExams = true
+            if pendingReviews > 0 {
+                NavigationLink(value: HomeView.HomeDestination.studyPlan) {
+                    ResumedCard {
+                        HStack(spacing: Spacing.md) {
+                            ZStack {
+                                Circle()
+                                    .fill(Color.resumed.info.opacity(0.15))
+                                    .frame(width: 48, height: 48)
+                                Image(systemName: "brain.head.profile")
+                                    .font(.system(size: IconSize.lg))
+                                    .foregroundColor(.resumed.info)
+                            }
+
+                            VStack(alignment: .leading, spacing: 2) {
+                                Text("Revisões Espaçadas")
+                                    .font(.resumed.body)
+                                    .fontWeight(.medium)
+                                    .foregroundColor(.resumed.white)
+                                Text("\(pendingReviews) revisões pendentes para hoje")
+                                    .font(.resumed.caption)
+                                    .foregroundColor(.resumed.gray)
+                            }
+
+                            Spacer()
+
+                            Image(systemName: "arrow.right.circle.fill")
+                                .font(.system(size: IconSize.lg))
+                                .foregroundColor(.resumed.info)
+                        }
+                    }
+                    .overlay(
+                        RoundedRectangle(cornerRadius: CornerRadius.lg)
+                            .stroke(Color.resumed.info.opacity(0.2), lineWidth: 1)
+                    )
                 }
             }
-        }
-        .navigationDestination(isPresented: $showGrey) {
-            GreyView()
-        }
-        .navigationDestination(isPresented: $showExams) {
-            PastExamsView()
+
+            if pendingCards > 0 {
+                Button {
+                    appState.navigateTo(.cards)
+                } label: {
+                    ResumedCard {
+                        HStack(spacing: Spacing.md) {
+                            ZStack {
+                                Circle()
+                                    .fill(Color.resumed.gold.opacity(0.15))
+                                    .frame(width: 48, height: 48)
+                                Image(systemName: "rectangle.stack.fill")
+                                    .font(.system(size: IconSize.lg))
+                                    .foregroundColor(.resumed.gold)
+                            }
+
+                            VStack(alignment: .leading, spacing: 2) {
+                                Text("Revisar ResuCards")
+                                    .font(.resumed.body)
+                                    .fontWeight(.medium)
+                                    .foregroundColor(.resumed.white)
+                                Text("\(pendingCards) cards pendentes para hoje")
+                                    .font(.resumed.caption)
+                                    .foregroundColor(.resumed.gray)
+                            }
+
+                            Spacer()
+
+                            Image(systemName: "arrow.right.circle.fill")
+                                .font(.system(size: IconSize.lg))
+                                .foregroundColor(.resumed.gold)
+                        }
+                    }
+                    .overlay(
+                        RoundedRectangle(cornerRadius: CornerRadius.lg)
+                            .stroke(Color.resumed.gold.opacity(0.2), lineWidth: 1)
+                    )
+                }
+            }
         }
     }
 }
 
-struct TodayActivityCard: View {
-    @EnvironmentObject var appState: AppState
-    let pendingCards: Int
+// MARK: - Smart Shortcut Label (used inside NavigationLink)
+
+struct SmartShortcutLabel: View {
+    let title: String
+    let icon: String
+    let color: Color
 
     var body: some View {
-        VStack(alignment: .leading, spacing: Spacing.md) {
-            Text("Atividade para Hoje")
-                .font(.resumed.h4)
-                .foregroundColor(.resumed.white)
+        VStack(spacing: Spacing.sm) {
+            ZStack {
+                RoundedRectangle(cornerRadius: CornerRadius.md)
+                    .fill(color.opacity(0.1))
+                    .frame(height: 56)
 
-            FeatureCard(
-                icon: "brain",
-                title: "Revisão Diária",
-                subtitle: "\(pendingCards) ResuCards pendentes",
-                action: {
-                    appState.navigateTo(.cards)
-                }
-            )
+                Image(systemName: icon)
+                    .font(.system(size: IconSize.lg))
+                    .foregroundColor(color)
+            }
+
+            Text(title)
+                .font(.resumed.caption)
+                .foregroundColor(.resumed.gray)
         }
+        .frame(maxWidth: .infinity)
     }
 }
 
@@ -245,5 +407,100 @@ struct MotivationalQuote: View {
                 Spacer()
             }
         }
+    }
+}
+
+// MARK: - Exam Countdown Card
+
+struct ExamCountdownCard: View {
+    let daysRemaining: Int
+    let targetExam: String
+
+    private var urgencyColor: Color {
+        switch daysRemaining {
+        case ..<30: return .resumed.error
+        case 30..<90: return .resumed.gold
+        default: return .resumed.success
+        }
+    }
+
+    private var urgencyMessage: String {
+        switch daysRemaining {
+        case 0: return "Hoje é o dia!"
+        case 1: return "Amanhã é o grande dia!"
+        case ..<30: return "Reta final! Foco total."
+        case 30..<90: return "Mantenha o ritmo!"
+        default: return "Tempo a seu favor. Aproveite!"
+        }
+    }
+
+    var body: some View {
+        ResumedCard {
+            HStack(spacing: Spacing.md) {
+                VStack(spacing: Spacing.xs) {
+                    Text("\(daysRemaining)")
+                        .font(.system(size: 36, weight: .bold, design: .rounded))
+                        .foregroundColor(urgencyColor)
+                    Text("dias")
+                        .font(.resumed.caption)
+                        .foregroundColor(.resumed.gray)
+                }
+                .frame(width: 72)
+
+                VStack(alignment: .leading, spacing: Spacing.xs) {
+                    Text("Faltam para o \(targetExam)")
+                        .font(.resumed.h4)
+                        .foregroundColor(.resumed.white)
+
+                    Text(urgencyMessage)
+                        .font(.resumed.bodySmall)
+                        .foregroundColor(.resumed.gray)
+                }
+
+                Spacer()
+
+                Image(systemName: "calendar.badge.clock")
+                    .font(.system(size: IconSize.lg))
+                    .foregroundColor(urgencyColor.opacity(0.6))
+            }
+        }
+        .overlay(
+            RoundedRectangle(cornerRadius: CornerRadius.lg)
+                .stroke(urgencyColor.opacity(0.3), lineWidth: 1)
+        )
+    }
+}
+
+// MARK: - Set Exam Reminder Content (no navigation — parent handles it)
+
+struct SetExamReminderContent: View {
+    var body: some View {
+        ResumedCard {
+            HStack(spacing: Spacing.md) {
+                Image(systemName: "calendar.badge.plus")
+                    .font(.system(size: IconSize.xl))
+                    .foregroundColor(.resumed.warning)
+
+                VStack(alignment: .leading, spacing: Spacing.xs) {
+                    Text("Configure suas provas")
+                        .font(.resumed.h4)
+                        .foregroundColor(.resumed.white)
+
+                    Text("Adicione as datas das provas que vai prestar para acompanhar a contagem regressiva.")
+                        .font(.resumed.bodySmall)
+                        .foregroundColor(.resumed.gray)
+                        .multilineTextAlignment(.leading)
+                }
+
+                Spacer()
+
+                Image(systemName: "chevron.right")
+                    .foregroundColor(.resumed.gray)
+            }
+        }
+        .overlay(
+            RoundedRectangle(cornerRadius: CornerRadius.lg)
+                .stroke(Color.resumed.warning.opacity(0.3), lineWidth: 1)
+        )
     }
 }
