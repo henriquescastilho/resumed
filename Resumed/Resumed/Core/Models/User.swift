@@ -94,6 +94,10 @@ struct OnboardingData: Codable {
     var specialty: String?
     var previousAttempts: Int = 0
     var studyPreferences: [String] = []
+    var birthDate: Date?
+    var state: String?
+    var city: String?
+    var university: String?
 }
 
 // MARK: - Badge

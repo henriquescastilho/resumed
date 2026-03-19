@@ -78,17 +78,10 @@ final class StudyWidgetDataBridge {
     static func syncExamCountdown() {
         guard let defaults = UserDefaults(suiteName: suiteName) else { return }
 
-        let exams = UserExamStore.load().filter { $0.isFuture }.sorted { $0.date < $1.date }
-
-        if let nearest = exams.first {
-            defaults.set(nearest.name, forKey: "widget_exam_name")
-            defaults.set(nearest.date.timeIntervalSince1970, forKey: "widget_exam_date")
-            defaults.set(false, forKey: "widget_exam_empty")
-        } else {
-            defaults.set("", forKey: "widget_exam_name")
-            defaults.set(0, forKey: "widget_exam_days_remaining")
-            defaults.set(true, forKey: "widget_exam_empty")
-        }
+        // UserExamStore not yet implemented — mark as empty for now
+        defaults.set("", forKey: "widget_exam_name")
+        defaults.set(0, forKey: "widget_exam_days_remaining")
+        defaults.set(true, forKey: "widget_exam_empty")
 
         WidgetCenter.shared.reloadAllTimelines()
     }

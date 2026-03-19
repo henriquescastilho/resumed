@@ -88,7 +88,6 @@ struct PaywallView: View {
             Text(storeKit.errorMessage ?? "Ocorreu um erro. Tente novamente.")
         }
         .onAppear {
-            FirebaseManager.shared.logEvent(.paywallViewed, parameters: nil)
         }
     }
 }

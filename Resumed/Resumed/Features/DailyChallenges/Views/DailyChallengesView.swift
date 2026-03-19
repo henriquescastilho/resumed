@@ -212,11 +212,6 @@ class DailyChallengesViewModel: ObservableObject {
 
     func startChallenge(_ challenge: DailyChallenge) {
         // Navigate to appropriate view based on challenge type
-        FirebaseManager.shared.logEvent(.featureUsed, parameters: [
-            "feature": "daily_challenge",
-            "challenge_id": challenge.id,
-            "challenge_type": challenge.type.rawValue
-        ])
     }
 
     func completeChallenge(_ challenge: DailyChallenge) {
@@ -228,12 +223,6 @@ class DailyChallengesViewModel: ObservableObject {
             GamificationManager.shared.addXP(challenge.xpReward, reason: .studySession)
 
             HapticManager.shared.celebration()
-
-            FirebaseManager.shared.logEvent(.featureUsed, parameters: [
-                "feature": "daily_challenge_completed",
-                "challenge_id": challenge.id,
-                "xp_earned": challenge.xpReward
-            ])
         }
     }
 }

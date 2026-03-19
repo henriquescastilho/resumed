@@ -40,7 +40,35 @@ class MockAPIClient {
 
     func getUserStats() async throws -> UserStats {
         await simulateDelay()
-        return MockData.userStats
+
+        // Build real stats from local data instead of hardcoded mock
+        let snapshot = ProgressTracker.shared.snapshot()
+        let gamification = GamificationManager.shared
+
+        // If no local data exists yet, return mock as starter
+        guard snapshot.totalQuestions > 0 else {
+            return MockData.userStats
+        }
+
+        let subjectStats = snapshot.subjectStats.map { (subject, progress) in
+            SubjectStat(
+                subject: subject,
+                questionsAnswered: progress.questionsAnswered,
+                correctAnswers: progress.correctAnswers
+            )
+        }.sorted { $0.questionsAnswered > $1.questionsAnswered }
+
+        return UserStats(
+            level: gamification.level,
+            xp: gamification.currentXP,
+            xpToNextLevel: gamification.xpToNextLevel(),
+            streak: gamification.streak,
+            totalQuestionsAnswered: snapshot.totalQuestions,
+            totalCorrectAnswers: snapshot.totalCorrect,
+            studyTimeMinutes: snapshot.studyMinutes,
+            subjectStats: subjectStats,
+            badges: gamification.unlockedBadges.map { $0.rawValue }
+        )
     }
 
     // MARK: - Study Plan

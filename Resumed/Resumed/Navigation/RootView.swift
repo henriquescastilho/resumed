@@ -38,8 +38,6 @@ struct RootView: View {
             }
         }
         .onAppear {
-            // Configure Firebase
-            FirebaseManager.shared.configure()
         }
     }
 }
@@ -48,7 +46,6 @@ struct RootView: View {
 
 struct LoginView: View {
     @EnvironmentObject var appState: AppState
-    @ObservedObject private var firebaseManager = FirebaseManager.shared
     @State private var isLoading = false
     @State private var showError = false
     @State private var errorMessage = ""
@@ -190,10 +187,10 @@ struct LoginView: View {
 
         Task {
             do {
-                _ = try await FirebaseManager.shared.signInWithGoogle()
+                // TODO: Google Sign-In removed (using Supabase email auth)
 
                 // Create or update user in backend
-                let idToken = "mock_id_token" // In production, get from Firebase
+                let idToken = "mock_id_token"
                 let deviceId = UIDevice.current.identifierForVendor?.uuidString ?? UUID().uuidString
 
                 // Try to authenticate with backend
@@ -205,15 +202,11 @@ struct LoginView: View {
                 appState.isAuthenticated = true
                 isLoading = false
 
-                FirebaseManager.shared.trackScreen("login_success")
-
             } catch {
                 isLoading = false
                 errorMessage = error.localizedDescription
                 showError = true
                 HapticManager.shared.error()
-
-                FirebaseManager.shared.logError(error, userInfo: ["screen": "login"])
             }
         }
     }

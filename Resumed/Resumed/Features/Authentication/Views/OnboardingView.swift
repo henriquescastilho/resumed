@@ -57,7 +57,6 @@ struct OnboardingView: View {
             }
         }
         .onAppear {
-            FirebaseManager.shared.logEvent(.onboardingStarted, parameters: nil)
         }
     }
 
@@ -122,7 +121,6 @@ class OnboardingViewModel: ObservableObject {
             currentStep += 1
         }
         HapticManager.shared.selection()
-        FirebaseManager.shared.logEvent(.onboardingStepCompleted, parameters: ["step": currentStep])
     }
 
     func previousStep() {
@@ -742,10 +740,6 @@ struct ProcessingStep: View {
                     title: "Começar a estudar",
                     style: .primary,
                     action: {
-                        FirebaseManager.shared.logEvent(.onboardingCompleted, parameters: [
-                            "target_exam": viewModel.data.targetExam,
-                            "study_hours": viewModel.data.studyHoursPerDay
-                        ])
                         viewModel.persistOnboarding()
                         onComplete()
                     },

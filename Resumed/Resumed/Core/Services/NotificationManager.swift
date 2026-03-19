@@ -34,7 +34,6 @@ class NotificationManager: ObservableObject {
 
             if granted {
                 await registerForRemoteNotifications()
-                FirebaseManager.shared.logEvent(.featureUsed, parameters: ["feature": "notifications_enabled"])
             }
 
             return granted
@@ -397,13 +396,6 @@ class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
     ) {
         let userInfo = response.notification.request.content.userInfo
         let actionIdentifier = response.actionIdentifier
-
-        // Log notification interaction
-        FirebaseManager.shared.logEvent(.featureUsed, parameters: [
-            "feature": "notification_tapped",
-            "type": userInfo["type"] as? String ?? "unknown",
-            "action": actionIdentifier
-        ])
 
         // Handle actions
         switch actionIdentifier {
