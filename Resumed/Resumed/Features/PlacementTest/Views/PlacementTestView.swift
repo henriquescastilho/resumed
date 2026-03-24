@@ -15,14 +15,17 @@ struct PlacementTestView: View {
         ZStack {
             Color.resumed.black.ignoresSafeArea()
 
-            switch viewModel.phase {
-            case .intro:
-                PlacementIntroScreen(viewModel: viewModel, onSkip: { viewModel.skip(); onFinish() })
-            case .testing:
-                PlacementTestingScreen(viewModel: viewModel)
-            case .results:
-                PlacementResultsScreen(viewModel: viewModel, onComplete: onFinish)
+            Group {
+                switch viewModel.phase {
+                case .intro:
+                    PlacementIntroScreen(viewModel: viewModel, onSkip: { viewModel.skip(); onFinish() })
+                case .testing:
+                    PlacementTestingScreen(viewModel: viewModel)
+                case .results:
+                    PlacementResultsScreen(viewModel: viewModel, onComplete: onFinish)
+                }
             }
+            .adaptiveWidth()
         }
         .animation(.spring(response: 0.5, dampingFraction: 0.85), value: viewModel.phase)
     }

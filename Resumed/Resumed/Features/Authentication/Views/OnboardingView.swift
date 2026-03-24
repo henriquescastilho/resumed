@@ -28,13 +28,15 @@ struct OnboardingView: View {
 
                 // Content with gesture support
                 GeometryReader { geometry in
+                    let stepWidth = geometry.size.width
                     HStack(spacing: 0) {
                         ForEach(1...viewModel.totalSteps, id: \.self) { step in
                             stepContent(for: step)
-                                .frame(width: geometry.size.width)
+                                .frame(width: stepWidth)
+                                .clipped()
                         }
                     }
-                    .offset(x: -CGFloat(viewModel.currentStep - 1) * geometry.size.width + dragOffset)
+                    .offset(x: -CGFloat(viewModel.currentStep - 1) * stepWidth + dragOffset)
                     .animation(.spring(response: 0.5, dampingFraction: 0.8), value: viewModel.currentStep)
                     .gesture(
                         DragGesture()
@@ -54,6 +56,7 @@ struct OnboardingView: View {
                             }
                     )
                 }
+                .clipped()
             }
         }
         .onAppear {
@@ -62,19 +65,23 @@ struct OnboardingView: View {
 
     @ViewBuilder
     private func stepContent(for step: Int) -> some View {
-        switch step {
-        case 1: WelcomeStep(viewModel: viewModel)
-        case 2: NameStep(viewModel: viewModel)
-        case 3: ExamStep(viewModel: viewModel)
-        case 4: DateStep(viewModel: viewModel)
-        case 5: HoursStep(viewModel: viewModel)
-        case 6: PriorityStep(viewModel: viewModel)
-        case 7: SpecialtyStep(viewModel: viewModel)
-        case 8: ProcessingStep(viewModel: viewModel) {
-            appState.completeOnboarding()
+        Group {
+            switch step {
+            case 1: WelcomeStep(viewModel: viewModel)
+            case 2: NameStep(viewModel: viewModel)
+            case 3: ProfileStep(viewModel: viewModel)
+            case 4: ExamStep(viewModel: viewModel)
+            case 5: DateStep(viewModel: viewModel)
+            case 6: HoursStep(viewModel: viewModel)
+            case 7: PriorityStep(viewModel: viewModel)
+            case 8: SpecialtyStep(viewModel: viewModel)
+            case 9: ProcessingStep(viewModel: viewModel) {
+                appState.completeOnboarding()
+            }
+            default: EmptyView()
+            }
         }
-        default: EmptyView()
-        }
+        .adaptiveWidth(540)
     }
 }
 
@@ -103,7 +110,7 @@ class OnboardingViewModel: ObservableObject {
     @Published var currentStep = 1
     @Published var data = OnboardingData()
 
-    let totalSteps = 8
+    let totalSteps = 9
 
     let exams = ["ENAMED", "USP", "UNICAMP", "UNIFESP", "ENARE", "SUS-SP", "Outro"]
     let specialties = ["Clínica Médica", "Cirurgia Geral", "Pediatria", "Ginecologia e Obstetrícia", "Medicina de Família", "Outras"]
@@ -141,6 +148,11 @@ class OnboardingViewModel: ObservableObject {
         UserDefaults.standard.set(data.studyHoursPerDay, forKey: "studyHoursPerDay")
         if let examDate = data.examDate {
             UserDefaults.standard.set(examDate, forKey: "examDate")
+        }
+
+        // Sync to Supabase profiles table
+        Task {
+            try? await SupabaseManager.shared.syncOnboardingData(data)
         }
     }
 }
@@ -203,18 +215,26 @@ struct WelcomeStep: View {
 
             Spacer()
 
-            ResumedButton(
+            VStack(spacing: Spacing.md) {
+                ResumedButton(
                 title: "Começar",
                 style: .primary,
                 action: { viewModel.nextStep() },
                 icon: "arrow.right",
                 fullWidth: true
             )
-            .padding(.horizontal, Spacing.md)
+                .padding(.horizontal, Spacing.md)
+                .opacity(showButton ? 1 : 0)
+                .offset(y: showButton ? 0 : 30)
+                .animation(.spring(response: 0.6, dampingFraction: 0.7).delay(0.8), value: showButton)
+
+                Text("Desenvolvido por DME TECHNOLOGY")
+                    .font(.system(size: 11, weight: .medium))
+                    .foregroundColor(.resumed.gray.opacity(0.5))
+                    .opacity(showButton ? 1 : 0)
+                    .animation(.easeOut(duration: 0.5).delay(1.0), value: showButton)
+            }
             .padding(.bottom, Spacing.xl)
-            .opacity(showButton ? 1 : 0)
-            .offset(y: showButton ? 0 : 30)
-            .animation(.spring(response: 0.6, dampingFraction: 0.7).delay(0.8), value: showButton)
         }
         .onAppear {
             showContent = true
@@ -279,7 +299,88 @@ struct NameStep: View {
     }
 }
 
-// MARK: - Step 3: Exam Selection
+// MARK: - Step 3: Profile (City, Phone, University)
+
+struct ProfileStep: View {
+    @ObservedObject var viewModel: OnboardingViewModel
+    @State private var showContent = false
+    @FocusState private var focusedField: ProfileField?
+
+    enum ProfileField {
+        case phone, city, university
+    }
+
+    var body: some View {
+        VStack(spacing: Spacing.xl) {
+            Spacer()
+
+            Image(systemName: "building.columns.fill")
+                .font(.system(size: 60))
+                .foregroundColor(.resumed.gold)
+                .scaleEffect(showContent ? 1 : 0.5)
+                .opacity(showContent ? 1 : 0)
+                .animation(.spring(response: 0.5, dampingFraction: 0.6), value: showContent)
+
+            Text("Seus dados acadêmicos")
+                .font(.resumed.h2)
+                .foregroundColor(.resumed.white)
+                .opacity(showContent ? 1 : 0)
+                .offset(y: showContent ? 0 : 20)
+                .animation(.easeOut(duration: 0.5).delay(0.1), value: showContent)
+
+            VStack(spacing: Spacing.md) {
+                ResumedTextField(
+                    placeholder: "Telefone (com DDD)",
+                    text: $viewModel.data.phone,
+                    icon: "phone",
+                    keyboardType: .phonePad
+                )
+                .focused($focusedField, equals: .phone)
+                .opacity(showContent ? 1 : 0)
+                .offset(y: showContent ? 0 : 20)
+                .animation(.easeOut(duration: 0.5).delay(0.2), value: showContent)
+
+                ResumedTextField(
+                    placeholder: "Cidade",
+                    text: $viewModel.data.city,
+                    icon: "mappin.and.ellipse"
+                )
+                .focused($focusedField, equals: .city)
+                .opacity(showContent ? 1 : 0)
+                .offset(y: showContent ? 0 : 20)
+                .animation(.easeOut(duration: 0.5).delay(0.3), value: showContent)
+
+                ResumedTextField(
+                    placeholder: "Faculdade",
+                    text: $viewModel.data.university,
+                    icon: "graduationcap"
+                )
+                .focused($focusedField, equals: .university)
+                .opacity(showContent ? 1 : 0)
+                .offset(y: showContent ? 0 : 20)
+                .animation(.easeOut(duration: 0.5).delay(0.4), value: showContent)
+            }
+            .padding(.horizontal, Spacing.md)
+
+            Spacer()
+
+            NavigationButtons(
+                onBack: { viewModel.previousStep() },
+                onNext: { viewModel.nextStep() }
+            )
+            .padding(.horizontal, Spacing.md)
+            .padding(.bottom, Spacing.xl)
+        }
+        .onAppear {
+            showContent = true
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                focusedField = .phone
+            }
+        }
+    }
+}
+
+// MARK: - Step 4: Exam Selection
 
 struct ExamStep: View {
     @ObservedObject var viewModel: OnboardingViewModel
@@ -648,7 +749,7 @@ struct SpecialtyOptionButton: View {
     }
 }
 
-// MARK: - Step 7: Processing
+// MARK: - Step 9: Processing
 
 struct ProcessingStep: View {
     @ObservedObject var viewModel: OnboardingViewModel
