@@ -136,7 +136,7 @@ struct ExportPlanSheet: View {
         isGenerating = true
         errorMessage = nil
         Task.detached(priority: .userInitiated) { [days] in
-            let url = CalendarExportService.shared.exportICSFile(for: days)
+            let url = await CalendarExportService.shared.exportICSFile(for: days)
             await MainActor.run {
                 isGenerating = false
                 if let url {
@@ -156,7 +156,7 @@ struct ExportPlanSheet: View {
     private func exportImage() {
         errorMessage = nil
         Task {
-            let image = await CalendarExportService.shared.renderWeekAsImage(days: days, weekRange: weekRange)
+            let image = CalendarExportService.shared.renderWeekAsImage(days: days, weekRange: weekRange)
             if let image {
                 shareItems = [image]
                 showShareSheet = true

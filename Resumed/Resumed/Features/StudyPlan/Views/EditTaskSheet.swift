@@ -199,7 +199,7 @@ struct EditTaskSheet: View {
                     )
 
                     // Delete button (edit mode only)
-                    if isEditing, let onDelete {
+                    if isEditing, let _ = onDelete {
                         Button(role: .destructive) {
                             showDeleteAlert = true
                         } label: {

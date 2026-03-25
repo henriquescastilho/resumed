@@ -58,7 +58,6 @@ class GamificationManager: ObservableObject {
 
     func updateStreak() {
         let calendar = Calendar.current
-        let today = calendar.startOfDay(for: Date())
         let lastStudyDate = UserDefaults.standard.object(forKey: "lastStudyDate") as? Date
 
         // Already updated today — skip to avoid incrementing N times per session

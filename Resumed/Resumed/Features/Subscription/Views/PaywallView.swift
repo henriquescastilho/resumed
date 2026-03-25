@@ -14,6 +14,8 @@ struct PaywallView: View {
     @State private var selectedProduct: ProductID = .yearly
     @State private var showRestoreAlert = false
     @State private var showErrorAlert = false
+    @State private var showTermsSheet = false
+    @State private var showPrivacySheet = false
 
     var body: some View {
         ZStack {
@@ -42,9 +44,12 @@ struct PaywallView: View {
                     }
 
                     // Restore & Terms
-                    FooterLinks(storeKit: storeKit) {
-                        showRestoreAlert = true
-                    }
+                    FooterLinks(
+                        storeKit: storeKit,
+                        onRestore: { showRestoreAlert = true },
+                        showTermsSheet: $showTermsSheet,
+                        showPrivacySheet: $showPrivacySheet
+                    )
                 }
                 .padding(.horizontal, Spacing.md)
                 .padding(.bottom, Spacing.xl)
@@ -88,6 +93,12 @@ struct PaywallView: View {
             Text(storeKit.errorMessage ?? "Ocorreu um erro. Tente novamente.")
         }
         .onAppear {
+        }
+        .sheet(isPresented: $showTermsSheet) {
+            LegalView(type: .termsOfUse)
+        }
+        .sheet(isPresented: $showPrivacySheet) {
+            LegalView(type: .privacyPolicy)
         }
     }
 }
@@ -374,6 +385,8 @@ struct SubscribeButton: View {
 struct FooterLinks: View {
     @ObservedObject var storeKit: StoreKitManager
     let onRestore: () -> Void
+    @Binding var showTermsSheet: Bool
+    @Binding var showPrivacySheet: Bool
 
     var body: some View {
         VStack(spacing: Spacing.sm) {
@@ -391,14 +404,14 @@ struct FooterLinks: View {
 
             // Terms & Privacy
             HStack(spacing: Spacing.md) {
-                Link("Termos de Uso", destination: URL(string: "https://resumed.app/terms")!)
+                Button("Termos de Uso") { showTermsSheet = true }
                     .font(.resumed.caption)
                     .foregroundColor(.resumed.gray)
 
                 Text("•")
                     .foregroundColor(.resumed.gray)
 
-                Link("Política de Privacidade", destination: URL(string: "https://resumed.app/privacy")!)
+                Button("Política de Privacidade") { showPrivacySheet = true }
                     .font(.resumed.caption)
                     .foregroundColor(.resumed.gray)
             }

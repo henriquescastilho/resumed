@@ -466,7 +466,11 @@ enum APIMode {
 }
 
 extension APIClient {
+    #if DEBUG
     static var mode: APIMode = .mock
+    #else
+    static var mode: APIMode = .production
+    #endif
 
     static func switchToMock() {
         mode = .mock

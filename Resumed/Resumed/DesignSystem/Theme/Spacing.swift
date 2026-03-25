@@ -42,7 +42,9 @@ enum IconSize {
 // MARK: - Layout
 
 enum Layout {
-    static let tabBarHeight: CGFloat = 80
+    static var tabBarHeight: CGFloat {
+        UIDevice.current.userInterfaceIdiom == .pad ? 0 : 80
+    }
     static let navBarHeight: CGFloat = 44
     static let buttonHeight: CGFloat = 52
     static let inputHeight: CGFloat = 48

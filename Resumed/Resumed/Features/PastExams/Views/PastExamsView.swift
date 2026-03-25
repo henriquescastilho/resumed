@@ -77,9 +77,6 @@ struct PastExamsView: View {
                         viewModel.showExamDetail = false
                         viewModel.startExam(exam)
                     },
-                    onPrint: {
-                        viewModel.printExam(exam)
-                    },
                     onDownloadPDF: {
                         viewModel.showExamDetail = false
                         viewModel.generateAndSharePDF(exam: exam)
@@ -113,7 +110,6 @@ class PastExamsViewModel: ObservableObject {
     @Published var isLoading = false
     @Published var showShareSheet = false
     @Published var shareURL: URL?
-    @Published var isPreparingPrint = false
     @Published var showHowToStudy = false
 
     var institutions: [String] {
@@ -146,50 +142,6 @@ class PastExamsViewModel: ObservableObject {
                 HapticManager.shared.error()
             }
         }
-    }
-
-    func printExam(_ exam: Exam) {
-        isPreparingPrint = true
-        do {
-            let content = buildPrintableExam(exam: exam)
-            let url = try writePrintableExam(exam: exam, content: content)
-            shareURL = url
-            showShareSheet = true
-            HapticManager.shared.selection()
-        } catch {
-            HapticManager.shared.error()
-        }
-        isPreparingPrint = false
-    }
-
-    private func buildPrintableExam(exam: Exam) -> String {
-        var lines: [String] = []
-        lines.append("RESUMED — FOLHA DE RASCUNHO")
-        lines.append("\(exam.name) • \(exam.year)")
-        lines.append("Duração: \(exam.formattedDuration) • Questões: \(exam.questionCount)")
-        lines.append("")
-        lines.append("Nome: ______________________________  Data: ____/____/______")
-        lines.append("Instituição: ________________________  Tempo limite: ________")
-        lines.append("")
-        lines.append("FOLHA DE RESPOSTAS (marque apenas uma alternativa)")
-        lines.append("")
-        for index in 1...exam.questionCount {
-            lines.append(String(format: "%3d  [ ] A   [ ] B   [ ] C   [ ] D   [ ] E", index))
-        }
-        lines.append("")
-        lines.append("ANOTAÇÕES / RASCUNHO")
-        lines.append("------------------------------------------------------------------")
-        for _ in 0..<24 {
-            lines.append("__________________________________________________________________")
-        }
-        return lines.joined(separator: "\n")
-    }
-
-    private func writePrintableExam(exam: Exam, content: String) throws -> URL {
-        let fileName = "RESUMED_\(exam.institution)_\(exam.year).txt"
-        let url = FileManager.default.temporaryDirectory.appendingPathComponent(fileName)
-        try content.write(to: url, atomically: true, encoding: .utf8)
-        return url
     }
 
     private func loadMockExams() {
@@ -279,7 +231,6 @@ struct ExamDetailSheet: View {
     let exam: Exam
     let canStart: Bool
     let onStart: () -> Void
-    let onPrint: () -> Void
     let onDownloadPDF: (() -> Void)?
     @Environment(\.dismiss) var dismiss
 
@@ -287,13 +238,11 @@ struct ExamDetailSheet: View {
         exam: Exam,
         canStart: Bool,
         onStart: @escaping () -> Void,
-        onPrint: @escaping () -> Void,
         onDownloadPDF: (() -> Void)? = nil
     ) {
         self.exam = exam
         self.canStart = canStart
         self.onStart = onStart
-        self.onPrint = onPrint
         self.onDownloadPDF = onDownloadPDF
     }
 
@@ -350,15 +299,6 @@ struct ExamDetailSheet: View {
                         style: .primary,
                         action: onStart,
                         icon: "play.fill",
-                        isDisabled: !canStart,
-                        fullWidth: true
-                    )
-
-                    ResumedButton(
-                        title: "Imprimir Rascunho",
-                        style: .ghost,
-                        action: onPrint,
-                        icon: "printer.fill",
                         isDisabled: !canStart,
                         fullWidth: true
                     )
