@@ -87,10 +87,12 @@ struct FeedbackCard: View {
     let explanation: String
     let socialMessage: String
 
-    private var trimmedExplanation: String {
-        let maxChars = 320
-        guard explanation.count > maxChars else { return explanation }
-        return String(explanation.prefix(maxChars)) + "…"
+    private var parsedExplanation: AttributedString {
+        if let attributed = try? AttributedString(markdown: explanation) {
+            return attributed
+        }
+        let cleaned = explanation.replacingOccurrences(of: "**", with: "")
+        return AttributedString(cleaned)
     }
 
     var body: some View {
@@ -113,7 +115,7 @@ struct FeedbackCard: View {
                     .font(.resumed.caption)
                     .foregroundColor(.resumed.gold)
 
-                Text(trimmedExplanation)
+                Text(parsedExplanation)
                     .font(.resumed.bodySmall)
                     .foregroundColor(.resumed.white)
                     .fixedSize(horizontal: false, vertical: true)

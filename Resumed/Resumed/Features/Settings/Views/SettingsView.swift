@@ -35,6 +35,9 @@ struct SettingsView: View {
 
                 // Logout
                 LogoutSection(viewModel: viewModel)
+
+                // Delete Account
+                DeleteAccountSection(viewModel: viewModel)
             }
             .padding(.horizontal, Spacing.md)
             .padding(.bottom, Layout.tabBarHeight + Spacing.lg)
@@ -57,6 +60,22 @@ struct SettingsView: View {
             }
         } message: {
             Text("Isso irá remover todos os dados locais. Seus dados na nuvem serão mantidos.")
+        }
+        .alert("Excluir conta?", isPresented: $viewModel.showDeleteAccountAlert) {
+            Button("Cancelar", role: .cancel) {}
+            Button("Quero excluir", role: .destructive) {
+                viewModel.showDeleteAccountConfirmation = true
+            }
+        } message: {
+            Text("Todos os seus dados serão permanentemente removidos, incluindo progresso, questões respondidas e flashcards. Essa ação não pode ser desfeita.")
+        }
+        .alert("Tem certeza absoluta?", isPresented: $viewModel.showDeleteAccountConfirmation) {
+            Button("Cancelar", role: .cancel) {}
+            Button("Excluir minha conta", role: .destructive) {
+                Task { await viewModel.deleteAccount(appState: appState) }
+            }
+        } message: {
+            Text("Última chance. Ao confirmar, sua conta e todos os dados associados serão excluídos permanentemente.")
         }
     }
 }
@@ -85,6 +104,9 @@ class SettingsViewModel: ObservableObject {
     // Alerts
     @Published var showLogoutAlert = false
     @Published var showClearDataAlert = false
+    @Published var showDeleteAccountAlert = false
+    @Published var showDeleteAccountConfirmation = false
+    @Published var isDeletingAccount = false
 
     let examOptions = ["ENAMED", "USP", "UNICAMP", "UNIFESP", "SUS-SP", "ENARE", "Outro"]
     let dailyGoalOptions = [10, 15, 20, 30, 50]
@@ -146,6 +168,12 @@ class SettingsViewModel: ObservableObject {
         await AuthManager.shared.signOut()
         appState.isAuthenticated = false
         appState.user = nil
+    }
+
+    func deleteAccount(appState: AppState) async {
+        isDeletingAccount = true
+        await appState.deleteAccount()
+        isDeletingAccount = false
     }
 
     func clearLocalData() {
@@ -472,6 +500,9 @@ struct DataStorageSection: View {
 // MARK: - About Section
 
 struct AboutSection: View {
+    @State private var showTerms = false
+    @State private var showPrivacy = false
+
     var body: some View {
         VStack(alignment: .leading, spacing: Spacing.md) {
             SectionHeader(title: "Sobre", icon: "info.circle.fill")
@@ -483,13 +514,13 @@ struct AboutSection: View {
                     Divider().background(Color.resumed.border)
 
                     SettingsLinkRow(title: "Termos de Uso", icon: "doc.text") {
-                        // Open terms
+                        showTerms = true
                     }
 
                     Divider().background(Color.resumed.border)
 
                     SettingsLinkRow(title: "Política de Privacidade", icon: "hand.raised") {
-                        // Open privacy
+                        showPrivacy = true
                     }
 
                     Divider().background(Color.resumed.border)
@@ -503,8 +534,24 @@ struct AboutSection: View {
                     SettingsLinkRow(title: "Avaliar App", icon: "star") {
                         // Open App Store review
                     }
+
+                    Divider().background(Color.resumed.border)
+
+                    HStack {
+                        Spacer()
+                        Text("Desenvolvido por DME TECHNOLOGY")
+                            .font(.system(size: 11, weight: .medium))
+                            .foregroundColor(.resumed.gray.opacity(0.5))
+                        Spacer()
+                    }
                 }
             }
+        }
+        .sheet(isPresented: $showTerms) {
+            LegalView(type: .termsOfUse)
+        }
+        .sheet(isPresented: $showPrivacy) {
+            LegalView(type: .privacyPolicy)
         }
     }
 }
@@ -529,6 +576,33 @@ struct LogoutSection: View {
             .background(Color.resumed.error.opacity(0.1))
             .cornerRadius(CornerRadius.md)
         }
+    }
+}
+
+// MARK: - Delete Account Section
+
+struct DeleteAccountSection: View {
+    @ObservedObject var viewModel: SettingsViewModel
+
+    var body: some View {
+        Button {
+            viewModel.showDeleteAccountAlert = true
+        } label: {
+            HStack {
+                if viewModel.isDeletingAccount {
+                    ProgressView()
+                        .tint(.resumed.error)
+                } else {
+                    Image(systemName: "person.crop.circle.badge.minus")
+                    Text("Excluir Conta")
+                }
+            }
+            .font(.resumed.bodySmall)
+            .foregroundColor(.resumed.error.opacity(0.7))
+            .frame(maxWidth: .infinity)
+            .padding(Spacing.sm)
+        }
+        .disabled(viewModel.isDeletingAccount)
     }
 }
 

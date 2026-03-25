@@ -41,49 +41,14 @@ struct TabBarView: View {
     @Environment(\.scenePhase) private var scenePhase
 
     var body: some View {
-        ZStack(alignment: .bottom) {
-            TabView(selection: $appState.selectedTab) {
-                NavigationStack {
-                    HomeView()
+        AdaptiveTabView(selectedTab: $appState.selectedTab)
+            .onChange(of: scenePhase) { _, newPhase in
+                if newPhase == .active {
+                    let pending = StudyWidgetDataBridge.pendingCompletions()
+                    guard !pending.isEmpty else { return }
+                    WidgetCenter.shared.reloadAllTimelines()
                 }
-                .tag(Tab.home)
-
-                NavigationStack {
-                    FocusView()
-                }
-                .tag(Tab.focus)
-
-                NavigationStack {
-                    GreyComingSoonView()
-                }
-                .tag(Tab.grey)
-
-                NavigationStack {
-                    ResuCardsView()
-                }
-                .tag(Tab.cards)
-
-                NavigationStack {
-                    PerformanceView()
-                }
-                .tag(Tab.performance)
             }
-
-            CustomTabBar(selectedTab: $appState.selectedTab)
-        }
-        .ignoresSafeArea(.keyboard)
-        .onAppear {
-            UITabBar.appearance().isHidden = true
-        }
-        .onChange(of: scenePhase) { _, newPhase in
-            if newPhase == .active {
-                let pending = StudyWidgetDataBridge.pendingCompletions()
-                guard !pending.isEmpty else { return }
-                // Pending completions will be handled when StudyPlanView loads
-                // Force a widget timeline reload to show updated state
-                WidgetCenter.shared.reloadAllTimelines()
-            }
-        }
     }
 }
 

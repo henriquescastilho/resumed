@@ -32,7 +32,7 @@ struct ResuCardsView: View {
 
                 if viewModel.mode == .review {
                     ScrollView(.horizontal, showsIndicators: false) {
-                        HStack(spacing: Spacing.sm) {
+                        HStack(spacing: Spacing.md) {
                             ReviewPackCard(
                                 title: "Essencial ENAMED",
                                 cardCount: viewModel.essentialPackCount,
@@ -352,68 +352,66 @@ struct ReviewingContent: View {
     @ObservedObject var viewModel: ResuCardsViewModel
 
     var body: some View {
-        VStack(spacing: Spacing.lg) {
-            // Progress
-            VStack(spacing: Spacing.sm) {
-                ProgressBar(current: viewModel.cardsReviewed, total: max(viewModel.filteredCards.count, 1), showLabel: false)
-
-                HStack {
-                    Text("Card \(viewModel.cardsReviewed + 1) de \(viewModel.filteredCards.count)")
-                        .font(.resumed.bodySmall)
-                        .foregroundColor(.resumed.gray)
-                    Spacer()
-                    XPBadge(xp: viewModel.xpEarned)
-                }
-            }
-            .padding(.horizontal, Spacing.md)
-
-            Spacer()
-
-            // Card
-            if let card = viewModel.currentCard {
-                FlashCardView(card: card, isFlipped: viewModel.isFlipped) {
-                    viewModel.flipCard()
-                }
-                .padding(.horizontal, Spacing.md)
-                .gesture(
-                    DragGesture(minimumDistance: 20)
-                        .onEnded { value in
-                            if value.translation.width < -40 {
-                                viewModel.goToNext()
-                            } else if value.translation.width > 40 {
-                                viewModel.goToPrevious()
-                            }
-                        }
-                )
-            }
-
-            Spacer()
-
-            // Rating buttons
-            if viewModel.isFlipped {
+        ScrollView {
+            VStack(spacing: Spacing.md) {
+                // Progress
                 VStack(spacing: Spacing.sm) {
-                    Text("Como você foi?")
-                        .font(.resumed.body)
-                        .foregroundColor(.resumed.gray)
+                    ProgressBar(current: viewModel.cardsReviewed, total: max(viewModel.filteredCards.count, 1), showLabel: false)
 
-                    HStack(spacing: Spacing.sm) {
-                        ForEach(SM2Algorithm.Quality.allCases, id: \.rawValue) { quality in
-                            RatingButton(quality: quality) {
-                                Task { await viewModel.rateCard(quality) }
-                            }
-                        }
+                    HStack {
+                        Text("Card \(viewModel.cardsReviewed + 1) de \(viewModel.filteredCards.count)")
+                            .font(.resumed.bodySmall)
+                            .foregroundColor(.resumed.gray)
+                        Spacer()
+                        XPBadge(xp: viewModel.xpEarned)
                     }
                 }
                 .padding(.horizontal, Spacing.md)
-                .padding(.bottom, Layout.tabBarHeight + Spacing.md)
-            } else {
-                Text("Toque para ver a resposta")
-                    .font(.resumed.caption)
-                    .foregroundColor(.resumed.gray)
-                    .padding(.bottom, Layout.tabBarHeight + Spacing.md)
+
+                // Card
+                if let card = viewModel.currentCard {
+                    FlashCardView(card: card, isFlipped: viewModel.isFlipped) {
+                        viewModel.flipCard()
+                    }
+                    .padding(.horizontal, Spacing.md)
+                    .gesture(
+                        DragGesture(minimumDistance: 20)
+                            .onEnded { value in
+                                if value.translation.width < -40 {
+                                    viewModel.goToNext()
+                                } else if value.translation.width > 40 {
+                                    viewModel.goToPrevious()
+                                }
+                            }
+                    )
+                }
+
+                // Rating buttons
+                if viewModel.isFlipped {
+                    VStack(spacing: Spacing.sm) {
+                        Text("Como você foi?")
+                            .font(.resumed.body)
+                            .foregroundColor(.resumed.gray)
+
+                        HStack(spacing: Spacing.sm) {
+                            ForEach(SM2Algorithm.Quality.allCases, id: \.rawValue) { quality in
+                                RatingButton(quality: quality) {
+                                    Task { await viewModel.rateCard(quality) }
+                                }
+                            }
+                        }
+                    }
+                    .padding(.horizontal, Spacing.md)
+                } else {
+                    Text("Toque para ver a resposta")
+                        .font(.resumed.caption)
+                        .foregroundColor(.resumed.gray)
+                }
             }
+            .padding(.top, Spacing.md)
+            .padding(.bottom, Layout.tabBarHeight + Spacing.xl)
         }
-        .padding(.top, Spacing.md)
+        .scrollIndicators(.hidden)
     }
 }
 
@@ -728,7 +726,7 @@ private struct ReviewPackCard: View {
                     .lineLimit(1)
             }
             .padding(Spacing.sm)
-            .frame(width: 130)
+            .frame(width: 140)
             .background(isSelected ? color.opacity(0.15) : Color.resumed.blackSecondary)
             .cornerRadius(CornerRadius.md)
             .overlay(

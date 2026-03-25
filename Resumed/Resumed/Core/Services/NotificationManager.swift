@@ -394,7 +394,6 @@ class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
         didReceive response: UNNotificationResponse,
         withCompletionHandler completionHandler: @escaping () -> Void
     ) {
-        let userInfo = response.notification.request.content.userInfo
         let actionIdentifier = response.actionIdentifier
 
         // Handle actions

@@ -28,13 +28,15 @@ struct OnboardingView: View {
 
                 // Content with gesture support
                 GeometryReader { geometry in
+                    let stepWidth = geometry.size.width
                     HStack(spacing: 0) {
                         ForEach(1...viewModel.totalSteps, id: \.self) { step in
                             stepContent(for: step)
-                                .frame(width: geometry.size.width)
+                                .frame(width: stepWidth)
+                                .clipped()
                         }
                     }
-                    .offset(x: -CGFloat(viewModel.currentStep - 1) * geometry.size.width + dragOffset)
+                    .offset(x: -CGFloat(viewModel.currentStep - 1) * stepWidth + dragOffset)
                     .animation(.spring(response: 0.5, dampingFraction: 0.8), value: viewModel.currentStep)
                     .gesture(
                         DragGesture()
@@ -54,6 +56,7 @@ struct OnboardingView: View {
                             }
                     )
                 }
+                .clipped()
             }
         }
         .onAppear {
@@ -62,19 +65,23 @@ struct OnboardingView: View {
 
     @ViewBuilder
     private func stepContent(for step: Int) -> some View {
-        switch step {
-        case 1: WelcomeStep(viewModel: viewModel)
-        case 2: NameStep(viewModel: viewModel)
-        case 3: ExamStep(viewModel: viewModel)
-        case 4: DateStep(viewModel: viewModel)
-        case 5: HoursStep(viewModel: viewModel)
-        case 6: PriorityStep(viewModel: viewModel)
-        case 7: SpecialtyStep(viewModel: viewModel)
-        case 8: ProcessingStep(viewModel: viewModel) {
-            appState.completeOnboarding()
+        Group {
+            switch step {
+            case 1: WelcomeStep(viewModel: viewModel)
+            case 2: NameStep(viewModel: viewModel)
+            case 3: ProfileStep(viewModel: viewModel)
+            case 4: ExamStep(viewModel: viewModel)
+            case 5: DateStep(viewModel: viewModel)
+            case 6: HoursStep(viewModel: viewModel)
+            case 7: PriorityStep(viewModel: viewModel)
+            case 8: SpecialtyStep(viewModel: viewModel)
+            case 9: ProcessingStep(viewModel: viewModel) {
+                appState.completeOnboarding()
+            }
+            default: EmptyView()
+            }
         }
-        default: EmptyView()
-        }
+        .adaptiveWidth(540)
     }
 }
 
@@ -103,7 +110,7 @@ class OnboardingViewModel: ObservableObject {
     @Published var currentStep = 1
     @Published var data = OnboardingData()
 
-    let totalSteps = 8
+    let totalSteps = 9
 
     let exams = ["ENAMED", "USP", "UNICAMP", "UNIFESP", "ENARE", "SUS-SP", "Outro"]
     let specialties = ["Clínica Médica", "Cirurgia Geral", "Pediatria", "Ginecologia e Obstetrícia", "Medicina de Família", "Outras"]
@@ -141,6 +148,11 @@ class OnboardingViewModel: ObservableObject {
         UserDefaults.standard.set(data.studyHoursPerDay, forKey: "studyHoursPerDay")
         if let examDate = data.examDate {
             UserDefaults.standard.set(examDate, forKey: "examDate")
+        }
+
+        // Sync to Supabase profiles table
+        Task {
+            try? await SupabaseManager.shared.syncOnboardingData(data)
         }
     }
 }
@@ -203,18 +215,26 @@ struct WelcomeStep: View {
 
             Spacer()
 
-            ResumedButton(
+            VStack(spacing: Spacing.md) {
+                ResumedButton(
                 title: "Começar",
                 style: .primary,
                 action: { viewModel.nextStep() },
                 icon: "arrow.right",
                 fullWidth: true
             )
-            .padding(.horizontal, Spacing.md)
+                .padding(.horizontal, Spacing.md)
+                .opacity(showButton ? 1 : 0)
+                .offset(y: showButton ? 0 : 30)
+                .animation(.spring(response: 0.6, dampingFraction: 0.7).delay(0.8), value: showButton)
+
+                Text("Desenvolvido por DME TECHNOLOGY")
+                    .font(.system(size: 11, weight: .medium))
+                    .foregroundColor(.resumed.gray.opacity(0.5))
+                    .opacity(showButton ? 1 : 0)
+                    .animation(.easeOut(duration: 0.5).delay(1.0), value: showButton)
+            }
             .padding(.bottom, Spacing.xl)
-            .opacity(showButton ? 1 : 0)
-            .offset(y: showButton ? 0 : 30)
-            .animation(.spring(response: 0.6, dampingFraction: 0.7).delay(0.8), value: showButton)
         }
         .onAppear {
             showContent = true
@@ -231,10 +251,11 @@ struct NameStep: View {
     @FocusState private var isNameFocused: Bool
 
     var body: some View {
-        VStack(spacing: Spacing.xl) {
-            Spacer()
-
-            // Icon
+        OnboardingStepLayout(
+            onBack: { viewModel.previousStep() },
+            onNext: { viewModel.nextStep() },
+            nextDisabled: viewModel.data.name.trimmingCharacters(in: .whitespaces).isEmpty
+        ) {
             Image(systemName: "person.circle.fill")
                 .font(.system(size: 60))
                 .foregroundColor(.resumed.gold)
@@ -255,20 +276,9 @@ struct NameStep: View {
                 icon: "person"
             )
             .focused($isNameFocused)
-            .padding(.horizontal, Spacing.md)
             .opacity(showContent ? 1 : 0)
             .offset(y: showContent ? 0 : 20)
             .animation(.easeOut(duration: 0.5).delay(0.2), value: showContent)
-
-            Spacer()
-
-            NavigationButtons(
-                onBack: { viewModel.previousStep() },
-                onNext: { viewModel.nextStep() },
-                nextDisabled: viewModel.data.name.trimmingCharacters(in: .whitespaces).isEmpty
-            )
-            .padding(.horizontal, Spacing.md)
-            .padding(.bottom, Spacing.xl)
         }
         .onAppear {
             showContent = true
@@ -279,16 +289,90 @@ struct NameStep: View {
     }
 }
 
-// MARK: - Step 3: Exam Selection
+// MARK: - Step 3: Profile (City, Phone, University)
+
+struct ProfileStep: View {
+    @ObservedObject var viewModel: OnboardingViewModel
+    @State private var showContent = false
+    @FocusState private var focusedField: ProfileField?
+
+    enum ProfileField {
+        case phone, city, university
+    }
+
+    var body: some View {
+        OnboardingStepLayout(
+            onBack: { viewModel.previousStep() },
+            onNext: { viewModel.nextStep() }
+        ) {
+            Image(systemName: "building.columns.fill")
+                .font(.system(size: 60))
+                .foregroundColor(.resumed.gold)
+                .scaleEffect(showContent ? 1 : 0.5)
+                .opacity(showContent ? 1 : 0)
+                .animation(.spring(response: 0.5, dampingFraction: 0.6), value: showContent)
+
+            Text("Seus dados acadêmicos")
+                .font(.resumed.h2)
+                .foregroundColor(.resumed.white)
+                .opacity(showContent ? 1 : 0)
+                .offset(y: showContent ? 0 : 20)
+                .animation(.easeOut(duration: 0.5).delay(0.1), value: showContent)
+
+            VStack(spacing: Spacing.md) {
+                ResumedTextField(
+                    placeholder: "Telefone (com DDD)",
+                    text: $viewModel.data.phone,
+                    icon: "phone",
+                    keyboardType: .phonePad
+                )
+                .focused($focusedField, equals: .phone)
+                .opacity(showContent ? 1 : 0)
+                .offset(y: showContent ? 0 : 20)
+                .animation(.easeOut(duration: 0.5).delay(0.2), value: showContent)
+
+                ResumedTextField(
+                    placeholder: "Cidade",
+                    text: $viewModel.data.city,
+                    icon: "mappin.and.ellipse"
+                )
+                .focused($focusedField, equals: .city)
+                .opacity(showContent ? 1 : 0)
+                .offset(y: showContent ? 0 : 20)
+                .animation(.easeOut(duration: 0.5).delay(0.3), value: showContent)
+
+                ResumedTextField(
+                    placeholder: "Faculdade",
+                    text: $viewModel.data.university,
+                    icon: "graduationcap"
+                )
+                .focused($focusedField, equals: .university)
+                .opacity(showContent ? 1 : 0)
+                .offset(y: showContent ? 0 : 20)
+                .animation(.easeOut(duration: 0.5).delay(0.4), value: showContent)
+            }
+        }
+        .onAppear {
+            showContent = true
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                focusedField = .phone
+            }
+        }
+    }
+}
+
+// MARK: - Step 4: Exam Selection
 
 struct ExamStep: View {
     @ObservedObject var viewModel: OnboardingViewModel
     @State private var showContent = false
 
     var body: some View {
-        VStack(spacing: Spacing.xl) {
-            Spacer()
-
+        OnboardingStepLayout(
+            onBack: { viewModel.previousStep() },
+            onNext: { viewModel.nextStep() },
+            nextDisabled: viewModel.data.targetExam.isEmpty
+        ) {
             Image(systemName: "doc.text.fill")
                 .font(.system(size: 60))
                 .foregroundColor(.resumed.gold)
@@ -319,17 +403,6 @@ struct ExamStep: View {
                     .animation(.easeOut(duration: 0.4).delay(0.2 + Double(index) * 0.05), value: showContent)
                 }
             }
-            .padding(.horizontal, Spacing.md)
-
-            Spacer()
-
-            NavigationButtons(
-                onBack: { viewModel.previousStep() },
-                onNext: { viewModel.nextStep() },
-                nextDisabled: viewModel.data.targetExam.isEmpty
-            )
-            .padding(.horizontal, Spacing.md)
-            .padding(.bottom, Spacing.xl)
         }
         .onAppear { showContent = true }
     }
@@ -343,9 +416,10 @@ struct DateStep: View {
     @State private var selectedDate = Calendar.current.date(byAdding: .month, value: 6, to: Date()) ?? Date()
 
     var body: some View {
-        VStack(spacing: Spacing.xl) {
-            Spacer()
-
+        OnboardingStepLayout(
+            onBack: { viewModel.previousStep() },
+            onNext: { viewModel.nextStep() }
+        ) {
             Image(systemName: "calendar")
                 .font(.system(size: 60))
                 .foregroundColor(.resumed.gold)
@@ -375,15 +449,6 @@ struct DateStep: View {
                 .onChange(of: selectedDate) { _, newValue in
                     viewModel.data.examDate = newValue
                 }
-
-            Spacer()
-
-            NavigationButtons(
-                onBack: { viewModel.previousStep() },
-                onNext: { viewModel.nextStep() }
-            )
-            .padding(.horizontal, Spacing.md)
-            .padding(.bottom, Spacing.xl)
         }
         .onAppear {
             showContent = true
@@ -404,9 +469,10 @@ struct HoursStep: View {
     @State private var showContent = false
 
     var body: some View {
-        VStack(spacing: Spacing.xl) {
-            Spacer()
-
+        OnboardingStepLayout(
+            onBack: { viewModel.previousStep() },
+            onNext: { viewModel.nextStep() }
+        ) {
             Image(systemName: "clock.fill")
                 .font(.system(size: 60))
                 .foregroundColor(.resumed.gold)
@@ -422,7 +488,6 @@ struct HoursStep: View {
                 .opacity(showContent ? 1 : 0)
                 .animation(.easeOut(duration: 0.5).delay(0.1), value: showContent)
 
-            // Animated number display
             ZStack {
                 Circle()
                     .stroke(Color.resumed.gold.opacity(0.2), lineWidth: 8)
@@ -462,15 +527,6 @@ struct HoursStep: View {
                 .foregroundColor(.resumed.gray)
                 .opacity(showContent ? 1 : 0)
                 .animation(.easeOut(duration: 0.5).delay(0.4), value: showContent)
-
-            Spacer()
-
-            NavigationButtons(
-                onBack: { viewModel.previousStep() },
-                onNext: { viewModel.nextStep() }
-            )
-            .padding(.horizontal, Spacing.md)
-            .padding(.bottom, Spacing.xl)
         }
         .onAppear { showContent = true }
     }
@@ -493,9 +549,10 @@ struct PriorityStep: View {
     @State private var showContent = false
 
     var body: some View {
-        VStack(spacing: Spacing.xl) {
-            Spacer()
-
+        OnboardingStepLayout(
+            onBack: { viewModel.previousStep() },
+            onNext: { viewModel.nextStep() }
+        ) {
             Image(systemName: "list.bullet.rectangle")
                 .font(.system(size: 60))
                 .foregroundColor(.resumed.gold)
@@ -541,15 +598,6 @@ struct PriorityStep: View {
             .frame(maxHeight: 360)
             .opacity(showContent ? 1 : 0)
             .animation(.easeOut(duration: 0.5).delay(0.3), value: showContent)
-
-            Spacer()
-
-            NavigationButtons(
-                onBack: { viewModel.previousStep() },
-                onNext: { viewModel.nextStep() }
-            )
-            .padding(.horizontal, Spacing.md)
-            .padding(.bottom, Spacing.xl)
         }
         .onAppear { showContent = true }
     }
@@ -562,9 +610,10 @@ struct SpecialtyStep: View {
     @State private var showContent = false
 
     var body: some View {
-        VStack(spacing: Spacing.xl) {
-            Spacer()
-
+        OnboardingStepLayout(
+            onBack: { viewModel.previousStep() },
+            onNext: { viewModel.nextStep() }
+        ) {
             Image(systemName: "stethoscope")
                 .font(.system(size: 60))
                 .foregroundColor(.resumed.gold)
@@ -594,16 +643,6 @@ struct SpecialtyStep: View {
                     .animation(.easeOut(duration: 0.4).delay(0.15 + Double(index) * 0.05), value: showContent)
                 }
             }
-            .padding(.horizontal, Spacing.md)
-
-            Spacer()
-
-            NavigationButtons(
-                onBack: { viewModel.previousStep() },
-                onNext: { viewModel.nextStep() }
-            )
-            .padding(.horizontal, Spacing.md)
-            .padding(.bottom, Spacing.xl)
         }
         .onAppear { showContent = true }
     }
@@ -648,7 +687,7 @@ struct SpecialtyOptionButton: View {
     }
 }
 
-// MARK: - Step 7: Processing
+// MARK: - Step 9: Processing
 
 struct ProcessingStep: View {
     @ObservedObject var viewModel: OnboardingViewModel
@@ -777,6 +816,40 @@ struct ProcessingStep: View {
 }
 
 // MARK: - Helper Components
+
+/// Scrollable step layout that pins NavigationButtons at the bottom.
+/// Fixes iPad compatibility mode where keyboard hides the forward button.
+struct OnboardingStepLayout<Content: View>: View {
+    let onBack: () -> Void
+    let onNext: () -> Void
+    var nextDisabled: Bool = false
+    @ViewBuilder var content: () -> Content
+
+    var body: some View {
+        VStack(spacing: 0) {
+            ScrollView {
+                VStack(spacing: Spacing.xl) {
+                    content()
+                }
+                .padding(.top, Spacing.xxl)
+                .padding(.bottom, Spacing.md)
+                .padding(.horizontal, Spacing.md)
+                .frame(maxWidth: .infinity)
+            }
+            .scrollBounceBehavior(.basedOnSize)
+            .scrollDismissesKeyboard(.interactively)
+
+            NavigationButtons(
+                onBack: onBack,
+                onNext: onNext,
+                nextDisabled: nextDisabled
+            )
+            .padding(.horizontal, Spacing.md)
+            .padding(.bottom, Spacing.lg)
+            .padding(.top, Spacing.sm)
+        }
+    }
+}
 
 struct NavigationButtons: View {
     let onBack: () -> Void
