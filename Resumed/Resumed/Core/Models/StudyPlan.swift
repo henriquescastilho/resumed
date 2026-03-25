@@ -63,7 +63,7 @@ struct StudyTask: Codable, Identifiable {
         var displayName: String {
             switch self {
             case .review: return "Revisão"
-            case .practice: return "Revisão"
+            case .practice: return "Questões"
             case .flashcards: return "ResuCard"
             case .reading: return "Leitura"
             case .video: return "Vídeo"
@@ -73,7 +73,7 @@ struct StudyTask: Codable, Identifiable {
         var icon: String {
             switch self {
             case .review: return "book.fill"
-            case .practice: return "book.fill"
+            case .practice: return "list.bullet.clipboard.fill"
             case .flashcards: return "rectangle.stack.fill"
             case .reading: return "doc.text.fill"
             case .video: return "play.rectangle.fill"

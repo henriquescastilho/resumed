@@ -48,7 +48,7 @@ import CoreData
         return context
     }
 
-    func performBackgroundTask(_ block: @escaping (NSManagedObjectContext) -> Void) {
+    func performBackgroundTask(_ block: @escaping @Sendable (NSManagedObjectContext) -> Void) {
         persistentContainer.performBackgroundTask(block)
     }
 
