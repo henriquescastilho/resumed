@@ -87,6 +87,9 @@ struct RefreshTokenResponse: Codable {
 
 struct OnboardingData: Codable {
     var name: String = ""
+    var phone: String = ""
+    var city: String = ""
+    var university: String = ""
     var targetExam: String = ""
     var examDate: Date?
     var studyHoursPerDay: Int = 4
@@ -96,8 +99,6 @@ struct OnboardingData: Codable {
     var studyPreferences: [String] = []
     var birthDate: Date?
     var state: String?
-    var city: String?
-    var university: String?
 }
 
 // MARK: - Badge

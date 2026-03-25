@@ -117,6 +117,20 @@ class AppState: ObservableObject {
         UserDefaults.standard.set(false, forKey: "hasCompletedOnboarding")
     }
 
+    func deleteAccount() async {
+        // Clear all local data first
+        clearLocalData()
+        // Delete remote data + auth user
+        try? await SupabaseManager.shared.deleteAccount()
+        // Reset app state
+        await AuthManager.shared.signOut()
+        isAuthenticated = false
+        hasCompletedOnboarding = false
+        hasCompletedPlacementTest = false
+        user = nil
+        UserDefaults.standard.set(false, forKey: "hasCompletedOnboarding")
+    }
+
     func clearLocalData() {
         hasCompletedOnboarding = false
         hasCompletedPlacementTest = false

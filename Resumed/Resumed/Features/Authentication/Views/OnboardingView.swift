@@ -251,10 +251,11 @@ struct NameStep: View {
     @FocusState private var isNameFocused: Bool
 
     var body: some View {
-        VStack(spacing: Spacing.xl) {
-            Spacer()
-
-            // Icon
+        OnboardingStepLayout(
+            onBack: { viewModel.previousStep() },
+            onNext: { viewModel.nextStep() },
+            nextDisabled: viewModel.data.name.trimmingCharacters(in: .whitespaces).isEmpty
+        ) {
             Image(systemName: "person.circle.fill")
                 .font(.system(size: 60))
                 .foregroundColor(.resumed.gold)
@@ -275,20 +276,9 @@ struct NameStep: View {
                 icon: "person"
             )
             .focused($isNameFocused)
-            .padding(.horizontal, Spacing.md)
             .opacity(showContent ? 1 : 0)
             .offset(y: showContent ? 0 : 20)
             .animation(.easeOut(duration: 0.5).delay(0.2), value: showContent)
-
-            Spacer()
-
-            NavigationButtons(
-                onBack: { viewModel.previousStep() },
-                onNext: { viewModel.nextStep() },
-                nextDisabled: viewModel.data.name.trimmingCharacters(in: .whitespaces).isEmpty
-            )
-            .padding(.horizontal, Spacing.md)
-            .padding(.bottom, Spacing.xl)
         }
         .onAppear {
             showContent = true
@@ -311,9 +301,10 @@ struct ProfileStep: View {
     }
 
     var body: some View {
-        VStack(spacing: Spacing.xl) {
-            Spacer()
-
+        OnboardingStepLayout(
+            onBack: { viewModel.previousStep() },
+            onNext: { viewModel.nextStep() }
+        ) {
             Image(systemName: "building.columns.fill")
                 .font(.system(size: 60))
                 .foregroundColor(.resumed.gold)
@@ -360,16 +351,6 @@ struct ProfileStep: View {
                 .offset(y: showContent ? 0 : 20)
                 .animation(.easeOut(duration: 0.5).delay(0.4), value: showContent)
             }
-            .padding(.horizontal, Spacing.md)
-
-            Spacer()
-
-            NavigationButtons(
-                onBack: { viewModel.previousStep() },
-                onNext: { viewModel.nextStep() }
-            )
-            .padding(.horizontal, Spacing.md)
-            .padding(.bottom, Spacing.xl)
         }
         .onAppear {
             showContent = true
@@ -387,9 +368,11 @@ struct ExamStep: View {
     @State private var showContent = false
 
     var body: some View {
-        VStack(spacing: Spacing.xl) {
-            Spacer()
-
+        OnboardingStepLayout(
+            onBack: { viewModel.previousStep() },
+            onNext: { viewModel.nextStep() },
+            nextDisabled: viewModel.data.targetExam.isEmpty
+        ) {
             Image(systemName: "doc.text.fill")
                 .font(.system(size: 60))
                 .foregroundColor(.resumed.gold)
@@ -420,17 +403,6 @@ struct ExamStep: View {
                     .animation(.easeOut(duration: 0.4).delay(0.2 + Double(index) * 0.05), value: showContent)
                 }
             }
-            .padding(.horizontal, Spacing.md)
-
-            Spacer()
-
-            NavigationButtons(
-                onBack: { viewModel.previousStep() },
-                onNext: { viewModel.nextStep() },
-                nextDisabled: viewModel.data.targetExam.isEmpty
-            )
-            .padding(.horizontal, Spacing.md)
-            .padding(.bottom, Spacing.xl)
         }
         .onAppear { showContent = true }
     }
@@ -444,9 +416,10 @@ struct DateStep: View {
     @State private var selectedDate = Calendar.current.date(byAdding: .month, value: 6, to: Date()) ?? Date()
 
     var body: some View {
-        VStack(spacing: Spacing.xl) {
-            Spacer()
-
+        OnboardingStepLayout(
+            onBack: { viewModel.previousStep() },
+            onNext: { viewModel.nextStep() }
+        ) {
             Image(systemName: "calendar")
                 .font(.system(size: 60))
                 .foregroundColor(.resumed.gold)
@@ -476,15 +449,6 @@ struct DateStep: View {
                 .onChange(of: selectedDate) { _, newValue in
                     viewModel.data.examDate = newValue
                 }
-
-            Spacer()
-
-            NavigationButtons(
-                onBack: { viewModel.previousStep() },
-                onNext: { viewModel.nextStep() }
-            )
-            .padding(.horizontal, Spacing.md)
-            .padding(.bottom, Spacing.xl)
         }
         .onAppear {
             showContent = true
@@ -505,9 +469,10 @@ struct HoursStep: View {
     @State private var showContent = false
 
     var body: some View {
-        VStack(spacing: Spacing.xl) {
-            Spacer()
-
+        OnboardingStepLayout(
+            onBack: { viewModel.previousStep() },
+            onNext: { viewModel.nextStep() }
+        ) {
             Image(systemName: "clock.fill")
                 .font(.system(size: 60))
                 .foregroundColor(.resumed.gold)
@@ -523,7 +488,6 @@ struct HoursStep: View {
                 .opacity(showContent ? 1 : 0)
                 .animation(.easeOut(duration: 0.5).delay(0.1), value: showContent)
 
-            // Animated number display
             ZStack {
                 Circle()
                     .stroke(Color.resumed.gold.opacity(0.2), lineWidth: 8)
@@ -563,15 +527,6 @@ struct HoursStep: View {
                 .foregroundColor(.resumed.gray)
                 .opacity(showContent ? 1 : 0)
                 .animation(.easeOut(duration: 0.5).delay(0.4), value: showContent)
-
-            Spacer()
-
-            NavigationButtons(
-                onBack: { viewModel.previousStep() },
-                onNext: { viewModel.nextStep() }
-            )
-            .padding(.horizontal, Spacing.md)
-            .padding(.bottom, Spacing.xl)
         }
         .onAppear { showContent = true }
     }
@@ -594,9 +549,10 @@ struct PriorityStep: View {
     @State private var showContent = false
 
     var body: some View {
-        VStack(spacing: Spacing.xl) {
-            Spacer()
-
+        OnboardingStepLayout(
+            onBack: { viewModel.previousStep() },
+            onNext: { viewModel.nextStep() }
+        ) {
             Image(systemName: "list.bullet.rectangle")
                 .font(.system(size: 60))
                 .foregroundColor(.resumed.gold)
@@ -642,15 +598,6 @@ struct PriorityStep: View {
             .frame(maxHeight: 360)
             .opacity(showContent ? 1 : 0)
             .animation(.easeOut(duration: 0.5).delay(0.3), value: showContent)
-
-            Spacer()
-
-            NavigationButtons(
-                onBack: { viewModel.previousStep() },
-                onNext: { viewModel.nextStep() }
-            )
-            .padding(.horizontal, Spacing.md)
-            .padding(.bottom, Spacing.xl)
         }
         .onAppear { showContent = true }
     }
@@ -663,9 +610,10 @@ struct SpecialtyStep: View {
     @State private var showContent = false
 
     var body: some View {
-        VStack(spacing: Spacing.xl) {
-            Spacer()
-
+        OnboardingStepLayout(
+            onBack: { viewModel.previousStep() },
+            onNext: { viewModel.nextStep() }
+        ) {
             Image(systemName: "stethoscope")
                 .font(.system(size: 60))
                 .foregroundColor(.resumed.gold)
@@ -695,16 +643,6 @@ struct SpecialtyStep: View {
                     .animation(.easeOut(duration: 0.4).delay(0.15 + Double(index) * 0.05), value: showContent)
                 }
             }
-            .padding(.horizontal, Spacing.md)
-
-            Spacer()
-
-            NavigationButtons(
-                onBack: { viewModel.previousStep() },
-                onNext: { viewModel.nextStep() }
-            )
-            .padding(.horizontal, Spacing.md)
-            .padding(.bottom, Spacing.xl)
         }
         .onAppear { showContent = true }
     }
@@ -878,6 +816,40 @@ struct ProcessingStep: View {
 }
 
 // MARK: - Helper Components
+
+/// Scrollable step layout that pins NavigationButtons at the bottom.
+/// Fixes iPad compatibility mode where keyboard hides the forward button.
+struct OnboardingStepLayout<Content: View>: View {
+    let onBack: () -> Void
+    let onNext: () -> Void
+    var nextDisabled: Bool = false
+    @ViewBuilder var content: () -> Content
+
+    var body: some View {
+        VStack(spacing: 0) {
+            ScrollView {
+                VStack(spacing: Spacing.xl) {
+                    content()
+                }
+                .padding(.top, Spacing.xxl)
+                .padding(.bottom, Spacing.md)
+                .padding(.horizontal, Spacing.md)
+                .frame(maxWidth: .infinity)
+            }
+            .scrollBounceBehavior(.basedOnSize)
+            .scrollDismissesKeyboard(.interactively)
+
+            NavigationButtons(
+                onBack: onBack,
+                onNext: onNext,
+                nextDisabled: nextDisabled
+            )
+            .padding(.horizontal, Spacing.md)
+            .padding(.bottom, Spacing.lg)
+            .padding(.top, Spacing.sm)
+        }
+    }
+}
 
 struct NavigationButtons: View {
     let onBack: () -> Void

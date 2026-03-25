@@ -171,8 +171,26 @@ class SupabaseManager: ObservableObject {
     // MARK: - Delete Account
 
     func deleteAccount() async throws {
+        let session = try await client.auth.session
+        let userId = session.user.id.uuidString
+
+        // 1. Delete user data from tables (RLS allows own-row deletion)
+        // study_progress may not exist yet — ignore errors
+        try? await client.from("study_progress")
+            .delete()
+            .eq("user_id", value: userId)
+            .execute()
+
+        try? await client.from("profiles")
+            .delete()
+            .eq("id", value: userId)
+            .execute()
+
+        // 2. Call server-side RPC to delete auth user (requires DB function)
+        try await client.rpc("delete_own_account").execute()
+
+        // 3. Clean up local state
         logEvent(.accountDeleted, parameters: nil)
-        try await client.auth.signOut()
         currentUser = nil
         isAuthenticated = false
     }
